@@ -1,0 +1,21 @@
+{
+  "name": "audira-route-desktop",
+  "version": "0.4.46",
+  "description": "Audira Route Desktop Application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "cross-env NODE_ENV=development electron .",
+    "build": "node scripts/build.js",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "dependencies": {
+    "electron-updater": "^6.3.0"
+  },
+  "devDependencies": {
+    "electron": "^33.0.0",
+    "electron-builder": "^25.0.0",
+    "cross-env": "^7.0.3"
+  }
+}
