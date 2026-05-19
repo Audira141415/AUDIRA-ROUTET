@@ -1,6 +1,6 @@
 # 故障排除
 
-使用 Audira Route 时常见的问题与解决方案。
+使用 9Router 时常见的问题与解决方案。
 
 ---
 
@@ -78,7 +78,7 @@
 **解决方案:**
 
 1. **自动刷新(默认):**
-   Audira Route 会自动刷新 token。等待 30 秒后重试。
+   9Router 会自动刷新 token。等待 30 秒后重试。
 
 2. **手动重连:**
    ```
@@ -135,15 +135,15 @@
 **问题:** 出现 "ECONNREFUSED" 或 "Cannot connect to localhost:20128"。
 
 **原因:**
-- Audira Route 未运行
+- 9Router 未运行
 - 端口 20128 被阻止
 - 防火墙拦截连接
 
 **解决方案:**
 
-1. **启动 Audira Route:**
+1. **启动 9Router:**
    ```bash
-   audira-route
+   9router
    ```
    仪表盘应该在 http://localhost:3000 打开。
 
@@ -164,7 +164,7 @@
 4. **使用云端 endpoint:**
    如果 localhost 不行(例如 Cursor IDE):
    ```
-   Endpoint: https://audira-route.com/v1
+   Endpoint: https://9router.com/v1
    ```
 
 ---
@@ -175,15 +175,15 @@
 
 **原因:**
 - 端口 3000 被占用
-- Audira Route 崩溃
+- 9Router 崩溃
 - 浏览器缓存问题
 
 **解决方案:**
 
-1. **确认 Audira Route 是否运行:**
+1. **确认 9Router 是否运行:**
    ```bash
    # 检查进程
-   ps aux | grep audira-route
+   ps aux | grep 9router
    
    # 检查端口 3000
    lsof -i :3000
@@ -199,13 +199,13 @@
    taskkill /PID <PID> /F
    ```
 
-3. **重启 Audira Route:**
+3. **重启 9Router:**
    ```bash
    # 停止
-   pkill -f audira-route
+   pkill -f 9router
    
    # 启动
-   audira-route
+   9router
    ```
 
 4. **清除浏览器缓存:**
@@ -346,6 +346,6 @@
 
 ## 需要更多帮助?
 
-- **GitHub Issues:** [github.com/decolua/audira-route/issues](https://github.com/decolua/audira-route/issues)
-- **文档:** [audira-route.com/docs](https://audira-route.com/docs)
+- **GitHub Issues:** [github.com/decolua/9router/issues](https://github.com/decolua/9router/issues)
+- **文档:** [9router.com/docs](https://9router.com/docs)
 - **常见问题:** [faq.md](faq.md)

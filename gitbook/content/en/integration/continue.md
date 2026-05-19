@@ -1,13 +1,13 @@
 # Continue VSCode Extension Integration
 
-Integrate Audira Route with Continue extension to bring AI assistance directly into Visual Studio Code.
+Integrate 9Router with Continue extension to bring AI assistance directly into Visual Studio Code.
 
 ## Prerequisites
 
 - Visual Studio Code installed
 - Continue extension installed from VSCode marketplace
-- Audira Route API key from [dashboard](https://audira-route.com/dashboard)
-- Audira Route running (local or cloud)
+- 9Router API key from [dashboard](https://9router.com/dashboard)
+- 9Router running (local or cloud)
 
 ## Configuration Steps
 
@@ -18,7 +18,7 @@ Integrate Audira Route with Continue extension to bring AI assistance directly i
 3. Type "Continue: Open Config" and select it
 4. This opens `~/.continue/config.json`
 
-### 2. Add Audira Route Model Configuration
+### 2. Add 9Router Model Configuration
 
 Add the following configuration to your `config.json`:
 
@@ -27,7 +27,7 @@ Add the following configuration to your `config.json`:
 {
   "models": [
     {
-      "title": "Audira Route - Claude Opus",
+      "title": "9Router - Claude Opus",
       "provider": "openai",
       "model": "cc/claude-opus-4-5-20251101",
       "apiKey": "your-api-key-from-dashboard",
@@ -42,28 +42,28 @@ Add the following configuration to your `config.json`:
 {
   "models": [
     {
-      "title": "Audira Route - Claude Opus (Best)",
+      "title": "9Router - Claude Opus (Best)",
       "provider": "openai",
       "model": "cc/claude-opus-4-5-20251101",
       "apiKey": "your-api-key-from-dashboard",
       "apiBase": "http://localhost:20128/v1"
     },
     {
-      "title": "Audira Route - Claude Sonnet (Balanced)",
+      "title": "9Router - Claude Sonnet (Balanced)",
       "provider": "openai",
       "model": "cc/claude-sonnet-4-20250514",
       "apiKey": "your-api-key-from-dashboard",
       "apiBase": "http://localhost:20128/v1"
     },
     {
-      "title": "Audira Route - DeepSeek Chat (Code)",
+      "title": "9Router - DeepSeek Chat (Code)",
       "provider": "openai",
       "model": "cx/deepseek-chat",
       "apiKey": "your-api-key-from-dashboard",
       "apiBase": "http://localhost:20128/v1"
     },
     {
-      "title": "Audira Route - Claude Haiku (Fast)",
+      "title": "9Router - Claude Haiku (Fast)",
       "provider": "openai",
       "model": "cc/claude-haiku-4-20250514",
       "apiKey": "your-api-key-from-dashboard",
@@ -73,10 +73,10 @@ Add the following configuration to your `config.json`:
 }
 ```
 
-**For Cloud Audira Route:**
+**For Cloud 9Router:**
 Replace `apiBase` with:
 ```json
-"apiBase": "https://audira-route.com/v1"
+"apiBase": "https://9router.com/v1"
 ```
 
 ### 3. Save and Reload
@@ -89,7 +89,7 @@ Replace `apiBase` with:
 
 1. Open Continue sidebar (click Continue icon in left panel)
 2. Click model selector dropdown at the top
-3. Choose your preferred Audira Route model
+3. Choose your preferred 9Router model
 
 ## Available Models
 
@@ -139,7 +139,7 @@ Add custom system prompts for specific behaviors:
 {
   "models": [
     {
-      "title": "Audira Route - Code Expert",
+      "title": "9Router - Code Expert",
       "provider": "openai",
       "model": "cx/deepseek-chat",
       "apiKey": "your-api-key",
@@ -158,7 +158,7 @@ Adjust model behavior with parameters:
 {
   "models": [
     {
-      "title": "Audira Route - Creative Writer",
+      "title": "9Router - Creative Writer",
       "provider": "openai",
       "model": "cc/claude-opus-4-5-20251101",
       "apiKey": "your-api-key",
@@ -204,13 +204,13 @@ Configure what context Continue sends to the model:
 ## Troubleshooting
 
 ### Model Not Responding
-- Check Audira Route is running: `curl http://localhost:20128/health`
+- Check 9Router is running: `curl http://localhost:20128/health`
 - Verify API key in config.json
 - Check VSCode Developer Console for errors: `Help` → `Toggle Developer Tools`
 
 ### Wrong Model Selected
 - Click model dropdown in Continue sidebar
-- Select correct Audira Route model
+- Select correct 9Router model
 - Model name must match exactly (case-sensitive)
 
 ### Configuration Not Loading
@@ -221,7 +221,7 @@ Configure what context Continue sends to the model:
 ### Slow Performance
 - Switch to faster models (haiku, flash)
 - Reduce context size in contextProviders
-- Check network latency to Audira Route
+- Check network latency to 9Router
 
 ## Best Practices
 

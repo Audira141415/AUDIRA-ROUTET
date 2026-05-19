@@ -1,6 +1,6 @@
 # Installation
 
-Detailed installation guide for Audira Route with troubleshooting tips.
+Detailed installation guide for 9Router with troubleshooting tips.
 
 ---
 
@@ -31,37 +31,37 @@ npm --version
 
 ### Method 1: Global Installation (Recommended)
 
-Install Audira Route globally to use from anywhere:
+Install 9Router globally to use from anywhere:
 
 ```bash
-npm install -g audira-route
+npm install -g 9router
 ```
 
-**Start Audira Route:**
+**Start 9Router:**
 
 ```bash
-audira-route
+9router
 ```
 
 **Benefits:**
 - ✅ Run from any directory
-- ✅ Simple command: `audira-route`
-- ✅ Auto-updates with `npm update -g audira-route`
+- ✅ Simple command: `9router`
+- ✅ Auto-updates with `npm update -g 9router`
 
 ### Method 2: Local Installation
 
 Install in a specific project:
 
 ```bash
-mkdir my-audira-route
-cd my-audira-route
-npm install audira-route
+mkdir my-9router
+cd my-9router
+npm install 9router
 ```
 
-**Start Audira Route:**
+**Start 9Router:**
 
 ```bash
-npx audira-route
+npx 9router
 ```
 
 **Benefits:**
@@ -74,8 +74,8 @@ npx audira-route
 Clone and build from GitHub:
 
 ```bash
-git clone https://github.com/decolua/audira-route.git
-cd audira-route/app
+git clone https://github.com/decolua/9router.git
+cd 9router/app
 npm install
 npm run build
 npm start
@@ -93,13 +93,13 @@ npm start
 ### Start the Server
 
 ```bash
-audira-route
+9router
 ```
 
 **What happens:**
 1. Server starts on `http://localhost:20128`
 2. Dashboard opens automatically in browser
-3. Data directory created at `~/.audira-route`
+3. Data directory created at `~/.9router`
 4. API key generated automatically
 
 ### Dashboard Login
@@ -193,7 +193,7 @@ export JWT_SECRET="your-secure-secret-change-this"
 export INITIAL_PASSWORD="your-password"
 
 # Storage
-export DATA_DIR="~/.audira-route"
+export DATA_DIR="~/.9router"
 
 # Server
 export PORT="20128"
@@ -205,11 +205,11 @@ export ENABLE_REQUEST_LOGS="false"
 
 ### Data Directory
 
-**Default location:** `~/.audira-route`
+**Default location:** `~/.9router`
 
 **Contents:**
 ```
-~/.audira-route/
+~/.9router/
   ├── db.json           # Database (providers, combos, usage)
   ├── api-keys.json     # API keys
   └── logs/             # Request logs (if enabled)
@@ -219,7 +219,7 @@ export ENABLE_REQUEST_LOGS="false"
 
 ```bash
 export DATA_DIR="/custom/path"
-audira-route
+9router
 ```
 
 ### Port Configuration
@@ -230,13 +230,13 @@ audira-route
 
 ```bash
 export PORT="3000"
-audira-route
+9router
 ```
 
 **Or use command line:**
 
 ```bash
-Audira Route --port 3000
+9router --port 3000
 ```
 
 ---
@@ -263,14 +263,14 @@ kill -9 <PID>
 **Solution 2: Use different port**
 
 ```bash
-Audira Route --port 3000
+9router --port 3000
 ```
 
 ### Permission Denied
 
 **Error:**
 ```
-Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/audira-route'
+Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/9router'
 ```
 
 **Solution: Use sudo (not recommended) or fix npm permissions**
@@ -283,7 +283,7 @@ echo 'export PATH=~/.npm-global/bin:$PATH' >> ~/.bashrc
 source ~/.bashrc
 
 # Then install again
-npm install -g audira-route
+npm install -g 9router
 ```
 
 ### Node.js Version Too Old
@@ -345,23 +345,23 @@ Dashboard → Provider → Disconnect → Reconnect
 
 ### High Memory Usage
 
-**Issue:** Audira Route using too much RAM
+**Issue:** 9Router using too much RAM
 
 **Solution: Restart server**
 
 ```bash
 # Stop
-pkill -f audira-route
+pkill -f 9router
 
 # Start
-audira-route
+9router
 ```
 
 **Or use PM2 for auto-restart:**
 
 ```bash
 npm install -g pm2
-pm2 start audira-route --name audira-route
+pm2 start 9router --name 9router
 pm2 save
 ```
 
@@ -372,8 +372,8 @@ pm2 save
 ### Local Development
 
 ```bash
-npm install -g audira-route
-audira-route
+npm install -g 9router
+9router
 ```
 
 **Use case:** Personal coding, testing
@@ -382,7 +382,7 @@ audira-route
 
 ```bash
 # Install
-npm install -g audira-route
+npm install -g 9router
 
 # Configure
 export JWT_SECRET="your-secure-secret"
@@ -391,7 +391,7 @@ export NODE_ENV="production"
 
 # Start with PM2
 npm install -g pm2
-pm2 start audira-route --name audira-route
+pm2 start 9router --name 9router
 pm2 save
 pm2 startup
 ```
@@ -401,15 +401,15 @@ pm2 startup
 ### Docker
 
 ```bash
-docker pull audira-route/audira-route:latest
+docker pull 9router/9router:latest
 
 docker run -d \
   -p 20128:20128 \
   -e JWT_SECRET="your-secure-secret" \
   -e INITIAL_PASSWORD="your-password" \
-  -v audira-route-data:/root/.audira-route \
-  --name audira-route \
-  audira-route/audira-route:latest
+  -v 9router-data:/root/.9router \
+  --name 9router \
+  9router/9router:latest
 ```
 
 **Use case:** Containerized deployment, Kubernetes
@@ -444,13 +444,13 @@ server {
 ### Remove Global Installation
 
 ```bash
-npm uninstall -g Audira Route
+npm uninstall -g 9router
 ```
 
 ### Remove Data Directory
 
 ```bash
-rm -rf ~/.audira-route
+rm -rf ~/.9router
 ```
 
 ### Remove Configuration
@@ -458,7 +458,7 @@ rm -rf ~/.audira-route
 ```bash
 # Remove environment variables from shell config
 nano ~/.bashrc  # or ~/.zshrc
-# Delete Audira Route-related exports
+# Delete 9router-related exports
 ```
 
 ---
@@ -473,6 +473,6 @@ nano ~/.bashrc  # or ~/.zshrc
 
 ## Need Help?
 
-- **Website**: [audira-route.com](https://audira-route.com)
-- **GitHub**: [github.com/decolua/audira-route](https://github.com/decolua/audira-route)
-- **Issues**: [github.com/decolua/audira-route/issues](https://github.com/decolua/audira-route/issues)
+- **Website**: [9router.com](https://9router.com)
+- **GitHub**: [github.com/decolua/9router](https://github.com/decolua/9router)
+- **Issues**: [github.com/decolua/9router/issues](https://github.com/decolua/9router/issues)

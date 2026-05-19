@@ -53,13 +53,13 @@ export default function UsageChart({ period = "7d" }) {
       <div className="grid w-full grid-cols-2 items-center gap-1 rounded-lg border border-border bg-bg-subtle p-1 sm:w-auto sm:self-start">
         <button
           onClick={() => setViewMode("tokens")}
-          className={`px-3 py-1 rounded-md text-sm font-medium transition-colors ${viewMode === "tokens" ? "bg-primary text-white shadow-[2px_2px_0px_#000000]" : "text-text-muted hover:text-text hover:bg-bg-hover"}`}
+          className={`px-3 py-1 rounded-md text-sm font-medium transition-colors ${viewMode === "tokens" ? "bg-primary text-white shadow-sm" : "text-text-muted hover:text-text hover:bg-bg-hover"}`}
         >
           Tokens
         </button>
         <button
           onClick={() => setViewMode("cost")}
-          className={`px-3 py-1 rounded-md text-sm font-medium transition-colors ${viewMode === "cost" ? "bg-primary text-white shadow-[2px_2px_0px_#000000]" : "text-text-muted hover:text-text hover:bg-bg-hover"}`}
+          className={`px-3 py-1 rounded-md text-sm font-medium transition-colors ${viewMode === "cost" ? "bg-primary text-white shadow-sm" : "text-text-muted hover:text-text hover:bg-bg-hover"}`}
         >
           Cost
         </button>
@@ -73,6 +73,14 @@ export default function UsageChart({ period = "7d" }) {
         <ResponsiveContainer width="100%" height={220}>
           <AreaChart data={data} margin={{ top: 4, right: 8, left: 0, bottom: 0 }}>
             <defs>
+              <linearGradient id="gradTokens" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="5%" stopColor="#6366f1" stopOpacity={0.25} />
+                <stop offset="95%" stopColor="#6366f1" stopOpacity={0} />
+              </linearGradient>
+              <linearGradient id="gradCost" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="5%" stopColor="#f59e0b" stopOpacity={0.25} />
+                <stop offset="95%" stopColor="#f59e0b" stopOpacity={0} />
+              </linearGradient>
             </defs>
             <CartesianGrid strokeDasharray="3 3" strokeOpacity={0.1} />
             <XAxis
@@ -106,8 +114,7 @@ export default function UsageChart({ period = "7d" }) {
                 dataKey="tokens"
                 stroke="#6366f1"
                 strokeWidth={2}
-                fill="#6366f1"
-                fillOpacity={0.15}
+                fill="url(#gradTokens)"
                 dot={false}
                 activeDot={{ r: 4 }}
               />
@@ -117,8 +124,7 @@ export default function UsageChart({ period = "7d" }) {
                 dataKey="cost"
                 stroke="#f59e0b"
                 strokeWidth={2}
-                fill="#f59e0b"
-                fillOpacity={0.15}
+                fill="url(#gradCost)"
                 dot={false}
                 activeDot={{ r: 4 }}
               />

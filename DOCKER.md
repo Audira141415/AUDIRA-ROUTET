@@ -1,6 +1,6 @@
 # Docker
 
-Run Audira Route in a container. Published image: [`decolua/audira-route`](https://hub.docker.com/r/decolua/audira-route) — multi-platform `linux/amd64` + `linux/arm64`.
+Run 9Router in a container. Published image: [`decolua/9router`](https://hub.docker.com/r/decolua/9router) — multi-platform `linux/amd64` + `linux/arm64`.
 
 ---
 
@@ -11,10 +11,10 @@ Run Audira Route in a container. Published image: [`decolua/audira-route`](https
 ```bash
 docker run -d \
   -p 20128:20128 \
-  -v "$HOME/.audira-route:/app/data" \
+  -v "$HOME/.9router:/app/data" \
   -e DATA_DIR=/app/data \
-  --name audira-route \
-  decolua/audira-route:latest
+  --name 9router \
+  decolua/9router:latest
 ```
 
 App listens on port `20128`. Open: http://localhost:20128
@@ -22,20 +22,20 @@ App listens on port `20128`. Open: http://localhost:20128
 ## Manage container
 
 ```bash
-docker logs -f audira-route        # view logs
-docker stop audira-route           # stop
-docker start audira-route          # start again
-docker rm -f audira-route          # remove
+docker logs -f 9router        # view logs
+docker stop 9router           # stop
+docker start 9router          # start again
+docker rm -f 9router          # remove
 ```
 
 ## Data persistence
 
 ```bash
--v "$HOME/.audira-route:/app/data" \
+-v "$HOME/.9router:/app/data" \
 -e DATA_DIR=/app/data
 ```
 
-Without `DATA_DIR`, the app falls back to `~/.audira-route/` (macOS/Linux) or `%APPDATA%\audira-route\` (Windows). In the container, `DATA_DIR=/app/data` makes the bind mount work.
+Without `DATA_DIR`, the app falls back to `~/.9router/` (macOS/Linux) or `%APPDATA%\9router\` (Windows). In the container, `DATA_DIR=/app/data` makes the bind mount work.
 
 Data layout under `$DATA_DIR/`:
 
@@ -47,7 +47,7 @@ $DATA_DIR/
 └── ...                   # certs, logs, runtime configs
 ```
 
-Host path: `$HOME/.audira-route/db/data.sqlite`
+Host path: `$HOME/.9router/db/data.sqlite`
 Container path: `/app/data/db/data.sqlite`
 
 ## Optional env vars
@@ -55,20 +55,20 @@ Container path: `/app/data/db/data.sqlite`
 ```bash
 docker run -d \
   -p 20128:20128 \
-  -v "$HOME/.audira-route:/app/data" \
+  -v "$HOME/.9router:/app/data" \
   -e DATA_DIR=/app/data \
   -e PORT=20128 \
   -e HOSTNAME=0.0.0.0 \
   -e DEBUG=true \
-  --name audira-route \
-  decolua/audira-route:latest
+  --name 9router \
+  decolua/9router:latest
 ```
 
 ## Update to latest
 
 ```bash
-docker pull decolua/audira-route:latest
-docker rm -f audira-route
+docker pull decolua/9router:latest
+docker rm -f 9router
 # re-run the quick start command
 ```
 
@@ -79,19 +79,19 @@ docker rm -f audira-route
 ## Build image locally (test)
 
 ```bash
-cd app && docker build -t audira-route .
+cd app && docker build -t 9router .
 
 docker run --rm -p 20128:20128 \
-  -v "$HOME/.audira-route:/app/data" \
+  -v "$HOME/.9router:/app/data" \
   -e DATA_DIR=/app/data \
-  audira-route
+  9router
 ```
 
 ## Publish (automatic via CI)
 
 Push a git tag `v*` → GitHub Actions builds multi-platform (amd64+arm64) and pushes to:
-- `ghcr.io/decolua/audira-route:v{version}` + `:latest`
-- `decolua/audira-route:v{version}` + `:latest`
+- `ghcr.io/decolua/9router:v{version}` + `:latest`
+- `decolua/9router:v{version}` + `:latest`
 
 ```bash
 # Use scripts/release.js (recommended)

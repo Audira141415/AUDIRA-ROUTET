@@ -1,12 +1,12 @@
 # よくある質問
 
-Audira Routeに関する一般的な質問。
+9Routerに関する一般的な質問。
 
 ---
 
-## Audira Routeとは?
+## 9Routerとは?
 
-**Audira Routeは、サブスクリプションの価値を最大化し、コストを最小限に抑えるAIモデルルーターです。**
+**9Routerは、サブスクリプションの価値を最大化し、コストを最小限に抑えるAIモデルルーターです。**
 
 3階層フォールバックシステムを使用して、複数のAIプロバイダー間でリクエストをインテリジェントにルーティングします:
 1. **サブスクリプション階層** - すでに支払っているClaude Code、Codex、Geminiのクォータを最大化
@@ -23,7 +23,7 @@ Audira Routeに関する一般的な質問。
 
 ## 料金体系はどうなっていますか?
 
-**Audira Routeは3階層の料金戦略を使用します:**
+**9Routerは3階層の料金戦略を使用します:**
 
 ### Tier 1: サブスクリプション(最初に最大化)
 - **Claude Code** (Pro/Max): 月$20〜100 - 5時間 + 週次クォータ
@@ -50,9 +50,9 @@ Audira Routeに関する一般的な質問。
 
 ---
 
-## Audira Routeは無料ですか?
+## 9Routerは無料ですか?
 
-**はい、Audira Route自体は100%無料でオープンソースです。**
+**はい、9Router自体は100%無料でオープンソースです。**
 
 **利用可能な無料階層プロバイダー:**
 - **Gemini CLI** - 月18万コンプリーション(無料Googleアカウント)
@@ -96,7 +96,7 @@ Audira Routeに関する一般的な質問。
 
 ## 複数のプロバイダーを使用できますか?
 
-**はい! これはAudira Routeのコア機能です。**
+**はい! これは9Routerのコア機能です。**
 
 **コンボにより、複数のプロバイダーを自動フォールバック付きで連鎖させることができます:**
 
@@ -129,7 +129,7 @@ Dashboard → Combos → Create New
 
 ## クォータトラッキングはどのように機能しますか?
 
-**Audira Routeはすべてのプロバイダーのクォータをリアルタイムで追跡します:**
+**9Routerはすべてのプロバイダーのクォータをリアルタイムで追跡します:**
 
 **機能:**
 - **トークン消費** - リクエストごとの入出力トークン
@@ -154,17 +154,17 @@ Dashboard → Providers → Quota Tracking
 
 ---
 
-## Audira RouteはCursorで動作しますか?
+## 9RouterはCursorで動作しますか?
 
 **はい、ただしCursorはクラウドエンドポイントが必要です。**
 
 **問題:** Cursor IDEはlocalhostエンドポイントをサポートしていません。
 
-**解決策:** Audira Routeクラウドデプロイメントを使用:
+**解決策:** 9Routerクラウドデプロイメントを使用:
 
 ```
 Cursor Settings → Models → Advanced:
-  OpenAI API Base URL: https://audira-route.com/v1
+  OpenAI API Base URL: https://9router.com/v1
   OpenAI API Key: [ダッシュボードから取得]
   Model: cc/claude-opus-4-5-20251101
 ```
@@ -172,8 +172,8 @@ Cursor Settings → Models → Advanced:
 **代替案:** パブリックドメインでVPSにセルフホスト:
 ```bash
 # VPSへデプロイ
-git clone https://github.com/decolua/audira-route.git
-cd audira-route/app
+git clone https://github.com/decolua/9router.git
+cd 9router/app
 npm install && npm run build
 npm start
 
@@ -192,22 +192,22 @@ npm start
 
 ---
 
-## Audira Routeをセルフホストできますか?
+## 9Routerをセルフホストできますか?
 
-**はい! Audira Routeは複数のデプロイメントオプションをサポートします:**
+**はい! 9Routerは複数のデプロイメントオプションをサポートします:**
 
 ### Localhost(デフォルト)
 ```bash
-npm install -g audira-route
-audira-route
+npm install -g 9router
+9router
 → Dashboard: http://localhost:3000
 → API: http://localhost:20128/v1
 ```
 
 ### VPS/クラウド
 ```bash
-git clone https://github.com/decolua/audira-route.git
-cd audira-route/app
+git clone https://github.com/decolua/9router.git
+cd 9router/app
 npm install && npm run build
 
 export JWT_SECRET="your-secure-secret"
@@ -219,23 +219,23 @@ npm start
 
 ### Docker
 ```bash
-docker build -t audira-route .
+docker build -t 9router .
 docker run -d \
   -p 3000:3000 \
   -e JWT_SECRET="your-secret" \
-  -v audira-route-data:/app/data \
-  audira-route
+  -v 9router-data:/app/data \
+  9router
 ```
 
 ### Cloudflare Workers
 ```bash
-cd audira-route/app
+cd 9router/app
 npm run deploy:cloudflare
 ```
 
 **環境変数:**
 - `JWT_SECRET` - **本番環境で必ず変更!**
-- `DATA_DIR` - データベース保存パス(デフォルト: `~/.audira-route`)
+- `DATA_DIR` - データベース保存パス(デフォルト: `~/.9router`)
 - `INITIAL_PASSWORD` - ダッシュボードログイン(デフォルト: `123456`)
 - `NODE_ENV` - デプロイ時は`production`に設定
 
@@ -245,11 +245,11 @@ npm run deploy:cloudflare
 
 ## データは安全ですか?
 
-**はい、Audira Routeはセキュリティとプライバシーを優先します:**
+**はい、9Routerはセキュリティとプライバシーを優先します:**
 
 **ローカルストレージ:**
-- すべてのデータは`~/.audira-route`(またはカスタム`DATA_DIR`)にローカル保存
-- Audira Routeサーバーへのデータ送信なし
+- すべてのデータは`~/.9router`(またはカスタム`DATA_DIR`)にローカル保存
+- 9Routerサーバーへのデータ送信なし
 - OAuthトークンはJWTで暗号化
 
 **テレメトリなし:**
@@ -268,31 +268,31 @@ npm run deploy:cloudflare
 - クラウドデプロイでHTTPSを有効化
 - APIキーを定期的にローテーション
 
-**Audira Routeが保存するもの:**
+**9Routerが保存するもの:**
 - プロバイダーOAuthトークン(暗号化)
 - APIキー(暗号化)
 - 使用統計(ローカルのみ)
 - コンボ設定
 
-**Audira Routeが保存しないもの:**
+**9Routerが保存しないもの:**
 - プロンプトやレスポンス
 - 生成したコード
 - 個人情報
 
 ---
 
-## Audira Routeを更新するには?
+## 9Routerを更新するには?
 
 **更新方法はインストールタイプによって異なります:**
 
 ### グローバルNPMインストール
 ```bash
-npm update -g Audira Route
+npm update -g 9router
 ```
 
 ### ローカルインストール
 ```bash
-cd audira-route/app
+cd 9router/app
 git pull origin main
 npm install
 npm run build
@@ -301,23 +301,23 @@ npm start
 
 ### Docker
 ```bash
-docker pull audira-route:latest
-docker stop audira-route
-docker rm audira-route
+docker pull 9router:latest
+docker stop 9router
+docker rm 9router
 docker run -d \
   -p 3000:3000 \
-  -v audira-route-data:/app/data \
-  audira-route:latest
+  -v 9router-data:/app/data \
+  9router:latest
 ```
 
 **バージョンを確認:**
 ```bash
-Audira Route --version
+9router --version
 ```
 
 **破壊的変更:**
-- [CHANGELOG.md](https://github.com/decolua/audira-route/blob/main/CHANGELOG.md)を確認
-- メジャー更新前に`~/.audira-route`をバックアップ
+- [CHANGELOG.md](https://github.com/decolua/9router/blob/main/CHANGELOG.md)を確認
+- メジャー更新前に`~/.9router`をバックアップ
 - メジャーバージョンの移行ガイドを確認
 
 ---
@@ -329,18 +329,18 @@ Audira Route --version
 ### 貢献方法:
 
 1. **バグを報告:**
-   - [GitHub Issues](https://github.com/decolua/audira-route/issues)
+   - [GitHub Issues](https://github.com/decolua/9router/issues)
    - エラーログ、再現手順を含める
 
 2. **機能をリクエスト:**
-   - [GitHub Discussions](https://github.com/decolua/audira-route/discussions)
+   - [GitHub Discussions](https://github.com/decolua/9router/discussions)
    - ユースケースと利点を説明
 
 3. **コードを提出:**
    ```bash
    # リポジトリをフォーク
-   git clone https://github.com/YOUR_USERNAME/audira-route.git
-   cd audira-route
+   git clone https://github.com/YOUR_USERNAME/9router.git
+   cd 9router
    
    # ブランチを作成
    git checkout -b feature/your-feature
@@ -375,13 +375,13 @@ Audira Route --version
 - ドキュメントを更新
 - コミットは小さく、わかりやすく
 
-詳細は[CONTRIBUTING.md](https://github.com/decolua/audira-route/blob/main/CONTRIBUTING.md)を参照。
+詳細は[CONTRIBUTING.md](https://github.com/decolua/9router/blob/main/CONTRIBUTING.md)を参照。
 
 ---
 
 ## さらにヘルプが必要?
 
-- **ドキュメント:** [audira-route.com/docs](https://audira-route.com/docs)
-- **GitHub:** [github.com/decolua/audira-route](https://github.com/decolua/audira-route)
-- **Issues:** [github.com/decolua/audira-route/issues](https://github.com/decolua/audira-route/issues)
+- **ドキュメント:** [9router.com/docs](https://9router.com/docs)
+- **GitHub:** [github.com/decolua/9router](https://github.com/decolua/9router)
+- **Issues:** [github.com/decolua/9router/issues](https://github.com/decolua/9router/issues)
 - **トラブルシューティング:** [troubleshooting.md](troubleshooting.md)

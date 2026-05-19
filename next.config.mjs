@@ -33,8 +33,8 @@ const nextConfig = {
         path: false,
       };
     }
-    // Exclude data dir, logs, .next, gitbook subapp from watcher
-    config.watchOptions = { ...config.watchOptions, ignored: /[\\/](\.audira-route-data|logs|\.next|gitbook|cli|node_modules)[\\/]/ };
+    // Exclude logs, .next, gitbook subapp from watcher
+    config.watchOptions = { ...config.watchOptions, ignored: /[\\/](logs|\.next|gitbook|cli)[\\/]/ };
     return config;
   },
   async rewrites() {
@@ -64,4 +64,3 @@ const nextConfig = {
 };
 
 export default nextConfig;
-

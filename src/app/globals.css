@@ -1,15 +1,17 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 /* Hide icon ligature text until font is ready */
 .material-symbols-outlined { visibility: hidden; }
 .fonts-loaded .material-symbols-outlined { visibility: visible; }
 
 /* ============================================================
-   Audira Route palette — Neo Brutalism Light
-   Hard shadows, solid borders, 0px radius, saturated colors
+   9Router palette — adopted from 9remote_private/web
+   Brand orange (dark) / soft coral (light), neutral warm bases
    ============================================================ */
 :root {
-  /* Brand scale - centered on #E56A4A */
+  /* Brand scale (light) - centered on #E56A4A */
   --color-brand-50: #fdf1ed;
   --color-brand-100: #fadccf;
   --color-brand-200: #f4b59c;
@@ -22,62 +24,113 @@
   --color-brand-900: #4d1e12;
 
   /* Primary (legacy alias for backward compat with existing components) */
-  --color-primary: #E56A4A;
-  --color-primary-hover: #cc5236;
+  --color-primary: var(--color-brand-500);
+  --color-primary-hover: var(--color-brand-600);
 
-  /* Backgrounds */
-  --color-bg: #F5F5F5;
-  --color-bg-alt: #EBEBEB;
-  --color-surface: #FFFFFF;
-  --color-surface-2: #F5F5F5;
-  --color-surface-3: #EBEBEB;
-  --color-sidebar: #FFFFFF;
+  /* Surfaces & backgrounds (light) */
+  --color-bg: #FDFAF6;
+  --color-bg-alt: #F7F3EE;
+  --color-surface: #ffffff;
+  --color-surface-2: #f4f4f5;
+  --color-surface-3: #e7e7e9;
+  --color-sidebar: rgba(244, 241, 236, 0.85);
 
   /* Borders */
-  --color-border: #000000;
-  --color-border-subtle: #000000;
-  --border-width: 2px;
-  --border-width-heavy: 3px;
+  --color-border: #e5e7eb;
+  --color-border-subtle: #f1f1f3;
 
   /* Text */
-  --color-text: #000000;
-  --color-text-main: #000000;
-  --color-text-muted: #374151;
-  --color-text-subtle: #6B7280;
+  --color-text: #0a0a0a;
+  --color-text-main: #0a0a0a;
+  --color-text-muted: #6B7280;
+  --color-text-subtle: #9CA3AF;
 
-  /* Brand & Status Colors */
-  --color-info: #3B82F6;
+  /* Status */
+  --color-danger: #cf222e;
   --color-success: #10B981;
-  --color-warning: #FBBF24;
-  --color-danger: #DC2626;
-  --color-accent-pink: #EC4899;
+  --color-warning: #F59E0B;
+  --color-info: #3B82F6;
 
-  /* Radius — 0px everywhere */
-  --radius-brand: 0px;
-  --radius-brand-lg: 0px;
+  /* Radius */
+  --radius-brand: 10px;
+  --radius-brand-lg: 14px;
 
-  /* Hard Shadows */
-  --shadow-soft: 4px 4px 0px #000000;
-  --shadow-warm: 4px 4px 0px #000000;
-  --shadow-elevated: 6px 6px 0px #000000;
-  --shadow-elev: 6px 6px 0px #000000;
-  --shadow-focus: 3px 3px 0px #E56A4A;
-  --shadow-sm: 2px 2px 0px #000000;
-  --shadow-lg: 8px 8px 0px #000000;
-
-  /* Typography */
-  --font-weight-heading: 800;
-  --font-weight-body: 500;
-  --letter-spacing-heading: -0.02em;
+  /* Shadows */
+  --shadow-soft: 0 1px 2px 0 rgba(0,0,0,0.04);
+  --shadow-warm: 0 2px 12px -2px rgba(229, 106, 74, 0.18);
+  --shadow-elevated: 0 12px 28px -4px rgba(60, 50, 45, 0.06);
+  --shadow-elev:
+    inset 0 1px 0 0 rgba(255,255,255,0.8),
+    0 1px 2px rgba(15,23,42,0.04),
+    0 12px 36px -8px rgba(15,23,42,0.10);
+  --shadow-focus: 0 0 0 3px rgba(229,106,74,0.18);
 
   color-scheme: light;
 }
 
+.dark {
+  /* Brand scale (dark) - centered on #E56A4A, same as light for consistency */
+  --color-brand-50: #fdf1ed;
+  --color-brand-100: #fadccf;
+  --color-brand-200: #f4b59c;
+  --color-brand-300: #ee8d6a;
+  --color-brand-400: #ea7855;
+  --color-brand-500: #E56A4A;
+  --color-brand-600: #cc5236;
+  --color-brand-700: #a64027;
+  --color-brand-800: #7a2f1d;
+  --color-brand-900: #4d1e12;
+
+  --color-primary: #E56A4A;
+  --color-primary-hover: #cc5236;
+
+  /* Surfaces (dark - Claude-like neutral warm) */
+  --color-bg: #1a1a1a;
+  --color-bg-alt: #1F1F1E;
+  --color-surface: #262626;
+  --color-surface-2: #303030;
+  --color-surface-3: #3a3a3a;
+  --color-sidebar: rgba(30, 30, 30, 0.85);
+
+  --color-border: #333333;
+  --color-border-subtle: #2a2a2a;
+
+  --color-text: #ededed;
+  --color-text-main: #ededed;
+  --color-text-muted: #9ca3af;
+  --color-text-subtle: #6b7280;
+
+  --color-danger: #ef4444;
+  --color-success: #22c55e;
+  --color-warning: #fbbf24;
+  --color-info: #60a5fa;
+
+  --shadow-soft: 0 1px 2px 0 rgba(0,0,0,0.3);
+  --shadow-warm: 0 2px 12px -2px rgba(229, 106, 74, 0.25);
+  --shadow-elevated: 0 12px 28px -4px rgba(0, 0, 0, 0.45);
+  --shadow-elev:
+    inset 0 1px 0 0 rgba(255,255,255,0.06),
+    0 1px 2px rgba(0,0,0,0.4),
+    0 16px 48px -8px rgba(0,0,0,0.55);
+  --shadow-focus: 0 0 0 3px rgba(229, 106, 74, 0.18);
+
+  color-scheme: dark;
+}
+
 /* ============================================================
-   Fix native select dropdowns
+   Fix native select dropdowns in dark mode
    ============================================================ */
 select {
   color-scheme: light;
+}
+
+.dark select {
+  color-scheme: dark;
+}
+
+.dark select option {
+  background-color: var(--color-surface);
+  color: var(--color-text-main);
 }
 
 @theme inline {
@@ -116,13 +169,23 @@ select {
   --color-warning: var(--color-warning);
   --color-info: var(--color-info);
 
+  /* Static fallbacks (explicit per-mode usage if needed) */
+  --color-bg-light: #FCFBF9;
+  --color-bg-dark: #1a1a1a;
+  --color-surface-light: #ffffff;
+  --color-surface-dark: #262626;
+  --color-sidebar-light: #F4F1EC;
+  --color-sidebar-dark: #1F1F1E;
+  --color-border-light: #e5e7eb;
+  --color-border-dark: #333333;
+  --color-text-main-light: #0a0a0a;
+  --color-text-main-dark: #ededed;
+  --color-text-muted-light: #6B7280;
+  --color-text-muted-dark: #9ca3af;
+
   /* Radius */
   --radius-brand: var(--radius-brand);
   --radius-brand-lg: var(--radius-brand-lg);
-
-  /* Borders */
-  --border-width: var(--border-width);
-  --border-width-heavy: var(--border-width-heavy);
 
   /* Shadows */
   --shadow-soft: var(--shadow-soft);
@@ -130,12 +193,6 @@ select {
   --shadow-elevated: var(--shadow-elevated);
   --shadow-elev: var(--shadow-elev);
   --shadow-focus: var(--shadow-focus);
-  --shadow-sm: var(--shadow-sm);
-  --shadow-lg: var(--shadow-lg);
-
-  /* Transitions */
-  --transition-duration: 100ms;
-  --transition-timing: ease-in-out;
 
   /* Font - Inter primary, Apple system fallback */
   --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'SF Pro Display', system-ui, sans-serif;
@@ -146,20 +203,18 @@ body {
   background-color: var(--color-bg);
   color: var(--color-text-main);
   font-family: var(--font-sans);
-  font-weight: var(--font-weight-body);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-weight: var(--font-weight-heading);
-  letter-spacing: var(--letter-spacing-heading);
 }
 
 /* Selection - brand-tinted */
 ::selection {
   background-color: rgba(229, 106, 74, 0.25);
   color: var(--color-primary);
+}
+.dark ::selection {
+  background-color: rgba(229, 106, 74, 0.3);
+  color: var(--color-brand-300);
 }
 
 /* iOS keyboard accent */
@@ -187,11 +242,17 @@ input, textarea {
   scrollbar-width: thin;
   scrollbar-color: rgba(229, 106, 74, 0.55) transparent;
 }
+.dark .scroll-thin-x {
+  scrollbar-color: rgba(229, 106, 74, 0.55) transparent;
+}
 .scroll-thin-x::-webkit-scrollbar { height: 3px; }
 .scroll-thin-x::-webkit-scrollbar-track { background: transparent; }
 .scroll-thin-x::-webkit-scrollbar-thumb {
   background: rgba(229, 106, 74, 0.55);
   border-radius: 3px;
+}
+.dark .scroll-thin-x::-webkit-scrollbar-thumb {
+  background: rgba(229, 106, 74, 0.55);
 }
 
 /* Reusable elevated card */
@@ -216,6 +277,9 @@ input, textarea {
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   background: rgba(255, 255, 255, 0.72);
+}
+.dark .bg-vibrancy {
+  background: rgba(38, 38, 38, 0.72);
 }
 
 /* macOS Traffic Lights */
@@ -275,6 +339,18 @@ button {
 }
 .animate-pulse { animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
 
+@keyframes border-glow {
+  0%, 100% {
+    box-shadow: 0 0 5px rgba(229, 106, 74, 0.3), 0 0 10px rgba(229, 106, 74, 0.2);
+    border-color: rgba(229, 106, 74, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 10px rgba(229, 106, 74, 0.5), 0 0 20px rgba(229, 106, 74, 0.3);
+    border-color: rgba(229, 106, 74, 0.8);
+  }
+}
+.animate-border-glow { animation: border-glow 2s ease-in-out infinite; }
+
 @keyframes slideInFromRight {
   from { transform: translateX(100%); opacity: 0; }
   to { transform: translateX(0); opacity: 1; }
@@ -291,12 +367,52 @@ button {
 .fade-in { animation: fadeIn 0.2s ease-out forwards; }
 .slide-in-top { animation: slideInFromTop 0.18s cubic-bezier(0.22, 1, 0.36, 1) forwards; }
 
+@keyframes pulseGlow {
+  0%, 100% { opacity: 0.4; transform: scale(1); }
+  50% { opacity: 0.7; transform: scale(1.05); }
+}
+.animate-pulse-glow { animation: pulseGlow 3s ease-in-out infinite; }
+
+/* CTA shimmer + glow pulse */
+@keyframes ctaShimmer {
+  0% { transform: translateX(-120%) skewX(-20deg); }
+  100% { transform: translateX(220%) skewX(-20deg); }
+}
+@keyframes ctaGlowPulse {
+  0%, 100% { box-shadow: 0 8px 24px -8px rgba(229, 106, 74, 0.45), 0 0 0 0 rgba(229, 106, 74, 0.5); }
+  50% { box-shadow: 0 12px 32px -8px rgba(229, 106, 74, 0.6), 0 0 0 8px rgba(229, 106, 74, 0); }
+}
+.btn-cta {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  animation: ctaGlowPulse 2.4s ease-in-out infinite;
+}
+.btn-cta::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.35), transparent);
+  animation: ctaShimmer 2.8s ease-in-out infinite;
+  pointer-events: none;
+  z-index: 1;
+}
+.btn-cta > * { position: relative; z-index: 2; }
+
 /* Dot Grid Background Pattern */
 .dot-grid-bg {
   background-color: var(--color-bg);
   background-image:
     radial-gradient(circle at 15% 20%, rgba(229, 106, 74, 0.10) 0%, transparent 40%),
     radial-gradient(circle at 85% 80%, rgba(229, 106, 74, 0.06) 0%, transparent 40%);
+}
+.dark .dot-grid-bg {
+  background-image:
+    radial-gradient(circle at 15% 20%, rgba(229, 106, 74, 0.18) 0%, transparent 40%),
+    radial-gradient(circle at 85% 80%, rgba(229, 106, 74, 0.10) 0%, transparent 40%);
 }
 
 /* Landing-style faint grid overlay (use absolute pos inside relative parent) */
@@ -306,6 +422,9 @@ button {
     linear-gradient(to bottom, var(--color-accent) 1px, transparent 1px);
   background-size: 40px 40px;
   opacity: 0.08;
+}
+.dark .landing-grid {
+  opacity: 0.04;
 }
 
 /* React Flow controls: match app theme */

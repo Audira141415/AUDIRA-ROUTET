@@ -7,9 +7,9 @@ import { Card } from "@/shared/components";
 // Derive simple connected/configured/not-installed status from API payload
 function getStatus(status) {
   if (!status) return { label: "Unknown", cls: "bg-gray-500/10 text-gray-500" };
-  if (!status.installed) return { label: "Not installed", cls: "bg-red-500/10 text-red-600" };
-  if (status.has9Router) return { label: "Connected", cls: "bg-green-500/10 text-green-600" };
-  return { label: "Not configured", cls: "bg-yellow-500/10 text-yellow-600" };
+  if (!status.installed) return { label: "Not installed", cls: "bg-red-500/10 text-red-600 dark:text-red-400" };
+  if (status.has9Router) return { label: "Connected", cls: "bg-green-500/10 text-green-600 dark:text-green-400" };
+  return { label: "Not configured", cls: "bg-yellow-500/10 text-yellow-600 dark:text-yellow-400" };
 }
 
 export default function ToolSummaryCard({ toolId, tool, status }) {

@@ -9,6 +9,15 @@ import os from "os";
 
 const execAsync = promisify(exec);
 
+// OpenClaw 2026.5.x writes agents[].model as either a plain string
+// (legacy) or as an object `{ primary, fallbacks }`. Normalize to the
+// string id so downstream consumers can call `.startsWith()` safely.
+const resolveAgentModel = (m) => {
+  if (typeof m === "string") return m;
+  if (m && typeof m === "object") return m.primary ?? "";
+  return "";
+};
+
 const getOpenClawDir = () => path.join(os.homedir(), ".openclaw");
 const getOpenClawSettingsPath = () => path.join(getOpenClawDir(), "openclaw.json");
 
@@ -45,19 +54,19 @@ const readSettings = async () => {
   }
 };
 
-// Check if settings has Audira Route config
+// Check if settings has 9Router config
 const has9RouterConfig = (settings) => {
   if (!settings || !settings.models || !settings.models.providers) return false;
-  return !!settings.models.providers["audira-route"];
+  return !!settings.models.providers["9router"];
 };
 
-// Read per-agent models.json and return current model id (without "audira-route/" prefix)
+// Read per-agent models.json and return current model id (without "9router/" prefix)
 const readAgentModel = async (agentDir) => {
   try {
     const modelsPath = path.join(agentDir, "models.json");
     const content = await fs.readFile(modelsPath, "utf-8");
     const data = JSON.parse(content);
-    const models = data?.providers?.["audira-route"]?.models;
+    const models = data?.providers?.["9router"]?.models;
     return models?.[0]?.id || null;
   } catch {
     return null;
@@ -79,12 +88,14 @@ export async function GET() {
 
     const settings = await readSettings();
 
-    // Enrich agents list with current per-agent model from models.json
+    // Enrich agents list with current per-agent model from models.json.
+    // Coerce agent.model to its string id when OpenClaw stores it as
+    // `{ primary, fallbacks }` so downstream `.startsWith()` calls work.
     const agentList = settings?.agents?.list || [];
     const enrichedAgents = await Promise.all(
       agentList.map(async (agent) => {
         const agentModel = agent.agentDir ? await readAgentModel(agent.agentDir) : null;
-        return { ...agent, currentModel: agentModel };
+        return { ...agent, model: resolveAgentModel(agent.model), currentModel: agentModel };
       })
     );
 
@@ -112,7 +123,7 @@ const writeAgentModels = async (agentDir, model, baseUrl, apiKey) => {
   } catch { /* No existing */ }
 
   if (!existing.providers) existing.providers = {};
-  existing.providers["audira-route"] = {
+  existing.providers["9router"] = {
     baseUrl,
     apiKey: apiKey || "your_api_key",
     api: "openai-completions",
@@ -121,7 +132,7 @@ const writeAgentModels = async (agentDir, model, baseUrl, apiKey) => {
   await fs.writeFile(modelsPath, JSON.stringify(existing, null, 2));
 };
 
-// POST - Update Audira Route settings (merge with existing settings)
+// POST - Update 9Router settings (merge with existing settings)
 export async function POST(request) {
   try {
     // agentModels: { [agentId]: modelId } for per-agent override
@@ -150,11 +161,11 @@ export async function POST(request) {
     if (!settings.models.providers) settings.models.providers = {};
 
     const normalizedBaseUrl = baseUrl.endsWith("/v1") ? baseUrl : `${baseUrl}/v1`;
-    const fullModelId = `audira-route/${model}`;
+    const fullModelId = `9router/${model}`;
 
-    // Remove all old audira-route/* entries from agents.defaults.models
+    // Remove all old 9router/* entries from agents.defaults.models
     Object.keys(settings.agents.defaults.models)
-      .filter((k) => k.startsWith("audira-route/"))
+      .filter((k) => k.startsWith("9router/"))
       .forEach((k) => { delete settings.agents.defaults.models[k]; });
 
     // Update default model
@@ -164,15 +175,16 @@ export async function POST(request) {
     const allModelIds = new Set([model]);
     Object.values(agentModels).forEach((m) => { if (m) allModelIds.add(m); });
 
-    // Add fresh audira-route models to allowlist
+    // Add fresh 9router models to allowlist
     allModelIds.forEach((m) => {
-      settings.agents.defaults.models[`audira-route/${m}`] = {};
+      settings.agents.defaults.models[`9router/${m}`] = {};
     });
 
-    // Remove old audira-route model from each agent in agents.list
+    // Remove old 9router model from each agent in agents.list. The
+    // model field may be a plain string or `{ primary, fallbacks }`.
     if (settings.agents.list) {
       settings.agents.list = settings.agents.list.map((agent) => {
-        if (agent.model?.startsWith("audira-route/")) {
+        if (resolveAgentModel(agent.model).startsWith("9router/")) {
           const { model: _, ...rest } = agent;
           return rest;
         }
@@ -180,8 +192,8 @@ export async function POST(request) {
       });
     }
 
-    // Update models.providers.audira-route with all models
-    settings.models.providers["audira-route"] = {
+    // Update models.providers.9router with all models
+    settings.models.providers["9router"] = {
       baseUrl: normalizedBaseUrl,
       apiKey: apiKey || "your_api_key",
       api: "openai-completions",
@@ -192,7 +204,7 @@ export async function POST(request) {
     if (settings.agents.list) {
       settings.agents.list = settings.agents.list.map((agent) => {
         const agentModel = agentModels[agent.id];
-        if (agentModel) return { ...agent, model: `audira-route/${agentModel}` };
+        if (agentModel) return { ...agent, model: `9router/${agentModel}` };
         return agent;
       });
 
@@ -220,7 +232,7 @@ export async function POST(request) {
   }
 }
 
-// DELETE - Remove Audira Route settings only (keep other settings)
+// DELETE - Remove 9Router settings only (keep other settings)
 export async function DELETE() {
   try {
     const settingsPath = getOpenClawSettingsPath();
@@ -240,9 +252,9 @@ export async function DELETE() {
       throw error;
     }
 
-    // Remove Audira Route from models.providers
+    // Remove 9Router from models.providers
     if (settings.models && settings.models.providers) {
-      delete settings.models.providers["audira-route"];
+      delete settings.models.providers["9router"];
       
       // Remove providers object if empty
       if (Object.keys(settings.models.providers).length === 0) {
@@ -250,9 +262,9 @@ export async function DELETE() {
       }
     }
 
-    // Remove audira-route models from agents.defaults.models allowlist
+    // Remove 9router models from agents.defaults.models allowlist
     if (settings.agents?.defaults?.models) {
-      const keysToRemove = Object.keys(settings.agents.defaults.models).filter((k) => k.startsWith("audira-route/"));
+      const keysToRemove = Object.keys(settings.agents.defaults.models).filter((k) => k.startsWith("9router/"));
       for (const key of keysToRemove) {
         delete settings.agents.defaults.models[key];
       }
@@ -261,8 +273,8 @@ export async function DELETE() {
       }
     }
 
-    // Reset agents.defaults.model.primary if it uses audira-route
-    if (settings.agents?.defaults?.model?.primary?.startsWith("audira-route/")) {
+    // Reset agents.defaults.model.primary if it uses 9router
+    if (settings.agents?.defaults?.model?.primary?.startsWith("9router/")) {
       delete settings.agents.defaults.model.primary;
     }
 
@@ -271,7 +283,7 @@ export async function DELETE() {
 
     return NextResponse.json({
       success: true,
-      message: "Audira Route settings removed successfully",
+      message: "9Router settings removed successfully",
     });
   } catch (error) {
     console.log("Error resetting openclaw settings:", error);

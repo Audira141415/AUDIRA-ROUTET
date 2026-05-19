@@ -108,7 +108,7 @@
   "Manage your AI provider connections": "Administre sus conexiones de proveedor de IA",
   "Model combos with fallback": "Combinaciones de modelos con respaldo",
   "Monitor your API usage, token consumption, and request logs": "Monitoree su uso de API, consumo de tokens y registros de solicitudes",
-  "Intercept CLI tool traffic and route through Audira Route": "Interceptar el tráfico de herramientas CLI y enrutar a través de Audira Route",
+  "Intercept CLI tool traffic and route through 9Router": "Interceptar el tráfico de herramientas CLI y enrutar a través de 9Router",
   "Configure CLI tools": "Configurar herramientas CLI",
   "API endpoint configuration": "Configuración del punto final de API",
   "Manage your preferences": "Administrar sus preferencias",
@@ -172,11 +172,11 @@
   "Cert": "Certificado",
   "Server": "Servidor",
   "Purpose:": "Propósito:",
-  "Use Antigravity IDE & GitHub Copilot → with ANY provider/model from Audira Route": "Use Antigravity IDE y GitHub Copilot → con CUALQUIER proveedor/modelo de Audira Route",
+  "Use Antigravity IDE & GitHub Copilot → with ANY provider/model from 9Router": "Use Antigravity IDE y GitHub Copilot → con CUALQUIER proveedor/modelo de 9Router",
   "How it works:": "Cómo funciona:",
-  "Antigravity/Copilot IDE request → DNS redirect to localhost:443 → MITM proxy intercepts → Audira Route → response to Antigravity/Copilot": "Solicitud de Antigravity/Copilot IDE → Redireccionamiento DNS a localhost:443 → El proxy MITM intercepta → Audira Route → respuesta a Antigravity/Copilot",
+  "Antigravity/Copilot IDE request → DNS redirect to localhost:443 → MITM proxy intercepts → 9Router → response to Antigravity/Copilot": "Solicitud de Antigravity/Copilot IDE → Redireccionamiento DNS a localhost:443 → El proxy MITM intercepta → 9Router → respuesta a Antigravity/Copilot",
   "No API keys — create one in Keys page": "Sin claves API — cree una en la página Claves",
-  "sk_audira-route (default)": "sk_audira-route (predeterminado)",
+  "sk_9router (default)": "sk_9router (predeterminado)",
   "Server started": "Servidor iniciado",
   "Failed to start server": "Error al iniciar el servidor",
   "Server stopped — all DNS cleared": "Servidor detenido — todo DNS borrado",
@@ -188,5 +188,7 @@
   "Sudo Password Required": "Contraseña de Sudo requerida",
   "Enter your sudo password to start/stop MITM server": "Ingrese su contraseña de sudo para iniciar/detener el servidor MITM",
   "Sudo Password": "Contraseña de sudo",
-  "Click to add, click again to remove. Changes are saved automatically.": "Haz clic para agregar, haz clic de nuevo para eliminar. Los cambios se guardan automáticamente."
+  "Click to add, click again to remove. Changes are saved automatically.": "Haz clic para agregar, haz clic de nuevo para eliminar. Los cambios se guardan automáticamente.",
+  "⚠️ Risk Notice: This provider uses a subscription/OAuth session not officially licensed for proxy/router use. Account may be restricted or banned. Use at your own risk.": "⚠️ Aviso de Riesgo: Este proveedor usa una sesión de suscripción/OAuth no licenciada oficialmente para uso de proxy/router. La cuenta puede ser restringida o baneada. Use bajo su propio riesgo.",
+  "⚠️ MITM intercepts HTTPS traffic of IDE tools (Antigravity, GitHub Copilot, Kiro) via local CA to redirect requests to your providers. May violate ToS → account ban. Use at your own risk.": "⚠️ MITM intercepta el tráfico HTTPS de herramientas IDE (Antigravity, GitHub Copilot, Kiro) mediante CA local para redirigir solicitudes a sus proveedores. Puede violar los ToS → riesgo de baneo de cuenta. Use bajo su propio riesgo."
 }

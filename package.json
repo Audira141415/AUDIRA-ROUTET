@@ -1,7 +1,7 @@
 {
-  "name": "audira-route-app",
-  "version": "0.4.46",
-  "description": "Audira Route web dashboard",
+  "name": "9router-app",
+  "version": "0.4.55",
+  "description": "9Router web dashboard",
   "private": true,
   "scripts": {
     "dev": "next dev --webpack --port 20128",
@@ -9,9 +9,7 @@
     "start": "next start",
     "dev:bun": "bun --bun next dev --webpack --port 20128",
     "build:bun": "bun --bun next build --webpack",
-    "start:bun": "bun ./.next/standalone/server.js",
-    "dev:desktop": "cd desktop && npm run dev",
-    "build:desktop": "cd desktop && npm run build"
+    "start:bun": "bun ./.next/standalone/server.js"
   },
   "dependencies": {
     "@dnd-kit/core": "^6.3.1",

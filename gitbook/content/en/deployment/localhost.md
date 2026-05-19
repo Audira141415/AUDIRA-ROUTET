@@ -1,15 +1,15 @@
 # 🏠 Localhost Deployment
 
-Run Audira Route on your local machine for development and personal use.
+Run 9Router on your local machine for development and personal use.
 
 ---
 
 ## 📦 Installation
 
-Install Audira Route globally via npm:
+Install 9Router globally via npm:
 
 ```bash
-npm install -g audira-route
+npm install -g 9router
 ```
 
 **Requirements:**
@@ -20,10 +20,10 @@ npm install -g audira-route
 
 ## 🚀 Starting the Server
 
-Start Audira Route with a single command:
+Start 9Router with a single command:
 
 ```bash
-audira-route
+9router
 ```
 
 The dashboard will automatically open in your browser at `http://localhost:3000`
@@ -31,7 +31,7 @@ The dashboard will automatically open in your browser at `http://localhost:3000`
 **Default Configuration:**
 - **Dashboard**: `http://localhost:3000`
 - **API Endpoint**: `http://localhost:20128/v1`
-- **Data Directory**: `~/.audira-route`
+- **Data Directory**: `~/.9router`
 
 ---
 
@@ -42,7 +42,7 @@ The dashboard will automatically open in your browser at `http://localhost:3000`
 Set a custom data directory using environment variable:
 
 ```bash
-DATA_DIR=/path/to/data audira-route
+DATA_DIR=/path/to/data 9router
 ```
 
 ### Custom Port
@@ -53,10 +53,10 @@ The API port (20128) and dashboard port (3000) are configured in the application
 
 ## 🛑 Stopping the Server
 
-Press `Ctrl+C` in the terminal where Audira Route is running.
+Press `Ctrl+C` in the terminal where 9Router is running.
 
 ```bash
-# In the terminal running Audira Route
+# In the terminal running 9router
 ^C  # Press Ctrl+C
 ```
 
@@ -69,25 +69,25 @@ The server will gracefully shut down and save all data.
 Simply run the start command again:
 
 ```bash
-audira-route
+9router
 ```
 
 All your configurations, API keys, and combos are preserved in the data directory.
 
 ---
 
-## 📊 Updating Audira Route
+## 📊 Updating 9Router
 
 Update to the latest version:
 
 ```bash
-npm update -g Audira Route
+npm update -g 9router
 ```
 
 Check your current version:
 
 ```bash
-npm list -g Audira Route
+npm list -g 9router
 ```
 
 ---
@@ -113,7 +113,7 @@ If you encounter permission errors during installation:
 
 ```bash
 # Use sudo (not recommended)
-sudo npm install -g audira-route
+sudo npm install -g 9router
 
 # Or fix npm permissions (recommended)
 mkdir ~/.npm-global
@@ -128,10 +128,10 @@ If the data directory is not accessible:
 
 ```bash
 # Check permissions
-ls -la ~/.audira-route
+ls -la ~/.9router
 
 # Fix permissions
-chmod 755 ~/.audira-route
+chmod 755 ~/.9router
 ```
 
 ---
@@ -139,7 +139,7 @@ chmod 755 ~/.audira-route
 ## 📁 Data Directory Structure
 
 ```
-~/.audira-route/
+~/.9router/
 ├── db.json           # Main database (providers, combos, settings)
 ├── logs/             # Application logs
 └── cache/            # Temporary cache files
@@ -149,10 +149,10 @@ chmod 755 ~/.audira-route
 
 ```bash
 # Backup
-cp -r ~/.audira-route ~/.audira-route.backup
+cp -r ~/.9router ~/.9router.backup
 
 # Restore
-cp -r ~/.audira-route.backup ~/.audira-route
+cp -r ~/.9router.backup ~/.9router
 ```
 
 ---

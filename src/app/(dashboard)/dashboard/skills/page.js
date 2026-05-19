@@ -45,7 +45,7 @@ function SkillRow({ skill }) {
 
       <div className="min-w-0 flex-1">
         <div className="flex items-center gap-2 flex-wrap">
-          <h3 className="font-extrabold text-sm text-text-main">{skill.name}</h3>
+          <h3 className="font-semibold text-sm text-text-main">{skill.name}</h3>
           {skill.isEntry && (
             <Badge variant="primary" size="sm">START HERE</Badge>
           )}
@@ -78,7 +78,7 @@ export default function SkillsPage() {
       <Card padding="md">
         <div className="text-xs text-text-muted mb-2">Paste this to your AI:</div>
         <div className="px-3 py-2 rounded bg-surface-2 font-mono text-[12px] text-text-main">
-          Read this skill and use it: {getSkillRawUrl("audira-route")}
+          Read this skill and use it: {getSkillRawUrl("9router")}
         </div>
       </Card>
 
@@ -91,7 +91,7 @@ export default function SkillsPage() {
       <Card padding="md">
         <div className="flex items-center justify-between gap-3 flex-wrap">
           <div>
-            <h2 className="text-sm font-extrabold text-text-main">More on GitHub</h2>
+            <h2 className="text-sm font-semibold text-text-main">More on GitHub</h2>
             <p className="text-xs text-text-muted mt-0.5">
               Browse source, README, and examples.
             </p>

@@ -30,12 +30,12 @@ const readConfig = async () => {
 
 const has9RouterConfig = (config) => {
   if (!Array.isArray(config)) return false;
-  return config.some((entry) => entry.name === "Audira Route");
+  return config.some((entry) => entry.name === "9Router");
 };
 
 const get9RouterEntry = (config) => {
   if (!Array.isArray(config)) return null;
-  return config.find((entry) => entry.name === "Audira Route") || null;
+  return config.find((entry) => entry.name === "9Router") || null;
 };
 
 // GET - Read current copilot config
@@ -58,7 +58,7 @@ export async function GET() {
   }
 }
 
-// POST - Apply Audira Route config to chatLanguageModels.json
+// POST - Apply 9Router config to chatLanguageModels.json
 export async function POST(request) {
   try {
     const { baseUrl, apiKey, models } = await request.json();
@@ -79,10 +79,10 @@ export async function POST(request) {
     } catch { /* No existing config */ }
 
     const endpointUrl = `${baseUrl}/chat/completions#models.ai.azure.com`;
-    const keyToUse = apiKey || "sk_audira-route";
+    const keyToUse = apiKey || "sk_9router";
 
     const newEntry = {
-      name: "Audira Route",
+      name: "9Router",
       vendor: "azure",
       apiKey: keyToUse,
       models: models.map((id) => ({
@@ -96,8 +96,8 @@ export async function POST(request) {
       })),
     };
 
-    // Replace existing Audira Route entry or append
-    const idx = config.findIndex((e) => e.name === "Audira Route");
+    // Replace existing 9Router entry or append
+    const idx = config.findIndex((e) => e.name === "9Router");
     if (idx >= 0) {
       config[idx] = newEntry;
     } else {
@@ -117,7 +117,7 @@ export async function POST(request) {
   }
 }
 
-// DELETE - Remove Audira Route entry from chatLanguageModels.json
+// DELETE - Remove 9Router entry from chatLanguageModels.json
 export async function DELETE() {
   try {
     const configPath = getConfigPath();
@@ -134,12 +134,12 @@ export async function DELETE() {
       throw error;
     }
 
-    config = config.filter((e) => e.name !== "Audira Route");
+    config = config.filter((e) => e.name !== "9Router");
     await fs.writeFile(configPath, JSON.stringify(config, null, 2));
 
     return NextResponse.json({
       success: true,
-      message: "Audira Route removed from Copilot config",
+      message: "9Router removed from Copilot config",
     });
   } catch (error) {
     console.log("Error resetting copilot settings:", error);

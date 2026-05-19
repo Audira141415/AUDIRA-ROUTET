@@ -1,8 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-node_modules/
-**/node_modules/
+/node_modules
 /.pnp
 .pnp.*
 .yarn/*
@@ -73,14 +72,3 @@ ecosystem.config.*
 scripts/agSniffer/*
 gitbooks/*
 gitbook/README.md
-
-# Local runtime data
-.audira-route-data/
-.9router-data/
-*.sqlite
-*.sqlite-shm
-*.sqlite-wal
-.antigravity/
-.kiro/
-check_*.js
-reset_*.js

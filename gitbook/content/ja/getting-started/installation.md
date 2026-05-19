@@ -1,6 +1,6 @@
 # インストール
 
-トラブルシューティングのヒント付きのAudira Route詳細インストールガイド。
+トラブルシューティングのヒント付きの9Router詳細インストールガイド。
 
 ---
 
@@ -31,37 +31,37 @@ npm --version
 
 ### 方法1: グローバルインストール (推奨)
 
-どこからでも使用できるようにAudira Routeをグローバルインストール:
+どこからでも使用できるように9Routerをグローバルインストール:
 
 ```bash
-npm install -g audira-route
+npm install -g 9router
 ```
 
-**Audira Routeを起動:**
+**9Routerを起動:**
 
 ```bash
-audira-route
+9router
 ```
 
 **利点:**
 - ✅ どのディレクトリからでも実行
-- ✅ シンプルなコマンド: `audira-route`
-- ✅ `npm update -g audira-route` で自動更新
+- ✅ シンプルなコマンド: `9router`
+- ✅ `npm update -g 9router` で自動更新
 
 ### 方法2: ローカルインストール
 
 特定のプロジェクトにインストール:
 
 ```bash
-mkdir my-audira-route
-cd my-audira-route
-npm install audira-route
+mkdir my-9router
+cd my-9router
+npm install 9router
 ```
 
-**Audira Routeを起動:**
+**9Routerを起動:**
 
 ```bash
-npx audira-route
+npx 9router
 ```
 
 **利点:**
@@ -74,8 +74,8 @@ npx audira-route
 GitHubからクローンしてビルド:
 
 ```bash
-git clone https://github.com/decolua/audira-route.git
-cd audira-route/app
+git clone https://github.com/decolua/9router.git
+cd 9router/app
 npm install
 npm run build
 npm start
@@ -93,13 +93,13 @@ npm start
 ### サーバーを起動
 
 ```bash
-audira-route
+9router
 ```
 
 **何が起こるか:**
 1. サーバーが `http://localhost:20128` で起動
 2. ダッシュボードが自動的にブラウザで開く
-3. `~/.audira-route` にデータディレクトリが作成される
+3. `~/.9router` にデータディレクトリが作成される
 4. APIキーが自動生成される
 
 ### ダッシュボードログイン
@@ -193,7 +193,7 @@ export JWT_SECRET="your-secure-secret-change-this"
 export INITIAL_PASSWORD="your-password"
 
 # ストレージ
-export DATA_DIR="~/.audira-route"
+export DATA_DIR="~/.9router"
 
 # サーバー
 export PORT="20128"
@@ -205,11 +205,11 @@ export ENABLE_REQUEST_LOGS="false"
 
 ### データディレクトリ
 
-**デフォルトの場所:** `~/.audira-route`
+**デフォルトの場所:** `~/.9router`
 
 **内容:**
 ```
-~/.audira-route/
+~/.9router/
   ├── db.json           # データベース (プロバイダー、コンボ、使用量)
   ├── api-keys.json     # APIキー
   └── logs/             # リクエストログ (有効化されている場合)
@@ -219,7 +219,7 @@ export ENABLE_REQUEST_LOGS="false"
 
 ```bash
 export DATA_DIR="/custom/path"
-audira-route
+9router
 ```
 
 ### ポート設定
@@ -230,13 +230,13 @@ audira-route
 
 ```bash
 export PORT="3000"
-audira-route
+9router
 ```
 
 **またはコマンドラインで:**
 
 ```bash
-Audira Route --port 3000
+9router --port 3000
 ```
 
 ---
@@ -263,14 +263,14 @@ kill -9 <PID>
 **解決策2: 別のポートを使用**
 
 ```bash
-Audira Route --port 3000
+9router --port 3000
 ```
 
 ### Permission Denied
 
 **エラー:**
 ```
-Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/audira-route'
+Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/9router'
 ```
 
 **解決策: sudoを使用 (非推奨) またはnpm権限を修正**
@@ -283,7 +283,7 @@ echo 'export PATH=~/.npm-global/bin:$PATH' >> ~/.bashrc
 source ~/.bashrc
 
 # 再度インストール
-npm install -g audira-route
+npm install -g 9router
 ```
 
 ### Node.jsバージョンが古すぎる
@@ -345,23 +345,23 @@ Dashboard → Provider → Disconnect → Reconnect
 
 ### 高メモリ使用量
 
-**問題:** Audira RouteがRAMを使いすぎている
+**問題:** 9RouterがRAMを使いすぎている
 
 **解決策: サーバーを再起動**
 
 ```bash
 # 停止
-pkill -f audira-route
+pkill -f 9router
 
 # 起動
-audira-route
+9router
 ```
 
 **または自動再起動にPM2を使用:**
 
 ```bash
 npm install -g pm2
-pm2 start audira-route --name audira-route
+pm2 start 9router --name 9router
 pm2 save
 ```
 
@@ -372,8 +372,8 @@ pm2 save
 ### ローカル開発
 
 ```bash
-npm install -g audira-route
-audira-route
+npm install -g 9router
+9router
 ```
 
 **ユースケース:** 個人コーディング、テスト
@@ -382,7 +382,7 @@ audira-route
 
 ```bash
 # インストール
-npm install -g audira-route
+npm install -g 9router
 
 # 設定
 export JWT_SECRET="your-secure-secret"
@@ -391,7 +391,7 @@ export NODE_ENV="production"
 
 # PM2で起動
 npm install -g pm2
-pm2 start audira-route --name audira-route
+pm2 start 9router --name 9router
 pm2 save
 pm2 startup
 ```
@@ -401,15 +401,15 @@ pm2 startup
 ### Docker
 
 ```bash
-docker pull audira-route/audira-route:latest
+docker pull 9router/9router:latest
 
 docker run -d \
   -p 20128:20128 \
   -e JWT_SECRET="your-secure-secret" \
   -e INITIAL_PASSWORD="your-password" \
-  -v audira-route-data:/root/.audira-route \
-  --name audira-route \
-  audira-route/audira-route:latest
+  -v 9router-data:/root/.9router \
+  --name 9router \
+  9router/9router:latest
 ```
 
 **ユースケース:** コンテナデプロイ、Kubernetes
@@ -444,13 +444,13 @@ server {
 ### グローバルインストールを削除
 
 ```bash
-npm uninstall -g Audira Route
+npm uninstall -g 9router
 ```
 
 ### データディレクトリを削除
 
 ```bash
-rm -rf ~/.audira-route
+rm -rf ~/.9router
 ```
 
 ### 設定を削除
@@ -458,7 +458,7 @@ rm -rf ~/.audira-route
 ```bash
 # シェル設定から環境変数を削除
 nano ~/.bashrc  # または ~/.zshrc
-# Audira Route関連のエクスポートを削除
+# 9router関連のエクスポートを削除
 ```
 
 ---
@@ -473,6 +473,6 @@ nano ~/.bashrc  # または ~/.zshrc
 
 ## ヘルプが必要?
 
-- **ウェブサイト**: [audira-route.com](https://audira-route.com)
-- **GitHub**: [github.com/decolua/audira-route](https://github.com/decolua/audira-route)
-- **Issues**: [github.com/decolua/audira-route/issues](https://github.com/decolua/audira-route/issues)
+- **ウェブサイト**: [9router.com](https://9router.com)
+- **GitHub**: [github.com/decolua/9router](https://github.com/decolua/9router)
+- **Issues**: [github.com/decolua/9router/issues](https://github.com/decolua/9router/issues)

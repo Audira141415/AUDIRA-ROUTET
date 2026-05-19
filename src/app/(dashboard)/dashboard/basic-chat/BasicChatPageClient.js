@@ -758,7 +758,7 @@ export default function BasicChatPageClient() {
             </button>
 
             {modelMenuOpen ? (
-              <div className="absolute left-0 top-[calc(100%+10px)] z-30 w-[min(520px,calc(100vw-2rem))] overflow-hidden rounded-[20px] border-2 border-black bg-[#262626] shadow-[6px_6px_0px_#000000]">
+              <div className="absolute left-0 top-[calc(100%+10px)] z-30 w-[min(520px,calc(100vw-2rem))] overflow-hidden rounded-[20px] border border-white/10 bg-[#262626] shadow-2xl shadow-black/50">
                 <div className="border-b border-white/10 px-4 py-3">
                   <p className="text-xs uppercase tracking-[0.22em] text-white/45">Models</p>
                   <p className="text-sm text-white/75">Only from connected providers</p>
@@ -813,7 +813,7 @@ export default function BasicChatPageClient() {
         </div>
 
         {historyOpen ? (
-          <div ref={historyMenuRef} className="absolute right-4 top-[72px] z-20 w-[min(360px,calc(100vw-2rem))] rounded-[20px] border-2 border-black bg-[#262626] p-2 shadow-[6px_6px_0px_#000000] lg:right-6">
+          <div ref={historyMenuRef} className="absolute right-4 top-[72px] z-20 w-[min(360px,calc(100vw-2rem))] rounded-[20px] border border-white/10 bg-[#262626] p-2 shadow-2xl shadow-black/50 lg:right-6">
             <div className="px-3 py-2">
               <p className="text-xs uppercase tracking-[0.22em] text-white/45">Recent chats</p>
             </div>
@@ -864,7 +864,7 @@ export default function BasicChatPageClient() {
                     <span className="material-symbols-outlined text-[30px]">chat</span>
                   </div>
                   <div className="space-y-2">
-                    <h2 className="text-2xl font-extrabold text-white">Start a conversation</h2>
+                    <h2 className="text-2xl font-semibold text-white">Start a conversation</h2>
                     <p className="text-sm leading-6 text-white/60">
                       Simple chat interface to interact with any AI model from connected providers. Select a model and start chatting!
                     </p>

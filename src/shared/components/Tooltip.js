@@ -9,13 +9,13 @@ export default function Tooltip({ text, children, position = "top", color }) {
   }[position];
 
   const bgStyle = color ? { backgroundColor: color } : {};
-  const bgClass = color ? "" : "bg-black";
+  const bgClass = color ? "" : "bg-gray-900";
 
   return (
     <div className="relative inline-flex group">
       {children}
       <div
-        className={`pointer-events-none absolute ${posClass} z-50 w-max max-w-56 rounded-none border-2 border-black px-2 py-1 text-[11px] leading-snug ${bgClass} text-white shadow-[2px_2px_0px_#000000] opacity-0 group-hover:opacity-100 transition-opacity duration-100 ease-in-out whitespace-normal`}
+        className={`pointer-events-none absolute ${posClass} z-50 w-max max-w-56 rounded px-2 py-1 text-[11px] leading-snug ${bgClass} text-white opacity-0 group-hover:opacity-100 transition-opacity duration-150 whitespace-normal`}
         style={bgStyle}
       >
         {text}

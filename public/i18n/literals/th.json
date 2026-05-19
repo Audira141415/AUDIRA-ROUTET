@@ -108,7 +108,7 @@
   "Manage your AI provider connections": "จัดการการเชื่อมต่อผู้ให้บริการ AI ของคุณ",
   "Model combos with fallback": "ชุดรวมโมเดลที่มี fallback",
   "Monitor your API usage, token consumption, and request logs": "ติดตามการใช้งาน API การใช้งาน token และบันทึกคำขอของคุณ",
-  "Intercept CLI tool traffic and route through Audira Route": "สกัดปะท่อ CLI และเส้นทางผ่าน Audira Route",
+  "Intercept CLI tool traffic and route through 9Router": "สกัดปะท่อ CLI และเส้นทางผ่าน 9Router",
   "Configure CLI tools": "กำหนดค่าเครื่องมือ CLI",
   "API endpoint configuration": "การตั้งค่าจุดสิ้นสุด API",
   "Manage your preferences": "จัดการการตั้งค่าของคุณ",
@@ -172,11 +172,11 @@
   "Cert": "ใบรับรอง",
   "Server": "เซิร์ฟเวอร์",
   "Purpose:": "วัตถุประสงค์:",
-  "Use Antigravity IDE & GitHub Copilot → with ANY provider/model from Audira Route": "ใช้ Antigravity IDE & GitHub Copilot → ที่มีผู้ให้บริการ/โมเดลใด ๆ จาก Audira Route",
+  "Use Antigravity IDE & GitHub Copilot → with ANY provider/model from 9Router": "ใช้ Antigravity IDE & GitHub Copilot → ที่มีผู้ให้บริการ/โมเดลใด ๆ จาก 9Router",
   "How it works:": "วิธีการทำงาน:",
-  "Antigravity/Copilot IDE request → DNS redirect to localhost:443 → MITM proxy intercepts → Audira Route → response to Antigravity/Copilot": "คำขอ Antigravity/Copilot IDE → เปลี่ยนเส้นทาง DNS เป็น localhost:443 → MITM proxy สกัดปะท่อ → Audira Route → ตอบสนอง Antigravity/Copilot",
+  "Antigravity/Copilot IDE request → DNS redirect to localhost:443 → MITM proxy intercepts → 9Router → response to Antigravity/Copilot": "คำขอ Antigravity/Copilot IDE → เปลี่ยนเส้นทาง DNS เป็น localhost:443 → MITM proxy สกัดปะท่อ → 9Router → ตอบสนอง Antigravity/Copilot",
   "No API keys — create one in Keys page": "ไม่มีคีย์ API — สร้างคีย์ในหน้า Keys",
-  "sk_audira-route (default)": "sk_audira-route (ค่าเริ่มต้น)",
+  "sk_9router (default)": "sk_9router (ค่าเริ่มต้น)",
   "Server started": "เซิร์ฟเวอร์เริ่มต้นแล้ว",
   "Failed to start server": "ไม่สามารถเริ่มเซิร์ฟเวอร์",
   "Server stopped — all DNS cleared": "หยุดเซิร์ฟเวอร์ — ล้าง DNS ทั้งหมด",
@@ -188,5 +188,7 @@
   "Sudo Password Required": "ต้องการรหัสผ่าน Sudo",
   "Enter your sudo password to start/stop MITM server": "ป้อนรหัสผ่าน sudo ของคุณเพื่อเริ่ม/หยุดเซิร์ฟเวอร์ MITM",
   "Sudo Password": "รหัสผ่าน Sudo",
-  "Click to add, click again to remove. Changes are saved automatically.": "คลิกเพื่อเพิ่ม คลิกอีกครั้งเพื่อลบ การเปลี่ยนแปลงจะถูกบันทึกโดยอัตโนมัติ"
+  "Click to add, click again to remove. Changes are saved automatically.": "คลิกเพื่อเพิ่ม คลิกอีกครั้งเพื่อลบ การเปลี่ยนแปลงจะถูกบันทึกโดยอัตโนมัติ",
+  "⚠️ Risk Notice: This provider uses a subscription/OAuth session not officially licensed for proxy/router use. Account may be restricted or banned. Use at your own risk.": "⚠️ ประกาศความเสี่ยง: ผู้ให้บริการนี้ใช้เซสชันสมัครสมาชิก/OAuth ที่ไม่ได้รับอนุญาตอย่างเป็นทางการสำหรับการใช้งานพร็อกซี/เราเตอร์ บัญชีอาจถูกจำกัดหรือถูกแบน ใช้งานด้วยความเสี่ยงของคุณเอง",
+  "⚠️ MITM intercepts HTTPS traffic of IDE tools (Antigravity, GitHub Copilot, Kiro) via local CA to redirect requests to your providers. May violate ToS → account ban. Use at your own risk.": "⚠️ MITM ดักจับการรับส่งข้อมูล HTTPS ของเครื่องมือ IDE (Antigravity, GitHub Copilot, Kiro) ผ่าน CA ท้องถิ่นเพื่อเปลี่ยนเส้นทางคำขอไปยังผู้ให้บริการของคุณ อาจละเมิด ToS → เสี่ยงถูกแบนบัญชี ใช้งานด้วยความเสี่ยงของคุณเอง"
 }

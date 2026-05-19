@@ -1,4 +1,4 @@
-docker stop audira-route
-docker rm audira-route
-docker build -t audira-route .
-docker run -d --name audira-route -p 20128:20128 --env-file .env -v audira-route-data:/app/data audira-route
+docker stop 9router
+docker rm 9router
+docker build -t 9router .
+docker run -d --name 9router -p 20128:20128 --env-file .env -v 9router-data:/app/data 9router

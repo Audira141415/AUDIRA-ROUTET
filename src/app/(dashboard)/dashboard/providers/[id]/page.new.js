@@ -589,7 +589,7 @@ export default function ProviderDetailPage() {
             )}
           </div>
           <div>
-            <h1 className="text-3xl font-extrabold tracking-tight">{providerInfo.name}</h1>
+            <h1 className="text-3xl font-semibold tracking-tight">{providerInfo.name}</h1>
             <p className="text-text-muted">
               {connections.length} connection{connections.length === 1 ? "" : "s"}
             </p>
@@ -601,7 +601,7 @@ export default function ProviderDetailPage() {
         <Card>
           <div className="flex items-center justify-between mb-4">
             <div>
-              <h2 className="text-lg font-extrabold">{isAnthropicCompatible ? "Anthropic Compatible Details" : "OpenAI Compatible Details"}</h2>
+              <h2 className="text-lg font-semibold">{isAnthropicCompatible ? "Anthropic Compatible Details" : "OpenAI Compatible Details"}</h2>
               <p className="text-sm text-text-muted">
                 {isAnthropicCompatible ? "Messages API" : (providerNode.apiType === "responses" ? "Responses API" : "Chat Completions")} · {(providerNode.baseUrl || "").replace(/\/$/, "")}/
                 {isAnthropicCompatible ? "messages" : (providerNode.apiType === "responses" ? "responses" : "chat/completions")}
@@ -655,7 +655,7 @@ export default function ProviderDetailPage() {
       {/* Connections */}
       <Card>
         <div className="flex items-center justify-between mb-4">
-          <h2 className="text-lg font-extrabold">Connections</h2>
+          <h2 className="text-lg font-semibold">Connections</h2>
           {!isCompatible && (
             <Button
               size="sm"
@@ -681,7 +681,7 @@ export default function ProviderDetailPage() {
             )}
           </div>
         ) : (
-          <div className="flex flex-col divide-y divide-black/[0.03]">
+          <div className="flex flex-col divide-y divide-black/[0.03] dark:divide-white/[0.03]">
             {connections
               .sort((a, b) => (a.priority || 0) - (b.priority || 0))
               .map((conn, index) => (
@@ -707,7 +707,7 @@ export default function ProviderDetailPage() {
 
       {/* Models */}
       <Card>
-        <h2 className="text-lg font-extrabold mb-4">
+        <h2 className="text-lg font-semibold mb-4">
           {providerInfo.passthroughModels ? "Model Aliases" : "Available Models"}
         </h2>
         {renderModelsSection()}
@@ -1180,7 +1180,7 @@ function ConnectionRow({ connection, isOAuth, isFirst, isLast, onMoveUp, onMoveD
   };
 
   return (
-    <div className={`group flex items-center justify-between p-3 rounded-lg hover:bg-black/[0.02] transition-colors ${connection.isActive === false ? "opacity-60" : ""}`}>
+    <div className={`group flex items-center justify-between p-3 rounded-lg hover:bg-black/[0.02] dark:hover:bg-white/[0.02] transition-colors ${connection.isActive === false ? "opacity-60" : ""}`}>
       <div className="flex items-center gap-3 flex-1 min-w-0">
         {/* Priority arrows */}
         <div className="flex flex-col">
@@ -1229,7 +1229,7 @@ function ConnectionRow({ connection, isOAuth, isFirst, isLast, onMoveUp, onMoveD
           title={(connection.isActive ?? true) ? "Disable connection" : "Enable connection"}
         />
         <div className="flex gap-1 ml-1 opacity-0 group-hover:opacity-100 transition-opacity">
-          <button onClick={onEdit} className="p-2 hover:bg-black/5 rounded text-text-muted hover:text-primary">
+          <button onClick={onEdit} className="p-2 hover:bg-black/5 dark:hover:bg-white/5 rounded text-text-muted hover:text-primary">
             <span className="material-symbols-outlined text-[18px]">edit</span>
           </button>
           <button onClick={onDelete} className="p-2 hover:bg-red-500/10 rounded text-red-500">

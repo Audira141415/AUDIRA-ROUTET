@@ -31,11 +31,10 @@ export async function POST(request) {
 
     let isValid = false;
     if (storedHash) {
-      isValid = bcrypt.compareSync(password, storedHash);
+      isValid = await bcrypt.compare(password, storedHash);
     } else {
       // Use env var or default
       const initialPassword = process.env.INITIAL_PASSWORD || "123456";
-      console.log(`[Login Debug] No storedHash. Comparing provided password "${password}" with initialPassword "${initialPassword}"`);
       isValid = password === initialPassword;
     }
 

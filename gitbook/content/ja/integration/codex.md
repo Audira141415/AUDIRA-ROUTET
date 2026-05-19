@@ -1,12 +1,12 @@
 # OpenAI Codex CLI統合
 
-Audira RouteをOpenAI Codex CLIと統合し、OpenAI APIリクエストをAudira Routeのインテリジェントルーティングシステム経由でルーティングします。
+9RouterをOpenAI Codex CLIと統合し、OpenAI APIリクエストを9Routerのインテリジェントルーティングシステム経由でルーティングします。
 
 ## 前提条件
 
 - OpenAI Codex CLIがインストール済み
-- Audira Routeがローカルで動作中、またはクラウドエンドポイントが設定済み
-- Audira RouteダッシュボードからのAPIキー
+- 9Routerがローカルで動作中、またはクラウドエンドポイントが設定済み
+- 9RouterダッシュボードからのAPIキー
 
 ## セットアップ
 
@@ -15,11 +15,11 @@ Audira RouteをOpenAI Codex CLIと統合し、OpenAI APIリクエストをAudira
 シェル設定ファイル (`~/.bashrc`、`~/.zshrc`、または `~/.bash_profile`) で以下の環境変数を設定:
 
 ```bash
-# Audira Route用Base URL
+# 9Router用Base URL
 export OPENAI_BASE_URL="http://localhost:20128/v1"
 
-# Audira RouteダッシュボードからのAPIキー
-export OPENAI_API_KEY="your-audira-route-api-key"
+# 9RouterダッシュボードからのAPIキー
+export OPENAI_API_KEY="your-9router-api-key"
 ```
 
 ### 2. シェル設定をリロード
@@ -39,7 +39,7 @@ echo $OPENAI_API_KEY
 
 ## 利用可能なモデル
 
-Audira Routeは以下のCodexモデルを提供します:
+9Routerは以下のCodexモデルを提供します:
 
 | モデルID | 説明 |
 |----------|-------------|
@@ -77,7 +77,7 @@ codex --model cx/gpt-5.1-codex-max "Explain what this code does: $(cat myfile.js
 ```json
 {
   "baseUrl": "http://localhost:20128/v1",
-  "apiKey": "your-audira-route-api-key",
+  "apiKey": "your-9router-api-key",
   "defaultModel": "cx/gpt-5.2-codex"
 }
 ```
@@ -88,7 +88,7 @@ codex --model cx/gpt-5.1-codex-max "Explain what this code does: $(cat myfile.js
 
 認証エラーが発生した場合:
 
-1. Audira RouteダッシュボードでAPIキーが正しいか確認
+1. 9RouterダッシュボードでAPIキーが正しいか確認
 2. `OPENAI_API_KEY` 環境変数が設定されているか確認
 3. APIキーが期限切れでないか確認
 
@@ -96,7 +96,7 @@ codex --model cx/gpt-5.1-codex-max "Explain what this code does: $(cat myfile.js
 
 接続エラーが発生した場合:
 
-1. Audira Routeが動作中か確認: `curl http://localhost:20128/health`
+1. 9Routerが動作中か確認: `curl http://localhost:20128/health`
 2. 環境変数が正しく設定されているか確認
 3. ファイアウォールがポート20128をブロックしていないか確認
 
@@ -104,19 +104,19 @@ codex --model cx/gpt-5.1-codex-max "Explain what this code does: $(cat myfile.js
 
 「model not available」エラーが発生した場合:
 
-1. モデル名がAudira Route設定と一致するか確認
-2. Audira RouteダッシュボードでOpenAIプロバイダー接続がアクティブか確認
+1. モデル名が9Router設定と一致するか確認
+2. 9RouterダッシュボードでOpenAIプロバイダー接続がアクティブか確認
 3. 接続されたプロバイダーでモデルが利用可能か確認
 
 ## クラウドエンドポイント
 
-localhostの代わりにAudira Routeクラウドエンドポイントを使用するには:
+localhostの代わりに9Routerクラウドエンドポイントを使用するには:
 
 ```bash
-export OPENAI_BASE_URL="https://audira-route.com"
+export OPENAI_BASE_URL="https://9router.com"
 ```
 
-Audira RouteクラウドダッシュボードでAPIキーが設定されていることを確認してください。
+9RouterクラウドダッシュボードでAPIキーが設定されていることを確認してください。
 
 ## 高度な設定
 

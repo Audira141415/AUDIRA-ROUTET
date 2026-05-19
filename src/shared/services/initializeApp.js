@@ -110,7 +110,7 @@ async function autoStartMitm() {
     const activeKey = keys.find(k => k.isActive !== false);
 
     console.log("[InitApp] MITM was enabled, auto-starting...");
-    await startMitm(activeKey?.key || "sk_audira-route", password);
+    await startMitm(activeKey?.key || "sk_9router", password);
     console.log("[InitApp] MITM auto-started");
     try {
       await restoreToolDNS(password);

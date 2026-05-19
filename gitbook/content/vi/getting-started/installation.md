@@ -1,6 +1,6 @@
 # Cài đặt
 
-Hướng dẫn cài đặt chi tiết cho Audira Route với mẹo troubleshooting.
+Hướng dẫn cài đặt chi tiết cho 9Router với mẹo troubleshooting.
 
 ---
 
@@ -31,37 +31,37 @@ npm --version
 
 ### Cách 1: Cài Global (Khuyên dùng)
 
-Cài Audira Route toàn cục để dùng ở bất kỳ đâu:
+Cài 9Router toàn cục để dùng ở bất kỳ đâu:
 
 ```bash
-npm install -g audira-route
+npm install -g 9router
 ```
 
-**Khởi động Audira Route:**
+**Khởi động 9Router:**
 
 ```bash
-audira-route
+9router
 ```
 
 **Lợi ích:**
 - ✅ Chạy từ mọi thư mục
-- ✅ Lệnh đơn giản: `audira-route`
-- ✅ Auto-update với `npm update -g audira-route`
+- ✅ Lệnh đơn giản: `9router`
+- ✅ Auto-update với `npm update -g 9router`
 
 ### Cách 2: Cài Local
 
 Cài trong project cụ thể:
 
 ```bash
-mkdir my-audira-route
-cd my-audira-route
-npm install audira-route
+mkdir my-9router
+cd my-9router
+npm install 9router
 ```
 
-**Khởi động Audira Route:**
+**Khởi động 9Router:**
 
 ```bash
-npx audira-route
+npx 9router
 ```
 
 **Lợi ích:**
@@ -74,8 +74,8 @@ npx audira-route
 Clone và build từ GitHub:
 
 ```bash
-git clone https://github.com/decolua/audira-route.git
-cd audira-route/app
+git clone https://github.com/decolua/9router.git
+cd 9router/app
 npm install
 npm run build
 npm start
@@ -93,13 +93,13 @@ npm start
 ### Khởi động Server
 
 ```bash
-audira-route
+9router
 ```
 
 **Điều gì xảy ra:**
 1. Server khởi động tại `http://localhost:20128`
 2. Dashboard tự động mở trong browser
-3. Data directory được tạo tại `~/.audira-route`
+3. Data directory được tạo tại `~/.9router`
 4. API key được tạo tự động
 
 ### Đăng nhập Dashboard
@@ -193,7 +193,7 @@ export JWT_SECRET="your-secure-secret-change-this"
 export INITIAL_PASSWORD="your-password"
 
 # Storage
-export DATA_DIR="~/.audira-route"
+export DATA_DIR="~/.9router"
 
 # Server
 export PORT="20128"
@@ -205,11 +205,11 @@ export ENABLE_REQUEST_LOGS="false"
 
 ### Data Directory
 
-**Vị trí mặc định:** `~/.audira-route`
+**Vị trí mặc định:** `~/.9router`
 
 **Nội dung:**
 ```
-~/.audira-route/
+~/.9router/
   ├── db.json           # Database (providers, combos, usage)
   ├── api-keys.json     # API keys
   └── logs/             # Request logs (if enabled)
@@ -219,7 +219,7 @@ export ENABLE_REQUEST_LOGS="false"
 
 ```bash
 export DATA_DIR="/custom/path"
-audira-route
+9router
 ```
 
 ### Cấu hình Port
@@ -230,13 +230,13 @@ audira-route
 
 ```bash
 export PORT="3000"
-audira-route
+9router
 ```
 
 **Hoặc dùng command line:**
 
 ```bash
-Audira Route --port 3000
+9router --port 3000
 ```
 
 ---
@@ -263,14 +263,14 @@ kill -9 <PID>
 **Giải pháp 2: Dùng port khác**
 
 ```bash
-Audira Route --port 3000
+9router --port 3000
 ```
 
 ### Permission Denied
 
 **Lỗi:**
 ```
-Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/audira-route'
+Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/9router'
 ```
 
 **Giải pháp: Dùng sudo (không khuyến nghị) hoặc fix npm permissions**
@@ -283,7 +283,7 @@ echo 'export PATH=~/.npm-global/bin:$PATH' >> ~/.bashrc
 source ~/.bashrc
 
 # Then install again
-npm install -g audira-route
+npm install -g 9router
 ```
 
 ### Node.js Phiên bản quá cũ
@@ -345,23 +345,23 @@ Dashboard → Provider → Disconnect → Reconnect
 
 ### Sử dụng RAM cao
 
-**Vấn đề:** Audira Route dùng quá nhiều RAM
+**Vấn đề:** 9Router dùng quá nhiều RAM
 
 **Giải pháp: Khởi động lại server**
 
 ```bash
 # Stop
-pkill -f audira-route
+pkill -f 9router
 
 # Start
-audira-route
+9router
 ```
 
 **Hoặc dùng PM2 để auto-restart:**
 
 ```bash
 npm install -g pm2
-pm2 start audira-route --name audira-route
+pm2 start 9router --name 9router
 pm2 save
 ```
 
@@ -372,8 +372,8 @@ pm2 save
 ### Phát triển cục bộ
 
 ```bash
-npm install -g audira-route
-audira-route
+npm install -g 9router
+9router
 ```
 
 **Use case:** Code cá nhân, testing
@@ -382,7 +382,7 @@ audira-route
 
 ```bash
 # Install
-npm install -g audira-route
+npm install -g 9router
 
 # Configure
 export JWT_SECRET="your-secure-secret"
@@ -391,7 +391,7 @@ export NODE_ENV="production"
 
 # Start with PM2
 npm install -g pm2
-pm2 start audira-route --name audira-route
+pm2 start 9router --name 9router
 pm2 save
 pm2 startup
 ```
@@ -401,15 +401,15 @@ pm2 startup
 ### Docker
 
 ```bash
-docker pull audira-route/audira-route:latest
+docker pull 9router/9router:latest
 
 docker run -d \
   -p 20128:20128 \
   -e JWT_SECRET="your-secure-secret" \
   -e INITIAL_PASSWORD="your-password" \
-  -v audira-route-data:/root/.audira-route \
-  --name audira-route \
-  audira-route/audira-route:latest
+  -v 9router-data:/root/.9router \
+  --name 9router \
+  9router/9router:latest
 ```
 
 **Use case:** Containerized deployment, Kubernetes
@@ -444,13 +444,13 @@ server {
 ### Gỡ Global Installation
 
 ```bash
-npm uninstall -g Audira Route
+npm uninstall -g 9router
 ```
 
 ### Xóa Data Directory
 
 ```bash
-rm -rf ~/.audira-route
+rm -rf ~/.9router
 ```
 
 ### Xóa Cấu hình
@@ -458,7 +458,7 @@ rm -rf ~/.audira-route
 ```bash
 # Remove environment variables from shell config
 nano ~/.bashrc  # or ~/.zshrc
-# Delete Audira Route-related exports
+# Delete 9router-related exports
 ```
 
 ---
@@ -473,6 +473,6 @@ nano ~/.bashrc  # or ~/.zshrc
 
 ## Cần trợ giúp?
 
-- **Website**: [audira-route.com](https://audira-route.com)
-- **GitHub**: [github.com/decolua/audira-route](https://github.com/decolua/audira-route)
-- **Issues**: [github.com/decolua/audira-route/issues](https://github.com/decolua/audira-route/issues)
+- **Website**: [9router.com](https://9router.com)
+- **GitHub**: [github.com/decolua/9router](https://github.com/decolua/9router)
+- **Issues**: [github.com/decolua/9router/issues](https://github.com/decolua/9router/issues)

@@ -161,7 +161,7 @@ export default function KiroSocialOAuthModal({ isOpen, provider, onSuccess, onCl
         {/* Success */}
         {step === "success" && (
           <div className="text-center py-6">
-            <div className="size-16 mx-auto mb-4 rounded-none bg-green-100 flex items-center justify-center border-2 border-black">
+            <div className="size-16 mx-auto mb-4 rounded-full bg-green-100 dark:bg-green-900/30 flex items-center justify-center">
               <span className="material-symbols-outlined text-3xl text-green-600">check_circle</span>
             </div>
             <h3 className="text-lg font-semibold mb-2">Connected Successfully!</h3>
@@ -177,7 +177,7 @@ export default function KiroSocialOAuthModal({ isOpen, provider, onSuccess, onCl
         {/* Error */}
         {step === "error" && (
           <div className="text-center py-6">
-            <div className="size-16 mx-auto mb-4 rounded-none bg-red-100 flex items-center justify-center border-2 border-black">
+            <div className="size-16 mx-auto mb-4 rounded-full bg-red-100 dark:bg-red-900/30 flex items-center justify-center">
               <span className="material-symbols-outlined text-3xl text-red-600">error</span>
             </div>
             <h3 className="text-lg font-semibold mb-2">Connection Failed</h3>

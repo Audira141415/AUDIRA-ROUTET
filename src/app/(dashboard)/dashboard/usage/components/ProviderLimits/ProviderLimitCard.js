@@ -73,7 +73,7 @@ export default function ProviderLimitCard({
           </div>
 
           <div>
-            <h3 className="font-extrabold text-text-primary">
+            <h3 className="font-semibold text-text-primary">
               {name || provider}
             </h3>
             {plan && (
@@ -91,7 +91,7 @@ export default function ProviderLimitCard({
         <button
           onClick={handleRefresh}
           disabled={refreshing || loading}
-          className="p-2 rounded-lg hover:bg-black/5 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+          className="p-2 rounded-lg hover:bg-black/5 dark:hover:bg-white/5 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
           title="Refresh quota"
         >
           <span
@@ -108,12 +108,12 @@ export default function ProviderLimitCard({
       {loading && (
         <div className="space-y-4">
           <div className="space-y-2">
-            <div className="h-4 bg-black/5 rounded animate-pulse" />
-            <div className="h-2 bg-black/5 rounded animate-pulse" />
+            <div className="h-4 bg-black/5 dark:bg-white/5 rounded animate-pulse" />
+            <div className="h-2 bg-black/5 dark:bg-white/5 rounded animate-pulse" />
           </div>
           <div className="space-y-2">
-            <div className="h-4 bg-black/5 rounded animate-pulse" />
-            <div className="h-2 bg-black/5 rounded animate-pulse" />
+            <div className="h-4 bg-black/5 dark:bg-white/5 rounded animate-pulse" />
+            <div className="h-2 bg-black/5 dark:bg-white/5 rounded animate-pulse" />
           </div>
         </div>
       )}
@@ -125,7 +125,7 @@ export default function ProviderLimitCard({
             <span className="material-symbols-outlined text-red-500 text-[20px]">
               error
             </span>
-            <p className="text-sm text-red-600">{error}</p>
+            <p className="text-sm text-red-600 dark:text-red-400">{error}</p>
           </div>
         </div>
       )}
@@ -137,7 +137,7 @@ export default function ProviderLimitCard({
             <span className="material-symbols-outlined text-blue-500 text-[20px]">
               info
             </span>
-            <p className="text-sm text-blue-600">
+            <p className="text-sm text-blue-600 dark:text-blue-400">
               {message}
             </p>
           </div>

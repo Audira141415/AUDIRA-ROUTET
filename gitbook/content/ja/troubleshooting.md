@@ -1,6 +1,6 @@
 # トラブルシューティング
 
-Audira Route利用時の一般的な問題と解決策。
+9Router利用時の一般的な問題と解決策。
 
 ---
 
@@ -78,7 +78,7 @@ Audira Route利用時の一般的な問題と解決策。
 **解決策:**
 
 1. **自動更新(デフォルト):**
-   Audira Routeは自動的にトークンを更新します。30秒待ってから再試行。
+   9Routerは自動的にトークンを更新します。30秒待ってから再試行。
 
 2. **手動で再接続:**
    ```
@@ -135,15 +135,15 @@ Audira Route利用時の一般的な問題と解決策。
 **問題:** 「ECONNREFUSED」または「Cannot connect to localhost:20128」。
 
 **原因:**
-- Audira Routeが起動していない
+- 9Routerが起動していない
 - ポート20128がブロックされている
 - ファイアウォールが接続をブロック
 
 **解決策:**
 
-1. **Audira Routeを起動:**
+1. **9Routerを起動:**
    ```bash
-   audira-route
+   9router
    ```
    ダッシュボードがhttp://localhost:3000で開くはず
 
@@ -164,7 +164,7 @@ Audira Route利用時の一般的な問題と解決策。
 4. **クラウドエンドポイントを使用:**
    localhostが動作しない場合(例: Cursor IDE):
    ```
-   Endpoint: https://audira-route.com/v1
+   Endpoint: https://9router.com/v1
    ```
 
 ---
@@ -175,15 +175,15 @@ Audira Route利用時の一般的な問題と解決策。
 
 **原因:**
 - ポート3000がすでに使用中
-- Audira Routeがクラッシュした
+- 9Routerがクラッシュした
 - ブラウザキャッシュの問題
 
 **解決策:**
 
-1. **Audira Routeが実行中か確認:**
+1. **9Routerが実行中か確認:**
    ```bash
    # プロセスを確認
-   ps aux | grep audira-route
+   ps aux | grep 9router
    
    # ポート3000を確認
    lsof -i :3000
@@ -199,13 +199,13 @@ Audira Route利用時の一般的な問題と解決策。
    taskkill /PID <PID> /F
    ```
 
-3. **Audira Routeを再起動:**
+3. **9Routerを再起動:**
    ```bash
    # 停止
-   pkill -f audira-route
+   pkill -f 9router
    
    # 起動
-   audira-route
+   9router
    ```
 
 4. **ブラウザキャッシュをクリア:**
@@ -346,6 +346,6 @@ Audira Route利用時の一般的な問題と解決策。
 
 ## さらにヘルプが必要?
 
-- **GitHub Issues:** [github.com/decolua/audira-route/issues](https://github.com/decolua/audira-route/issues)
-- **ドキュメント:** [audira-route.com/docs](https://audira-route.com/docs)
+- **GitHub Issues:** [github.com/decolua/9router/issues](https://github.com/decolua/9router/issues)
+- **ドキュメント:** [9router.com/docs](https://9router.com/docs)
 - **FAQ:** [faq.md](faq.md)

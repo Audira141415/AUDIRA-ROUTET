@@ -1,15 +1,15 @@
 # 🏠 Triển khai Localhost
 
-Chạy Audira Route trên máy cá nhân để phát triển và dùng cá nhân.
+Chạy 9Router trên máy cá nhân để phát triển và dùng cá nhân.
 
 ---
 
 ## 📦 Cài đặt
 
-Cài đặt Audira Route toàn cục qua npm:
+Cài đặt 9Router toàn cục qua npm:
 
 ```bash
-npm install -g audira-route
+npm install -g 9router
 ```
 
 **Yêu cầu:**
@@ -20,10 +20,10 @@ npm install -g audira-route
 
 ## 🚀 Khởi động Server
 
-Khởi động Audira Route với một lệnh duy nhất:
+Khởi động 9Router với một lệnh duy nhất:
 
 ```bash
-audira-route
+9router
 ```
 
 Dashboard sẽ tự động mở trong trình duyệt tại `http://localhost:3000`
@@ -31,7 +31,7 @@ Dashboard sẽ tự động mở trong trình duyệt tại `http://localhost:30
 **Cấu hình mặc định:**
 - **Dashboard**: `http://localhost:3000`
 - **API Endpoint**: `http://localhost:20128/v1`
-- **Data Directory**: `~/.audira-route`
+- **Data Directory**: `~/.9router`
 
 ---
 
@@ -42,7 +42,7 @@ Dashboard sẽ tự động mở trong trình duyệt tại `http://localhost:30
 Đặt thư mục data tùy chỉnh qua biến môi trường:
 
 ```bash
-DATA_DIR=/path/to/data audira-route
+DATA_DIR=/path/to/data 9router
 ```
 
 ### Custom Port
@@ -53,10 +53,10 @@ Port API (20128) và port dashboard (3000) được cấu hình trong applicatio
 
 ## 🛑 Dừng Server
 
-Nhấn `Ctrl+C` trong terminal đang chạy Audira Route.
+Nhấn `Ctrl+C` trong terminal đang chạy 9Router.
 
 ```bash
-# In the terminal running Audira Route
+# In the terminal running 9router
 ^C  # Press Ctrl+C
 ```
 
@@ -69,25 +69,25 @@ Server sẽ shutdown an toàn và lưu mọi dữ liệu.
 Chỉ cần chạy lệnh start lại:
 
 ```bash
-audira-route
+9router
 ```
 
 Mọi cấu hình, API keys và combos được giữ lại trong thư mục data.
 
 ---
 
-## 📊 Cập nhật Audira Route
+## 📊 Cập nhật 9Router
 
 Cập nhật phiên bản mới nhất:
 
 ```bash
-npm update -g Audira Route
+npm update -g 9router
 ```
 
 Kiểm tra version hiện tại:
 
 ```bash
-npm list -g Audira Route
+npm list -g 9router
 ```
 
 ---
@@ -113,7 +113,7 @@ Nếu gặp lỗi permission khi cài đặt:
 
 ```bash
 # Use sudo (not recommended)
-sudo npm install -g audira-route
+sudo npm install -g 9router
 
 # Or fix npm permissions (recommended)
 mkdir ~/.npm-global
@@ -128,10 +128,10 @@ Nếu thư mục data không truy cập được:
 
 ```bash
 # Check permissions
-ls -la ~/.audira-route
+ls -la ~/.9router
 
 # Fix permissions
-chmod 755 ~/.audira-route
+chmod 755 ~/.9router
 ```
 
 ---
@@ -139,7 +139,7 @@ chmod 755 ~/.audira-route
 ## 📁 Cấu trúc Data Directory
 
 ```
-~/.audira-route/
+~/.9router/
 ├── db.json           # Main database (providers, combos, settings)
 ├── logs/             # Application logs
 └── cache/            # Temporary cache files
@@ -149,10 +149,10 @@ chmod 755 ~/.audira-route
 
 ```bash
 # Backup
-cp -r ~/.audira-route ~/.audira-route.backup
+cp -r ~/.9router ~/.9router.backup
 
 # Restore
-cp -r ~/.audira-route.backup ~/.audira-route
+cp -r ~/.9router.backup ~/.9router
 ```
 
 ---

@@ -2,7 +2,7 @@ import fs from "node:fs";
 import path from "path";
 import os from "os";
 
-const APP_NAME = "audira-route";
+const APP_NAME = "9router";
 
 function defaultDir() {
   if (process.platform === "win32") {

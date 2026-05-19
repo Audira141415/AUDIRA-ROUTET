@@ -1,12 +1,12 @@
 # Roo AI Assistant Integration
 
-Integrate Audira Route with Roo AI Assistant to access multiple AI models through a unified interface.
+Integrate 9Router with Roo AI Assistant to access multiple AI models through a unified interface.
 
 ## Prerequisites
 
 - Roo AI Assistant installed
-- Audira Route API key from [dashboard](https://audira-route.com/dashboard)
-- Audira Route running (local or cloud)
+- 9Router API key from [dashboard](https://9router.com/dashboard)
+- 9Router running (local or cloud)
 
 ## Configuration Steps
 
@@ -20,21 +20,21 @@ Launch Roo AI Assistant and open the settings panel.
 2. Select **Ollama** as the provider type
 3. Configure the following settings:
 
-**For Local Audira Route:**
+**For Local 9Router:**
 ```
 Base URL: http://localhost:20128/v1
 API Key: your-api-key-from-dashboard
 ```
 
-**For Cloud Audira Route:**
+**For Cloud 9Router:**
 ```
-Base URL: https://audira-route.com/v1
+Base URL: https://9router.com/v1
 API Key: your-api-key-from-dashboard
 ```
 
 ### 3. Select Model
 
-Choose from available Audira Route models:
+Choose from available 9Router models:
 
 **Claude Models:**
 - `cc/claude-opus-4-5-20251101` - Most capable
@@ -54,7 +54,7 @@ Choose from available Audira Route models:
 Send a test message to verify the integration:
 
 ```
-Hello! Can you confirm you're connected through Audira Route?
+Hello! Can you confirm you're connected through 9Router?
 ```
 
 ## Usage Examples
@@ -87,19 +87,19 @@ Model: cx/deepseek-reasoner
 ## Troubleshooting
 
 ### Connection Failed
-- Verify Audira Route is running: `curl http://localhost:20128/health`
+- Verify 9Router is running: `curl http://localhost:20128/health`
 - Check API key is correct
 - Ensure Base URL includes `/v1` suffix
 
 ### Model Not Available
 - Check model name matches exactly (case-sensitive)
-- Verify model is enabled in your Audira Route plan
+- Verify model is enabled in your 9Router plan
 - Try a different model from the list
 
 ### Slow Responses
 - Switch to faster models (haiku, flash)
 - Check network connection
-- Monitor Audira Route logs for issues
+- Monitor 9Router logs for issues
 
 ## Advanced Configuration
 

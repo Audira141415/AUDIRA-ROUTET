@@ -1,6 +1,6 @@
 # Getting Started
 
-Get Audira Route running in 5 minutes and start routing AI requests intelligently.
+Get 9Router running in 5 minutes and start routing AI requests intelligently.
 
 ---
 
@@ -9,7 +9,7 @@ Get Audira Route running in 5 minutes and start routing AI requests intelligentl
 ### 1. Install
 
 ```bash
-npm install -g audira-route
+npm install -g 9router
 ```
 
 **Requirements:** Node.js 20+ ([Installation details](getting-started/installation.md))
@@ -17,7 +17,7 @@ npm install -g audira-route
 ### 2. Start
 
 ```bash
-audira-route
+9router
 ```
 
 🎉 **Dashboard opens automatically** at `http://localhost:20128`
@@ -43,7 +43,7 @@ Dashboard → Providers → Connect [Provider]
 **Example: Claude Code**
 1. Click "Connect Claude Code"
 2. Login with your Claude account
-3. Authorize Audira Route
+3. Authorize 9Router
 4. ✅ Done! Use model: `cc/claude-opus-4-5-20251101`
 
 #### Option B: API Key (Cheap Providers)
@@ -83,14 +83,14 @@ Dashboard → Providers → Connect [Free Provider]
 
 ## 4. Use in CLI Tools
 
-Point your coding tool to Audira Route:
+Point your coding tool to 9Router:
 
 ### Cursor IDE
 
 ```
 Settings → Models → Advanced:
   OpenAI API Base URL: http://localhost:20128/v1
-  OpenAI API Key: [from Audira Route dashboard]
+  OpenAI API Key: [from 9router dashboard]
   Model: cc/claude-opus-4-5-20251101
 ```
 
@@ -101,7 +101,7 @@ Edit `~/.claude/config.json`:
 ```json
 {
   "anthropic_api_base": "http://localhost:20128/v1",
-  "anthropic_api_key": "your-audira-route-api-key"
+  "anthropic_api_key": "your-9router-api-key"
 }
 ```
 
@@ -118,7 +118,7 @@ Model: cc/claude-opus-4-5-20251101
 
 ```bash
 export OPENAI_BASE_URL="http://localhost:20128"
-export OPENAI_API_KEY="your-audira-route-api-key"
+export OPENAI_API_KEY="your-9router-api-key"
 
 codex "your prompt"
 ```
@@ -242,6 +242,6 @@ Daily routine:
 
 ## Need Help?
 
-- **Website**: [audira-route.com](https://audira-route.com)
-- **GitHub**: [github.com/decolua/audira-route](https://github.com/decolua/audira-route)
-- **Issues**: [github.com/decolua/audira-route/issues](https://github.com/decolua/audira-route/issues)
+- **Website**: [9router.com](https://9router.com)
+- **GitHub**: [github.com/decolua/9router](https://github.com/decolua/9router)
+- **Issues**: [github.com/decolua/9router/issues](https://github.com/decolua/9router/issues)

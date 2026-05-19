@@ -1,14 +1,14 @@
-# Welcome to Audira Route
+# Welcome to 9Router
 
 **Use Claude, Codex, Gemini for FREE • Ultra-cheap alternatives from $0.20/1M tokens**
 
-Audira Route is an AI model router that maximizes your subscription value and minimizes costs through intelligent routing and automatic fallback.
+9Router is an AI model router that maximizes your subscription value and minimizes costs through intelligent routing and automatic fallback.
 
 ---
 
-## What is Audira Route?
+## What is 9Router?
 
-Audira Route is a smart proxy that sits between your coding tools (Cursor, Cline, Claude Desktop) and AI providers. It automatically routes requests to the best available model based on quota, cost, and availability.
+9Router is a smart proxy that sits between your coding tools (Cursor, Cline, Claude Desktop) and AI providers. It automatically routes requests to the best available model based on quota, cost, and availability.
 
 **Stop wasting money:**
 - ❌ Subscription quota expires unused every month
@@ -66,7 +66,7 @@ Total: $5.20/month vs $2000 on ChatGPT API!
 
 ---
 
-## Why Choose Audira Route?
+## Why Choose 9Router?
 
 ### Maximize Subscriptions
 
@@ -105,10 +105,10 @@ Get started in 2 minutes:
 
 ```bash
 # Install globally
-npm install -g audira-route
+npm install -g 9router
 
 # Start (dashboard opens automatically)
-audira-route
+9router
 ```
 
 🎉 **Dashboard opens** → Connect providers → Start coding!
@@ -143,7 +143,7 @@ Model: cc/claude-opus-4-5-20251101
 
 ### For Mobile/Remote Coding
 
-- Use cloud deployment (https://audira-route.com)
+- Use cloud deployment (https://9router.com)
 - Access from iPad, phone, anywhere
 - No localhost limitations
 - Cloudflare edge network (300+ locations)

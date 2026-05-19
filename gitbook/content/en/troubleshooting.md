@@ -1,6 +1,6 @@
 # Troubleshooting
 
-Common issues and solutions when using Audira Route.
+Common issues and solutions when using 9Router.
 
 ---
 
@@ -78,7 +78,7 @@ Common issues and solutions when using Audira Route.
 **Solutions:**
 
 1. **Auto-refresh (default):**
-   Audira Route automatically refreshes tokens. Wait 30 seconds and retry.
+   9Router automatically refreshes tokens. Wait 30 seconds and retry.
 
 2. **Manual reconnect:**
    ```
@@ -135,15 +135,15 @@ Common issues and solutions when using Audira Route.
 **Problem:** "ECONNREFUSED" or "Cannot connect to localhost:20128".
 
 **Causes:**
-- Audira Route not running
+- 9Router not running
 - Port 20128 blocked
 - Firewall blocking connection
 
 **Solutions:**
 
-1. **Start Audira Route:**
+1. **Start 9Router:**
    ```bash
-   audira-route
+   9router
    ```
    Dashboard should open at http://localhost:3000
 
@@ -164,7 +164,7 @@ Common issues and solutions when using Audira Route.
 4. **Use cloud endpoint:**
    If localhost doesn't work (e.g., Cursor IDE):
    ```
-   Endpoint: https://audira-route.com/v1
+   Endpoint: https://9router.com/v1
    ```
 
 ---
@@ -175,15 +175,15 @@ Common issues and solutions when using Audira Route.
 
 **Causes:**
 - Port 3000 already in use
-- Audira Route crashed
+- 9Router crashed
 - Browser cache issues
 
 **Solutions:**
 
-1. **Check if Audira Route is running:**
+1. **Check if 9Router is running:**
    ```bash
    # Check process
-   ps aux | grep audira-route
+   ps aux | grep 9router
    
    # Check port 3000
    lsof -i :3000
@@ -199,13 +199,13 @@ Common issues and solutions when using Audira Route.
    taskkill /PID <PID> /F
    ```
 
-3. **Restart Audira Route:**
+3. **Restart 9Router:**
    ```bash
    # Stop
-   pkill -f audira-route
+   pkill -f 9router
    
    # Start
-   audira-route
+   9router
    ```
 
 4. **Clear browser cache:**
@@ -346,6 +346,6 @@ Common issues and solutions when using Audira Route.
 
 ## Need More Help?
 
-- **GitHub Issues:** [github.com/decolua/audira-route/issues](https://github.com/decolua/audira-route/issues)
-- **Documentation:** [audira-route.com/docs](https://audira-route.com/docs)
+- **GitHub Issues:** [github.com/decolua/9router/issues](https://github.com/decolua/9router/issues)
+- **Documentation:** [9router.com/docs](https://9router.com/docs)
 - **FAQ:** [faq.md](faq.md)

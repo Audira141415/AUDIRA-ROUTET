@@ -64,7 +64,7 @@ export default function LanguageSwitcher({ className = "", isOpen: controlledOpe
   const isOpen = isControlled ? controlledOpen : internalOpen;
   const setIsOpen = (value) => {
     if (isControlled) {
-      if (!value && onClose) onClose();
+      if (!value && onClose) onClose(locale);
     } else {
       setInternalOpen(value);
     }
@@ -131,21 +131,21 @@ export default function LanguageSwitcher({ className = "", isOpen: controlledOpe
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4" data-i18n-skip="true">
           {/* Overlay */}
           <div
-            className="absolute inset-0 bg-black/30"
+            className="absolute inset-0 bg-black/30 backdrop-blur-sm"
             onClick={() => setIsOpen(false)}
           />
 
           {/* Modal content */}
           <div
             ref={modalRef}
-            className="relative w-full bg-surface border-2 border-black rounded-none shadow-[6px_6px_0px_#000000] animate-in fade-in zoom-in-95 duration-200 max-w-2xl flex flex-col max-h-[80vh]"
+            className="relative w-full bg-surface border border-black/10 dark:border-white/10 rounded-xl shadow-2xl animate-in fade-in zoom-in-95 duration-200 max-w-2xl flex flex-col max-h-[80vh]"
           >
             {/* Modal header */}
-            <div className="flex items-center justify-between p-3 border-b-2 border-black">
+            <div className="flex items-center justify-between p-3 border-b border-black/5 dark:border-white/5">
               <h2 className="text-lg font-semibold text-text-main">Select Language</h2>
               <button
                 onClick={() => setIsOpen(false)}
-                className="p-1.5 rounded-none text-text-muted hover:bg-black/5 transition-colors duration-100 ease-in-out"
+                className="p-1.5 rounded-lg text-text-muted hover:bg-black/5 dark:hover:bg-white/5 transition-colors"
                 aria-label="Close"
               >
                 <span className="material-symbols-outlined text-[20px]">close</span>
@@ -163,10 +163,10 @@ export default function LanguageSwitcher({ className = "", isOpen: controlledOpe
                       key={item}
                       onClick={() => handleSetLocale(item)}
                       disabled={isPending}
-                      className={`flex flex-col items-center justify-start gap-1 px-2 py-3 rounded-none text-xs font-medium transition-colors duration-100 ease-in-out w-full ${
+                      className={`flex flex-col items-center justify-start gap-1 px-2 py-3 rounded-lg text-xs font-medium transition-colors w-full ${
                         active
-                          ? "bg-primary/15 text-primary border-2 border-black shadow-[2px_2px_0px_#000000]"
-                          : "text-text-main hover:bg-black/5 border-2 border-transparent hover:border-black"
+                          ? "bg-primary/15 text-primary ring-2 ring-primary"
+                          : "text-text-main hover:bg-black/5 dark:hover:bg-white/5"
                       } ${isPending ? "opacity-70 cursor-wait" : ""}`}
                       title={info.name}
                     >

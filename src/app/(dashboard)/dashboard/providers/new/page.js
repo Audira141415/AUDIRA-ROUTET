@@ -83,7 +83,7 @@ export default function NewProviderPage() {
           <span className="material-symbols-outlined text-lg">arrow_back</span>
           Back to Providers
         </Link>
-        <h1 className="text-3xl font-extrabold tracking-tight">Add New Provider</h1>
+        <h1 className="text-3xl font-semibold tracking-tight">Add New Provider</h1>
         <p className="text-text-muted mt-2">
           Configure a new AI provider to use with your applications.
         </p>
@@ -196,7 +196,7 @@ export default function NewProviderPage() {
 
           {/* Error Message */}
           {errors.submit && (
-            <div className="p-4 rounded-lg bg-red-50 border border-red-200 text-red-600 text-sm">
+            <div className="p-4 rounded-lg bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 text-red-600 dark:text-red-400 text-sm">
               {errors.submit}
             </div>
           )}

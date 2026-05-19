@@ -1,12 +1,12 @@
 # Tích hợp Roo AI Assistant
 
-Tích hợp Audira Route với Roo AI Assistant để truy cập nhiều model AI qua một giao diện thống nhất.
+Tích hợp 9Router với Roo AI Assistant để truy cập nhiều model AI qua một giao diện thống nhất.
 
 ## Yêu cầu
 
 - Roo AI Assistant đã cài đặt
-- Audira Route API key từ [dashboard](https://audira-route.com/dashboard)
-- Audira Route đang chạy (cục bộ hoặc cloud)
+- 9Router API key từ [dashboard](https://9router.com/dashboard)
+- 9Router đang chạy (cục bộ hoặc cloud)
 
 ## Các bước Cấu hình
 
@@ -20,21 +20,21 @@ Khởi chạy Roo AI Assistant và mở panel settings.
 2. Chọn **Ollama** làm provider type
 3. Cấu hình các settings sau:
 
-**Cho Audira Route cục bộ:**
+**Cho 9Router cục bộ:**
 ```
 Base URL: http://localhost:20128/v1
 API Key: your-api-key-from-dashboard
 ```
 
-**Cho Audira Route cloud:**
+**Cho 9Router cloud:**
 ```
-Base URL: https://audira-route.com/v1
+Base URL: https://9router.com/v1
 API Key: your-api-key-from-dashboard
 ```
 
 ### 3. Chọn Model
 
-Chọn từ các model Audira Route có sẵn:
+Chọn từ các model 9Router có sẵn:
 
 **Claude Models:**
 - `cc/claude-opus-4-5-20251101` - Mạnh nhất
@@ -54,7 +54,7 @@ Chọn từ các model Audira Route có sẵn:
 Gửi tin nhắn test để xác minh tích hợp:
 
 ```
-Hello! Can you confirm you're connected through Audira Route?
+Hello! Can you confirm you're connected through 9Router?
 ```
 
 ## Ví dụ Sử dụng
@@ -87,19 +87,19 @@ Model: cx/deepseek-reasoner
 ## Troubleshooting
 
 ### Connection Failed
-- Xác minh Audira Route đang chạy: `curl http://localhost:20128/health`
+- Xác minh 9Router đang chạy: `curl http://localhost:20128/health`
 - Kiểm tra API key đúng
 - Đảm bảo Base URL bao gồm hậu tố `/v1`
 
 ### Model không khả dụng
 - Kiểm tra tên model khớp chính xác (case-sensitive)
-- Xác minh model được bật trong Audira Route plan
+- Xác minh model được bật trong 9Router plan
 - Thử model khác từ danh sách
 
 ### Phản hồi Chậm
 - Chuyển sang model nhanh hơn (haiku, flash)
 - Kiểm tra kết nối network
-- Theo dõi logs Audira Route để xem vấn đề
+- Theo dõi logs 9Router để xem vấn đề
 
 ## Cấu hình Nâng cao
 

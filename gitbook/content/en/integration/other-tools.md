@@ -1,10 +1,10 @@
 # Other Tools Integration
 
-Audira Route is compatible with any tool that supports the OpenAI API format. This guide covers generic integration patterns for various tools and custom applications.
+9Router is compatible with any tool that supports the OpenAI API format. This guide covers generic integration patterns for various tools and custom applications.
 
 ## Overview
 
-Audira Route provides an OpenAI-compatible API endpoint that works with:
+9Router provides an OpenAI-compatible API endpoint that works with:
 - Custom scripts and applications
 - API clients and testing tools
 - CLI tools and utilities
@@ -13,20 +13,20 @@ Audira Route provides an OpenAI-compatible API endpoint that works with:
 
 ## Generic Setup Pattern
 
-Any OpenAI-compatible tool can connect to Audira Route using these settings:
+Any OpenAI-compatible tool can connect to 9Router using these settings:
 
-**Local Audira Route:**
+**Local 9Router:**
 ```
 Base URL: http://localhost:20128/v1
 API Key: your-api-key-from-dashboard
-Model: any Audira Route model (cc/*, cx/*, glm/*, etc.)
+Model: any 9Router model (cc/*, cx/*, glm/*, etc.)
 ```
 
-**Cloud Audira Route:**
+**Cloud 9Router:**
 ```
-Base URL: https://audira-route.com/v1
+Base URL: https://9router.com/v1
 API Key: your-api-key-from-dashboard
-Model: any Audira Route model (cc/*, cx/*, glm/*, etc.)
+Model: any 9Router model (cc/*, cx/*, glm/*, etc.)
 ```
 
 ## Available Models
@@ -318,9 +318,9 @@ def chat_with_retry(prompt, max_retries=3):
 
 ### Connection Issues
 
-**Problem:** Cannot connect to Audira Route
+**Problem:** Cannot connect to 9Router
 ```bash
-# Check if Audira Route is running
+# Check if 9Router is running
 curl http://localhost:20128/health
 
 # Expected response:
@@ -328,7 +328,7 @@ curl http://localhost:20128/health
 ```
 
 **Solution:**
-- Verify Audira Route is running
+- Verify 9Router is running
 - Check port 20128 is not blocked
 - Ensure correct base URL (include `/v1`)
 
@@ -366,7 +366,7 @@ Error: Request timed out after 30s
 **Solution:**
 - Increase timeout in client configuration
 - Use faster models for time-sensitive tasks
-- Check network connection to Audira Route
+- Check network connection to 9Router
 
 ### Rate Limiting
 

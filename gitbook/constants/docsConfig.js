@@ -233,10 +233,10 @@ export function getNavigation(lang) {
 
 // Static config (logo, urls, default English nav for backward compatibility).
 export const DOCS_CONFIG = {
-  title: "Audira Route Documentation",
+  title: "9Router Documentation",
   description: "Smart AI model router - Maximize subscriptions, minimize costs",
-  logo: "Audira Route",
-  appUrl: "https://audira-route.com",
-  githubUrl: "https://github.com/decolua/audira-route",
+  logo: "9Router",
+  appUrl: "https://9router.com",
+  githubUrl: "https://github.com/decolua/9router",
   navigation: getNavigation(DEFAULT_LANG)
 };

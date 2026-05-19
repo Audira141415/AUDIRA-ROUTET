@@ -1,6 +1,6 @@
 # Troubleshooting
 
-Các vấn đề và giải pháp phổ biến khi dùng Audira Route.
+Các vấn đề và giải pháp phổ biến khi dùng 9Router.
 
 ---
 
@@ -78,7 +78,7 @@ Các vấn đề và giải pháp phổ biến khi dùng Audira Route.
 **Giải pháp:**
 
 1. **Auto-refresh (mặc định):**
-   Audira Route tự refresh tokens. Đợi 30 giây rồi thử lại.
+   9Router tự refresh tokens. Đợi 30 giây rồi thử lại.
 
 2. **Kết nối lại thủ công:**
    ```
@@ -135,15 +135,15 @@ Các vấn đề và giải pháp phổ biến khi dùng Audira Route.
 **Vấn đề:** Lỗi "ECONNREFUSED" hoặc "Cannot connect to localhost:20128".
 
 **Nguyên nhân:**
-- Audira Route không chạy
+- 9Router không chạy
 - Port 20128 bị chặn
 - Firewall chặn kết nối
 
 **Giải pháp:**
 
-1. **Khởi động Audira Route:**
+1. **Khởi động 9Router:**
    ```bash
-   audira-route
+   9router
    ```
    Dashboard sẽ mở tại http://localhost:3000
 
@@ -164,7 +164,7 @@ Các vấn đề và giải pháp phổ biến khi dùng Audira Route.
 4. **Dùng cloud endpoint:**
    Nếu localhost không hoạt động (ví dụ: Cursor IDE):
    ```
-   Endpoint: https://audira-route.com/v1
+   Endpoint: https://9router.com/v1
    ```
 
 ---
@@ -175,15 +175,15 @@ Các vấn đề và giải pháp phổ biến khi dùng Audira Route.
 
 **Nguyên nhân:**
 - Port 3000 đã được dùng
-- Audira Route bị crash
+- 9Router bị crash
 - Vấn đề cache browser
 
 **Giải pháp:**
 
-1. **Kiểm tra Audira Route có chạy không:**
+1. **Kiểm tra 9Router có chạy không:**
    ```bash
    # Check process
-   ps aux | grep audira-route
+   ps aux | grep 9router
    
    # Check port 3000
    lsof -i :3000
@@ -199,13 +199,13 @@ Các vấn đề và giải pháp phổ biến khi dùng Audira Route.
    taskkill /PID <PID> /F
    ```
 
-3. **Khởi động lại Audira Route:**
+3. **Khởi động lại 9Router:**
    ```bash
    # Stop
-   pkill -f audira-route
+   pkill -f 9router
    
    # Start
-   audira-route
+   9router
    ```
 
 4. **Xóa cache browser:**
@@ -346,6 +346,6 @@ Các vấn đề và giải pháp phổ biến khi dùng Audira Route.
 
 ## Cần trợ giúp thêm?
 
-- **GitHub Issues:** [github.com/decolua/audira-route/issues](https://github.com/decolua/audira-route/issues)
-- **Documentation:** [audira-route.com/docs](https://audira-route.com/docs)
+- **GitHub Issues:** [github.com/decolua/9router/issues](https://github.com/decolua/9router/issues)
+- **Documentation:** [9router.com/docs](https://9router.com/docs)
 - **FAQ:** [faq.md](faq.md)

@@ -44,10 +44,10 @@ const readSettings = async () => {
   }
 };
 
-// Check if settings has Audira Route customModels
+// Check if settings has 9Router customModels
 const has9RouterConfig = (settings) => {
   if (!settings || !settings.customModels) return false;
-  return settings.customModels.some(m => m.id?.startsWith("custom:AudiraRoute"));
+  return settings.customModels.some(m => m.id?.startsWith("custom:9Router"));
 };
 
 // GET - Check droid CLI and read current settings
@@ -77,7 +77,7 @@ export async function GET() {
   }
 }
 
-// POST - Update Audira Route customModels (merge with existing settings)
+// POST - Update 9Router customModels (merge with existing settings)
 // Accepts either `model` (string, legacy single-model) or `models` (array of strings, multi-model)
 // Also accepts `activeModel` to set which model is active/primary
 export async function POST(request) {
@@ -109,8 +109,8 @@ export async function POST(request) {
       settings.customModels = [];
     }
 
-    // Remove all existing Audira Route configs
-    settings.customModels = settings.customModels.filter(m => !m.id?.startsWith("custom:AudiraRoute"));
+    // Remove all existing 9Router configs
+    settings.customModels = settings.customModels.filter(m => !m.id?.startsWith("custom:9Router"));
 
     // Normalize baseUrl to ensure /v1 suffix
     const normalizedBaseUrl = baseUrl.endsWith("/v1") ? baseUrl : `${baseUrl}/v1`;
@@ -135,7 +135,7 @@ export async function POST(request) {
       if (!m || typeof m !== "string") continue;
       settings.customModels.push({
         model: m,
-        id: `custom:AudiraRoute-${i}`,
+        id: `custom:9Router-${i}`,
         index: i,
         baseUrl: normalizedBaseUrl,
         apiKey: keyToUse,
@@ -169,7 +169,7 @@ export async function POST(request) {
   }
 }
 
-// DELETE - Remove Audira Route customModels only (keep other settings)
+// DELETE - Remove 9Router customModels only (keep other settings)
 export async function DELETE() {
   try {
     const settingsPath = getDroidSettingsPath();
@@ -189,9 +189,9 @@ export async function DELETE() {
       throw error;
     }
 
-    // Remove Audira Route customModels
+    // Remove 9Router customModels
     if (settings.customModels) {
-      settings.customModels = settings.customModels.filter(m => !m.id?.startsWith("custom:AudiraRoute"));
+      settings.customModels = settings.customModels.filter(m => !m.id?.startsWith("custom:9Router"));
       
       // Remove customModels array if empty
       if (settings.customModels.length === 0) {
@@ -204,7 +204,7 @@ export async function DELETE() {
 
     return NextResponse.json({
       success: true,
-      message: "Audira Route settings removed successfully",
+      message: "9Router settings removed successfully",
     });
   } catch (error) {
     console.log("Error resetting droid settings:", error);

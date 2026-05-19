@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useSyncExternalStore } from "react";
+import { useEffect, useState, useSyncExternalStore } from "react";
 import useThemeStore from "@/store/themeStore";
 
 // Subscribe to system theme changes
@@ -23,11 +23,7 @@ function getServerSnapshot() {
 }
 
 export function useTheme() {
-  // Read store state without triggering rehydration
-  const theme = useThemeStore((s) => s.theme);
-  const setTheme = useThemeStore((s) => s.setTheme);
-  const toggleTheme = useThemeStore((s) => s.toggleTheme);
-  const initTheme = useThemeStore((s) => s.initTheme);
+  const { theme, setTheme, toggleTheme, initTheme } = useThemeStore();
 
   // Use useSyncExternalStore to safely subscribe to system theme
   const systemPrefersDark = useSyncExternalStore(

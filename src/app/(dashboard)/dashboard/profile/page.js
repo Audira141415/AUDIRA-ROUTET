@@ -465,7 +465,7 @@ export default function ProfilePage() {
       const anchor = document.createElement("a");
       const stamp = new Date().toISOString().replace(/[.:]/g, "-");
       anchor.href = url;
-      anchor.download = `audira-route-backup-${stamp}.json`;
+      anchor.download = `9router-backup-${stamp}.json`;
       document.body.appendChild(anchor);
       anchor.click();
       document.body.removeChild(anchor);
@@ -526,11 +526,11 @@ export default function ProfilePage() {
                 <span className="material-symbols-outlined text-xl sm:text-2xl">computer</span>
               </div>
               <div>
-                <h2 className="text-lg sm:text-xl font-extrabold">Local Mode</h2>
+                <h2 className="text-lg sm:text-xl font-semibold">Local Mode</h2>
                 <p className="text-sm text-text-muted">Running on your machine</p>
               </div>
             </div>
-            <div className="inline-flex p-1 rounded-lg bg-black/5 w-full sm:w-auto">
+            <div className="inline-flex p-1 rounded-lg bg-black/5 dark:bg-white/5 w-full sm:w-auto">
               {["light", "dark", "system"].map((option) => (
                 <button
                   key={option}
@@ -539,7 +539,7 @@ export default function ProfilePage() {
                   className={cn(
                     "flex items-center justify-center gap-1 sm:gap-1.5 px-2 sm:px-3 py-1.5 rounded-md font-medium transition-all flex-1 sm:flex-initial",
                     theme === option
-                      ? "bg-white text-text-main shadow-[2px_2px_0px_#000000]"
+                      ? "bg-white dark:bg-white/10 text-text-main shadow-sm"
                       : "text-text-muted hover:text-text-main"
                   )}
                 >
@@ -555,7 +555,7 @@ export default function ProfilePage() {
             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between p-3 rounded-lg bg-bg border border-border gap-2">
               <div>
                 <p className="font-medium text-sm sm:text-base">Database Location</p>
-                <p className="text-xs sm:text-sm text-text-muted font-mono break-all">~/.audira-route/db/data.sqlite</p>
+                <p className="text-xs sm:text-sm text-text-muted font-mono break-all">~/.9router/db/data.sqlite</p>
               </div>
             </div>
             <div className="flex flex-col sm:flex-row gap-2">
@@ -586,7 +586,7 @@ export default function ProfilePage() {
               />
             </div>
             {dbStatus.message && (
-              <p className={`text-sm ${dbStatus.type === "error" ? "text-red-500" : "text-green-600"}`}>
+              <p className={`text-sm ${dbStatus.type === "error" ? "text-red-500" : "text-green-600 dark:text-green-400"}`}>
                 {dbStatus.message}
               </p>
             )}
@@ -599,7 +599,7 @@ export default function ProfilePage() {
             <div className="p-2 rounded-lg bg-primary/10 text-primary shrink-0">
               <span className="material-symbols-outlined text-[20px]">shield</span>
             </div>
-            <h3 className="text-base sm:text-lg font-extrabold">Security</h3>
+            <h3 className="text-base sm:text-lg font-semibold">Security</h3>
           </div>
           <div className="flex flex-col gap-4">
             <div className="flex items-start sm:items-center justify-between gap-4">
@@ -631,7 +631,7 @@ export default function ProfilePage() {
                 )}
                 {/* {!settings.hasPassword && (
                   <div className="p-3 rounded-lg bg-blue-500/10 border border-blue-500/20">
-                    <p className="text-sm text-blue-600">
+                    <p className="text-sm text-blue-600 dark:text-blue-400">
                       Setting password for the first time. Leave current password empty or use default: <code className="bg-blue-500/20 px-1 rounded">123456</code>
                     </p>
                   </div>
@@ -686,7 +686,7 @@ export default function ProfilePage() {
               <span className="material-symbols-outlined text-[20px]">lock_open</span>
             </div>
             <div className="flex-1 min-w-0">
-              <h3 className="text-base sm:text-lg font-extrabold">OIDC Dashboard Login</h3>
+              <h3 className="text-base sm:text-lg font-semibold">OIDC Dashboard Login</h3>
               <p className="text-xs text-text-muted">
                 {settings.authMode === "oidc" ? "OIDC active" : settings.authMode === "both" ? "Password + OIDC active" : "Optional SSO via Authentik/Keycloak/Google"}
               </p>
@@ -731,7 +731,7 @@ export default function ProfilePage() {
                         "text-left rounded-lg border p-3 transition-colors",
                         active
                           ? "border-primary bg-primary/5"
-                          : "border-border bg-bg hover:bg-black/5"
+                          : "border-border bg-bg hover:bg-black/5 dark:hover:bg-white/5"
                       )}
                       disabled={loading || oidcLoading}
                     >
@@ -747,7 +747,7 @@ export default function ProfilePage() {
               <div className="flex flex-col gap-2">
                 <label className="font-medium text-sm sm:text-base">Issuer URL</label>
                 <Input
-                  placeholder="https://auth.example.com/application/o/audira-route/"
+                  placeholder="https://auth.example.com/application/o/9router/"
                   value={oidcForm.oidcIssuerUrl}
                   onChange={(e) => updateOidcForm("oidcIssuerUrl", e.target.value)}
                   disabled={loading || oidcLoading}
@@ -757,7 +757,7 @@ export default function ProfilePage() {
               <div className="flex flex-col gap-2">
                 <label className="font-medium text-sm sm:text-base">Client ID</label>
                 <Input
-                  placeholder="audira-route-dashboard"
+                  placeholder="9router-dashboard"
                   value={oidcForm.oidcClientId}
                   onChange={(e) => updateOidcForm("oidcClientId", e.target.value)}
                   disabled={loading || oidcLoading}
@@ -824,13 +824,13 @@ export default function ProfilePage() {
             )}
 
             {settings.authMode === "oidc" && (
-              <p className="text-xs sm:text-sm text-amber-600">
+              <p className="text-xs sm:text-sm text-amber-600 dark:text-amber-400">
                 OIDC login is currently active. Password login is disabled until you switch back.
               </p>
             )}
 
             {settings.authMode === "both" && (
-              <p className="text-xs sm:text-sm text-amber-600">
+              <p className="text-xs sm:text-sm text-amber-600 dark:text-amber-400">
                 Password and OIDC login are both active.
               </p>
             )}
@@ -844,7 +844,7 @@ export default function ProfilePage() {
             <div className="p-2 rounded-lg bg-blue-500/10 text-blue-500 shrink-0">
               <span className="material-symbols-outlined text-[20px]">route</span>
             </div>
-            <h3 className="text-base sm:text-lg font-extrabold">Routing Strategy</h3>
+            <h3 className="text-base sm:text-lg font-semibold">Routing Strategy</h3>
           </div>
           <div className="flex flex-col gap-4">
             <div className="flex items-start sm:items-center justify-between gap-4">
@@ -935,7 +935,7 @@ export default function ProfilePage() {
             <div className="p-2 rounded-lg bg-purple-500/10 text-purple-500 shrink-0">
               <span className="material-symbols-outlined text-[20px]">wifi</span>
             </div>
-            <h3 className="text-base sm:text-lg font-extrabold">Network</h3>
+            <h3 className="text-base sm:text-lg font-semibold">Network</h3>
           </div>
 
           <div className="flex flex-col gap-4">
@@ -1007,7 +1007,7 @@ export default function ProfilePage() {
             <div className="p-2 rounded-lg bg-orange-500/10 text-orange-500 shrink-0">
               <span className="material-symbols-outlined text-[20px]">monitoring</span>
             </div>
-            <h3 className="text-base sm:text-lg font-extrabold">Observability</h3>
+            <h3 className="text-base sm:text-lg font-semibold">Observability</h3>
           </div>
           <div className="flex items-start sm:items-center justify-between gap-4">
             <div className="flex-1 min-w-0">

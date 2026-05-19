@@ -2,21 +2,22 @@ import pkg from "../../../package.json" with { type: "json" };
 
 // App configuration
 export const APP_CONFIG = {
-  name: "Audira Route Proxy",
+  name: "9Router Proxy",
   description: "AI Infrastructure Management",
   version: pkg.version,
 };
 
 // GitHub configuration
 export const GITHUB_CONFIG = {
-  changelogUrl: "https://raw.githubusercontent.com/decolua/audira-route/refs/heads/master/CHANGELOG.md",
+  changelogUrl: "https://raw.githubusercontent.com/decolua/9router/refs/heads/master/CHANGELOG.md",
+  donateUrl: "https://9router.com/api/donate",
 };
 
 // Updater configuration
 export const UPDATER_CONFIG = {
-  npmPackageName: "audira-route",
-  installCmd: "npm i -g audira-route",
-  installCmdLatest: "npm i -g audira-route@latest --prefer-online",
+  npmPackageName: "9router",
+  installCmd: "npm i -g 9router",
+  installCmdLatest: "npm i -g 9router@latest --prefer-online",
   shutdownCountdownSec: 3,
   exitDelayMs: 500,
   statusPort: 20129,
@@ -74,6 +75,7 @@ export const PROVIDER_ENDPOINTS = {
   "volcengine-ark": "https://ark.cn-beijing.volces.com/api/coding/v3/chat/completions",
   byteplus: "https://ark.ap-southeast.bytepluses.com/api/coding/v3/chat/completions",
   openai: "https://api.openai.com/v1/chat/completions",
+  "vercel-ai-gateway": "https://ai-gateway.vercel.sh/v1/chat/completions",
   anthropic: "https://api.anthropic.com/v1/messages",
   gemini: "https://generativelanguage.googleapis.com/v1beta/models",
   ollama: "https://ollama.com/api/chat",

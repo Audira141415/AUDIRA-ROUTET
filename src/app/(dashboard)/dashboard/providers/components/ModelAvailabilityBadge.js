@@ -110,7 +110,7 @@ export default function ModelAvailabilityBadge() {
       </button> */}
 
       {expanded && (
-        <div className="absolute top-full right-0 mt-2 w-80 bg-surface border-2 border-black rounded-xl shadow-[6px_6px_0px_#000000] z-50 overflow-hidden">
+        <div className="absolute top-full right-0 mt-2 w-80 bg-surface border border-border rounded-xl shadow-2xl z-50 overflow-hidden">
           <div className="flex items-center justify-between px-4 py-3 border-b border-border bg-bg">
             <div className="flex items-center gap-2">
               <span

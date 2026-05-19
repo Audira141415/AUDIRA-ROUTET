@@ -42,17 +42,17 @@ export default function Drawer({
     <div className="fixed inset-0 z-50">
       {/* Overlay */}
       <div
-        className="absolute inset-0 bg-black/50 fade-in cursor-pointer"
+        className="absolute inset-0 bg-black/50 backdrop-blur-[2px] fade-in cursor-pointer"
         onClick={onClose}
         aria-hidden="true"
       />
 
       {/* Drawer panel */}
       <div className={cn(
-        "absolute right-0 top-0 h-full bg-white flex flex-col",
-        "shadow-[-8px_0px_0px_#000000]",
+        "absolute right-0 top-0 h-full bg-surface flex flex-col",
+        "shadow-[var(--shadow-elev)]",
         "slide-in-right",
-        "border-l-[3px] border-black rounded-none",
+        "border-l border-border-subtle",
         widths[width] || widths.md,
         className
       )}>
@@ -66,7 +66,7 @@ export default function Drawer({
           <button
             type="button"
             onClick={onClose}
-            className="p-1.5 rounded-none border-2 border-black text-text-muted hover:bg-[#F5F5F5] hover:text-text-main transition-colors duration-100 ease-in-out"
+            className="p-1.5 rounded-[10px] text-text-muted hover:bg-surface-2 hover:text-text-main transition-colors"
           >
             <span className="material-symbols-outlined text-[20px]">close</span>
           </button>

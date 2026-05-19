@@ -1,12 +1,12 @@
 # Integración con Claude Code
 
-Integra Audira Route con Claude Code CLI para enrutar tus solicitudes de la API de Anthropic a través del sistema de enrutamiento inteligente de Audira Route.
+Integra 9Router con Claude Code CLI para enrutar tus solicitudes de la API de Anthropic a través del sistema de enrutamiento inteligente de 9Router.
 
 ## Requisitos previos
 
 - Claude Code CLI instalado
-- Audira Route ejecutándose localmente o endpoint en la nube configurado
-- API key del dashboard de Audira Route
+- 9Router ejecutándose localmente o endpoint en la nube configurado
+- API key del dashboard de 9Router
 
 ## Configuración
 
@@ -15,7 +15,7 @@ Integra Audira Route con Claude Code CLI para enrutar tus solicitudes de la API 
 Establece las siguientes variables de entorno en tu archivo de configuración del shell (`~/.bashrc`, `~/.zshrc`, o `~/.bash_profile`):
 
 ```bash
-# Base URL for Audira Route
+# Base URL for 9Router
 export ANTHROPIC_BASE_URL="http://localhost:20128/v1"
 
 # Optional: Set default models for aliases
@@ -40,7 +40,7 @@ echo $ANTHROPIC_BASE_URL
 
 ## Aliases de modelos
 
-Claude Code soporta los siguientes aliases de modelos que mapean a modelos de Audira Route:
+Claude Code soporta los siguientes aliases de modelos que mapean a modelos de 9Router:
 
 | Alias | Modelo | Variable de entorno |
 |-------|-------|---------------------|
@@ -86,7 +86,7 @@ Claude Code almacena su configuración en `~/.claude/settings.json`. Puedes edit
 
 Si encuentras errores de conexión:
 
-1. Verifica que Audira Route esté corriendo: `curl http://localhost:20128/health`
+1. Verifica que 9Router esté corriendo: `curl http://localhost:20128/health`
 2. Verifica que las variables de entorno estén configuradas correctamente
 3. Asegúrate de que ningún firewall esté bloqueando el puerto 20128
 
@@ -94,16 +94,16 @@ Si encuentras errores de conexión:
 
 Si obtienes errores de "modelo no encontrado":
 
-1. Verifica que el nombre del modelo coincida con tu configuración de Audira Route
-2. Verifica que la conexión del proveedor esté activa en el dashboard de Audira Route
+1. Verifica que el nombre del modelo coincida con tu configuración de 9Router
+2. Verifica que la conexión del proveedor esté activa en el dashboard de 9Router
 3. Asegúrate de que el modelo esté disponible en tus proveedores conectados
 
 ## Endpoint en la nube
 
-Para usar el endpoint en la nube de Audira Route en lugar de localhost:
+Para usar el endpoint en la nube de 9Router en lugar de localhost:
 
 ```bash
-export ANTHROPIC_BASE_URL="https://audira-route.com"
+export ANTHROPIC_BASE_URL="https://9router.com"
 ```
 
-Asegúrate de haber configurado tu API key en el dashboard en la nube de Audira Route.
+Asegúrate de haber configurado tu API key en el dashboard en la nube de 9Router.
