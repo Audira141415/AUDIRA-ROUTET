@@ -1,0 +1,21 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 05:35:55 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=1192",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "I will view the scratchpad file to check for any existing context."}]}}],"usageMetadata": {"promptTokenCount": 13950,"candidatesTokenCount": 14,"totalTokenCount": 14120,"thoughtsTokenCount": 156},"modelVersion": "gemini-3-flash","responseId": "OqUKav2oKc78juMPs-rlwQg"},"traceId": "9265cb577f0a20fa","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "Ep8ECpwEAQw51sdvkVI4SYPLE5t21cB3sW38RswqdFnDhqoLzTDR5Thz46DrkeyCfn0wUzvzIn6+eEeSgDl3PdU3OV6Tu7YFxA/kgR21BOpGfMxaqz+7OkwNJzmSUKddGdsEtKmerUPr3DFpMBMrV5r4m2hTpoqlmTkXqIArxxv9D8tZ3dY24y4SRwv/+YwqTcProHWvcyZgTHHalIPHcl7adx5N4dldwVLWkRk9QDdSIfTMSR76xPxfgbMe2Kcy1Fkgpo1nfBUXswth4Xn7sCn/A3zFKlVdzr10/oG+ueH6W4GYjO9+xTpX8Hr1z99aX5xFTNx3zJhqIAwnL5d+8aBliMeDtmZ2olRUByRnAZVChoT6wjrguG0b5/RNnS4K7SZ1KFvYCTP+nVyC3bseXwvXSMTx3NSCPo4f3tFJl+aUZ6Aq5r4ZynOdOGB3BzV81iBwjCq+InNPBRWwP1QtBTZm3IaYWtOp6Dzcklna83SmGexJC6rr3ys1jvGzWFjFYdrPZHM9mzScSZQa0YufRMjjyx02nS6f2OxEwsihrc2rwUJYrrQrmVFzC7+z+TsyQynRmhwdx1BsHzRuSbAnSySGiIYKYjUQcI0DLFkkhq5XcIwMNyqLckwLpn08KeZpbAsQcTuTAQPEpGGkYu8rthf6go+XnEKdffU1+A9e3718yRGxC1EbkD3tiGMuHjBCrQuHRm0siXnvJwbNXn3pcPUU","functionCall": {"name": "view_file","args": {"explanation": "Read the scratchpad file to check for existing context","toolAction": "Reading scratchpad file","toolSummary": "View scratchpad file","AbsolutePath": "C:\\Users\\ASUS\\.gemini\\antigravity\\brain\\00103c12-fab5-48d8-953b-a371784f01f6\\browser\\scratchpad_scvh1yse.md"},"id": "n8ojprut"}}]}}],"usageMetadata": {"promptTokenCount": 14367,"candidatesTokenCount": 126,"totalTokenCount": 14649,"thoughtsTokenCount": 156},"modelVersion": "gemini-3-flash","responseId": "OqUKav2oKc78juMPs-rlwQg"},"traceId": "9265cb577f0a20fa","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 14367,"candidatesTokenCount": 126,"totalTokenCount": 14649,"thoughtsTokenCount": 156},"modelVersion": "gemini-3-flash","responseId": "OqUKav2oKc78juMPs-rlwQg"},"traceId": "9265cb577f0a20fa","metadata": {}}
+

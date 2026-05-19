@@ -1,0 +1,1132 @@
+{
+  "method": "POST",
+  "url": "/v1internal:streamGenerateContent?alt=sse",
+  "host": "cloudcode-pa.googleapis.com",
+  "headers": {
+    "host": "cloudcode-pa.googleapis.com",
+    "user-agent": "antigravity/1.23.2 windows/amd64",
+    "transfer-encoding": "chunked",
+    "authorization": "Bearer ya29.a0AQvPyIO3OKR5Sec6-OrU5qw5nYGzYORp3X1vgNQMd85KIe0Nr87Xref2XCnuyAedBxmHRgBtfNp0Hpz1Tl2kpmzO7abNk2Yteaw3x0fn5gWwM2fJynjZNJba0Lk1Dpc6IRDKr_VFoHWcfxhPbAqACY0aX9RFtyMNf1x7FxWXZvZxxWdBc3vgR2NZ9BmZXlICDhzptM5rJYhDFwaCgYKASISARUSFQHGX2Mi3L5dC2PfwQRGrnd8LIirmA0213",
+    "content-type": "application/json",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "project": "disco-solution-d43ch",
+    "requestId": "agent/683c0713-cb3a-4723-96f0-e56cb6d874dc/1779090444291/cb3d836d-9608-4d62-adc2-20637b2d692d/35",
+    "request": {
+      "contents": [
+        {
+          "role": "user",
+          "parts": [
+            {
+              "text": "<user_information>\nThe USER's OS version is windows.\nThe user has 1 active workspaces, each defined by a URI and a CorpusName. Multiple URIs potentially map to the same CorpusName. The mapping is shown as follows in the format [URI] -> [CorpusName]:\nf:\\AUDIRA-WEB-PERFECT-WORLD -> f:/AUDIRA-WEB-PERFECT-WORLD\nCode relating to the user's requests should be written in the locations listed above. Avoid writing project code files to tmp, in the .gemini dir, or directly to the Desktop and similar folders unless explicitly asked.\nApp Data Directory: C:\\Users\\ASUS\\.gemini\\antigravity\nConversation ID: 683c0713-cb3a-4723-96f0-e56cb6d874dc\n</user_information>"
+            }
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            {
+              "text": "<USER_REQUEST>\nknpa anda msh menggunakan port 3000\n</USER_REQUEST>\n<ADDITIONAL_METADATA>\nThe current local time is: 2026-05-18T14:43:52+07:00.\n\nThe user's current state is as follows:\nActive Document: f:\\AUDIRA-BUG-HUTTER\\services\\api\\src\\notifications\\email.service.ts (LANGUAGE_TYPESCRIPT)\nCursor is on line: 1\nOther open documents:\n- f:\\AUDIRA-BUG-HUTTER\\services\\api\\src\\monitoring\\monitoring.service.ts (LANGUAGE_TYPESCRIPT)\n- f:\\AUDIRA-BUG-HUTTER\\services\\api\\src\\app.module.ts (LANGUAGE_TYPESCRIPT)\n- f:\\AUDIRA-BUG-HUTTER\\services\\api\\src\\ai-analysis\\ai-analysis.controller.ts (LANGUAGE_TYPESCRIPT)\n- f:\\AUDIRA-BUG-HUTTER\\services\\api\\src\\exploitation\\README.md (LANGUAGE_MARKDOWN)\n- f:\\AUDIRA-BUG-HUTTER\\services\\api\\src\\exploitation\\exploitation.service.ts (LANGUAGE_TYPESCRIPT)\nNo browser pages are currently open.\n</ADDITIONAL_METADATA>\n<USER_SETTINGS_CHANGE>\nThe user changed setting `Model Selection` from None to Claude Sonnet 4.6 (Thinking). No need to comment on this change if the user doesn't ask about it. If reporting what model you are, please use a human readable name instead of the exact string.\n</USER_SETTINGS_CHANGE>"
+            }
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            {
+              "text": "# Conversation History\nHere are the conversation IDs, titles, and summaries of your most recent 17 conversations, in reverse chronological order:\n\n<conversation_summaries>\n## Conversation 02a79347-c99f-45ec-958d-0eddc512af92: Focusing On Audira Web Perfect World\n- Created: 2026-05-18T07:25:28Z\n- Last modified: 2026-05-18T07:43:35Z\n\n### USER Objective:\nPerfect World Frontend Implementation\n\nThe user's objective is to complete the full-stack frontend development of the Perfect World Neo Brutalism web project. The goal is to implement all 12 planned pages, finalize UI aesthetics using custom AI-generated character assets, ensure full responsiveness, and establish a production-ready codebase that integrates seamlessly with the existing 8 backend microservices.\n\n## Conversation 0df56b2e-cfd6-400f-af15-0bc0bebeaee6: Implementing VulnX Hunter Features\n- Created: 2026-05-18T07:42:38Z\n- Last modified: 2026-05-18T07:43:19Z\n\n### USER Objective:\nImplementing VulnX Hunter Features\n\nThe user's objective is to complete the implementation of the remaining features for the VulnX Hunter platform. This involves transitioning from mock implementations to functional code in the `AIAnalysisService` (specifically for actual AI-powered exploit generation and natural language query processing) and ensuring that the `EmailService` and `ExploitationController` are fully integrated and production-ready. The goal is to achieve full feature parity and operational stability for the backend services.\n\n## Conversation 0cd1881d-3635-4a8c-b5da-faed278de6ea: Implementing VulnX Hunter Features\n- Created: 2026-05-18T07:21:03Z\n- Last modified: 2026-05-18T07:43:13Z\n\n### USER Objective:\nFinalizing VulnX Hunter Platform\n\nMain Objective: Complete the final 27% of the VulnX Hunter platform by achieving full database persistence, implementing required frontend integration pages, and ensuring all backend services are production-ready.\n\nGoals:\n1. Complete database schema migrations for all advanced features including scheduled scans, monitoring, threat intelligence, and AI analysis.\n2. Implement and integrate the essential frontend pages (Analytics, Scheduled Scans, Monitoring Rules, Threat Intelligence, Reports) to bridge the backend-frontend gap.\n3. Verify the platform's stability, confirm 100% feature parity, and provide a comprehensive implementation summary for deployment.\n\n## Conversation 26ee0630-9cea-4269-9985-017beae5aec7: Analyzing Bug Hunter Project\n- Created: 2026-05-18T05:14:19Z\n- Last modified: 2026-05-18T07:20:54Z\n\n### USER Objective:\nImplementing VulnX Hunter Features\n\nThe user's objective is to complete the development of the VulnX Hunter vulnerability testing platform by systematically implementing the remaining features. The core goals include finalizing the backend integration for the Go-based scanner service, implementing the full-stack Reports module for vulnerability data exporting, and completing the remaining 15 frontend application pages to achieve full feature parity. The process will follow an incremental implementation strategy, starting with backend modules before transitioning to frontend integration and system-wide verification.\n\n## Conversation 00103c12-fab5-48d8-953b-a371784f01f6: Verifying Dashboard Navigation Status\n- Created: 2026-05-18T05:15:10Z\n- Last modified: 2026-05-18T07:06:01Z\n\n### USER Objective:\nVerifying Dashboard Navigation Status\n\nMain Objective: Determine if the navigation menu features are fully functional within the Vice City Dashboard project.\n\nGoals:\n1. Verify the implementation of the `Navigation.tsx` component.\n2. Confirm if the navigation links (Home, News, Videos, Events, Stats, Community, Settings) are correctly configured and point to active, functional application routes.\n3. Identify if any of these dashboard sub-pages currently exist as placeholders or require further implementation to be considered \"active.\"\n\n## Conversation ae30676f-05b5-4984-9e28-f650aab6b3f7: Analyzing Project Development Phase\n- Created: 2026-05-18T04:47:48Z\n- Last modified: 2026-05-18T05:13:27Z\n\n### USER Objective:\nImplementing Backend For VulnX Hunter\n\nThe user's objective is to complete the backend development and achieve full-stack readiness for the VulnX Hunter vulnerability testing platform. The primary goals are to implement critical modules (Vulnerabilities, Listeners), establish a robust API integration layer, and ensure the project architecture is scalable for future frontend integration and MVP production, effectively accelerating the development timeline by transitioning from partial backend implementation to a near-complete functional stack.\n\n## Conversation c69fc8e3-5731-4ccb-a88a-cab671604500: Implementing GTA Dashboard Features\n- Created: 2026-05-18T04:37:58Z\n- Last modified: 2026-05-18T05:07:24Z\n\n### USER Objective:\nImplementing Vice City Dashboard Pages\n\nThe user's goal is to continue the implementation of the Grand Theft Auto VI (Vice City) Dashboard by creating the remaining sub-pages: Videos, Events, Stats, and Community. The objective is to build these interactive, premium-themed pages to match the already-completed main dashboard's cyberpunk aesthetic, layout, and functionality requirements, ensuring a complete and seamless user experience.\n\n## Conversation 42590093-6914-4325-9d8d-fcdf529eb222: Analyzing GTA Dashboard UI\n- Created: 2026-05-18T04:28:46Z\n- Last modified: 2026-05-18T04:34:09Z\n\n## Conversation 481fbe3f-2122-4bef-b3e4-35d6bc234ed1: \n- Created: 2026-05-17T08:10:37Z\n- Last modified: 2026-05-18T02:16:54Z\n\n## Conversation e377f0ba-2f4f-409a-bd74-b0116fd437d3: Debugging Kiro Rotation Error\n- Created: 2026-05-17T06:42:46Z\n- Last modified: 2026-05-17T07:38:16Z\n\n## Conversation 4c929215-2736-446e-ae2c-a85c645dc533: Verifying Quota Tracker Feature\n- Created: 2026-05-17T06:32:53Z\n- Last modified: 2026-05-17T06:40:40Z\n\n### USER Objective:\nVerifying Quota Tracker Feature\n\nMain Objective:\nVerify whether the \"Quota Tracker\" is a functional, real-world feature within the current codebase or if it is a placeholder/non-functional element.\n\nGoals:\n1. Search the project directory and source code (specifically looking at `src/`, `open-sse/`, and configuration files) for any references to \"Quota Tracker\" or related telemetry/usage monitoring logic.\n2. Determine if there is an active implementation of quota management that tracks user requests or usage limits.\n3. Provide a clear explanation to the user regarding the status of this feature based on the findings in the code.\n\n## Conversation 23f99fb8-cf33-4297-bba1-7d5374d67258: Debugging Kiro API 400 Errors\n- Created: 2026-05-17T06:25:53Z\n- Last modified: 2026-05-17T06:26:30Z\n\n### USER Objective:\nDebugging Kiro API 400 Errors\n\nMain Objective: Resolve the \"Improperly formed request\" (400) error occurring during Kiro API calls.\n\nGoals:\n1. Analyze the `openai-to-kiro.js` translation logic to ensure the payload structure strictly adheres to the Kiro provider's schema requirements.\n2. Investigate why a seemingly valid request (previously succeeding) is now returning a 400 error, focusing on potential regressions in message formatting or tool definitions.\n3. Validate the request payload against Kiro’s specific API constraints, ensuring that mandatory fields are present and correctly serialized.\n4. Implement and test a fix to eliminate the \"Improperly formed request\" error and restore stable communication with the Kiro service.\n\n## Conversation 5252d9b4-111a-43bc-8c7d-e3c248b88706: Optimizing Kiro Payload Handling\n- Created: 2026-05-17T06:24:26Z\n- Last modified: 2026-05-17T06:25:26Z\n\n### USER Objective:\nOptimizing Kiro Payload Handling\n\nMain Objective: Resolve the CONTENT_LENGTH_EXCEEDS_THRESHOLD error in the Kiro request flow by refining payload construction.\n\nGoals:\n1. Ensure the `buildKiroPayload` function in `openai-to-kiro.js` correctly enforces payload constraints without causing 400 errors.\n2. Verify that the dynamic truncation logic (history, tools, and message content) effectively keeps requests under the 25KB threshold while maintaining critical context.\n3. Validate the payload structure against strict Kiro requirements, specifically ensuring the alternating user-assistant history format is preserved.\n4. Confirm the stability of the tool schema normalization to prevent malformed request errors during upstream processing.\n\n## Conversation 25695319-98e6-41ab-9309-99fd90fceb5e: Debugging Kiro Request Error\n- Created: 2026-05-17T06:08:53Z\n- Last modified: 2026-05-17T06:11:24Z\n\n## Conversation 0880b014-91df-4327-807c-790e45ec187d: \n- Created: 2026-05-17T03:36:02Z\n- Last modified: 2026-05-17T06:04:36Z\n\n## Conversation ad162d26-b9e4-4aff-adb8-b4341855b3f9: Analyzing Kiro Content Length Error\n- Created: 2026-05-16T08:48:58Z\n- Last modified: 2026-05-16T08:50:51Z\n\n### USER Objective:\nTroubleshooting Kiro Content Limits\n\nMain Objective: Resolve the CONTENT_LENGTH_EXCEEDS_THRESHOLD error occurring when using the Kiro provider (Claude Haiku 4.5).\n\nGoals:\n1. Identify the source of the 400 error within the `kiro` provider implementation and request handling flow.\n2. Investigate the `buildKiroPayload` function in `open-sse/translator/request/openai-to-kiro.js` to determine if token limits or context window management need adjustment.\n3. Verify if the `maxTokens` setting (currently hardcoded to 32000) or message assembly logic is triggering the Kiro API rejection.\n4. Implement a fix to either optimize the context payload or adjust the length constraints to align with Kiro's service thresholds.\n\n## Conversation 29a38223-e343-41cc-9b50-5b19075274b6: bagaimna menurutmu aplikais ini\n- Created: 2026-05-16T08:40:00Z\n- Last modified: 2026-05-16T08:40:01Z\n\n</conversation_summaries>"
+            }
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<thinking>\nThe user is asking in Indonesian: \"Why are you still using port 3000?\"\n\nLooking at the context:\n1. The user is currently viewing files in the AUDIRA-BUG-HUTTER project (not AUDIRA-WEB-PERFECT-WORLD)\n2. The open files are related to a backend API service (NestJS-based, given the .service.ts and .module.ts files)\n3. The conversation history shows work on \"VulnX Hunter\" platform\n4. The user seems to be questioning why port 3000 is being used\n\nI need to:\n1. Check what port configuration exists in the current project\n2. Understand if there's a conflict or issue with port 3000\n3. Provide context about why port 3000 might be in use\n\nLet me first check the project structure and look for port configurations.\n</thinking>\n\nSaya perlu memeriksa konfigurasi port di proyek AUDIRA-BUG-HUTTER untuk memahami mengapa port 3000 digunakan. Mari saya cek file konfigurasi yang relevan."
+            },
+            {
+              "functionCall": {
+                "id": "4d937ca4-4e9e-4aa6-b4f3-47568f5c623b",
+                "name": "list_dir",
+                "args": {
+                  "DirectoryPath": "f:\\AUDIRA-BUG-HUTTER",
+                  "toolAction": "Listing directory",
+                  "toolSummary": "Project root structure"
+                }
+              }
+            },
+            {
+              "functionCall": {
+                "id": "9662d998-236c-4c4c-90b1-3b3c2c27252b",
+                "name": "list_dir",
+                "args": {
+                  "DirectoryPath": "f:\\AUDIRA-BUG-HUTTER\\services\\api",
+                  "toolAction": "Listing directory",
+                  "toolSummary": "API service structure"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            {
+              "functionResponse": {
+                "id": "4d937ca4-4e9e-4aa6-b4f3-47568f5c623b",
+                "name": "list_dir",
+                "response": {
+                  "output": "Created At: 2026-05-18T07:44:02Z\nCompleted At: 2026-05-18T07:44:02Z\n{\"name\":\".env.example\", \"sizeBytes\":\"1438\"}\n{\"name\":\".kiro\", \"isDir\":true}\n{\"name\":\"QUICKSTART.md\", \"sizeBytes\":\"5024\"}\n{\"name\":\"README.md\", \"sizeBytes\":\"5675\"}\n{\"name\":\"apps\", \"isDir\":true}\n{\"name\":\"infrastructure\", \"isDir\":true}\n{\"name\":\"node_modules\", \"isDir\":true}\n{\"name\":\"package-lock.json\", \"sizeBytes\":\"286830\"}\n{\"name\":\"package.json\", \"sizeBytes\":\"519\"}\n{\"name\":\"packages\", \"isDir\":true}\n{\"name\":\"scripts\", \"isDir\":true}\n{\"name\":\"services\", \"isDir\":true}\n{\"name\":\"start-dev.bat\", \"sizeBytes\":\"1614\"}\n{\"name\":\"start.bat\", \"sizeBytes\":\"1813\"}\n{\"name\":\"stop.bat\", \"sizeBytes\":\"1772\"}\n{\"name\":\"tsconfig.json\", \"sizeBytes\":\"562\"}\n\nSummary: This directory contains 7 subdirectories and 9 files."
+                }
+              }
+            },
+            {
+              "functionResponse": {
+                "id": "9662d998-236c-4c4c-90b1-3b3c2c27252b",
+                "name": "list_dir",
+                "response": {
+                  "output": "Created At: 2026-05-18T07:44:02Z\nCompleted At: 2026-05-18T07:44:02Z\n{\"name\":\"nest-cli.json\", \"sizeBytes\":\"171\"}\n{\"name\":\"package.json\", \"sizeBytes\":\"1155\"}\n{\"name\":\"src\", \"isDir\":true}\n\nSummary: This directory contains 1 subdirectories and 2 files."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            {
+              "functionCall": {
+                "id": "b7161a19-35e1-4260-b989-c6bdfc6540d0",
+                "name": "view_file",
+                "args": {
+                  "AbsolutePath": "f:\\AUDIRA-BUG-HUTTER\\.env.example",
+                  "toolAction": "Viewing file",
+                  "toolSummary": "Environment configuration example"
+                }
+              }
+            },
+            {
+              "functionCall": {
+                "id": "b070e326-f21b-43d7-b517-f61651d8dcd0",
+                "name": "view_file",
+                "args": {
+                  "AbsolutePath": "f:\\AUDIRA-BUG-HUTTER\\services\\api\\src\\app.module.ts",
+                  "toolAction": "Viewing file",
+                  "toolSummary": "Main application module"
+                }
+              }
+            },
+            {
+              "functionCall": {
+                "id": "19f14049-1163-4126-96fb-46eb1930e425",
+                "name": "grep_search",
+                "args": {
+                  "CaseInsensitive": false,
+                  "IsRegex": false,
+                  "MatchPerLine": true,
+                  "Query": "3000",
+                  "SearchPath": "f:\\AUDIRA-BUG-HUTTER\\services\\api",
+                  "toolAction": "Searching for port",
+                  "toolSummary": "Port 3000 references"
+                }
+              }
+            },
+            {
+              "functionCall": {
+                "id": "9f2af3e6-63e0-44eb-9607-3fc0bf6b8d91",
+                "name": "grep_search",
+                "args": {
+                  "CaseInsensitive": false,
+                  "Includes": [
+                    "*.ts",
+                    "*.js",
+                    "*.json",
+                    ".env*"
+                  ],
+                  "IsRegex": false,
+                  "MatchPerLine": true,
+                  "Query": "PORT",
+                  "SearchPath": "f:\\AUDIRA-BUG-HUTTER",
+                  "toolAction": "Searching for port",
+                  "toolSummary": "PORT configuration references"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            {
+              "functionResponse": {
+                "id": "b7161a19-35e1-4260-b989-c6bdfc6540d0",
+                "name": "view_file",
+                "response": {
+                  "output": "Created At: 2026-05-18T07:44:10Z\nCompleted At: 2026-05-18T07:44:10Z\nFile Path: `file:///f:/AUDIRA-BUG-HUTTER/.env.example`\nTotal Lines: 42\nTotal Bytes: 1438\nShowing lines 1 to 42\nThe following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.\n1: # ==============================================================================\n2: # VULNX HUNTER ENVIRONMENT SETTINGS\n3: # ==============================================================================\n4: \n5: # Core Ports\n6: PORT=8000\n7: NEXT_PUBLIC_API_URL=http://localhost:8000\n8: FRONTEND_URL=http://localhost:3000\n9: \n10: # Database Configuration (PostgreSQL)\n11: DATABASE_URL=\"postgresql://postgres:vulnx_secure_pass@localhost:5432/vulnx_hunter?schema=public\"\n12: \n13: # Redis Config (Used by BullMQ and WebSockets)\n14: REDIS_HOST=localhost\n15: REDIS_PORT=6379\n16: \n17: # JWT Authentication Secret\n18: JWT_SECRET=\"cyberpunk_neo_brutalism_dark_secret_2026_key!\"\n19: JWT_EXPIRES_IN=\"7d\"\n20: \n21: # AI Integrations (OpenAI, Anthropic, or Local Ollama)\n22: OPENAI_API_KEY=\"sk-proj-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\"\n23: AI_PROVIDER=\"openai\" # openai, local, or mock\n24: \n25: # Scanning Golang microservice connection details\n26: SCANNER_AGENT_URL=\"http://localhost:8080\"\n27: USE_MOCK_SCANNER=\"true\"  # Set to \"false\" to use real scanner service\n28: \n29: # Email Notifications (SMTP)\n30: SMTP_HOST=\"smtp.gmail.com\"\n31: SMTP_PORT=\"587\"\n32: SMTP_SECURE=\"false\"\n33: SMTP_USER=\"your-email@gmail.com\"\n34: SMTP_PASS=\"your-app-password\"\n35: \n36: # Threat Intelligence APIs (Optional - increases rate limits)\n37: NVD_API_KEY=\"\"  # Get from: https://nvd.nist.gov/developers/request-an-api-key\n38: GITHUB_TOKEN=\"\"  # Get from: https://github.com/settings/tokens\n39: \n40: # Exploitation Framework (⚠️ Use with caution)\n41: ENABLE_EXPLOITATION=\"false\"  # Set to \"true\" only for authorized testing\n42: \nThe above content shows the entire, complete file contents of the requested file.\n"
+                }
+              }
+            },
+            {
+              "functionResponse": {
+                "id": "b070e326-f21b-43d7-b517-f61651d8dcd0",
+                "name": "view_file",
+                "response": {
+                  "output": "Created At: 2026-05-18T07:44:10Z\nCompleted At: 2026-05-18T07:44:10Z\nFile Path: `file:///f:/AUDIRA-BUG-HUTTER/services/api/src/app.module.ts`\nTotal Lines: 61\nTotal Bytes: 2051\nShowing lines 1 to 61\nThe following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.\n1: import { Module } from '@nestjs/common';\n2: import { AuthModule } from './auth/auth.module';\n3: import { TargetModule } from './targets/target.module';\n4: import { ScanModule } from './scans/scan.module';\n5: import { AIModule } from './ai/ai.module';\n6: import { VulnerabilityModule } from './vulnerabilities/vulnerability.module';\n7: import { ListenerModule } from './listeners/listener.module';\n8: import { DatabaseModule } from './database/database.module';\n9: import { BullModule } from '@nestjs/bullmq';\n10: import { ThrottlerModule, ThrottlerGuard } from '@nestjs/throttler';\n11: import { APP_GUARD } from '@nestjs/core';\n12: import { ReportModule } from './reports/report.module';\n13: import { NotificationModule } from './notifications/notification.module';\n14: import { SchedulerModule } from './scheduler/scheduler.module';\n15: import { ExportModule } from './export/export.module';\n16: import { ThreatIntelModule } from './threat-intel/threat-intel.module';\n17: import { AnalyticsModule } from './analytics/analytics.module';\n18: import { MonitoringModule } from './monitoring/monitoring.module';\n19: import { AIAnalysisModule } from './ai-analysis/ai-analysis.module';\n20: import { ExploitationModule } from './exploitation/exploitation.module';\n21: \n22: @Module({\n23:   imports: [\n24:     DatabaseModule,\n25:     AuthModule,\n26:     TargetModule,\n27:     ScanModule,\n28:     AIModule,\n29:     VulnerabilityModule,\n30:     ListenerModule,\n31:     ReportModule,\n32:     NotificationModule,\n33:     SchedulerModule,\n34:     ExportModule,\n35:     ThreatIntelModule,\n36:     AnalyticsModule,\n37:     MonitoringModule,\n38:     AIAnalysisModule,\n39:     ExploitationModule,\n40:     BullModule.forRoot({\n41:       connection: {\n42:         host: process.env.REDIS_HOST || 'localhost',\n43:         port: parseInt(process.env.REDIS_PORT || '6379', 10),\n44:       },\n45:     }),\n46:     // Rate limiting: 100 requests per 60 seconds per IP\n47:     ThrottlerModule.forRoot([{\n48:       ttl: 60000, // 60 seconds\n49:       limit: 100, // 100 requests\n50:     }]),\n51:   ],\n52:   providers: [\n53:     // Apply rate limiting globally to all routes\n54:     {\n55:       provide: APP_GUARD,\n56:       useClass: ThrottlerGuard,\n57:     },\n58:   ],\n59: })\n60: export class AppModule {}\n61: \nThe above content shows the entire, complete file contents of the requested file.\n"
+                }
+              }
+            },
+            {
+              "functionResponse": {
+                "id": "19f14049-1163-4126-96fb-46eb1930e425",
+                "name": "grep_search",
+                "response": {
+                  "output": "Created At: 2026-05-18T07:44:10Z\nCompleted At: 2026-05-18T07:44:11Z\n{\"File\":\"f:\\\\AUDIRA-BUG-HUTTER\\\\services\\\\api\\\\src\\\\main.ts\",\"LineNumber\":20,\"LineContent\":\"  const allowedOrigins = process.env.FRONTEND_URL?.split(',') || ['http://localhost:3000'];\"}"
+                }
+              }
+            },
+            {
+              "functionResponse": {
+                "id": "9f2af3e6-63e0-44eb-9607-3fc0bf6b8d91",
+                "name": "grep_search",
+                "response": {
+                  "output": "Created At: 2026-05-18T07:44:10Z\nCompleted At: 2026-05-18T07:44:31Z\nNo results found"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            {
+              "functionCall": {
+                "id": "55f04ca7-5f9b-4bba-9407-cf8129af9268",
+                "name": "view_file",
+                "args": {
+                  "AbsolutePath": "f:\\AUDIRA-BUG-HUTTER\\services\\api\\src\\main.ts",
+                  "toolAction": "Viewing file",
+                  "toolSummary": "Main application entry point"
+                }
+              }
+            },
+            {
+              "functionCall": {
+                "id": "6ceaac4a-408e-4a60-8210-fcaac0825764",
+                "name": "grep_search",
+                "args": {
+                  "CaseInsensitive": false,
+                  "IsRegex": false,
+                  "MatchPerLine": true,
+                  "Query": "3000",
+                  "SearchPath": "f:\\AUDIRA-WEB-PERFECT-WORLD",
+                  "toolAction": "Searching for port",
+                  "toolSummary": "Port 3000 in Perfect World"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            {
+              "functionResponse": {
+                "id": "55f04ca7-5f9b-4bba-9407-cf8129af9268",
+                "name": "view_file",
+                "response": {
+                  "output": "Created At: 2026-05-18T07:44:36Z\nCompleted At: 2026-05-18T07:44:36Z\nFile Path: `file:///f:/AUDIRA-BUG-HUTTER/services/api/src/main.ts`\nTotal Lines: 43\nTotal Bytes: 1568\nShowing lines 1 to 43\nThe following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.\n1: import { NestFactory } from '@nestjs/core';\n2: import { AppModule } from './app.module';\n3: import { ValidationPipe } from '@nestjs/common';\n4: import * as dotenv from 'dotenv';\n5: import * as path from 'path';\n6: import { IoAdapter } from '@nestjs/platform-socket.io';\n7: \n8: // Load environment variables with absolute path resolution\n9: dotenv.config({ path: path.resolve(__dirname, '../../.env') });\n10: \n11: async function bootstrap() {\n12:   // Validate critical environment variables\n13:   if (!process.env.JWT_SECRET) {\n14:     throw new Error('CRITICAL: JWT_SECRET environment variable must be set. Application cannot start without it.');\n15:   }\n16: \n17:   const app = await NestFactory.create(AppModule);\n18:   \n19:   // Enable CORS with specific origin (security hardening)\n20:   const allowedOrigins = process.env.FRONTEND_URL?.split(',') || ['http://localhost:3000'];\n21:   app.enableCors({\n22:     origin: allowedOrigins,\n23:     credentials: true,\n24:   });\n25: \n26:   // Attach global Pipes for clean Zod / Class-Validator requests\n27:   app.useGlobalPipes(new ValidationPipe({ whitelist: true, transform: true }));\n28: \n29:   // Set API base route\n30:   app.setGlobalPrefix('api');\n31: \n32:   // Configure global WebSockets connection adapter\n33:   app.useWebSocketAdapter(new IoAdapter(app));\n34: \n35:   const port = process.env.PORT || 8000;\n36:   await app.listen(port);\n37:   console.log(`\\n======================================================`);\n38:   console.log(`🚀 VULNX HUNTER CORE API RUNNING ON PORT: ${port}`);\n39:   console.log(`🧪 ENDPOINTS STAGED AT: http://localhost:${port}/api`);\n40:   console.log(`======================================================\\n`);\n41: }\n42: bootstrap();\n43: \nThe above content shows the entire, complete file contents of the requested file.\n"
+                }
+              }
+            },
+            {
+              "functionResponse": {
+                "id": "6ceaac4a-408e-4a60-8210-fcaac0825764",
+                "name": "grep_search",
+                "response": {
+                  "output": "Created At: 2026-05-18T07:44:36Z\nCompleted At: 2026-05-18T07:44:42Z\n{\"File\":\"f:\\\\AUDIRA-WEB-PERFECT-WORLD\\\\BACKEND_COMPLETION_SUMMARY.md\",\"LineNumber\":141,\"LineContent\":\"GOOGLE_CALLBACK_URL=\\\"http://localhost:3000/api/auth/oauth/google/callback\\\"\"}\n{\"File\":\"f:\\\\AUDIRA-WEB-PERFECT-WORLD\\\\BACKEND_COMPLETION_SUMMARY.md\",\"LineNumber\":146,\"LineContent\":\"DISCORD_CALLBACK_URL=\\\"http://localhost:3000/api/auth/oauth/discord/callback\\\"\"}\n{\"File\":\"f:\\\\AUDIRA-WEB-PERFECT-WORLD\\\\pnpm-lock.yaml\",\"LineNumber\":2133,\"LineContent\":\"  caniuse-lite@1.0.30001792:\"}\n{\"File\":\"f:\\\\AUDIRA-WEB-PERFECT-WORLD\\\\pnpm-lock.yaml\",\"LineNumber\":6300,\"LineContent\":\"      caniuse-lite: 1.0.30001792\"}\n{\"File\":\"f:\\\\AUDIRA-WEB-PERFECT-WORLD\\\\pnpm-lock.yaml\",\"LineNumber\":6371,\"LineContent\":\"      caniuse-lite: 1.0.30001792\"}\n{\"File\":\"f:\\\\AUDIRA-WEB-PERFECT-WORLD\\\\pnpm-lock.yaml\",\"LineNumber\":6440,\"LineContent\":\"  caniuse-lite@1.0.30001792: {}\"}\n{\"File\":\"f:\\\\AUDIRA-WEB-PERFECT-WORLD\\\\pnpm-lock.yaml\",\"LineNumber\":7767,\"LineContent\":\"      caniuse-lite: 1.0.30001792\"}\n{\"File\":\"f:\\\\AUDIRA-WEB-PERFECT-WORLD\\\\packages\\\\ui\\\\node_modules\\\\ws\\\\lib\\\\constants.js\",\"LineNumber\":10,\"LineContent\":\"  CLOSE_TIMEOUT: 30000,\"}\n{\"File\":\"f:\\\\AUDIRA-WEB-PERFECT-WORLD\\\\packages\\\\ui\\\\node_modules\\\\ws\\\\README.md\",\"LineNumber\":483,\"LineContent\":\"}, 30000);\"}\n{\"File\":\"f:\\\\AUDIRA-WEB-PERFECT-WORLD\\\\packages\\\\ui\\\\node_modules\\\\ws\\\\README.md\",\"LineNumber\":509,\"LineContent\":\"  }, 30000 + 1000);\"}"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<thinking>\nThe user is asking why I'm still using port 3000. Let me analyze what I've found:\n\n1. **AUDIRA-BUG-HUTTER (VulnX Hunter):**\n   - Backend API runs on port **8000** (from `.env.example`: `PORT=8000`)\n   - Frontend is expected to run on port **3000** (from `.env.example`: `FRONTEND_URL=http://localhost:3000`)\n   - In `main.ts` line 20, the CORS configuration defaults to `http://localhost:3000` as the allowed origin\n   - In `main.ts` line 35, the actual backend port is `process.env.PORT || 8000`\n\n2. **AUDIRA-WEB-PERFECT-WORLD:**\n   - Found references to port 3000 in OAuth callback URLs in the backend completion summary\n\nSo the situation is:\n- Port **8000** = Backend API (NestJS)\n- Port **3000** = Frontend (Next.js/React)\n\nThe user seems confused about why port 3000 is being referenced. This is likely because:\n1. They might be looking at the CORS configuration in `main.ts` which mentions port 3000\n2. They might think the backend should not reference the frontend port\n3. Or they might want to use a different port for the frontend\n\nI should explain:\n1. Port 3000 is the **default frontend port** for Next.js applications\n2. The backend (port 8000) needs to know the frontend URL for CORS security\n3. This is a standard configuration and can be changed via environment variables\n\nLet me provide a clear explanation in Indonesian.\n</thinking>"
+            },
+            {
+              "functionCall": {
+                "id": "4e4856e0-7634-486e-b283-de5501adbb4a",
+                "name": "view_file",
+                "args": {
+                  "AbsolutePath": "f:\\AUDIRA-BUG-HUTTER\\start-dev.bat",
+                  "toolAction": "Viewing file",
+                  "toolSummary": "Development startup script"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            {
+              "functionResponse": {
+                "id": "4e4856e0-7634-486e-b283-de5501adbb4a",
+                "name": "view_file",
+                "response": {
+                  "output": "Created At: 2026-05-18T07:44:52Z\nCompleted At: 2026-05-18T07:44:52Z\nFile Path: `file:///f:/AUDIRA-BUG-HUTTER/start-dev.bat`\nTotal Lines: 70\nTotal Bytes: 1614\nShowing lines 1 to 70\nThe following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.\n1: @echo off\n2: echo ========================================\n3: echo VulnX Hunter - Development Startup\n4: echo ========================================\n5: echo.\n6: \n7: echo [1/4] Checking Prerequisites...\n8: where node >nul 2>nul\n9: if %ERRORLEVEL% NEQ 0 (\n10:     echo [ERROR] Node.js not found. Please install Node.js 18+\n11:     pause\n12:     exit /b 1\n13: )\n14: \n15: where redis-server >nul 2>nul\n16: if %ERRORLEVEL% NEQ 0 (\n17:     echo [WARNING] Redis not found. Please start Redis manually.\n18: )\n19: \n20: echo [OK] Prerequisites check complete\n21: echo.\n22: \n23: echo [2/4] Setting up Database...\n24: cd packages\\database\n25: call npx prisma generate\n26: call npx prisma db push\n27: call npx prisma db seed\n28: cd ..\\..\n29: echo [OK] Database setup complete\n30: echo.\n31: \n32: echo [3/4] Starting Services...\n33: echo.\n34: echo Opening 3 terminal windows:\n35: echo   - Terminal 1: API Service (port 8000)\n36: echo   - Terminal 2: Frontend (port 3000)\n37: echo   - Terminal 3: Redis (if not running)\n38: echo.\n39: \n40: start \"VulnX API\" cmd /k \"cd services\\api && npm run dev\"\n41: timeout /t 3 /nobreak >nul\n42: \n43: start \"VulnX Frontend\" cmd /k \"cd apps\\web && npm run dev\"\n44: timeout /t 2 /nobreak >nul\n45: \n46: start \"Redis Server\" cmd /k \"redis-server\"\n47: \n48: echo.\n49: echo [4/4] Services Starting...\n50: echo.\n51: echo ========================================\n52: echo VulnX Hunter is starting up!\n53: echo ========================================\n54: echo.\n55: echo API:      http://localhost:8000/api\n56: echo Frontend: http://localhost:3000\n57: echo.\n58: echo Wait 10-15 seconds for services to start...\n59: echo Then open http://localhost:3000 in your browser\n60: echo.\n61: echo Press any key to open browser...\n62: pause >nul\n63: \n64: start http://localhost:3000\n65: \n66: echo.\n67: echo To stop all services, close the terminal windows.\n68: echo.\n69: pause\n70: \nThe above content shows the entire, complete file contents of the requested file.\n"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<thinking>\nNow I have a complete picture. Let me explain to the user in Indonesian why port 3000 is being used:\n\n**The Architecture:**\n1. **Backend API (NestJS)** runs on port **8000**\n2. **Frontend (Next.js)** runs on port **3000**\n\n**Why port 3000 appears in the backend code:**\n- In `main.ts` line 20: `const allowedOrigins = process.env.FRONTEND_URL?.split(',') || ['http://localhost:3000'];`\n- This is for **CORS (Cross-Origin Resource Sharing)** configuration\n- The backend needs to know which frontend URLs are allowed to make API requests\n- Port 3000 is the **default Next.js development port**\n\n**From the startup script (`start-dev.bat`):**\n- Line 35-36: Clearly shows \"API Service (port 8000)\" and \"Frontend (port 3000)\"\n- Line 55-56: Shows the URLs for both services\n\n**This is NOT a mistake - it's the standard architecture:**\n- Backend: `http://localhost:8000/api`\n- Frontend: `http://localhost:3000`\n\nThe user might be confused because:\n1. They see port 3000 referenced in backend code (CORS config)\n2. They might think everything should run on one port\n3. They might want to change the frontend port\n\nI should explain this clearly and offer to change the port if they want.\n</thinking>\n\nSaya mengerti kebingungan Anda. Mari saya jelaskan arsitektur port di proyek VulnX Hunter ini:\n\n## Arsitektur Port Saat Ini\n\n**Port 3000** digunakan untuk **Frontend (Next.js)**, bukan backend. Ini adalah konfigurasi standar:\n\n- **Backend API (NestJS)**: Port **8000** → `http://localhost:8000/api`\n- **Frontend (Next.js)**: Port **3000** → `http://localhost:3000`\n\n## Mengapa Port 3000 Muncul di Backend?\n\nDi file [`main.ts`](file:///f:/AUDIRA-BUG-HUTTER/services/api/src/main.ts#L20), port 3000 direferensikan untuk **konfigurasi CORS**:\n\n```typescript\nconst allowedOrigins = process.env.FRONTEND_URL?.split(',') || ['http://localhost:3000'];\napp.enableCors({\n  origin: allowedOrigins,\n  credentials: true,\n});\n```\n\nIni **bukan error** - backend perlu tahu URL frontend mana yang boleh mengakses API (untuk keamanan).\n\n## Dari Script Startup\n\nFile [`start-dev.bat`](file:///f:/AUDIRA-BUG-HUTTER/start-dev.bat#L35-L36) jelas menunjukkan:\n```\n- Terminal 1: API Service (port 8000)\n- Terminal 2: Frontend (port 3000)\n```\n\n## Apakah Anda Ingin Mengubah Port?\n\nJika Anda ingin menggunakan port lain untuk frontend (misalnya 3001, 5173, atau lainnya), saya bisa:\n\n1. Update file `.env` untuk mengubah `FRONTEND_URL`\n2. Update konfigurasi CORS di backend\n3. Update script startup\n\n**Apakah ada konflik port di sistem Anda, atau Anda ingin menggunakan port berbeda?**"
+            }
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            {
+              "text": "<USER_REQUEST>\nbukNNYA KITA SUDHA PUNYA PENGATURNA UNUTK PROT Landing Page (Web): http://localhost:3327\necho Admin Panel: http://localhost:3328\necho Backend API: http://localhost:3329\necho ========================================\n</USER_REQUEST>\n<ADDITIONAL_METADATA>\nThe current local time is: 2026-05-18T14:45:53+07:00.\n\nThe user's current state is as follows:\nActive Document: f:\\AUDIRA-WEB-PERFECT-WORLD\\start.bat (LANGUAGE_UNSPECIFIED)\nCursor is on line: 5\nOther open documents:\n- f:\\AUDIRA-WEB-PERFECT-WORLD\\start.bat (LANGUAGE_UNSPECIFIED)\n- f:\\AUDIRA-WEB-PERFECT-WORLD\\apps\\web\\src\\app\\page.tsx (LANGUAGE_TSX)\nNo browser pages are currently open.\n</ADDITIONAL_METADATA>"
+            }
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            {
+              "text": "The USER performed the following action:\nShow the contents of file f:\\AUDIRA-WEB-PERFECT-WORLD\\start.bat from lines 1 to 30"
+            }
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            {
+              "text": "File Path: `file:///f:/AUDIRA-WEB-PERFECT-WORLD/start.bat`\nTotal Lines: 30\nTotal Bytes: 916\nShowing lines 1 to 30\nThe following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.\n1: @echo off\n2: echo ========================================\n3: echo Starting Perfect World Development\n4: echo ========================================\n5: echo Landing Page (Web): http://localhost:3327\n6: echo Admin Panel: http://localhost:3328\n7: echo Backend API: http://localhost:3329\n8: echo ========================================\n9: echo.\n10: \n11: REM Start backend on port 3329\n12: start \"Backend API (Port 3329)\" cmd /k \"cd apps\\api && set PORT=3329 && pnpm run dev\"\n13: \n14: REM Wait 2 seconds\n15: timeout /t 2 /nobreak >nul\n16: \n17: REM Start landing page on port 3327\n18: start \"Landing Page (Port 3327)\" cmd /k \"cd apps\\web && pnpm dev --port 3327\"\n19: \n20: REM Wait 2 seconds\n21: timeout /t 2 /nobreak >nul\n22: \n23: REM Start admin panel on port 3328\n24: start \"Admin Panel (Port 3328)\" cmd /k \"cd apps\\admin && pnpm dev --port 3328\"\n25: \n26: echo.\n27: echo All services are starting...\n28: echo Press any key to exit this window (services will continue running)\n29: pause >nul\n30: \n\n"
+            }
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<thinking>\nAh! Now I understand the confusion. The user is pointing out that they already have a port configuration for the **AUDIRA-WEB-PERFECT-WORLD** project:\n\n- Landing Page (Web): Port **3327**\n- Admin Panel: Port **3328**\n- Backend API: Port **3329**\n\nBut I was looking at and explaining the **AUDIRA-BUG-HUTTER** (VulnX Hunter) project which uses:\n- Backend API: Port **8000**\n- Frontend: Port **3000**\n\nThe user switched context from AUDIRA-BUG-HUTTER to AUDIRA-WEB-PERFECT-WORLD and is now viewing the `start.bat` file for the Perfect World project.\n\nSo the issue is:\n1. The user has TWO different projects with DIFFERENT port configurations\n2. I was explaining the VulnX Hunter ports (8000, 3000) when they're now asking about Perfect World ports (3327, 3328, 3329)\n3. The user is confused why I mentioned port 3000 when their Perfect World project uses custom ports (3327, 3328, 3329)\n\nI need to:\n1. Acknowledge the confusion - I was talking about the WRONG project\n2. Clarify that AUDIRA-BUG-HUTTER and AUDIRA-WEB-PERFECT-WORLD are separate projects with different port configurations\n3. Confirm that Perfect World already has the correct custom ports configured\n4. Check if there's any conflict or if they want to ensure consistency\n\nLet me check what the user's actual concern is - are they asking why I referenced port 3000 when discussing something that should have been about Perfect World?\n</thinking>\n\nAh, maaf! Saya mengerti sekarang - ada **kebingungan antara 2 proyek berbeda**:\n\n## 🎯 Klarifikasi: Anda Punya 2 Proyek Terpisah\n\n### 1️⃣ **AUDIRA-BUG-HUTTER** (VulnX Hunter)\n- Backend API: Port **8000**\n- Frontend: Port **3000**\n- File: `f:\\AUDIRA-BUG-HUTTER\\start-dev.bat`\n\n### 2️⃣ **AUDIRA-WEB-PERFECT-WORLD** (Perfect World)\n- Landing Page: Port **3327**\n- Admin Panel: Port **3328**\n- Backend API: Port **3329**\n- File: [`f:\\AUDIRA-WEB-PERFECT-WORLD\\start.bat`](file:///f:/AUDIRA-WEB-PERFECT-WORLD/start.bat#L5-L7)\n\n## ✅ Perfect World Sudah Benar\n\nAnda **benar** - proyek Perfect World sudah menggunakan port custom (3327, 3328, 3329), bukan port 3000. Konfigurasi ini sudah tepat dan tidak ada masalah.\n\n## 🤔 Pertanyaan Saya\n\nApakah Anda ingin:\n\n1. **Menyamakan port** antara kedua proyek agar tidak bingung?\n2. **Memastikan tidak ada konflik** saat menjalankan kedua proyek bersamaan?\n3. **Mengubah port VulnX Hunter** agar mengikuti pola Perfect World (misalnya 3330, 3331)?\n\nAtau apakah ada masalah spesifik yang Anda alami dengan konfigurasi port saat ini?"
+            }
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            {
+              "text": "<USER_REQUEST>\nWAH ANDA MEMBICARAKA PROYEK YG MANA ?\n</USER_REQUEST>\n<ADDITIONAL_METADATA>\nThe current local time is: 2026-05-18T14:46:44+07:00.\n\nThe user's current state is as follows:\nActive Document: f:\\AUDIRA-WEB-PERFECT-WORLD\\start.bat (LANGUAGE_UNSPECIFIED)\nCursor is on line: 5\nOther open documents:\n- f:\\AUDIRA-WEB-PERFECT-WORLD\\start.bat (LANGUAGE_UNSPECIFIED)\n- f:\\AUDIRA-WEB-PERFECT-WORLD\\apps\\web\\src\\app\\page.tsx (LANGUAGE_TSX)\nNo browser pages are currently open.\n</ADDITIONAL_METADATA>"
+            }
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<thinking>\nThe user is asking \"WHICH PROJECT ARE YOU TALKING ABOUT?\" in all caps, showing frustration. Let me trace back the conversation:\n\n1. **Initial question**: \"knpa anda msh menggunakan port 3000\" (why are you still using port 3000)\n2. **User's context at that time**: They had files open from **AUDIRA-BUG-HUTTER** project\n3. **My response**: I investigated AUDIRA-BUG-HUTTER and explained port 3000 is for the frontend\n4. **User's follow-up**: They showed me the Perfect World start.bat with ports 3327, 3328, 3329\n5. **User's current context**: They're now viewing **AUDIRA-WEB-PERFECT-WORLD** files\n\nThe confusion is:\n- When they asked the initial question, they had AUDIRA-BUG-HUTTER files open\n- I correctly investigated AUDIRA-BUG-HUTTER\n- But then they switched to showing me AUDIRA-WEB-PERFECT-WORLD\n- Now they're asking which project I'm talking about\n\nI need to:\n1. Clearly state that I was initially talking about AUDIRA-BUG-HUTTER (because that's what they had open)\n2. Acknowledge that they then showed me AUDIRA-WEB-PERFECT-WORLD\n3. Ask them to clarify which project they want to discuss\n4. Be very clear and direct about the context switch\n\nThe user is frustrated, so I need to be concise and clear.\n</thinking>\n\n## 🎯 Klarifikasi Konteks\n\n**Saya awalnya membahas: AUDIRA-BUG-HUTTER (VulnX Hunter)**\n\nAlasannya:\n- Ketika Anda bertanya \"kenapa masih pakai port 3000\", file yang terbuka adalah:\n  - `f:\\AUDIRA-BUG-HUTTER\\services\\api\\src\\email.service.ts`\n  - `f:\\AUDIRA-BUG-HUTTER\\services\\api\\src\\monitoring.service.ts`\n  - `f:\\AUDIRA-BUG-HUTTER\\services\\api\\src\\app.module.ts`\n\n**Kemudian Anda menunjukkan: AUDIRA-WEB-PERFECT-WORLD**\n- File `start.bat` dengan port 3327, 3328, 3329\n\n---\n\n## ❓ Pertanyaan Saya Sekarang\n\n**Proyek mana yang ingin Anda bahas tentang port 3000?**\n\n1. **AUDIRA-BUG-HUTTER** → Saat ini menggunakan port 8000 (backend) dan 3000 (frontend)\n2. **AUDIRA-WEB-PERFECT-WORLD** → Sudah menggunakan port 3327, 3328, 3329 (tidak ada port 3000)\n\nTolong beritahu saya proyek mana yang bermasalah atau perlu diubah?"
+            }
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            {
+              "text": "<USER_REQUEST>\nKITA AKN SEDNG DI PROEJCT AUDIRA-WEB-PERFECT-WORLD  KNPA ANDA LARI KMNA MANA\n</USER_REQUEST>\n<ADDITIONAL_METADATA>\nThe current local time is: 2026-05-18T14:47:12+07:00.\n\nThe user's current state is as follows:\nActive Document: f:\\AUDIRA-WEB-PERFECT-WORLD\\start.bat (LANGUAGE_UNSPECIFIED)\nCursor is on line: 5\nOther open documents:\n- f:\\AUDIRA-WEB-PERFECT-WORLD\\start.bat (LANGUAGE_UNSPECIFIED)\n- f:\\AUDIRA-WEB-PERFECT-WORLD\\apps\\web\\src\\app\\page.tsx (LANGUAGE_TSX)\nNo browser pages are currently open.\n</ADDITIONAL_METADATA>"
+            }
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<thinking>\nThe user is frustrated and saying \"WE ARE IN THE AUDIRA-WEB-PERFECT-WORLD PROJECT, WHY ARE YOU RUNNING AROUND EVERYWHERE\" (in all caps with typos showing frustration).\n\nLet me trace back what happened:\n\n1. **Initial question**: \"knpa anda msh menggunakan port 3000\" (why are you still using port 3000)\n2. **User's INITIAL context**: They had AUDIRA-BUG-HUTTER files open\n3. **My mistake**: I investigated AUDIRA-BUG-HUTTER because that's what was open\n4. **User's ACTUAL intent**: They wanted to talk about AUDIRA-WEB-PERFECT-WORLD\n5. **Current context**: They're now clearly in AUDIRA-WEB-PERFECT-WORLD\n\nThe user is right to be frustrated. Even though their initial context showed AUDIRA-BUG-HUTTER files, they were asking about port 3000 in the context of AUDIRA-WEB-PERFECT-WORLD. I should have asked for clarification instead of assuming.\n\nNow I need to:\n1. Apologize for the confusion\n2. Focus ONLY on AUDIRA-WEB-PERFECT-WORLD\n3. Search for any references to port 3000 in the Perfect World project\n4. Explain why port 3000 might be referenced there (if it is)\n5. Be concise and direct\n\nLet me search for port 3000 in the AUDIRA-WEB-PERFECT-WORLD project to see if there's actually a problem.\n</thinking>"
+            },
+            {
+              "functionCall": {
+                "id": "dac3edb0-ee71-4895-bd93-834c1f75c9e2",
+                "name": "grep_search",
+                "args": {
+                  "CaseInsensitive": false,
+                  "Includes": [
+                    "*.ts",
+                    "*.tsx",
+                    "*.js",
+                    "*.jsx",
+                    "*.json",
+                    "*.env*",
+                    "*.bat",
+                    "*.sh"
+                  ],
+                  "IsRegex": false,
+                  "MatchPerLine": true,
+                  "Query": "3000",
+                  "SearchPath": "f:\\AUDIRA-WEB-PERFECT-WORLD",
+                  "toolAction": "Searching for references",
+                  "toolSummary": "Port 3000 in Perfect World"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            {
+              "functionResponse": {
+                "id": "dac3edb0-ee71-4895-bd93-834c1f75c9e2",
+                "name": "grep_search",
+                "response": {
+                  "output": "Created At: 2026-05-18T07:47:23Z\nCompleted At: 2026-05-18T07:47:24Z\n{\"File\":\"f:\\\\AUDIRA-WEB-PERFECT-WORLD\\\\packages\\\\ui\\\\node_modules\\\\ws\\\\lib\\\\constants.js\",\"LineNumber\":10,\"LineContent\":\"  CLOSE_TIMEOUT: 30000,\"}\n{\"File\":\"f:\\\\AUDIRA-WEB-PERFECT-WORLD\\\\packages\\\\ui\\\\node_modules\\\\ws\\\\lib\\\\validation.js\",\"LineNumber\":44,\"LineContent\":\"    (code \\u003e= 3000 \\u0026\\u0026 code \\u003c= 4999)\"}\n{\"File\":\"f:\\\\AUDIRA-WEB-PERFECT-WORLD\\\\packages\\\\ui\\\\node_modules\\\\ws\\\\lib\\\\websocket.js\",\"LineNumber\":633,\"LineContent\":\" * @param {Number} [options.closeTimeout=30000] Duration in milliseconds to wait\"}\n{\"File\":\"f:\\\\AUDIRA-WEB-PERFECT-WORLD\\\\packages\\\\ui\\\\node_modules\\\\ws\\\\lib\\\\websocket-server.js\",\"LineNumber\":41,\"LineContent\":\"   * @param {Number} [options.closeTimeout=30000] Duration in milliseconds to\"}\n{\"File\":\"f:\\\\AUDIRA-WEB-PERFECT-WORLD\\\\packages\\\\ui\\\\node_modules\\\\tr46\\\\lib\\\\regexes.js\",\"LineNumber\":7,\"LineContent\":\"const bidiS1LTR = /[A-Za-z\\\\xAA\\\\xB5\\\\xBA\\\\xC0-\\\\xD6\\\\xD8-\\\\xF6\\\\xF8-\\\\u02B8\\\\u02BB-\\\\u02C1\\\\u02D0\\\\u02D1\\\\u02E0-\\\\u02E4\\\\u02EE\\\\u0370-\\\\u0373\\\\u0376\\\\u0377\\\\u037A-\\\\u037D\\\\u037F\\\\u0386\\\\u0388-\\\\u038A\\\\u038C\\\\u038E-\\\\u03A1\\\\u03A3-\\\\u03F5\\\\u03F7-\\\\u0482\\\\u048A-\\\\u052F\\\\u0531-\\\\u0556\\\\u0559-\\\\u0589\\\\u0903-\\\\u0939\\\\u093B\\\\u093D-\\\\u0940\\\\u0949-\\\\u094C\\\\u094E-\\\\u0950\\\\u0958-\\\\u0961\\\\u0964-\\\\u0980\\\\u0982\\\\u0983\\\\u0985-\\\\u098C\\\\u098F\\\\u0990\\\\u0993-\\\\u09A8\\\\u09AA-\\\\u09B0\\\\u09B2\\\\u09B6-\\\\u09B9\\\\u09BD-\\\\u09C0\\\\u09C7\\\\u09C8\\\\u09CB\\\\u09CC\\\\u09CE\\\\u09D7\\\\u09DC\\\\u09DD\\\\u09DF-\\\\u09E1\\\\u09E6-\\\\u09F1\\\\u09F4-\\\\u09FA\\\\u09FC\\\\u09FD\\\\u0A03\\\\u0A05-\\\\u0A0A\\\\u0A0F\\\\u0A10\\\\u0A13-\\\\u0A28\\\\u0A2A-\\\\u0A30\\\\u0A32\\\\u0A33\\\\u0A35\\\\u0A36\\\\u0A38\\\\u0A39\\\\u0A3E-\\\\u0A40\\\\u0A59-\\\\u0A5C\\\\u0A5E\\\\u0A66-\\\\u0A6F\\\\u0A72-\\\\u0A74\\\\u0A76\\\\u0A83\\\\u0A85-\\\\u0A8D\\\\u0A8F-\\\\u0A91\\\\u0A93-\\\\u0AA8\\\\u0AAA-\\\\u0AB0\\\\u0AB2\\\\u0AB3\\\\u0AB5-\\\\u0AB9\\\\u0ABD-\\\\u0AC0\\\\u0AC9\\\\u0ACB\\\\u0ACC\\\\u0AD0\\\\u0AE0\\\\u0AE1\\\\u0AE6-\\\\u0AF0\\\\u0AF9\\\\u0B02\\\\u0B03\\\\u0B05-\\\\u0B0C\\\\u0B0F\\\\u0B10\\\\u0B13-\\\\u0B28\\\\u0B2A-\\\\u0B30\\\\u0B32\\\\u0B33\\\\u0B35-\\\\u0B39\\\\u0B3D\\\\u0B3E\\\\u0B40\\\\u0B47\\\\u0B48\\\\u0B4B\\\\u0B4C\\\\u0B57\\\\u0B5C\\\\u0B5D\\\\u0B5F-\\\\u0B61\\\\u0B66-\\\\u0B77\\\\u0B83\\\\u0B85-\\\\u0B8A\\\\u0B8E-\\\\u0B90\\\\u0B92-\\\\u0B95\\\\u0B99\\\\u0B9A\\\\u0B9C\\\\u0B9E\\\\u0B9F\\\\u0BA3\\\\u0BA4\\\\u0BA8-\\\\u0BAA\\\\u0BAE-\\\\u0BB9\\\\u0BBE\\\\u0BBF\\\\u0BC1\\\\u0BC2\\\\u0BC6-\\\\u0BC8\\\\u0BCA-\\\\u0BCC\\\\u0BD0\\\\u0BD7\\\\u0BE6-\\\\u0BF2\\\\u0C01-\\\\u0C03\\\\u0C05-\\\\u0C0C\\\\u0C0E-\\\\u0C10\\\\u0C12-\\\\u0C28\\\\u0C2A-\\\\u0C39\\\\u0C3D\\\\u0C41-\\\\u0C44\\\\u0C58-\\\\u0C5A\\\\u0C5D\\\\u0C60\\\\u0C61\\\\u0C66-\\\\u0C6F\\\\u0C77\\\\u0C7F\\\\u0C80\\\\u0C82-\\\\u0C8C\\\\u0C8E-\\\\u0C90\\\\u0C92-\\\\u0CA8\\\\u0CAA-\\\\u0CB3\\\\u0CB5-\\\\u0CB9\\\\u0CBD-\\\\u0CC4\\\\u0CC6-\\\\u0CC8\\\\u0CCA\\\\u0CCB\\\\u0CD5\\\\u0CD6\\\\u0CDD\\\\u0CDE\\\\u0CE0\\\\u0CE1\\\\u0CE6-\\\\u0CEF\\\\u0CF1-\\\\u0CF3\\\\u0D02-\\\\u0D0C\\\\u0D0E-\\\\u0D10\\\\u0D12-\\\\u0D3A\\\\u0D3D-\\\\u0D40\\\\u0D46-\\\\u0D48\\\\u0D4A-\\\\u0D4C\\\\u0D4E\\\\u0D4F\\\\u0D54-\\\\u0D61\\\\u0D66-\\\\u0D7F\\\\u0D82\\\\u0D83\\\\u0D85-\\\\u0D96\\\\u0D9A-\\\\u0DB1\\\\u0DB3-\\\\u0DBB\\\\u0DBD\\\\u0DC0-\\\\u0DC6\\\\u0DCF-\\\\u0DD1\\\\u0DD8-\\\\u0DDF\\\\u0DE6-\\\\u0DEF\\\\u0DF2-\\\\u0DF4\\\\u0E01-\\\\u0E30\\\\u0E32\\\\u0E33\\\\u0E40-\\\\u0E46\\\\u0E4F-\\\\u0E5B\\\\u0E81\\\\u0E82\\\\u0E84\\\\u0E86-\\\\u0E8A\\\\u0E8C-\\\\u0EA3\\\\u0EA5\\\\u0EA7-\\\\u0EB0\\\\u0EB2\\\\u0EB3\\\\u0EBD\\\\u0EC0-\\\\u0EC4\\\\u0EC6\\\\u0ED0-\\\\u0ED9\\\\u0EDC-\\\\u0EDF\\\\u0F00-\\\\u0F17\\\\u0F1A-\\\\u0F34\\\\u0F36\\\\u0F38\\\\u0F3E-\\\\u0F47\\\\u0F49-\\\\u0F6C\\\\u0F7F\\\\u0F85\\\\u0F88-\\\\u0F8C\\\\u0FBE-\\\\u0FC5\\\\u0FC7-\\\\u0FCC\\\\u0FCE-\\\\u0FDA\\\\u1000-\\\\u102C\\\\u1031\\\\u1038\\\\u103B\\\\u103C\\\\u103F-\\\\u1057\\\\u105A-\\\\u105D\\\\u1061-\\\\u1070\\\\u1075-\\\\u1081\\\\u1083\\\\u1084\\\\u1087-\\\\u108C\\\\u108E-\\\\u109C\\\\u109E-\\\\u10C5\\\\u10C7\\\\u10CD\\\\u10D0-\\\\u1248\\\\u124A-\\\\u124D\\\\u1250-\\\\u1256\\\\u1258\\\\u125A-\\\\u125D\\\\u1260-\\\\u1288\\\\u128A-\\\\u128D\\\\u1290-\\\\u12B0\\\\u12B2-\\\\u12B5\\\\u12B8-\\\\u12BE\\\\u12C0\\\\u12C2-\\\\u12C5\\\\u12C8-\\\\u12D6\\\\u12D8-\\\\u1310\\\\u1312-\\\\u1315\\\\u1318-\\\\u135A\\\\u1360-\\\\u137C\\\\u1380-\\\\u138F\\\\u13A0-\\\\u13F5\\\\u13F8-\\\\u13FD\\\\u1401-\\\\u167F\\\\u1681-\\\\u169A\\\\u16A0-\\\\u16F8\\\\u1700-\\\\u1711\\\\u1715\\\\u171F-\\\\u1731\\\\u1734-\\\\u1736\\\\u1740-\\\\u1751\\\\u1760-\\\\u176C\\\\u176E-\\\\u1770\\\\u1780-\\\\u17B3\\\\u17B6\\\\u17BE-\\\\u17C5\\\\u17C7\\\\u17C8\\\\u17D4-\\\\u17DA\\\\u17DC\\\\u17E0-\\\\u17E9\\\\u1810-\\\\u1819\\\\u1820-\\\\u1878\\\\u1880-\\\\u1884\\\\u1887-\\\\u18A8\\\\u18AA\\\\u18B0-\\\\u18F5\\\\u1900-\\\\u191E\\\\u1923-\\\\u1926\\\\u1929-\\\\u192B\\\\u1930\\\\u1931\\\\u1933-\\\\u1938\\\\u1946-\\\\u196D\\\\u1970-\\\\u1974\\\\u1980-\\\\u19AB\\\\u19B0-\\\\u19C9\\\\u19D0-\\\\u19DA\\\\u1A00-\\\\u1A16\\\\u1A19\\\\u1A1A\\\\u1A1E-\\\\u1A55\\\\u1A57\\\\u1A61\\\\u1A63\\\\u1A64\\\\u1A6D-\\\\u1A72\\\\u1A80-\\\\u1A89\\\\u1A90-\\\\u1A99\\\\u1AA0-\\\\u1AAD\\\\u1B04-\\\\u1B33\\\\u1B35\\\\u1B3B\\\\u1B3D-\\\\u1B41\\\\u1B43-\\\\u1B4C\\\\u1B4E-\\\\u1B6A\\\\u1B74-\\\\u1B7F\\\\u1B82-\\\\u1BA1\\\\u1BA6\\\\u1BA7\\\\u1BAA\\\\u1BAE-\\\\u1BE5\\\\u1BE7\\\\u1BEA-\\\\u1BEC\\\\u1BEE\\\\u1BF2\\\\u1BF3\\\\u1BFC-\\\\u1C2B\\\\u1C34\\\\u1C35\\\\u1C3B-\\\\u1C49\\\\u1C4D-\\\\u1C8A\\\\u1C90-\\\\u1CBA\\\\u1CBD-\\\\u1CC7\\\\u1CD3\\\\u1CE1\\\\u1CE9-\\\\u1CEC\\\\u1CEE-\\\\u1CF3\\\\u1CF5-\\\\u1CF7\\\\u1CFA\\\\u1D00-\\\\u1DBF\\\\u1E00-\\\\u1F15\\\\u1F18-\\\\u1F1D\\\\u1F20-\\\\u1F45\\\\u1F48-\\\\u1F4D\\\\u1F50-\\\\u1F57\\\\u1F59\\\\u1F5B\\\\u1F5D\\\\u1F5F-\\\\u1F7D\\\\u1F80-\\\\u1FB4\\\\u1FB6-\\\\u1FBC\\\\u1FBE\\\\u1FC2-\\\\u1FC4\\\\u1FC6-\\\\u1FCC\\\\u1FD0-\\\\u1FD3\\\\u1FD6-\\\\u1FDB\\\\u1FE0-\\\\u1FEC\\\\u1FF2-\\\\u1FF4\\\\u1FF6-\\\\u1FFC\\\\u200E\\\\u2071\\\\u207F\\\\u2090-\\\\u209C\\\\u2102\\\\u2107\\\\u210A-\\\\u2113\\\\u2115\\\\u2119-\\\\u211D\\\\u2124\\\\u2126\\\\u2128\\\\u212A-\\\\u212D\\\\u212F-\\\\u2139\\\\u213C-\\\\u213F\\\\u2145-\\\\u2149\\\\u214E\\\\u214F\\\\u2160-\\\\u2188\\\\u2336-\\\\u237A\\\\u2395\\\\u249C-\\\\u24E9\\\\u26AC\\\\u2800-\\\\u28FF\\\\u2C00-\\\\u2CE4\\\\u2CEB-\\\\u2CEE\\\\u2CF2\\\\u2CF3\\\\u2D00-\\\\u2D25\\\\u2D27\\\\u2D2D\\\\u2D30-\\\\u2D67\\\\u2D6F\\\\u2D70\\\\u2D80-\\\\u2D96\\\\u2DA0-\\\\u2DA6\\\\u2DA8-\\\\u2DAE\\\\u2DB0-\\\\u2DB6\\\\u2DB8-\\\\u2DBE\\\\u2DC0-\\\\u2DC6\\\\u2DC8-\\\\u2DCE\\\\u2DD0-\\\\u2DD6\\\\u2DD8-\\\\u2DDE\\\\u3005-\\\\u3007\\\\u3021-\\\\u3029\\\\u302E\\\\u302F\\\\u3031-\\\\u3035\\\\u3038-\\\\u303C\\\\u3041-\\\\u3096\\\\u309D-\\\\u309F\\\\u30A1-\\\\u30FA\\\\u30FC-\\\\u30FF\\\\u3105-\\\\u312F\\\\u3131-\\\\u318E\\\\u3190-\\\\u31BF\\\\u31F0-\\\\u321C\\\\u3220-\\\\u324F\\\\u3260-\\\\u327B\\\\u327F-\\\\u32B0\\\\u32C0-\\\\u32CB\\\\u32D0-\\\\u3376\\\\u337B-\\\\u33DD\\\\u33E0-\\\\u33FE\\\\u3400-\\\\u4DBF\\\\u4E00-\\\\uA48C\\\\uA4D0-\\\\uA60C\\\\uA610-\\\\uA62B\\\\uA640-\\\\uA66E\\\\uA680-\\\\uA69D\\\\uA6A0-\\\\uA6EF\\\\uA6F2-\\\\uA6F7\\\\uA722-\\\\uA787\\\\uA789-\\\\uA7CD\\\\uA7D0\\\\uA7D1\\\\uA7D3\\\\uA7D5-\\\\uA7DC\\\\uA7F2-\\\\uA801\\\\uA803-\\\\uA805\\\\uA807-\\\\uA80A\\\\uA80C-\\\\uA824\\\\uA827\\\\uA830-\\\\uA837\\\\uA840-\\\\uA873\\\\uA880-\\\\uA8C3\\\\uA8CE-\\\\uA8D9\\\\uA8F2-\\\\uA8FE\\\\uA900-\\\\uA925\\\\uA92E-\\\\uA946\\\\uA952\\\\uA953\\\\uA95F-\\\\uA97C\\\\uA983-\\\\uA9B2\\\\uA9B4\\\\uA9B5\\\\uA9BA\\\\uA9BB\\\\uA9BE-\\\\uA9CD\\\\uA9CF-\\\\uA9D9\\\\uA9DE-\\\\uA9E4\\\\uA9E6-\\\\uA9FE\\\\uAA00-\\\\uAA28\\\\uAA2F\\\\uAA30\\\\uAA33\\\\uAA34\\\\uAA40-\\\\uAA42\\\\uAA44-\\\\uAA4B\\\\uAA4D\\\\uAA50-\\\\uAA59\\\\uAA5C-\\\\uAA7B\\\\uAA7D-\\\\uAAAF\\\\uAAB1\\\\uAAB5\\\\uAAB6\\\\uAAB9-\\\\uAABD\\\\uAAC0\\\\uAAC2\\\\uAADB-\\\\uAAEB\\\\uAAEE-\\\\uAAF5\\\\uAB01-\\\\uAB06\\\\uAB09-\\\\uAB0E\\\\uAB11-\\\\uAB16\\\\uAB20-\\\\uAB26\\\\uAB28-\\\\uAB2E\\\\uAB30-\\\\uAB69\\\\uAB70-\\\\uABE4\\\\uABE6\\\\uABE7\\\\uABE9-\\\\uABEC\\\\uABF0-\\\\uABF9\\\\uAC00-\\\\uD7A3\\\\uD7B0-\\\\uD7C6\\\\uD7CB-\\\\uD7FB\\\\uD800-\\\\uFA6D\\\\uFA70-\\\\uFAD9\\\\uFB00-\\\\uFB06\\\\uFB13-\\\\uFB17\\\\uFF21-\\\\uFF3A\\\\uFF41-\\\\uFF5A\\\\uFF66-\\\\uFFBE\\\\uFFC2-\\\\uFFC7\\\\uFFCA-\\\\uFFCF\\\\uFFD2-\\\\uFFD7\\\\uFFDA-\\\\uFFDC\\\\u{10000}-\\\\u{1000B}\\\\u{1000D}-\\\\u{10026}\\\\u{10028}-\\\\u{1003A}\\\\u{1003C}\\\\u{1003D}\\\\u{1003F}-\\\\u{1004D}\\\\u{10050}-\\\\u{1005D}\\\\u{10080}-\\\\u{100FA}\\\\u{10100}\\\\u{10102}\\\\u{10107}-\\\\u{10133}\\\\u{10137}-\\\\u{1013F}\\\\u{1018D}\\\\u{1018E}\\\\u{101D0}-\\\\u{101FC}\\\\u{10280}-\\\\u{1029C}\\\\u{102A0}-\\\\u{102D0}\\\\u{10300}-\\\\u{10323}\\\\u{1032D}-\\\\u{1034A}\\\\u{10350}-\\\\u{10375}\\\\u{10380}-\\\\u{1039D}\\\\u{1039F}-\\\\u{103C3}\\\\u{103C8}-\\\\u{103D5}\\\\u{10400}-\\\\u{1049D}\\\\u{104A0}-\\\\u{104A9}\\\\u{104B0}-\\\\u{104D3}\\\\u{104D8}-\\\\u{104FB}\\\\u{10500}-\\\\u{10527}\\\\u{10530}-\\\\u{10563}\\\\u{1056F}-\\\\u{1057A}\\\\u{1057C}-\\\\u{1058A}\\\\u{1058C}-\\\\u{10592}\\\\u{10594}\\\\u{10595}\\\\u{10597}-\\\\u{105A1}\\\\u{105A3}-\\\\u{105B1}\\\\u{105B3}-\\\\u{105B9}\\\\u{105BB}\\\\u{105BC}\\\\u{105C0}-\\\\u{105F3}\\\\u{10600}-\\\\u{10736}\\\\u{10740}-\\\\u{10755}\\\\u{10760}-\\\\u{10767}\\\\u{10780}-\\\\u{10785}\\\\u{10787}-\\\\u{107B0}\\\\u{107B2}-\\\\u{107BA}\\\\u{11000}\\\\u{11002}-\\\\u{11037}\\\\u{11047}-\\\\u{1104D}\\\\u{11066}-\\\\u{1106F}\\\\u{11071}\\\\u{11072}\\\\u{11075}\\\\u{11082}-\\\\u{110B2}\\\\u{110B7}\\\\u{110B8}\\\\u{110BB}-\\\\u{110C1}\\\\u{110CD}\\\\u{110D0}-\\\\u{110E8}\\\\u{110F0}-\\\\u{110F9}\\\\u{11103}-\\\\u{11126}\\\\u{1112C}\\\\u{11136}-\\\\u{11147}\\\\u{11150}-\\\\u{11172}\\\\u{11174}-\\\\u{11176}\\\\u{11182}-\\\\u{111B5}\\\\u{111BF}-\\\\u{111C8}\\\\u{111CD}\\\\u{111CE}\\\\u{111D0}-\\\\u{111DF}\\\\u{111E1}-\\\\u{111F4}\\\\u{11200}-\\\\u{11211}\\\\u{11213}-\\\\u{1122E}\\\\u{11232}\\\\u{11233}\\\\u{11235}\\\\u{11238}-\\\\u{1123D}\\\\u{1123F}\\\\u{11240}\\\\u{11280}-\\\\u{11286}\\\\u{11288}\\\\u{1128A}-\\\\u{1128D}\\\\u{1128F}-\\\\u{1129D}\\\\u{1129F}-\\\\u{112A9}\\\\u{112B0}-\\\\u{112DE}\\\\u{112E0}-\\\\u{112E2}\\\\u{112F0}-\\\\u{112F9}\\\\u{11302}\\\\u{11303}\\\\u{11305}-\\\\u{1130C}\\\\u{1130F}\\\\u{11310}\\\\u{11313}-\\\\u{11328}\\\\u{1132A}-\\\\u{11330}\\\\u{11332}\\\\u{11333}\\\\u{11335}-\\\\u{11339}\\\\u{1133D}-\\\\u{1133F}\\\\u{11341}-\\\\u{11344}\\\\u{11347}\\\\u{11348}\\\\u{1134B}-\\\\u{1134D}\\\\u{11350}\\\\u{11357}\\\\u{1135D}-\\\\u{11363}\\\\u{11380}-\\\\u{11389}\\\\u{1138B}\\\\u{1138E}\\\\u{11390}-\\\\u{113B5}\\\\u{113B7}-\\\\u{113BA}\\\\u{113C2}\\\\u{113C5}\\\\u{113C7}-\\\\u{113CA}\\\\u{113CC}\\\\u{113CD}\\\\u{113CF}\\\\u{113D1}\\\\u{113D3}-\\\\u{113D5}\\\\u{113D7}\\\\u{113D8}\\\\u{11400}-\\\\u{11437}\\\\u{11440}\\\\u{11441}\\\\u{11445}\\\\u{11447}-\\\\u{1145B}\\\\u{1145D}\\\\u{1145F}-\\\\u{11461}\\\\u{11480}-\\\\u{114B2}\\\\u{114B9}\\\\u{114BB}-\\\\u{114BE}\\\\u{114C1}\\\\u{114C4}-\\\\u{114C7}\\\\u{114D0}-\\\\u{114D9}\\\\u{11580}-\\\\u{115B1}\\\\u{115B8}-\\\\u{115BB}\\\\u{115BE}\\\\u{115C1}-\\\\u{115DB}\\\\u{11600}-\\\\u{11632}\\\\u{1163B}\\\\u{1163C}\\\\u{1163E}\\\\u{11641}-\\\\u{11644}\\\\u{11650}-\\\\u{11659}\\\\u{11680}-\\\\u{116AA}\\\\u{116AC}\\\\u{116AE}\\\\u{116AF}\\\\u{116B6}\\\\u{116B8}\\\\u{116B9}\\\\u{116C0}-\\\\u{116C9}\\\\u{116D0}-\\\\u{116E3}\\\\u{11700}-\\\\u{1171A}\\\\u{1171E}\\\\u{11720}\\\\u{11721}\\\\u{11726}\\\\u{11730}-\\\\u{11746}\\\\u{11800}-\\\\u{1182E}\\\\u{11838}\\\\u{1183B}\\\\u{118A0}-\\\\u{118F2}\\\\u{118FF}-\\\\u{11906}\\\\u{11909}\\\\u{1190C}-\\\\u{11913}\\\\u{11915}\\\\u{11916}\\\\u{11918}-\\\\u{11935}\\\\u{11937}\\\\u{11938}\\\\u{1193D}\\\\u{1193F}-\\\\u{11942}\\\\u{11944}-\\\\u{11946}\\\\u{11950}-\\\\u{11959}\\\\u{119A0}-\\\\u{119A7}\\\\u{119AA}-\\\\u{119D3}\\\\u{119DC}-\\\\u{119DF}\\\\u{119E1}-\\\\u{119E4}\\\\u{11A00}\\\\u{11A07}\\\\u{11A08}\\\\u{11A0B}-\\\\u{11A32}\\\\u{11A39}\\\\u{11A3A}\\\\u{11A3F}-\\\\u{11A46}\\\\u{11A50}\\\\u{11A57}\\\\u{11A58}\\\\u{11A5C}-\\\\u{11A89}\\\\u{11A97}\\\\u{11A9A}-\\\\u{11AA2}\\\\u{11AB0}-\\\\u{11AF8}\\\\u{11B00}-\\\\u{11B09}\\\\u{11BC0}-\\\\u{11BE1}\\\\u{11BF0}-\\\\u{11BF9}\\\\u{11C00}-\\\\u{11C08}\\\\u{11C0A}-\\\\u{11C2F}\\\\u{11C3E}-\\\\u{11C45}\\\\u{11C50}-\\\\u{11C6C}\\\\u{11C70}-\\\\u{11C8F}\\\\u{11CA9}\\\\u{11CB1}\\\\u{11CB4}\\\\u{11D00}-\\\\u{11D06}\\\\u{11D08}\\\\u{11D09}\\\\u{11D0B}-\\\\u{11D30}\\\\u{11D46}\\\\u{11D50}-\\\\u{11D59}\\\\u{11D60}-\\\\u{11D65}\\\\u{11D67}\\\\u{11D68}\\\\u{11D6A}-\\\\u{11D8E}\\\\u{11D93}\\\\u{11D94}\\\\u{11D96}\\\\u{11D98}\\\\u{11DA0}-\\\\u{11DA9}\\\\u{11EE0}-\\\\u{11EF2}\\\\u{11EF5}-\\\\u{11EF8}\\\\u{11F02}-\\\\u{11F10}\\\\u{11F12}-\\\\u{11F35}\\\\u{11F3E}\\\\u{11F3F}\\\\u{11F41}\\\\u{11F43}-\\\\u{11F59}\\\\u{11FB0}\\\\u{11FC0}-\\\\u{11FD4}\\\\u{11FFF}-\\\\u{12399}\\\\u{12400}-\\\\u{1246E}\\\\u{12470}-\\\\u{12474}\\\\u{12480}-\\\\u{12543}\\\\u{12F90}-\\\\u{12FF2}\\\\u{13000}-\\\\u{1343F}\\\\u{13441}-\\\\u{13446}\\\\u{13460}-\\\\u{143FA}\\\\u{14400}-\\\\u{14646}\\\\u{16100}-\\\\u{1611D}\\\\u{1612A}-\\\\u{1612C}\\\\u{16130}-\\\\u{16139}\\\\u{16800}-\\\\u{16A38}\\\\u{16A40}-\\\\u{16A5E}\\\\u{16A60}-\\\\u{16A69}\\\\u{16A6E}-\\\\u{16ABE}\\\\u{16AC0}-\\\\u{16AC9}\\\\u{16AD0}-\\\\u{16AED}\\\\u{16AF5}\\\\u{16B00}-\\\\u{16B2F}\\\\u{16B37}-\\\\u{16B45}\\\\u{16B50}-\\\\u{16B59}\\\\u{16B5B}-\\\\u{16B61}\\\\u{16B63}-\\\\u{16B77}\\\\u{16B7D}-\\\\u{16B8F}\\\\u{16D40}-\\\\u{16D79}\\\\u{16E40}-\\\\u{16E9A}\\\\u{16F00}-\\\\u{16F4A}\\\\u{16F50}-\\\\u{16F87}\\\\u{16F93}-\\\\u{16F9F}\\\\u{16FE0}\\\\u{16FE1}\\\\u{16FE3}\\\\u{16FF0}\\\\u{16FF1}\\\\u{17000}-\\\\u{187F7}\\\\u{18800}-\\\\u{18CD5}\\\\u{18CFF}-\\\\u{18D08}\\\\u{1AFF0}-\\\\u{1AFF3}\\\\u{1AFF5}-\\\\u{1AFFB}\\\\u{1AFFD}\\\\u{1AFFE}\\\\u{1B000}-\\\\u{1B122}\\\\u{1B132}\\\\u{1B150}-\\\\u{1B152}\\\\u{1B155}\\\\u{1B164}-\\\\u{1B167}\\\\u{1B170}-\\\\u{1B2FB}\\\\u{1BC00}-\\\\u{1BC6A}\\\\u{1BC70}-\\\\u{1BC7C}\\\\u{1BC80}-\\\\u{1BC88}\\\\u{1BC90}-\\\\u{1BC99}\\\\u{1BC9C}\\\\u{1BC9F}\\\\u{1CCD6}-\\\\u{1CCEF}\\\\u{1CF50}-\\\\u{1CFC3}\\\\u{1D000}-\\\\u{1D0F5}\\\\u{1D100}-\\\\u{1D126}\\\\u{1D129}-\\\\u{1D166}\\\\u{1D16A}-\\\\u{1D172}\\\\u{1D183}\\\\u{1D184}\\\\u{1D18C}-\\\\u{1D1A9}\\\\u{1D1AE}-\\\\u{1D1E8}\\\\u{1D2C0}-\\\\u{1D2D3}\\\\u{1D2E0}-\\\\u{1D2F3}\\\\u{1D360}-\\\\u{1D378}\\\\u{1D400}-\\\\u{1D454}\\\\u{1D456}-\\\\u{1D49C}\\\\u{1D49E}\\\\u{1D49F}\\\\u{1D4A2}\\\\u{1D4A5}\\\\u{1D4A6}\\\\u{1D4A9}-\\\\u{1D4AC}\\\\u{1D4AE}-\\\\u{1D4B9}\\\\u{1D4BB}\\\\u{1D4BD}-\\\\u{1D4C3}\\\\u{1D4C5}-\\\\u{1D505}\\\\u{1D507}-\\\\u{1D50A}\\\\u{1D50D}-\\\\u{1D514}\\\\u{1D516}-\\\\u{1D51C}\\\\u{1D51E}-\\\\u{1D539}\\\\u{1D53B}-\\\\u{1D53E}\\\\u{1D540}-\\\\u{1D544}\\\\u{1D546}\\\\u{1D54A}-\\\\u{1D550}\\\\u{1D552}-\\\\u{1D6A5}\\\\u{1D6A8}-\\\\u{1D6C0}\\\\u{1D6C2}-\\\\u{1D6DA}\\\\u{1D6DC}-\\\\u{1D6FA}\\\\u{1D6FC}-\\\\u{1D714}\\\\u{1D716}-\\\\u{1D734}\\\\u{1D736}-\\\\u{1D74E}\\\\u{1D750}-\\\\u{1D76E}\\\\u{1D770}-\\\\u{1D788}\\\\u{1D78A}-\\\\u{1D7A8}\\\\u{1D7AA}-\\\\u{1D7C2}\\\\u{1D7C4}-\\\\u{1D7CB}\\\\u{1D800}-\\\\u{1D9FF}\\\\u{1DA37}-\\\\u{1DA3A}\\\\u{1DA6D}-\\\\u{1DA74}\\\\u{1DA76}-\\\\u{1DA83}\\\\u{1DA85}-\\\\u{1DA8B}\\\\u{1DF00}-\\\\u{1DF1E}\\\\u{1DF25}-\\\\u{1DF2A}\\\\u{1E030}-\\\\u{1E06D}\\\\u{1E100}-\\\\u{1E12C}\\\\u{1E137}-\\\\u{1E13D}\\\\u{1E140}-\\\\u{1E149}\\\\u{1E14E}\\\\u{1E14F}\\\\u{1E290}-\\\\u{1E2AD}\\\\u{1E2C0}-\\\\u{1E2EB}\\\\u{1E2F0}-\\\\u{1E2F9}\\\\u{1E4D0}-\\\\u{1E4EB}\\\\u{1E4F0}-\\\\u{1E4F9}\\\\u{1E5D0}-\\\\u{1E5ED}\\\\u{1E5F0}-\\\\u{1E5FA}\\\\u{1E5FF}\\\\u{1E7E0}-\\\\u{1E7E6}\\\\u{1E7E8}-\\\\u{1E7EB}\\\\u{1E7ED}\\\\u{1E7EE}\\\\u{1E7F0}-\\\\u{1E7FE}\\\\u{1F110}-\\\\u{1F12E}\\\\u{1F130}-\\\\u{1F169}\\\\u{1F170}-\\\\u{1F1AC}\\\\u{1F1E6}-\\\\u{1F202}\\\\u{1F210}-\\\\u{1F23B}\\\\u{1F240}-\\\\u{1F248}\\\\u{1F250}\\\\u{1F251}\\\\u{20000}-\\\\u{2A6DF}\\\\u{2A700}-\\\\u{2B739}\\\\u{2B740}-\\\\u{2B81D}\\\\u{2B820}-\\\\u{2CEA1}\\\\u{2CEB0}-\\\\u{2EBE0}\\\\u{2EBF0}-\\\\u{2EE5D}\\\\u{2F800}-\\\\u{2FA1D}\\\\u{30000}-\\\\u{3134A}\\\\u{31350}-\\\\u{323AF}\\\\u{F0000}-\\\\u{FFFFD}\\\\u{100000}-\\\\u{10FFFD}]/u;\"}\n{\"File\":\"f:\\\\AUDIRA-WEB-PERFECT-WORLD\\\\packages\\\\ui\\\\node_modules\\\\tr46\\\\lib\\\\regexes.js\",\"LineNumber\":13,\"LineContent\":\"const bidiS5 = /^[\\\\0-\\\\x08\\\\x0E-\\\\x1B!-\\\\x84\\\\x86-\\\\u0377\\\\u037A-\\\\u037F\\\\u0384-\\\\u038A\\\\u038C\\\\u038E-\\\\u03A1\\\\u03A3-\\\\u052F\\\\u0531-\\\\u0556\\\\u0559-\\\\u058A\\\\u058D-\\\\u058F\\\\u0591-\\\\u05BD\\\\u05BF\\\\u05C1\\\\u05C2\\\\u05C4\\\\u05C5\\\\u05C7\\\\u0606\\\\u0607\\\\u0609\\\\u060A\\\\u060C\\\\u060E-\\\\u061A\\\\u064B-\\\\u065F\\\\u066A\\\\u0670\\\\u06D6-\\\\u06DC\\\\u06DE-\\\\u06E4\\\\u06E7-\\\\u06ED\\\\u06F0-\\\\u06F9\\\\u0711\\\\u0730-\\\\u074A\\\\u07A6-\\\\u07B0\\\\u07EB-\\\\u07F3\\\\u07F6-\\\\u07F9\\\\u07FD\\\\u0816-\\\\u0819\\\\u081B-\\\\u0823\\\\u0825-\\\\u0827\\\\u0829-\\\\u082D\\\\u0859-\\\\u085B\\\\u0897-\\\\u089F\\\\u08CA-\\\\u08E1\\\\u08E3-\\\\u0983\\\\u0985-\\\\u098C\\\\u098F\\\\u0990\\\\u0993-\\\\u09A8\\\\u09AA-\\\\u09B0\\\\u09B2\\\\u09B6-\\\\u09B9\\\\u09BC-\\\\u09C4\\\\u09C7\\\\u09C8\\\\u09CB-\\\\u09CE\\\\u09D7\\\\u09DC\\\\u09DD\\\\u09DF-\\\\u09E3\\\\u09E6-\\\\u09FE\\\\u0A01-\\\\u0A03\\\\u0A05-\\\\u0A0A\\\\u0A0F\\\\u0A10\\\\u0A13-\\\\u0A28\\\\u0A2A-\\\\u0A30\\\\u0A32\\\\u0A33\\\\u0A35\\\\u0A36\\\\u0A38\\\\u0A39\\\\u0A3C\\\\u0A3E-\\\\u0A42\\\\u0A47\\\\u0A48\\\\u0A4B-\\\\u0A4D\\\\u0A51\\\\u0A59-\\\\u0A5C\\\\u0A5E\\\\u0A66-\\\\u0A76\\\\u0A81-\\\\u0A83\\\\u0A85-\\\\u0A8D\\\\u0A8F-\\\\u0A91\\\\u0A93-\\\\u0AA8\\\\u0AAA-\\\\u0AB0\\\\u0AB2\\\\u0AB3\\\\u0AB5-\\\\u0AB9\\\\u0ABC-\\\\u0AC5\\\\u0AC7-\\\\u0AC9\\\\u0ACB-\\\\u0ACD\\\\u0AD0\\\\u0AE0-\\\\u0AE3\\\\u0AE6-\\\\u0AF1\\\\u0AF9-\\\\u0AFF\\\\u0B01-\\\\u0B03\\\\u0B05-\\\\u0B0C\\\\u0B0F\\\\u0B10\\\\u0B13-\\\\u0B28\\\\u0B2A-\\\\u0B30\\\\u0B32\\\\u0B33\\\\u0B35-\\\\u0B39\\\\u0B3C-\\\\u0B44\\\\u0B47\\\\u0B48\\\\u0B4B-\\\\u0B4D\\\\u0B55-\\\\u0B57\\\\u0B5C\\\\u0B5D\\\\u0B5F-\\\\u0B63\\\\u0B66-\\\\u0B77\\\\u0B82\\\\u0B83\\\\u0B85-\\\\u0B8A\\\\u0B8E-\\\\u0B90\\\\u0B92-\\\\u0B95\\\\u0B99\\\\u0B9A\\\\u0B9C\\\\u0B9E\\\\u0B9F\\\\u0BA3\\\\u0BA4\\\\u0BA8-\\\\u0BAA\\\\u0BAE-\\\\u0BB9\\\\u0BBE-\\\\u0BC2\\\\u0BC6-\\\\u0BC8\\\\u0BCA-\\\\u0BCD\\\\u0BD0\\\\u0BD7\\\\u0BE6-\\\\u0BFA\\\\u0C00-\\\\u0C0C\\\\u0C0E-\\\\u0C10\\\\u0C12-\\\\u0C28\\\\u0C2A-\\\\u0C39\\\\u0C3C-\\\\u0C44\\\\u0C46-\\\\u0C48\\\\u0C4A-\\\\u0C4D\\\\u0C55\\\\u0C56\\\\u0C58-\\\\u0C5A\\\\u0C5D\\\\u0C60-\\\\u0C63\\\\u0C66-\\\\u0C6F\\\\u0C77-\\\\u0C8C\\\\u0C8E-\\\\u0C90\\\\u0C92-\\\\u0CA8\\\\u0CAA-\\\\u0CB3\\\\u0CB5-\\\\u0CB9\\\\u0CBC-\\\\u0CC4\\\\u0CC6-\\\\u0CC8\\\\u0CCA-\\\\u0CCD\\\\u0CD5\\\\u0CD6\\\\u0CDD\\\\u0CDE\\\\u0CE0-\\\\u0CE3\\\\u0CE6-\\\\u0CEF\\\\u0CF1-\\\\u0CF3\\\\u0D00-\\\\u0D0C\\\\u0D0E-\\\\u0D10\\\\u0D12-\\\\u0D44\\\\u0D46-\\\\u0D48\\\\u0D4A-\\\\u0D4F\\\\u0D54-\\\\u0D63\\\\u0D66-\\\\u0D7F\\\\u0D81-\\\\u0D83\\\\u0D85-\\\\u0D96\\\\u0D9A-\\\\u0DB1\\\\u0DB3-\\\\u0DBB\\\\u0DBD\\\\u0DC0-\\\\u0DC6\\\\u0DCA\\\\u0DCF-\\\\u0DD4\\\\u0DD6\\\\u0DD8-\\\\u0DDF\\\\u0DE6-\\\\u0DEF\\\\u0DF2-\\\\u0DF4\\\\u0E01-\\\\u0E3A\\\\u0E3F-\\\\u0E5B\\\\u0E81\\\\u0E82\\\\u0E84\\\\u0E86-\\\\u0E8A\\\\u0E8C-\\\\u0EA3\\\\u0EA5\\\\u0EA7-\\\\u0EBD\\\\u0EC0-\\\\u0EC4\\\\u0EC6\\\\u0EC8-\\\\u0ECE\\\\u0ED0-\\\\u0ED9\\\\u0EDC-\\\\u0EDF\\\\u0F00-\\\\u0F47\\\\u0F49-\\\\u0F6C\\\\u0F71-\\\\u0F97\\\\u0F99-\\\\u0FBC\\\\u0FBE-\\\\u0FCC\\\\u0FCE-\\\\u0FDA\\\\u1000-\\\\u10C5\\\\u10C7\\\\u10CD\\\\u10D0-\\\\u1248\\\\u124A-\\\\u124D\\\\u1250-\\\\u1256\\\\u1258\\\\u125A-\\\\u125D\\\\u1260-\\\\u1288\\\\u128A-\\\\u128D\\\\u1290-\\\\u12B0\\\\u12B2-\\\\u12B5\\\\u12B8-\\\\u12BE\\\\u12C0\\\\u12C2-\\\\u12C5\\\\u12C8-\\\\u12D6\\\\u12D8-\\\\u1310\\\\u1312-\\\\u1315\\\\u1318-\\\\u135A\\\\u135D-\\\\u137C\\\\u1380-\\\\u1399\\\\u13A0-\\\\u13F5\\\\u13F8-\\\\u13FD\\\\u1400-\\\\u167F\\\\u1681-\\\\u169C\\\\u16A0-\\\\u16F8\\\\u1700-\\\\u1715\\\\u171F-\\\\u1736\\\\u1740-\\\\u1753\\\\u1760-\\\\u176C\\\\u176E-\\\\u1770\\\\u1772\\\\u1773\\\\u1780-\\\\u17DD\\\\u17E0-\\\\u17E9\\\\u17F0-\\\\u17F9\\\\u1800-\\\\u1819\\\\u1820-\\\\u1878\\\\u1880-\\\\u18AA\\\\u18B0-\\\\u18F5\\\\u1900-\\\\u191E\\\\u1920-\\\\u192B\\\\u1930-\\\\u193B\\\\u1940\\\\u1944-\\\\u196D\\\\u1970-\\\\u1974\\\\u1980-\\\\u19AB\\\\u19B0-\\\\u19C9\\\\u19D0-\\\\u19DA\\\\u19DE-\\\\u1A1B\\\\u1A1E-\\\\u1A5E\\\\u1A60-\\\\u1A7C\\\\u1A7F-\\\\u1A89\\\\u1A90-\\\\u1A99\\\\u1AA0-\\\\u1AAD\\\\u1AB0-\\\\u1ACE\\\\u1B00-\\\\u1B4C\\\\u1B4E-\\\\u1BF3\\\\u1BFC-\\\\u1C37\\\\u1C3B-\\\\u1C49\\\\u1C4D-\\\\u1C8A\\\\u1C90-\\\\u1CBA\\\\u1CBD-\\\\u1CC7\\\\u1CD0-\\\\u1CFA\\\\u1D00-\\\\u1F15\\\\u1F18-\\\\u1F1D\\\\u1F20-\\\\u1F45\\\\u1F48-\\\\u1F4D\\\\u1F50-\\\\u1F57\\\\u1F59\\\\u1F5B\\\\u1F5D\\\\u1F5F-\\\\u1F7D\\\\u1F80-\\\\u1FB4\\\\u1FB6-\\\\u1FC4\\\\u1FC6-\\\\u1FD3\\\\u1FD6-\\\\u1FDB\\\\u1FDD-\\\\u1FEF\\\\u1FF2-\\\\u1FF4\\\\u1FF6-\\\\u1FFE\\\\u200B-\\\\u200E\\\\u2010-\\\\u2027\\\\u202F-\\\\u205E\\\\u2060-\\\\u2064\\\\u206A-\\\\u2071\\\\u2074-\\\\u208E\\\\u2090-\\\\u209C\\\\u20A0-\\\\u20C0\\\\u20D0-\\\\u20F0\\\\u2100-\\\\u218B\\\\u2190-\\\\u2429\\\\u2440-\\\\u244A\\\\u2460-\\\\u2B73\\\\u2B76-\\\\u2B95\\\\u2B97-\\\\u2CF3\\\\u2CF9-\\\\u2D25\\\\u2D27\\\\u2D2D\\\\u2D30-\\\\u2D67\\\\u2D6F\\\\u2D70\\\\u2D7F-\\\\u2D96\\\\u2DA0-\\\\u2DA6\\\\u2DA8-\\\\u2DAE\\\\u2DB0-\\\\u2DB6\\\\u2DB8-\\\\u2DBE\\\\u2DC0-\\\\u2DC6\\\\u2DC8-\\\\u2DCE\\\\u2DD0-\\\\u2DD6\\\\u2DD8-\\\\u2DDE\\\\u2DE0-\\\\u2E5D\\\\u2E80-\\\\u2E99\\\\u2E9B-\\\\u2EF3\\\\u2F00-\\\\u2FD5\\\\u2FF0-\\\\u2FFF\\\\u3001-\\\\u303F\\\\u3041-\\\\u3096\\\\u3099-\\\\u30FF\\\\u3105-\\\\u312F\\\\u3131-\\\\u318E\\\\u3190-\\\\u31E5\\\\u31EF-\\\\u321E\\\\u3220-\\\\uA48C\\\\uA490-\\\\uA4C6\\\\uA4D0-\\\\uA62B\\\\uA640-\\\\uA6F7\\\\uA700-\\\\uA7CD\\\\uA7D0\\\\uA7D1\\\\uA7D3\\\\uA7D5-\\\\uA7DC\\\\uA7F2-\\\\uA82C\\\\uA830-\\\\uA839\\\\uA840-\\\\uA877\\\\uA880-\\\\uA8C5\\\\uA8CE-\\\\uA8D9\\\\uA8E0-\\\\uA953\\\\uA95F-\\\\uA97C\\\\uA980-\\\\uA9CD\\\\uA9CF-\\\\uA9D9\\\\uA9DE-\\\\uA9FE\\\\uAA00-\\\\uAA36\\\\uAA40-\\\\uAA4D\\\\uAA50-\\\\uAA59\\\\uAA5C-\\\\uAAC2\\\\uAADB-\\\\uAAF6\\\\uAB01-\\\\uAB06\\\\uAB09-\\\\uAB0E\\\\uAB11-\\\\uAB16\\\\uAB20-\\\\uAB26\\\\uAB28-\\\\uAB2E\\\\uAB30-\\\\uAB6B\\\\uAB70-\\\\uABED\\\\uABF0-\\\\uABF9\\\\uAC00-\\\\uD7A3\\\\uD7B0-\\\\uD7C6\\\\uD7CB-\\\\uD7FB\\\\uD800-\\\\uFA6D\\\\uFA70-\\\\uFAD9\\\\uFB00-\\\\uFB06\\\\uFB13-\\\\uFB17\\\\uFB1E\\\\uFB29\\\\uFD3E-\\\\uFD4F\\\\uFDCF\\\\uFDFD-\\\\uFE19\\\\uFE20-\\\\uFE52\\\\uFE54-\\\\uFE66\\\\uFE68-\\\\uFE6B\\\\uFEFF\\\\uFF01-\\\\uFFBE\\\\uFFC2-\\\\uFFC7\\\\uFFCA-\\\\uFFCF\\\\uFFD2-\\\\uFFD7\\\\uFFDA-\\\\uFFDC\\\\uFFE0-\\\\uFFE6\\\\uFFE8-\\\\uFFEE\\\\uFFF9-\\\\uFFFD\\\\u{10000}-\\\\u{1000B}\\\\u{1000D}-\\\\u{10026}\\\\u{10028}-\\\\u{1003A}\\\\u{1003C}\\\\u{1003D}\\\\u{1003F}-\\\\u{1004D}\\\\u{10050}-\\\\u{1005D}\\\\u{10080}-\\\\u{100FA}\\\\u{10100}-\\\\u{10102}\\\\u{10107}-\\\\u{10133}\\\\u{10137}-\\\\u{1018E}\\\\u{10190}-\\\\u{1019C}\\\\u{101A0}\\\\u{101D0}-\\\\u{101FD}\\\\u{10280}-\\\\u{1029C}\\\\u{102A0}-\\\\u{102D0}\\\\u{102E0}-\\\\u{102FB}\\\\u{10300}-\\\\u{10323}\\\\u{1032D}-\\\\u{1034A}\\\\u{10350}-\\\\u{1037A}\\\\u{10380}-\\\\u{1039D}\\\\u{1039F}-\\\\u{103C3}\\\\u{103C8}-\\\\u{103D5}\\\\u{10400}-\\\\u{1049D}\\\\u{104A0}-\\\\u{104A9}\\\\u{104B0}-\\\\u{104D3}\\\\u{104D8}-\\\\u{104FB}\\\\u{10500}-\\\\u{10527}\\\\u{10530}-\\\\u{10563}\\\\u{1056F}-\\\\u{1057A}\\\\u{1057C}-\\\\u{1058A}\\\\u{1058C}-\\\\u{10592}\\\\u{10594}\\\\u{10595}\\\\u{10597}-\\\\u{105A1}\\\\u{105A3}-\\\\u{105B1}\\\\u{105B3}-\\\\u{105B9}\\\\u{105BB}\\\\u{105BC}\\\\u{105C0}-\\\\u{105F3}\\\\u{10600}-\\\\u{10736}\\\\u{10740}-\\\\u{10755}\\\\u{10760}-\\\\u{10767}\\\\u{10780}-\\\\u{10785}\\\\u{10787}-\\\\u{107B0}\\\\u{107B2}-\\\\u{107BA}\\\\u{1091F}\\\\u{10A01}-\\\\u{10A03}\\\\u{10A05}\\\\u{10A06}\\\\u{10A0C}-\\\\u{10A0F}\\\\u{10A38}-\\\\u{10A3A}\\\\u{10A3F}\\\\u{10AE5}\\\\u{10AE6}\\\\u{10B39}-\\\\u{10B3F}\\\\u{10D24}-\\\\u{10D27}\\\\u{10D69}-\\\\u{10D6E}\\\\u{10EAB}\\\\u{10EAC}\\\\u{10EFC}-\\\\u{10EFF}\\\\u{10F46}-\\\\u{10F50}\\\\u{10F82}-\\\\u{10F85}\\\\u{11000}-\\\\u{1104D}\\\\u{11052}-\\\\u{11075}\\\\u{1107F}-\\\\u{110C2}\\\\u{110CD}\\\\u{110D0}-\\\\u{110E8}\\\\u{110F0}-\\\\u{110F9}\\\\u{11100}-\\\\u{11134}\\\\u{11136}-\\\\u{11147}\\\\u{11150}-\\\\u{11176}\\\\u{11180}-\\\\u{111DF}\\\\u{111E1}-\\\\u{111F4}\\\\u{11200}-\\\\u{11211}\\\\u{11213}-\\\\u{11241}\\\\u{11280}-\\\\u{11286}\\\\u{11288}\\\\u{1128A}-\\\\u{1128D}\\\\u{1128F}-\\\\u{1129D}\\\\u{1129F}-\\\\u{112A9}\\\\u{112B0}-\\\\u{112EA}\\\\u{112F0}-\\\\u{112F9}\\\\u{11300}-\\\\u{11303}\\\\u{11305}-\\\\u{1130C}\\\\u{1130F}\\\\u{11310}\\\\u{11313}-\\\\u{11328}\\\\u{1132A}-\\\\u{11330}\\\\u{11332}\\\\u{11333}\\\\u{11335}-\\\\u{11339}\\\\u{1133B}-\\\\u{11344}\\\\u{11347}\\\\u{11348}\\\\u{1134B}-\\\\u{1134D}\\\\u{11350}\\\\u{11357}\\\\u{1135D}-\\\\u{11363}\\\\u{11366}-\\\\u{1136C}\\\\u{11370}-\\\\u{11374}\\\\u{11380}-\\\\u{11389}\\\\u{1138B}\\\\u{1138E}\\\\u{11390}-\\\\u{113B5}\\\\u{113B7}-\\\\u{113C0}\\\\u{113C2}\\\\u{113C5}\\\\u{113C7}-\\\\u{113CA}\\\\u{113CC}-\\\\u{113D5}\\\\u{113D7}\\\\u{113D8}\\\\u{113E1}\\\\u{113E2}\\\\u{11400}-\\\\u{1145B}\\\\u{1145D}-\\\\u{11461}\\\\u{11480}-\\\\u{114C7}\\\\u{114D0}-\\\\u{114D9}\\\\u{11580}-\\\\u{115B5}\\\\u{115B8}-\\\\u{115DD}\\\\u{11600}-\\\\u{11644}\\\\u{11650}-\\\\u{11659}\\\\u{11660}-\\\\u{1166C}\\\\u{11680}-\\\\u{116B9}\\\\u{116C0}-\\\\u{116C9}\\\\u{116D0}-\\\\u{116E3}\\\\u{11700}-\\\\u{1171A}\\\\u{1171D}-\\\\u{1172B}\\\\u{11730}-\\\\u{11746}\\\\u{11800}-\\\\u{1183B}\\\\u{118A0}-\\\\u{118F2}\\\\u{118FF}-\\\\u{11906}\\\\u{11909}\\\\u{1190C}-\\\\u{11913}\\\\u{11915}\\\\u{11916}\\\\u{11918}-\\\\u{11935}\\\\u{11937}\\\\u{11938}\\\\u{1193B}-\\\\u{11946}\\\\u{11950}-\\\\u{11959}\\\\u{119A0}-\\\\u{119A7}\\\\u{119AA}-\\\\u{119D7}\\\\u{119DA}-\\\\u{119E4}\\\\u{11A00}-\\\\u{11A47}\\\\u{11A50}-\\\\u{11AA2}\\\\u{11AB0}-\\\\u{11AF8}\\\\u{11B00}-\\\\u{11B09}\\\\u{11BC0}-\\\\u{11BE1}\\\\u{11BF0}-\\\\u{11BF9}\\\\u{11C00}-\\\\u{11C08}\\\\u{11C0A}-\\\\u{11C36}\\\\u{11C38}-\\\\u{11C45}\\\\u{11C50}-\\\\u{11C6C}\\\\u{11C70}-\\\\u{11C8F}\\\\u{11C92}-\\\\u{11CA7}\\\\u{11CA9}-\\\\u{11CB6}\\\\u{11D00}-\\\\u{11D06}\\\\u{11D08}\\\\u{11D09}\\\\u{11D0B}-\\\\u{11D36}\\\\u{11D3A}\\\\u{11D3C}\\\\u{11D3D}\\\\u{11D3F}-\\\\u{11D47}\\\\u{11D50}-\\\\u{11D59}\\\\u{11D60}-\\\\u{11D65}\\\\u{11D67}\\\\u{11D68}\\\\u{11D6A}-\\\\u{11D8E}\\\\u{11D90}\\\\u{11D91}\\\\u{11D93}-\\\\u{11D98}\\\\u{11DA0}-\\\\u{11DA9}\\\\u{11EE0}-\\\\u{11EF8}\\\\u{11F00}-\\\\u{11F10}\\\\u{11F12}-\\\\u{11F3A}\\\\u{11F3E}-\\\\u{11F5A}\\\\u{11FB0}\\\\u{11FC0}-\\\\u{11FF1}\\\\u{11FFF}-\\\\u{12399}\\\\u{12400}-\\\\u{1246E}\\\\u{12470}-\\\\u{12474}\\\\u{12480}-\\\\u{12543}\\\\u{12F90}-\\\\u{12FF2}\\\\u{13000}-\\\\u{13455}\\\\u{13460}-\\\\u{143FA}\\\\u{14400}-\\\\u{14646}\\\\u{16100}-\\\\u{16139}\\\\u{16800}-\\\\u{16A38}\\\\u{16A40}-\\\\u{16A5E}\\\\u{16A60}-\\\\u{16A69}\\\\u{16A6E}-\\\\u{16ABE}\\\\u{16AC0}-\\\\u{16AC9}\\\\u{16AD0}-\\\\u{16AED}\\\\u{16AF0}-\\\\u{16AF5}\\\\u{16B00}-\\\\u{16B45}\\\\u{16B50}-\\\\u{16B59}\\\\u{16B5B}-\\\\u{16B61}\\\\u{16B63}-\\\\u{16B77}\\\\u{16B7D}-\\\\u{16B8F}\\\\u{16D40}-\\\\u{16D79}\\\\u{16E40}-\\\\u{16E9A}\\\\u{16F00}-\\\\u{16F4A}\\\\u{16F4F}-\\\\u{16F87}\\\\u{16F8F}-\\\\u{16F9F}\\\\u{16FE0}-\\\\u{16FE4}\\\\u{16FF0}\\\\u{16FF1}\\\\u{17000}-\\\\u{187F7}\\\\u{18800}-\\\\u{18CD5}\\\\u{18CFF}-\\\\u{18D08}\\\\u{1AFF0}-\\\\u{1AFF3}\\\\u{1AFF5}-\\\\u{1AFFB}\\\\u{1AFFD}\\\\u{1AFFE}\\\\u{1B000}-\\\\u{1B122}\\\\u{1B132}\\\\u{1B150}-\\\\u{1B152}\\\\u{1B155}\\\\u{1B164}-\\\\u{1B167}\\\\u{1B170}-\\\\u{1B2FB}\\\\u{1BC00}-\\\\u{1BC6A}\\\\u{1BC70}-\\\\u{1BC7C}\\\\u{1BC80}-\\\\u{1BC88}\\\\u{1BC90}-\\\\u{1BC99}\\\\u{1BC9C}-\\\\u{1BCA3}\\\\u{1CC00}-\\\\u{1CCF9}\\\\u{1CD00}-\\\\u{1CEB3}\\\\u{1CF00}-\\\\u{1CF2D}\\\\u{1CF30}-\\\\u{1CF46}\\\\u{1CF50}-\\\\u{1CFC3}\\\\u{1D000}-\\\\u{1D0F5}\\\\u{1D100}-\\\\u{1D126}\\\\u{1D129}-\\\\u{1D1EA}\\\\u{1D200}-\\\\u{1D245}\\\\u{1D2C0}-\\\\u{1D2D3}\\\\u{1D2E0}-\\\\u{1D2F3}\\\\u{1D300}-\\\\u{1D356}\\\\u{1D360}-\\\\u{1D378}\\\\u{1D400}-\\\\u{1D454}\\\\u{1D456}-\\\\u{1D49C}\\\\u{1D49E}\\\\u{1D49F}\\\\u{1D4A2}\\\\u{1D4A5}\\\\u{1D4A6}\\\\u{1D4A9}-\\\\u{1D4AC}\\\\u{1D4AE}-\\\\u{1D4B9}\\\\u{1D4BB}\\\\u{1D4BD}-\\\\u{1D4C3}\\\\u{1D4C5}-\\\\u{1D505}\\\\u{1D507}-\\\\u{1D50A}\\\\u{1D50D}-\\\\u{1D514}\\\\u{1D516}-\\\\u{1D51C}\\\\u{1D51E}-\\\\u{1D539}\\\\u{1D53B}-\\\\u{1D53E}\\\\u{1D540}-\\\\u{1D544}\\\\u{1D546}\\\\u{1D54A}-\\\\u{1D550}\\\\u{1D552}-\\\\u{1D6A5}\\\\u{1D6A8}-\\\\u{1D7CB}\\\\u{1D7CE}-\\\\u{1DA8B}\\\\u{1DA9B}-\\\\u{1DA9F}\\\\u{1DAA1}-\\\\u{1DAAF}\\\\u{1DF00}-\\\\u{1DF1E}\\\\u{1DF25}-\\\\u{1DF2A}\\\\u{1E000}-\\\\u{1E006}\\\\u{1E008}-\\\\u{1E018}\\\\u{1E01B}-\\\\u{1E021}\\\\u{1E023}\\\\u{1E024}\\\\u{1E026}-\\\\u{1E02A}\\\\u{1E030}-\\\\u{1E06D}\\\\u{1E08F}\\\\u{1E100}-\\\\u{1E12C}\\\\u{1E130}-\\\\u{1E13D}\\\\u{1E140}-\\\\u{1E149}\\\\u{1E14E}\\\\u{1E14F}\\\\u{1E290}-\\\\u{1E2AE}\\\\u{1E2C0}-\\\\u{1E2F9}\\\\u{1E2FF}\\\\u{1E4D0}-\\\\u{1E4F9}\\\\u{1E5D0}-\\\\u{1E5FA}\\\\u{1E5FF}\\\\u{1E7E0}-\\\\u{1E7E6}\\\\u{1E7E8}-\\\\u{1E7EB}\\\\u{1E7ED}\\\\u{1E7EE}\\\\u{1E7F0}-\\\\u{1E7FE}\\\\u{1E8D0}-\\\\u{1E8D6}\\\\u{1E944}-\\\\u{1E94A}\\\\u{1EEF0}\\\\u{1EEF1}\\\\u{1F000}-\\\\u{1F02B}\\\\u{1F030}-\\\\u{1F093}\\\\u{1F0A0}-\\\\u{1F0AE}\\\\u{1F0B1}-\\\\u{1F0BF}\\\\u{1F0C1}-\\\\u{1F0CF}\\\\u{1F0D1}-\\\\u{1F0F5}\\\\u{1F100}-\\\\u{1F1AD}\\\\u{1F1E6}-\\\\u{1F202}\\\\u{1F210}-\\\\u{1F23B}\\\\u{1F240}-\\\\u{1F248}\\\\u{1F250}\\\\u{1F251}\\\\u{1F260}-\\\\u{1F265}\\\\u{1F300}-\\\\u{1F6D7}\\\\u{1F6DC}-\\\\u{1F6EC}\\\\u{1F6F0}-\\\\u{1F6FC}\\\\u{1F700}-\\\\u{1F776}\\\\u{1F77B}-\\\\u{1F7D9}\\\\u{1F7E0}-\\\\u{1F7EB}\\\\u{1F7F0}\\\\u{1F800}-\\\\u{1F80B}\\\\u{1F810}-\\\\u{1F847}\\\\u{1F850}-\\\\u{1F859}\\\\u{1F860}-\\\\u{1F887}\\\\u{1F890}-\\\\u{1F8AD}\\\\u{1F8B0}-\\\\u{1F8BB}\\\\u{1F8C0}\\\\u{1F8C1}\\\\u{1F900}-\\\\u{1FA53}\\\\u{1FA60}-\\\\u{1FA6D}\\\\u{1FA70}-\\\\u{1FA7C}\\\\u{1FA80}-\\\\u{1FA89}\\\\u{1FA8F}-\\\\u{1FAC6}\\\\u{1FACE}-\\\\u{1FADC}\\\\u{1FADF}-\\\\u{1FAE9}\\\\u{1FAF0}-\\\\u{1FAF8}\\\\u{1FB00}-\\\\u{1FB92}\\\\u{1FB94}-\\\\u{1FBF9}\\\\u{20000}-\\\\u{2A6DF}\\\\u{2A700}-\\\\u{2B739}\\\\u{2B740}-\\\\u{2B81D}\\\\u{2B820}-\\\\u{2CEA1}\\\\u{2CEB0}-\\\\u{2EBE0}\\\\u{2EBF0}-\\\\u{2EE5D}\\\\u{2F800}-\\\\u{2FA1D}\\\\u{30000}-\\\\u{3134A}\\\\u{31350}-\\\\u{323AF}\\\\u{E0001}\\\\u{E0020}-\\\\u{E007F}\\\\u{E0100}-\\\\u{E01EF}\\\\u{F0000}-\\\\u{FFFFD}\\\\u{100000}-\\\\u{10FFFD}]*$/u;\"}\n{\"File\":\"f:\\\\AUDIRA-WEB-PERFECT-WORLD\\\\packages\\\\ui\\\\node_modules\\\\tr46\\\\lib\\\\regexes.js\",\"LineNumber\":14,\"LineContent\":\"const bidiS6 = /[0-9A-Za-z\\\\xAA\\\\xB2\\\\xB3\\\\xB5\\\\xB9\\\\xBA\\\\xC0-\\\\xD6\\\\xD8-\\\\xF6\\\\xF8-\\\\u02B8\\\\u02BB-\\\\u02C1\\\\u02D0\\\\u02D1\\\\u02E0-\\\\u02E4\\\\u02EE\\\\u0370-\\\\u0373\\\\u0376\\\\u0377\\\\u037A-\\\\u037D\\\\u037F\\\\u0386\\\\u0388-\\\\u038A\\\\u038C\\\\u038E-\\\\u03A1\\\\u03A3-\\\\u03F5\\\\u03F7-\\\\u0482\\\\u048A-\\\\u052F\\\\u0531-\\\\u0556\\\\u0559-\\\\u0589\\\\u06F0-\\\\u06F9\\\\u0903-\\\\u0939\\\\u093B\\\\u093D-\\\\u0940\\\\u0949-\\\\u094C\\\\u094E-\\\\u0950\\\\u0958-\\\\u0961\\\\u0964-\\\\u0980\\\\u0982\\\\u0983\\\\u0985-\\\\u098C\\\\u098F\\\\u0990\\\\u0993-\\\\u09A8\\\\u09AA-\\\\u09B0\\\\u09B2\\\\u09B6-\\\\u09B9\\\\u09BD-\\\\u09C0\\\\u09C7\\\\u09C8\\\\u09CB\\\\u09CC\\\\u09CE\\\\u09D7\\\\u09DC\\\\u09DD\\\\u09DF-\\\\u09E1\\\\u09E6-\\\\u09F1\\\\u09F4-\\\\u09FA\\\\u09FC\\\\u09FD\\\\u0A03\\\\u0A05-\\\\u0A0A\\\\u0A0F\\\\u0A10\\\\u0A13-\\\\u0A28\\\\u0A2A-\\\\u0A30\\\\u0A32\\\\u0A33\\\\u0A35\\\\u0A36\\\\u0A38\\\\u0A39\\\\u0A3E-\\\\u0A40\\\\u0A59-\\\\u0A5C\\\\u0A5E\\\\u0A66-\\\\u0A6F\\\\u0A72-\\\\u0A74\\\\u0A76\\\\u0A83\\\\u0A85-\\\\u0A8D\\\\u0A8F-\\\\u0A91\\\\u0A93-\\\\u0AA8\\\\u0AAA-\\\\u0AB0\\\\u0AB2\\\\u0AB3\\\\u0AB5-\\\\u0AB9\\\\u0ABD-\\\\u0AC0\\\\u0AC9\\\\u0ACB\\\\u0ACC\\\\u0AD0\\\\u0AE0\\\\u0AE1\\\\u0AE6-\\\\u0AF0\\\\u0AF9\\\\u0B02\\\\u0B03\\\\u0B05-\\\\u0B0C\\\\u0B0F\\\\u0B10\\\\u0B13-\\\\u0B28\\\\u0B2A-\\\\u0B30\\\\u0B32\\\\u0B33\\\\u0B35-\\\\u0B39\\\\u0B3D\\\\u0B3E\\\\u0B40\\\\u0B47\\\\u0B48\\\\u0B4B\\\\u0B4C\\\\u0B57\\\\u0B5C\\\\u0B5D\\\\u0B5F-\\\\u0B61\\\\u0B66-\\\\u0B77\\\\u0B83\\\\u0B85-\\\\u0B8A\\\\u0B8E-\\\\u0B90\\\\u0B92-\\\\u0B95\\\\u0B99\\\\u0B9A\\\\u0B9C\\\\u0B9E\\\\u0B9F\\\\u0BA3\\\\u0BA4\\\\u0BA8-\\\\u0BAA\\\\u0BAE-\\\\u0BB9\\\\u0BBE\\\\u0BBF\\\\u0BC1\\\\u0BC2\\\\u0BC6-\\\\u0BC8\\\\u0BCA-\\\\u0BCC\\\\u0BD0\\\\u0BD7\\\\u0BE6-\\\\u0BF2\\\\u0C01-\\\\u0C03\\\\u0C05-\\\\u0C0C\\\\u0C0E-\\\\u0C10\\\\u0C12-\\\\u0C28\\\\u0C2A-\\\\u0C39\\\\u0C3D\\\\u0C41-\\\\u0C44\\\\u0C58-\\\\u0C5A\\\\u0C5D\\\\u0C60\\\\u0C61\\\\u0C66-\\\\u0C6F\\\\u0C77\\\\u0C7F\\\\u0C80\\\\u0C82-\\\\u0C8C\\\\u0C8E-\\\\u0C90\\\\u0C92-\\\\u0CA8\\\\u0CAA-\\\\u0CB3\\\\u0CB5-\\\\u0CB9\\\\u0CBD-\\\\u0CC4\\\\u0CC6-\\\\u0CC8\\\\u0CCA\\\\u0CCB\\\\u0CD5\\\\u0CD6\\\\u0CDD\\\\u0CDE\\\\u0CE0\\\\u0CE1\\\\u0CE6-\\\\u0CEF\\\\u0CF1-\\\\u0CF3\\\\u0D02-\\\\u0D0C\\\\u0D0E-\\\\u0D10\\\\u0D12-\\\\u0D3A\\\\u0D3D-\\\\u0D40\\\\u0D46-\\\\u0D48\\\\u0D4A-\\\\u0D4C\\\\u0D4E\\\\u0D4F\\\\u0D54-\\\\u0D61\\\\u0D66-\\\\u0D7F\\\\u0D82\\\\u0D83\\\\u0D85-\\\\u0D96\\\\u0D9A-\\\\u0DB1\\\\u0DB3-\\\\u0DBB\\\\u0DBD\\\\u0DC0-\\\\u0DC6\\\\u0DCF-\\\\u0DD1\\\\u0DD8-\\\\u0DDF\\\\u0DE6-\\\\u0DEF\\\\u0DF2-\\\\u0DF4\\\\u0E01-\\\\u0E30\\\\u0E32\\\\u0E33\\\\u0E40-\\\\u0E46\\\\u0E4F-\\\\u0E5B\\\\u0E81\\\\u0E82\\\\u0E84\\\\u0E86-\\\\u0E8A\\\\u0E8C-\\\\u0EA3\\\\u0EA5\\\\u0EA7-\\\\u0EB0\\\\u0EB2\\\\u0EB3\\\\u0EBD\\\\u0EC0-\\\\u0EC4\\\\u0EC6\\\\u0ED0-\\\\u0ED9\\\\u0EDC-\\\\u0EDF\\\\u0F00-\\\\u0F17\\\\u0F1A-\\\\u0F34\\\\u0F36\\\\u0F38\\\\u0F3E-\\\\u0F47\\\\u0F49-\\\\u0F6C\\\\u0F7F\\\\u0F85\\\\u0F88-\\\\u0F8C\\\\u0FBE-\\\\u0FC5\\\\u0FC7-\\\\u0FCC\\\\u0FCE-\\\\u0FDA\\\\u1000-\\\\u102C\\\\u1031\\\\u1038\\\\u103B\\\\u103C\\\\u103F-\\\\u1057\\\\u105A-\\\\u105D\\\\u1061-\\\\u1070\\\\u1075-\\\\u1081\\\\u1083\\\\u1084\\\\u1087-\\\\u108C\\\\u108E-\\\\u109C\\\\u109E-\\\\u10C5\\\\u10C7\\\\u10CD\\\\u10D0-\\\\u1248\\\\u124A-\\\\u124D\\\\u1250-\\\\u1256\\\\u1258\\\\u125A-\\\\u125D\\\\u1260-\\\\u1288\\\\u128A-\\\\u128D\\\\u1290-\\\\u12B0\\\\u12B2-\\\\u12B5\\\\u12B8-\\\\u12BE\\\\u12C0\\\\u12C2-\\\\u12C5\\\\u12C8-\\\\u12D6\\\\u12D8-\\\\u1310\\\\u1312-\\\\u1315\\\\u1318-\\\\u135A\\\\u1360-\\\\u137C\\\\u1380-\\\\u138F\\\\u13A0-\\\\u13F5\\\\u13F8-\\\\u13FD\\\\u1401-\\\\u167F\\\\u1681-\\\\u169A\\\\u16A0-\\\\u16F8\\\\u1700-\\\\u1711\\\\u1715\\\\u171F-\\\\u1731\\\\u1734-\\\\u1736\\\\u1740-\\\\u1751\\\\u1760-\\\\u176C\\\\u176E-\\\\u1770\\\\u1780-\\\\u17B3\\\\u17B6\\\\u17BE-\\\\u17C5\\\\u17C7\\\\u17C8\\\\u17D4-\\\\u17DA\\\\u17DC\\\\u17E0-\\\\u17E9\\\\u1810-\\\\u1819\\\\u1820-\\\\u1878\\\\u1880-\\\\u1884\\\\u1887-\\\\u18A8\\\\u18AA\\\\u18B0-\\\\u18F5\\\\u1900-\\\\u191E\\\\u1923-\\\\u1926\\\\u1929-\\\\u192B\\\\u1930\\\\u1931\\\\u1933-\\\\u1938\\\\u1946-\\\\u196D\\\\u1970-\\\\u1974\\\\u1980-\\\\u19AB\\\\u19B0-\\\\u19C9\\\\u19D0-\\\\u19DA\\\\u1A00-\\\\u1A16\\\\u1A19\\\\u1A1A\\\\u1A1E-\\\\u1A55\\\\u1A57\\\\u1A61\\\\u1A63\\\\u1A64\\\\u1A6D-\\\\u1A72\\\\u1A80-\\\\u1A89\\\\u1A90-\\\\u1A99\\\\u1AA0-\\\\u1AAD\\\\u1B04-\\\\u1B33\\\\u1B35\\\\u1B3B\\\\u1B3D-\\\\u1B41\\\\u1B43-\\\\u1B4C\\\\u1B4E-\\\\u1B6A\\\\u1B74-\\\\u1B7F\\\\u1B82-\\\\u1BA1\\\\u1BA6\\\\u1BA7\\\\u1BAA\\\\u1BAE-\\\\u1BE5\\\\u1BE7\\\\u1BEA-\\\\u1BEC\\\\u1BEE\\\\u1BF2\\\\u1BF3\\\\u1BFC-\\\\u1C2B\\\\u1C34\\\\u1C35\\\\u1C3B-\\\\u1C49\\\\u1C4D-\\\\u1C8A\\\\u1C90-\\\\u1CBA\\\\u1CBD-\\\\u1CC7\\\\u1CD3\\\\u1CE1\\\\u1CE9-\\\\u1CEC\\\\u1CEE-\\\\u1CF3\\\\u1CF5-\\\\u1CF7\\\\u1CFA\\\\u1D00-\\\\u1DBF\\\\u1E00-\\\\u1F15\\\\u1F18-\\\\u1F1D\\\\u1F20-\\\\u1F45\\\\u1F48-\\\\u1F4D\\\\u1F50-\\\\u1F57\\\\u1F59\\\\u1F5B\\\\u1F5D\\\\u1F5F-\\\\u1F7D\\\\u1F80-\\\\u1FB4\\\\u1FB6-\\\\u1FBC\\\\u1FBE\\\\u1FC2-\\\\u1FC4\\\\u1FC6-\\\\u1FCC\\\\u1FD0-\\\\u1FD3\\\\u1FD6-\\\\u1FDB\\\\u1FE0-\\\\u1FEC\\\\u1FF2-\\\\u1FF4\\\\u1FF6-\\\\u1FFC\\\\u200E\\\\u2070\\\\u2071\\\\u2074-\\\\u2079\\\\u207F-\\\\u2089\\\\u2090-\\\\u209C\\\\u2102\\\\u2107\\\\u210A-\\\\u2113\\\\u2115\\\\u2119-\\\\u211D\\\\u2124\\\\u2126\\\\u2128\\\\u212A-\\\\u212D\\\\u212F-\\\\u2139\\\\u213C-\\\\u213F\\\\u2145-\\\\u2149\\\\u214E\\\\u214F\\\\u2160-\\\\u2188\\\\u2336-\\\\u237A\\\\u2395\\\\u2488-\\\\u24E9\\\\u26AC\\\\u2800-\\\\u28FF\\\\u2C00-\\\\u2CE4\\\\u2CEB-\\\\u2CEE\\\\u2CF2\\\\u2CF3\\\\u2D00-\\\\u2D25\\\\u2D27\\\\u2D2D\\\\u2D30-\\\\u2D67\\\\u2D6F\\\\u2D70\\\\u2D80-\\\\u2D96\\\\u2DA0-\\\\u2DA6\\\\u2DA8-\\\\u2DAE\\\\u2DB0-\\\\u2DB6\\\\u2DB8-\\\\u2DBE\\\\u2DC0-\\\\u2DC6\\\\u2DC8-\\\\u2DCE\\\\u2DD0-\\\\u2DD6\\\\u2DD8-\\\\u2DDE\\\\u3005-\\\\u3007\\\\u3021-\\\\u3029\\\\u302E\\\\u302F\\\\u3031-\\\\u3035\\\\u3038-\\\\u303C\\\\u3041-\\\\u3096\\\\u309D-\\\\u309F\\\\u30A1-\\\\u30FA\\\\u30FC-\\\\u30FF\\\\u3105-\\\\u312F\\\\u3131-\\\\u318E\\\\u3190-\\\\u31BF\\\\u31F0-\\\\u321C\\\\u3220-\\\\u324F\\\\u3260-\\\\u327B\\\\u327F-\\\\u32B0\\\\u32C0-\\\\u32CB\\\\u32D0-\\\\u3376\\\\u337B-\\\\u33DD\\\\u33E0-\\\\u33FE\\\\u3400-\\\\u4DBF\\\\u4E00-\\\\uA48C\\\\uA4D0-\\\\uA60C\\\\uA610-\\\\uA62B\\\\uA640-\\\\uA66E\\\\uA680-\\\\uA69D\\\\uA6A0-\\\\uA6EF\\\\uA6F2-\\\\uA6F7\\\\uA722-\\\\uA787\\\\uA789-\\\\uA7CD\\\\uA7D0\\\\uA7D1\\\\uA7D3\\\\uA7D5-\\\\uA7DC\\\\uA7F2-\\\\uA801\\\\uA803-\\\\uA805\\\\uA807-\\\\uA80A\\\\uA80C-\\\\uA824\\\\uA827\\\\uA830-\\\\uA837\\\\uA840-\\\\uA873\\\\uA880-\\\\uA8C3\\\\uA8CE-\\\\uA8D9\\\\uA8F2-\\\\uA8FE\\\\uA900-\\\\uA925\\\\uA92E-\\\\uA946\\\\uA952\\\\uA953\\\\uA95F-\\\\uA97C\\\\uA983-\\\\uA9B2\\\\uA9B4\\\\uA9B5\\\\uA9BA\\\\uA9BB\\\\uA9BE-\\\\uA9CD\\\\uA9CF-\\\\uA9D9\\\\uA9DE-\\\\uA9E4\\\\uA9E6-\\\\uA9FE\\\\uAA00-\\\\uAA28\\\\uAA2F\\\\uAA30\\\\uAA33\\\\uAA34\\\\uAA40-\\\\uAA42\\\\uAA44-\\\\uAA4B\\\\uAA4D\\\\uAA50-\\\\uAA59\\\\uAA5C-\\\\uAA7B\\\\uAA7D-\\\\uAAAF\\\\uAAB1\\\\uAAB5\\\\uAAB6\\\\uAAB9-\\\\uAABD\\\\uAAC0\\\\uAAC2\\\\uAADB-\\\\uAAEB\\\\uAAEE-\\\\uAAF5\\\\uAB01-\\\\uAB06\\\\uAB09-\\\\uAB0E\\\\uAB11-\\\\uAB16\\\\uAB20-\\\\uAB26\\\\uAB28-\\\\uAB2E\\\\uAB30-\\\\uAB69\\\\uAB70-\\\\uABE4\\\\uABE6\\\\uABE7\\\\uABE9-\\\\uABEC\\\\uABF0-\\\\uABF9\\\\uAC00-\\\\uD7A3\\\\uD7B0-\\\\uD7C6\\\\uD7CB-\\\\uD7FB\\\\uD800-\\\\uFA6D\\\\uFA70-\\\\uFAD9\\\\uFB00-\\\\uFB06\\\\uFB13-\\\\uFB17\\\\uFF10-\\\\uFF19\\\\uFF21-\\\\uFF3A\\\\uFF41-\\\\uFF5A\\\\uFF66-\\\\uFFBE\\\\uFFC2-\\\\uFFC7\\\\uFFCA-\\\\uFFCF\\\\uFFD2-\\\\uFFD7\\\\uFFDA-\\\\uFFDC\\\\u{10000}-\\\\u{1000B}\\\\u{1000D}-\\\\u{10026}\\\\u{10028}-\\\\u{1003A}\\\\u{1003C}\\\\u{1003D}\\\\u{1003F}-\\\\u{1004D}\\\\u{10050}-\\\\u{1005D}\\\\u{10080}-\\\\u{100FA}\\\\u{10100}\\\\u{10102}\\\\u{10107}-\\\\u{10133}\\\\u{10137}-\\\\u{1013F}\\\\u{1018D}\\\\u{1018E}\\\\u{101D0}-\\\\u{101FC}\\\\u{10280}-\\\\u{1029C}\\\\u{102A0}-\\\\u{102D0}\\\\u{102E1}-\\\\u{102FB}\\\\u{10300}-\\\\u{10323}\\\\u{1032D}-\\\\u{1034A}\\\\u{10350}-\\\\u{10375}\\\\u{10380}-\\\\u{1039D}\\\\u{1039F}-\\\\u{103C3}\\\\u{103C8}-\\\\u{103D5}\\\\u{10400}-\\\\u{1049D}\\\\u{104A0}-\\\\u{104A9}\\\\u{104B0}-\\\\u{104D3}\\\\u{104D8}-\\\\u{104FB}\\\\u{10500}-\\\\u{10527}\\\\u{10530}-\\\\u{10563}\\\\u{1056F}-\\\\u{1057A}\\\\u{1057C}-\\\\u{1058A}\\\\u{1058C}-\\\\u{10592}\\\\u{10594}\\\\u{10595}\\\\u{10597}-\\\\u{105A1}\\\\u{105A3}-\\\\u{105B1}\\\\u{105B3}-\\\\u{105B9}\\\\u{105BB}\\\\u{105BC}\\\\u{105C0}-\\\\u{105F3}\\\\u{10600}-\\\\u{10736}\\\\u{10740}-\\\\u{10755}\\\\u{10760}-\\\\u{10767}\\\\u{10780}-\\\\u{10785}\\\\u{10787}-\\\\u{107B0}\\\\u{107B2}-\\\\u{107BA}\\\\u{11000}\\\\u{11002}-\\\\u{11037}\\\\u{11047}-\\\\u{1104D}\\\\u{11066}-\\\\u{1106F}\\\\u{11071}\\\\u{11072}\\\\u{11075}\\\\u{11082}-\\\\u{110B2}\\\\u{110B7}\\\\u{110B8}\\\\u{110BB}-\\\\u{110C1}\\\\u{110CD}\\\\u{110D0}-\\\\u{110E8}\\\\u{110F0}-\\\\u{110F9}\\\\u{11103}-\\\\u{11126}\\\\u{1112C}\\\\u{11136}-\\\\u{11147}\\\\u{11150}-\\\\u{11172}\\\\u{11174}-\\\\u{11176}\\\\u{11182}-\\\\u{111B5}\\\\u{111BF}-\\\\u{111C8}\\\\u{111CD}\\\\u{111CE}\\\\u{111D0}-\\\\u{111DF}\\\\u{111E1}-\\\\u{111F4}\\\\u{11200}-\\\\u{11211}\\\\u{11213}-\\\\u{1122E}\\\\u{11232}\\\\u{11233}\\\\u{11235}\\\\u{11238}-\\\\u{1123D}\\\\u{1123F}\\\\u{11240}\\\\u{11280}-\\\\u{11286}\\\\u{11288}\\\\u{1128A}-\\\\u{1128D}\\\\u{1128F}-\\\\u{1129D}\\\\u{1129F}-\\\\u{112A9}\\\\u{112B0}-\\\\u{112DE}\\\\u{112E0}-\\\\u{112E2}\\\\u{112F0}-\\\\u{112F9}\\\\u{11302}\\\\u{11303}\\\\u{11305}-\\\\u{1130C}\\\\u{1130F}\\\\u{11310}\\\\u{11313}-\\\\u{11328}\\\\u{1132A}-\\\\u{11330}\\\\u{11332}\\\\u{11333}\\\\u{11335}-\\\\u{11339}\\\\u{1133D}-\\\\u{1133F}\\\\u{11341}-\\\\u{11344}\\\\u{11347}\\\\u{11348}\\\\u{1134B}-\\\\u{1134D}\\\\u{11350}\\\\u{11357}\\\\u{1135D}-\\\\u{11363}\\\\u{11380}-\\\\u{11389}\\\\u{1138B}\\\\u{1138E}\\\\u{11390}-\\\\u{113B5}\\\\u{113B7}-\\\\u{113BA}\\\\u{113C2}\\\\u{113C5}\\\\u{113C7}-\\\\u{113CA}\\\\u{113CC}\\\\u{113CD}\\\\u{113CF}\\\\u{113D1}\\\\u{113D3}-\\\\u{113D5}\\\\u{113D7}\\\\u{113D8}\\\\u{11400}-\\\\u{11437}\\\\u{11440}\\\\u{11441}\\\\u{11445}\\\\u{11447}-\\\\u{1145B}\\\\u{1145D}\\\\u{1145F}-\\\\u{11461}\\\\u{11480}-\\\\u{114B2}\\\\u{114B9}\\\\u{114BB}-\\\\u{114BE}\\\\u{114C1}\\\\u{114C4}-\\\\u{114C7}\\\\u{114D0}-\\\\u{114D9}\\\\u{11580}-\\\\u{115B1}\\\\u{115B8}-\\\\u{115BB}\\\\u{115BE}\\\\u{115C1}-\\\\u{115DB}\\\\u{11600}-\\\\u{11632}\\\\u{1163B}\\\\u{1163C}\\\\u{1163E}\\\\u{11641}-\\\\u{11644}\\\\u{11650}-\\\\u{11659}\\\\u{11680}-\\\\u{116AA}\\\\u{116AC}\\\\u{116AE}\\\\u{116AF}\\\\u{116B6}\\\\u{116B8}\\\\u{116B9}\\\\u{116C0}-\\\\u{116C9}\\\\u{116D0}-\\\\u{116E3}\\\\u{11700}-\\\\u{1171A}\\\\u{1171E}\\\\u{11720}\\\\u{11721}\\\\u{11726}\\\\u{11730}-\\\\u{11746}\\\\u{11800}-\\\\u{1182E}\\\\u{11838}\\\\u{1183B}\\\\u{118A0}-\\\\u{118F2}\\\\u{118FF}-\\\\u{11906}\\\\u{11909}\\\\u{1190C}-\\\\u{11913}\\\\u{11915}\\\\u{11916}\\\\u{11918}-\\\\u{11935}\\\\u{11937}\\\\u{11938}\\\\u{1193D}\\\\u{1193F}-\\\\u{11942}\\\\u{11944}-\\\\u{11946}\\\\u{11950}-\\\\u{11959}\\\\u{119A0}-\\\\u{119A7}\\\\u{119AA}-\\\\u{119D3}\\\\u{119DC}-\\\\u{119DF}\\\\u{119E1}-\\\\u{119E4}\\\\u{11A00}\\\\u{11A07}\\\\u{11A08}\\\\u{11A0B}-\\\\u{11A32}\\\\u{11A39}\\\\u{11A3A}\\\\u{11A3F}-\\\\u{11A46}\\\\u{11A50}\\\\u{11A57}\\\\u{11A58}\\\\u{11A5C}-\\\\u{11A89}\\\\u{11A97}\\\\u{11A9A}-\\\\u{11AA2}\\\\u{11AB0}-\\\\u{11AF8}\\\\u{11B00}-\\\\u{11B09}\\\\u{11BC0}-\\\\u{11BE1}\\\\u{11BF0}-\\\\u{11BF9}\\\\u{11C00}-\\\\u{11C08}\\\\u{11C0A}-\\\\u{11C2F}\\\\u{11C3E}-\\\\u{11C45}\\\\u{11C50}-\\\\u{11C6C}\\\\u{11C70}-\\\\u{11C8F}\\\\u{11CA9}\\\\u{11CB1}\\\\u{11CB4}\\\\u{11D00}-\\\\u{11D06}\\\\u{11D08}\\\\u{11D09}\\\\u{11D0B}-\\\\u{11D30}\\\\u{11D46}\\\\u{11D50}-\\\\u{11D59}\\\\u{11D60}-\\\\u{11D65}\\\\u{11D67}\\\\u{11D68}\\\\u{11D6A}-\\\\u{11D8E}\\\\u{11D93}\\\\u{11D94}\\\\u{11D96}\\\\u{11D98}\\\\u{11DA0}-\\\\u{11DA9}\\\\u{11EE0}-\\\\u{11EF2}\\\\u{11EF5}-\\\\u{11EF8}\\\\u{11F02}-\\\\u{11F10}\\\\u{11F12}-\\\\u{11F35}\\\\u{11F3E}\\\\u{11F3F}\\\\u{11F41}\\\\u{11F43}-\\\\u{11F59}\\\\u{11FB0}\\\\u{11FC0}-\\\\u{11FD4}\\\\u{11FFF}-\\\\u{12399}\\\\u{12400}-\\\\u{1246E}\\\\u{12470}-\\\\u{12474}\\\\u{12480}-\\\\u{12543}\\\\u{12F90}-\\\\u{12FF2}\\\\u{13000}-\\\\u{1343F}\\\\u{13441}-\\\\u{13446}\\\\u{13460}-\\\\u{143FA}\\\\u{14400}-\\\\u{14646}\\\\u{16100}-\\\\u{1611D}\\\\u{1612A}-\\\\u{1612C}\\\\u{16130}-\\\\u{16139}\\\\u{16800}-\\\\u{16A38}\\\\u{16A40}-\\\\u{16A5E}\\\\u{16A60}-\\\\u{16A69}\\\\u{16A6E}-\\\\u{16ABE}\\\\u{16AC0}-\\\\u{16AC9}\\\\u{16AD0}-\\\\u{16AED}\\\\u{16AF5}\\\\u{16B00}-\\\\u{16B2F}\\\\u{16B37}-\\\\u{16B45}\\\\u{16B50}-\\\\u{16B59}\\\\u{16B5B}-\\\\u{16B61}\\\\u{16B63}-\\\\u{16B77}\\\\u{16B7D}-\\\\u{16B8F}\\\\u{16D40}-\\\\u{16D79}\\\\u{16E40}-\\\\u{16E9A}\\\\u{16F00}-\\\\u{16F4A}\\\\u{16F50}-\\\\u{16F87}\\\\u{16F93}-\\\\u{16F9F}\\\\u{16FE0}\\\\u{16FE1}\\\\u{16FE3}\\\\u{16FF0}\\\\u{16FF1}\\\\u{17000}-\\\\u{187F7}\\\\u{18800}-\\\\u{18CD5}\\\\u{18CFF}-\\\\u{18D08}\\\\u{1AFF0}-\\\\u{1AFF3}\\\\u{1AFF5}-\\\\u{1AFFB}\\\\u{1AFFD}\\\\u{1AFFE}\\\\u{1B000}-\\\\u{1B122}\\\\u{1B132}\\\\u{1B150}-\\\\u{1B152}\\\\u{1B155}\\\\u{1B164}-\\\\u{1B167}\\\\u{1B170}-\\\\u{1B2FB}\\\\u{1BC00}-\\\\u{1BC6A}\\\\u{1BC70}-\\\\u{1BC7C}\\\\u{1BC80}-\\\\u{1BC88}\\\\u{1BC90}-\\\\u{1BC99}\\\\u{1BC9C}\\\\u{1BC9F}\\\\u{1CCD6}-\\\\u{1CCF9}\\\\u{1CF50}-\\\\u{1CFC3}\\\\u{1D000}-\\\\u{1D0F5}\\\\u{1D100}-\\\\u{1D126}\\\\u{1D129}-\\\\u{1D166}\\\\u{1D16A}-\\\\u{1D172}\\\\u{1D183}\\\\u{1D184}\\\\u{1D18C}-\\\\u{1D1A9}\\\\u{1D1AE}-\\\\u{1D1E8}\\\\u{1D2C0}-\\\\u{1D2D3}\\\\u{1D2E0}-\\\\u{1D2F3}\\\\u{1D360}-\\\\u{1D378}\\\\u{1D400}-\\\\u{1D454}\\\\u{1D456}-\\\\u{1D49C}\\\\u{1D49E}\\\\u{1D49F}\\\\u{1D4A2}\\\\u{1D4A5}\\\\u{1D4A6}\\\\u{1D4A9}-\\\\u{1D4AC}\\\\u{1D4AE}-\\\\u{1D4B9}\\\\u{1D4BB}\\\\u{1D4BD}-\\\\u{1D4C3}\\\\u{1D4C5}-\\\\u{1D505}\\\\u{1D507}-\\\\u{1D50A}\\\\u{1D50D}-\\\\u{1D514}\\\\u{1D516}-\\\\u{1D51C}\\\\u{1D51E}-\\\\u{1D539}\\\\u{1D53B}-\\\\u{1D53E}\\\\u{1D540}-\\\\u{1D544}\\\\u{1D546}\\\\u{1D54A}-\\\\u{1D550}\\\\u{1D552}-\\\\u{1D6A5}\\\\u{1D6A8}-\\\\u{1D6C0}\\\\u{1D6C2}-\\\\u{1D6DA}\\\\u{1D6DC}-\\\\u{1D6FA}\\\\u{1D6FC}-\\\\u{1D714}\\\\u{1D716}-\\\\u{1D734}\\\\u{1D736}-\\\\u{1D74E}\\\\u{1D750}-\\\\u{1D76E}\\\\u{1D770}-\\\\u{1D788}\\\\u{1D78A}-\\\\u{1D7A8}\\\\u{1D7AA}-\\\\u{1D7C2}\\\\u{1D7C4}-\\\\u{1D7CB}\\\\u{1D7CE}-\\\\u{1D9FF}\\\\u{1DA37}-\\\\u{1DA3A}\\\\u{1DA6D}-\\\\u{1DA74}\\\\u{1DA76}-\\\\u{1DA83}\\\\u{1DA85}-\\\\u{1DA8B}\\\\u{1DF00}-\\\\u{1DF1E}\\\\u{1DF25}-\\\\u{1DF2A}\\\\u{1E030}-\\\\u{1E06D}\\\\u{1E100}-\\\\u{1E12C}\\\\u{1E137}-\\\\u{1E13D}\\\\u{1E140}-\\\\u{1E149}\\\\u{1E14E}\\\\u{1E14F}\\\\u{1E290}-\\\\u{1E2AD}\\\\u{1E2C0}-\\\\u{1E2EB}\\\\u{1E2F0}-\\\\u{1E2F9}\\\\u{1E4D0}-\\\\u{1E4EB}\\\\u{1E4F0}-\\\\u{1E4F9}\\\\u{1E5D0}-\\\\u{1E5ED}\\\\u{1E5F0}-\\\\u{1E5FA}\\\\u{1E5FF}\\\\u{1E7E0}-\\\\u{1E7E6}\\\\u{1E7E8}-\\\\u{1E7EB}\\\\u{1E7ED}\\\\u{1E7EE}\\\\u{1E7F0}-\\\\u{1E7FE}\\\\u{1F100}-\\\\u{1F10A}\\\\u{1F110}-\\\\u{1F12E}\\\\u{1F130}-\\\\u{1F169}\\\\u{1F170}-\\\\u{1F1AC}\\\\u{1F1E6}-\\\\u{1F202}\\\\u{1F210}-\\\\u{1F23B}\\\\u{1F240}-\\\\u{1F248}\\\\u{1F250}\\\\u{1F251}\\\\u{1FBF0}-\\\\u{1FBF9}\\\\u{20000}-\\\\u{2A6DF}\\\\u{2A700}-\\\\u{2B739}\\\\u{2B740}-\\\\u{2B81D}\\\\u{2B820}-\\\\u{2CEA1}\\\\u{2CEB0}-\\\\u{2EBE0}\\\\u{2EBF0}-\\\\u{2EE5D}\\\\u{2F800}-\\\\u{2FA1D}\\\\u{30000}-\\\\u{3134A}\\\\u{31350}-\\\\u{323AF}\\\\u{F0000}-\\\\u{FFFFD}\\\\u{100000}-\\\\u{10FFFD}][\\\\u0300-\\\\u036F\\\\u0483-\\\\u0489\\\\u0591-\\\\u05BD\\\\u05BF\\\\u05C1\\\\u05C2\\\\u05C4\\\\u05C5\\\\u05C7\\\\u0610-\\\\u061A\\\\u064B-\\\\u065F\\\\u0670\\\\u06D6-\\\\u06DC\\\\u06DF-\\\\u06E4\\\\u06E7\\\\u06E8\\\\u06EA-\\\\u06ED\\\\u0711\\\\u0730-\\\\u074A\\\\u07A6-\\\\u07B0\\\\u07EB-\\\\u07F3\\\\u07FD\\\\u0816-\\\\u0819\\\\u081B-\\\\u0823\\\\u0825-\\\\u0827\\\\u0829-\\\\u082D\\\\u0859-\\\\u085B\\\\u0897-\\\\u089F\\\\u08CA-\\\\u08E1\\\\u08E3-\\\\u0902\\\\u093A\\\\u093C\\\\u0941-\\\\u0948\\\\u094D\\\\u0951-\\\\u0957\\\\u0962\\\\u0963\\\\u0981\\\\u09BC\\\\u09C1-\\\\u09C4\\\\u09CD\\\\u09E2\\\\u09E3\\\\u09FE\\\\u0A01\\\\u0A02\\\\u0A3C\\\\u0A41\\\\u0A42\\\\u0A47\\\\u0A48\\\\u0A4B-\\\\u0A4D\\\\u0A51\\\\u0A70\\\\u0A71\\\\u0A75\\\\u0A81\\\\u0A82\\\\u0ABC\\\\u0AC1-\\\\u0AC5\\\\u0AC7\\\\u0AC8\\\\u0ACD\\\\u0AE2\\\\u0AE3\\\\u0AFA-\\\\u0AFF\\\\u0B01\\\\u0B3C\\\\u0B3F\\\\u0B41-\\\\u0B44\\\\u0B4D\\\\u0B55\\\\u0B56\\\\u0B62\\\\u0B63\\\\u0B82\\\\u0BC0\\\\u0BCD\\\\u0C00\\\\u0C04\\\\u0C3C\\\\u0C3E-\\\\u0C40\\\\u0C46-\\\\u0C48\\\\u0C4A-\\\\u0C4D\\\\u0C55\\\\u0C56\\\\u0C62\\\\u0C63\\\\u0C81\\\\u0CBC\\\\u0CCC\\\\u0CCD\\\\u0CE2\\\\u0CE3\\\\u0D00\\\\u0D01\\\\u0D3B\\\\u0D3C\\\\u0D41-\\\\u0D44\\\\u0D4D\\\\u0D62\\\\u0D63\\\\u0D81\\\\u0DCA\\\\u0DD2-\\\\u0DD4\\\\u0DD6\\\\u0E31\\\\u0E34-\\\\u0E3A\\\\u0E47-\\\\u0E4E\\\\u0EB1\\\\u0EB4-\\\\u0EBC\\\\u0EC8-\\\\u0ECE\\\\u0F18\\\\u0F19\\\\u0F35\\\\u0F37\\\\u0F39\\\\u0F71-\\\\u0F7E\\\\u0F80-\\\\u0F84\\\\u0F86\\\\u0F87\\\\u0F8D-\\\\u0F97\\\\u0F99-\\\\u0FBC\\\\u0FC6\\\\u102D-\\\\u1030\\\\u1032-\\\\u1037\\\\u1039\\\\u103A\\\\u103D\\\\u103E\\\\u1058\\\\u1059\\\\u105E-\\\\u1060\\\\u1071-\\\\u1074\\\\u1082\\\\u1085\\\\u1086\\\\u108D\\\\u109D\\\\u135D-\\\\u135F\\\\u1712-\\\\u1714\\\\u1732\\\\u1733\\\\u1752\\\\u1753\\\\u1772\\\\u1773\\\\u17B4\\\\u17B5\\\\u17B7-\\\\u17BD\\\\u17C6\\\\u17C9-\\\\u17D3\\\\u17DD\\\\u180B-\\\\u180D\\\\u180F\\\\u1885\\\\u1886\\\\u18A9\\\\u1920-\\\\u1922\\\\u1927\\\\u1928\\\\u1932\\\\u1939-\\\\u193B\\\\u1A17\\\\u1A18\\\\u1A1B\\\\u1A56\\\\u1A58-\\\\u1A5E\\\\u1A60\\\\u1A62\\\\u1A65-\\\\u1A6C\\\\u1A73-\\\\u1A7C\\\\u1A7F\\\\u1AB0-\\\\u1ACE\\\\u1B00-\\\\u1B03\\\\u1B34\\\\u1B36-\\\\u1B3A\\\\u1B3C\\\\u1B42\\\\u1B6B-\\\\u1B73\\\\u1B80\\\\u1B81\\\\u1BA2-\\\\u1BA5\\\\u1BA8\\\\u1BA9\\\\u1BAB-\\\\u1BAD\\\\u1BE6\\\\u1BE8\\\\u1BE9\\\\u1BED\\\\u1BEF-\\\\u1BF1\\\\u1C2C-\\\\u1C33\\\\u1C36\\\\u1C37\\\\u1CD0-\\\\u1CD2\\\\u1CD4-\\\\u1CE0\\\\u1CE2-\\\\u1CE8\\\\u1CED\\\\u1CF4\\\\u1CF8\\\\u1CF9\\\\u1DC0-\\\\u1DFF\\\\u20D0-\\\\u20F0\\\\u2CEF-\\\\u2CF1\\\\u2D7F\\\\u2DE0-\\\\u2DFF\\\\u302A-\\\\u302D\\\\u3099\\\\u309A\\\\uA66F-\\\\uA672\\\\uA674-\\\\uA67D\\\\uA69E\\\\uA69F\\\\uA6F0\\\\uA6F1\\\\uA802\\\\uA806\\\\uA80B\\\\uA825\\\\uA826\\\\uA82C\\\\uA8C4\\\\uA8C5\\\\uA8E0-\\\\uA8F1\\\\uA8FF\\\\uA926-\\\\uA92D\\\\uA947-\\\\uA951\\\\uA980-\\\\uA982\\\\uA9B3\\\\uA9B6-\\\\uA9B9\\\\uA9BC\\\\uA9BD\\\\uA9E5\\\\uAA29-\\\\uAA2E\\\\uAA31\\\\uAA32\\\\uAA35\\\\uAA36\\\\uAA43\\\\uAA4C\\\\uAA7C\\\\uAAB0\\\\uAAB2-\\\\uAAB4\\\\uAAB7\\\\uAAB8\\\\uAABE\\\\uAABF\\\\uAAC1\\\\uAAEC\\\\uAAED\\\\uAAF6\\\\uABE5\\\\uABE8\\\\uABED\\\\uFB1E\\\\uFE00-\\\\uFE0F\\\\uFE20-\\\\uFE2F\\\\u{101FD}\\\\u{102E0}\\\\u{10376}-\\\\u{1037A}\\\\u{10A01}-\\\\u{10A03}\\\\u{10A05}\\\\u{10A06}\\\\u{10A0C}-\\\\u{10A0F}\\\\u{10A38}-\\\\u{10A3A}\\\\u{10A3F}\\\\u{10AE5}\\\\u{10AE6}\\\\u{10D24}-\\\\u{10D27}\\\\u{10D69}-\\\\u{10D6D}\\\\u{10EAB}\\\\u{10EAC}\\\\u{10EFC}-\\\\u{10EFF}\\\\u{10F46}-\\\\u{10F50}\\\\u{10F82}-\\\\u{10F85}\\\\u{11001}\\\\u{11038}-\\\\u{11046}\\\\u{11070}\\\\u{11073}\\\\u{11074}\\\\u{1107F}-\\\\u{11081}\\\\u{110B3}-\\\\u{110B6}\\\\u{110B9}\\\\u{110BA}\\\\u{110C2}\\\\u{11100}-\\\\u{11102}\\\\u{11127}-\\\\u{1112B}\\\\u{1112D}-\\\\u{11134}\\\\u{11173}\\\\u{11180}\\\\u{11181}\\\\u{111B6}-\\\\u{111BE}\\\\u{111C9}-\\\\u{111CC}\\\\u{111CF}\\\\u{1122F}-\\\\u{11231}\\\\u{11234}\\\\u{11236}\\\\u{11237}\\\\u{1123E}\\\\u{11241}\\\\u{112DF}\\\\u{112E3}-\\\\u{112EA}\\\\u{11300}\\\\u{11301}\\\\u{1133B}\\\\u{1133C}\\\\u{11340}\\\\u{11366}-\\\\u{1136C}\\\\u{11370}-\\\\u{11374}\\\\u{113BB}-\\\\u{113C0}\\\\u{113CE}\\\\u{113D0}\\\\u{113D2}\\\\u{113E1}\\\\u{113E2}\\\\u{11438}-\\\\u{1143F}\\\\u{11442}-\\\\u{11444}\\\\u{11446}\\\\u{1145E}\\\\u{114B3}-\\\\u{114B8}\\\\u{114BA}\\\\u{114BF}\\\\u{114C0}\\\\u{114C2}\\\\u{114C3}\\\\u{115B2}-\\\\u{115B5}\\\\u{115BC}\\\\u{115BD}\\\\u{115BF}\\\\u{115C0}\\\\u{115DC}\\\\u{115DD}\\\\u{11633}-\\\\u{1163A}\\\\u{1163D}\\\\u{1163F}\\\\u{11640}\\\\u{116AB}\\\\u{116AD}\\\\u{116B0}-\\\\u{116B5}\\\\u{116B7}\\\\u{1171D}\\\\u{1171F}\\\\u{11722}-\\\\u{11725}\\\\u{11727}-\\\\u{1172B}\\\\u{1182F}-\\\\u{11837}\\\\u{11839}\\\\u{1183A}\\\\u{1193B}\\\\u{1193C}\\\\u{1193E}\\\\u{11943}\\\\u{119D4}-\\\\u{119D7}\\\\u{119DA}\\\\u{119DB}\\\\u{119E0}\\\\u{11A01}-\\\\u{11A06}\\\\u{11A09}\\\\u{11A0A}\\\\u{11A33}-\\\\u{11A38}\\\\u{11A3B}-\\\\u{11A3E}\\\\u{11A47}\\\\u{11A51}-\\\\u{11A56}\\\\u{11A59}-\\\\u{11A5B}\\\\u{11A8A}-\\\\u{11A96}\\\\u{11A98}\\\\u{11A99}\\\\u{11C30}-\\\\u{11C36}\\\\u{11C38}-\\\\u{11C3D}\\\\u{11C92}-\\\\u{11CA7}\\\\u{11CAA}-\\\\u{11CB0}\\\\u{11CB2}\\\\u{11CB3}\\\\u{11CB5}\\\\u{11CB6}\\\\u{11D31}-\\\\u{11D36}\\\\u{11D3A}\\\\u{11D3C}\\\\u{11D3D}\\\\u{11D3F}-\\\\u{11D45}\\\\u{11D47}\\\\u{11D90}\\\\u{11D91}\\\\u{11D95}\\\\u{11D97}\\\\u{11EF3}\\\\u{11EF4}\\\\u{11F00}\\\\u{11F01}\\\\u{11F36}-\\\\u{11F3A}\\\\u{11F40}\\\\u{11F42}\\\\u{11F5A}\\\\u{13440}\\\\u{13447}-\\\\u{13455}\\\\u{1611E}-\\\\u{16129}\\\\u{1612D}-\\\\u{1612F}\\\\u{16AF0}-\\\\u{16AF4}\\\\u{16B30}-\\\\u{16B36}\\\\u{16F4F}\\\\u{16F8F}-\\\\u{16F92}\\\\u{16FE4}\\\\u{1BC9D}\\\\u{1BC9E}\\\\u{1CF00}-\\\\u{1CF2D}\\\\u{1CF30}-\\\\u{1CF46}\\\\u{1D167}-\\\\u{1D169}\\\\u{1D17B}-\\\\u{1D182}\\\\u{1D185}-\\\\u{1D18B}\\\\u{1D1AA}-\\\\u{1D1AD}\\\\u{1D242}-\\\\u{1D244}\\\\u{1DA00}-\\\\u{1DA36}\\\\u{1DA3B}-\\\\u{1DA6C}\\\\u{1DA75}\\\\u{1DA84}\\\\u{1DA9B}-\\\\u{1DA9F}\\\\u{1DAA1}-\\\\u{1DAAF}\\\\u{1E000}-\\\\u{1E006}\\\\u{1E008}-\\\\u{1E018}\\\\u{1E01B}-\\\\u{1E021}\\\\u{1E023}\\\\u{1E024}\\\\u{1E026}-\\\\u{1E02A}\\\\u{1E08F}\\\\u{1E130}-\\\\u{1E136}\\\\u{1E2AE}\\\\u{1E2EC}-\\\\u{1E2EF}\\\\u{1E4EC}-\\\\u{1E4EF}\\\\u{1E5EE}\\\\u{1E5EF}\\\\u{1E8D0}-\\\\u{1E8D6}\\\\u{1E944}-\\\\u{1E94A}\\\\u{E0100}-\\\\u{E01EF}]*$/u;\"}"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "systemInstruction": {
+        "role": "user",
+        "parts": [
+          {
+            "text": "<identity>\nYou are Antigravity, a powerful agentic AI coding assistant designed by the Google Deepmind team working on Advanced Agentic Coding.\nYou are pair programming with a USER to solve their coding task. The task may require creating a new codebase, modifying or debugging an existing codebase, or simply answering a question.\nThe USER will send you requests, which you must always prioritize addressing. Along with each USER request, we will attach additional metadata about their current state, such as what files they have open and where their cursor is.\nThis information may or may not be relevant to the coding task, it is up for you to decide.\n</identity>\n\n<web_application_development>\n## Technology Stack,\nYour web applications should be built using the following technologies:,\n1. **Core**: Use HTML for structure and Javascript for logic.\n2. **Styling (CSS)**: Use Vanilla CSS for maximum flexibility and control. Avoid using TailwindCSS unless the USER explicitly requests it; in this case, first confirm which TailwindCSS version to use.\n3. **Web App**: If the USER specifies that they want a more complex web app, use a framework like Next.js or Vite. Only do this if the USER explicitly requests a web app.\n4. **New Project Creation**: If you need to use a framework for a new app, use `npx` with the appropriate script, but there are some rules to follow:,\n   - Use `npx -y` to automatically install the script and its dependencies\n   - You MUST run the command with `--help` flag to see all available options first, \n   - Initialize the app in the current directory with `./` (example: `npx -y create-vite-app@latest ./`),\n   - You should run in non-interactive mode so that the user doesn't need to input anything,\n5. **Running Locally**: When running locally, use `npm run dev` or equivalent dev server. Only build the production bundle if the USER explicitly requests it or you are validating the code for correctness.\n\n# Design Aesthetics,\n1. **Use Rich Aesthetics**: The USER should be wowed at first glance by the design. Use best practices in modern web design (e.g. vibrant colors, dark modes, glassmorphism, and dynamic animations) to create a stunning first impression. Failure to do this is UNACCEPTABLE.\n2. **Prioritize Visual Excellence**: Implement designs that will WOW the user and feel extremely premium:\n\t\t- Avoid generic colors (plain red, blue, green). Use curated, harmonious color palettes (e.g., HSL tailored colors, sleek dark modes).\n   - Using modern typography (e.g., from Google Fonts like Inter, Roboto, or Outfit) instead of browser defaults.\n\t\t- Use smooth gradients,\n\t\t- Add subtle micro-animations for enhanced user experience,\n3. **Use a Dynamic Design**: An interface that feels responsive and alive encourages interaction. Achieve this with hover effects and interactive elements. Micro-animations, in particular, are highly effective for improving user engagement.\n4. **Premium Designs**. Make a design that feels premium and state of the art. Avoid creating simple minimum viable products.\n4. **Don't use placeholders**. If you need an image, use your generate_image tool to create a working demonstration.,\n\n## Implementation Workflow,\nFollow this systematic approach when building web applications:,\n1. **Plan and Understand**:,\n\t\t- Fully understand the user's requirements,\n\t\t- Draw inspiration from modern, beautiful, and dynamic web designs,\n\t\t- Outline the features needed for the initial version,\n2. **Build the Foundation**:,\n\t\t- Start by creating/modifying `index.css`,\n\t\t- Implement the core design system with all tokens and utilities,\n3. **Create Components**:,\n\t\t- Build necessary components using your design system,\n\t\t- Ensure all components use predefined styles, not ad-hoc utilities,\n\t\t- Keep components focused and reusable,\n4. **Assemble Pages**:,\n\t\t- Update the main application to incorporate your design and components,\n\t\t- Ensure proper routing and navigation,\n\t\t- Implement responsive layouts,\n5. **Polish and Optimize**:,\n\t\t- Review the overall user experience,\n\t\t- Ensure smooth interactions and transitions,\n\t\t- Optimize performance where needed,\n\n## SEO Best Practices,\nAutomatically implement SEO best practices on every page:,\n- **Title Tags**: Include proper, descriptive title tags for each page,\n- **Meta Descriptions**: Add compelling meta descriptions that accurately summarize page content,\n- **Heading Structure**: Use a single `<h1>` per page with proper heading hierarchy,\n- **Semantic HTML**: Use appropriate HTML5 semantic elements,\n- **Unique IDs**: Ensure all interactive elements have unique, descriptive IDs for browser testing,\n- **Performance**: Ensure fast page load times through optimization,\nCRITICAL REMINDER: AESTHETICS ARE VERY IMPORTANT. If your web app looks simple and basic then you have FAILED!\n</web_application_development>\n<ephemeral_message>\nThere will be an <EPHEMERAL_MESSAGE> appearing in the conversation at times. This is not coming from the user, but instead injected by the system as important information to pay attention to. \nDo not respond to nor acknowledge those messages, but do follow them strictly.\n</ephemeral_message>\n<persistent_context>\n# Persistent Context\n\nYou can retrieve information from past conversations via two mechanisms:\n\n1. **Knowledge Items (KIs)** — Curated, distilled knowledge on specific topics. Always check KIs first.\n2. **Conversation Logs** — Raw logs and artifacts from past conversations.\n\n**Priority order:** KIs → Conversation Logs → Fresh research.\n\n## Knowledge Items (KI) System\n\n### MANDATORY FIRST STEP: Check KI Summaries Before Any Research\n\n**At the start of each conversation, you receive KI summaries with artifact paths.** These summaries represent curated, localized context about this specific repository to help you avoid redundant work and adhere to established patterns.\n\n**BEFORE performing ANY research, analysis, or creating documentation, you MUST:**\n1. **Review the KI summaries** provided at the start of the conversation.\n2. **Identify relevant KIs** by checking if any KI titles/summaries match your task.\n3. **Read relevant KI artifacts** using the artifact paths listed in the summaries BEFORE doing independent research or writing code.\n\nIf no KI summary title is relevant to the current task, proceed directly — do not force a match.\n\n### When to Check KIs\n\nYou must actively check and utilize KIs in the following scenarios:\n- **\"Deceptively Simple\" Tasks:** \"Add logging,\" \"run this in the background,\" or \"add a metadata field\" almost always have repository-specific established patterns.\n- **Debugging & Troubleshooting:** Before deep-diving into unexpected behavior, resource leaks, or config issues, check for KIs documenting known bugs, gotchas, or best practices in similar components.\n- **Architecture & Refactoring:** Before designing \"new\" features, state management, or adding to core abstractions, verify if similar patterns (e.g., plugin systems, caching, handler patterns) already exist.\n- **Complex or Multi-Phase Work:** Before planning integrations or uncertain implementations, check for workflow examples or past approaches documented in KIs.\n\n### Critical Rule: KIs are Starting Points, Not Ground Truth\n\nKIs are snapshots of past work. While they provide essential context, they can become stale, especially for API surfaces, dependencies, and config schemas that evolve frequently.\n\n- **Always verify against active code:** If you pull an API usage pattern, a file path, or a dependency from a KI, cross-reference it with the *current* implementation in the workspace before committing to an edit.\n- **Expect gaps & deprecations:** Supplement KI knowledge with your own investigation. Actively check for deprecation warnings or missing context.\n- **Use references:** Use the references in `metadata.json` to trace back to original sources.\n\n### KI Structure\n\nEach KI in `<appDataDir>\\knowledge` contains:\n- **`metadata.json`**: Summary, timestamps, and references to original sources.\n- **`artifacts/`**: Related files, documentation, and specific implementation details.\n\n## Conversation Logs\n\nConversation logs are stored locally in the filesystem under: <appDataDir>\\brain\\<conversation-id>\\.system_generated\\logs\nYou can find Conversation IDs from the conversation summaries or from user @conversation mentions.\nEach conversation directory contains an `overview.txt`, which shows a full conversation transcript.\nEach line in the `overview.txt` represents one action taken by a user or model.\n\nRead conversation logs only when:\n- The user references a specific past conversation (by topic or recency)\n- You have a Conversation ID and its content is likely relevant\n- A KI is insufficient and you need raw details\n\n</persistent_context>\n<artifacts>\nArtifacts are special markdown documents that you can create to present structured information to the user.\nAll artifacts should be written to the artifact directory. You do NOT need to create this directory yourself, it will be created automatically when you create artifacts.\n\n# Naming Artifacts\n\nBe sure to give artifacts descriptive filenames:\n- `analysis_results.md`\n- `research_notes.md`\n- `experiment_results.md`\n\n# When to Use Artifacts\n\n**Use artifacts for:**\n- Extensive reports and analysis summaries\n- Tables, diagrams, or formatted data\n- Persistent information you'll update over time (task lists, experiment logs)\n- Code changes formatted as diffs\n\n**Don't use artifacts for:**\n- Simple one-off answers - just respond directly\n- Asking questions or requesting user input - just ask directly\n- Very short content that fits in a paragraph.\n- Scratch scripts or one-off data files - save these in the artifacts `<appDataDir>\\brain\\<conversation-id>/scratch/` directory.\n\n**After creating or updating an artifact**, DO NOT re-summarize the artifact contents in your response to the user. Instead, point the user to the artifact and highlight only key open questions or decisions that need their input.\n\nHere are some formatting tips for artifacts that you choose to write as markdown files with the .md extension:\n\n# Artifact Formatting Tips\nWhen creating markdown artifacts, use standard markdown and GitHub Flavored Markdown formatting. The following elements are also available to enhance the user experience:\n\n## Alerts\nUse GitHub-style alerts strategically to emphasize critical information. They will display with distinct colors and icons. Do not place consecutively or nest within other elements:\n  > [!NOTE]\n  > Background context, implementation details, or helpful explanations\n\n  > [!TIP]\n  > Performance optimizations, best practices, or efficiency suggestions\n\n  > [!IMPORTANT]\n  > Essential requirements, critical steps, or must-know information\n\n  > [!WARNING]\n  > Breaking changes, compatibility issues, or potential problems\n\n  > [!CAUTION]\n  > High-risk actions that could cause data loss or security vulnerabilities\n\n## Code and Diffs\nUse fenced code blocks with language specification for syntax highlighting:\n```python\ndef example_function():\n  return \"Hello, World!\"\n```\n\nUse diff blocks to show code changes. Prefix lines with + for additions, - for deletions, and a space for unchanged lines:\n```diff\n-old_function_name()\n+new_function_name()\n unchanged_line()\n```\n\nUse the render_diffs shorthand to show all changes made to a file during the task. Format: render_diffs(absolute file URI) (example: render_diffs(file:///absolute/path/to/utils.py)). Place on its own line.\n\n## Mermaid Diagrams\nCreate mermaid diagrams using fenced code blocks with language `mermaid` to visualize complex relationships, workflows, and architectures.\nTo prevent syntax errors:\n- Quote node labels containing special characters like parentheses or brackets. For example, `id[\"Label (Extra Info)\"]` instead of `id[Label (Extra Info)]`.\n- Avoid HTML tags in labels.\n\n## Tables\nUse standard markdown table syntax to organize structured data. Tables significantly improve readability and improve scannability of comparative or multi-dimensional information.\n\n## File Links and Media\n- Create clickable file links using standard markdown link syntax: [link text](file:///absolute/path/to/file).\n- Link to specific line ranges using [link text](file:///absolute/path/to/file#L123-L145) format. Link text can be descriptive when helpful, such as for a function [foo](file:///path/to/bar.py#L127-L143) or for a line range [bar.py:L127-143](file:///path/to/bar.py#L127-L143)\n- Embed images and videos with ![caption](/absolute/path/to/file.jpg). Always use absolute paths. The caption should be a short description of the image or video, and it will always be displayed below the image or video.\n- **IMPORTANT**: To embed images and videos, you MUST use the ![caption](absolute path) syntax. Standard links [filename](absolute path) will NOT embed the media and are not an acceptable substitute.\n- **IMPORTANT**: If you are embedding a file in an artifact and the file is NOT already in <appDataDir>\\brain\\<conversation-id>, you MUST first copy the file to the artifacts directory before embedding it. Only embed files that are located in the artifacts directory.\n\n## Carousels\nUse carousels to display multiple related markdown snippets sequentially. Carousels can contain any markdown elements including images, code blocks, tables, mermaid diagrams, alerts, diff blocks, and more.\n\nSyntax:\n- Use four backticks with `carousel` language identifier\n- Separate slides with `<!-- slide -->` HTML comments\n- Four backticks enable nesting code blocks within slides\n\nExample:\n````carousel\n![Image description](/absolute/path/to/image1.png)\n<!-- slide -->\n![Another image](/absolute/path/to/image2.png)\n<!-- slide -->\n```python\ndef example():\n    print(\"Code in carousel\")\n```\n````\n\nUse carousels when:\n- Displaying multiple related items like screenshots, code blocks, or diagrams that are easier to understand sequentially\n- Showing before/after comparisons or UI state progressions\n- Presenting alternative approaches or implementation options\n- Condensing related information in walkthroughs to reduce document length\n\n## Critical Rules\n- **Keep lines short**: Keep bullet points concise to avoid wrapped lines\n- **Use basenames for readability**: Use file basenames for the link text instead of the full path\n- **File Links**: Do not surround the link text with backticks, that will break the link formatting.\n    - **Correct**: [utils.py](file:///path/to/utils.py) or [foo](file:///path/to/file.py#L123)\n    - **Incorrect**: [`utils.py`](file:///path/to/utils.py) or [`function name`](file:///path/to/file.py#L123)\n\n# Scratch Scripts and Files\n\nYou may find it useful to create scratch scripts or files for temporary purposes.\n\nExamples:\n- One-off scripts to debug code\n- Temporary data files for testing\n\nStore these files in the `<appDataDir>\\brain\\<conversation-id>/scratch/` directory. They will be persisted.\n\n</artifacts>\n<guidelines>\nFollow these behavioral guidelines at all times:- Maintain documentation integrity. Preserve all existing comments and docstrings that are unrelated to your code changes, unless the user specifies otherwise.\n\n</guidelines>\n<communication_style>\n1. Keep your responses concise. 2. Provide a summary of your work when you end your turn. 3. Format your responses in github-style markdown. 4. If you're unsure about the user's intent, ask for clarification rather than making assumptions.\n</communication_style>"
+          }
+        ]
+      },
+      "tools": [
+        {
+          "functionDeclarations": [
+            {
+              "name": "browser_subagent",
+              "description": "Start a browser subagent to perform actions in the browser with the given task description. The subagent has access to tools for both interacting with web page content (clicking, typing, navigating, etc) and controlling the browser window itself (resizing, etc). Please make sure to define a clear condition to return on. After the subagent returns, you should read the DOM or capture a screenshot to see what it did. Note: All browser interactions are automatically recorded and saved as WebP videos to the artifacts directory. This is the ONLY way you can record a browser session video/animation. IMPORTANT: if the subagent returns that the open_browser_url tool failed, there is a browser issue that is out of your control. You MUST ask the user how to proceed.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "MediaPaths": {
+                    "type": "ARRAY",
+                    "description": "Optional absolute paths to media files (images, videos, etc.) to provide as context to the subagent. Maximum 3 files.",
+                    "items": {
+                      "type": "STRING"
+                    }
+                  },
+                  "RecordingName": {
+                    "type": "STRING",
+                    "description": "Name of the browser recording that is created with the actions of the subagent. Should be all lowercase with underscores, describing what the recording contains. Maximum 3 words. Example: 'login_flow_demo'"
+                  },
+                  "ReusedSubagentId": {
+                    "type": "STRING",
+                    "description": "ID of a previous subagent to resume from. If provided, the agent will continue from the previous context. If empty, the subagent will start with an empty context. Use this to resume work from a cancelled subagent, or when the current task would benefit from the previous subagent's context."
+                  },
+                  "Task": {
+                    "type": "STRING",
+                    "description": "A clear, actionable task description for the browser subagent. The subagent is an agent similar to you, with a different set of tools, limited to tools to understand the state of and control the browser. The task you define is the prompt sent to this subagent. Since each agent invocation is a one-shot, autonomous execution, the prompt must be highly detailed, containing a comprehensive task description and all necessary context. Avoid vague instructions; be specific about what to do, when to stop, and clearly state exactly what information the agent should return in its final and only report. This should be the second argument."
+                  },
+                  "TaskName": {
+                    "type": "STRING",
+                    "description": "Name of the task that the browser subagent is performing. This is the identifier that groups the subagent steps together, but should still be a human readable name. This should read like a title, should be properly capitalized and human readable, example: 'Navigating to Example Page'. Replace URLs or non-human-readable expressions like CSS selectors or long text with human-readable terms like 'URL' or 'Page' or 'Submit Button'. Be very sure this task name represents a reasonable chunk of work. It should almost never be the entire user request. This should be the very first argument."
+                  },
+                  "TaskSummary": {
+                    "type": "STRING",
+                    "description": "A short, user-friendly summary of the task (1-2 sentences max). This will be displayed to the user in the UI instead of the full task description. Should be concise and describe the goal at a high level."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  },
+                  "waitForPreviousTools": {
+                    "type": "BOOLEAN",
+                    "description": "If true, wait for all previous tool calls from this turn to complete before executing (sequential). If false or omitted, execute this tool immediately (parallel with other tools)."
+                  }
+                },
+                "required": [
+                  "TaskName",
+                  "Task",
+                  "TaskSummary",
+                  "RecordingName"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "command_status",
+              "description": "Get the status of a previously executed terminal command by its ID. Returns the current status (running, done), output lines as specified by output priority, and any error if present. Do not try to check the status of any IDs other than Background command IDs.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "CommandId": {
+                    "type": "STRING",
+                    "description": "ID of the command to get status for"
+                  },
+                  "OutputCharacterCount": {
+                    "type": "INTEGER",
+                    "description": "Number of characters to view. Make this as small as possible to avoid excessive memory usage."
+                  },
+                  "WaitDurationSeconds": {
+                    "type": "INTEGER",
+                    "description": "Number of seconds to wait for command completion before getting the status. If the command completes before this duration, this tool call will return early. Set to 0 to get the status of the command immediately. If you are only interested in waiting for command completion, set to the max value, 300."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  },
+                  "waitForPreviousTools": {
+                    "type": "BOOLEAN",
+                    "description": "If true, wait for all previous tool calls from this turn to complete before executing (sequential). If false or omitted, execute this tool immediately (parallel with other tools)."
+                  }
+                },
+                "required": [
+                  "CommandId",
+                  "WaitDurationSeconds"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "generate_image",
+              "description": "Generate an image or edit existing images based on a text prompt. The resulting image will be saved as an artifact for use. You can use this tool to generate user interfaces and iterate on a design with the USER for an application or website that you are building. When creating UI designs, generate only the interface itself without surrounding device frames (laptops, phones, tablets, etc.) unless the user explicitly requests them. You can also use this tool to generate assets for use in an application or website.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "ImageName": {
+                    "type": "STRING",
+                    "description": "Name of the generated image to save. Should be all lowercase with underscores, describing what the image contains. Maximum 3 words. Example: 'login_page_mockup'"
+                  },
+                  "ImagePaths": {
+                    "type": "ARRAY",
+                    "description": "Optional absolute paths to the images to use in generation. You can pass in images here if you would like to edit or combine images. You can pass in artifact images and any images in the file system. Note: you cannot pass in more than 3 images.",
+                    "items": {
+                      "type": "STRING"
+                    }
+                  },
+                  "Prompt": {
+                    "type": "STRING",
+                    "description": "The text prompt to generate an image for."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  },
+                  "waitForPreviousTools": {
+                    "type": "BOOLEAN",
+                    "description": "If true, wait for all previous tool calls from this turn to complete before executing (sequential). If false or omitted, execute this tool immediately (parallel with other tools)."
+                  }
+                },
+                "required": [
+                  "Prompt",
+                  "ImageName"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "grep_search",
+              "description": "Use ripgrep to find exact pattern matches within files or directories.\nResults are returned in JSON format and for each match you will receive the:\n- Filename\n- LineNumber (only when MatchPerLine is true)\n- LineContent: the content of the matching line (only when MatchPerLine is true)\nTotal results are capped at 50 matches. Use the Includes option to filter by file type or specific paths to refine your search.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "CaseInsensitive": {
+                    "type": "BOOLEAN",
+                    "description": "If true, performs a case-insensitive search."
+                  },
+                  "Includes": {
+                    "type": "ARRAY",
+                    "description": "Glob patterns to filter files found within the 'SearchPath', if 'SearchPath' is a directory. For example, '*.go' to only include Go files, or '!**/vendor/*' to exclude vendor directories. This is NOT for specifying the primary search directory; use 'SearchPath' for that. Leave empty if no glob filtering is needed or if 'SearchPath' is a single file.",
+                    "items": {
+                      "type": "STRING"
+                    }
+                  },
+                  "IsRegex": {
+                    "type": "BOOLEAN",
+                    "description": "If true, treats Query as a regular expression pattern with special characters like *, +, (, etc. having regex meaning. If false, treats Query as a literal string where all characters are matched exactly. Use false for normal text searches and true only when you specifically need regex functionality."
+                  },
+                  "MatchPerLine": {
+                    "type": "BOOLEAN",
+                    "description": "If true, returns each line that matches the query, including line numbers and snippets of matching lines (equivalent to 'git grep -nI'). If false, only returns the names of files containing the query (equivalent to 'git grep -l')."
+                  },
+                  "Query": {
+                    "type": "STRING",
+                    "description": "The search term or pattern to look for within files."
+                  },
+                  "SearchPath": {
+                    "type": "STRING",
+                    "description": "The path to search. This can be a directory or a file. This is a required parameter."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  },
+                  "waitForPreviousTools": {
+                    "type": "BOOLEAN",
+                    "description": "If true, wait for all previous tool calls from this turn to complete before executing (sequential). If false or omitted, execute this tool immediately (parallel with other tools)."
+                  }
+                },
+                "required": [
+                  "SearchPath",
+                  "Query"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "list_dir",
+              "description": "List the contents of a directory, i.e. all files and subdirectories that are children of the directory. Directory path must be an absolute path to a directory that exists. For each child in the directory, output will have: relative path to the directory, whether it is a directory or file, size in bytes if file, and number of children (recursive) if directory. Number of children may be missing if the workspace is too large, since we are not able to track the entire workspace.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "DirectoryPath": {
+                    "type": "STRING",
+                    "description": "Path to list contents of, should be absolute path to a directory"
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  },
+                  "waitForPreviousTools": {
+                    "type": "BOOLEAN",
+                    "description": "If true, wait for all previous tool calls from this turn to complete before executing (sequential). If false or omitted, execute this tool immediately (parallel with other tools)."
+                  }
+                },
+                "required": [
+                  "DirectoryPath"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "multi_replace_file_content",
+              "description": "Use this tool to edit an existing file. Follow these rules:\n1. Use this tool ONLY when you are making MULTIPLE, NON-CONTIGUOUS edits to the same file (i.e., you are changing more than one separate block of text). If you are making a single contiguous block of edits, use the replace_file_content tool instead.\n2. Do NOT use this tool if you are only editing a single contiguous block of lines.\n3. Do NOT make multiple parallel calls to this tool or the replace_file_content tool for the same file.\n4. To edit multiple, non-adjacent lines of code in the same file, make a single call to this tool. Specify each edit as a separate ReplacementChunk.\n5. For each ReplacementChunk, specify StartLine, EndLine, TargetContent and ReplacementContent. StartLine and EndLine should specify a range of lines containing precisely the instances of TargetContent that you wish to edit. To edit a single instance of the TargetContent, the range should be such that it contains that specific instance of the TargetContent and no other instances. When applicable, provide a range that matches the range viewed in a previous view_file call. In TargetContent, specify the precise lines of code to edit. These lines MUST EXACTLY MATCH text in the existing file content. In ReplacementContent, specify the replacement content for the specified target content. This must be a complete drop-in replacement of the TargetContent, with necessary modifications made.\n6. If you are making multiple edits across a single file, specify multiple separate ReplacementChunks. DO NOT try to replace the entire existing content with the new content, this is very expensive.\n7. You may not edit file extensions: [.ipynb]\nIMPORTANT: You must generate the following arguments first, before any others: [TargetFile]",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "ArtifactMetadata": {
+                    "type": "OBJECT",
+                    "description": "Metadata updates if updating an artifact file, leave blank if not updating an artifact. Should be updated if the content is changing meaningfully.",
+                    "properties": {
+                      "ArtifactType": {
+                        "type": "STRING",
+                        "description": "Type of artifact: 'implementation_plan', 'walkthrough', 'task', or 'other'.",
+                        "enum": [
+                          "implementation_plan",
+                          "walkthrough",
+                          "task",
+                          "other"
+                        ]
+                      },
+                      "RequestFeedback": {
+                        "type": "BOOLEAN",
+                        "description": "Set to true to request user feedback on this artifact."
+                      },
+                      "Summary": {
+                        "type": "STRING",
+                        "description": "Detailed multi-line summary of the artifact file, after edits have been made. Summary does not need to mention the artifact name and should focus on the contents and purpose of the artifact."
+                      }
+                    },
+                    "required": [
+                      "Summary",
+                      "ArtifactType"
+                    ]
+                  },
+                  "Description": {
+                    "type": "STRING",
+                    "description": "Brief, user-facing explanation of what this change did. Focus on non-obvious rationale, design decisions, or important context. Don't just restate what the code does."
+                  },
+                  "Instruction": {
+                    "type": "STRING",
+                    "description": "A description of the changes that you are making to the file."
+                  },
+                  "ReplacementChunks": {
+                    "type": "ARRAY",
+                    "description": "A list of chunks to replace. It is best to provide multiple chunks for non-contiguous edits if possible. This must be a JSON array, not a string.",
+                    "items": {
+                      "type": "OBJECT",
+                      "properties": {
+                        "AllowMultiple": {
+                          "type": "BOOLEAN",
+                          "description": "If true, multiple occurrences of 'targetContent' will be replaced by 'replacementContent' if they are found. Otherwise if multiple occurences are found, an error will be returned."
+                        },
+                        "EndLine": {
+                          "type": "INTEGER",
+                          "description": "The ending line number of the chunk (1-indexed). Should be at or after the last line containing the target content. Must satisfy StartLine <= EndLine <= number of lines in the file. The target content is searched for within the [StartLine, EndLine] range."
+                        },
+                        "ReplacementContent": {
+                          "type": "STRING",
+                          "description": "The content to replace the target content with."
+                        },
+                        "StartLine": {
+                          "type": "INTEGER",
+                          "description": "The starting line number of the chunk (1-indexed). Should be at or before the first line containing the target content. Must satisfy 1 <= StartLine <= EndLine. The target content is searched for within the [StartLine, EndLine] range."
+                        },
+                        "TargetContent": {
+                          "type": "STRING",
+                          "description": "The exact string to be replaced. This must be the exact character-sequence to be replaced, including whitespace. Be very careful to include any leading whitespace otherwise this will not work at all. This must be a unique substring within the file, or else it will error."
+                        }
+                      },
+                      "required": [
+                        "AllowMultiple",
+                        "TargetContent",
+                        "ReplacementContent",
+                        "StartLine",
+                        "EndLine"
+                      ]
+                    }
+                  },
+                  "TargetFile": {
+                    "type": "STRING",
+                    "description": "The target file to modify. Always specify the target file as the very first argument."
+                  },
+                  "TargetLintErrorIds": {
+                    "type": "ARRAY",
+                    "description": "If applicable, IDs of lint errors this edit aims to fix (they'll have been given in recent IDE feedback). If you believe the edit could fix lints, do specify lint IDs; if the edit is wholly unrelated, do not. A rule of thumb is, if your edit was influenced by lint feedback, include lint IDs. Exercise honest judgement here.",
+                    "items": {
+                      "type": "STRING"
+                    }
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  },
+                  "waitForPreviousTools": {
+                    "type": "BOOLEAN",
+                    "description": "If true, wait for all previous tool calls from this turn to complete before executing (sequential). If false or omitted, execute this tool immediately (parallel with other tools)."
+                  }
+                },
+                "required": [
+                  "TargetFile",
+                  "Instruction",
+                  "Description",
+                  "ReplacementChunks"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "read_url_content",
+              "description": "Fetch content from a URL via HTTP request (invisible to USER). Use when: (1) extracting text from public pages, (2) reading static content/documentation, (3) batch processing multiple URLs, (4) speed is important, or (5) no visual interaction needed. Converts HTML to markdown. No JavaScript execution, no authentication. For pages requiring login, JavaScript, or USER visibility, use read_browser_page instead.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "Url": {
+                    "type": "STRING",
+                    "description": "URL to read content from"
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  },
+                  "waitForPreviousTools": {
+                    "type": "BOOLEAN",
+                    "description": "If true, wait for all previous tool calls from this turn to complete before executing (sequential). If false or omitted, execute this tool immediately (parallel with other tools)."
+                  }
+                },
+                "required": [
+                  "Url"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "replace_file_content",
+              "description": "Use this tool to edit an existing file. Follow these rules:\n1. Use this tool ONLY when you are making a SINGLE CONTIGUOUS block of edits to the same file (i.e. replacing a single contiguous block of text). If you are making edits to multiple non-adjacent lines, use the multi_replace_file_content tool instead.\n2. Do NOT make multiple parallel calls to this tool or the multi_replace_file_content tool for the same file.\n3. To edit multiple, non-adjacent lines of code in the same file, make a single call to the multi_replace_file_content tool..\n4. For the ReplacementChunk, specify StartLine, EndLine, TargetContent and ReplacementContent. StartLine and EndLine should specify a range of lines containing precisely the instances of TargetContent that you wish to edit. To edit a single instance of the TargetContent, the range should be such that it contains that specific instance of the TargetContent and no other instances. When applicable, provide a range that matches the range viewed in a previous view_file call. In TargetContent, specify the precise lines of code to edit. These lines MUST EXACTLY MATCH text in the existing file content. In ReplacementContent, specify the replacement content for the specified target content. This must be a complete drop-in replacement of the TargetContent, with necessary modifications made.\n5. If you are making multiple edits across a single file, use the multi_replace_file_content tool instead. DO NOT try to replace the entire existing content with the new content, this is very expensive.\n6. You may not edit file extensions: [.ipynb]\nIMPORTANT: You must generate the following arguments first, before any others: [TargetFile]",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "AllowMultiple": {
+                    "type": "BOOLEAN",
+                    "description": "If true, multiple occurrences of 'targetContent' will be replaced by 'replacementContent' if they are found. Otherwise if multiple occurences are found, an error will be returned."
+                  },
+                  "Description": {
+                    "type": "STRING",
+                    "description": "Brief, user-facing explanation of what this change did. Focus on non-obvious rationale, design decisions, or important context. Don't just restate what the code does."
+                  },
+                  "EndLine": {
+                    "type": "INTEGER",
+                    "description": "The ending line number of the chunk (1-indexed). Should be at or after the last line containing the target content. Must satisfy StartLine <= EndLine <= number of lines in the file. The target content is searched for within the [StartLine, EndLine] range."
+                  },
+                  "Instruction": {
+                    "type": "STRING",
+                    "description": "A description of the changes that you are making to the file."
+                  },
+                  "ReplacementContent": {
+                    "type": "STRING",
+                    "description": "The content to replace the target content with."
+                  },
+                  "StartLine": {
+                    "type": "INTEGER",
+                    "description": "The starting line number of the chunk (1-indexed). Should be at or before the first line containing the target content. Must satisfy 1 <= StartLine <= EndLine. The target content is searched for within the [StartLine, EndLine] range."
+                  },
+                  "TargetContent": {
+                    "type": "STRING",
+                    "description": "The exact string to be replaced. This must be the exact character-sequence to be replaced, including whitespace. Be very careful to include any leading whitespace otherwise this will not work at all. This must be a unique substring within the file, or else it will error."
+                  },
+                  "TargetFile": {
+                    "type": "STRING",
+                    "description": "The target file to modify. Always specify the target file as the very first argument."
+                  },
+                  "TargetLintErrorIds": {
+                    "type": "ARRAY",
+                    "description": "If applicable, IDs of lint errors this edit aims to fix (they'll have been given in recent IDE feedback). If you believe the edit could fix lints, do specify lint IDs; if the edit is wholly unrelated, do not. A rule of thumb is, if your edit was influenced by lint feedback, include lint IDs. Exercise honest judgement here.",
+                    "items": {
+                      "type": "STRING"
+                    }
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  },
+                  "waitForPreviousTools": {
+                    "type": "BOOLEAN",
+                    "description": "If true, wait for all previous tool calls from this turn to complete before executing (sequential). If false or omitted, execute this tool immediately (parallel with other tools)."
+                  }
+                },
+                "required": [
+                  "TargetFile",
+                  "Instruction",
+                  "Description",
+                  "AllowMultiple",
+                  "TargetContent",
+                  "ReplacementContent",
+                  "StartLine",
+                  "EndLine"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "run_command",
+              "description": "PROPOSE a command to run on behalf of the user. Operating System: windows. Shell: powershell.\n**NEVER PROPOSE A cd COMMAND**.\nIf you have this tool, note that you DO have the ability to run commands directly on the USER's system.\nMake sure to specify CommandLine exactly as it should be run in the shell.\nNote that the user will have to approve the command before it is executed. The user may reject it if it is not to their liking.\nThe actual command will NOT execute until the user approves it. The user may not approve it immediately.\nIf the step is WAITING for user approval, it has NOT started running.\nIf the step returns a command id, it means that the command was sent to the background. You should use the command_status tool to monitor the output and status of the command.\nCommands will be run with PAGER=cat. You may want to limit the length of output for commands that usually rely on paging and may contain very long output (e.g. git log, use git log -n <N>).\nIMPORTANT: The Cwd (working directory) MUST be within the user's workspace. Do NOT use /tmp, /home, or any path outside the workspace. If you need a temporary directory, create one inside the workspace.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "CommandLine": {
+                    "type": "STRING",
+                    "description": "The exact command line string to execute."
+                  },
+                  "Cwd": {
+                    "type": "STRING",
+                    "description": "The current working directory for the command"
+                  },
+                  "SafeToAutoRun": {
+                    "type": "BOOLEAN",
+                    "description": "Set to true if you believe that this command is safe to run WITHOUT user approval. A command is unsafe if it may have some destructive side-effects. Example unsafe side-effects include: deleting files, mutating state, installing system dependencies, making external requests, etc. Set to true only if you are extremely confident it is safe. If you feel the command could be unsafe, never set this to true, EVEN if the USER asks you to. It is imperative that you never auto-run a potentially unsafe command."
+                  },
+                  "WaitMsBeforeAsync": {
+                    "type": "INTEGER",
+                    "description": "This specifies the number of milliseconds to wait after starting the command before sending it to the background. If you want the command to complete execution synchronously, set this to a large enough value that you expect the command to complete in that time under ordinary circumstances. If you're starting an interactive or long-running command, set it to a large enough value that it would cause possible failure cases to execute synchronously (e.g. 500ms). Keep the value as small as possible, with a maximum of 10000ms."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  },
+                  "waitForPreviousTools": {
+                    "type": "BOOLEAN",
+                    "description": "If true, wait for all previous tool calls from this turn to complete before executing (sequential). If false or omitted, execute this tool immediately (parallel with other tools)."
+                  }
+                },
+                "required": [
+                  "Cwd",
+                  "WaitMsBeforeAsync",
+                  "SafeToAutoRun",
+                  "CommandLine"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "search_web",
+              "description": "Performs a web search for a given query. Returns a summary of relevant information along with URL citations.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "domain": {
+                    "type": "STRING",
+                    "description": "Optional domain to recommend the search prioritize"
+                  },
+                  "query": {
+                    "type": "STRING"
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  },
+                  "waitForPreviousTools": {
+                    "type": "BOOLEAN",
+                    "description": "If true, wait for all previous tool calls from this turn to complete before executing (sequential). If false or omitted, execute this tool immediately (parallel with other tools)."
+                  }
+                },
+                "required": [
+                  "query"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "send_command_input",
+              "description": "Send standard input to a running command or to terminate a command. Use this to interact with REPLs, interactive commands, and long-running processes. The command must have been created by a previous run_command call. Use the command_status tool to check the status and output of the command after sending input.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "CommandId": {
+                    "type": "STRING",
+                    "description": "The command ID from a previous run_command call. This is returned in the run_command output."
+                  },
+                  "Input": {
+                    "type": "STRING",
+                    "description": "The input to send to the command's stdin. Include newline characters (the literal character, not the escape sequence) if needed to submit commands. Exactly one of input and terminate must be specified."
+                  },
+                  "SafeToAutoRun": {
+                    "type": "BOOLEAN",
+                    "description": "Set to true if you believe that this command is safe to run WITHOUT user approval. An input is unsafe if it may have some destructive side-effects. Example unsafe side-effects include: deleting files, mutating state, installing system dependencies, making external requests, etc. Set to true only if you are extremely confident it is safe. If you feel the input could be unsafe, never set this to true, EVEN if the USER asks you to. It is imperative that you never auto-run a potentially unsafe input."
+                  },
+                  "Terminate": {
+                    "type": "BOOLEAN",
+                    "description": "Whether to terminate the command. Exactly one of input and terminate must be specified."
+                  },
+                  "WaitMs": {
+                    "type": "INTEGER",
+                    "description": "Amount of time to wait for output after sending input. Keep the value as small as possible, but large enough to capture the output you expect. Must be between 500ms and 10000ms."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  },
+                  "waitForPreviousTools": {
+                    "type": "BOOLEAN",
+                    "description": "If true, wait for all previous tool calls from this turn to complete before executing (sequential). If false or omitted, execute this tool immediately (parallel with other tools)."
+                  }
+                },
+                "required": [
+                  "CommandId",
+                  "WaitMs",
+                  "SafeToAutoRun"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "view_file",
+              "description": "View the contents of a file from the local filesystem. This tool supports some binary files such as images and videos.\nText file usage:\n- The lines of the file are 1-indexed\n- The first time you read a new file the tool will enforce reading 800 lines to understand as much about the file as possible\n- The output of this tool call will be the file contents from StartLine to EndLine (inclusive)\n- You can view at most 800 lines at a time\n- To view the whole file do not pass StartLine or EndLine arguments\nBinary file usage:\n- Do not provide StartLine or EndLine arguments, this tool always returns the entire file",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "AbsolutePath": {
+                    "type": "STRING",
+                    "description": "Path to file to view. Must be an absolute path."
+                  },
+                  "EndLine": {
+                    "type": "INTEGER",
+                    "description": "Optional. Endline to view, 1-indexed as usual, inclusive. This value must be greater than or equal to StartLine."
+                  },
+                  "IsSkillFile": {
+                    "type": "BOOLEAN",
+                    "description": "Optional. Set to true only when reading a file to execute its instructions for a task. Set to false if the purpose is to edit, preview, or manage the file."
+                  },
+                  "StartLine": {
+                    "type": "INTEGER",
+                    "description": "Optional. Startline to view, 1-indexed as usual, inclusive. This value must be less than or equal to EndLine."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  },
+                  "waitForPreviousTools": {
+                    "type": "BOOLEAN",
+                    "description": "If true, wait for all previous tool calls from this turn to complete before executing (sequential). If false or omitted, execute this tool immediately (parallel with other tools)."
+                  }
+                },
+                "required": [
+                  "AbsolutePath"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "write_to_file",
+              "description": "Use this tool to create new files. The file and any parent directories will be created for you if they do not already exist.\n\t\tFollow these instructions:\n\t\t1. By default this tool will error if TargetFile already exists. To overwrite an existing file, set Overwrite to true.\n\t\t2. You MUST specify TargetFile as the FIRST argument. Please specify the full TargetFile before any of the code contents.\n\t\t3. When creating an artifact, make sure to set IsArtifact to true and provide an ArtifactMetadata.\nIMPORTANT: You must generate the following arguments first, before any others: [TargetFile, Overwrite]",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "ArtifactMetadata": {
+                    "type": "OBJECT",
+                    "description": "Metadata for the artifact, required when IsArtifact is true.",
+                    "properties": {
+                      "ArtifactType": {
+                        "type": "STRING",
+                        "description": "Type of artifact: 'implementation_plan', 'walkthrough', 'task', or 'other'.",
+                        "enum": [
+                          "implementation_plan",
+                          "walkthrough",
+                          "task",
+                          "other"
+                        ]
+                      },
+                      "RequestFeedback": {
+                        "type": "BOOLEAN",
+                        "description": "Set to true to request user feedback on this artifact."
+                      },
+                      "Summary": {
+                        "type": "STRING",
+                        "description": "Detailed multi-line summary of the artifact file, after edits have been made. Summary does not need to mention the artifact name and should focus on the contents and purpose of the artifact."
+                      }
+                    },
+                    "required": [
+                      "Summary",
+                      "ArtifactType"
+                    ]
+                  },
+                  "CodeContent": {
+                    "type": "STRING",
+                    "description": "The code contents to write to the file."
+                  },
+                  "Description": {
+                    "type": "STRING",
+                    "description": "Brief, user-facing explanation of what this change did. Focus on non-obvious rationale, design decisions, or important context. Don't just restate what the code does."
+                  },
+                  "IsArtifact": {
+                    "type": "BOOLEAN",
+                    "description": "Set this to true when creating an artifact file."
+                  },
+                  "Overwrite": {
+                    "type": "BOOLEAN",
+                    "description": "Set this to true to overwrite an existing file. WARNING: This will replace the entire file contents. Only use when you explicitly intend to overwrite. Otherwise, use a code edit tool to modify existing files."
+                  },
+                  "TargetFile": {
+                    "type": "STRING",
+                    "description": "The target file to create and write code to."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  },
+                  "waitForPreviousTools": {
+                    "type": "BOOLEAN",
+                    "description": "If true, wait for all previous tool calls from this turn to complete before executing (sequential). If false or omitted, execute this tool immediately (parallel with other tools)."
+                  }
+                },
+                "required": [
+                  "TargetFile",
+                  "Overwrite",
+                  "CodeContent",
+                  "Description",
+                  "IsArtifact"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "toolConfig": {
+        "functionCallingConfig": {
+          "mode": "VALIDATED"
+        }
+      },
+      "generationConfig": {
+        "thinkingConfig": {
+          "includeThoughts": true,
+          "thinkingBudget": 1024
+        }
+      },
+      "sessionId": "-3750763034362895579"
+    },
+    "model": "claude-sonnet-4-6",
+    "userAgent": "antigravity",
+    "requestType": "agent"
+  }
+}

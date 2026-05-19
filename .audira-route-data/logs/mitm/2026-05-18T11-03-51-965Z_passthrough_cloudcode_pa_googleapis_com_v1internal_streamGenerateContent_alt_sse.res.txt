@@ -1,0 +1,25 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 11:03:55 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=761",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\": \"import { PrismaClient, Role"}]}}],"usageMetadata": {"promptTokenCount": 11379,"candidatesTokenCount": 8,"totalTokenCount": 11387},"modelVersion": "tab_flash_lite_preview","responseId": "GvIKas62OentjuMPyqHCgQ4"},"traceId": "da1d1f3f482004ad","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ", TargetType, Severity, ScanStatus } from '@prisma/client';\\"}]}}],"usageMetadata": {"promptTokenCount": 11379,"candidatesTokenCount": 24,"totalTokenCount": 11403},"modelVersion": "tab_flash_lite_preview","responseId": "GvIKas62OentjuMPyqHCgQ4"},"traceId": "da1d1f3f482004ad","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "nimport * as dotenv from 'dotenv';\\nimport * as path from 'path';\\n\\n// Load environment variables from root .env file\\ndotenv.config({ path: path.resolve(__dirname, '../../../"}]}}],"usageMetadata": {"promptTokenCount": 11379,"candidatesTokenCount": 72,"totalTokenCount": 11451},"modelVersion": "tab_flash_lite_preview","responseId": "GvIKas62OentjuMPyqHCgQ4"},"traceId": "da1d1f3f482004ad","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ".env') });\"\n\t\t}\n\t]\n}\n\u003c/replace_file_content\u003e"}]}}],"usageMetadata": {"promptTokenCount": 11379,"candidatesTokenCount": 93,"totalTokenCount": 11472},"modelVersion": "tab_flash_lite_preview","responseId": "GvIKas62OentjuMPyqHCgQ4"},"traceId": "da1d1f3f482004ad","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 11379,"candidatesTokenCount": 93,"totalTokenCount": 11472},"modelVersion": "tab_flash_lite_preview","responseId": "GvIKas62OentjuMPyqHCgQ4"},"traceId": "da1d1f3f482004ad","metadata": {}}
+

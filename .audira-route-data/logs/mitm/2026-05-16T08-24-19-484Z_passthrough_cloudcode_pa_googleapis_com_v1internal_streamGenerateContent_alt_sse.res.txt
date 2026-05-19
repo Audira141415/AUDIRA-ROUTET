@@ -1,0 +1,21 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Sat, 16 May 2026 08:24:23 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=3282",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thought": true,"text": "**Identifying API Hosts**\n\nI've pinpointed the \"antigravity\" hosts as `daily-cloudcode-pa.googleapis.com` and `cloudcode-pa.googleapis.com`. These seem to be Google Gemini API hosts, probably linked to Gemini Code Assist or the Cloud Code plugin. Now, I'm analyzing the user's phrase \"model di anti gravity tidak bertambah\" to determine its context within this API environment.\n\n\n"}]}}],"usageMetadata": {"promptTokenCount": 46848,"totalTokenCount": 46848},"modelVersion": "gemini-default","responseId": "tCkIao-CNcvo4-EPrvSfoAk"},"traceId": "7a9211594f9fc7b9","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EogJCoUJAQw51seNEAMr5jnxkcDJxNxU3kMdksq3ZmqfMOKrwimrTqQfKw4hdJfgS4yP2qgUqmxlsvYn2j3pU7r7+uqQsi3K+KAS20A5afj92V40STmUT9J3YtAgJbAkTKPi4mo58c0FKb33sUGr/cSL0YAAyX4RDyiJQZsQkaPcr+WvELCwFBM0wT62xBfqhQpRG9YPizWUZ7jAW5PkC9OapQ0GjU/ywP4DhmmipHbCfuVePmjI0roY9jT8k/QdHwvAtdrZdPVi/aZyjFJ0tkSfW2NNCCQ7qOAA/DAAsA/LmvZ8PZbek7cprk7khYckycxBTkHPKTzIh8rJYYdpqHqN0DQTYA6S2Y8zUQZPESSOVkoVgO/1kxBh4YjoOm7BYdG8v+NYWp0dMi3lotM2In5X+q0GorR4f6UAmBShJeWKNGTK5S9IaUyTmtTpp5Trt/mMeh1+ZyimrPuk+jPDA0CM6zZIB1dQbqqKj40YoacAsvAptVeWiuJjcHAmbz0tPydXM+DNXzwua7EunPibXfawhy4GhiVC3wdeeKGCWl7QOM5y4zAqv9HQvjMvQF8ogBCX/WX8JqUg8hSUjcEHVQkxbX2FiSHU1wmPn45C2rpp8DNw5aokG66pCSLKSrPFpJsqGGB7GnSWSleZeVwjAFxOi1QZlecv72yVYn8uH+3Lzl7iHkLVch5edZC32lwA2UJqz481cHrzWqJIf0jGDWT81XLwFjRfJ8MN0LJSVI0bds5QANyyopC27DJWWVLIoHwGRDSlCZpxSXyNs3dYqfI416Kj/iYClDuR9FdaBIV30QARNYkuHrOADMctWLFmIjzCEvbk6UMpgLjSaUcMQWsOpbBIwJ9icjh6vwHFg4tCceRbqnUMRtNV9bg0dpuszLpybhz40RuVqONRpWNFurVpKi+fzoka0xl4eIRElq+xntrGlfp6R7AnykJzwNCNobFmGPnxe6Uq76dmZq8aAv3KvpV+Q4BYky8wvy8SWZz9Q7CugHUyGPDRBXaAq3hhSo1uIti9WmvNzuMS6IE0djxXDGvlBUrSf0bZgmE2gk2/ezD+vgPESZTIHYjIMbvHPTJbr5F9FoVqrzXpdbdBiUksWq5fStmRW4ZKH0pnVv2aVFM//aKbfRxsv2mzETnVJbt+tit6qItROzt+qwZB9c1NC5Sw8Rzzccy6xf/w8KOB83RYhvAp6Ehp30AO4arj4xcCh68yJwE41jM7MNXJ3H7eju/isz0Rgf1Pjb5XV0DvZeqHPm674bSY1KSA2CIx3tuje5D8HRLBE51v6q4xovHsQGkry/zF9JcaA8qFR2O29jbZ7GrTJ1DSrtD59nk5rjATOIYMJclgWghgwl5mCw13PjANTazDDfB5CXCd5m+H0UNzfShA8L0sNawn0d/5Cz8ET5WstujzCILg7iAYqXc2In5+B4VvyGRt7KXnYp/3ucmhTACtQsnAigCgqdpSSEKBv0z41MQWRGpoqXGkuTvf2W3inila/C7bU051sHog3pMX0jxy7sHCOUwEBqtd73AL+SkdG9zgF6Q=","functionCall": {"name": "view_file","args": {"AbsolutePath": "f:\\AUDIRA-ROUTET\\src\\mitm\\manager.js"},"id": "ivsslhn9"}}]}}],"usageMetadata": {"promptTokenCount": 48348,"candidatesTokenCount": 33,"totalTokenCount": 48614,"cachedContentTokenCount": 44847,"thoughtsTokenCount": 233},"modelVersion": "gemini-default","responseId": "tCkIao-CNcvo4-EPrvSfoAk"},"traceId": "7a9211594f9fc7b9","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 48348,"candidatesTokenCount": 33,"totalTokenCount": 48614,"cachedContentTokenCount": 44847,"thoughtsTokenCount": 233},"modelVersion": "gemini-default","responseId": "tCkIao-CNcvo4-EPrvSfoAk"},"traceId": "7a9211594f9fc7b9","metadata": {}}
+

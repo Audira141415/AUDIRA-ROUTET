@@ -1,0 +1,19 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 05:26:04 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=2320",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EvQBCvEBAQw51sdBCl1cjvlWdPF/hmjGnfmp1sOd29YUSWEAisLkORMETql4LJNFq696Sz6UyoIKe24p1FFakfqIlwyv8BipeZAuB5KO0RlhwmRUT2q3PjA08HDEWiAGcLOjIfyzCsZlBZ2ifR/cpuCuM5D7TNVh/wmnziFrDcXbADbdrUBpeDnOdOuAr1laLJufkqVjP+piNQ43qsSQSlLY+yAoBdh72xeOFjIMNE9zU0ITIvrvc+UnJDpubK8jvHHj9esO8yXc+G/i6Kt6xAZ2zPr2Ne+H+C0cpjDv+upw6OSWPGgzYfe8GuTd6IcMxMCF/cdkBw==","functionCall": {"name": "list_browser_pages","args": {"explanation": "List open pages to get page ID.","toolAction": "Listing pages","toolSummary": "Web search"},"id": "7zv3nokp"}}]}}],"usageMetadata": {"promptTokenCount": 21057,"candidatesTokenCount": 41,"totalTokenCount": 21143,"thoughtsTokenCount": 45},"modelVersion": "gemini-3-flash","responseId": "6qIKaoemMJaFg8UPvZOcwQQ"},"traceId": "50def1db70bfb25e","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 24750,"candidatesTokenCount": 41,"totalTokenCount": 24836,"thoughtsTokenCount": 45},"modelVersion": "gemini-3-flash","responseId": "6qIKaoemMJaFg8UPvZOcwQQ"},"traceId": "50def1db70bfb25e","metadata": {}}
+

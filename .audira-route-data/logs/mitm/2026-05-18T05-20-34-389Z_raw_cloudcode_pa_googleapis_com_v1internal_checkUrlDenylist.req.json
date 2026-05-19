@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "url": "/v1internal:checkUrlDenylist",
+  "host": "cloudcode-pa.googleapis.com",
+  "headers": {
+    "host": "cloudcode-pa.googleapis.com",
+    "user-agent": "antigravity/1.23.2 windows/amd64",
+    "content-length": "39",
+    "authorization": "Bearer ya29.a0AQvPyIMwE5u4k6NzWUUD603o6vKJT6xvbFsaFnQFzVIo6iMDr52T1ki9Ihk3Rk2M_hVhtj_kQYvCxDhd7rdlDsMRCfVo561PZA0CKlPYHYjp8sl_q0hqHrf8uaUI1FTnMeeZniAMioAXtDhsSQqh0-FEHAXBm4Qoupkw4LsVKy36GzNEPyAeuA9xfalCEc_7r6mhcZhWNZvsagaCgYKATISARUSFQHGX2Mi7O7ppZVdQ9GWSIA76gFQiQ0213",
+    "content-type": "application/json",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "url": "chrome-error://chromewebdata/"
+  }
+}

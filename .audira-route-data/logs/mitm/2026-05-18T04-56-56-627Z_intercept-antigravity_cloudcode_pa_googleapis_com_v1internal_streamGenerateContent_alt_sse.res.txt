@@ -1,0 +1,479 @@
+STATUS: 200
+HEADERS: {
+  "access-control-allow-origin": "*",
+  "cache-control": "no-cache",
+  "connection": "keep-alive",
+  "content-type": "text/event-stream",
+  "date": "Mon, 18 May 2026 04:57:01 GMT",
+  "transfer-encoding": "chunked",
+  "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+}
+---BODY---
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"<thinking"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":">\nThe user is asking \""}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"kn"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"pa menggunakan"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" port 3000?\" which means \""}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"why is it using port 3000"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"?\" in"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" Indonesian."}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n\nThe"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" reason"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" is simple"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":":"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n1"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":". Port"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" 3000 is the default port"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" for Next"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":".js development server\n2. The"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" previous"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" server"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" that"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" was running on port 3612 "}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"has stopped"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"/"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"crashed\n3. When"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" I"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" started"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" a"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" fresh"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" dev"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" server, it automatically"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" used"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" the"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" default port 3000 "}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"since"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" no"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" other"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" Next"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":".js server"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" was running on"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" that port\n\nThe"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" user might"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" be concerned"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" about:"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n- Why"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" the"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" port"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" changed"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" from 3612 to 3"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"000\n- Whether they"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" can"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" use"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" a"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" specific"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" port\n- If"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" there's a problem"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" with using"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" port 3000\n\nI should explain"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":":"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n1. Port"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" 3000 is the default Next"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":".js port"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n2. The previous port"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" 3612 was"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" used"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" because"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" another"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" server was already"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" on"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" "}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"3000"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" "}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"at"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" that time\n3. Now"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" that"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" port"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" 3000 is free"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":", it"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"'s using"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" the"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" default"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n4. If"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" they want"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" to use a specific port, they can"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" configure"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" it"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n\nLet me provide a clear explanation."}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n</thinking>\n\n<thinking_mode"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":">enabled</thinking_mode>"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n\n##"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" "}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"🔌"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" Pen"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"jelasan Port"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" 3000:"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n\n###"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" Ken"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"apa"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" Se"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"karang Port"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" 3000?"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n\n**"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"Port 3000 adalah port default"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" Next"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":".js**"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":". Be"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"rikut kron"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"ologi"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"nya:\n\n1. **Se"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"belumnya ("}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"Port"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" 3612)**"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":":\n   - Ada"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" Next"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":".js server"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" l"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"ain yang sud"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"ah j"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"alan di port 3000"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n   - Next"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":".js ot"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"omatis menc"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"ari"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" port kos"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"ong be"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"rikutnya\n   - Me"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"nem"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"ukan port 3612"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" yang"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" kos"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"ong"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n   - Server"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" b"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"erjalan di port 3612"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n\n2. **Sekarang ("}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"Port 3000)**:\n   "}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"- Server"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" se"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"bel"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"umnya sudah berhenti"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n   - Port"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" 3000 se"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"karang kos"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"ong\n   - Next"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":".js meng"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"gunakan port default"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"-"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"nya (3000)"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n   - Server"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" b"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"erjalan di port 3000"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n\n### "}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"💡 Ap"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"akah Ini"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" Masalah?\n\n**"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"Tidak"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" ada"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" masalah!** Port 3"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"000 adalah port stan"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"dar untuk:"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n- Next.js development"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n- React"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" development\n-"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" B"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"any"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"ak framework"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" JavaScript"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" l"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"ainnya"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n\n### 🔧 In"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"gin"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" Menggunakan Port Ter"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"tentu?\n\nJika"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" Anda ingin menggunakan port"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" sp"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"esifik ("}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"misalnya 3612"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" "}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"atau"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" port"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" lain),"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" ada"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" "}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"2 cara"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":":\n\n**"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"Cara 1: Lang"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"sung di"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" command"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"**"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n```bash\nnpm"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" run dev -- -"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"p 3612\n```\n\n**"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"Cara 2: Edit"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" package"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":".json**\n```json\n\""}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"scripts\": {\n  \"dev\":"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" \"next dev -p 3612"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\"\n}\n```\n\n### "}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"✅ Re"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"komendasi:"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n\n**"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"Gun"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"akan port 3000 s"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"aja** -"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" ini adalah stan"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"dar dan"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" tidak ada"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" masalah."}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" Sem"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"ua fi"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"tur dashboard"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" b"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"erf"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"ungsi normal"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" di"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" port ma"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"napun."}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n\nAp"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"akah Anda ingin s"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"aya g"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"anti ke"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" port ter"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"tentu,"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" atau"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" port"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" "}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"3000 sud"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"ah "}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"oke"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"?"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" "}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"🎮"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":""}]},"finishReason":"STOP"}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080221249","usageMetadata":{"promptTokenCount":132772,"candidatesTokenCount":532,"totalTokenCount":133304}}}
+
+data: [DONE]
+
+data: [DONE]
+

@@ -1,0 +1,21 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 11:16:33 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=2171",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "I will begin by reviewing the scratchpad to understand the context and track our progress."}]}}],"usageMetadata": {"promptTokenCount": 13483,"candidatesTokenCount": 17,"totalTokenCount": 13779,"thoughtsTokenCount": 279},"modelVersion": "gemini-3-flash","responseId": "D_UKap_BB7eljuMPh5yX-Q0"},"traceId": "15d20a0115703db5","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EoEJCv4IAQw51see+gfers4c9ClNyXkcmHNIGH0jpm/46v4Ym/3i4i3NiySLcFbc9gcoPQSSaPLwpYSMaXekJ/1pa4wQiN5LSdmyglW8QW3PQore3u/sfUdSP0UWf0PpTx6/Vy7FFffomCk13xwx/4S1y3wnd9WjTn/oO4ZcwDA7VLLXzoF9vmJel5o5L3OdojgR52WQZC9dQKEoNmml7LqK1DJngnLpeZsqIge9C047KvGt3rGE9p02CgQeuEQKG5iLttYsBATNkxD+tC/AOneI/YnCIfRE1D48KISCe/cHG4ZKbgE2O1k02eG1yizWy8nweA4fbHyNOyZrwg8TmDr9WLhlpa+GvbClDPx0WWNZ4Q/AWQ6fzmbp30PxNJi4azdSNStg3rXFb/hZ1LdzuzqiPU6WgmWp41SMuWsiKxrIxAkw/R0josWHwAo2ZQ16/lpBfraK+GSXj5cIyhYqkTqPzuZNVGA2PbUasbTqSfFKQklX/2cyjJaNfNRy0768mLcd5TA5jtcdPKWl0upEIVzSsS0kCfWZql5XCcsyVKZm+KVc1kO7waAP/L+PB0bsbG38BynT0tolQjeKhqnSIII4Ash3MWXcAELFbqj9xGIVSv9mj1aTn+eSauDwf+v9dzolhjfhK7nMOycVv5bLZvdN3uVWdlPs5Bt87Tq3L2UuNn1KhbjWe+D5EU7D9MmjI0GnlqHWj+Ev+ANIhyikB59g//ddXOSX2j1O/W7vV+aPAn8esLr5V2+OVNZBEpkAKdbhSbpo/vaECzcwru1FE5Py/DkyjbXg/VmdRcOWZXqaTrp7zoSn5ioOVs0VL71/MxOXYTltrOrUkB0eT51b7c9IEYY9Rk6oqEpGmfclE5aTOG7CWhphcWEq5jfVaeehjd7b76pHpspi/Z1KTUOecPD284EuX3z5WXdDGHTh38cxuhn2pOnBIhrtexKPPFXcUuNjRvGR5eTs2AxB9BY0wTmI6sR26vVKFNFQasf9TOJeMXQCgLW9yn87PK1KG465aJ2fldefaKtJ9l0LbMBgiBqH23Q/rLZVwYb4M6QmBk/wWrRj/+SndGtPtsZGAgsGKPP+50P/0b2T7SfxJvx++Qf20SenjOfom2rGmKlarJhiPJyE6YLp5kMd+Y5k24FvdaGFz5dZvk+u7lYlYKfmlVUm9GXfo/LWDPlysV1eC/UBjwzqxChpvPbHNKSt4XJ1nxgNpviDrG1ByVcAEyVwSBpfqY+bl93ju5EVXMOhBEdtLqW7omyothPbX8domSBvBMjSQhAq3B1pH4yVlJAyKgHAA4W0G1iL//T0OwrgbqG2fQeuEL2wlG1rJvySNhi/uUqqMNzBLjqPSP+r51R8sBmj8Unnls/dumTGeR+pIFJr7XMsO7xENWXnb405+e2kTD15UQ1QboN1PfZsu8/ESVt78iCR4AneU8oeJu7KM246US/NwoDjGTgEu8k41tqmWYWE6vNAw1xUUiIrCk4qPcWCO6Zwss0TpWzh8nYtuIF36ljYQdqLwCW8ov0lTBd9sGeXHw==","functionCall": {"name": "view_file","args": {"toolSummary": "View scratchpad","AbsolutePath": "C:\\Users\\ASUS\\.gemini\\antigravity\\brain\\67899ccd-1280-49e7-9b0f-febedd645fdc\\browser\\scratchpad_cx89nneg.md","toolAction": "Viewing file","explanation": "Viewing scratchpad to understand context."},"id": "t71j4snb"}}]}}],"usageMetadata": {"promptTokenCount": 13483,"candidatesTokenCount": 119,"totalTokenCount": 13881,"thoughtsTokenCount": 279},"modelVersion": "gemini-3-flash","responseId": "D_UKap_BB7eljuMPh5yX-Q0"},"traceId": "15d20a0115703db5","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 13483,"candidatesTokenCount": 119,"totalTokenCount": 13881,"thoughtsTokenCount": 279},"modelVersion": "gemini-3-flash","responseId": "D_UKap_BB7eljuMPh5yX-Q0"},"traceId": "15d20a0115703db5","metadata": {}}
+

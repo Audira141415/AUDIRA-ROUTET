@@ -1,0 +1,25 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Tue, 19 May 2026 00:09:22 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=668",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\": \"#"}]}}],"usageMetadata": {"promptTokenCount": 4541,"candidatesTokenCount": 2,"totalTokenCount": 4543},"modelVersion": "tab_flash_lite_preview","responseId": "MaoLavqgN4KnjuMPtPbwkAk"},"traceId": "6add06074365e881","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " VulnX Hunter - Session Memory\\n\\n\u003e **Auto-generated memory"}]}}],"usageMetadata": {"promptTokenCount": 4541,"candidatesTokenCount": 18,"totalTokenCount": 4559,"cachedContentTokenCount": 2043},"modelVersion": "tab_flash_lite_preview","responseId": "MaoLavqgN4KnjuMPtPbwkAk"},"traceId": "6add06074365e881","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " file for AI agent context persistence**\\n\u003e Last Updated: 2026-05-19T07:23:00+07:00\\n\\n---\\n\\n##"}]}}],"usageMetadata": {"promptTokenCount": 4541,"candidatesTokenCount": 67,"totalTokenCount": 4608,"cachedContentTokenCount": 2043},"modelVersion": "tab_flash_lite_preview","responseId": "MaoLavqgN4KnjuMPtPbwkAk"},"traceId": "6add06074365e881","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " 📋 Project Overview\"\n\t\t}\n\t]\n}\n\u003c/replace_file_content\u003e"}]}}],"usageMetadata": {"promptTokenCount": 4541,"candidatesTokenCount": 88,"totalTokenCount": 4629,"cachedContentTokenCount": 2043},"modelVersion": "tab_flash_lite_preview","responseId": "MaoLavqgN4KnjuMPtPbwkAk"},"traceId": "6add06074365e881","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 4541,"candidatesTokenCount": 88,"totalTokenCount": 4629,"cachedContentTokenCount": 2043},"modelVersion": "tab_flash_lite_preview","responseId": "MaoLavqgN4KnjuMPtPbwkAk"},"traceId": "6add06074365e881","metadata": {}}
+

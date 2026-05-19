@@ -1,0 +1,19 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 05:20:02 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=2406",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EvoFCvcFAQw51sd2/X/AuhwOXSQrVnDNL7k2sDDwStdircwffMmLgdG40AVLD3157I8IQvkcf4vY/yfKjzlHAXYcJpmqwOPjI+QZlmKE9h2RdNHttaih98ZZcUwnVL9HyOp/BuYtmssyNYxoI/IApf3wPCktIvBRnOmhu4HGlULExNdcQ+tnnSujv1ti2+80IYo6QAedqPzI8Z4WLaPd5NsgJ6tTCPyQaBw3CB8tIz7dIp2ZmWmclxFMmVAxIaA0GmYms7YP5q3pqgBq1G171qilkdzc1X1CUWTt/n4HQEED8DqZtVk3QkZ/fm8vZHfMnqbrDYzbL8bfWnCXxO0HCA5IopjaxhX4EpSZ3WVqa7iOuA8Uum1GxL2QtI9R8HzXEgzmLVgHoBttrdHobBlWWh4EAI1wcQu9gONjstH3SZKmz7bFl4uwxTnqG1Cn/qZ9nbdlJBmeABp2XkrPeH4wOplgnbI3mOsGFlqdRMaHyKIVYjdVboh69OYsTDWvAx7jzoB6xZZ+6/niBJ/ZdSBaFHjUPSzswviHlEfJ4qV6lTDg5xrDcG+aCCthDOBQXPqTq1/dnzJBU9V0JJrLSGIfm79amEECiGdQ40DUqL2OPbYp5NNNlOuYDJidGzqFc6wgMBtVyQs5x+D1IhKDYugM4sikFYHjvinRSnVyjOsYsz/3lDPAaOrbu6HTE5EIXLsNnGAyHhnDuX94zdvqSWTDDzCwTKkS18O+uxitpPdKPT8ZNFkjQGtF2oIxSFA09QvKrx79Enws+ewKaIa6ACdbmfWHMVDdK190vS9WhS0SSYs7ESpGYRoOg2WAmveuCOaMd2yKo4dVof1W80D0nBahdOfxeOVlvLkSLTis7Duo2/kD4uk5ZZrbwFrI0QS1PAQeKUlgB7+4OD1SXGZcPJMOfo5mfnmnyJqp7+efMHUQjZ4StI9Z66Sbp0S8llMy9f2uW3oga851C6vXDVz1h6kGqodAg3r9sn9OFTv9AL/PJLMWiWdlS7F+4L14H9L0","functionCall": {"name": "open_browser_url","args": {"Url": "http://127.0.0.1:3000","toolSummary": "Web search","explanation": "Try 127.0.0.1:3000 again now that some time has passed.","toolAction": "Opening 127.0.0.1:3000","PageIdToReplace": "5411DAB9590ACD157E5A0154F9BA575B"},"id": "kzd4pg0g"}}]}}],"usageMetadata": {"promptTokenCount": 16900,"candidatesTokenCount": 129,"totalTokenCount": 17240,"thoughtsTokenCount": 211},"modelVersion": "gemini-3-flash","responseId": "gKEKapScMbzc4-EPl_77kA4"},"traceId": "dff4f7f37b42b51b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 19301,"candidatesTokenCount": 129,"totalTokenCount": 19641,"cachedContentTokenCount": 16208,"thoughtsTokenCount": 211},"modelVersion": "gemini-3-flash","responseId": "gKEKapScMbzc4-EPl_77kA4"},"traceId": "dff4f7f37b42b51b","metadata": {}}
+

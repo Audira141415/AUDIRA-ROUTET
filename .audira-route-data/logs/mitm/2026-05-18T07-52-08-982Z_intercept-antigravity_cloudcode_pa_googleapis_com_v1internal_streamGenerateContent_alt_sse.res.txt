@@ -1,0 +1,155 @@
+STATUS: 200
+HEADERS: {
+  "access-control-allow-origin": "*",
+  "cache-control": "no-cache",
+  "connection": "keep-alive",
+  "content-type": "text/event-stream",
+  "date": "Mon, 18 May 2026 07:52:11 GMT",
+  "transfer-encoding": "chunked",
+  "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+}
+---BODY---
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"<thinking"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":">\nThe user continues"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" to say \"continue\" with thinking mode"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" enabled. I"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"'ve"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" fixed"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":":"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n1. "}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"✅ Prisma model names"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" (aIConversation, a"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"IMessage, aIAnalysis)"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n2. ✅"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" Removed invalid"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" target.status check"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n\nRemaining errors"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" to"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" fix:\n1. **Raw"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" query typing**: The `$queryR"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"aw` and `$executeRaw"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"` methods need proper typing\n2."}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" **"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"Cron job version mismatch**:"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" Two"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" different versions of c"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"ron package"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n3. **"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"Threat intel controller**: Property access errors ("}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"get"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"All method"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" doesn"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"'t exist,"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" wrong"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" property"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" names"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":")"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n4. **"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"Scheduler"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" service"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"**: Type"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" issues"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" with c"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"ron job properties"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n\nLet me fix the"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" threat"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" intel controller issues"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" next"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":","}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" then"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" address"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" the cron version"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" mismatch."}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" The threat intel controller is"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" trying"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" to access properties"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" that don't exist on"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" the stats"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" object."}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n\nLet"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" me view"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" the threat"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" intel controller to"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" see what needs"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" to"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" be fixed."}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n</thinking>\n\nLet"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" me fix"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" the threat"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" intel controller property"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" access errors."}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"functionCall":{"name":"view_file","args":{"AbsolutePath":"f:\\AUDIRA-BUG-HUTTER\\services\\api\\src\\threat-intel\\threat-intel.controller.ts","EndLine":75,"StartLine":60,"toolAction":"Viewing file","toolSummary":"Threat intel controller"}}}]},"finishReason":"STOP"}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090731808","usageMetadata":{"promptTokenCount":108182,"candidatesTokenCount":221,"totalTokenCount":108403}}}
+
+data: [DONE]
+
+data: [DONE]
+

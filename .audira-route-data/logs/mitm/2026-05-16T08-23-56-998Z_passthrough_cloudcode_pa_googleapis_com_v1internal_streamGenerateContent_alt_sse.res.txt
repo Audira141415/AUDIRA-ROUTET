@@ -1,0 +1,19 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Sat, 16 May 2026 08:24:00 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=2485",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "Ep8BCpwBAQw51sc5s4/CBqw5QOy0LlhurcB5L9aG+eIH9HPHwhgwmGUkcHRlBaSK7vpZePvYlyHjvPzN7LMkxFPnZN0fRAuTKIdMFEdn4+L1vaPqquCBJAT7lIYEfgTfUYWF7hncSBlVo+S22x8ro85ZPGc8gA1O1dTaPo8T9ZrH2MxUhTsbpLBY0ZlahIc2f4B0nwypN0DQMtPOK0RFUjIa","functionCall": {"name": "view_file","args": {"AbsolutePath": "f:\\AUDIRA-ROUTET\\src\\app\\api\\models\\route.js"},"id": "dl44wv0d"}}]}}],"usageMetadata": {"promptTokenCount": 16889,"candidatesTokenCount": 36,"totalTokenCount": 16949,"thoughtsTokenCount": 24},"modelVersion": "gemini-default","responseId": "nikIar6JMMzEg8UPkaaZ4A8"},"traceId": "f92d259d7119dc5a","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 17727,"candidatesTokenCount": 36,"totalTokenCount": 17787,"cachedContentTokenCount": 16251,"thoughtsTokenCount": 24},"modelVersion": "gemini-default","responseId": "nikIar6JMMzEg8UPkaaZ4A8"},"traceId": "f92d259d7119dc5a","metadata": {}}
+

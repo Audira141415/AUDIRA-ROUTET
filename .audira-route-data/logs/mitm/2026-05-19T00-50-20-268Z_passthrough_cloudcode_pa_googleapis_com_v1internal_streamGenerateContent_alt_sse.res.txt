@@ -1,0 +1,23 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Tue, 19 May 2026 00:50:20 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=392",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\": \"\","}]}}],"usageMetadata": {"promptTokenCount": 3920,"candidatesTokenCount": 2,"totalTokenCount": 3922},"modelVersion": "tab_jump_flash_lite_preview","responseId": "zLMLas7UHrCqjuMPt9TeiQg"},"traceId": "d722623e58e8c4a5","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\n\t\t\t\"ReplacementContent\": \"\"\n\t\t}\n\t]\n}\n\u003c/"}]}}],"usageMetadata": {"promptTokenCount": 3920,"candidatesTokenCount": 19,"totalTokenCount": 3939},"modelVersion": "tab_jump_flash_lite_preview","responseId": "zLMLas7UHrCqjuMPt9TeiQg"},"traceId": "d722623e58e8c4a5","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "replace_file_content\u003e"}]}}],"usageMetadata": {"promptTokenCount": 3920,"candidatesTokenCount": 25,"totalTokenCount": 3945},"modelVersion": "tab_jump_flash_lite_preview","responseId": "zLMLas7UHrCqjuMPt9TeiQg"},"traceId": "d722623e58e8c4a5","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 3920,"candidatesTokenCount": 25,"totalTokenCount": 3945},"modelVersion": "tab_jump_flash_lite_preview","responseId": "zLMLas7UHrCqjuMPt9TeiQg"},"traceId": "d722623e58e8c4a5","metadata": {}}
+

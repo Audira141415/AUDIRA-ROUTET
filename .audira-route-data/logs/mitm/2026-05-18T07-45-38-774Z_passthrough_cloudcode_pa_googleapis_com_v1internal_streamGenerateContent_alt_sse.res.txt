@@ -1,0 +1,23 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 07:45:39 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=862",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\": \"@"}]}}],"usageMetadata": {"promptTokenCount": 2159,"candidatesTokenCount": 2,"totalTokenCount": 2161},"modelVersion": "tab_jump_flash_lite_preview","responseId": "o8MKavrjD6S9juMPlfjwmAs"},"traceId": "cbb5adbdc4d9ce89","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "echo off\\n\u003c|cursor|\u003eecho ========================================\\necho Starting Perfect World Development\","}]}}],"usageMetadata": {"promptTokenCount": 2159,"candidatesTokenCount": 23,"totalTokenCount": 2182},"modelVersion": "tab_jump_flash_lite_preview","responseId": "o8MKavrjD6S9juMPlfjwmAs"},"traceId": "cbb5adbdc4d9ce89","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\n\t\t\t\"ReplacementContent\": \"@echo off\\n:: =====================================================================\\n:: Perfect World Development Server Manager\"\n\t\t}\n\t]\n}\n\u003c/replace_file_content\u003e"}]}}],"usageMetadata": {"promptTokenCount": 2159,"candidatesTokenCount": 66,"totalTokenCount": 2225},"modelVersion": "tab_jump_flash_lite_preview","responseId": "o8MKavrjD6S9juMPlfjwmAs"},"traceId": "cbb5adbdc4d9ce89","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 2159,"candidatesTokenCount": 66,"totalTokenCount": 2225},"modelVersion": "tab_jump_flash_lite_preview","responseId": "o8MKavrjD6S9juMPlfjwmAs"},"traceId": "cbb5adbdc4d9ce89","metadata": {}}
+

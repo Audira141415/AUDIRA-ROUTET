@@ -1,0 +1,337 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 11:05:24 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=881",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "/* ="}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 2,"totalTokenCount": 4369},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "=========================================================================\n   PERFECT WORLD — AAA Gaming Website\n   Inspired by Gens"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 21,"totalTokenCount": 4388},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "hin Impact, Lost Ark, Black Desert Online\n   ========================================================================== */\n\nconst SHOWCASE_CLASSES: Class"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 46,"totalTokenCount": 4413},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "Data[] = [\n  {\n    id: 'blademaster',\n    name: 'Blademaster',\n    "}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 73,"totalTokenCount": 4440},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "role: 'damage_dealer',\n    description: 'Master of melee combat with devastating sword techniques and high burst damage"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 97,"totalTokenCount": 4464},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " output.',\n    artwork: '/images/classes/blademaster.png',\n    primaryAbilities: ['"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 121,"totalTokenCount": 4488},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "Whirlwind Strike', 'Blade Dance', 'Execution'],\n    playstyleSummary: 'Fast-paced, aggressive"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 145,"totalTokenCount": 4512},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " playstyle requiring precise timing and positioning.',\n    model3D: 'https://example.com/blademaster.glb',\n"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 173,"totalTokenCount": 4540},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "  },\n  {\n    id: 'wizard',\n    name: 'Wizard',\n    role: '"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 197,"totalTokenCount": 4564},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "damage_dealer',\n    description: 'Harness the power of magic to rain destruction upon your enemies from a safe distance.',\n    artwork"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 226,"totalTokenCount": 4593},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ": '/images/classes/wizard.png',\n    primaryAbilities: ['Fireball', 'Frost Nova', 'Meteor Storm"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 253,"totalTokenCount": 4620},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "'],\n    playstyleSummary: 'Ranged caster with powerful area control and crowd control abilities.',\n    model3D"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 278,"totalTokenCount": 4645},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ": 'https://example.com/wizard.glb',\n  },\n  {\n    id: 'cl"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 302,"totalTokenCount": 4669},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "eric',\n    name: 'Cleric',\n    role: 'healer',\n    description: 'Divine"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 326,"totalTokenCount": 4693},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " healer who mends wounds and protects allies with holy magic and blessings.',\n    artwork: '/images/classes/cleric"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 351,"totalTokenCount": 4718},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ".png',\n    primaryAbilities: ['Holy Light', 'Divine Shield', 'Resurrection'],\n    playstyleSummary: 'Support"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 380,"totalTokenCount": 4747},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "-focused with strong defensive capabilities and group healing.',\n    model3D: 'https://example.com/cl"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 404,"totalTokenCount": 4771},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "eric.glb',\n  },\n  {\n    id: 'barbarian',\n    name: '"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 428,"totalTokenCount": 4795},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "Barbarian',\n    role: 'tank',\n    description: 'Unstoppable force that absorbs massive damage and taunts enemies"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 455,"totalTokenCount": 4822},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " to protect the group.',\n    artwork: '/images/classes/barbarian.png',\n    primaryAb"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 479,"totalTokenCount": 4846},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "ilities: ['Charge', 'Taunt', 'Whirlwind Defense'],\n    playstyleSummary: 'Tanky"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 503,"totalTokenCount": 4870},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " frontline with crowd control and threat management.',\n    model3D: 'https://example.com/barbarian.glb',"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 530,"totalTokenCount": 4897},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\n  },\n  {\n    id: 'archer',\n    name: 'Archer',\n    role:"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 554,"totalTokenCount": 4921},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " 'damage_dealer',\n    description: 'Precision striker who deals consistent ranged damage with deadly accuracy and mobility.',\n    "}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 579,"totalTokenCount": 4946},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "artwork: '/images/classes/archer.png',\n    primaryAbilities: ['Multi-Shot', 'Pier"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 603,"totalTokenCount": 4970},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "cing Arrow', 'Rain of Arrows'],\n    playstyleSummary: 'Mobile ranged DPS with high attack speed and evasion.',\n    model3"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 632,"totalTokenCount": 4999},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "D: 'https://example.com/archer.glb',\n  },\n  {\n    id: '"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 656,"totalTokenCount": 5023},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "psychic',\n    name: 'Psychic',\n    role: 'support',\n    description: 'Master"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 680,"totalTokenCount": 5047},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " of mental powers who controls the battlefield with psychic abilities and buffs.',\n    artwork: 'https://images.unsplash.com/photo"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 707,"totalTokenCount": 5074},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "-1511512578047-dfb367046420?w="}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 736,"totalTokenCount": 5103},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "600&q=80',\n    primaryAbilities: ['Mind Control', 'Psychic Barrier', 'Am"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 762,"totalTokenCount": 5129},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "plify'],\n    playstyleSummary: 'Support caster with crowd control and party enhancement.',\n    model3D:"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 786,"totalTokenCount": 5153},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " 'https://example.com/psychic.glb',\n  },\n];\n\nexport default function HomePage() {"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 810,"totalTokenCount": 5177},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\n  const [onlinePlayerCount, setOnlinePlayerCount] = useState\u003cnumber | undefined\u003e(\n    undefined\n  );\n  const"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 839,"totalTokenCount": 5206},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " [isLoadingPlayerCount, setIsLoadingPlayerCount] = useState(false);\n\n  // Simulate fetching player count from server status"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 863,"totalTokenCount": 5230},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " widget\n  useEffect(() =\u003e {\n    setIsLoadingPlayerCount(true);\n    // Simulate API call\n    "}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 887,"totalTokenCount": 5254},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "const timer = setTimeout(() =\u003e {\n      setOnlinePlayerCount(12847);\n      setIsLoading"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 911,"totalTokenCount": 5278},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "PlayerCount(false);\n    }, 1000);\n\n    return () =\u003e clearTimeout(timer);\n"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 935,"totalTokenCount": 5302},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "  }, []);\n\n  return (\n    \u003cmain\n      style={{\n        background: 'transparent',\n        color: '#1a"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 964,"totalTokenCount": 5331},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "1a2e',\n        minHeight: '100vh',\n        overflow: 'hidden',\n"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 988,"totalTokenCount": 5355},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "      }}\n    \u003e\n      {/* ===== HERO SECTION ===== */}\n      \u003cHeroSection\n        onlinePlayerCount={onlinePlayerCount"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 1016,"totalTokenCount": 5383},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "}\n        isLoadingPlayerCount={isLoadingPlayerCount}\n      /\u003e\n\n      {/* ===== FEATURES SECTION ===== */}\n"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 1040,"totalTokenCount": 5407},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "      \u003csection\n        style={{\n          padding: 'clamp(80px, 10vw, "}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 1064,"totalTokenCount": 5431},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "128px) 24px',\n          background: 'rgba(255, 25"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 1088,"totalTokenCount": 5455},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "5, 255, 0.05)',\n          backdropFilter: 'blur(10px"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 1112,"totalTokenCount": 5479},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ")',\n          borderRadius: '24px',\n          border: '1px solid rgba(255,"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 1136,"totalTokenCount": 5503},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " 255, 255, 0.1)',\n          boxShadow: '0 8"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 1160,"totalTokenCount": 5527},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "px 32px 0 rgba(0, 0, 0, 0.37)',\n        }}\n      "}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 1188,"totalTokenCount": 5555},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003e\n        \u003cdiv style={{ maxWidth: '1200px', margin: '0 auto' }}\u003e\n"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 1212,"totalTokenCount": 5579},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "          {/* Section Title */}\n          \u003ch2\n            style={{\n              textAlign: 'center',\n              fontSize: 'clamp("}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 1241,"totalTokenCount": 5608},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "24px, 3vw, 40px)',\n              fontWeight: 700,\n              "}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 1265,"totalTokenCount": 5632},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "letterSpacing: '0.05em',\n              marginBottom: '64px',\n              color: '#"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 1289,"totalTokenCount": 5656},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "ffffff',\n              textShadow: '0 2px 10px rgba(0,0,0,0.3)',\n"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 1318,"totalTokenCount": 5685},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "            }}\n          \u003e\n            FORGE YOUR DESTINY\n          \u003c/h2\u003e\n\n          {/* Feature Cards */}\n          \u003cdiv\n            style"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 1347,"totalTokenCount": 5714},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "={{\n              display: 'grid',\n              gridTemplateColumns: 'repeat(auto-fit, minmax(300px,"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 1376,"totalTokenCount": 5743},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " 1fr))',\n              gap: '24px',\n            }}\n          \u003e\n            {[\n"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 1400,"totalTokenCount": 5767},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "              {\n                title: 'Epic Battles',\n                description: 'Massive PvP warfare with hundreds of players clashing in real"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 1427,"totalTokenCount": 5794},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "-time sieges.',\n                image: 'https://images.unsplash.com/photo-1542"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 1451,"totalTokenCount": 5818},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "751371-adc38448a05e?w=600&"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 1475,"totalTokenCount": 5842},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "q=80',\n              },\n              {\n                title: 'Living World',\n                description: '"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 1499,"totalTokenCount": 5866},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "A breathing open world that evolves with every season and player action.',\n                image: 'https://images.unsplash.com/photo-1"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 1528,"totalTokenCount": 5895},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "511512578047-dfb367046420"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 1552,"totalTokenCount": 5919},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "?w=600&q=80',\n              },\n              {\n                title: 'Your"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 1576,"totalTokenCount": 5943},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " Story',\n                description: 'Shape your legend through choices that permanently alter your journey.',\n                image: 'https://images"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 1602,"totalTokenCount": 5969},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ".unsplash.com/photo-1538481199705-c71"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 1626,"totalTokenCount": 5993},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "0c4e965fc?w=600&q=80',\n              },\n"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 1650,"totalTokenCount": 6017},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "            ].map((feature, index) =\u003e (\n              \u003cdiv\n                key={index}\n                className=\"glass-card glass"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 1678,"totalTokenCount": 6045},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "-card-interactive\"\n                style={{\n                  position: 'relative',\n                  height: '300"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 1702,"totalTokenCount": 6069},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "px',\n                  overflow: 'hidden',\n                  cursor: 'pointer',\n                  borderRadius: '16px',\n                  border"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 1730,"totalTokenCount": 6097},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ": '1px solid rgba(255, 255, 255, 0."}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 1754,"totalTokenCount": 6121},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "1)',\n                }}\n                onMouseEnter={(e) =\u003e {\n                  const img = e.currentTarget.querySelector"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 1778,"totalTokenCount": 6145},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "('div[data-img]') as HTMLElement;\n                  if (img) img.style.transform = 'scale"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 1802,"totalTokenCount": 6169},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "(1.1)';\n                }}\n                onMouseLeave={(e) =\u003e {\n                  const img = e.currentTarget.querySelector('"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 1831,"totalTokenCount": 6198},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "div[data-img]') as HTMLElement;\n                  if (img) img.style.transform = 'scale("}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 1855,"totalTokenCount": 6222},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "1)';\n                }}\n              \u003e\n                \u003cdiv\n                  data-img=\"true\"\n                  style={{\n                    position"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 1882,"totalTokenCount": 6249},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ": 'absolute',\n                    inset: 0,\n                    backgroundImage: `url(${feature.image})`,\n                    backgroundSize:"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 1910,"totalTokenCount": 6277},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " 'cover',\n                    backgroundPosition: 'center',\n                    transition: 'transform 0.3s ease',"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 1934,"totalTokenCount": 6301},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\n                  }}\n                /\u003e\n                \u003cdiv\n                  style={{\n                    position: 'absolute',\n                    inset: 0,"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 1962,"totalTokenCount": 6329},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\n                    background: 'linear-gradient(to top, rgba(10,10,15,0"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 1986,"totalTokenCount": 6353},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ".95) 0%, rgba(10,10,15,0.2) 6"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 2010,"totalTokenCount": 6377},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "0%)',\n                  }}\n                /\u003e\n                \u003cdiv\n                  style={{\n                    position: 'absolute',"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 2034,"totalTokenCount": 6401},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\n                    bottom: 0,\n                    left: 0,\n                    right: 0,\n                    padding"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 2058,"totalTokenCount": 6425},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ": '32px',\n                  }}\n                \u003e\n                  \u003ch3\n                    style={{\n                      fontSize: '20px"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 2087,"totalTokenCount": 6454},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "',\n                      fontWeight: 700,\n                      margin: '0 0 8px 0',\n                      color: '#"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 2116,"totalTokenCount": 6483},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "ffffff',\n                      textShadow: '0 2px 4px rgba(0,0,0,0"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 2140,"totalTokenCount": 6507},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ".5)',\n                    }}\n                  \u003e\n                    {feature.title}\n                  \u003c/h3\u003e\n                  \u003cp\n"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 2164,"totalTokenCount": 6531},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "                    style={{\n                      fontSize: '14px',\n                      color: 'rgba(255,255,25"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 2193,"totalTokenCount": 6560},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "5,0.9)',\n                      margin: 0,\n                      lineHeight: 1.6,\n                      textShadow"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 2220,"totalTokenCount": 6587},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ": '0 1px 2px rgba(0,0,0,0.3)',\n                    }}\n                  \u003e\n                    "}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 2249,"totalTokenCount": 6616},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "{feature.description}\n                  \u003c/p\u003e\n                \u003c/div\u003e\n              \u003c/div\u003e\n            ))}\n          \u003c/div\u003e\n        "}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 2273,"totalTokenCount": 6640},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003c/div\u003e\n      \u003c/section\u003e\n\n      {/* ===== CLASS SHOWCASE SECTION ===== */}\n      \u003cClassShowcase classes"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 2297,"totalTokenCount": 6664},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "={SHOWCASE_CLASSES} /\u003e\n\n      {/* ===== NEWS SECTION ===== */}\n      \u003csection\n        style={{\n          "}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 2323,"totalTokenCount": 6690},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "padding: 'clamp(80px, 10vw, 128px) 24px"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 2347,"totalTokenCount": 6714},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "',\n          background: 'rgba(246, 246, 246, 0.8"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 2373,"totalTokenCount": 6740},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ")',\n          backdropFilter: 'blur(10px)',\n          borderRadius: '24px',\n          "}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 2397,"totalTokenCount": 6764},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "border: '1px solid rgba(255, 255, 255, 0"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 2421,"totalTokenCount": 6788},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ".2)',\n          boxShadow: '0 4px 16px rgba(0,0,0,0."}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 2448,"totalTokenCount": 6815},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "1)',\n        }}\n      \u003e\n        \u003cdiv style={{ maxWidth: '1200px', margin: '0 auto'"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 2477,"totalTokenCount": 6844},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " }}\u003e\n          {/* Section Header */}\n          \u003cdiv\n            style={{\n              display: 'flex',\n"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 2501,"totalTokenCount": 6868},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "              alignItems: 'center',\n              justifyContent: 'space-between',\n              marginBottom: '48"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 2525,"totalTokenCount": 6892},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "px',\n            }}\n          \u003e\n            \u003ch2\n              style={{\n                fontSize: 'clamp(2"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 2550,"totalTokenCount": 6917},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "4px, 3vw, 40px)',\n                fontWeight: 700,\n                letter"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 2574,"totalTokenCount": 6941},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "Spacing: '0.05em',\n                color: '#111111',\n                margin"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 2598,"totalTokenCount": 6965},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ": 0,\n              }}\n            \u003e\n              LATEST NEWS\n            \u003c/h2\u003e\n            \u003cLink\n              "}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 2622,"totalTokenCount": 6989},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "href=\"/news\"\n              style={{\n                fontSize: '14px',\n                color: '#55"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 2646,"totalTokenCount": 7013},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "5555',\n                textDecoration: 'none',\n                transition: 'color 0.3s"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 2670,"totalTokenCount": 7037},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " ease',\n              }}\n              onMouseEnter={(e) =\u003e { e.currentTarget.style.color = '#0"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 2694,"totalTokenCount": 7061},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "0d4ff'; }}\n              onMouseLeave={(e) =\u003e { e.currentTarget.style.color ="}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 2718,"totalTokenCount": 7085},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " '#7a7a8a'; }}\n            \u003e\n              View All →\n            \u003c/Link\u003e\n          \u003c/div\u003e\n\n          {/*"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 2747,"totalTokenCount": 7114},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " News Items */}\n          \u003cdiv style={{ display: 'flex', flexDirection: 'column' }}\u003e\n            {[\n"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 2771,"totalTokenCount": 7138},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "              {\n                date: 'Dec 15, 2024',\n                category: 'Update',\n                title"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 2799,"totalTokenCount": 7166},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ": 'Season 4: Twilight Dominion launches with new territory wars',\n              },\n              {\n                date:"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 2823,"totalTokenCount": 7190},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " 'Dec 12, 2024',\n                category: 'Event',\n                title: '"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 2847,"totalTokenCount": 7214},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "Winter Solstice Festival brings exclusive mounts and cosmetics',\n              },\n              {\n                date: 'Dec 8"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 2871,"totalTokenCount": 7238},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ", 2024',\n                category: 'Balance',\n                title: 'Class rebalancing patch addresses"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 2895,"totalTokenCount": 7262},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " Wizard burst damage concerns',\n              },\n            ].map((news, index) =\u003e (\n              \u003cdiv\n                "}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 2920,"totalTokenCount": 7287},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "key={index}\n                style={{\n                  display: 'flex',\n                  alignItems: 'center',\n"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 2944,"totalTokenCount": 7311},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "                  gap: '20px',\n                  padding: '20px 0',\n                  borderBottom:"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 2968,"totalTokenCount": 7335},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " index \u003c 2 ? '1px solid #E0E0E0' : 'none',\n                  cursor: 'pointer"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 2995,"totalTokenCount": 7362},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "',\n                  transition: 'all 0.3s ease',\n                }}\n                onMouseEnter={(e)"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 3019,"totalTokenCount": 7386},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " =\u003e {\n                  const title = e.currentTarget.querySelector('span[data-title]') as HTMLElement;\n                  if (title"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 3046,"totalTokenCount": 7413},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ") title.style.color = '#00d4ff';\n                }}\n                onMouseLeave={(e"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 3070,"totalTokenCount": 7437},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ") =\u003e {\n                  const title = e.currentTarget.querySelector('span[data-title]') as HTMLElement;\n"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 3094,"totalTokenCount": 7461},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "                  if (title) title.style.color = '#111111';\n                }}\n              "}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 3118,"totalTokenCount": 7485},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003e\n                \u003cspan\n                  style={{\n                    fontSize: '13px',\n                    color: '#555555"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 3147,"totalTokenCount": 7514},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "',\n                    whiteSpace: 'nowrap',\n                    minWidth: '100px',\n                  }}\n                "}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 3173,"totalTokenCount": 7540},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003e\n                  {news.date}\n                \u003c/span\u003e\n                \u003cspan\n                  style={{\n                    fontSize: '"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 3197,"totalTokenCount": 7564},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "10px',\n                    fontWeight: 600,\n                    letterSpacing: '0.1em',\n                    textTransform"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 3225,"totalTokenCount": 7592},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ": 'uppercase',\n                    padding: '4px 10px',\n                    background: 'rgba(0"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 3249,"totalTokenCount": 7616},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ", 212, 255, 0.1)',\n                    color: '#00d4ff',\n                    "}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 3278,"totalTokenCount": 7645},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "whiteSpace: 'nowrap',\n                  }}\n                \u003e\n                  {news.category}\n                \u003c/span\u003e\n"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 3302,"totalTokenCount": 7669},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "                \u003cspan\n                  data-title=\"true\"\n                  style={{\n                    fontSize: '15px',"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 3326,"totalTokenCount": 7693},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\n                    color: '#111111',\n                    transition: 'color 0.3s ease"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 3350,"totalTokenCount": 7717},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "',\n                  }}\n                \u003e\n                  {news.title}\n                \u003c/span\u003e\n              \u003c/div\u003e\n            ))}\n"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 3374,"totalTokenCount": 7741},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "          \u003c/div\u003e\n        \u003c/div\u003e\n      \u003c/section\u003e\n\n      {/* ===== RANKINGS PREVIEW SECTION ===== */}\n      "}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 3398,"totalTokenCount": 7765},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003csection\n        style={{\n          padding: 'clamp(80px, 10vw, 1"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 3422,"totalTokenCount": 7789},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "28px) 24px',\n          background: 'rgba(255, 255"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 3446,"totalTokenCount": 7813},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ", 255, 0.05)',\n          backdropFilter: 'blur(10px)',\n          borderRadius:"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 3474,"totalTokenCount": 7841},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " '24px',\n          border: '1px solid rgba(255, 255,"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 3498,"totalTokenCount": 7865},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " 255, 0.1)',\n          boxShadow: '0 8px 32px"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 3522,"totalTokenCount": 7889},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " 0 rgba(0, 0, 0, 0.37)',\n        }}\n      \u003e"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 3546,"totalTokenCount": 7913},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\n        \u003cdiv style={{ maxWidth: '1200px', margin: '0 auto' }}\u003e\n          "}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 3570,"totalTokenCount": 7937},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "{/* Section Header */}\n          \u003cdiv\n            style={{\n              display: 'flex',\n              alignItems"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 3594,"totalTokenCount": 7961},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ": 'center',\n              justifyContent: 'space-between',\n              marginBottom: '48px',\n              flex"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 3620,"totalTokenCount": 7987},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "Wrap: 'wrap',\n              gap: '16px',\n            }}\n          \u003e\n            \u003ch"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 3644,"totalTokenCount": 8011},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "2\n              style={{\n                fontSize: 'clamp(24px, 3vw, 40px"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 3668,"totalTokenCount": 8035},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ")',\n                fontWeight: 700,\n                letterSpacing: '0.05em',\n                "}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 3692,"totalTokenCount": 8059},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "color: '#ffffff',\n                margin: 0,\n              }}\n            \u003e\n              TOP PLAYERS\n"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 3716,"totalTokenCount": 8083},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "            \u003c/h2\u003e\n            \u003cLink\n              href=\"/rankings\"\n              style={{\n                fontSize: '14"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 3740,"totalTokenCount": 8107},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "px',\n                color: '#7a7a8a',\n                textDecoration: 'none',\n                transition: 'color "}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 3769,"totalTokenCount": 8136},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "0.3s ease',\n              }}\n              onMouseEnter={(e) =\u003e { e.currentTarget.style."}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 3793,"totalTokenCount": 8160},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "color = '#00d4ff'; }}\n              onMouseLeave={(e) =\u003e { e.currentTarget."}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 3817,"totalTokenCount": 8184},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "style.color = '#7a7a8a'; }}\n            \u003e\n              View All Rankings →\n            "}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 3841,"totalTokenCount": 8208},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003c/Link\u003e\n          \u003c/div\u003e\n\n          {/* Rankings Preview */}\n          \u003cRankingsPreview\n            category=\"players"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 3865,"totalTokenCount": 8232},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\"\n            entries={[\n              { rank: 1, name: 'ShadowReaper', score: 98750,"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 3894,"totalTokenCount": 8261},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " guild: 'Eclipse Order' },\n              { rank: 2, name: 'CelestialBlade', score: "}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 3918,"totalTokenCount": 8285},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "95200, guild: 'Heavenly Sword' },\n              { rank: 3, name:"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 3942,"totalTokenCount": 8309},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " 'VoidWalker', score: 93100, guild: 'Eclipse Order' },\n              { rank"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 3966,"totalTokenCount": 8333},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ": 4, name: 'PhoenixRise', score: 89400, guild: 'Crimson Wings' },\n            "}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 3995,"totalTokenCount": 8362},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "]}\n          /\u003e\n        \u003c/div\u003e\n      \u003c/section\u003e\n    \u003c/main\u003e\n  );\n}"}]}}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 4017,"totalTokenCount": 8384},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EjQKMgEMOdbH2Nj58kUtS9xgKnWT2OGCYddIrjnEW5x8vIJLwZoRMdR5ra6z7m9poi5dgyLj","text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 4367,"candidatesTokenCount": 4017,"totalTokenCount": 8384},"modelVersion": "gemini-2.5-flash","responseId": "c_IKapumMfuDqfkPj8SiyQc"},"traceId": "59e05a1deb0d9d86","metadata": {}}
+

@@ -1,0 +1,21 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Sat, 16 May 2026 08:08:13 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=1595",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]}}],"usageMetadata": {"promptTokenCount": 26775,"candidatesTokenCount": 20,"totalTokenCount": 26795,"cachedContentTokenCount": 26305},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5uV2swvcvyYLQEyFSB7"},"traceId": "81958a4ae5552ced","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"functionCall": {"name": "run_command","args": {"WaitMsBeforeAsync": 5000,"toolAction": "Moving scratch files and cleanup","toolSummary": "Cleanup scratch directory","CommandLine": "Move-Item -Path \"scratch\\check_db_banners.py\",\"scratch\\check_db_tables.py\",\"scratch\\check_missing_banners.py\",\"scratch\\check_server_state.py\",\"scratch\\compare_games.py\" -Destination \"scripts\\db\\\" -Force; Move-Item -Path \"scripts\\audit.py\" -Destination \"scripts\\admin\\\" -Force; Write-Host \"Scratch + audit moved\"; Remove-Item -Path \"scratch\" -Recurse -Force; Write-Host \"Scratch folder removed\"","Cwd": "f:\\AUDIRA-TOPUPGAME","SafeToAutoRun": false},"id": "toolu_vrtx_01CxQ8U34fPoJqmQgmMr2ffT"}}]}}],"usageMetadata": {"promptTokenCount": 26775,"candidatesTokenCount": 20,"totalTokenCount": 26795,"cachedContentTokenCount": 26305},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5uV2swvcvyYLQEyFSB7"},"traceId": "81958a4ae5552ced","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 26775,"candidatesTokenCount": 297,"totalTokenCount": 27072,"cachedContentTokenCount": 26305},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5uV2swvcvyYLQEyFSB7"},"traceId": "81958a4ae5552ced","metadata": {}}
+

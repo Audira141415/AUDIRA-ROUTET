@@ -1,0 +1,31 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 11:10:03 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=1049",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "Analyzing Aud"}]}}],"usageMetadata": {"promptTokenCount": 3933,"candidatesTokenCount": 2,"totalTokenCount": 3935},"modelVersion": "gemini-3.1-flash-lite","responseId": "ivMKapvcMbHbg8UPx4C8gQo"},"traceId": "e8056815d84caa60","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "ira Seal Online\n\nThe user's primary objective is to audit the AUDIRA"}]}}],"usageMetadata": {"promptTokenCount": 3933,"candidatesTokenCount": 19,"totalTokenCount": 3952},"modelVersion": "gemini-3.1-flash-lite","responseId": "ivMKapvcMbHbg8UPx4C8gQo"},"traceId": "e8056815d84caa60","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "-WEB-SEAL-ONLINE project to verify its architectural integrity and production readiness. \n\nGoals:\n1. Examine the project"}]}}],"usageMetadata": {"promptTokenCount": 3933,"candidatesTokenCount": 46,"totalTokenCount": 3979},"modelVersion": "gemini-3.1-flash-lite","responseId": "ivMKapvcMbHbg8UPx4C8gQo"},"traceId": "e8056815d84caa60","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " structure and monorepo configuration (Turborepo/pnpm) to confirm consistency with other Audira-series projects.\n2. Evaluate"}]}}],"usageMetadata": {"promptTokenCount": 3933,"candidatesTokenCount": 75,"totalTokenCount": 4008},"modelVersion": "gemini-3.1-flash-lite","responseId": "ivMKapvcMbHbg8UPx4C8gQo"},"traceId": "e8056815d84caa60","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " the Docker infrastructure and startup scripts to ensure seamless deployment of the web and backend components.\n3. Assess the maturity of the codebase across"}]}}],"usageMetadata": {"promptTokenCount": 3933,"candidatesTokenCount": 102,"totalTokenCount": 4035},"modelVersion": "gemini-3.1-flash-lite","responseId": "ivMKapvcMbHbg8UPx4C8gQo"},"traceId": "e8056815d84caa60","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " the `apps` and `packages` directories to identify functional gaps.\n4. Provide a status report on project readiness, highlighting"}]}}],"usageMetadata": {"promptTokenCount": 3933,"candidatesTokenCount": 128,"totalTokenCount": 4061},"modelVersion": "gemini-3.1-flash-lite","responseId": "ivMKapvcMbHbg8UPx4C8gQo"},"traceId": "e8056815d84caa60","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " necessary actions to align this platform with the standards established in related Audira projects."}]}}],"usageMetadata": {"promptTokenCount": 3933,"candidatesTokenCount": 144,"totalTokenCount": 4077},"modelVersion": "gemini-3.1-flash-lite","responseId": "ivMKapvcMbHbg8UPx4C8gQo"},"traceId": "e8056815d84caa60","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EjQKMgEMOdbHFRF5Mh61sDzqwRRHdWNjj93NLMJWxYIlcKpjPyeRm8Gd2rgu8tTj3ezgvoK4","text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 3933,"candidatesTokenCount": 144,"totalTokenCount": 4077},"modelVersion": "gemini-3.1-flash-lite","responseId": "ivMKapvcMbHbg8UPx4C8gQo"},"traceId": "e8056815d84caa60","metadata": {}}
+

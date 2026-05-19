@@ -1,0 +1,31 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 07:33:06 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=1606",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "Finalizing"}]}}],"usageMetadata": {"promptTokenCount": 89262,"candidatesTokenCount": 2,"totalTokenCount": 89264},"modelVersion": "gemini-3.1-flash-lite","responseId": "ssAKasX2BIWvg8UPgt-pwAQ"},"traceId": "58bb0cfcf35f0af8","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " VulnX Hunter Platform\n\nMain Objective: Complete the final 27% of the VulnX Hunter platform"}]}}],"usageMetadata": {"promptTokenCount": 89262,"candidatesTokenCount": 23,"totalTokenCount": 89285},"modelVersion": "gemini-3.1-flash-lite","responseId": "ssAKasX2BIWvg8UPgt-pwAQ"},"traceId": "58bb0cfcf35f0af8","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " by achieving full database persistence, implementing required frontend integration pages, and ensuring all backend services are production-ready.\n\nGoals:\n1"}]}}],"usageMetadata": {"promptTokenCount": 89262,"candidatesTokenCount": 50,"totalTokenCount": 89312},"modelVersion": "gemini-3.1-flash-lite","responseId": "ssAKasX2BIWvg8UPgt-pwAQ"},"traceId": "58bb0cfcf35f0af8","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ". Complete database schema migrations for all advanced features including scheduled scans, monitoring, threat intelligence, and AI analysis.\n2. Implement and"}]}}],"usageMetadata": {"promptTokenCount": 89262,"candidatesTokenCount": 77,"totalTokenCount": 89339},"modelVersion": "gemini-3.1-flash-lite","responseId": "ssAKasX2BIWvg8UPgt-pwAQ"},"traceId": "58bb0cfcf35f0af8","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " integrate the essential frontend pages (Analytics, Scheduled Scans, Monitoring Rules, Threat Intelligence, Reports) to bridge the backend"}]}}],"usageMetadata": {"promptTokenCount": 89262,"candidatesTokenCount": 101,"totalTokenCount": 89363},"modelVersion": "gemini-3.1-flash-lite","responseId": "ssAKasX2BIWvg8UPgt-pwAQ"},"traceId": "58bb0cfcf35f0af8","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "-frontend gap.\n3. Verify the platform's stability, confirm 100% feature parity, and provide a comprehensive implementation"}]}}],"usageMetadata": {"promptTokenCount": 89262,"candidatesTokenCount": 129,"totalTokenCount": 89391},"modelVersion": "gemini-3.1-flash-lite","responseId": "ssAKasX2BIWvg8UPgt-pwAQ"},"traceId": "58bb0cfcf35f0af8","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " summary for deployment."}]}}],"usageMetadata": {"promptTokenCount": 89262,"candidatesTokenCount": 133,"totalTokenCount": 89395},"modelVersion": "gemini-3.1-flash-lite","responseId": "ssAKasX2BIWvg8UPgt-pwAQ"},"traceId": "58bb0cfcf35f0af8","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EjQKMgEMOdbHHKDXbN6+xfyEm/wZqt6KEHqGrWyIc3E4wP4f0g3HBVy0uuQ6TjfCuWe2fET3","text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 89262,"candidatesTokenCount": 133,"totalTokenCount": 89395,"cachedContentTokenCount": 85743},"modelVersion": "gemini-3.1-flash-lite","responseId": "ssAKasX2BIWvg8UPgt-pwAQ"},"traceId": "58bb0cfcf35f0af8","metadata": {}}
+

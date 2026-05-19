@@ -1,0 +1,19 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 05:20:26 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=2394",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EroBCrcBAQw51sdzQtYTFocvGbaDY7yBdC9L4l9Hp8cIa+Uw6tdktS0mV5ef7Kn2daVOpc2YUozOtvQ+pqoImuwOC/430jd27A8Hnp6EaWABBYO8HJ/f1SiTh7Qk7pLwCHqz+BGuX1kBaWUt1Hl9xljzYhR486L94x/BgpDqdanvHRZ1KxoNKTbjE/QsVOpKeIE6zuR7UDxEzCQTx7G4PqOndNHNzOdKjYtc6pCrYQm36iQv8zg9P23DNpib","functionCall": {"name": "open_browser_url","args": {"PageIdToReplace": "5411DAB9590ACD157E5A0154F9BA575B","toolAction": "Opening localhost:3000","explanation": "Try http://localhost:3000 again.","toolSummary": "Web search","Url": "http://localhost:3000"},"id": "htkfnemf"}}]}}],"usageMetadata": {"promptTokenCount": 18534,"candidatesTokenCount": 99,"totalTokenCount": 18663,"thoughtsTokenCount": 30},"modelVersion": "gemini-3-flash","responseId": "mKEKaoHBAZ3ag8UP662PsAQ"},"traceId": "a27351a34cf53a7a","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 21524,"candidatesTokenCount": 99,"totalTokenCount": 21653,"cachedContentTokenCount": 16196,"thoughtsTokenCount": 30},"modelVersion": "gemini-3-flash","responseId": "mKEKaoHBAZ3ag8UP662PsAQ"},"traceId": "a27351a34cf53a7a","metadata": {}}
+

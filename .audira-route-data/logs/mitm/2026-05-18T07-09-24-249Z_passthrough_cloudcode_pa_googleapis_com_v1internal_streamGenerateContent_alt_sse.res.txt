@@ -1,0 +1,33 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 07:09:25 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=922",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "Analyzing Aud"}]}}],"usageMetadata": {"promptTokenCount": 3740,"candidatesTokenCount": 2,"totalTokenCount": 3742},"modelVersion": "gemini-3.1-flash-lite","responseId": "JbsKapaeCLHbg8UPx4C8gQo"},"traceId": "3e66abf466ab447a","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "ira Perfect World Project\n\nMain Objective:\nAnalyze the structural integrity, current development status, and"}]}}],"usageMetadata": {"promptTokenCount": 3740,"candidatesTokenCount": 21,"totalTokenCount": 3761},"modelVersion": "gemini-3.1-flash-lite","responseId": "JbsKapaeCLHbg8UPx4C8gQo"},"traceId": "3e66abf466ab447a","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " architectural maturity of the AUDIRA-WEB-PERFECT-WORLD project.\n\nGoals:\n1. Examine the project codebase"}]}}],"usageMetadata": {"promptTokenCount": 3740,"candidatesTokenCount": 47,"totalTokenCount": 3787},"modelVersion": "gemini-3.1-flash-lite","responseId": "JbsKapaeCLHbg8UPx4C8gQo"},"traceId": "3e66abf466ab447a","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ", focusing on the `apps` and `packages` folders to understand the monorepo architecture.\n2. Review the"}]}}],"usageMetadata": {"promptTokenCount": 3740,"candidatesTokenCount": 72,"totalTokenCount": 3812},"modelVersion": "gemini-3.1-flash-lite","responseId": "JbsKapaeCLHbg8UPx4C8gQo"},"traceId": "3e66abf466ab447a","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " provided documentation files (e.g., `PROJECT_STATUS.md`, `BACKEND_COMPLETION_SUMMARY.md"}]}}],"usageMetadata": {"promptTokenCount": 3740,"candidatesTokenCount": 98,"totalTokenCount": 3838},"modelVersion": "gemini-3.1-flash-lite","responseId": "JbsKapaeCLHbg8UPx4C8gQo"},"traceId": "3e66abf466ab447a","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "`) to establish a clear baseline of completed features and pending tasks.\n3. Assess the tech stack and configuration (TurboRepo"}]}}],"usageMetadata": {"promptTokenCount": 3740,"candidatesTokenCount": 123,"totalTokenCount": 3863},"modelVersion": "gemini-3.1-flash-lite","responseId": "JbsKapaeCLHbg8UPx4C8gQo"},"traceId": "3e66abf466ab447a","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ", Docker, etc.) to evaluate scalability and current deployment readiness.\n4. Provide an executive summary of the project'"}]}}],"usageMetadata": {"promptTokenCount": 3740,"candidatesTokenCount": 147,"totalTokenCount": 3887},"modelVersion": "gemini-3.1-flash-lite","responseId": "JbsKapaeCLHbg8UPx4C8gQo"},"traceId": "3e66abf466ab447a","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "s health and suggest next logical steps for development or optimization."}]}}],"usageMetadata": {"promptTokenCount": 3740,"candidatesTokenCount": 159,"totalTokenCount": 3899},"modelVersion": "gemini-3.1-flash-lite","responseId": "JbsKapaeCLHbg8UPx4C8gQo"},"traceId": "3e66abf466ab447a","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EjQKMgEMOdbHmcdA6NLHs+t0JLz5OCgi9haxHBesZWA+qfz1Y2iZdK3rEu3cqV/IUXgrYelJ","text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 3740,"candidatesTokenCount": 159,"totalTokenCount": 3899},"modelVersion": "gemini-3.1-flash-lite","responseId": "JbsKapaeCLHbg8UPx4C8gQo"},"traceId": "3e66abf466ab447a","metadata": {}}
+

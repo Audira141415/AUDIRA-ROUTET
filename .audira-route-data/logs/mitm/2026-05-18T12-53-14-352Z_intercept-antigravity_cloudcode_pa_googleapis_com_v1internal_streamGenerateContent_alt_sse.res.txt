@@ -1,0 +1,213 @@
+STATUS: 200
+HEADERS: {
+  "access-control-allow-origin": "*",
+  "cache-control": "no-cache",
+  "connection": "keep-alive",
+  "content-type": "text/event-stream",
+  "date": "Mon, 18 May 2026 12:53:20 GMT",
+  "transfer-encoding": "chunked",
+  "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+}
+---BODY---
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"<thinking"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":">\nThe user wants me to continue"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"."}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" I encountered"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" an error with"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" Prisma -"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" it seems"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" the version"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" of"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" Prisma that"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" was installed"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" ("}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"7.8.0) has"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" a different"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" configuration"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" format"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"."}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" The error says"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":":"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n\n\"The"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" datas"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"ource property `url` is no longer"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" supported in schema files. Move connection URLs"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" for Migrate to `prisma."}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"config.ts`"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\"\n\nThis is a"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" Prisma "}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"7.x breaking"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" change. I need to:\n1"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":". Either"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" down"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"grade to Prisma 5"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":".x (more"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" stable"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" and"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" widely"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" used)\n2. Or adapt"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" to the new"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" Prisma 7.x configuration"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" format\n\nGiven"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" that this"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" is a production"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" project"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" and"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" Prisma 7 "}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"is very"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" new ("}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"and"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" the error"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" suggests"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" it's still in flux"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"), I should down"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"grade to Prisma 5."}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"x which"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" is the"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" stable"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":","}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" production"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"-ready version that"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" most"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" projects use.\n\nLet"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" me:"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n1. Un"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"install current"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" Prisma"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n2. Install Prisma 5"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":".x"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n3. Update"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" the schema"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" to"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" work"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" with Prisma 5"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n4. Generate"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" the"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" client"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n5. Continue"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" with the backend"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" setup\n\nThis"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" is the"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" right"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" approach because"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" Prisma 5 is stable"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" and well"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"-documented"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":", and the U"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"-BRAIN patterns"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" I"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"'m following"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" are based"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" on Prisma 5."}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n</thinking>\n\nError"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":": Prisma "}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"7.x breaking"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" change."}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" Downgrade ke"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" Prisma 5 "}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"("}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"stable)."}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"functionCall":{"name":"run_command","args":{"CommandLine":"npm uninstall prisma @prisma/client","Cwd":"f:\\AUDIRA-WEB-GTA\\backend","SafeToAutoRun":true,"WaitMsBeforeAsync":5000,"toolAction":"Uninstalling","toolSummary":"Prisma 7.x"}}},{"functionCall":{"name":"run_command","args":{"CommandLine":"npm install prisma@5.22.0 @prisma/client@5.22.0 -D","Cwd":"f:\\AUDIRA-WEB-GTA\\backend","SafeToAutoRun":false,"WaitMsBeforeAsync":20000,"toolAction":"Installing","toolSummary":"Prisma 5.22 stable"}}}]},"finishReason":"STOP"}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108800529","usageMetadata":{"promptTokenCount":190989,"candidatesTokenCount":269,"totalTokenCount":191258}}}
+
+data: [DONE]
+
+data: [DONE]
+

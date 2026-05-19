@@ -1,0 +1,31 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Sat, 16 May 2026 08:05:58 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=1432",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "Verifying"}]}}],"usageMetadata": {"promptTokenCount": 3819,"candidatesTokenCount": 2,"totalTokenCount": 3821},"modelVersion": "gemini-3.1-flash-lite","responseId": "ZSUIatvONKbNjuMP0O3T-Qk"},"traceId": "5b7ffd1e4a52eb4b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " Audira Router Startup\n\nMain Objective:\nConfirm the successful deployment and operational status of the AU"}]}}],"usageMetadata": {"promptTokenCount": 3819,"candidatesTokenCount": 21,"totalTokenCount": 3840},"modelVersion": "gemini-3.1-flash-lite","responseId": "ZSUIatvONKbNjuMP0O3T-Qk"},"traceId": "5b7ffd1e4a52eb4b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "DIRA-ROUTET platform following recent authentication and configuration fixes.\n\nGoals:\n1. Validate system connectivity by checking active"}]}}],"usageMetadata": {"promptTokenCount": 3819,"candidatesTokenCount": 47,"totalTokenCount": 3866},"modelVersion": "gemini-3.1-flash-lite","responseId": "ZSUIatvONKbNjuMP0O3T-Qk"},"traceId": "5b7ffd1e4a52eb4b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " processes and port binding (20128).\n2. Execute diagnostic verification scripts (`check_db.js`,"}]}}],"usageMetadata": {"promptTokenCount": 3819,"candidatesTokenCount": 72,"totalTokenCount": 3891},"modelVersion": "gemini-3.1-flash-lite","responseId": "ZSUIatvONKbNjuMP0O3T-Qk"},"traceId": "5b7ffd1e4a52eb4b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " `check_settings.js`) to ensure environment integrity.\n3. Test authentication flow to confirm administrative access is fully"}]}}],"usageMetadata": {"promptTokenCount": 3819,"candidatesTokenCount": 96,"totalTokenCount": 3915},"modelVersion": "gemini-3.1-flash-lite","responseId": "ZSUIatvONKbNjuMP0O3T-Qk"},"traceId": "5b7ffd1e4a52eb4b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " restored.\n4. Perform a live startup test using `start.bat` to ensure all microservices initialize correctly without"}]}}],"usageMetadata": {"promptTokenCount": 3819,"candidatesTokenCount": 120,"totalTokenCount": 3939},"modelVersion": "gemini-3.1-flash-lite","responseId": "ZSUIatvONKbNjuMP0O3T-Qk"},"traceId": "5b7ffd1e4a52eb4b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " conflict."}]}}],"usageMetadata": {"promptTokenCount": 3819,"candidatesTokenCount": 122,"totalTokenCount": 3941},"modelVersion": "gemini-3.1-flash-lite","responseId": "ZSUIatvONKbNjuMP0O3T-Qk"},"traceId": "5b7ffd1e4a52eb4b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EjQKMgEMOdbHzZpWXgSCJc5o4uKJ0GdCiJjdE4RKm0fhIkoIigXCCbFxOyFqfUdC+tJP//BJ","text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 3819,"candidatesTokenCount": 122,"totalTokenCount": 3941},"modelVersion": "gemini-3.1-flash-lite","responseId": "ZSUIatvONKbNjuMP0O3T-Qk"},"traceId": "5b7ffd1e4a52eb4b","metadata": {}}
+

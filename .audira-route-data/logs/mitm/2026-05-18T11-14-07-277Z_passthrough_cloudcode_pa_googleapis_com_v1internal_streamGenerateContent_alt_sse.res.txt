@@ -1,0 +1,29 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 11:14:08 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=563",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "Resolving"}]}}],"usageMetadata": {"promptTokenCount": 7414,"candidatesTokenCount": 2,"totalTokenCount": 7416},"modelVersion": "gemini-3.1-flash-lite","responseId": "gPQKav3GGO_HjuMP0LzJ-QQ"},"traceId": "f49df34203fa3b34","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " Toast Hydration Error\n\nThe user's objective is to resolve a Next.js hydration mismatch error caused"}]}}],"usageMetadata": {"promptTokenCount": 7414,"candidatesTokenCount": 23,"totalTokenCount": 7437},"modelVersion": "gemini-3.1-flash-lite","responseId": "gPQKav3GGO_HjuMP0LzJ-QQ"},"traceId": "f49df34203fa3b34","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " by the `ToastContainer` component incorrectly attempting to render a React portal during server-side rendering.\n\nGoals:\n1. Modify"}]}}],"usageMetadata": {"promptTokenCount": 7414,"candidatesTokenCount": 50,"totalTokenCount": 7464},"modelVersion": "gemini-3.1-flash-lite","responseId": "gPQKav3GGO_HjuMP0LzJ-QQ"},"traceId": "f49df34203fa3b34","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " the `ToastContainer` component to ensure it only renders after the component has mounted on the client.\n2. Implement a safe"}]}}],"usageMetadata": {"promptTokenCount": 7414,"candidatesTokenCount": 76,"totalTokenCount": 7490},"modelVersion": "gemini-3.1-flash-lite","responseId": "gPQKav3GGO_HjuMP0LzJ-QQ"},"traceId": "f49df34203fa3b34","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " mounting check using `useEffect` to prevent mismatches between the server and client HTML.\n3. Verify the fix eliminates"}]}}],"usageMetadata": {"promptTokenCount": 7414,"candidatesTokenCount": 100,"totalTokenCount": 7514},"modelVersion": "gemini-3.1-flash-lite","responseId": "gPQKav3GGO_HjuMP0LzJ-QQ"},"traceId": "f49df34203fa3b34","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " the hydration error while maintaining toast functionality."}]}}],"usageMetadata": {"promptTokenCount": 7414,"candidatesTokenCount": 108,"totalTokenCount": 7522},"modelVersion": "gemini-3.1-flash-lite","responseId": "gPQKav3GGO_HjuMP0LzJ-QQ"},"traceId": "f49df34203fa3b34","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EjQKMgEMOdbHjU11Lcv07V75eLkcT0QDzKb/uZKE9FVgPYtgRr7k85p0fCVORFpiltzfD8IX","text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 7414,"candidatesTokenCount": 108,"totalTokenCount": 7522},"modelVersion": "gemini-3.1-flash-lite","responseId": "gPQKav3GGO_HjuMP0LzJ-QQ"},"traceId": "f49df34203fa3b34","metadata": {}}
+

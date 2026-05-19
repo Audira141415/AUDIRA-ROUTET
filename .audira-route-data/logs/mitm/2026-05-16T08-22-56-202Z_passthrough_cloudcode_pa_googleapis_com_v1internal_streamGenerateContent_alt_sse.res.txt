@@ -1,0 +1,19 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Sat, 16 May 2026 08:23:00 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=3541",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "ErsECrgEAQw51seVoPLgOie8oGAk2NmCmCkoH0/YK7vu6dYaDZFOXihw88s1NlqmIeApvy+gsHgFE/9Kyt5AwYvyWSXyC+3Tij1zBC0n+T1M2pzXMej/ED6r1uUna3DEh1pmq3s+oJrGfP53z14TUl++slBZ++mWOncFQurV2w4BUU5cNhZmSp+MKvcnkwQBlQA5+6xEoj8StJTu5TzAXlzmcFAE9xHSFJQ0MMvTN1IMQ/fqeMvyCnLSqmpiPCWTlkTP+b1oy/L7cbItECP0cULvNRdysmC5HKFI13c1GpDqVEUe5YgQ8mMrNJFHbMS4veeQwc6E4Q53YNQvyQhD+u4NXrJJ8w22sGNilNow2lnsgcMyBHgn6LlnZHE7M31EVP0B52cDTlrkY0XKNIRKPvETn2ziXRvH6L4BJng+5MwSyZ4bLzzllt2NJshUAM3QHL9g4wd0l9cXVcGeGzwwXeA/Fu2yis23kKfGaAnrqJ0Wc1nZ3P4d2p0lhZdIL1xwwzDN73GNvLuh+S64up+1TwSDl0/jmgiFIhrO9B3PfLrruym6e3L3FWAq0mEHFVd6NrrCaPv+SJ4V3x15yeAb7ElnCQuhreNcZTnDkyV0LZPzIfpt7xy0CmQ8lPD3+a6ka0MxNonVybEfqbaeVf1rhjp/uS7FMLVhOkpQ8kFOGBOvXparOVI1WMlTvp5ehJ/7wVTSGlZdA8qoVzpX61VaaNU3qJIo6AutQKUJmeyvLd3UYerdY5Mu1gBgPFmjaw==","functionCall": {"name": "list_dir","args": {"toolSummary": "Directory listing","DirectoryPath": "f:\\AUDIRA-WEB-PERFECT-WORLD","toolAction": "Listing root directory contents"},"id": "tn90jeyw"}}]}}],"usageMetadata": {"promptTokenCount": 14512,"candidatesTokenCount": 46,"totalTokenCount": 14668,"thoughtsTokenCount": 110},"modelVersion": "gemini-default","responseId": "YikIauzQKcfKjuMPp7OW2Ao"},"traceId": "f842674378c28d12","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 14512,"candidatesTokenCount": 46,"totalTokenCount": 14668,"thoughtsTokenCount": 110},"modelVersion": "gemini-default","responseId": "YikIauzQKcfKjuMPp7OW2Ao"},"traceId": "f842674378c28d12","metadata": {}}
+

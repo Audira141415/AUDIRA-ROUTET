@@ -1,0 +1,23 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 05:36:16 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=2176",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "I will wait"}]}}],"usageMetadata": {"promptTokenCount": 21425,"candidatesTokenCount": 3,"totalTokenCount": 21517,"thoughtsTokenCount": 89},"modelVersion": "gemini-3-flash","responseId": "TqUKauX6IOmwg8UPm7Gm6Qw"},"traceId": "874736c08b32ad18","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " for 2 seconds to allow the page navigation transition to complete."}]}}],"usageMetadata": {"promptTokenCount": 24738,"candidatesTokenCount": 16,"totalTokenCount": 24843,"cachedContentTokenCount": 16259,"thoughtsTokenCount": 89},"modelVersion": "gemini-3-flash","responseId": "TqUKauX6IOmwg8UPm7Gm6Qw"},"traceId": "874736c08b32ad18","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "ErEDCq4DAQw51sfRe8R1sbcIRttz9rdpm8X4FWymsuNrRZ/t9Zfdg52gEzJFPwMmHXRfqTJOUJzw1OopXuyroCEvcvtGV3Ka+dlKGBVWYUh2838Ba/IgkyXXswulqraKDlTNJbqx0k1YVNl+zGEtUxHg2yd51GWfFDi/MHwWW+RV5ntkdQo5n98/ZQaXbB+hseZdn/V3eQaGukj8X0DPMqAZyTx86jdATS2XpHQ45DfvTeW5aMX2gpMwHN3HYgVdBjW/b4V18w+bPz3aRkFDi/VIUhD0we0tZoK5V0yerKaEAabBuR3iHGRlGjQJrD5JdoDOpfACkMtDYcxpYKMK8BsQ4hn74a97HBOb+TT0ZC1uuzdRXPYhlihkHWsYSRo8q5jsm/9linumOczn9n2vBPbHJ7S6VJgZaWMi41/rFfK3LjACD97oeo/vnrnISL4LV5y5IQBBAH7YUePu6KShQ2QfKcBh/+6RyiI6mUIU0+4dMMN4qR5dhRdSUK6ZKMn7YJVgD8zk/v/S+FHeaeBdv6bO7Po7iKH9c2YdhQmksQNKlTayoKrghGxQakrPiRWR766a1g==","functionCall": {"name": "wait","args": {"explanation": "Wait for 2 seconds for page navigation transition","toolAction": "Waiting for transition","toolSummary": "Wait","duration_ms": 2000},"id": "u74l5ags"}}]}}],"usageMetadata": {"promptTokenCount": 24738,"candidatesTokenCount": 63,"totalTokenCount": 24890,"cachedContentTokenCount": 16259,"thoughtsTokenCount": 89},"modelVersion": "gemini-3-flash","responseId": "TqUKauX6IOmwg8UPm7Gm6Qw"},"traceId": "874736c08b32ad18","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 24738,"candidatesTokenCount": 63,"totalTokenCount": 24890,"cachedContentTokenCount": 16259,"thoughtsTokenCount": 89},"modelVersion": "gemini-3-flash","responseId": "TqUKauX6IOmwg8UPm7Gm6Qw"},"traceId": "874736c08b32ad18","metadata": {}}
+

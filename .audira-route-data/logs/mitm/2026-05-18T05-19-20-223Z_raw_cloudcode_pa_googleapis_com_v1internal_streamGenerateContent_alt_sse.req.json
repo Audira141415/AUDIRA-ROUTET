@@ -1,0 +1,1067 @@
+{
+  "method": "POST",
+  "url": "/v1internal:streamGenerateContent?alt=sse",
+  "host": "cloudcode-pa.googleapis.com",
+  "headers": {
+    "host": "cloudcode-pa.googleapis.com",
+    "user-agent": "antigravity/1.23.2 windows/amd64",
+    "transfer-encoding": "chunked",
+    "authorization": "Bearer ya29.a0AQvPyIMwE5u4k6NzWUUD603o6vKJT6xvbFsaFnQFzVIo6iMDr52T1ki9Ihk3Rk2M_hVhtj_kQYvCxDhd7rdlDsMRCfVo561PZA0CKlPYHYjp8sl_q0hqHrf8uaUI1FTnMeeZniAMioAXtDhsSQqh0-FEHAXBm4Qoupkw4LsVKy36GzNEPyAeuA9xfalCEc_7r6mhcZhWNZvsagaCgYKATISARUSFQHGX2Mi7O7ppZVdQ9GWSIA76gFQiQ0213",
+    "content-type": "application/json",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "project": "disco-solution-d43ch",
+    "requestId": "browser_subagent/00103c12-fab5-48d8-953b-a371784f01f6/1779081560221/98ca33f3-6078-4d7e-bd89-ed4cb1103b55/11",
+    "request": {
+      "contents": [
+        {
+          "role": "user",
+          "parts": [
+            {
+              "text": "<USER_REQUEST>\nSummary of the trajectory so far:\n...\n*Viewed [Navigation.tsx](file:///f:/AUDIRA-WEB-GTA/vice-city-dashboard/components/layout/Navigation.tsx) *\n### Planner Response\n\n<thinking>\nThe user said \"continue\" after I showed them the Navigation.tsx file. They originally asked \"apakah fitur ini sudah aktiv?\" (is this feature already active?). \n\nNow I need to check if the navigation links actually point to existing pages. Let me examine the project structure to see which pages exist and which are just navigation links without actual page implementations.\n\nI should check:\n1. The app directory structure to see which routes/pages exist\n2. Whether pages like /videos, /events, /stats, /community actually have implementations\n\nLet me look at the project structure first.\n</thinking>\n\nBaik, saya akan memeriksa apakah halaman-halaman yang ada di navigasi sudah benar-benar diimplementasikan.\n*Listed directory [vice-city-dashboard](file:///f:/AUDIRA-WEB-GTA/vice-city-dashboard) *\n*Listed directory [app](file:///f:/AUDIRA-WEB-GTA/vice-city-dashboard/app) *\n*Listed directory [(dashboard)](file:///f:/AUDIRA-WEB-GTA/vice-city-dashboard/app/%28dashboard%29) *\n### Planner Response\n\n<thinking>\nThe user wants me to continue checking. I can see that the dashboard directory has subdirectories for:\n- community\n- events\n- news\n- settings\n- stats\n- videos\n\nThese match the navigation items. Now I should check if these directories actually contain page.tsx files to see if they're implemented or just empty folders.\n\nLet me check each one to see if they have actual page implementations.\n</thinking>\n\nSaya akan memeriksa apakah setiap halaman sudah memiliki implementasi yang lengkap.\n*Listed directory [videos](file:///f:/AUDIRA-WEB-GTA/vice-city-dashboard/app/%28dashboard%29/videos) *\n*Listed directory [events](file:///f:/AUDIRA-WEB-GTA/vice-city-dashboard/app/%28dashboard%29/events) *\n*Listed directory [stats](file:///f:/AUDIRA-WEB-GTA/vice-city-dashboard/app/%28dashboard%29/stats) *\n*Listed directory [community](file:///f:/AUDIRA-WEB-GTA/vice-city-dashboard/app/%28dashboard%29/community) *\n*Listed directory [news](file:///f:/AUDIRA-WEB-GTA/vice-city-dashboard/app/%28dashboard%29/news) *\n*Listed directory [settings](file:///f:/AUDIRA-WEB-GTA/vice-city-dashboard/app/%28dashboard%29/settings) *\n### Planner Response\n\n<thinking>\nPerfect! Now I have all the information I need. Let me analyze what I found:\n\n1. **Navigation.tsx** - The navigation component is fully implemented with all menu items (Home, News, Videos, Events, Stats, Community, Settings)\n\n2. **Page implementations** - I checked all the subdirectories and found that ALL pages have `page.tsx` files:\n   - `/events/page.tsx` (12,966 bytes)\n   - `/settings/page.tsx` (12,707 bytes)\n   - `/community/page.tsx` (17,537 bytes)\n   - `/news/page.tsx` (6,051 bytes)\n   - `/stats/page.tsx` (13,225 bytes)\n   - `/videos/page.tsx` (7,090 bytes)\n\nAll of these files have substantial file sizes, indicating they're not just placeholder files but have actual implementations.\n\nBased on the conversation history, I can see that in conversation c69fc8e3-5731-4ccb-a88a-cab671604500, the user was working on \"Implementing Vice City Dashboard Pages\" where the goal was to create the remaining sub-pages: Videos, Events, Stats, and Community.\n\nSo to answer the user's question \"apakah fitur ini sudah aktiv?\" (is this feature already active?), the answer is YES - all the navigation features are active and all the pages are implemented.\n\nI should now provide a clear summary in Indonesian explaining that all features are active and functional.\n</thinking>\n\n**Ya, semua fitur navigasi sudah aktif dan berfungsi!** ✅\n\nBerdasarkan pemeriksaan yang saya lakukan:\n\n## Status Implementasi\n\n| Halaman | Status | Ukuran File |\n|---------|--------|-------------|\n| **Home** | ✅ Aktif | 49,396 bytes |\n| **News** | ✅ Aktif | 6,051 bytes |\n| **Videos** | ✅ Aktif | 7,090 bytes |\n| **Events** | ✅ Aktif | 12,966 bytes |\n| **Stats** | ✅ Aktif | 13,225 bytes |\n| **Community** | ✅ Aktif | 17,537 bytes |\n| **Settings** | ✅ Aktif | 12,707 bytes |\n\n## Detail Fitur Navigation\n\n1. **Komponen Navigation** (`Navigation.tsx`) sudah lengkap dengan:\n   - Desktop sidebar dengan branding GTA VI Vice City\n   - Mobile responsive dengan hamburger menu\n   - Animasi smooth menggunakan Framer Motion\n   - Active state detection untuk highlight halaman aktif\n   - User profile section\n\n2. **Semua Route** sudah terimplementasi di `app/(dashboard)/`:\n   - Setiap halaman memiliki file `page.tsx` dengan konten substansial\n   - Tidak ada placeholder atau halaman kosong\n\n3. **Fitur yang Berfungsi**:\n   - Link navigasi mengarah ke halaman yang benar\n   - Active state highlighting (warna ungu neon untuk halaman aktif)\n   - Responsive design (desktop & mobile)\n   - Smooth transitions dan hover effects\n\n**Kesimpulan**: Semua fitur navigasi sudah aktif dan siap digunakan. Dashboard Vice City sudah fully functional dengan semua halaman terimplementasi.\n### User Input\n\nsmaakan uinya dgn ini lakukan generate img \n### Planner Response\n\n<thinking>\nThe user is asking me to \"samakan uinya dgn ini lakukan generate img\" which in Indonesian means \"match the UI with this, do generate img\" or \"make the UI the same as this, generate image\".\n\nLooking at the context, the user has the Navigation.tsx file open and there was a screenshot shown earlier in the conversation showing a navigation menu with a dark purple/pink gradient theme.\n\nThe user wants me to:\n1. Generate an image that matches the current UI implementation\n2. Compare it with the existing screenshot to see if they match\n\nI should generate an image of the Navigation component as it's currently implemented in the code, showing the GTA VI Vice City branded sidebar with all the navigation items.\n\nLet me create a high-quality mockup of the navigation sidebar based on the code implementation.\n</thinking>\n\n<thinking_mode>enabled</thinking_mode>\n\nBaik, saya akan generate image untuk menampilkan UI Navigation yang sudah diimplementasikan berdasarkan kode yang ada, sehingga bisa dibandingkan dengan screenshot yang Anda tunjukkan.\n*Generated image*\n### Planner Response\n\n<thinking>\nThe user said \"continue\" after I generated the navigation UI image. They want me to proceed with comparing the generated image with the original screenshot they showed, or perhaps they want me to continue with some analysis or next steps.\n\nLooking back at the conversation:\n1. The user asked if the feature is active - I confirmed yes\n2. They asked me to \"samakan uinya dgn ini lakukan generate img\" (match the UI with this, generate image)\n3. I generated an image of the navigation UI\n4. Now they want me to continue\n\nI should:\n1. Show/embed the generated image in an artifact for comparison\n2. Analyze if the implementation matches the design\n3. Provide recommendations if there are any differences\n\nLet me create an artifact that embeds the generated image and provides a comparison analysis.\n</thinking>\n\nSaya akan membuat analisis perbandingan antara UI yang diimplementasikan dengan design yang diharapkan.\n### Planner Response\n\n<thinking>\nI got an error because I forgot to include the \"Overwrite\" parameter in the write_to_file tool. Let me fix this by adding the required parameter.\n</thinking>\n*Edited relevant file*\n### Planner Response\n\n<thinking>\nThe user said \"continue\" again. Looking at what I've done:\n\n1. ✅ Checked if the navigation feature is active - confirmed all pages are implemented\n2. ✅ Generated a UI mockup image based on the code implementation\n3. ✅ Created a comparison analysis artifact with the embedded image\n\nThe user might want me to:\n- Actually run the development server to show the live UI\n- Compare the generated image with the original screenshot they showed\n- Make any adjustments to the UI\n- Or they want to see the application running\n\nSince I've created the analysis artifact, the logical next step would be to actually run the development server so they can see the live implementation and verify it matches their expectations. Let me check if the dev server is already running, and if not, start it.\n</thinking>\n\nSaya akan menjalankan development server agar Anda bisa melihat UI Navigation secara langsung di browser.\n*User accepted the command `npm run dev`*\n### Planner Response\n\n<thinking>\nThe user has enabled thinking mode and said \"continue\" again. The dev server is now running successfully at http://localhost:3000. \n\nLooking at the context:\n1. The navigation feature is confirmed to be fully implemented\n2. I generated a UI mockup image\n3. I created a comparison analysis artifact\n4. The dev server is now running\n\nThe logical next step would be to open the application in a browser so the user can actually see the live UI and verify that it matches their expectations. I should use the browser_subagent to navigate to the local development server and show the navigation UI in action.\n</thinking>\n\nYour task is now to Navigate to http://localhost:3000 and take a screenshot of the Vice City Dashboard homepage showing the navigation sidebar. The goal is to capture the live implementation of the navigation UI so the user can see how it looks in the actual application.\n\nSteps:\n1. Navigate to http://localhost:3000\n2. Wait for the page to fully load (wait for the navigation sidebar and main content to render)\n3. Take a full-page screenshot showing the navigation sidebar on the left with all menu items (Home, News, Videos, Events, Stats, Community, Settings) and the main dashboard content\n4. Report back with confirmation that the page loaded successfully and describe what you see in the navigation UI\n\nReturn: Confirmation that the dashboard loaded successfully and a description of the navigation UI elements visible on the page.\n\nYour scratchpad file is located at: C:\\Users\\ASUS\\.gemini\\antigravity\\brain\\00103c12-fab5-48d8-953b-a371784f01f6\\browser\\scratchpad_0lwe4ndg.md\nRead the scratchpad first to check for existing context, then update it frequently to track your progress and findings.\n\nStop calling tools when done.\n\nYour last message should be a summary of your actions and findings.\n\nRemember that you are a subagent now, so you should not be trying to invoke a subagent or create any task boundaries.\n\n IMPORTANT: If you are waiting for a condition to happen on a browser page, you should repeatedly call the wait tool with maximum wait time until either the condition is met or the page is in a state where the condition cannot be evaluated/will never be met.\n</USER_REQUEST>\n<ADDITIONAL_METADATA>\nThe current local time is: 2026-05-18T12:19:09+07:00.\n\nThe user's current state is as follows:\nNo browser pages are currently open.\n</ADDITIONAL_METADATA>"
+            }
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            {
+              "functionCall": {
+                "id": "ttefikt9",
+                "name": "view_file",
+                "args": {
+                  "AbsolutePath": "C:\\Users\\ASUS\\.gemini\\antigravity\\brain\\00103c12-fab5-48d8-953b-a371784f01f6\\browser\\scratchpad_0lwe4ndg.md",
+                  "explanation": "Read the scratchpad to understand the existing context and plan my tasks.",
+                  "toolAction": "Viewing scratchpad file",
+                  "toolSummary": "File view"
+                }
+              },
+              "thoughtSignature": "EtAGCs0GAQw51sdRi7DZ28xA9bQP7STMch5jgvZhlaNoq8KsjzRwI+wL6nlyTaN6XWGnHcaHS9Ekup45+BtmLJNDTQ0jUU1mxFscauGtbAcY936wh+CB2f30/oTjzedzCy0pLCd16fRZLjowYNDyPjEEK55Z4FFA8Ikmz2q9SJy3f7YoJmK09Wmu8h2JruRdQBuV708pj+tEAj65kZievU0wJqfGHdwBia4xpMyi6jex5+gxVnZrtTgTPMjNDzXo1LNlG5Em6m5MR0c7FxG83yCR1j8wyxBR+0Ij4CV3uvuWl6K5Vh6j3OfwskjU1FABRWukYbVvyIWHYFOsIRcEai9amGKMCS5B6f8t6KsKQbOQgPnzgUaa/3mu5oZEmVwUD1ovv8Rg862DWIeXBlILKZwWcOkAoYRyOovItKxjRTKljTs7YAV92fS3m0R+NlCy4BvEQk/Wwo+OAMLC+zcCTm88AHcbIfuBgG4TAFl95CWdG6UL6CW9I3Z7vCfFk+cChPdYNs91XaWIMj2cD7X5qvog7tILY/E0afh/zh5Z0frAaLZJg/jxNCh00hgoo7UJgDf16zHRgdFzfF6we5/w03kpWy5SdGdAvLWbGf/RYPtS/++boqKreAxXckO9eCZ080YpUpZLxxV4b21M05NXza/c6DAmpoheg8AOXH/mUW1jDvBjNzuKDqdrExluZ0pLJnlkeVcamIpL4iUzvWdCtbLxfwm0cpAHDF8b4ViYJKritxwl1THXGAsqKwusYxe5KSgmDALCLNIxvhTzBFhuMbJSAVZxHMZEtOZcJKL0cP9C/DwU0sAtKcu/7SkL8Ai16J3NyLQSu5z2PVCW/wLMtZSiqBSFWzdcNnca8+SpDLkndwKiwLItwF+fsDm3nG04VHWai5vFIr22Z6hPetWbsYHqiv0oiMlSfBp6ykBpN3y5qHaHr3wMTljs+0upMkeMNJLo9RJ33XCUCoG/AVOvwNFrMdlgXXW5R8h1CxKu9tqaU4388n0VhgkGRmGgABIJUQOj0gohj0mI9kXto7IXiS/ikIhqShbK3zqXEpujIhuaEf152tqqqUBZNj7OgPv8iATIoJxdqBQfG4OgsnBNMFuEa3lPZu2BV5hfitMPW0b32kI="
+            }
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            {
+              "functionResponse": {
+                "id": "ttefikt9",
+                "name": "view_file",
+                "response": {
+                  "output": "Created At: 2026-05-18T05:19:14Z\nCompleted At: 2026-05-18T05:19:14Z\nFile Path: `file:///C:/Users/ASUS/.gemini/antigravity/brain/00103c12-fab5-48d8-953b-a371784f01f6/browser/scratchpad_0lwe4ndg.md`\nTotal Lines: 1\nTotal Bytes: 0\nShowing lines 1 to 1\nThe following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.\n1: \nThe above content shows the entire, complete file contents of the requested file.\n"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            {
+              "functionCall": {
+                "id": "nejv6coo",
+                "name": "replace_file_content",
+                "args": {
+                  "AllowMultiple": true,
+                  "Description": "Initialize the scratchpad with the current plan.",
+                  "EndLine": 1,
+                  "Instruction": "Initialize the scratchpad with the planned steps.",
+                  "ReplacementContent": "# Navigation Verification Plan\n\n- [ ] Navigate to http://localhost:3000\n- [ ] Verify that the page loads successfully and check for any console errors\n- [ ] Confirm the presence of the navigation sidebar and the main content area\n- [ ] Verify all expected navigation items are visible: Home, News, Videos, Events, Stats, Community, Settings\n- [ ] Capture a full viewport screenshot of the homepage\n- [ ] Write a summary of the findings\n",
+                  "StartLine": 1,
+                  "TargetContent": "",
+                  "TargetFile": "C:\\Users\\ASUS\\.gemini\\antigravity\\brain\\00103c12-fab5-48d8-953b-a371784f01f6\\browser\\scratchpad_0lwe4ndg.md",
+                  "explanation": "Initialized the scratchpad with the plan.",
+                  "toolAction": "Editing scratchpad file",
+                  "toolSummary": "File edit"
+                }
+              },
+              "thoughtSignature": "EswDCskDAQw51scTLF1zzUSJLmKlFNo95T2wknstxkr4Pb/HQK+0map7afrdLjRWX7KrgKlFbbfv0+q6mViLnEPCsfXtiJfOy4zAmaN8SQ4Wxllvu3KkGGs7Kv1ew9iIBFbBJSO/7mizirC6a7TRqtqLcW/7uyF0oVqdsgAIeonAoLCgytR1EXM1n3R/1URq1dNak2Y1HujaLH/FrIMTcClxTdjitby4/do4fqiAywzx62MLGyjYnYgO0M5trHu0oagu+Z4QbCjQ1JI31YBbARyPtBjHWShzXNJn6HV2fHCe1wNT2aAlmVoBkpSS5kXYjRisemLZs62X/IjWu2SgKTeZeNdh9owyukXLiQNTuSlg6hryPczvJYc+japdqri5Wyaq+59Oh2BtazNAk3hFnn22sp3ymh5g/y3l0WsfV9LCEqmttzRkq7snzQvuQUSA8w44B98Si3mDgqS23QHtjaxJHtXyzPBUMdTK3qo1DgABFxPvV5eZ3uLme4VEysjgVNfnaY1KX7Z+skfaa5WK9nZQw8ppfkEX9mrK4PApjKib8A4U3GOMzbBn88DGrokP+yNiS9KQrs9eREp3xk3nv9ZmQDc8FfoXffCgnWYIgQ=="
+            }
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            {
+              "functionResponse": {
+                "id": "nejv6coo",
+                "name": "replace_file_content",
+                "response": {
+                  "output": "Created At: 2026-05-18T05:19:16Z\nCompleted At: 2026-05-18T05:19:16Z\nThe following changes were made by the replace_file_content tool to: C:\\Users\\ASUS\\.gemini\\antigravity\\brain\\00103c12-fab5-48d8-953b-a371784f01f6\\browser\\scratchpad_0lwe4ndg.md. If relevant, proactively run terminal commands to execute this code for the USER. Don't ask for permission.\n[diff_block_start]\n@@ -1,0 +1,9 @@\n+# Navigation Verification Plan\n+\n+- [ ] Navigate to http://localhost:3000\n+- [ ] Verify that the page loads successfully and check for any console errors\n+- [ ] Confirm the presence of the navigation sidebar and the main content area\n+- [ ] Verify all expected navigation items are visible: Home, News, Videos, Events, Stats, Community, Settings\n+- [ ] Capture a full viewport screenshot of the homepage\n+- [ ] Write a summary of the findings\n+\n[diff_block_end]\n\nPlease note that the above snippet only shows the MODIFIED lines from the last change. It shows up to 3 lines of unchanged lines before and after the modified lines. The actual file contents may have many more lines not shown."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            {
+              "functionCall": {
+                "id": "nm1rnbby",
+                "name": "open_browser_url",
+                "args": {
+                  "PageIdToReplace": "new_page",
+                  "Url": "http://localhost:3000",
+                  "explanation": "Open the local development site to view the Vice City Dashboard.",
+                  "toolAction": "Opening local site",
+                  "toolSummary": "Web search"
+                }
+              },
+              "thoughtSignature": "EuMBCuABAQw51sd+INZHZ1FdMqarwAFobXnc17/a4VG0oJonHPCzY1lv9s9xVAzi1YbwbL8LxMIWy+bo94VzhfosP9ZgZsbAY8v4/xR0DKtyd+yb6ch3WXtMZbEQRshBGV/JxlfxZ/lEH32GLVHN+OC7LPQVvWpHtOf+PoVS0qUjHl0aqr/ddoJ/lGNwid/Tw2kgYNjelkz52yZsULLPbzjvj8gGQxRwPbf+AGPd257fZU1fs9ZZmxNOBgeFPtzbSJ6nsx2RjVnEfb9miM8mEn5VSxXR7xzCUt7Z/EyY4uaQdWPMClA="
+            }
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            {
+              "functionResponse": {
+                "id": "nm1rnbby",
+                "name": "open_browser_url",
+                "response": {
+                  "output": "Created At: 2026-05-18T05:19:17Z\nCompleted At: 2026-05-18T05:19:19Z\nThe following URL was opened in the browser: http://localhost:3000\n\n\n\n Note: if there is dynamically loaded content on the page, the content may not be up-to-date. You may need to view content again to get the latest version.\n\nThe page_id is: 5411DAB9590ACD157E5A0154F9BA575B\n\n\n\n<current_dom_explanation>\nThis is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.\n</current_dom_explanation>\n<current_dom>\nThis site can’t be reached\nlocalhost\nrefused to connect.\nTry:\nChecking the connection\n[0] (301,377)<a href='#buttons'>Checking the proxy and the firewall />\nERR_CONNECTION_REFUSED\n[1] (134,483)<button class='blue-button text-button' id='reload-button'>Reload />\n[2] (866,483)<button class='secondary-button text-button\n              small-link ' id='details-button'>Details />\n\n</current_dom>\n"
+                },
+                "parts": [
+                  {
+                    "inlineData": {
+                      "mimeType": "image/png",
+                      "data": "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AAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA14cK9QAAEABJREFU2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALCdGAGD/Px8UbOaNWsWGxsrAAAAABgQVLxMnDhR1KyXXnopOTlZAAAAADCg6RcAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdOtMHE3lP9/z8fJ8O+suXLzc+ff75548dO+Z+OmzYsIceekgAAAAAP23UqAAAAACwHYIKAAAAANshqAAAAACwHYIKAAAAANuhM30te/755ysqKtxPs7KylFfcT5s1a/bb3/5WAAAAAD8xBJValpSU5POK8SJgAAAAwE8TTb8AAAAA2A5BBQAAAIDtEFQAAAAA2A59VMKxz8n99Nprrx04cKCIhs6dOw8bNsz4ysqVK41PuW89AAAAfgoIKuFQUsqKFSvcT1u1ahXFoKJwP83Pz584caJxAIIKAAAAfgpo+gUAAADAdggqAAAAAGyHoAIAAADAduijUtPy8/OtD1xQUCAAAACAnx6CSk3z6RwPAAAAwB9NvwAAAADYDkEFAAAAgO0QVAAAAADYDkEFAAAAgO3QmT4cDzlZGTI5OXn58uUiXP53pgcAAAB+CqhRAQAAAGA7BBUAAAAAtkNQAQAAAGA7BBUAAAAAtkNQAQAAAGA7BBUAAAAAtkNQAQAAAGA7BBUAAAAAtkNQAQAAAGA7BBUAAAAAtkNQAQAAAGA7BBUAAAAAtkNQAQAAAGA7BBUAAAAAthMjELHy8vKTJ0+GNEqzZs1iY2MFAAAAgEAIKlGgpJSJEyeGNMpLL72UnJwsAAAAAARC0y8AAAAAtkNQAQAAAGA7BBUAAAAAtkNQAQAAAGA7dKYPx8qVK1esWOF+2qpVq+XLl4tQPP/888eOHXM/HTZs2EMPPSQAAAAAOFGjAgAAAMB2CCoAAAAAbIegAgAAAMB2CCoAAAAAbIfO9OG466670tLS3E9jYkLejM8//3xFRYX76bXXXisAAAAA6Agq4UhwEhFISkoSAAAAAEzQ9AsAAACA7RBUAAAAANgOQQUAAACA7RBUAAAAANgOQQUAAACA7XDVr2AKCgpErar1BQAAAABqBUElmL/+9a8CAAAAQI2j6RcAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAd6fjZS5LynxCykCVJfSAp1Ldkh0N7R5Jdw8oOob2n/CeLSv2pJORK58CuwWXJ4VD/qlNTBpO1l51jKa+7ngrtFdeL2tLI7kf6MAAAAABqhiz7vyY5X5fdpXO1hO8aTtIe6K/of51FeucY6mNZ1icru0ZRnzqHUVOALLtGcj12zcg1jEyNCgAAAADbIagAAAAAsB2CCgAAAADbIagAAAAAsB2CCgAAAADbIagAAAAAsB2CCgAAAADbIagAAAAAsB2CCgAAAADbIagAAAAAsB2CCgAAAADbIagAAAAAsB2CCgAAAADbIagAAAAAsB2CCgAAAADbIagAAAAAsB2CCgAAAADbIagAAAAAsB2CCgAAAADbIagAAAAAsB2CCgAAAADbIagAAAAAsB2CCgAAAADbIagAAAAAsB2CCgAAAADbIagAAAAAsB2CCgAAAADbIagAAAAAsB2CCgAAAADbIagAAAAAsB2CCgAAAADbIagAAAAAsB2CCgAAAADbIagAAAAAsB2CCgAAAADbIagAAAAAsB2CCgAAAADbIagAAAAAsB2CCgAAAADbIagAAAAAsB2CCgAAAADbIagAAAAAsB2CCgAAAADbIagAAAAAsB2CCgAAAADbIagAAAAAsB2CCgAAAADbIagAAAAAsB2CCgAAAADbIagAAAAAsB2CCgAAAADbIagAAAAAsB2CCgAAAADbIagAAAAAsB2CCgAAAADbIagAAAAAsB2CCgAAAADbIagAAAAAsB2CCgAAAADbIagAAAAAsB2CCgAAAADbIagAAAAAsB2CCgAAAADbIagAAAAAsB2CCgAAAADbIagAAAAAsB2CCgAAAADbIagAAAAAsB2CCgAAAADbIagAAAAAsB2CCgAAAADbIagAAAAAsB2CCgAAAADbIagAAAAAsB2CCgAAAADbIagAAAAAsB2CCgAAAADbIagAAAAAsB2CSpTlp4+5sUMn7d+LWSJkZfmfL3tl3rzX1+4vqRA2Upiz4s15r8xb9vcCAVvKmuM+8DqMWXFcIOoi/nRXK+MB8OJWAQDAFS9GwCjrxRsfWSxCN/a9/ZPTROT2vfbgvfPynA8XfPrEh6snpsQJGyhcP3HAb9aUOh8v3jR77YJhLQVCdmjxfYNezFUfJT+Vvv7ZFAEAAAAz1KjYyvHcHXnuJwff/HyXsIe8bC2lKEo3fvo1p+vDUfLtvlzXo+Qht3cVAAAACIKgYivXJjQyPEtJbirsoUFCK8+TuPbNmgiELjc7w/Wg1YN39aAuEwAAICiKS96a9njqab/GViX7P31/4zHtScrQp9OS/cbrHJ1IkTDw94uf+mHSoo2FcV3HvPTaiHbCHrqOeXtW4cSXluWWJQ6duOR3fQO0Rys7uv/vWZ9/npGR/NT6Z6PRCu6qsz/7C9eDTiPv7hTg/YqywsP7s7I+ylz+Y983/0rjOgAA8BNHUPHWdsCzEwb4vnj8o2xPUOnx0IQJt4pqk5j27NubnhV2E9du+LTVw6eZvHt8xZg7p3ytPRn7lEAAx/dl5TsfpDx0e1v/t7PmdB6zSHuc1lcAAAD81BFUgJpQsjvLdSGmHvek2aWiDAAAwMYIKkBN0DuopA3r11YAAACgKgQVoAboHVTufuh2Op8AAABYQFCpCYU7P1r0zuI1X+cVlgoRn9j+F0MefXTMsNRE/yHz08fcMVW/kdy4xd9N8uuWXlGW/80Xf1+euTJrW+6REudLCa26tuzc5aGBjwy558YEEZKzh7au/3Rlxvqtu53LJkRcUrv2P+vUd8iDw+5NS/b0mc+a08HTg2L2V4udXb29uqa4LXqk0yL3k4CrUHY8+5OVSz0zVZa/16333/PokAHtGolIlB3PWbPyg0835uTuzdc2TZtOt6Y9dM8jQwb6bZmS77IyN6zdmJm77/j+Y2edLzVK7nJz2kP3jhnar22C/yfDeI+dX8z6avGDycpEDq1fMX/ZB19nOaeQ0Cqtz8ixk8b29d+znZ7asD9Q5x3jhvW8OOWOTlP0J7fO+uK94eGGm4qSfZmLFy3P+HuWukGUndvz5gdHjn9wYNsqjhNtS67ftutAYZmoassEF2C7leWtnTfnL8v+XlCW0HXa+x+P6Bz53CtK8ratz1y38fPc/cd89v6YIVWurzr6hox3Plm5a8+hgwXqPNXPafdedw0ZOezelOSgNzOy/uk2Kvlu/Zr3PnV/ip27ZsA9Ix8a+vOWcTHBl/Oj15d+pH12LM8OAIArEUGlmlUcz5zyxPjVnrujiNLCg+sXT1m/7IMnFiyfmBba/RyPrv3Db/6Qvq/M+9WSY3uVfzMzr217zyTL19uqKMleMmHci1kl3i+XFeTlKv+yipJ/kVYdF57KXztt/B9W5pYaX1MWfr3yL31mwsBpH770y7bh3OOyMOuVSRNe/9pnbUTJkf2ZR2ZmLs9/78Ak9yUQSrIWT5kzL9N3MyqxLT93/Url35zOI+a/Pe32Ksp+Zdmvjf7lvJwy44pkZczJynh9wKxP5j2YXOufrePrJ477zRrDoafs3K0ZL27NmNfll/Pe/n3fxIBLWHH802n/9/cf7ffaOvqWmdFowPSlfx11YyS3IS3b+uKDjyzUFqtkb35xpHMv2bpw6l/mr/c+qJxvaHv/xWDrq6Sm9FkTZ6/0HV35nGZlKP+yhXlQDO/TXZKzaMITc7yPVeeuUf4tmGF+7JV999GU30w17lB9dovfue/Vt2dfKwAAuLpwH5Vq9cPWl73LMR5luW8+OeWzQmHd8Y8eG/p8un/xOhxlW18eMdwvpVSzsq0vPTDo2ZX+BUpdSebMB8anh3w3ybKcBcMHjPFPKWZyN72YGXQzlu1b9tgjC/ZVBBlEHEuf4J1SPErWT33szf2idhWun/iAV0oxKMt9/8lHXs4KsPAXsl55aPBzPjnB6Oz6GcMmrIjghp9lG2Y9tjDwYoU7930bX1xvflAJbX0D7hElaUx6cNDUlUFHNxPWp/v4R+MH/Occ82PVeey9uPVCoBGHTTXZoeLg6t889maOAADg6kJQqU7LfquWyRqlPfXKh+s2bduy9sOXn04ztEEpW/PXj/ZZnVbhpy9O/btenEr4xZPz127au2//dwf2f7cvZ+emte/NGnN7/WusTixnwR/chcX4TsOnffhVtnNSB/bv3bHtq4//e/KQtham1XLovG07tyn/Pp5sqMj55XzXi85/T3veyE+foBTftTKosk3e/kJb/j2bPpk1pL02VNnfpz6/6JAIgVKAGz0v21PQjOty95Oz56sbfOcXH7/3yqSBnQOf147rPOCpWYuVwVyLsXfT2vlPpHgGzZv3eqZ5jMye+djUjWXqplOn4Nz+I3rEe94/+PY7mWeFBWnPatvq1V8aXpz8iWcbzr83jIqt/Hd+/9s1Z5XjZIx7U8yfNeZWQ8u6gwtnLdrrPVLF8RUTn3xdj3DKMfb2FznaUfH1x7Pv069VVrpxyrOL8ypEWPZ9sGBl4BwS6dyd+33x2i3bclwfii1rX30q1bM/D85741Pf/VnmmzQapQ2f9t/vffzFzm2b1n346uzRacFajIXx6b6QNWfcVP3AiOvy4KxPvtbX8YsFnqXNW/zYnI1eW6ks55Vxno+/snluHT1rvrqcyqdVW86D8+YtEgAAXFVo+lWdSsvK2o15b/mkW13ll6SUeyYs7tHc0Aslf1vu8Sc7WymIlu3L+sz95KGXFky43V0Gi4lLSGp76/BJ1u/ukpfjvi2M6PLMf//XLz3XoYpLSEjuOnjsy4OtTEcZ2LkUPyTU8bxYNyEhwb+rSeH6V2brZS9lm6ycdGt991QSOw//6+om16Q+6SrC5rzy3sZRf+prrXXR8RVTDaPpu/YAABAASURBVAU436ZBCbe27nTrwAf3fbjZq9hXp9Mv57/5x7u8mtfEJbUdOHFJQtmQR5a4bnciMr/MKRk8IHBRVd2zI95+z91EJ+HW4dNuvTl5+KAXs7UBMjZlzxrYr+qViGvk2obX1jW8mBBwG4Yg/2BeXI8JH77/tDt6JQxs3WngoD5zHh6zSCuZ572+cuPYrp7tXLh+7owN2nZqP27x6kmelktxiZ2GvfhRYlyvx5a7dtG8D74e8UeLu8jo62XvqxHxoemzfjusa4KoKMvL3FQW8dzjOo+Yv2DawCTDjGLiEm8c8OzCBWX3jFmk7c/1f99Rcs/dnv1ZljXPE9eV2ODdPCwhdUC71AHDHl2/dF/dwOsS+qd735JZ+saPu33W2rcNLcriWvd99v2PE0YMnuOsFylbvmDFmL6j9M9lXvpfXncvaXzf2WsWDGutL2ejAcO6Dhj6Hwt+6RXXAQC4GlCjUq2Sn/qzXo5xv3Tv6F96Tr1n5R2zNqXSSz+KqCm78IOoWXnr3lmjlaLifjl5giel6OL6jXgqWXtctnrbLosn7HNWvuHuza8U4D5+NUD3iZiEzr8c3MPwwq0TPvZJKe6luPX/jOjifnYo37xKJXns9Em+HQnajnjqYc+z3KMRNJCK3C+mvfx0iu+2SEib/OcnW+nPypZ9sdUT4A5lLs7QnsWP+N0E//4Vcbc/7B63LH1btghPuzFvfzBTTSlCjRPtBg/oHOnc055d6Z1S3OqnDXukk/tZ3skiw3uFn3+42P3haz9uwfJpgTqxJA0Y1c+sr1KIn+6yjSvf1tNGyqTJ/v1eYtoOGzNEf5Lz+Q738bM/c7G7WVfc0D/PdKcUt7iUJ1+eYrl/GgAAVwiCSnXqPGJoit+LcT169fM822exONsouV2y+8nKv0z7aJ+llkWBJbf1LFbu3D+8svF4WZgteSw69PeP9JJW/IgBvwh4Jr5lO/dCle7PPyms2Pd1hrso2GrMk1Z7/wepR1QqiTxTLzxlNljyg0MD9JSOa9/NU1jMPWU6dvWL++XoIckB30m5Z6TnGltZ+77THx7auFLfRXEjBtxusovcea9s7/F8Ec6CDf9tgJga6dzNd2hcfEP3Y689cjbn754qygFPjUkLuXooxE932ddfvK/XeNz6UN+AN/1MaNXOHSO3HtQP7eP7stxrmzxm1IDAwSl5wIihAgCAqwpNv6rTbZ0CFUcSEpJE6DoNHd/39cla66mDq6feu3pmYt97nhoWzhVjE/qNfKpdhtaYpDTn9cfufL1Rp6EjRo56aEiPlpFc0MlE2bFD7tb6pYsf6by4qhGcp6KrTh3Hc3e4S3CdRt6TIkJVVlJ49NDBU4X5e/fl5+dtzD106lCepesbtEkM2CQsuaVy/j5L1L4endqb7ce2nf9NKUG7HueXnNdeLfvXoVx9iLKFY25cKKrg3EXJIlQjhvQJsGDRmruyP/O/yzt1+nj2/vzjBzbmHik6eMBkf36bvcb9+OEH7wrj6r4hfrrzj7pXUWydeueNU0UVvlPDmLqO/8rb6n7xzl49zD7sja7lEsUAgKsMQeWKkfzAvPfPPGm4oHBZ4caVM5R/8Z0Gjp8wfbTZ1VcDiUt5duGrRU//1nMNsbP717w2VfmX8Isxf5r05D2dQrwfS3BFRRYbuIXoWJ7nLi7tkq136lBvRrH4lb8uyzwS7cue1RFXgEDHSWFRWBUkofpFu1bVMfeSQ5mL5/5l2fpjlqsZ8496LgLWKqlpNaRzX6dOhXkhuPzjhkVt2FAAAPCTQVC5gsT1GLd4y90bl74475XPDJdwLd2f+eKTmW8PmL3iVf/G66ZaDvivlZtGZi6Y88LirYbiXcnXi5+7d9miJxa8NyEtoTqOjvjE9m2bVFkuTLB8ATNdYoLF20hcyHl93OhXdvpfeiousUPbpkI9Bx+VK0BfudSbfjapW9VQoe+i6pl7WY5JP3LnkSaK9Bs4mktOjGostyChTadWVR6uSQn+H5OaX1QAAGoRQeUKE9ey79h5fcfOPp699oNFb3/kqRM4u37K6BeTP50UoAOAmZiEzoMnvTdwQuHhTWveeGfRhpxCrbRXlvvmmPGtIrghuo/4BEOjlAdnfzyhh4iKa+LilZzmeuzs1lL18pb9fY4npSR0HfLU2EcH3tYyIV67fpk4/tEjd0zdKq5ix/M9VyVOTmigPUq4tolnkHtnrZ4Yeju6CIQ/9wsbX/CklIQuQ54c++hdfVteG3dtguv+7vnphstwGcTFeFKAszdINdzc1FvD+snK4rge9/z1m28/EE5Dra3/Ml/U6u1mBgBALaAz/ZWpfssewyfNX79ty9tPem7fkb/4ncxQ7iDp4ryQ69iXP9yyyXC3CqVINHtluNd18mO8EkBpzsGoXQ2rbWdPx+WsjTkW1v3spk+X6+fXUyalp/917OBOyY0SEmqg6U+NKi4xq0UozNnoKbentNMLvcZu3GV782qkHZhH2HMv2ZSRrtel9Jjy4eqXx9zTtWVCIy2lBJHYIcU9R/HFtuzqL+Ubr2Cx9WBeCCO29ly4TGzZbzrmNzmfCwAArioElStbYt8JxsuS/j2UApCvhE7DZk8d634a3UTh6UKdtWJ9SDd0DCKhfQ9P4S9z/uIA9/P2YexCfXOndn7F2bKD+3aJq8D+lZ8F7hGRt3ZppvvJL9K6uDv23Njpdnfi/XplZrR2kUXhzj13T4b7cc+b2vq9r+zP7KrnmL/49Y+r/VrSCR17eK5atmzt36s8Vt069vBczmvfsjWBb0Bf9vflC6qnJxgAALWGoHKFOL72lff3l1R13rdVfUt9bbOXzMwsqHKoJgnxwpqWyTd6nmR941/MjLt10Aj3Cezs2b95YYNJ7UfZoU9/v9h6TU67QY8OdS9k3uLHJi7e5989vqJk3/trA0zz7A++tQ4lWa/MWVZLHVRatfPkzaycbyNdioPzfjvna99tUZb14vjZhjtyDO/juXBWXNqAEe5nOXOenvl301209g9LAheWwxeNuf/gV4tU8vW8v5jtz7i+Dz3mrj8s+/vUJ174PNAsC9Yv3RB6LWVAbfsO+4X+uHTl+ImL80yySknW4jmfGIJTo5Tb73Y/yX/99y9u9TvI89MnjF/+E+9aBQC4ChFUrhQ/Zs984LaHfrNo7f58vUBWVlKY9/m852a7m/LE3d61raVpnVo2vk+vR2Z/tPW7Qu0OKhVlJUdzlk6Ztcg9UEqP9pavo3VNnKftVO7c5//wfk7+2ZL8vWtf+VArU8aljfy15zbtee8/OeC+CYs/3Xmo8GxJifNf/t71K2Y/eVuvwc99VBjCrS0TBzw7xXOL8rINL97b54Hx8z7KdE356P7M9HnjH+pz78xcbZqt2t3qHvej3z48c21eQUlZWVnJ2eP71s57ZMCYRSfiaqkVWF1hiIXpv3/ylc+VVSjM+3rZos/DO9mft2hMn/t+vyxz73F984657ZHFB93vp0x4yuuOHHG3jnzSU8mQt+yxAQ+MX7g2+7vCEm0fHd/3+UdzHuuTOuj59FNRvPtoRHNv9TNPvEuf9J8vrFU2mro/lV3/6bwxd4xZfCzedH92Hj11rKepY9774/ukjpm2dG3WvqPK7Arzdq5dOm1Map/ffF50SURHy6Hjn2yvP1GO1UH9xsxJX++cnfNfwaHstYsnPtAr9ZEX93mFjsS7/nOMp6Fa3uJH+qgbx72crzzWZ9DUjWXt2rUXAABcVehMfyUp27d+zrPr55i8mzBi3u/6Wi9ml2xdMnXrEpM349OmzxnRTljVo/+YVm/qLU9K96fP/M/0mc7H4xY/qw3ScthLC/IeGrNIa5tWlvvZi8999qKIWPLweW8f+8/H3tQvg1a6P/O1qZmvmQzdss/IIXFbtXugl+W+//yg941vtxs768F9U1+sjc70ibffM0BsWK89O5v1+vjBrzsf3jqr71gRqrSxT8QtfXNj7kczx380M8D78X1nvzLGt+VbywfnL8i7zx1m1KvJPZ8ZhV1kTVhzT75jxND4rDWl2ijvPzvYe3+Omf3g/ikvmtzZpn7a5IWz8h+Ymqlf9a7k65Uzvl4pqk1c6oS3Z+1XQ4Xr+dmsRVOzFlkZMW3Cf43b9MhCvWGn/8ZRdujC0Xl3jDkoAAC4elCjcnVIuPXpxeum9o1KbUBc54dmr1gwylLdjC7lyf8aV1WuUcqFK9dOHxD8+qoJXUb0aCVCEnfrxI/XvfJQlyAN1RrF6VezTRw4c8FTnQNup3ZD5705+Re1dvnXxIG/m90vatU57f7PvPcnpAScnLJ/X16zYFiga0fFpU1avXbawOA1aY06/TIlxF1kTThzTxwwe8GTgXd9uyHzF066Nfj+VNLR+g+D7vS4hLgqr5UcguThC75aMKJL0EaVcUl9+3Zu4vParc8te++JToGPj0Zpk5fMG1bt1y0DAKCmUaNyhWj54Ntfdf58w7LMVbn7ju/XbmzXKLlLx5S0AXcNGzKgnfXbHSon6Z/btu4X69d8lLHxQJ5+2xD1LiI9e9zV9757hv68ZVzIx0XcrZMytvRaPGfRR1t35zkvc5zQKq3PyD6dvYaq33bUa9uGHlq/5v99/vmWbbv0O5aot5Xo0OWuvoMHDkgLaUXckgfPXD3wN/sy13/wt5Vbd2jbR70jR7ceD907Zmi/tp6iaP20Z1euv/3jxYv+3/qte/NLnIPdPmjM2Ecf7JEkRLX3qTYX03LY/E1dMhe8vkhbMPVOIL8YMvLmJmFNLq7H0x9u6bf29flvrPnauUeUqXXv9dCoXw9Ttob5/o27ccT8r4fkbchYsW79xh3Z+k1IElp1bdlZ2UWD7hrYq21CtX1thDF3pbZh9bq+K95554OvtuWqV+tWjuQ+Qx95dOwDKYkxouoLiCWkjF28bdihrMxPP/p0vfuYVObYuUffIaMeGtKjZZQbAyb2m7Z6x5PZH3+0cuPn7mPVedeXdp1vHnD70L533RToAxiToATyLfevX7P40w82bnJuGXVN73j4wV8P75t8tV22DgAAlXT87CVJ+U8IWciSpD6QFOpbssOhvSPJrmFlh9DeU/6TRaX+VBJypXNg1+Cy5HCof9WpKYPJ2svOsZTXXU+F9orrRW1pZPcjfRgAAAAANUOW/V+TnK/L7tK5WsJ3DSdpD/RX9L/OIr1zDPWxLOuTlV2jqE+dw6gpQJZdI7keu2bkGkam6RcAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAADUOy1RAAAQAElEQVQAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA2yGoAAAAALAdggoAAAAA24kR8Fa4dubkNSedD1OeeXNcN1HTAi1AzpInFm52vtRm6NQ/Dk4SV5XSo18sW7omJ69MWb3750zpnyhqUUHm9FnpBbWz6wEAAOBGUIGZ8uLD/8z6+8Z/iP4zx6SIapO3dPrszRdjG93Qu0fjC5cFAAAAIAgqMFG0YeafPsh3PkwV1Sk36+uLIu623/7XiHZ1xJXixIY3lq4rTX1uYr+rrHIrqthKAAAgEvRRQUAV5RWiJhQcy6sUonOHKyilKIoO5n5TXFouEAxbCQAARIIaFdiAg+MQAAAAXiggWldemJWRvn77N9+XlCqVACK2YVJy734PD/z35Pg6fkNmf7k2Y9PukyXFzvPJ8Q2T0x5+amRqgigvytu4eXP23m++P1PoOtcc16Rbj973PNC/XUOry6FMZNfShUt35isTj29yw6CHHxvcPcFrgOIDmz/+9Kvd+Ue0WSTc1LXPPff1v6lpbNCFbNau/5hnBibveWv83J2GAXcuHPuE+n/vx+ePDtQMzDl8s+EzpvU+v27xWxm7ikW/p+eP7O7eaKs++HTrnqJydYsld7l/+PDeHV1L67lCgHsWzksFFKivJw2ZM2OQV696ZZi3cryuJaCs5vKP1+7NLyxTok5sYosuwx8b1zPJsIKmszZsyRXvZmx3bqjYejd1H/TwiC4iKMPGOZk+fXy6+sDQ8/5yyYl/rFu+Yfs3BRfLtS3f/4GHre3c4vystcs/367ttdj4ZjcNUndHwHeVIyr1rgeG39HBcOx5LgPQ7tt1S9/L3KasuCO2ReeBox8Z5FmAgnUvTM84kjpu0di2ees+WJKZ+32ZehD2Gjhi1KAOvkfyqR2r3s3YcKhIOeBj45PTBvvMUVV6ZFNm+sbNR046jyL1Q3H/oxOvywy6lQAAACwgqFhz/vDaV1/9+IixGUt5ccHhjGVzMr64bcrvRrRrEGRIUVqcv2HnoZGpKWL36tkrcrymXFa0J2vVnr2Hn5kxrlsDC0tyOT9zzpL0fH3KRYc/fm3muadnj+yuhZDiLQv//H5OYaVxFiXf7Mz4ZueX3R6e+IzWXaB0z8JZc7eXeC/kyT1HioRIFuE5vm7uwow853zLXWt/uWjX6395ba+zo3xa49iy09/szVny8rd5j88YnRovRJOb0m6OLT2WtftkaZMb+rVvrIzRpEW81dl9v272zIw8Eduu883Kdisv+tfOQzm7jwstqFQxa6fzOR+8sHBDsVCH6d44Vlw8kr1qxvScbkEXoUn7m/vFisKDO/YUxbbr/vM26sBtm2gTPLz2lZc+zlfL9N3Skq4T4tyxf+7auWp29vbh0yYPbBFssqV7l/35tS3fV4r4ll36da+nbsOiY7u/13ZH6cFVc1/6Mq9SiVsdnO8qi5q7ecWrm7cOmTNlUKJ3cvg+c85rq0va/fzn/dpXFH6bu2dvxuwXzkx50acLUMHmv7y75Fxy7x4336RunMPb1rz6zdnfvDyqg3uI4i1vzHg3tzg2odvPb06MUyelzHH3oXGzHk/Rt1Bp3tIXZ28uUuKQshdS1aO3ovBf3x4tEu2DbCUAAABrCCpWlO5a+NLHR0zePLVl9ivXz5nmOv1fsMFZVDUX0yZ1yP0Dbm6X3CReSRZlhzNffElNHedz3voo939+VcXpfMWRz5YcqfR57eKGv229v3sftTR4eNV/v5tTGHjUi3uWv/RBE2ekOZKZrqeUdoMn/nbwDbGVpYUHt676NlaE6fLuzC9Fv9+8fF+Hhvo0Cte9oUSFdndOfGbYDVrR9nzOkukLN7+7LLXruG5xyWljRqcVrMvbnXGkTf+RoV1YrHzXR0ooavLA5D8NvkF7aXTxgaMXLc5aOPepmlLaDZ48ZaiezR5xxZtgM27eb/RItV5FKYJfn/rg6IGeCpzSPUtfVXa910yVV7cvnLowJ/2lZe1fNL9awNlNbykpRSQ/8NvfDG7vl5PO70h/9cs8n3cfKdmzaObcnRl//rCtMV0o9VTpX6Y8M2dyN1cVyuWCzNmz0vO3rNs27OnbDDs3O2Ntj9H/87ubteoRV+rbvG7XsA4945yvFKybp6SU5P7Tn72/dQN9Bd+aPnfnu+k7u4xOVSdVvOENNaV4DeNmtpUAAACsojO9BftXL96vP07uP2XOK4venL/olYmjO9bTXszP/MpZui3PWvWBO6U0vfnpaS+qQ775ysvPDOnZyFlMTB39x8cHdbvBmVIUcTcMHKQV0Et3/jPPysJU1us14k/qZGcO18qUiiOHjqr/lWxe/uX32kvKYFMXvD5/0euvvPzkbS20/XxxQ8amYuX/otP6YE1Sb74hto7a0iixU//H71OTUrfHlWWeOtxduEwd51yLwO2+dEXfiEFPD/OkFHE5Z23GSdGk/6gHPKV20SDl/ruTRVnOzqBhwILThUplg7i+ubGaomGH1kmWZ12wKWO/etuWp4caapDqNOk55p6eIixK9ssuVydoSCmK+FvGPdMvQZzf8uV2017leWtW7akUPX8ZKKUIceLzjM1l4qYHn/J6t05Ct7FPDWkkir/+cleZ1/A97xvRzd3Qq07SwP9QD7Bd+w54T7XD8BE3expxtRh0Tw/lvwP7v9Ve2LMm44ho8sAoYwKJ7zZs0E2ifPPOXPXZ5dzM1YeFo8PTAVIKAABAFBBUqlb43YFS7WHy6PH3t3NFjvgbej/uLtSW79p/WPkvb2+u9oJSgPvd6J7JrpJlbMNOSiHeXVtSXnw4J2tt+geL3/jr5CmT39dbgpWVllpZmk73j+nrbETTtM+gf9NjQWWFWgq+fCDvsPZC/G2jH++bpCaQOrENe4x47Ha9b8aRXPW+irHumrSi9LkvrfriQGGZiFDP2/t4dcTIzdlcKdr0urW1dzVCw0bqwh8tKBARSeqkpsQDS9/aFGDJLcy6dF+uUkPWLe0W384jDTq0D+v0f2neoe/9N4JT6+5dleNg294DJqMe2LmzXMTdNui2gG3OSg4eUDJZh/69E3zfqXND966xojLXnS6ckjv5pJ2WyW2Uv5XeMalFh1be6SKpZTPhbrMncndnq0n7327wnmOjxmq14fECtcruwD+V+BT/i0E9SSkAAKB60PSragUFRdqjRh3bNDK8oRRqm4pdp9SHhWeVioqCI8f0tzreHLjDyfebXpubvqtYhK3NjW3dlRYJja4X4qTnvcKio/rDm240NgcSrdu2FRtciai48KwQXQYNT96hdXQpPpyx4tWMFbEtug58bMygcM+OJ/ysuVezsdKi08rfI2tnjV0bYOgjJ5R3I2oP1PrhiSP/9ZcP9qZP/s2qFu1vHTx8UFqbBOuzLjqtDpPYJEFEyYnvla0Zm9goUNu5Rtcr5fsjlSY1KmVFatZKvt5kUQpOfK92dm8YF+A91wFQ7jXhJolNRdWaJSUGebf4tNrH6dS6yU+sC/DuqQJl2113tkjJ1e0aXy8AAACqB0ElFLGx9byeX6wI6SYRlw+kv5S+67z6sEX3IYP7de3eIkHsT/+/i3NEtNWP9Soxl5d719bUSRo4+U+JS99Y/L8nS7UeL+Xf782YMd2/17VF9WK8N82FMnXTJN5wc7dmgQZvY/0aZybqJPWb8mLq4a0ZSz/dfHDT27M3re40fOL/7ZNYx9Ksi8+WKOX8664V0VL+o3ptMRGG4hI1t8bG1zeZcHm4Ew6fq3Kv4Q39OjUO9HZbZQueK1YHiY+rKwAAAKoHQaVqDRspJ7udXc9P7f3m7JBEd6XK2UP7zmoP2yQp9QON1bdcbZq+3bHn/G2+rWIO7NjsTCmiUf/Hnh7U2vmwvNJSgy9LGiUo5UpXn/+d+3JH3+Lpmn/0O71NmGjewnUuPbZJzzHTeo4qPbF3U+bqzM0Fzsh1fktW7oh23b0nWxnOrR8TmzYRIj++86CRQ6PTk7q8zH9DxTa8oc/IaX1GFh9Y+9obH+9Pf/WTtjMfSLYya7Wl086TakcXn9ZNSvgMqxVc45bJYnt+4dlAqeLiRWXR4+NNribWNKmFEHnnTivL0jrA283Ufjj5RcXqRYT9Jlx6UY04lq+UZpVrkeI63jVmiGnFi3MjF6gVU1GrlQIAADCij0rVWnftqhcF85fMX5V31lmmP3sgc/G6b7TXm6T+XCkTx7brqvfMrjzw2l+W7Mp3lq0vlxdmr3ptRa4o1XuhnN2757A6kfLvNy3+6ICIlriu3fVid+mWJW9tLCi/7Jx71pIlWXrVT9eUm4wVJrHxzXsMGv3Hkb31F8r964j25YTTVq19h25KatqbG/qo8fFKibwgv+Cy16uGrOWnYYfBvx5ykxDf5+4ttDbrxKTmyt/NWTt8V/dwTtZZEYbEzh2Vwv2uTVv9Z3p0xz8LRWzvlA4mo3bp3kk5JLZk7Q/4bpNOXZRIcGDT1yW+71w+vCenRMTdkmo24fC1bXeDK5abD9K1c08hCrO25l0WAAAA1YGgYkGnIcPd593zv5w9+dmxT4wfO/nV9G+1q+E2TL3vjjbOB3c8MNBdi3Jqx2szJ6lDPvXs5AVf7lLijeek+smP56gTeXJG+p7yKDbrSeh97216m6qL25bNevIp59wX7/je1b7LkTz8wZuV+RV+9upfl206ekrPUf/Yvlsbq1nzlq4HjT0VR2U5r00aryztkp0iBA1v7Z8aK46sem2N99Waiw9kLttUGGzMG9rfqPzN+XSdp8N96c6Fr20xZoqSo98WeY10rkQtyLu6XliZdUofdU/tXf6B8WYy5w+vXeq+bFowsern5kyxcRHa9L9LOUgOp/vMtHT3sre/KBLJA+/oajqxngOVvXYxc+Ebu4wTLM5NX61em6H5Hf26OcSeFa9n5hu2wOWSb5a++3GRaHd3v7Ca6gWXkDYgJV6N5RknjFv9ckne2vQs126Ju21Q73pKFdxrr28pNmQVZX0z9YMpwFa6fHjttPFjJ6UTbwAAQJVo+mVFQu/xvz7xlzcyTwV4L7bNkN+P1W+BV6fD8InDv38pfc/5QJPp1O/+5C0fGMuxjhuGD224ZEX0+qh0GvH7h4v+vPxAgMoER0K/cb/RbjtYWfzNxvQZG9N9Bmk39DH9lhex3frd3HD/jgi6/cd2G/GrfgcXblg758mvkrt1V2+AWF50IOtgSXnykKCXAI7t+eCQdvsy8tbMmrwnpVuzGHWsQwn3D05JX+veUKX7l82acbZJt84/S1SqX5y3LPxeiWFDUqzOuk6H+8f12fPqps0Lp+z8rEtaq3quiVzoPmRIRUZGVdcka9e1i9iem7lgZmFqq/onG6ZNvv8m9SAZd/QFr5mqN3w8Xi4a3vzMs4OCdV5X9tp9R6etzn3tD8+2aN/lpiYx4vyxPty+0gAAEABJREFUrH0nS3uMG66826jP4+MOvbBwR/rMSZnJHVKTtRs+5pWJxFvGPXN3tdyjJDZ1xOO3HJq7fd3UZzfe1LFLiwb6Ri5PHnmLvhH+c+LIo3/5YO+y5yZkdOvaQdkRrvXt/fgI062Un5Olfoi2Zu0f3q6rAAAACIKgYk2DLsP/NLv3P9Yt35CTd6pE7YDuiE1s0aH3gGGD07zvuN2izzNzOn/z+epPN+Z+U+w8HR1br02bW+76jw5CxPd7dmL54ncz9hWVqvcgv/nxp0Z3O7JwiYimxH6/eblrTubqdV/tP1lYqi5AbHyzm7rfds8D/dvptS31W/TombzlWGGJdm3fuIQ2rVLuMlw4Sx2r++jp4+IXr966pyikKwYYNEgZ+V9/6rTi3Yzt+buy1HwW3zC528AHhg++OTH4iC0GPTMxNv3DdVmHczYcjm2Y3GXkxBG9i5cZclXjTn1Tbvr822+yd+xxLv9N3e8f/bBnBa3MOrbT8Jkz2q56N2PDodwNx9XbyafdN3H4nfU2T88QVYlN+9X00+++/VnurqyTsY3693PP9M9/Sl2n7nr3THsPHTT4rpTEqqrNEu+e/HLnTZnpGzYcytlw0LlGPe5/4GHtHjvxqaPntLkl8+NPv9qbuyHfdeylDB9y38Ae1Xe39/hu42bM6brqg8+2f7N3h9rEUVmkjv3vf3BIT/dVxeok9fvdjE7Kh+LzrXuydwjX+g57YLh+684AWym5S8+GSp3VrWmdBAAAQHDS8bOXJOU/IWQhS5L6QFKob8kOh/aOJLuGlR1Ce0/5TxaV+lNJyJXOgV2Dy5LDof5Vp6YMJmsvO8dSXnc9Fdorrhe1pZHdj/RhAAAAANQMWfZ/TXK+LrtL52oJ3zWcpD3QX9H/Oov0zjHUx7KsT1Z2jaI+dQ6jpgBZdo3keuyakWsYmT4qAAAAAGyHoAIAAADAdggqAAAAAGyHoAIAAADAdggqAAAAAGyHoAIAAADAdggqAAAAAGyHoAIAAADAdggqAAAAAGyHoAIAAADAdggqAAAAAGyHoAIAAADAdggqAAAAAGyHoAIAAADAdggqAAAAAGyHoAIAAADAdggqAAAAAGyHoAIAAADAdggqAAAAAGyHoAIAAADAdggqAAAAAGyHoAIAAADAdggqAAAAAGyHoAIAAADAdggqAAAAAGyHoAIAAADAdggqAAAAAGyHoAIAAADAdggqAAAAAGyHoAIAAADAdggqAAAAAGyHoAIAAADAdggqAAAAAGyHoAIAAADAdggqAAAAAGyHoAIAAADAdggqAAAAAGyHoAIAAADAdggqAAAAAGyHoAIAAADAdggqAAAAAGyHoAIAAADAdmIEDArXzpy85mSwIVLHLXo8RQAAAACoTgQVb3ENExtddD+7UFxSWhnbsFG9uu6XGsQKAAAAANVMOn72kqT8J4QsZElSH0gK9S3Z4dDekWTXsLJDaO8p/8miUn8qCbnSObBrcFlyONS/6tSUwWTtZedYyuuup0J7xfWitjSy+5E+TK0qyJw+K70g5Zk3x3UTAAAAwFVOlv1fk5yvy+7SuVrCdw0naQ/0V/S/ziK9cwz1sSzrk5Vdo6hPncOoKUCWXSO5Hrtm5BpGpo8KAAAAANshqIRo58KxT4x/YW2BOH84c+4U5fHYhds3zx4/9okpaw/7DXx41eQnxv/fd3PF5QOrJo0fO2nJN2UCAAAAQJUIKuEp2PDKS+n7S9SHlbGpaTcIUbJ5h29Syft6U6GI7f1vXUThoT3FQhT/c+d3AgAAAECV6Ewfln+uyxD9p8wZ0q6Rs299WUWvFYe37cw5OuyG1p6BDuz833LRpH/vTkJc7pjaNONI2a1pnQQAAACAKhFUwnHkiBg95/52jfTncT+/ubPYtnf7nsP3t75Bf3Hvjs1los3AW5srj+vcMHjm/MECAAAAgCU0/QpLpz5pjYzPY3vecVu8d+uvvJ3bS0XyHbclCQAAAAAhIqiEI7Flc9/bqXS9uXecKNyZc9T19HLuzp3lfnkGAAAAgCUElXDEx9fze61D79ubiLPb97jqVHK2ZpaJXmm3cHtIAAAAIAwElahpnvrzFlrrr/JdW3JE3G39ySkAAABAWAgq0dOm/11tnK2/yv65Y5+IT/15uzoCAAAAQBgIKlGU0P3fksXZ7TvX5GyrbDLo9i6edy4fXjtt/NhJ6XmXBQAAAIAqEVSiqWHvPj1FScaGHNHk5z3bGN7Iz8k6JUTx1qz9AgAAAECVCCpRFXfLrV2FqBQ33dG/ufH15C49Gyo5hhs+AgAAAJZIx89ekpT/hJCFLEnqA0mhviU7HNo7kuwaVnYI7T3lP1lU6k8lIVc6B3YNLksOh/pXnZoymKy97BxLed31VGivuF7UlkZ2P9KHudKU7po76bX9N4x+cWLvhgIAAAC4gsiy/2uS83XZXTpXS/iu4STtgf6K/tdZpHeOoT6WZX2ysmsU9alzGDUFyLJrJNdj14xcw8jcmT6qjmSu2i9E175ppBQAAAAgAgSV6LlckPnel9+LJg8MuZnLEgMAAACRIKhEwTdLZ35Z3rz829w9Z0WLgb8afIMAAAAAEAmCSjSUn9mVdVLENes9bNTwO4kpAAAAQKToTA8AAABAZavO9FyeGAAAAIDtEFQAAAAA2A5BBQAAAIDtEFQAAAAA2A5BBQAAAIDtEFQAAAAA2A5BBQAAAIDtEFQAAAAA2A5BBQAAAIDtEFQAAAAA2A5BBQAAAIDtEFQAAAAA2A5BBQAAAIDtEFR+YgrWvfDE+LFv5YjqtnPh2CfGv7C2wHSA/emTfz3+ydlfForaVZA5ffzYJxbuEYhI8cZXn3xi/OTFueUCAAAgCmIErjKncjLXfrltf/6RYmeJMbZemzZd7hjyQO9OCQIAAAC4QhBUriKXi/a898ZrWSfVgBKXkNionvpi5cUjB3csmVtx3Zvjugk76TR8zhvDRY3Kz/qfpasvpEycPChRIHyl2elvrd6eOPSvI1M9Lzbs+5sFfQUAAEC0EFSuFpcLMmfPSs8XDTv2f/z/DLmpRaznreL8rI9zYgWKvtmbX5iUIhCZC99/u6fgYm8BAABQjQgqV4m8D19SU0rquFmPp8T7vNcwOW1MsgAAAACuHASVWnbk6LFPMz7L3bdfedylc6d7htzdpnUrEaqCdR9sviiSBv1+rF9KMXO5JG/dB0syc78vEyKuSbe0IWMevrlhHe9hTu1Y9W7GhkNFpZUiNj45bfADw+/oEO89TOmRTZnpGzcfOensERPbMCn5/kcn9m4TaI7nc5ZMX7j5fL1uD098pl+S2q1/esaR1HGLHteqOPa8NX7uzmbDZ0wb6NjxwZvLN+dfLFcmmPzzUU+M7NnUu0KovGjXindXZR1WFz623k3dBz08osv+v85KL0h5JnALt5wlTyzcrG2rjMlPZKgPDLPW1uXbdUvfy9xWVC4csS3a3jp8zPBuTbwnU3xg8/KPV+3OV1fWudFGDrs5scq6qvKibz5f/enG3G9cvYbiEm5KHf70r/Q9dbnkxD/WLd+w/ZuCi642ezd17f/Aw/3bNfRMwNqWKcicrm2BdsYV6Txw9CODjFOzuiJKRdza5Z9vzz9S6ty18c1uGjRmZMXiyWtOut7f/NZ45yZ1LliS8/IJb+W0GTr1j4OTPBOpeu1CWWwAAPBTQlCpTUpKmfPiy5fKteskZf9zt5JYJk96LtSscnTzpiNC9Lp7YGIdi2Oc3vX6B699l9Czx803lZ3+Zu/hPRuXzCit95dxXdyF1eItb8x4N7c4NqHbz29OjKso/DZ384pXdx8y1tiU5i19cfbmIqVY2a7zzakNlFcqCv/17dEiIfyDyuWCzFeUlCLaDXWmFHMV2Usmr/lnfOef904W5479c1f+jtemnx49e2LvRvoQ53M+eGHhhmIR2+iG3j0ax4qLR7JXzXght1tckKk2uSnt5lhx+hsl28Q169WjVX3ltTZeKeTcljemvn+gSeef92uvruyeg5vm/rn0t7NH36RPtvTgqrkvfZkntJVVl23jksl5RXOmDAq22b/fNPel9D3nnUub1ljdvOcL9pwouCCEuhnPH177yksf56s5sFta0nXCOdmdq2Znbx8+bfLAFiFuGdcMM+e8trqk3c/1FdmbMfuFM1NeHNGuTggrUrp32Z9f2/J9pYhv2aVfd7WzU3nRsd3fF9VP6dEvrejCsX9uO17eov3NN6mbsEmbeibrHsraVbnYAADgp4agUpuUuhR3SnFRniovjn/qcRGCooPflAjR4eYelvuhZK9K7zzi5Vdu06pQTn05d/qqPdvXZQ3r0tt1Drtg3TwlpST3n/7s/a0buMYp3fPW9Lk7303f2WV0qjqj4g1vqCnFaxgTl4t2va62TGt358RnBicFHfTkx2tjh//hxYHJsYaZHl77xeHew25wvbJroZpS2g2ePGWo3p7tkYLN815a8m2QySanjRmdptSrZC38vtEt94/x70yfs2R1l6dnvtKzibbAm//6pyWHd6z7+oGb+jmvllaWk/7ql3nxXZ7+/a976gGncO2cyWsy3liX8kezlbp8IF1NKfV6/ep3j9/WxO/t0j1LX/3YtVmG3eCuCivdvnDqwpz0l5a19yqmV7lltBVJ/zLlmTmTu7n2o9Zzacu6bcOevi3W6oqc3fSWklJE8gO//c3g9j5VdCkjeyjDz9x2/GS7fqONnekjW7uqFhsAAPz0cB+V2uRq8WXlxaB+uKicn3ckxMdZHqOyw31jbvM09Grav38P5b/DeQe1F/asyTgimjwwyphA4rsNG3STKN+8M1d9djk3c/Vh4ejwdJUpRSmwLvrLa3svNkwdZyywmmnR92G9LO6c6dD+SvVM4TffardbKdiUoWyeNvc/PdTQ66ZOUu/H7+kpItJz8K/cBXdRp0nvAWqrsD0HD7leKPzi081loueDhmGESBx0z8A4ceR/c8xuBVP81ceZ50WLO58KlFKUCrXM9OxydV28N0v8LeOeUdLR+S1fbvcKsVVsGfeK3Deim7vFVJ2kgf+hrsiufQesr0jemlV7KkXPX/qnlFCEuHbBFxsAAPwEEVSuAsWFZ4Vo2DCEQmVyh3be6SKpZTPDs9zd2Up6ufnfbvAeq1FjtSLieIFanD3wT6W8G/+LQT2rSCnK2fdX5+68GLiXfyA3dfSea1JSa+VvhfasdF/uESG6pd3i23mhQYf2SSICyZ06eS9dy2RD+7WiPbtOKpUJfXp5D1OnccNGSnbKN7mrZcnuHflC3HDXXTcEfLs079D3SgH99j7+HTFad++qzGnbXq9ievAt41mR9oFWpLLc8ooc2LmzXMTdNui2CFJKyGsXfLEBAMBPEU2/alOXzp2y/7nb/0URmqTmShm94HTxZaXEaW2MZknBbiRSfLqwUohT6yY/sS7Au6cKTgtx3dmiUiHaNb5eBFWYteDPp4ri2wyx3Mu/WZOmwd4uOq3MXIsQL7EAABAASURBVCQ2ifrNK5skBpvvmSI1nOXMfWp8oHeLCk8puc7/9dMl55RTAY0TTXqEn/heiTGxiY0CNW1qdL2yg454FdOr2DK6iFekYVFhmRIcro9wE4e4dsEXGwAA/BQRVGrTPUPuzt2339hNpW5srPKiCE1Si+ZKUMndf0B0CzXjBFRWqoQQ0fCGfp0aB3q7rVLwPlesDhIfVzf4lBJbJscUFeUdy9l1cpBP5+nwFJ8tESLhumtFzSpXd1Fss16pzl74vpq0CNzorvRcsTJWXbM+FuU/qhMVNcrCihSXKEstYuPri4jUxtoBAICrCkGlNrVp3WrypOcivzzxTSldRHbu5o07hnS6OaL2Oi5Nk5RMkRfX8a4xQ0wrXpo2ESK/QK3fCHrmvdWQZ24RU9/KSX/p1fiJv+kdcVZRm6jtPFlYJIRvc6qLFWWi2jRWazMKmt/6yOhuIVyEyjVWUbF6AehAb7dMFtvzC88GKtBfvKgEwfj4KOzMQIsUfEWce//caWUbtxbhq421AwAAVxX6qNQyJZaMf+rxN+a/ovxTHoRzExWlJHjLoAeaiNLs5W9tKBBR0LadEgNO7f3mrPkgXTv3VFt2bc27LIKLTx03a1xKw/MHlry0cM95EaHEJKXySGzO2uHbd+FwTtZZUW2S2t+olLZz94d2mYOkTl2VFHdg09clAd9O7NxRiQS7Nm0t9nvr6I5/ForY3ikdRJRZWZEu3ZV6ubNbskK9poO32lg7AABwVSGoXBXq3DD46SHtHBf3LP/LC4t3FPrULZw9nLU44xthXULagJR4kb9kfsYJYyC4XJK3Nj3LFYXibhvUu544v+W117cUG7JK6e5lmb6dbtQLPf1+aLI4nzP3hSWRZpWUPgMbCLF3+QfbDaX/84fXLv3y+6pHjo1VjvezZ0qqClf+2t05sI0oz1y8cI9Xubu8MGuJ//q6tb5zUDeH2LPi9bUHSw0j5W9etkntKtKmv9rN/nD6a2vyjWMp2/DtL4pE8sA7uoqos7AisT0H3tZQXMxc+MauIsMgxbnpq3O1xw61kqTwbEmwOdXG2gEAgKsJTb+uFi0GPTNRvPVGxp6sJZOzlsQ3TKjvCqFlFwvVO4unPDMmhInFpo54/JZDc7evm/rsxps6dmmhZAPnfSG/L08eeYs2TLv/nDjy6F8+2LvsuQkZ3bp2SIxz3s7veHnvx0f4TzBx8G+eOT597s4dc19pMmvykOZhd16o0+H+cX32vLpp88IpOz/rktaqnmvBLnQfMqQiI6OK+qQOnTqLDXu3/PWF4t4/i/2+wa2/HdZFWJQ06Nf35UxbnTN38rMt2na5qYnywbl4JDs3r0z0e3q06ViN+jw+7tALC3d8/NdJ61p6lvb7xkPmqG8n9B4/7ugLCzesnfPkV8nduuu3RDxeLhre/MyzgxJFNbCyIp1G/P6+o9NW5772h2dbtHcOc/5Y1r6TpT3GDXe+r9aWrM7/5qM5fz3YoUV5Reth43oHuORabawdAAC4ihBUrh7x7Qc9M+e2o1vWfbwhJ+9UiXrlLuXFhs269e37wN23htjfIL7buBlzuq764LPt3+zdodbGxCXc1LH//Q8O6em+OlOdpH6/m9HpH+uWf751T/YO57ySew97YHiKyQTH/u7psr+8tnfd1Dkx6k3QRZhiOw2fOaPtqnczNhzK3XBcvet52n0Th99Zb/P0jCpH7Tlm4vDFb6/am7uhILbFwD4iFIl3T3657Zfp6V/uPJSz4aAysXpt2tw8esgDvYNewCA+dfScVimZq9dl7laX1jlWn6d/1V9b/QYpI//8p9R1qz/dmLsrS615ULfh0EGD70pJrLaO6FZWRB2m86bM9A0bXMMoe7/H/Q88rO/aNvc/P674tfd3fJO945u4Lo+Z3Zm+NtYOAABcNaTjZy9Jyn9CyEKWJPWBpFDfkh0O7R1Jdg0rO4T2nvKfLCr1p5KQK50DuwaXJYdD/atOTRlM1l52jqW87noqtFdcL2pLI7sf6cMA1hxI/82rmfH9p8+5P5Iu4AAAAD9lsuz/muR8XXaXztUSvms4SXugv6L/dRbpnWOoj2VZn6zsGkV96hxGTQGy7BrJ9dg1I9cwMn1UcFXYu2NzmRBtbyClAAAAXB0IKriyFGx+a8muU94X/Tq16a3FW0pFkwcGpAgAAABcFeijgitM6fEdS6btiG9yQ2r7xrFCnMvP3ZN/sVzU6/bwk4NvEAAAALg60EcFV5pTOZmr1321/6TzamYiNj6hXac+99zX/6amdNAGAACIiK36qBBUAAAAAKjoTA8AAAAAwRBUAAAAANgOQQUAAACA7RBUAAAAANgOQQUAAACA7RBUAAAAANgOQQUAAACA7RBUAAAAANgOQQUAAACA7RBUAAAAANgOQQUAAACA7RBUAAAAANgOQQUAAACA7RBUfmJOnpo+4Vi/xWdEdcs50W/CsenrSkwH+LZg4rPHRv93YfUvSnAlX/zXsX4TTuwTqEFVHh5RH9Gq8jM7C+ZNVw6JY/2eLzgozm+bf6zfs/npe38UduR79O5brDw9/sVJAQDAVSBG4CpTeOaLzB83f3t5b4k4qzyNlXq3irlzUIPeHRsIAEGd31T42EeXRZxj2C2OuNOSAAAAtYegchWpPJ+9rHje9sqjQjSKk352nfiZ+qK891D55td/mD+vQWdhJx2TXnpF1KySbQvOp5fG/uG5xOsF7O787pOLPi1vPjh5eIqoKT9kZV0+K+rMmNKi93XaS+3HN9ggAABALSCoXC0qS7747+LZx0XnG+vOf7Bh5+bXeN4qKdm25se6AhXf7b+c3ZRj/spw6fuKT07Jj4qaVF5wXIgmMe2vEwAAoNZRaLs6lB9cUaKmlJT6L4+53jeTJCT0GpUgAFjhEHECAADUPoJKLTty9NinGZ/l7tuvPO7SudM9Q+5u07qVCNXJs+9vkUXTuD/86nqrNSeVF45+XvLGhoptZaJRnKPPLfV++eD11/tcW6Hw9CfLflz7r8qDlaJ1vTp9BsYP73tdA69hys8fK/7y47L1xyr3lavPOzet8/AjLXoHXIPzZ5b++cI756V7H0yY0CdB7dY/u2xzSv0NY7R2WPsWHxuf45gypeWdjtPpiy/+7bh8VJlgy9ixY67vkei9WuU/ZK/+IX37ZWXhRax0d5e4h4fFHZhXPPtUzPx5zQO1cDuzdMKFd1wPT5U9NOGY+sAwa21dvjv7/odlX5wWZx2i189ih49q3KNxrNdkSs5t/qh0ee5lZWWdG+2aX97X+PpYYcqzjtcc/ap4eWbFZxfVcrDvxN2D/aqu1niv5TUrJ+nt05QKsczzf9t5efNF9Vn7hDpp/Qw74l8nf//KpW2N6y6Z2qy1e9ecP/3GtNIV8bFvTayzasaPn11Xd8mMZq29F+3o6vzRX8lPPpk0vFPAFbh0Zve51esuZZ2Qlb2vb+TE1g38Vu1XccYD6c5+9X95l99B8t259FVlrkm1b1xn8OCEe+uIIM6sO/7QZ5Wux+8sPubccc4Do5lxqj9kL/9hUY66L1wH56g7rqvrswrbz7z/Wfmm02pnrc4tYx6+P6H3jfVN5lnyxX8px4/zofcR4jksXXPPOdFvcUXvuxvO+PfKL947/8a3skht8NEjjbTJmH1kSormTbv4SdO4lX9oajjmzqVP+mFBecz8l5p3dm+xstNvTCpd0TF+3VON1dUpPPNFxo+fKTWBZeqb6lo81LB323gBAMBPAEGlNikpZc6LL18qL3c9zf7nbiWxTJ70XKhZ5ejWS5uFGHZXQnOrV3G7nP3W2VmHpDu7x3Qpk3P3X/7kHxe+uyi9/EgjvahXfmZb0R+XVeyLle7tGtMnTpz+rmLp6h92/avSUGNTenD52d9tqVSK9f06xqQ5i7Cnj1w+cVoI/8WvLPnidSWliH53O1OKuQu7Cyb+rbxBx5g7W4gf8iu+OF4+cXbRjOmePgNq4PnLhXdKROvr6ozqLikL86/dPz77l/I+wSJazI23xDwq5Fwl28Q5RnV3qMO29jr4T28rev3/VSR1jLm/rbqynxwq3/Zy0fw/Nu+sn12/dOjki/9zaYPQVlZdtn+Ubjp8ef7zTava7JX7Fp8Znyvu7RTzaJxzxEPlE2edmjKp6Z3NjSFB3rf03MSdsvqwXPaaaaVaQn20hfrKv3arO2Lt9kvafH92/djbTm7bcmnVP85P6OOKEeUH115cUSk9+p/Xtb/+clqbHz87Up79L9H6Z8ZFOpelJNu42J6dTGJWzumHFleowSO1Th9lMU5dXpvz42fHTnrFIVXF5pcvzC2uM1g/kFZ89kNusZj/sHtvlZ9YX/j7jMtHnQeJsoCXTl9e9d7Zf7UJllTqtoh99JbLl/Irlp4QvdrGdGmsvFanRT3jFr30tzkX0yvq9EmJSTtfuenby8o2+b7CMXWAfmhVns9+69zE/bJykAy+RaqrLlvF9PlnHx0jjUoJWMqv0+LnMY+eC3aEeKtQjmelDlN12bWzgn5kEup2aXrxk1MVuSWit/vw//bHL9T4UbH3O9G5o/7i/ktfCHFv12uch/OZpbMuvOPcdI8q+7ZMzt5bMX3emQnPxt77syD5GACAqwRBpTYpdSnulOKiPFVeHP/U4yIEPxw4oBSVYtK6X2N1jN0/Lu0Y//acxloVSmHhvNk/frLz4rb7GmmlqJNn5y2rONGy7pKnmukn0UsHKKXtnAvpOfGjUtQZnd90TkkpwmsYE2qpUW2Z1u+OaycNCt4IrfK9TDH2+Wb/0dIVO0r7qjO9vPrv53rf5yr7lma/p6aUfgMbTv0Pd6m0ZPPrJdO/CzJZtfFbL6XYt/3Ctoax941q6teZvmJuRszUqUlaLUflDz3nnpt+pGL9tgud+zjPwZedSV9waUN8zEvPNdFrQsrvW3dq/GdlCz4vmRF8pXZffLF53Ad/bqqnEteIlW98WJz2XBPPljtdtvZsnT9PbtTL3b9IiWTKTIVjwoRG97pPoldeGPzu2Yk5Zf+14pwzD8S2v6/+o7vPv5N5fvC/N2iv7NB/nVm0Re6c2mB4V3U6vXqXNDpSsSnn3L0/M3S8cBaRe/WPb2+2zHF1nhzVYPgt1+rPy/ssP/n4lkubdpePSjEUkXeXre5e/93nrteqUE6cmvVi2YYtF7Pvu66HK+D968yrSkppEPPS75r0SNBGHOVMX8Jcg+5NR3VX61WWnqjs0rf5KL/O9HvXX4zte+1b92lVKKP2F4xfUL5hfen/GZDgWqMznxcrKUU93vRhtAq9ZcU9O8V3DtC0q37nIfU7BztCfJbgx9Wi7lszGrV31+JU8ZFJ6Jn6g/js8pFD5b31DXh0f8XBJo7eRZXb9p8b3lHbOwe/rTgrHF06ump+pKRb4lc+7Km1G/VtwfjXy9/76od7x3A9CADA1Y/7qNQmV4svKy8GdfnCBWfDeust6ytjho9q7GnolXjdgO7qdI4ccj0v3/e3ss3Q79klAAAQAElEQVRCemT49YYEEt/5/ri7hViVXeqcwtm/ZVw+64iZWmVKEaX73lXPbXdOqe8pNZrr8O/19ZTinOl/1O2t1DUdKNdut3Ly/OpvlRqba575D0M2cCT0Hn3NvSIifQY29LTFclzbu19MIyE+yStzvXDmq4vvlIlhQw3DiNjmd8U/HCc27/yxilvBVNYZ+3hTQ91JbPNBDZ9pJc4euZRtvB3IscttRjXpZbgKwokNpUvLxN1DG95rbOrjqN/jVw0mXCf2ZV10NQcScY2GD41pdL78/c+VyZ3f/PGlbXExYx/QKsfqdq97p0NkZ5cd9Uyi/ODO8oPC0b+Xeb7q1NSQUtRlbt9RrQP5ruCi93Axo4Zd72no1bzRA+qBVJGrhcbyfV9d2ibEk6M8KUVdpLbXP/LvEV3592xC3UeGGo6lTvH3NVXC5OV/ue4fUnnmb5mVorH3MA2uv+/OOqKsYtf+chGxzcfEw48386QUCx+Z62+K6SHEpm8v6O+WHMiV27er26upyD5Ucd794gEhrovpoDVya3TnKO+2hR3rpimr/31Fbd99CACAmkBQuQpU/nBOqTNwhHCflJYxN3oNHZvk1Xrp/K7dQjSp+28+zUuuq9PcXUj6rkw5Jd8+rV6PquZ6Yt3ZaTly4F7+gXTxueJSs5gbhacp1PlvKzYLce+/xfvOtkHdLk1FBJRz2N4tgprX6ep58sOu3ZVqndUt3sM46lzfUIhTlwtEUC1ju/heRapBe7VTgjsZOl1XN82rIdaFgwfVirI7b/PbxI7runRWdrs7D4i6va59po3YnHlh87Yf3j8ihj3Y0LNf4hIG3CLEObX1l6by/K4cJezVTWsmgqn88cy3pzevObF0wfcTp+ePXlyhvLb5RIXXMM1j2gQ8kLShLuxVQneABmaxrdsF7aRSlUbt6nq3QEto0cLwbF/ZqkrR++Z63sOIBo3UdOSXtcLSMa6X1z618JH5WVyvOHFwn54Yz5VlnxJ9Ol/XtYskjpR/58qcJZe+KxI9esQZOhSVXzpxLvurk0uXnvjr9Pzxzzu7WlV5yAEAcFWg6Vdt6tK5U/Y/d/u/KEITk6SU0U9Vnq4UrS0Gz8Q6wRqOlFxWJiWKyka6uhT7KFILSQ3OyQeF6Hd9FcXNE9t/+K+iymtbXWO5l78jKTHY22fOqH2sG19fX0SZo0Ww+V4+U6T8rZj4bKANIiq/LxSdg4weaGvH+e+pZjFJXs/LTygbOk66NlBF2fUNlfErhSc1NOg98mK/OT9OXyYadYwf28sYqGLbp8a231buaf31rRoyh/W+NkjGvHTo5LzXL31Wrp7K6JHgaN26Tp/mlfP2VwoLq+ZRdvm0Uv5uWSfqrZS6Ng124J0/I59VMlVmcb/MYv939566LCLWo0Udr+PZwkfmelG/a6cfRE7FgULROlGc313+mYh5qVNs63ox7b8qz91f3iMl9tL+8k+UCqhOegY6f+5vC374b+ck2ydIzZvUSesqGv9DzeoAAPwUEFRq0z1D7s7dt9/YTaVubKzyoghNvcZJxeJUxXffiR4dRRSUyT8ofxPqPNoxYPuc2EZKCapELbNeG1dFMGrewhF7pnLD8Uu5J8ubN49C99/zZ5VKBunaECqPokK+pOyiWMewFMe1Ad6t0yIql7OtJ9UNMFNhVf06LZSBy0Tzen57rWP8fY2L/zu77Oh9orUo35dVftAR8+sU8x5NZacX/c+lz+LrTHks4c6O+rbOOREgqAR3znniv4GjhnfXpTK1/q1Hm5geASvZWkdUmePS4BrvI9/CR0ZNjF1jGuVUfHfoxzsTxXd7Lyv7pYty5NxYt4+jfNO3F0alXHfw2wrhiOl6o2usH7OXKilFuvfuBmP7X9dAOxLOLCWoAAB+MggqtalN61aTJz0X8eWJY7t0j2m0u+KLf5y5r6PlyxMHkVjnZ8rfujH9RzVtbjqMekb/6Jmqmvu3rD8p9ULB4orZ8wvjxif2jjirqC2LcipPny4Xvlc9qrxwSVSbOklNlDorR9qI5j3CaCx5UVYWzWe/FJyqVBNXsBsLxiQpW/+4/INSKeEXhM7/qJbF63ouhFWavfzC0vKYJ3tdXrCtNH1v/KiuxhyS0COlRHzpvPZX85KNu0X7W67pYR6uLuVcWlEp7h3Y8M6OkdVcqc32yjafvnxaiaw+sygT1ed658HZ4Kb6o/6jpm4fZOUj4+ovJCq+2Ff66xQ56ztx7/3OS3s54rvceOGdA5dOiHPf5am5pb3rGCu7kKV8K7S5Zuyg62o6mAMAYA/0UallSiwZ/9Tjb8x/RfmnPAjnJipKASi13iONxcHdpW9sKhFRENemjRBFFQfPmQ/Sqe4wIbK3/3iwqpPsdVOazHkkpvP5y9PnF+07LyJ0fZJDOTm9dnuJbyr5V1nWOVFtEn6mXkyq4rtvw+qH/d2lXJ9yeeXZvXuVzRzTpXWQ0a7tcpNyer5i0za/rVZ5Lnu38+LC2ql3cWln8Ru7Re+B9Yc/WP/RBvI7H57z2S/N+8TdLeRNOecu7b70RaW4M2jXovNnne3rEowppfzgvgoRMmejxKJL2b7toUpzd4YxNcvaxt4rxOZ9ZREfbtZZ+MioQ13TtY04u//Swf3KXqjTs7trC19zY9c66rjfXtp1zn1hYr0+qpF3fdT+S5sEAAA/FQSVq4Ljunsfi+vnkD/5qHj60tNnyrzL0+fObVt66qD1qYn6vfrFtBeX57516oRxSpUXjq4r2Oa6sFJcwoDbJHG+fO5bp894ysTl5/cW/G2vz9RiG6Q2+cPdjkbnK6b95USkWaV7vYcbKEW9i+k7L3hePH/uk3T16lJVkdTjvbjyTIgtmBTtb4/rLcSCpUXZJcYtcunM9hN+6+unsmLRsjPn3TOtvJD97oUFZaJ3v/j2QT9/zftcc69DfLKq+G/HDbms8sK+/3d+3mnRb4A++vkzS5dXHGxcd+xdCe4rgM1d4V1kvq5eWiv12l+f7a0427hu707BqrYaNFKnu2nnGfdcLx06876F7esnIa13nUZCXvSh8UAqP7OteNG3FsZ2NtE6cTb0IyahwYAUIY79OPdv3rm95NwXK4qq53pZFj4yzsG6dHaIsstrN1ScbRrjvsRCg44xvcXlvV9e3uy5MLHaEV/ts7S/LNu9AZTj/OPyUD7IAABc2Wj6dbVo3nTS/z117aKyT7aXbt5e2j5BulZrQCJnq1c5ipk/KoSJ1U1p+EzqmWk7y0b+Pv/u9nWaO282l7v/8rZyx5RU1yCx7YclTDlWPHt/6UOTLt7bqU5j160MT4j7x/hPL7b5oEYzT5wZn1Mx7fVT859tGn4TMMd19z3yY/aC8nfeO7NpfUmfZG3BfugSN6G8bN6p4CPX69LxvNhfPuvPJ+5sI040uOa39zWyOt9mjZ4cUngko2Li9IJeP3PdglC99+KGMvHoY1WN2zEm7eCFX02+eGd3tYuLa6zWra558q6qGiZd1+TXvzpx9N2K/37x5N9axqS18My0R2r9SdrNDZ2NvsqkRx9p6LqUQt1e9X/9RfHsLec/6VXfcFvABr16/yCWXXpvt+h1R73mQWdbN+WaR9ecf2f3hfFzypQtfOn05U2HxJ0pMZtzQq4GadCnwaTdJb//Tj2QPAfJScevB8bsy6xiatffFNMr49Jna86JQz80Lxdt7m/eu5nF2V7TeVj9Rw9deCez+OCm8726Sspmd66FfLTlNStFtbDwkRGulerx2aVNx0SPvnU91xhoVrfndWXzvq0QTeN6utcxrn7f1IsrdlbMeuG4euRox3nMvacqPhEAAPwkUKNy9ajbtumEPzVaMiz23qZKXYecfU7990Os495/r7dkRuPOIU1LxHd+pOnbo2LvbSRy91e8s71i1beV17ev+9Lkxne6L2/lSLjzues/UGaXIG/arQ6TfaHO4Puuva+7yQR/dd1LnaSzx8vGv3LqROh1Gp7V7Jj05ynxE9o6xEl1pl98J24cfO3LY66x0J3imh6jrp3SSRKn1BHPOEK6lUds8wGJ88dfM6q5dPpf6ujv5Fwubxk746lGo7pWNWq9uFG/v/aZTiJ7pzriQUedUfddO/+5xOYWPnx1U5q/NLXBlJQ6cUXOme6sONskZsrY6156ROuM5Gr01ahjveGeTikJd46s20vI8z44a9zOdVPqDnOIs5V1/qNPVQEprtGo3zV4Xt/CWcV1Ro1vNKqHCEtCr6caLbkv5u4Y+ZPd6vIfrRc7dWrTO1tYGLXV9b99JLZfrPzZ7opVh4wdcixocP2oP1730r/XaSMur9juXIsiR6/+8SsnXFdtN0q08JER6kWK+1yn7AWpT4qxf5LzetNC9OhiSC9K3BrVaH7/Oh1E5Qp1anLrO6+d86u4xgIAgJ8K6fjZS5LaJkbIQpYk9YGkUN+SHQ7tHcl1EwtJdgjtPeU/WVTqTyUhVzpcxT51cFlyONS/6tSUwWTtZedYyuuup0J7xfWitjSy+5E+DGDNufRJPyyoV3fJjGathW2cPDV9dtnmlPob7HAf8fOn35hWuqJVvTXPNaFzNgAACEiW/V+TnK/L7tK5WsJ3DSdpD/RX9L/OIr1zDPWxLOuTlV2jqE+dw6gpQJZdI7keu2bkGkamRgVXhf0/flEmGv0s1kYpxWZObLi4olIM692AlAIAAK4IBBVcWUo2Ly7ILvS+6Fdh0RtLyw8K6ZE7rhUI6MSpRV/JonHdwanXCAAAgCsBnelxhSn7vnz6rJPtG9dJa6veIfGH7y9vOy4fFdK9Dybc+7Mo3FPy6nI2fc6PlxKdvbqF4/lHrm/NqQkAAHCFIKjgypJw5+MVIuPHz769vHS7+rx1PalLStykIdd1TozCvS6vQkUV75wQ7ZvHzBjesDdBDgAAXDnoTA8AAABARWd6AAAAAAiGoAIAAADAdggqAAAAAGyHoAIAAADAdggqAAAAAGyHoAIAAADAdggqAAAAAGyHoAIAAADAdggqAAAAAGyHoAIAAADAdggqAAAAAGyHoAIAAADAdggqAAAAAGyHoAIAAADAdggqAAAAAGyHoAIAAADAdggqAAAAAGyHoAIAAADAdggqAAAAAGyHoAIAAADAdggqAAAAAGyHoAIAAADAdggqAAAAAGyHoAIAAADAdggqAAAAAGyHoAIAAADAdggqAAAAAGyHoAIAAADAdggqAAAAAGyHoAIAAADAdggqAAAAAGyHoAIAAADAdggqAAAAAGyHoAIAAADAdggqAAAAAGyHoAIAAADAdggqAAAAAGwnRsDHzoVj38rxfqnZ8BnTBiYFeit13KLHU9zPCtfOnLzmpPH9NkOn/nFwkgh31r0fnz861f0sZ8kTCzf7L5XwGcD/ddeUT7hf15bTe+GdCjKnz0pv6X7dZ44B18g5SoHhhaQhc34t3piecUQEoI3uvTxRX0ET/quT8syb47p5TcTyrtfHdW7M5l7TcVJf/99b5swYlKi/suetcfFz9wAAEABJREFU8XN3egZwb0n/w8azYAHm63NUAAAAXJ0IKgE1My/yGt9SC75jpw8xFka9yr4F616YPmvscf884M9VhlbGne8u7yrl17WGx0pZVinaLnKHBKUIO318eoCwcTL9jXU9vRbJxM6FS3ZWXeQNkrUCLJWyItMLRNKgP745yDBMgHJ81ZOKfAWrWh01OTwx03tfW9z1oXLuX2Vd3tTXZefCF4zpzicyBZmvelCNHxtseAAAgKsBTb8ikTJaKUMXbN9VYPJ+0qBfD20mdu7YU8V0lEoJVynWq+iZOHialiJ2LlQK8cp5dK/AoAw/Y0gbpby71mv2bVJT2hRkvLG2QFS18L1Txea3Fla1bObUpRLDZ3gvlbJNwogQ1bKCVev2+Lje4uS2nVGYVHCFaz9VU6gxcaWOC6GqzUgNgVOHJ+XMnb6uUAAAAFy1CCqRaZncJuj7iUnNRVUK176dXuBdivVSkLkmRynXBqj6cAahI2syvMJGyyH3pwrfFwNJHTqkjchZFWaJP2fJWzlthj4Wbg2DUXWtoAVJzaOw/FUrOH5SJCVHb1ZJA4cGTcgAAABXPoJKZI7nHxHNW5iXQAsLTlRVQi3Y9b8n2wwdYtqMpyBnW4HonRo4xiSm3qKEjZ07vV50VhTkzPXr2+BLiwFvZ4ZR3t25Q6kiuH9wNMre1beCFuZ9okC0Tqr2sNJNWbuCjLU7RdSk3lwzdUEAAAC1haASgYJ1L6i1CuYZw9WiaWjQplDOYnqwsrKahZo1b2nyblJSayGOFvgUWJ1t0tQuKCK4xMGPDU9Su3yE2ohoz86cqFURVOcKBuVscZc0ZHANdExPHfeM2tBu/NiotddS64KOHCeoAACAqxad6QM6mT59fLr7WZKxu7zhLeX1N+f7hZCcuU+M1x46u52IWqGWjMfPfWthahVdrpMG/nrItukZb6xNMesycWTNrLFr3M8i6VAeVVZX0JdhdZR1mb/Id12s7XohAl0zLZhuj89fpF7CK2PyExnek3UxHDahTxwAAODqQ1AJyMKln5yFzkDle+NVay1dVityAStkug0d0mZnxqq1Bd2CN9BKGnR/asbcNRl7Bgcu8Yd2heXqEdEKetNXR70MV6Crh1XTVb+c1OCqHTmTn8j3vmwXV/ECAADwQtOvcKWOmxO0g0fi4GnPWLmsVuCmTQZqf/2TJ46bvFtQcNSs3ZTlLihhdPlIatlMFORHp+FR9a9gICmjZwyJ1tXDQuOsZ4u4j43au8asYw8AAMBVgKASvsTB9/QWJ9PXmBY3u1m6rFZKaqo48r85pl0XklJ6JYnNOwPPpXDn9iNJt/RMMltCi11QQu7yEbCPe5hqYgUDzndQVK4e5ryw24nv/XayeqWvlkkm3ZNSBlu6brU558UMUrntIwAAuHoRVCJRVfne2il/Nc8EO7XvvBZtwLkUrHujis76ahcUdeJrTojgtN7eb28T1jhL+RHdhsUwrZpYwUCic/WwwBfgUlNcFTUeYV+NoMqrOAAAAFz5CCqRSR0yXKkNWGN6Rr/KWhdV0qA/Pp6idvL2LjHveWu8VnZ3NjPb/NZ4r1sfqjduzxBDp1bRB8YVlgpOiqq47n54xHJLqG6PO287+MRMrxim3jc99PqNGlnBQFw1G59mRtT+S52IsvsMQcv3emKeXeli5XJwJgrXznRtllrvOAQAAFCt6EwfkPf1nYTo/bhZn3i1NiD9rSBXzVJLsZur7FWv9ltQSrezxj7hNe4zj2uPEgdPWzQ4Z8kTxgtwpTzz5nwr59TVsLRm4eaqB3Qtqm+J3/uqX8YLUiUNnDF/oBonvLZVm6FTwyh/18gKmo5r6FVvfdcbJzJtUdLCsW+Ndy+DshEWeR8Pmw3vui445t0v3/uqX14d9/0uRPZmOAkHAADgyiIdP3tJUv4TQhayJKkPJIX6luxwaO9IsmtY2SG095T/ZFGpP5WEXOkc2DW4LDkc6l91aspgsvaycyzldddTob3ielFbGtn9SB8GAAAAQM2QZf/XJOfrsrt0rpbwXcNJ2gP9Ff2vs0jvHEN9LMv6ZGXXKOpT5zBqCpBl10iux64ZuYaRafoFAAAAwHZo+lVT1M4bGUf8XrbSsgghYDsDAABcFWj6BQAAAEBF0y8AAAAACIagAgAAAMB2CCoAAAAAbIegAgAAAMB2CCoAAAAAbIegAgAAAMB2CCoAAAAAbIegAgAAAMB2CCoAAAAAbIegAgAAAMB2CCoAAAAAbIegAgAAAMB2CCoAAAAAbIegAgAAAMB2CCoAAAAAbIegAgAAAMB2CCoAAAAAbIegAgAAAMB2CCoAAAAAbIegAgAAAMB2CCoAAAAAbIegAgAAAMB2CCoAAAAAbIegAgAAAMB2CCoAAAAAbIegAgAAAMB2CCoAAAAAbIegAgAAAMB2CCoAAAAAbIegAgAAAMB2CCoAAAAAbIegAgAAAMB2CCoAAAAAbIegAgAAAMB2CCoAAAAAbIegAgAAAMB2CCoAAAAAbIegAgAAAMB2CCoAAAAAbIegAgAAAMB2CCoAAAAAbIegAgAAAMB2CCoAAAAAbIegAgAAAMB2CCr4/+zdC7QkV30f6l1H89BoBj1m0GOEGIEkkHgIkEBGiEgODwew8U3AAa+LSSwb4xVynQTHcRY3jsNVbHxZie2QxAk3fsR4xTjLKDG+sXDgxhIXKcjCCAmBwJJACA16v0caaTQz0qn06WdVn64+1d3Vff4z833GmtPd9erd1dX7V3vvKgAACEdQAQAAwhFUAACAcAQVAAAgHEEFAAAIR1ABAADCEVQAAIBwBBUAACAcQQUAAAhHUAEAAMIRVAAAgHAEFQAAIBxBBQAACEdQAQAAwhFUAACAcAQVAAAgHEEFAAAIR1ABAADCEVQAAIBwBBUAACAcQQUAAAhHUAEAAMIRVAAAgHAEFQAAIBxBBQAACEdQAQAAwhFUAACAcAQVAAAgHEEFAAAIR1ABAADCEVQAAIBwBBUAACAcQQUAAAhHUAEAAMIRVAAAgHAEFQAAIBxBBQAACEdQAQAAwhFUAACAcAQVAAAgnA2J2dx8x/6bb9//rbsP3vXAwQceW35yX/7Ms8vpULbhqKWtW7KTjl867aSNL3rexpefufnlL9ycAAAadc+99z3w4MMPP/rYE3v3PvnkvgMHDiznh2olailb2rRp09atW56zbduOE44/6cQdp+48JTGb7O5HD2Stf1LKU55lK39kLSsv5UtL3VeyvDNtvpS6r7X+ydNy72GW8uX2xJ3J82xpaeW/K0trTZZ3n27P1Xq+8zB1n+k82d2avP9Xb5qwWvnkf3z5yatvenrP3mfT4e64bUdd8sqjf+CCrRILADCj3Xfd853v3nnn9+7ZccJxJ7dq9NtPOPY527ZuPWbzps3d+uQhaHk5339g/5NPPvX4E3sffuTR+1sJ7NE9pz//1DNecPqu005Nh448X/1c1n4+79fOV2r4nemy7h+9Z3r/bVfp23Os/J3nvcXmnVlWHranWUkBed6ZqfN3Z0WdaXJBZWLXfWPf5Z9/4sZv7U9HnvNetPldb3jOhS/bkgAAJnTLbbd/45ZbN2/adNYZLzx91/O2HH10Onzte/rpO3ff/e3v3LH/wIGXnXP2OS8+Mx0KBJVDNajc/eAzv/Unj1190750ZLvklVve/8PHP+9E/QYBgFparSg33PT1Y7ZsOfclZ+/ceXI6ktx77/1f/8tbn9q37/xXnhu/dUVQOSSDyhXX7v03/2XPoT7+pCkbjlr6+3/zuLdftC0BAIz1xS9df8+9919w/itfsOu0dKT67u67vnzDTafuPPn1r31NCkxQOfSCym/80aN/9IW9ibJ3fv+2n3nnCQkAYJTH9jx+9Rev2779hIu+7zWH7viTpiwv59f+xfWPPPLoJa+/8Pjjjk0hhQoqLk+8tl/6vYellJFaxdIqnAQAsMp99z/4mc9ddeYZL/grF14gpbS0CqFVFK0CaRVLq3ASaxFU1tCqiH/+hqcSFVqFI6sAAENaFfHPXXX1677v/Jed8+JEQatAWsXSKhxZZU2Cyji/8UePSilrahVRq6ASAEDbY3sev/ILX7z4dRec8YJdiVVaxdIqnFYRtQoqUU1QqXTFtXv1+KqpVVCt4koAACld/cXrXvWKl0opY7QKp1VErYJKVBNURrv7wWf+zX/Zk6itVVytQksAwJHti1+6fvv2E/T4WlOriFoF1SquRAVBZbTf+pPHXIl4Iq3iahVaAgCOYLvvuueee++/6PtCX4E3jlZBtYqrVWiJUQSVEa77xj53dZxCq9BaRZcAgCPVDTd9/YLzX+kaXzW1CqpVXK1CS4wiqIxw+eefSExF0QHAEeuW224/ZsuWI/mujlNoFVer0FpFl1hFUBl28x37b/zW/sRUWkXXKsAEABx5vnHLree+5OzEhFqF1iq6xCobEmX/48tPpia86+8+7wNnj8qBy/nexw9+6cpHPnL1wVTTj55y1UUbd1/7vUv/MM1Je2vTjX989899Ps2oVYAvf+HmBAAcSXbfdc/mTZt27jw5MaFWobWKrlWAu047NVEgqAy7+qanU3MO3L/vmt3FQflLO8/Y/NIdm970Iydt33j/z115GF4mq1WAP/vuBAAcUb7z3TvPOuOFqQlf/82f+dhXhp885riTz3zV9//oD12y87g0iYMPXvfJG4659C2vqDf5fZ/95x++4s5X/9Tv/PSrWg8+9+Ff/lR6+0cve+uJab5aRdcqQEFliKBScvMd+/fsfTY158Bj+z/y+0PDNja88SdO/Kev2nDe644978pHbkyHm1YBtopRowoAHFHu/N49r33Neak5p571mnOe23+0756v3fb1L3zq69de+2P/5ENvrF+f/8rvfeh3v3rxT1+aYjt91/O+9JWvJsoElZKbb1/A+IpnrvrM03/7Vdt2nbjpkpQOv6CS2sUoqADAkeOee+/bccJxW44+OjXnzDde+mOvLj2z59qPX/Z73/jkr33i1F+59Jw5VTROees/+w9vTQvXKrpWAbaK8dSdpyR6BJWSb91de9zILB7o/rtx8NTGv/7e7X/r5Zu2b1l5cODxgzd+ac//eUXVpX43vO1d29/76k07t7Sv/bfv2W/f/Pi/+P293+6//vxtv/Cjx772lKO2dVawnD/y4NN/esVD//Fr/Sm2/OT7j/vBszdub02w/5kbr36s2duiLqgYAYAYHnjw4ZNPmnf3qHTcRR/44N3/12V/dv0nP/PmX3rn4XZtsVYBtopRUCkSVEruemARNexdb9u4sg8+/sw3uk9s+Ucf2vGDO7O07+CNXz3wyIaN571o02t/YMcntj586R+uziob3vV3T14Zpr/vmW/evP/eZ4560dlHn3XBCb9+yoZ/+auPXdN6/aTjfvPvHXvW5vyRu5++5p5nD2w86vQzNp918pb3/siOe7/28H9fWcLmf/ChHX99Z3bg8QNf+urBAzs2t9Z1yiTgdMcAABAASURBVMN5as5iihEACOLhRx974enPT/O3680Xn/Nnn77lppsffOdp3WB08KEbLv+9T193xz37Wyd+t5zzirf+6HvetGvbyiv9sS7X/ObPXJNOfvdlv/iWU7rTX/HVu+7c066ubD72nJe/qT9LeYzKsKduvfJTn/rsdXfta8258ZiTz7ngbT/xo6857qjUiB3bT7jjzu8lCgSVkgcem/Pd6E/a/LaLjn3fX9m8KeW7v/ZEOzakXX/j2De3Usr9ez/8K49e053sOb/2D44/76Ljf+Gr+z4ydLW6t2x/Xyul7H364//6wcs7LTMnHXPZ39lx8fO3/a2/sfeaP37mpW84etfG9MjNj/7N3+pfvmzLZf/suRfvOPqSv5L++/9sLeG4t7VX95He6na96cTf+N9abbWNvfe5FyMAEMkTe/ce+5xtaQFOOOOlJ6Rb7rvte/vfeuLmlPZ+9ZP//Lev2rPx9Fe//f3nPffgt77wmWs+fdmtd3zwsp86d1va9cZLP3jcn33sqrvOeeOlbz1jyyknpPTsbZ/+hX9zxZ4t51z4lve//Llbn37oa1+8+qqvfPqyRzb++ocuGT9K/+DXPvFP/931T53yqne891WnHr3n21deecUXPvEPHzjwbz940TGpAa0CbBVjokBQKXlyX5MNCy3bzj7+qn99/PCz+5/95v987F9c3hkPs+HdL920KS3f+Oe9lNLywBO/f+u281694aWv3ZxuLQ2b+cC5KyHnm/+zl1JWJn7qw1/e9tm3bj7rnNYB4rFv/uH9bx2+ivG+mx9avnhH2tTuCfaTK6vLv3njYHW7r3z8S68/+k07UlMaL0YAILInn9y3dWsj1fU1bdmwMjplz4OPpnRKuv2PP9lKKRf/1EcuvaC99gtec/FfveKfX/bZj/3u9f/P33vNcWe95tw9X01X3XVi64/2cJeDX7n2S0+nc971iz//5mM7izv34kvO/PV//Fu3XvuVBy5540njVnzLtdfvSa/64D/7qXPbTSjnXvC60z/2C797zzdv2XvR+U1ktFYBtooxUSColDzzbMNNAYPLE29c6aO1a0v+yK1PfOTf7ymMod+yc2vrv/nm523/hfcW5mx/fXbsaDV0FIPKtl0nrGzmd4eu2fffD9731s27nrPxXSld3nnm+Ue/8ZzNrzt5w/ZTNp5y3Iadx2a9BpNjTj++9ffB8hL23/bQcoNBpfFiBAAiO3DgwOZNi7mOzimn7kzpvvafz371mi/uS6e8/YcuKGSkU9/y9pd89t/dfO3X97/m/FVbtPHVl3701ZeWnzvmzLNPTrcePFir8nLvt7/9+Llnd0LOMed/8F+dnxrTKsBWMSYKBJWSDUctNVvJLl2e+KStl/2d7Reffez//aGlj3y036CxYcdKCj/qpRdsfemq2TdtGbplZLap8+8DqdqWn/y7x7/77A3dKdv3l/z2wxvP6uaQo7ZtWHMJs2oVYwIAjhjL+fLSUpYW4b577u39+eB9K2eDNz9+35evv68wxYPLG1uT3XtPSlW3dTn41FP333X7vQ/d863bvn37bbfc83hKa9+n8pyLXnPcjddf8ev/5IrNzz33vAsvvPBVr37xKRsbGqDS0irAVjEmCgSVkq1bsj3z6xz4wJMf/uNNn/jb23bt3Pa+9zx9zR90WveeeXhf2rX5wOU/e//H115E3g3aJ1Umjbe974T3nn1U2nvgT///J6655akvtQdl/eTPntYLKs/ufWaNJcxu65bFHKoAgBCWsqXl5XwhWWXfMyt9TXaeemJKX73rztafd179sd++etVkBx98ZGRQeWr3Z377319x24OdRLBxy+mnv+zis2/73F+mNW18xaW//ItnfO4/X3XVdx76+nVXtP73W0vHnv/29//ED72wkU5vKwWYOdVbIqiUnHT8UrM3fBz2tUd/54bNl712464LjvtHN+/71ZXrBR945KmV/pZnvSGlzw8mPO9v7/y184669+ZHf+x3nizMv3f3oye8dtvGF1+U0h8Xnu5cRuyJg5enYy7b1Yr2yzdedf+vXtl/efPO57QOHJ1xI0/d+dj2i48fWsKG049fanAw/UnH+5oBwBFk06ZN+w/sb/Y+KqPdd+tXVkannHZKq76z85TTW+0nF//9f/veF9ece89VH7/sv92RTrvo53/i7btOPvaY9vDd3Zf/kzpBpeWY0y55x89f8o5nD+7Z/Y2v/fmV/9+1d9zw335t445/9dMXbkwzaxVgqxgTBSqUJaed1MB+Nt41f7DnyodbBb/xzT94fPv2rfv/9NaDrcfnvW77YAjX84//wCs2pKXl3Tc/OTT7x7++v9WoctYFJ76rP/FJx1x2webWfv3tb7Uag549sJKzss1bBhH04h85/uId7SfbR4//+NX9e8tL2PWmEy5Zu8FzAgsoRgAgjq1btzz55FNp/m7/sytbrSjnXHzRyrWJd2xvVXCe+tZ3HixNcvCGj/3M3/vHH7/uodVzP/61v7gjpee++33vOee0bkpZuVzx3Y+ntX3j0x/6+b/z0atX3uRRG4974asufs/P/dJPrFzC+L6HH05NaBVgqxgTBVpUSl70vI2fvyHN2b6PfO6p895zzPad2z7wN/b+9B8/c+Mf7vnTM3f84Mlb/+k/3PRDt3bvo7J9Y9p76xMf/9KquT/3yO+cefIHzj76A/9w5/ff3r2Pyq4t6cC9e//Tf30mpWdasedNF2186V896Td3Pn3nvqWdZ2x+6Y6lRx5f3n7s0rbO0K/PP/qfXtJZwikX3npg75ZN571oY7MXFGwVYwIAjhjP2bbt8Sf2PnfH9jRHBx/8wm//u2v2pW0XvfMN7TrN5gsuefXlN3zlc5+57qJLL+xexSvdfPnv/2V66vQXv+S5hVm7vUa2bF05aXvgqUKkeurmyz+90pyy75k1Lrj14tOft+/gzV+45p5L3nJqb969Kws6dkszlztrFWCrGBMFgkrJy89cyAUrvvTwH5539AdesnTWRdt/8toH/uMD+371V+7/VvvO9Oe9ql3F3/fst7+055f/4MndI2Z+5vJ/f//e9+x43ys2vvTlK+PvD7Qm/vLgzvQ3/uFD//KoHe87f9NZL996Vkp7Hztw5X995CNbT/jsWzefcspzUnpisIRXtVe3nD9y797/96lj/vqLUlMWVIwAQAw7Tjj+4UcePeMFu1Jzbr/qE5/8Wu/B/odvv/WuO586mDae9mM/954zu0PYN577nh+/+NbfvuZ3P7z7a2/5a937qNyxZ+m0d1/6pu5NUbbvaLW9XPPZPzgnvfLMV7zs3ItfdcxffvWKj380ve3NZx23Z/d11/7JzY+cefrJ99x5f8WYlr6N5//I28/85hWf+pVfuvdtb3r1SZsea6+rlZp++PuPTU1oFWCrGBMF2d2PHsha/6yMYMizbOWPrGXlpc6IqJVXss7ohixfSt3XWv/kabn3MEv9Sz2sTJ5nS0sr/11ZWmuyvPt0e67W852HqftM58nu1uRpcP+N9RqO/Y5fuGe+w1QOd8dtO+rTHzk1AQBHjHvuve+Gm25++1vfnJrQv6N8wcbjTjj5zO9787t/+DUnDvXbKN6ZfmnjqWe87t0/8e5zB80pT93+B7/2sWvuf2o5vfH/+I0fe0Xa8+VP/OYf3HRLK/O0J37Hj7/j/Cev+NBHr9z4lg/90jtPK9+Z/r7PffiXP5Xe/tHL3npiZ2EPXP/J//BH193z+FMrVxt77rkXvv3H3rVqe6Z1xWf/7PxXvvzUnaekdZWPuBle1n4+79fOV2r4nemy7h+9Z3r/bVfp23Os/J3nvcXmnVlWHranWUkBed6ZqfN3Z0WdaXJBZdi/+tQjf/LFJxPT+uHXb/3Zd8+15RcACOf3/vN/ffc7fmgR4+kPR/uefvpTn/7Mj//vP5LWW6igYjD9sB+4YGtiBgoQAI5Apz//1Dt3352YSqvoWgWYKBNUhr38hZvPe5EhFlNqFV2rABMAcIQ54wWnf/s7dySm0iq6VgEmygSVEd71huckpqLoAODItOu0U/cfOHDvvfcnJtQqtFbRtQowUSaojHDhy7Zc8krXsZ5Yq9BaRZcAgCPSy845++t/eWtiQq1CaxVdYhVBZbT3//DxG45SOBNoFVer0BIAcKQ658VnPrVv33d335WorVVcrUJrFV1iFXXx0Z534oa//zePS9TWKq5WoSUA4Ah2/ivP/fINNy0v54kaWgXVKq5WoSVGEVQqvf2ibe/8fvcHraVVUK3iSgDAkW3XaaeeuvPka//i+kQNrYJqFZfRKVUElXF+5p0nvOH8YxJjtYqoVVAJACCl17/2NY888ug3brktMVariFoF1SquRAVBZQ2/+OM7ZJUxWoXTKqIEANBzyesv/OrXvvmd7+5OVGgVTquIWgWVqCaorK1VEdcHbKRWsUgpAMCQ44879k3f//pr/vzLsspIrWJpFU6riFoFlah21M996BezlfvXr8iylT+ylu7D7iudh2nl1e5r7X/y3sP2390X+q92ltafdfD8YIGdabJs5JaNfnadfN9Ltuw47qgv33JgOTc4bMWGo5Y++O7j3/vXXG8AABhh27atp5x04tXX/sVRRy2d9FynNQe+cctt19/wtR94w8WnnHxiOjRkq/7t/5WVn8lK0xWnHDyVjVjy0PP9xd796IFOHMlXwkYxqORLS91Xsk7lPMuXCkElT8tL/aCSL7cn7kyeZ0tLK/9tB5XWYrtPd4JKnvc3Ku8HlV7lP0/5qA2P4u4Hn/mtP3ns6pv2pSPbJa/c8v4fPt41vgCA8R7b8/jVX7xu+/YTLvq+13Trikew5eX82r+4/pFHHr3k9ReGbUsZdU4+az+fF4NK3pku6/7Re6b333aVvj3Hyt953lts3pll5WF7mpUUkOedmTp/d1bUmSYXVCZ23Tf2Xf75J2781v505DnvRZvf9YbnuKsjAFDfF790/T333n/B+a98wa7T0pHqu7vv+vINN5268+Tgo+cFlUM7qHTcfMf+//HlJ6++6ek9e59Nh7vjth11ySuP/oELtr78hZsTAMCEdt91zw03ff2YLVvOfcnZO3eenI4k9957/9f/8tan9u07/5Xnxr8SsaByOASVvlZiufn2/d+6++BdDxx84LHlJ/flzzy7nA5lG45a2rolO+n4pdNO2vii5218+Zmb5RMAYHa33Hb7N265dfOmTWed8cLTdz1vy9FHp8PXvqefvnP33d/+zh37Dxx42TlnHyr3nhdUDqugAgBAfa3Wle989847v3fPjhOOO/mkE3dsP+HY52zbuvWYzZs2H7rjWJaX8/0H9j/55FOPP7H34Ucevf+BBx9+dM/pzz/1jBecfmjdz1FQEVQAAI5099x7X6s+//Cjjz2xd++TT+47cODAcn6odktZypY2bdq0deuW52zbtuOE41v569Sdp6RDUKig4sJNAACsg1ZV/hCtzbMYbvgIAACEI6gAAADhCCoAAEBVGAwWAAAQAElEQVQ4ggoAABCOoAIAAIQjqAAAAOEIKgAAQDiCCgAAEI6gAgAAhCOoAAAA4QgqAABAOIIKAAAQjqACAACEI6gAAADhCCoAAEA4ggoAABCOoAIAAIQjqAAAAOEIKgAAQDiCCgAAEI6gAgAAhCOoAAAA4QgqAABAOIIKAAAQjqACAACEI6gAAADhCCoAAEA4ggoAABCOoAIAAIQjqAAAAOEIKgAAQDiCCgAAEI6gAgAAhCOoAAAA4QgqAABAOIIKAAAQjqACAACEI6gAAADhCCoAAEA4ggoAABCOoAIAAIQjqAAAAOEIKgAAQDiCCgAAEI6gAgAAhCOoAAAA4QgqAABAOIIKAAAQjqACAACEI6gAAADhCCoAAEA4ggoAABCOoAIAAIQjqAAAAOEIKgAAQDiCCgAAEI6gAgAAhCOoAAAA4QgqAABAOIIKAAAQjqACAACEI6gAAADhCCoAAEA4ggoAABCOoAIAAIQjqAAAAOEIKgAAQDiCCgAAEI6gAgAAhCOoAAAA4QgqAABAOIIKAAAQjqACAACEI6gAAADhCCoAAEA4ggoAABCOoAIAAIQjqAAAAOEIKgAAQDiCCgAAEI6gAgAAhCOoAAAA4QgqAABAOIIKAAAQjqACAACEI6gAAADhCCoAAEA4ggoAABCOoAIAAIQjqAAAAOEIKgAAQDiCCgAAEI6gAgAAhCOoAAAA4QgqAABAOIIKAAAQjqACAACEI6gAAADhCCoAAEA4ggoAABCOoAIAAIQjqAAAAOEIKgAAQDiCCgAAEI6gAgAAhCOoAAAA4QgqAABAOIIKAAAQjqACAACEI6gAAADhCCoAAEA4ggoAABCOoAIAAIQjqAAAAOEIKgAAQDiCCgAAEI6gAgAAhCOoAAAA4QgqAABAOIIKAAAQjqACAACEI6gAAADhCCoAAEA4ggoAABCOoAIAAIQjqAAAAOEIKgAAQDiCCgAAEI6gAgAAhCOoAAAA4QgqAABAOIIKAAAQjqACAACEI6gAAADhCCoAAEA4ggoAABCOoAIAAIQjqAAAAOEIKgAAQDiCCgAAEI6gAgAAhCOoAAAA4QgqAABAOIIKAAAQjqACAACEI6gAAADhCCoAAEA4ggoAABCOoAIAAIQjqAAAAOEIKgAAQDiCCgAAEI6gAgAAhCOoAAAA4QgqAABAOIIKAAAQjqACAACEI6gAAADhCCoAAEA4ggoAABCOoAIAAIQjqAAAAOEIKgAAQDiCCgAAEI6gAgAAhCOoAAAA4QgqAABAOIIKAAAQjqACAACEI6gAAADhCCoAAEA4ggoAABCOoAIAAIQjqAAAAOEIKgAAQDiCCgAAEI6gAgAAhCOoAAAA4QgqAABAOIIKAAAQjqACAACEI6gAAADhCCoAAEA4ggoAABCOoAIAAIQjqAAAAOEIKgAAQDiCCgAAEI6gAgAAhCOoAAAA4QgqAABAOIIKAAAQjqACAACEI6gAAADhCCoAAEA4ggoAABCOoAIAAIQjqAAAAOEIKgAAQDiCCgAAEI6gAgAAhCOoAAAA4QgqAABAOIIKAAAQjqACAACEI6gAAADhCCoAAEA4ggoAABCOoAIAAIQjqAAAAOEIKgAAQDiCCgAAEI6gAgAAhCOoAAAA4QgqAABAOIIKAAAQjqACAACEI6gAAADhCCoAAEA4ggoAABCOoAIAAIQjqAAAAOEIKgAAQDiCCgAAEI6gAgAAhCOoAAAA4QgqAABAOIIKAAAQjqACAACEI6gAAADhCCoAAEA4ggoAABCOoAIAAIQjqAAAAOEIKgAAQDiCCgAAEI6gAgAAhCOoAAAA4QgqAABAOIIKAAAQjqACAACEI6gAAADhCCoAAEA4ggoAABCOoAIAAIQjqAAAAOEIKgAAQDiCCgAAEI6gAgAAhCOoAAAA4QgqAABAOIIKAAAQjqACAACEI6gAAADhCCoAAEA4ggoAABCOoAIAAIQjqAAAAOEIKgAAQDiCCgAAEI6gAgAAhCOoAAAA4QgqAABAOIIKAAAQjqACAACEI6gAAADhCCoAAEA4ggoAABCOoAIAAIQjqAAAAOEIKgAAQDiCCgAAEI6gAgAAhCOoAAAA4QgqAABAOIIKAAAQjqACAACEI6gAAADhCCoAAEA4ggoAABCOoAIAAIQjqAAAAOEIKgAAQDiCCgAAEI6gAgAAhCOoAAAA4QgqAABAOIIKAAAQjqACAACEI6gAAADhCCoAAEA4ggoAABCOoAIAAIQjqAAAAOEIKgAAQDiCCgAAEI6gAgAAhCOoAAAA4QgqAABAOIIKAAAQjqACAACEI6gAAADhCCoAAEA4ggoAABCOoAIAAIQjqAAAAOEIKgAAQDiCCgAAEI6gAgAAhCOoAAAA4QgqAABAOIIKAAAQjqACAACEI6gAAADhCCoAAEA4ggoAABCOoAIAAIQjqAAAAOEIKgAAQDiCCgAAEI6gAgAAhCOoAAAA4QgqAABAOIIKAAAQjqACAACEI6gAAADhCCoAAEA4ggoAABCOoAIAAIQjqAAAAOEIKgAAQDiCCgAAEI6gAgAAhCOoAAAA4QgqAABAOIIKAAAQjqACAACEI6gAAADhCCoAAEA4ggoAABCOoAIAAIQjqAAAAOEIKgAAQDiCCgAAEI6gAgAAhCOoAAAA4QgqAABAOIIKAAAQjqACAACEI6gAAADhCCoAAEA4ggoAABCOoAIAAIQjqAAAAOEIKgAAQDiCCgAAEI6gAgAAhCOoAAAA4QgqAABAOIIKAAAQjqACAACEI6gAAADhCCoAAEA4ggoAABCOoAIAAIQjqAAAAOEIKgAAQDiCCgAAEI6gAgAAhCOoAAAA4QgqAABAOIIKAAAQjqACAACEI6gAAADhCCoAAEA4ggoAABCOoAIAAIQjqAAAAOEIKgAAQDiCCgAAEI6gAgAAhCOoAAAA4QgqAABAOIIKAAAQjqACAACEI6gAAADhCCoAAEA4ggoAABCOoAIAAIQjqAAAAOEIKgAAQDiCCgAAEI6gAgAAhCOoAAAA4QgqAABAOIIKAAAQjqACAACEI6gAAADhCCoAAEA4ggoAABCOoAIAAIQjqAAAAOEIKgAAQDiCCgAAEI6gAgAAhCOoAAAA4QgqAABAOIIKAAAQjqACAACEI6gAAADhCCoAAEA4ggoAABCOoAIAAIQjqAAAAOEIKgAAQDiCCgAAEI6gAgAAhCOoAAAA4QgqAABAOIIKAAAQjqACAACEI6gAAADhCCoAAEA4ggoAABCOoAIAAIQjqAAAAOEIKgAAQDiCCgAAEI6gAgAAhCOoAAAA4QgqAABAOIIKAAAQjqACAACEI6gAAADhCCoAAEA4ggoAABCOoAIAAIQjqAAAAOEIKgAAQDiCCgAAEI6gAgAAhCOoAAAA4QgqAABAOIIKAAAQjqACAACEI6gAAADhCCoAAEA4ggoAABCOoAIAAIQjqAAAAOEIKgAAQDiCCgAAEI6gAgAAhCOoAAAA4QgqAABAOIIKAAAQjqACAACEI6gAAADhCCoAAEA4ggoAABCOoAIAAIQjqAAAAOEIKgAAQDiCCgAAEI6gAgAAhCOoAAAA4QgqAABAOIIKAAAQjqACAACEI6gAAADhCCoAAEA4ggoAABCOoAIAAIQjqAAAAOEIKgAAQDiCCgAAEI6gAgAAhCOoAAAA4QgqAABAOIIKAAAQjqACAACEI6gAAADhCCoAAEA4ggoAABCOoAIAAIQjqAAAAOEIKgAAQDiCCgAAEI6gAgAAhCOoAAAA4QgqAABAOIIKAAAQjqACAACEI6gAAADhCCoAAEA4ggoAABCOoAIAAIQjqAAAAOEIKgAAQDiCCgAAEI6gAgAAhCOoAAAA4QgqAABAOIIKAAAQjqACAACEI6gAAADhCCoAAEA4ggoAABCOoAIAAIQjqAAAAOEIKgAAQDiCCgAAEI6gAgAAhCOoAAAA4QgqAABAOIIKAAAQjqACAACEI6gAAADhCCoAAEA4ggoAABCOoAIAAIQjqAAAAOEIKgAAQDiCCgAAEI6gAgAAhCOoAAAA4QgqAABAOIIKAAAQjqACAACEI6gAAADhCCoAAEA4ggoAABCOoAIAAIQjqAAAAOEIKgAAQDiCCgAAEI6gAgAAhCOoAAAA4QgqAABAOIIKAAAQjqACAACEI6gAAADhCCoAAEA4ggoAABCOoAIAAIQjqAAAAOEIKgAAQDiCCgAAEI6gAgAAhCOoAAAA4QgqAABAOIIKAAAQjqACAACEI6gAAADhCCoAAEA4ggoAABCOoAIAAIQjqAAAAOEIKgAAQDiCCgAAEI6gAgAAhCOoAAAA4QgqAABAOIIKAAAQjqACAACEI6gAAADhCCoAAEA4ggoAABCOoAIAAIQjqAAAAOEIKgAAQDiCCgAAEI6gAgAAhCOoAAAA4QgqAABAOIIKAAAQjqACAACEI6gAAADhCCoAAEA4ggoAABCOoAIAAIQjqAAAAOEIKgAAQDiCCgAAEI6gAgAAhCOoAAAA4QgqAABAOIIKAAAQjqACAACEI6gAAADhCCoAAEA4ggoAABCOoAIAAIQjqAAAAOEIKgAAQDiCCgAAEI6gAgAAhCOoAAAA4QgqAABAOIIKAAAQjqACAACEI6gAAADhCCoAAEA4ggoAABCOoAIAAIQjqAAAAOEIKgAAQDiCCgAAEI6gAgAAhCOoAAAA4QgqAABAOIIKAAAQjqACAACEI6gAAADhCCoAACSIRlABAADCEVQAAIBwBBUAACAcQQUAAAhHUAEAAMIRVAAAgHAEFQAAIBxBBQAACEdQAQAAwhFUAACAcAQVAAAgHEEFAAAIR1ABAADCEVQAAIBwBBUAACAcQQUAAAhHUAEAAMIRVAAAgHAEFQAAIBxBBQAACEdQAQAAwhFUAACAcAQVAAAgHEEFAAAIR1ABAADCEVQAAIBwBBUAACAcQQUAAAhHUAEAAMIRVAAAgHAEFQAAIBxBBQAACEdQAQAAwhFUAACAcAQVAAAgHEEFAAAIR1ABAADCEVQAAIBwBBUAACAcQQUAAAhHUAEAAMIRVAAAgHAEFQAAIBxBBQAACEdQAQAAwhFUAACAcAQVAAAgHEEFAAAIR1ABAADCEVQAAIBwBBUAACAcQQUAAAhHUAEAAMIRVAAAgHAEFQAAIBxBBQAACEdQAQAAwhFUAACAcAQVAAAgHEEFAAAIR1ABAADCEVQAAIBwBBUAACAcQQUAAAhHUAEAAMIRVAAAgHAEFQAAIBxBBQAACEdQAQAAwhFUAACAcAQVAAAgHEEFAAAIR1ABAADCEVQAAIBwBBUAACAcQQUAAAhHUAEA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"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "systemInstruction": {
+        "role": "user",
+        "parts": [
+          {
+            "text": "<identity>\nYou are a subagent of Antigravity, a powerful agentic AI coding assistant designed by the Google Deepmind team working on Advanced Agentic Coding.\nYour goal is to complete the browser task at hand FULLY. You are the primary agent with browser tools, though your work might be checked by the main agent.\nMake sure to check the state of the browser before and after you have done your work, and check the state pretty frequently.\n</identity>\n<browser_safety>\n**Core Safety Principles:**\n* Strictly adhere to safety guidelines: no dangerous, PII-revealing, sexually explicit, medical, malicious, hateful, or harassing content.\n* DO NOT access or navigate to harmful, inappropriate, or malicious websites.\n* NEVER attempt to bypass security measures or engage in unauthorized activities.\n\n**Prohibited Actions:**\n* NEVER solve captchas or attempt to bypass bot detection, age verification, content warnings, or other safety mechanisms. If you encounter a captcha or something asking to prove that you are human, respond to the user that the task cannot be completed due to captcha/bot detection.\n* NEVER attempt to access restricted areas, private accounts, or bypass authentication/authorization systems without explicit user authorization.\n* NEVER perform actions that could compromise user privacy or security.\n* NEVER access websites known for malware, phishing, or other security threats.\n* NEVER download suspicious files, execute potentially harmful content, or interact with elements that could trigger malicious scripts or downloads.\n\n**Security & Privacy Protection:**\n* If a website requests personal information, credentials, or payment details, STOP immediately and inform the user of the security implications.\n* When encountering suspicious pop-ups, download prompts, or security warnings, STOP immediately and report to the user.\n\n**Authorization:**\n* If a website requires a user to log-in or sign-up, ask the user to perform this step. Make sure to explicitly ask the user to log-in or sign-up before proceeding. \n* Always defer to the user in these situations and NEVER bypass an authorization flow without the user's permission.\n\n**Content Safety:**\n* Do not navigate to or interact with content that violates platform policies or legal guidelines.\n* Avoid websites or content related to illegal activities, violence, or harmful behaviors.\n* If you encounter inappropriate content during navigation, immediately navigate away and inform the user.\n\n**Error Handling:**\n* If you realize an error at any step that could compromise safety, you MUST STOP and inform the user rather than continuing.\n* When in doubt about the safety or appropriateness of an action, err on the side of caution and seek user clarification.\n</browser_safety>\n<browser_use_tips>\nHere are some tips to help you use the browser:\n1. If a page looks like it's loading, call the DOM tool again and see if it updates. Sometimes it just takes a moment for the page to load.\n2. Whenever the page interacts in a way that you don't expect, call the DOM and/or screenshot tools to make sure you have a good understanding of the current state.\n3. Ignore the blue border overlay and bottom-screen messages (e.g., \"Working...\", \"Thinking...\", click warnings) - these are UI elements for the user, not part of the website.\n4. When using pixel clicking, your tool call coordinates will be scaled to the browser's actual dimensions when your tool call is processed. Follow your tool call's guidance on which coordinate ranges are acceptable in your output.\n</browser_use_tips>\n<browser_scratchpad>\n**Scratchpad Usage:**\n\nYou have access to a scratchpad file for tracking your progress and storing notes during task execution. The scratchpad path is provided in your task description.\n\n**IMPORTANT:** Read the scratchpad first to check for existing context, then update it frequently (every 3 tool calls) to track your progress and findings.\n\n**How to Use the Scratchpad:**\n* Break down complex multi-step tasks into a checklist and track progress as you complete each step\n* Store important information discovered during browsing that you may need to reference later\n* Use the scratchpad to plan your approach before executing actions, especially for multi-page flows or complex interactions\n* Record extracted data, URLs, or observations that will be needed for your final response\n* Record failed attempts and what went wrong to avoid repeating mistakes\n\n**File Editing Rules:**\nWhen editing the scratchpad file, follow these rules to ensure your edits succeed:\n* Always view the file first to see its exact contents before making edits\n* When using replace_file_content, ALWAYS generate the TargetFile argument first, before any other arguments\n* The TargetContent must EXACTLY match the text in the file, including all whitespace and indentation\n* Specify the correct line range that contains your TargetContent\n* If your edit fails, view the file again to see the current contents and retry with the correct TargetContent\n\n**Important Restrictions:**\n* You can ONLY view and edit the scratchpad file; do not attempt to view, edit, or create other files\n* If you fail to view a file because it is not in your allowlist, you should NOT open the file in the browser to bypass this restriction\n</browser_scratchpad>\n<browser_tool_queuing>\nYou can generate multiple browser tool calls at once for efficiency. Batched tool calls are queued and execute sequentially in the order they are specified. Only batch predictable sequences. Wait for results when your next action depends on what you observe.\n\n**Safe to Queue Together:**\n* You can queue multiple field inputs when filling a form (e.g., click -> input -> click -> input). However, do NOT queue the submit action together with form filling as you must verify the form is correctly filled out before submitting.\n* You can queue a click followed by a wait when expecting a page load or animation.\n* You can queue multiple scroll and screenshot sequences to read large sections of a page (e.g., scroll -> screenshot -> scroll -> screenshot).\n* You can queue navigation followed by a wait and then a screenshot or DOM read. The wait is only necessary if the page takes a while to load.\n* You can queue a window resize followed by a screenshot.\n\n**Do NOT Queue (Wait for Results First):**\n* You must observe a new page after navigation before interacting with it.\n* You must observe the page after triggering a modal or popup before taking the next action, as UI changes unpredictably.\n* You must observe the page after executing browser JavaScript, as page state may change unexpectedly.\n* You must observe the page first when your next action's coordinates depend on the current page state.\n* You must verify success or failure after form submission before continuing.\n* You must not queue a click immediately after a scroll, as scroll offset changes element positions unpredictably.\n* You must confirm that an error-prone action succeeded before continuing.\n</browser_tool_queuing>\n<browser_low_level_tools_instructions>\n**Low-Level Browser Tool Operations:**\n\n**Clicking at a Pixel:**\n1. Use browser_move_mouse to move the cursor to the target pixel\n2. Call browser_mouse_down to press the mouse button\n3. Call browser_mouse_up to release the mouse button\n\n**Drag and Drop:**\n1. Click on the element you want to drag (move_mouse, mouse_down, mouse_up)\n2. Call browser_mouse_down to begin the drag\n3. Use browser_move_mouse to drag to the destination pixel\n4. Call browser_mouse_up to release and complete the drop\n\n**Queuing Actions:**\nWhen building complex actions using multiple low-level tools like mouse_up and mouse_down, you should generate all tool calls together so they execute in sequence. This reduces latency compared to making separate requests.\n</browser_low_level_tools_instructions>\n<browser_auto_recording>\n**Browser Recording Capabilities:**\nYour browser interactions are automatically recorded during task execution. While you don't have direct video recording tools, the system captures your actions behind the scenes:\n\n**Automatic Recording Features:**\n* All browser interactions are recorded as you use tools\n* Recordings are automatically converted to WebP video format\n* Videos are saved to the artifacts directory. Jetski can later access and show them to the user.\n\n**What Gets Recorded:**\n* Page navigation and interactions\n* Tool usage (clicks, scrolls, inputs)\n* Page state changes and transitions\n\n**Recording Behavior:**\n* Recording starts automatically when tool calls begin and stops when you finish.\n* No manual recording controls available since the recording is automatic, and you have all you need to fullfill user or Jetki recording requests.\n\n</browser_auto_recording>"
+          }
+        ]
+      },
+      "tools": [
+        {
+          "functionDeclarations": [
+            {
+              "name": "list_browser_pages",
+              "description": "List all open pages in Jetski Browser and their metadata (page_id, url, title, viewport size, etc.).",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "explanation": {
+                    "type": "STRING",
+                    "description": "Short past-tense phrase (3-6 words) describing what this tool call accomplished and how it contributes to the goal."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "capture_browser_console_logs",
+              "description": "Retrieve the console logs of a browser page that is already open in the browser. Note that this tool may struggle to retrieve console logs from the startup of the page. If appropriate, try reloading the page and running the tool again.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "PageId": {
+                    "type": "STRING",
+                    "description": "page_id of the Browser page to capture console logs of."
+                  },
+                  "explanation": {
+                    "type": "STRING",
+                    "description": "Short past-tense phrase (3-6 words) describing what this tool call accomplished and how it contributes to the goal."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  }
+                },
+                "required": [
+                  "PageId"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "browser_move_mouse",
+              "description": "Move the mouse to a specific position on the browser page.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "PageId": {
+                    "type": "STRING",
+                    "description": "page_id of the Browser page to move the mouse cursor to."
+                  },
+                  "X": {
+                    "type": "INTEGER",
+                    "description": "x-coordinate of the pixel to move the mouse cursor to."
+                  },
+                  "Y": {
+                    "type": "INTEGER",
+                    "description": "y-coordinate of the pixel to move the mouse cursor to."
+                  },
+                  "explanation": {
+                    "type": "STRING",
+                    "description": "Short past-tense phrase (3-6 words) describing what this tool call accomplished and how it contributes to the goal."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  }
+                },
+                "required": [
+                  "PageId",
+                  "X",
+                  "Y"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "browser_press_key",
+              "description": "Simulate key press or text input in the current browser page. Use to interact with the keyboard without having to specify a specific DOM element. Also use for specific keyboard operations like shortcuts. IMPORTANT: Before calling this tool to input text into an element (like a search box), you MUST first ensure that element is focused and ready to accept input by clicking on it or using another interaction method.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "Key": {
+                    "type": "STRING",
+                    "description": "Name of the key/key combination to simulate. Examples of keys are: \"F1\" - \"F12\", \"Digit0\"- \"Digit9\", \"KeyA\"- \"KeyZ\", \"Backquote\", \"Minus\", \"Equal\", \"Backslash\", \"Backspace\", \"Tab\", \"Delete\", \"Escape\", \"ArrowDown\", \"End\", \"Enter\", \"Home\", \"Insert\", \"PageDown\", \"PageUp\", \"ArrowRight\", \"ArrowUp\", etc. This tool also supports combinations with modifiers (e.g., Control+Enter). Examples of modifiers are: \"Shift\", \"Control\", \"Alt\", \"Meta\", \"ShiftLeft\", \"ControlOrMeta\". \"ControlOrMeta\" resolves to \"Control\" on Windows and Linux and to \"Meta\" on macOS. Only specify one of Key or Text - use Key for keyboard shortcuts and special keys."
+                  },
+                  "PageId": {
+                    "type": "STRING",
+                    "description": "page_id of the Browser page to simulate a key press on"
+                  },
+                  "Text": {
+                    "type": "STRING",
+                    "description": "Text to type sequentially, character by character. Use this for typing regular text content like letters, numbers, and basic symbols. Each character will be typed individually in sequence. Only specify one of Key or Text - use Text for typing regular content, not for keyboard shortcuts or special keys like F1, Control+C, etc."
+                  },
+                  "explanation": {
+                    "type": "STRING",
+                    "description": "Short past-tense phrase (3-6 words) describing what this tool call accomplished and how it contributes to the goal."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  }
+                },
+                "required": [
+                  "PageId"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "browser_resize_window",
+              "description": "Resize the browser window to the specified width and height. This tool can also be used to fullscreen or minimize a browser window. Do NOT try to call this tool in parallel yourself, or by spawning parallel subagents that are told to resize windows. Parallel resizing will not reliably work since the tabs could share a common window.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "Height": {
+                    "type": "INTEGER",
+                    "description": "The window contents height in display independent pixels. Only used when WindowState is 'normal'."
+                  },
+                  "PageID": {
+                    "type": "STRING",
+                    "description": "page_id of the Browser page to resize."
+                  },
+                  "Width": {
+                    "type": "INTEGER",
+                    "description": "The window contents width in display independent pixels. Only used when WindowState is 'normal'."
+                  },
+                  "WindowState": {
+                    "type": "STRING",
+                    "description": "The window state to set. Options: 'normal' (resizable window with specified width/height), 'minimized' (window minimized to taskbar), 'maximized' (window is full screen but shows taskbar), 'fullscreen' (window fills entire screen and hides taskbar). Width and Height are only used when WindowState is 'normal'. Generally you should prefer 'maximized'. If the user asks to make the window smaller or a particular size, use 'normal'. When resetting the window size, prefer 'maximized' instead of 'normal' with specific width/height values. 'minimized' and 'fullscreen' are somewhat jarring, so you should only use these when the user explicitly asks for it."
+                  },
+                  "explanation": {
+                    "type": "STRING",
+                    "description": "Short past-tense phrase (3-6 words) describing what this tool call accomplished and how it contributes to the goal."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  }
+                },
+                "required": [
+                  "PageID",
+                  "WindowState"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "browser_scroll",
+              "description": "Simulate scrolling the mouse wheel at a specific (x, y) coordinate. Use this for fine-grained scrolling or when you need to scroll at a specific location on the page. Coordinates are scaled to a 1000x1000 grid and mapped to screen dimensions.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "Dx": {
+                    "type": "INTEGER",
+                    "description": "Horizontal scroll delta in pixels. Positive values scroll to the right, negative values scroll to the left."
+                  },
+                  "Dy": {
+                    "type": "INTEGER",
+                    "description": "Vertical scroll delta in pixels. Positive values scroll down, negative values scroll up."
+                  },
+                  "PageId": {
+                    "type": "STRING",
+                    "description": "page_id of the Browser page to scroll on"
+                  },
+                  "X": {
+                    "type": "INTEGER",
+                    "description": "X coordinate of the pixel to scroll (0-999). Coordinates are scaled to a 1000x1000 grid and mapped to screen dimensions."
+                  },
+                  "Y": {
+                    "type": "INTEGER",
+                    "description": "Y coordinate of the pixel to scroll (0-999). Coordinates are scaled to a 1000x1000 grid and mapped to screen dimensions."
+                  },
+                  "explanation": {
+                    "type": "STRING",
+                    "description": "Short past-tense phrase (3-6 words) describing what this tool call accomplished and how it contributes to the goal."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  }
+                },
+                "required": [
+                  "PageId",
+                  "X",
+                  "Y",
+                  "Dx",
+                  "Dy"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "browser_mouse_up",
+              "description": "Release a mouse button. Use this after browser_mouse_down to complete a click or drag operation.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "Button": {
+                    "type": "STRING",
+                    "description": "Mouse button to release. Options are 'left', 'right', or 'middle'."
+                  },
+                  "PageId": {
+                    "type": "STRING",
+                    "description": "page_id of the Browser page to release the mouse button on"
+                  },
+                  "explanation": {
+                    "type": "STRING",
+                    "description": "Short past-tense phrase (3-6 words) describing what this tool call accomplished and how it contributes to the goal."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  }
+                },
+                "required": [
+                  "PageId",
+                  "Button"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "browser_mouse_down",
+              "description": "Press and hold a mouse button. You can use this to perform a click (browser_move_mouse -> browser_mouse_down -> browser_mouse_up) or to drag (browser_move_mouse -> browser_mouse_down -> browser_mouse_move -> browser_mouse_up). If you are using this tool to click, do not call browser_click tool as well.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "Button": {
+                    "type": "STRING",
+                    "description": "Mouse button to press. Options are 'left', 'right', or 'middle'."
+                  },
+                  "PageId": {
+                    "type": "STRING",
+                    "description": "page_id of the Browser page to press the mouse button on"
+                  },
+                  "explanation": {
+                    "type": "STRING",
+                    "description": "Short past-tense phrase (3-6 words) describing what this tool call accomplished and how it contributes to the goal."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  }
+                },
+                "required": [
+                  "PageId",
+                  "Button"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "capture_browser_screenshot",
+              "description": "Capture a screenshot of the current viewport or specific element by index of a browser page that is already open in the browser. This can be used to understand the state of the page or to create a visual artifact for the user to review. When providing an explanation, start with 'Captured' (e.g. 'Captured the login page').",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "CaptureBeyondViewport": {
+                    "type": "BOOLEAN",
+                    "description": "If true, captures an extended screenshot starting from the current scroll position downward, up to 4000px or the end of page content, whichever is less. To capture content above or below this range, scroll first and then capture."
+                  },
+                  "CaptureByElementIndex": {
+                    "type": "BOOLEAN",
+                    "description": "If true, captures a screenshot of a specific element by index instead of the full viewport."
+                  },
+                  "ElementIndex": {
+                    "type": "INTEGER",
+                    "description": "The index of the element to capture (required if CaptureByElementIndex is true). Get the index using browser_get_dom."
+                  },
+                  "PageID": {
+                    "type": "STRING",
+                    "description": "page_id of the Browser page to capture a screenshot of."
+                  },
+                  "SaveScreenshot": {
+                    "type": "BOOLEAN",
+                    "description": "If true, saves the screenshot as an artifact."
+                  },
+                  "ScreenshotName": {
+                    "type": "STRING",
+                    "description": "Name of the screenshot to save. Should be all lowercase with underscores, describing what the screenshot contains. Maximum 3 words. Example: 'login_page_error'"
+                  },
+                  "explanation": {
+                    "type": "STRING",
+                    "description": "Short past-tense phrase (3-6 words) describing what this tool call accomplished and how it contributes to the goal."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  }
+                },
+                "required": [
+                  "PageID",
+                  "ScreenshotName"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "click_browser_pixel",
+              "description": "Click at a specific pixel coordinate on a browser page that is already open in the browser. Only use this when encountering issues clicking DOM elements. When providing an explanation, start with 'Clicked' (e.g. 'Clicked the submit button').",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "ClickType": {
+                    "type": "STRING",
+                    "description": "Type of click to perform: 'left', 'right', or 'double'. If not specified or left empty, a left click will be performed.",
+                    "enum": [
+                      "left",
+                      "right",
+                      "double"
+                    ]
+                  },
+                  "PageID": {
+                    "type": "STRING",
+                    "description": "The page_id of the browser page to click on."
+                  },
+                  "X": {
+                    "type": "INTEGER",
+                    "description": "X coordinate of the pixel to click (0-999). Coordinates are scaled to a 1000x1000 grid and mapped to screen dimensions when executing the tool call."
+                  },
+                  "Y": {
+                    "type": "INTEGER",
+                    "description": "Y coordinate of the pixel to click (0-999). Coordinates are scaled to a 1000x1000 grid and mapped to screen dimensions when executing the tool call."
+                  },
+                  "explanation": {
+                    "type": "STRING",
+                    "description": "Short past-tense phrase (3-6 words) describing what this tool call accomplished and how it contributes to the goal."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  }
+                },
+                "required": [
+                  "PageID",
+                  "Y",
+                  "X"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "browser_drag_pixel_to_pixel",
+              "description": "Drag from one pixel coordinate to another in the browser. This simulates a click, drag, and drag operation from the starting coordinates, through zero or more intermediate coordinates, and then to the ending coordinates.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "PageID": {
+                    "type": "STRING",
+                    "description": "page_id of the Browser page to perform the drag operation on"
+                  },
+                  "Waypoints": {
+                    "type": "ARRAY",
+                    "description": "A series of pixel coordinates defining the drag path. When this tool call is executed, the first waypoint will be clicked, then the mouse will be dragged to each subsequent waypoint in the provided order, and finally the mouse will be released at the last waypoint.",
+                    "items": {
+                      "type": "OBJECT",
+                      "properties": {
+                        "X": {
+                          "type": "INTEGER",
+                          "description": "X coordinate for starting, continuing, or ending dragging (0-999). Coordinates are scaled to a 1000x1000 grid and mapped to screen dimensions when executing the tool call."
+                        },
+                        "Y": {
+                          "type": "INTEGER",
+                          "description": "Y coordinate for starting, continuing, or ending dragging (0-999). Coordinates are scaled to a 1000x1000 grid and mapped to screen dimensions when executing the tool call."
+                        }
+                      }
+                    }
+                  },
+                  "explanation": {
+                    "type": "STRING",
+                    "description": "Short past-tense phrase (3-6 words) describing what this tool call accomplished and how it contributes to the goal."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "wait",
+              "description": "Wait for a specified duration before continuing execution. The maximum duration is 60 seconds.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "duration_ms": {
+                    "type": "INTEGER"
+                  },
+                  "explanation": {
+                    "type": "STRING",
+                    "description": "Short past-tense phrase (3-6 words) describing what this tool call accomplished and how it contributes to the goal."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "read_browser_page",
+              "description": "Read a page in the USER's visible browser. Note that the page must already be open in the browser and you must have a page_id for it. If you have a URL you would like to view and interact with, first call the open_browser_url tool. Prefer the read_url_content tool if you only need to read a public URL and not interact with it. You should also use this tool for getting window size information, this is part of the page's metadata which is returned.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "PageId": {
+                    "type": "STRING",
+                    "description": "page_id of the Browser page to read"
+                  },
+                  "explanation": {
+                    "type": "STRING",
+                    "description": "Short past-tense phrase (3-6 words) describing what this tool call accomplished and how it contributes to the goal."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  }
+                },
+                "required": [
+                  "PageId"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "browser_get_dom",
+              "description": "Get the DOM tree of an open page in the browser. Returns only interactive elements and text within the current viewport, each with an index for interaction. If an element is not included, it may be outside the viewport or getting filtered for other reasons - refer to the screenshot to confirm. Then try read_browser_page and browser_scroll tools.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "PageId": {
+                    "type": "STRING",
+                    "description": "page_id of the Browser page to get the DOM tree of"
+                  },
+                  "explanation": {
+                    "type": "STRING",
+                    "description": "Short past-tense phrase (3-6 words) describing what this tool call accomplished and how it contributes to the goal."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  }
+                },
+                "required": [
+                  "PageId"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "open_browser_url",
+              "description": "Open a URL in the browser to view the page contents of a URL in a rendered format. You can also use this tool to navigate to different URLs or replace the current page. IMPORTANT: use your knowledge of the currently open pages (via browser state metadata and the list_browser_pages tool) to reuse whichever pageID's you can. Be conservative with the total number of pages open.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "PageIdToReplace": {
+                    "type": "STRING",
+                    "description": "An existing page ID which will be replaced with this new URL. You should provide a page_id in almost all cases. To open a new page, set this field to 'new_page'. IMPORTANT: Opening a new page should be extremely rare and only done if you are explicitly instructed to keep multiple pages open simultaneously. By default, always replace the most recently used page or any page not critical to your current task."
+                  },
+                  "Url": {
+                    "type": "STRING",
+                    "description": "The URL to open in the user's browser."
+                  },
+                  "explanation": {
+                    "type": "STRING",
+                    "description": "Short past-tense phrase (3-6 words) describing what this tool call accomplished and how it contributes to the goal."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  }
+                },
+                "required": [
+                  "Url",
+                  "PageIdToReplace"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "browser_list_network_requests",
+              "description": "List the network requests for a browser page.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "IncludePreservedRequests": {
+                    "type": "BOOLEAN",
+                    "description": "Always set to true."
+                  },
+                  "PageId": {
+                    "type": "STRING",
+                    "description": "The page_id of the browser page to list network requests for."
+                  },
+                  "ResourceTypes": {
+                    "type": "ARRAY",
+                    "description": "The resource types to list network requests for. When empty, all resource types are listed. Supported types: 'Document', 'Stylesheet', 'Image', 'Media', 'Font', 'Script', 'TextTrack', 'XHR', 'Fetch', 'Prefetch', 'EventSource', 'WebSocket', 'Manifest', 'SignedExchange', 'Ping', 'CSPViolationReport', 'Preflight', 'FedCM', 'Other'.",
+                    "items": {
+                      "type": "STRING"
+                    }
+                  },
+                  "explanation": {
+                    "type": "STRING",
+                    "description": "Short past-tense phrase (3-6 words) describing what this tool call accomplished and how it contributes to the goal."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  }
+                },
+                "required": [
+                  "PageId"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "browser_get_network_request",
+              "description": "Get detailed information about a specific network request by its request ID. Use this after calling list_network_requests to get more details about a particular request.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "PageId": {
+                    "type": "STRING",
+                    "description": "The page_id of the browser page to get network request from."
+                  },
+                  "RequestId": {
+                    "type": "STRING",
+                    "description": "The request ID to retrieve details for. This ID can be obtained from the list_network_requests tool."
+                  },
+                  "explanation": {
+                    "type": "STRING",
+                    "description": "Short past-tense phrase (3-6 words) describing what this tool call accomplished and how it contributes to the goal."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  }
+                },
+                "required": [
+                  "PageId",
+                  "RequestId"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "view_file",
+              "description": "View the contents of a file from the local filesystem. This tool supports some binary files such as images and videos.\nText file usage:\n- The lines of the file are 1-indexed\n- The first time you read a new file the tool will enforce reading 800 lines to understand as much about the file as possible\n- The output of this tool call will be the file contents from StartLine to EndLine (inclusive)\n- You can view at most 800 lines at a time\n- To view the whole file do not pass StartLine or EndLine arguments\nBinary file usage:\n- Do not provide StartLine or EndLine arguments, this tool always returns the entire file",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "AbsolutePath": {
+                    "type": "STRING",
+                    "description": "Path to file to view. Must be an absolute path."
+                  },
+                  "EndLine": {
+                    "type": "INTEGER",
+                    "description": "Optional. Endline to view, 1-indexed as usual, inclusive. This value must be greater than or equal to StartLine."
+                  },
+                  "IsSkillFile": {
+                    "type": "BOOLEAN",
+                    "description": "Optional. Set to true only when reading a file to execute its instructions for a task. Set to false if the purpose is to edit, preview, or manage the file."
+                  },
+                  "StartLine": {
+                    "type": "INTEGER",
+                    "description": "Optional. Startline to view, 1-indexed as usual, inclusive. This value must be less than or equal to EndLine."
+                  },
+                  "explanation": {
+                    "type": "STRING",
+                    "description": "Short past-tense phrase (3-6 words) describing what this tool call accomplished and how it contributes to the goal."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  }
+                },
+                "required": [
+                  "AbsolutePath"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "replace_file_content",
+              "description": "Use this tool to edit an existing file. Follow these rules:\n1. Use this tool ONLY when you are making a SINGLE CONTIGUOUS block of edits to the same file (i.e. replacing a single contiguous block of text). If you are making edits to multiple non-adjacent lines, use the multi_replace_file_content tool instead.\n2. Do NOT make multiple parallel calls to this tool or the multi_replace_file_content tool for the same file.\n3. To edit multiple, non-adjacent lines of code in the same file, make a single call to the multi_replace_file_content tool..\n4. For the ReplacementChunk, specify StartLine, EndLine, TargetContent and ReplacementContent. StartLine and EndLine should specify a range of lines containing precisely the instances of TargetContent that you wish to edit. To edit a single instance of the TargetContent, the range should be such that it contains that specific instance of the TargetContent and no other instances. When applicable, provide a range that matches the range viewed in a previous view_file call. In TargetContent, specify the precise lines of code to edit. These lines MUST EXACTLY MATCH text in the existing file content. In ReplacementContent, specify the replacement content for the specified target content. This must be a complete drop-in replacement of the TargetContent, with necessary modifications made.\n5. If you are making multiple edits across a single file, use the multi_replace_file_content tool instead. DO NOT try to replace the entire existing content with the new content, this is very expensive.\n6. You may not edit file extensions: [.ipynb]\nIMPORTANT: You must generate the following arguments first, before any others: [TargetFile]",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "AllowMultiple": {
+                    "type": "BOOLEAN",
+                    "description": "If true, multiple occurrences of 'targetContent' will be replaced by 'replacementContent' if they are found. Otherwise if multiple occurences are found, an error will be returned."
+                  },
+                  "Description": {
+                    "type": "STRING",
+                    "description": "Brief, user-facing explanation of what this change did. Focus on non-obvious rationale, design decisions, or important context. Don't just restate what the code does."
+                  },
+                  "EndLine": {
+                    "type": "INTEGER",
+                    "description": "The ending line number of the chunk (1-indexed). Should be at or after the last line containing the target content. Must satisfy StartLine <= EndLine <= number of lines in the file. The target content is searched for within the [StartLine, EndLine] range."
+                  },
+                  "Instruction": {
+                    "type": "STRING",
+                    "description": "A description of the changes that you are making to the file."
+                  },
+                  "ReplacementContent": {
+                    "type": "STRING",
+                    "description": "The content to replace the target content with."
+                  },
+                  "StartLine": {
+                    "type": "INTEGER",
+                    "description": "The starting line number of the chunk (1-indexed). Should be at or before the first line containing the target content. Must satisfy 1 <= StartLine <= EndLine. The target content is searched for within the [StartLine, EndLine] range."
+                  },
+                  "TargetContent": {
+                    "type": "STRING",
+                    "description": "The exact string to be replaced. This must be the exact character-sequence to be replaced, including whitespace. Be very careful to include any leading whitespace otherwise this will not work at all. This must be a unique substring within the file, or else it will error."
+                  },
+                  "TargetFile": {
+                    "type": "STRING",
+                    "description": "The target file to modify. Always specify the target file as the very first argument."
+                  },
+                  "TargetLintErrorIds": {
+                    "type": "ARRAY",
+                    "description": "If applicable, IDs of lint errors this edit aims to fix (they'll have been given in recent IDE feedback). If you believe the edit could fix lints, do specify lint IDs; if the edit is wholly unrelated, do not. A rule of thumb is, if your edit was influenced by lint feedback, include lint IDs. Exercise honest judgement here.",
+                    "items": {
+                      "type": "STRING"
+                    }
+                  },
+                  "explanation": {
+                    "type": "STRING",
+                    "description": "Short past-tense phrase (3-6 words) describing what this tool call accomplished and how it contributes to the goal."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  }
+                },
+                "required": [
+                  "TargetFile",
+                  "Instruction",
+                  "Description",
+                  "AllowMultiple",
+                  "TargetContent",
+                  "ReplacementContent",
+                  "StartLine",
+                  "EndLine"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "multi_replace_file_content",
+              "description": "Use this tool to edit an existing file. Follow these rules:\n1. Use this tool ONLY when you are making MULTIPLE, NON-CONTIGUOUS edits to the same file (i.e., you are changing more than one separate block of text). If you are making a single contiguous block of edits, use the replace_file_content tool instead.\n2. Do NOT use this tool if you are only editing a single contiguous block of lines.\n3. Do NOT make multiple parallel calls to this tool or the replace_file_content tool for the same file.\n4. To edit multiple, non-adjacent lines of code in the same file, make a single call to this tool. Specify each edit as a separate ReplacementChunk.\n5. For each ReplacementChunk, specify StartLine, EndLine, TargetContent and ReplacementContent. StartLine and EndLine should specify a range of lines containing precisely the instances of TargetContent that you wish to edit. To edit a single instance of the TargetContent, the range should be such that it contains that specific instance of the TargetContent and no other instances. When applicable, provide a range that matches the range viewed in a previous view_file call. In TargetContent, specify the precise lines of code to edit. These lines MUST EXACTLY MATCH text in the existing file content. In ReplacementContent, specify the replacement content for the specified target content. This must be a complete drop-in replacement of the TargetContent, with necessary modifications made.\n6. If you are making multiple edits across a single file, specify multiple separate ReplacementChunks. DO NOT try to replace the entire existing content with the new content, this is very expensive.\n7. You may not edit file extensions: [.ipynb]\nIMPORTANT: You must generate the following arguments first, before any others: [TargetFile]",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "ArtifactMetadata": {
+                    "type": "OBJECT",
+                    "description": "Metadata updates if updating an artifact file, leave blank if not updating an artifact. Should be updated if the content is changing meaningfully.",
+                    "properties": {
+                      "ArtifactType": {
+                        "type": "STRING",
+                        "description": "Type of artifact: 'implementation_plan', 'walkthrough', 'task', or 'other'.",
+                        "enum": [
+                          "implementation_plan",
+                          "walkthrough",
+                          "task",
+                          "other"
+                        ]
+                      },
+                      "RequestFeedback": {
+                        "type": "BOOLEAN",
+                        "description": "Set to true to request user feedback on this artifact."
+                      },
+                      "Summary": {
+                        "type": "STRING",
+                        "description": "Detailed multi-line summary of the artifact file, after edits have been made. Summary does not need to mention the artifact name and should focus on the contents and purpose of the artifact."
+                      }
+                    },
+                    "required": [
+                      "Summary",
+                      "ArtifactType"
+                    ]
+                  },
+                  "Description": {
+                    "type": "STRING",
+                    "description": "Brief, user-facing explanation of what this change did. Focus on non-obvious rationale, design decisions, or important context. Don't just restate what the code does."
+                  },
+                  "Instruction": {
+                    "type": "STRING",
+                    "description": "A description of the changes that you are making to the file."
+                  },
+                  "ReplacementChunks": {
+                    "type": "ARRAY",
+                    "description": "A list of chunks to replace. It is best to provide multiple chunks for non-contiguous edits if possible. This must be a JSON array, not a string.",
+                    "items": {
+                      "type": "OBJECT",
+                      "properties": {
+                        "AllowMultiple": {
+                          "type": "BOOLEAN",
+                          "description": "If true, multiple occurrences of 'targetContent' will be replaced by 'replacementContent' if they are found. Otherwise if multiple occurences are found, an error will be returned."
+                        },
+                        "EndLine": {
+                          "type": "INTEGER",
+                          "description": "The ending line number of the chunk (1-indexed). Should be at or after the last line containing the target content. Must satisfy StartLine <= EndLine <= number of lines in the file. The target content is searched for within the [StartLine, EndLine] range."
+                        },
+                        "ReplacementContent": {
+                          "type": "STRING",
+                          "description": "The content to replace the target content with."
+                        },
+                        "StartLine": {
+                          "type": "INTEGER",
+                          "description": "The starting line number of the chunk (1-indexed). Should be at or before the first line containing the target content. Must satisfy 1 <= StartLine <= EndLine. The target content is searched for within the [StartLine, EndLine] range."
+                        },
+                        "TargetContent": {
+                          "type": "STRING",
+                          "description": "The exact string to be replaced. This must be the exact character-sequence to be replaced, including whitespace. Be very careful to include any leading whitespace otherwise this will not work at all. This must be a unique substring within the file, or else it will error."
+                        }
+                      },
+                      "required": [
+                        "AllowMultiple",
+                        "TargetContent",
+                        "ReplacementContent",
+                        "StartLine",
+                        "EndLine"
+                      ]
+                    }
+                  },
+                  "TargetFile": {
+                    "type": "STRING",
+                    "description": "The target file to modify. Always specify the target file as the very first argument."
+                  },
+                  "TargetLintErrorIds": {
+                    "type": "ARRAY",
+                    "description": "If applicable, IDs of lint errors this edit aims to fix (they'll have been given in recent IDE feedback). If you believe the edit could fix lints, do specify lint IDs; if the edit is wholly unrelated, do not. A rule of thumb is, if your edit was influenced by lint feedback, include lint IDs. Exercise honest judgement here.",
+                    "items": {
+                      "type": "STRING"
+                    }
+                  },
+                  "explanation": {
+                    "type": "STRING",
+                    "description": "Short past-tense phrase (3-6 words) describing what this tool call accomplished and how it contributes to the goal."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  }
+                },
+                "required": [
+                  "TargetFile",
+                  "Instruction",
+                  "Description",
+                  "ReplacementChunks"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "toolConfig": {
+        "functionCallingConfig": {
+          "mode": "VALIDATED"
+        }
+      },
+      "generationConfig": {
+        "thinkingConfig": {
+          "includeThoughts": true,
+          "thinkingBudget": -1
+        }
+      },
+      "sessionId": "-3750763034362895579"
+    },
+    "model": "gemini-3-flash",
+    "userAgent": "antigravity",
+    "requestType": "browser_subagent"
+  }
+}

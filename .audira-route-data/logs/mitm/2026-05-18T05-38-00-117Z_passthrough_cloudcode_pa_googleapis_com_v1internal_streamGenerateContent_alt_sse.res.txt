@@ -1,0 +1,23 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 05:38:02 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=2739",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "I will click the \"Community\" navigation"}]}}],"usageMetadata": {"promptTokenCount": 27781,"candidatesTokenCount": 8,"totalTokenCount": 27970,"thoughtsTokenCount": 181},"modelVersion": "gemini-3-flash","responseId": "uaUKarwEzvyO4w-z6uXBCA"},"traceId": "99775610746bd9ff","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " link again at coordinates (133, 264)."}]}}],"usageMetadata": {"promptTokenCount": 34641,"candidatesTokenCount": 22,"totalTokenCount": 34844,"cachedContentTokenCount": 28393,"thoughtsTokenCount": 181},"modelVersion": "gemini-3-flash","responseId": "uaUKarwEzvyO4w-z6uXBCA"},"traceId": "99775610746bd9ff","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "Eq4FCqsFAQw51sdnAq6DZItZTcnwylL/Q3KmguKzJ0HdrJvfkglNkqFoQ2hj8wljzfoktwqWYRNsB82OEuvixuHNgyzXkYi6N7mh+M5hMhYRG8RZGOiBaiaB8WgYsVta0/pMUtPf692hGGtfgWdqljuUZ25PS4jZSwSZPwuUS2iB/3Zzr46YEu2AVIDIc+5qmY0Jdk+EmsVws4O7rnbVxr76ejFYEaYCHpyhAMviS6zsjpmHUrZgexGIeFxquePFVpdRPV0AV8oExe5Qx28ZZe0Q4qVfcskIaeIfSuf2g83R9d/dHlot3O6O2lqlrbN7x7D8xyJkI6SU/Zq+38vBlI2uEjQW9B80JVqyp2sLIYDQipkx9tcSU75N4+HQ2BUmzSttT8bya/ngESDef6KNWpy9/zR5X3opDhPd27kUEXfG8k1YBxcqjkWLng3vZKdJuf+MsS827qHTfA0QUWepwBUzq8QSNIOatOOjq8adaEpSAgBJxiXP9a3ng3QVXTXTxA1W8DZyYxKYPeuQX1iS2lFleHw3hFtsH46YWNGuT4ypraX4t6yVy3onT0GfUQzg9UvJ66cKCCXZ1TXfrlTofl5DdBT7hBMG6tYw4I9LKtOKgZGiVCJl08du3DFWZ9vf2Om+cjjm4+6ghVILgXmWoc02TM6nlsrZF0q8DTYFKr0enGndfmSSv34rbYD68FLcaxDPUIwCWxjBnxmwIAy715/XnZ+U8eJLCAx9dvz72G7GUY+qGMqr79HhhH2JfwdsfAiwP1e9043Ij3ckTeR1t2WMCrZomi3q8keSwKRnMt3kJ33e2BFR3Cq5AGsp38y4m8x2+jgYM3c4P/nGU6TAtRRQtMja3ZrRRds1kn1rj+GdanP1hWjKhau5mKNjrpzxhyD5Zwknt70E+4RrwQL8D2c=","functionCall": {"name": "click_browser_pixel","args": {"X": 133,"toolSummary": "Click browser pixel","Y": 264,"explanation": "Clicked the Community navigation link at coordinates (133, 264)","toolAction": "Clicking Community link","ClickType": "left","PageID": "5411DAB9590ACD157E5A0154F9BA575B"},"id": "yfvogcxu"}}]}}],"usageMetadata": {"promptTokenCount": 34641,"candidatesTokenCount": 129,"totalTokenCount": 34951,"cachedContentTokenCount": 28393,"thoughtsTokenCount": 181},"modelVersion": "gemini-3-flash","responseId": "uaUKarwEzvyO4w-z6uXBCA"},"traceId": "99775610746bd9ff","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 34641,"candidatesTokenCount": 129,"totalTokenCount": 34951,"cachedContentTokenCount": 28393,"thoughtsTokenCount": 181},"modelVersion": "gemini-3-flash","responseId": "uaUKarwEzvyO4w-z6uXBCA"},"traceId": "99775610746bd9ff","metadata": {}}
+

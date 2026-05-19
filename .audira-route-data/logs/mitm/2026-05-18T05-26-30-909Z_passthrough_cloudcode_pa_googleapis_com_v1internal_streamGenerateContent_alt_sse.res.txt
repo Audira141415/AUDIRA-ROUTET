@@ -1,0 +1,19 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 05:26:33 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=2421",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EoIJCv8IAQw51scfEnsfeyXtcPBIRk+HknVj088xVgh/GYyJJR87qlNHt+utWvfJaG54dqYP2dtU/3/83LTEzusRLkUBDrszu3+69aXYKi/4gYAu/qtDZCcHUolGrHDMv/9jM6+usWrEu473U0La5syaeg23K+89ipgLecToj2UUSVTVaHQJhkzwYLJHdqbuw9Y7gQSeB9DKmjumoYJaRDbhOy0KeIANncnsFzQMiABGZc58f9cfatPw63H++1lZKNJYeGlAC6+7iKr0iN5/szIrFm3Z/k89EGuFY2qT2F9GvjbVpOK8Cd8LJjp5RmhC6NqF/ELEVPOTprWha9/4BvXuT/5z/l9zQ4JqA9Nkq1WzwzniRBT5cZ7IBLIHHULa2PUZaeviQXk5qbR1dMY3sKDVoW+Mg0uYEqWgjwcWOQBQv3s7joKBUoIJhN6gBFtbQmfT/MyqF7e2O0DT8E0YkvXkWmfmm+obt9psDrb91KvxL403LZwb31yDNMLKlxZUU04xwBjenn9zr5afnmu4KlaQRMBakZq93OsL97TCZPv6dIOu2Rs4tXDmPJ0asE+s0eiYg4OgIpEkY3dwpGBpwyHjVjrXGTJu3REYmVkS1QgcUHbtsJba5/sEznwPvs7pA8tkcUnF0AoAkUu3ggMvD/Nyy6RrcMBcOllzIPt7+Ii7krGtDwdmf0UWvLad/hptvDWoLDw5bXFS75ws/OZXN3dBlNiKRfFyJ4iFaDpgwV1n296wjDyGSsLR+roASCjoHLBl6cEMjS0jXfCgMiAuCsH4FeI/zTXBQsyNXgjG5hQaPM82W+1i1sU65QSIXLDzYcGbf+4fTO2CFe6+sAhchhPh5gYBXmP8it0YeJJQ7r1TNoSqxInb2zxZhjGBK/SfJoykvrLTD5j7YhiyS07OuIhE7fCI3dhsNKqZxwkauJypM4SQ2NcO89N3v7Qf6sj5Ks/DqcEVk+8HGMGhokyFFZaGOFtu0gP2l3nJhfjraHdB6zdcI7Mv61ZUX5V99OSENdpjk4mo0+D7q5SboEbXu5nueUmjcTxpItOXwSxTudYew+vGFa+MZ7MXYevcm1rAGCoWyOp3u22bRdFQvYSKoexXfpeny1h+2MlBlJH/xGRpZ/3EqrGVO1pMv8mZuRaPA0goNhOrYZvMXnwGEWv1qC414WvDdIBVCeTf09vjuq3eI9jUeXq5pVHkhdBhB9D/KmlJHD3jE9zlcpQg7hQejS9dj/x9Jp91HC4OZUUq2ildclGcFjctWbs2wNLW8IhYlkfknFIcd5noYvhEOMLI6KmCthtTj7KDbkWfdGTX0XKRsR1pgV2v/uNwcwzwhJh9GPgKQ3VkNWPu3QkV0hNi7VfoycKm0pbwaYBMdEL7m+gNCMGxbVp02CtqqHrychLcRC6seDwrERvyREcEod1jI32mfrhzS7Yx/eIA6P4Hr8cczhVrAamCBo9jcwvYX1yWjPah5IqX00DTl6yIam/6UAvlfZbLgDYUblpOwc/3gZL2iVE0GgJLAMP1mr71DSTFYs77gmM=","functionCall": {"name": "open_browser_url","args": {"Url": "http://localhost:3002","toolSummary": "Web search","toolAction": "Opening port 3002","explanation": "Try port 3002.","PageIdToReplace": "5411DAB9590ACD157E5A0154F9BA575B"},"id": "4c63wjre"}}]}}],"usageMetadata": {"promptTokenCount": 22943,"candidatesTokenCount": 96,"totalTokenCount": 23348,"thoughtsTokenCount": 309},"modelVersion": "gemini-3-flash","responseId": "B6MKatLIENnR4-EPpZSd-AQ"},"traceId": "5a04cd6ef8f39352","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 27024,"candidatesTokenCount": 96,"totalTokenCount": 27429,"cachedContentTokenCount": 24262,"thoughtsTokenCount": 309},"modelVersion": "gemini-3-flash","responseId": "B6MKatLIENnR4-EPpZSd-AQ"},"traceId": "5a04cd6ef8f39352","metadata": {}}
+

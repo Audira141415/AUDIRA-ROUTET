@@ -1,0 +1,103 @@
+STATUS: 200
+HEADERS: {
+  "access-control-allow-origin": "*",
+  "cache-control": "no-cache",
+  "connection": "keep-alive",
+  "content-type": "text/event-stream",
+  "date": "Mon, 18 May 2026 11:54:31 GMT",
+  "transfer-encoding": "chunked",
+  "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+}
+---BODY---
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"<thinking"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105271921"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":">\nI"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105271921"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" can"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105271921"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" see the Toast component also"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105271921"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" has the same issue on line 99"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105271921"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":". It's using"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105271921"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" `neoBrutalism.shadows."}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105271921"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"offset.md` which doesn't exist"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105271921"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":". I need to replace it"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105271921"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" with `"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105271921"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"neoBrutalism.shadows.pre"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105271921"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"sets.glas"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105271921"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"sMd`.\n\nNote"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105271921"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":": This"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105271921"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" is a different"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105271921"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" Toast"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105271921"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" component from the one in"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105271921"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" `"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105271921"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"apps"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105271921"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"/web"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105271921"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"/src/components/ui"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105271921"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"/Toast.tsx` that"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105271921"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" we"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105271921"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" fixed earlier. This"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105271921"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" one is in"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105271921"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" `"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105271921"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"packages"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105271921"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"/ui/src/components/Toast"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105271921"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":".tsx`"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105271921"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" -"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105271921"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" it"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105271921"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"'s the UI"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105271921"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" library"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105271921"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" component"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105271921"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":","}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105271921"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" not the web"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105271921"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" app"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105271921"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"'s"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105271921"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" toast"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105271921"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" provider"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105271921"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":".\n\nLet"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105271921"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" me fix this one"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105271921"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" too.\n</thinking>"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105271921"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"functionCall":{"name":"replace_file_content","args":{"AllowMultiple":false,"Description":"Fixed Toast shadow to use glassMd preset instead of non-existent offset.md property","EndLine":106,"Instruction":"Replace undefined shadow.offset reference with glassmorphism preset","ReplacementContent":"    const toastStyle: React.CSSProperties = {\n      position: 'fixed',\n      zIndex: 10000,\n      minWidth: '300px',\n      maxWidth: '420px',\n      backgroundColor: colors.panel,\n      border: `${neoBrutalism.borders.width.default} solid ${colors.border}`,\n      borderLeft: `${neoBrutalism.borders.width.heavy} solid ${accentColor}`,\n      borderRadius: neoBrutalism.borders.radius.none,\n      boxShadow: neoBrutalism.shadows.presets.glassMd,\n      padding: '16px',\n      display: 'flex',\n      flexDirection: 'column',\n      gap: '4px',\n      ...positionStyles[position],\n      ...style,\n    };","StartLine":90,"TargetContent":"    const toastStyle: React.CSSProperties = {\n      position: 'fixed',\n      zIndex: 10000,\n      minWidth: '300px',\n      maxWidth: '420px',\n      backgroundColor: colors.panel,\n      border: `${neoBrutalism.borders.width.default} solid ${colors.border}`,\n      borderLeft: `${neoBrutalism.borders.width.heavy} solid ${accentColor}`,\n      borderRadius: neoBrutalism.borders.radius.none,\n      boxShadow: `${neoBrutalism.shadows.offset.md} ${shadowColor}`,\n      padding: '16px',\n      display: 'flex',\n      flexDirection: 'column',\n      gap: '4px',\n      ...positionStyles[position],\n      ...style,\n    };","TargetFile":"F:\\AUDIRA-WEB-PERFECT-WORLD\\packages\\ui\\src\\components\\Toast.tsx","toolAction":"Editing file","toolSummary":"Toast shadow fix"}}}]},"finishReason":"STOP"}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105271921","usageMetadata":{"promptTokenCount":67843,"candidatesTokenCount":121,"totalTokenCount":67964}}}
+
+data: [DONE]
+
+data: [DONE]
+

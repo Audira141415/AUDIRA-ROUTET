@@ -1,0 +1,23 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 11:12:43 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=624",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\": \"{\\n  \\\"compiler"}]}}],"usageMetadata": {"promptTokenCount": 3241,"candidatesTokenCount": 7,"totalTokenCount": 3248},"modelVersion": "tab_flash_lite_preview","responseId": "KvQKapLoJ-nYjuMPh6Po4A0"},"traceId": "46e3a731b325e4f8","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "Options\\\": {\\n    \\\"module\\\": \\\"ESNext\\\",\\n    \\\"declaration\\\": true,\\n"}]}}],"usageMetadata": {"promptTokenCount": 3241,"candidatesTokenCount": 28,"totalTokenCount": 3269},"modelVersion": "tab_flash_lite_preview","responseId": "KvQKapLoJ-nYjuMPh6Po4A0"},"traceId": "46e3a731b325e4f8","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "    \\\"removeComments\\\": true,\\n    \\\"emitDecoratorMetadata\\\": true,\\n    \\\"experimentalDecorators\\\": true,\\n    \\\"allowSyntheticDefaultImports\\\": true,\"\n\t\t}\n\t]\n}\n\u003c/replace_file_content\u003e"}]}}],"usageMetadata": {"promptTokenCount": 3241,"candidatesTokenCount": 79,"totalTokenCount": 3320},"modelVersion": "tab_flash_lite_preview","responseId": "KvQKapLoJ-nYjuMPh6Po4A0"},"traceId": "46e3a731b325e4f8","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 3241,"candidatesTokenCount": 79,"totalTokenCount": 3320,"cachedContentTokenCount": 2042},"modelVersion": "tab_flash_lite_preview","responseId": "KvQKapLoJ-nYjuMPh6Po4A0"},"traceId": "46e3a731b325e4f8","metadata": {}}
+

@@ -1,0 +1,83 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 10:53:19 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=1559",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "This session"}]}}],"usageMetadata": {"promptTokenCount": 57770,"candidatesTokenCount": 2,"totalTokenCount": 57772},"modelVersion": "gemini-3.1-flash-lite","responseId": "nu8KaqH-EZ3ag8UP662PsAQ"},"traceId": "25c68596c87feb2b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " focused on the comprehensive analysis of the **AUDIRA-BUG-HUTTER** project"}]}}],"usageMetadata": {"promptTokenCount": 57770,"candidatesTokenCount": 21,"totalTokenCount": 57791},"modelVersion": "gemini-3.1-flash-lite","responseId": "nu8KaqH-EZ3ag8UP662PsAQ"},"traceId": "25c68596c87feb2b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " (also identified as **VulnX Hunter**), a premium cyberpunk-themed vulnerability hunting platform. \n\n### **Project"}]}}],"usageMetadata": {"promptTokenCount": 57770,"candidatesTokenCount": 45,"totalTokenCount": 57815},"modelVersion": "gemini-3.1-flash-lite","responseId": "nu8KaqH-EZ3ag8UP662PsAQ"},"traceId": "25c68596c87feb2b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " Overview & Architectural Analysis**\nVulnX Hunter is a full-stack monorepo built for security researchers, featuring real"}]}}],"usageMetadata": {"promptTokenCount": 57770,"candidatesTokenCount": 69,"totalTokenCount": 57839},"modelVersion": "gemini-3.1-flash-lite","responseId": "nu8KaqH-EZ3ag8UP662PsAQ"},"traceId": "25c68596c87feb2b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "-time scanning, AI-powered vulnerability analysis, and collaborative target management. \n\n*   **Architecture:**\n    *"}]}}],"usageMetadata": {"promptTokenCount": 57770,"candidatesTokenCount": 94,"totalTokenCount": 57864},"modelVersion": "gemini-3.1-flash-lite","responseId": "nu8KaqH-EZ3ag8UP662PsAQ"},"traceId": "25c68596c87feb2b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "   **Frontend:** Next.js 15 (App Router), React 19, Tailwind CSS, Zustand, and Framer Motion for"}]}}],"usageMetadata": {"promptTokenCount": 57770,"candidatesTokenCount": 123,"totalTokenCount": 57893},"modelVersion": "gemini-3.1-flash-lite","responseId": "nu8KaqH-EZ3ag8UP662PsAQ"},"traceId": "25c68596c87feb2b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " the UI.\n    *   **Backend API:** NestJS 10 with Prisma ORM, PostgreSQL, Redis"}]}}],"usageMetadata": {"promptTokenCount": 57770,"candidatesTokenCount": 147,"totalTokenCount": 57917},"modelVersion": "gemini-3.1-flash-lite","responseId": "nu8KaqH-EZ3ag8UP662PsAQ"},"traceId": "25c68596c87feb2b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "/BullMQ, and Socket.io for real-time updates.\n    *   **Scanner Service:** Go-based microservice simulating"}]}}],"usageMetadata": {"promptTokenCount": 57770,"candidatesTokenCount": 175,"totalTokenCount": 57945},"modelVersion": "gemini-3.1-flash-lite","responseId": "nu8KaqH-EZ3ag8UP662PsAQ"},"traceId": "25c68596c87feb2b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " vulnerability detection (Naabu, Nuclei-like functionality) via HTTP communication.\n    *   **Infrastructure:** Docker-based"}]}}],"usageMetadata": {"promptTokenCount": 57770,"candidatesTokenCount": 201,"totalTokenCount": 57971},"modelVersion": "gemini-3.1-flash-lite","responseId": "nu8KaqH-EZ3ag8UP662PsAQ"},"traceId": "25c68596c87feb2b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " stack including PostgreSQL, Redis, Prometheus, and Grafana for monitoring.\n\n### **Key Features & Implementation Status**\n"}]}}],"usageMetadata": {"promptTokenCount": 57770,"candidatesTokenCount": 225,"totalTokenCount": 57995},"modelVersion": "gemini-3.1-flash-lite","responseId": "nu8KaqH-EZ3ag8UP662PsAQ"},"traceId": "25c68596c87feb2b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "The project is at a mature, near-production state:\n*   **Authentication:** JWT-based stateless authentication with role-based access"}]}}],"usageMetadata": {"promptTokenCount": 57770,"candidatesTokenCount": 253,"totalTokenCount": 58023},"modelVersion": "gemini-3.1-flash-lite","responseId": "nu8KaqH-EZ3ag8UP662PsAQ"},"traceId": "25c68596c87feb2b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " control (Admin/Researcher).\n*   **Scanning Engine:** Asynchronous scan management with real-time log streaming via WebSocket and"}]}}],"usageMetadata": {"promptTokenCount": 57770,"candidatesTokenCount": 279,"totalTokenCount": 58049},"modelVersion": "gemini-3.1-flash-lite","responseId": "nu8KaqH-EZ3ag8UP662PsAQ"},"traceId": "25c68596c87feb2b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " Go microservice integration.\n*   **AI Security:** Integration with OpenAI for automated vulnerability analysis, payload generation, and remediation suggestions"}]}}],"usageMetadata": {"promptTokenCount": 57770,"candidatesTokenCount": 305,"totalTokenCount": 58075},"modelVersion": "gemini-3.1-flash-lite","responseId": "nu8KaqH-EZ3ag8UP662PsAQ"},"traceId": "25c68596c87feb2b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ".\n*   **Monitoring & Scheduling:** Real-time threat monitoring rules, cron-based scheduled scans, and automated email"}]}}],"usageMetadata": {"promptTokenCount": 57770,"candidatesTokenCount": 330,"totalTokenCount": 58100},"modelVersion": "gemini-3.1-flash-lite","responseId": "nu8KaqH-EZ3ag8UP662PsAQ"},"traceId": "25c68596c87feb2b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " notifications.\n*   **Reporting:** PDF/CSV export functionality for vulnerability findings and threat intelligence data.\n\n### **Environmental"}]}}],"usageMetadata": {"promptTokenCount": 57770,"candidatesTokenCount": 355,"totalTokenCount": 58125},"modelVersion": "gemini-3.1-flash-lite","responseId": "nu8KaqH-EZ3ag8UP662PsAQ"},"traceId": "25c68596c87feb2b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " & Configuration Context**\n*   **Core Ports:** API (8000), Frontend (3000), Scanner"}]}}],"usageMetadata": {"promptTokenCount": 57770,"candidatesTokenCount": 381,"totalTokenCount": 58151},"modelVersion": "gemini-3.1-flash-lite","responseId": "nu8KaqH-EZ3ag8UP662PsAQ"},"traceId": "25c68596c87feb2b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " (8080), Redis (6379), Postgres (5432).\n*   **Environment"}]}}],"usageMetadata": {"promptTokenCount": 57770,"candidatesTokenCount": 406,"totalTokenCount": 58176},"modelVersion": "gemini-3.1-flash-lite","responseId": "nu8KaqH-EZ3ag8UP662PsAQ"},"traceId": "25c68596c87feb2b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " Settings:** `.env` requires `JWT_SECRET`, `DATABASE_URL`, `REDIS_HOST`, and "}]}}],"usageMetadata": {"promptTokenCount": 57770,"candidatesTokenCount": 429,"totalTokenCount": 58199},"modelVersion": "gemini-3.1-flash-lite","responseId": "nu8KaqH-EZ3ag8UP662PsAQ"},"traceId": "25c68596c87feb2b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "`OPENAI_API_KEY`.\n*   **Security:** Rate-limiting via `@nestjs/throttler"}]}}],"usageMetadata": {"promptTokenCount": 57770,"candidatesTokenCount": 453,"totalTokenCount": 58223},"modelVersion": "gemini-3.1-flash-lite","responseId": "nu8KaqH-EZ3ag8UP662PsAQ"},"traceId": "25c68596c87feb2b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "` (global 100 requests/60s), bcrypt password hashing, and input validation enabled globally.\n\n### **Known"}]}}],"usageMetadata": {"promptTokenCount": 57770,"candidatesTokenCount": 480,"totalTokenCount": 58250},"modelVersion": "gemini-3.1-flash-lite","responseId": "nu8KaqH-EZ3ag8UP662PsAQ"},"traceId": "25c68596c87feb2b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " Technical Debt & Next Steps**\n*   **Scanner Integration:** Currently, the scanner includes a `USE_MOCK_SCAN"}]}}],"usageMetadata": {"promptTokenCount": 57770,"candidatesTokenCount": 506,"totalTokenCount": 58276},"modelVersion": "gemini-3.1-flash-lite","responseId": "nu8KaqH-EZ3ag8UP662PsAQ"},"traceId": "25c68596c87feb2b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "NER=\"true\"` flag in the environment. Moving to production requires full integration with actual Nmap/Nuclei binaries.\n*   **Documentation"}]}}],"usageMetadata": {"promptTokenCount": 57770,"candidatesTokenCount": 535,"totalTokenCount": 58305},"modelVersion": "gemini-3.1-flash-lite","responseId": "nu8KaqH-EZ3ag8UP662PsAQ"},"traceId": "25c68596c87feb2b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ":** Several documentation files (`API.md`, `ARCHITECTURE.md`, `CONTRIBUTING.md`) are placeholders or"}]}}],"usageMetadata": {"promptTokenCount": 57770,"candidatesTokenCount": 559,"totalTokenCount": 58329},"modelVersion": "gemini-3.1-flash-lite","responseId": "nu8KaqH-EZ3ag8UP662PsAQ"},"traceId": "25c68596c87feb2b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " \"coming soon.\"\n*   **Frontend Completion:** While feature parity is high, further refinements to the UI for the 15+ complex"}]}}],"usageMetadata": {"promptTokenCount": 57770,"candidatesTokenCount": 588,"totalTokenCount": 58358},"modelVersion": "gemini-3.1-flash-lite","responseId": "nu8KaqH-EZ3ag8UP662PsAQ"},"traceId": "25c68596c87feb2b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " dashboard pages (e.g., specific exploitation modules) may be required depending on user requirements.\n*   **Exploitation Framework"}]}}],"usageMetadata": {"promptTokenCount": 57770,"candidatesTokenCount": 615,"totalTokenCount": 58385},"modelVersion": "gemini-3.1-flash-lite","responseId": "nu8KaqH-EZ3ag8UP662PsAQ"},"traceId": "25c68596c87feb2b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ":** Contains a placeholder `ENABLE_EXPLOITATION` toggle; caution is required as this is a high-risk security testing"}]}}],"usageMetadata": {"promptTokenCount": 57770,"candidatesTokenCount": 640,"totalTokenCount": 58410},"modelVersion": "gemini-3.1-flash-lite","responseId": "nu8KaqH-EZ3ag8UP662PsAQ"},"traceId": "25c68596c87feb2b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " feature.\n\n### **Summary of Analysis Activity**\n*   Conducted a full-repo inspection covering:\n    *   `packages"}]}}],"usageMetadata": {"promptTokenCount": 57770,"candidatesTokenCount": 668,"totalTokenCount": 58438},"modelVersion": "gemini-3.1-flash-lite","responseId": "nu8KaqH-EZ3ag8UP662PsAQ"},"traceId": "25c68596c87feb2b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "/database/prisma/schema.prisma` (Database schema structure).\n    *   `services/api/src/app.module"}]}}],"usageMetadata": {"promptTokenCount": 57770,"candidatesTokenCount": 696,"totalTokenCount": 58466},"modelVersion": "gemini-3.1-flash-lite","responseId": "nu8KaqH-EZ3ag8UP662PsAQ"},"traceId": "25c68596c87feb2b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ".ts` (API module registry).\n    *   `services/scanner/main.go` (Go scanning"}]}}],"usageMetadata": {"promptTokenCount": 57770,"candidatesTokenCount": 720,"totalTokenCount": 58490},"modelVersion": "gemini-3.1-flash-lite","responseId": "nu8KaqH-EZ3ag8UP662PsAQ"},"traceId": "25c68596c87feb2b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " logic).\n    *   `apps/web/app/dashboard/page.tsx` (Dashboard frontend implementation)."}]}}],"usageMetadata": {"promptTokenCount": 57770,"candidatesTokenCount": 744,"totalTokenCount": 58514},"modelVersion": "gemini-3.1-flash-lite","responseId": "nu8KaqH-EZ3ag8UP662PsAQ"},"traceId": "25c68596c87feb2b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\n*   Verified that database schema, API endpoints, and real-time WebSocket communication are fully implemented.\n*   Validated infrastructure"}]}}],"usageMetadata": {"promptTokenCount": 57770,"candidatesTokenCount": 770,"totalTokenCount": 58540},"modelVersion": "gemini-3.1-flash-lite","responseId": "nu8KaqH-EZ3ag8UP662PsAQ"},"traceId": "25c68596c87feb2b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " via `docker-compose.yml`.\n\n**Recommendation for Resumption:** The project is ready for integration testing and deployment. Future"}]}}],"usageMetadata": {"promptTokenCount": 57770,"candidatesTokenCount": 796,"totalTokenCount": 58566},"modelVersion": "gemini-3.1-flash-lite","responseId": "nu8KaqH-EZ3ag8UP662PsAQ"},"traceId": "25c68596c87feb2b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " efforts should prioritize replacing mock scanner logic with real tools and fulfilling the documentation placeholders."}]}}],"usageMetadata": {"promptTokenCount": 57770,"candidatesTokenCount": 812,"totalTokenCount": 58582},"modelVersion": "gemini-3.1-flash-lite","responseId": "nu8KaqH-EZ3ag8UP662PsAQ"},"traceId": "25c68596c87feb2b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EjQKMgEMOdbHpvjHBg+OGPCMaXNymVwBdl/Eez8wrOoUyfCRl73GfWF1Ta5iVR31kUqxNjcg","text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 57770,"candidatesTokenCount": 812,"totalTokenCount": 58582,"cachedContentTokenCount": 57079},"modelVersion": "gemini-3.1-flash-lite","responseId": "nu8KaqH-EZ3ag8UP662PsAQ"},"traceId": "25c68596c87feb2b","metadata": {}}
+

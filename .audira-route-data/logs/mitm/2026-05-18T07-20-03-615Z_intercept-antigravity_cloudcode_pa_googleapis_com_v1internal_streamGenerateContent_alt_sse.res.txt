@@ -1,0 +1,12 @@
+STATUS: 400
+HEADERS: {
+  "access-control-allow-origin": "*",
+  "connection": "keep-alive",
+  "content-type": "application/json",
+  "date": "Mon, 18 May 2026 07:20:05 GMT",
+  "keep-alive": "timeout=5",
+  "transfer-encoding": "chunked",
+  "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+}
+---BODY---
+{"error":{"message":"[400]: {\"message\":\"Input is too long.\",\"reason\":\"CONTENT_LENGTH_EXCEEDS_THRESHOLD\"}","type":"invalid_request_error","code":"bad_request"}}

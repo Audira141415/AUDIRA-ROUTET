@@ -1,0 +1,31 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Sun, 17 May 2026 06:24:34 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=1337",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "Optimizing"}]}}],"usageMetadata": {"promptTokenCount": 13657,"candidatesTokenCount": 2,"totalTokenCount": 13659},"modelVersion": "gemini-3.1-flash-lite","responseId": "IV8JaobfJdfRjuMP6ZCs-QU"},"traceId": "ed1692c90935d03f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " Kiro Payload Handling\n\nMain Objective: Resolve the CONTENT_LENGTH_EXCEEDS_THRESHOLD error in"}]}}],"usageMetadata": {"promptTokenCount": 13657,"candidatesTokenCount": 23,"totalTokenCount": 13680},"modelVersion": "gemini-3.1-flash-lite","responseId": "IV8JaobfJdfRjuMP6ZCs-QU"},"traceId": "ed1692c90935d03f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " the Kiro request flow by refining payload construction.\n\nGoals:\n1. Ensure the `buildKiroPayload` function in `openai-"}]}}],"usageMetadata": {"promptTokenCount": 13657,"candidatesTokenCount": 52,"totalTokenCount": 13709},"modelVersion": "gemini-3.1-flash-lite","responseId": "IV8JaobfJdfRjuMP6ZCs-QU"},"traceId": "ed1692c90935d03f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "to-kiro.js` correctly enforces payload constraints without causing 400 errors.\n2. Verify that the dynamic truncation logic ("}]}}],"usageMetadata": {"promptTokenCount": 13657,"candidatesTokenCount": 81,"totalTokenCount": 13738},"modelVersion": "gemini-3.1-flash-lite","responseId": "IV8JaobfJdfRjuMP6ZCs-QU"},"traceId": "ed1692c90935d03f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "history, tools, and message content) effectively keeps requests under the 25KB threshold while maintaining critical context.\n3. Validate"}]}}],"usageMetadata": {"promptTokenCount": 13657,"candidatesTokenCount": 108,"totalTokenCount": 13765},"modelVersion": "gemini-3.1-flash-lite","responseId": "IV8JaobfJdfRjuMP6ZCs-QU"},"traceId": "ed1692c90935d03f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " the payload structure against strict Kiro requirements, specifically ensuring the alternating user-assistant history format is preserved.\n4. Confirm"}]}}],"usageMetadata": {"promptTokenCount": 13657,"candidatesTokenCount": 133,"totalTokenCount": 13790},"modelVersion": "gemini-3.1-flash-lite","responseId": "IV8JaobfJdfRjuMP6ZCs-QU"},"traceId": "ed1692c90935d03f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " the stability of the tool schema normalization to prevent malformed request errors during upstream processing."}]}}],"usageMetadata": {"promptTokenCount": 13657,"candidatesTokenCount": 150,"totalTokenCount": 13807},"modelVersion": "gemini-3.1-flash-lite","responseId": "IV8JaobfJdfRjuMP6ZCs-QU"},"traceId": "ed1692c90935d03f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EjQKMgEMOdbH8obH7cW29HqvRPTEvZcDhszieQZHbm1lAvcUqBJ+CoeOg01OxdW6JsRvm+In","text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 13657,"candidatesTokenCount": 150,"totalTokenCount": 13807},"modelVersion": "gemini-3.1-flash-lite","responseId": "IV8JaobfJdfRjuMP6ZCs-QU"},"traceId": "ed1692c90935d03f","metadata": {}}
+

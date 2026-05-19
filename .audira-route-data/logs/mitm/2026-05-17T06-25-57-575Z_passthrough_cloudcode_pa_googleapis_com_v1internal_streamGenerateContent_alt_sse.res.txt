@@ -1,0 +1,31 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Sun, 17 May 2026 06:25:59 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=1171",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "Debugging Kiro API 400 Errors\n\nMain Objective: Resolve"}]}}],"usageMetadata": {"promptTokenCount": 4438,"candidatesTokenCount": 14,"totalTokenCount": 4452},"modelVersion": "gemini-3.1-flash-lite","responseId": "d18JaoCaEMDZjuMPuLjDkQE"},"traceId": "e2d647b22bb94bc9","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " the \"Improperly formed request\" (400) error occurring during Kiro API calls.\n\nGoals:\n"}]}}],"usageMetadata": {"promptTokenCount": 4438,"candidatesTokenCount": 39,"totalTokenCount": 4477},"modelVersion": "gemini-3.1-flash-lite","responseId": "d18JaoCaEMDZjuMPuLjDkQE"},"traceId": "e2d647b22bb94bc9","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "1. Analyze the `openai-to-kiro.js` translation logic to ensure the payload structure strictly adheres to the Kiro provider"}]}}],"usageMetadata": {"promptTokenCount": 4438,"candidatesTokenCount": 67,"totalTokenCount": 4505},"modelVersion": "gemini-3.1-flash-lite","responseId": "d18JaoCaEMDZjuMPuLjDkQE"},"traceId": "e2d647b22bb94bc9","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "'s schema requirements.\n2. Investigate why a seemingly valid request (previously succeeding) is now returning a 400"}]}}],"usageMetadata": {"promptTokenCount": 4438,"candidatesTokenCount": 94,"totalTokenCount": 4532},"modelVersion": "gemini-3.1-flash-lite","responseId": "d18JaoCaEMDZjuMPuLjDkQE"},"traceId": "e2d647b22bb94bc9","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " error, focusing on potential regressions in message formatting or tool definitions.\n3. Validate the request payload against Kiro’s specific API constraints"}]}}],"usageMetadata": {"promptTokenCount": 4438,"candidatesTokenCount": 122,"totalTokenCount": 4560},"modelVersion": "gemini-3.1-flash-lite","responseId": "d18JaoCaEMDZjuMPuLjDkQE"},"traceId": "e2d647b22bb94bc9","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ", ensuring that mandatory fields are present and correctly serialized.\n4. Implement and test a fix to eliminate the \"Improperly formed request\""}]}}],"usageMetadata": {"promptTokenCount": 4438,"candidatesTokenCount": 151,"totalTokenCount": 4589},"modelVersion": "gemini-3.1-flash-lite","responseId": "d18JaoCaEMDZjuMPuLjDkQE"},"traceId": "e2d647b22bb94bc9","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " error and restore stable communication with the Kiro service."}]}}],"usageMetadata": {"promptTokenCount": 4438,"candidatesTokenCount": 162,"totalTokenCount": 4600},"modelVersion": "gemini-3.1-flash-lite","responseId": "d18JaoCaEMDZjuMPuLjDkQE"},"traceId": "e2d647b22bb94bc9","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EjQKMgEMOdbHII5WqWrmrxgL7TCsT4GBJ298nNxc6/hZhHCnMov/wq2ZEK3CzMXvD4TH7LX4","text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 4438,"candidatesTokenCount": 162,"totalTokenCount": 4600},"modelVersion": "gemini-3.1-flash-lite","responseId": "d18JaoCaEMDZjuMPuLjDkQE"},"traceId": "e2d647b22bb94bc9","metadata": {}}
+

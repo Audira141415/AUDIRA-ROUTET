@@ -1,0 +1,22 @@
+{
+  "method": "POST",
+  "url": "/mcp",
+  "host": "q.us-east-1.amazonaws.com",
+  "headers": {
+    "content-type": "application/json",
+    "x-amzn-kiro-profile-arn": "arn:aws:codewhisperer:us-east-1:699475941385:profile/EHGA3GRVQMUK",
+    "content-length": "57",
+    "x-amz-user-agent": "aws-sdk-js/1.0.34 KiroIDE-0.12.155-9f7a5ee98f0e01bba8f93f305c9e8be7cba4b50ec776176f9a748588fb4d21ee",
+    "user-agent": "aws-sdk-js/1.0.34 ua/2.1 os/win32#10.0.26200 lang/js md/nodejs#22.22.0 api/codewhispererstreaming#1.0.34 m/E KiroIDE-0.12.155-9f7a5ee98f0e01bba8f93f305c9e8be7cba4b50ec776176f9a748588fb4d21ee",
+    "host": "q.us-east-1.amazonaws.com",
+    "amz-sdk-invocation-id": "85ea759f-47db-4c07-8e1f-6d05ee8260ec",
+    "amz-sdk-request": "attempt=1; max=3",
+    "authorization": "Bearer aoaAAAAAGoJaQkCitD7I4oJ1VHnAteAHFFMPCufnG7DjUkXwasgShr2Q6NcwkiDqIPd6DHyLbXkqHhWsGtk4W0UDUBkc0:MGQCMEMVIYK/10ZvwQ4Vkc9FiEgXJR/g/b0FAUoUSxZKlX8w9kks6eWn3fOJovSDbEPLuAIwbKjcZo8NleMfDQliCAF9Yiy7N/TybCXhq4iBwFgbA0TEo3ra97cbHcll/Hx50YLx",
+    "connection": "close"
+  },
+  "body": {
+    "id": "tools_list",
+    "jsonrpc": "2.0",
+    "method": "tools/list"
+  }
+}

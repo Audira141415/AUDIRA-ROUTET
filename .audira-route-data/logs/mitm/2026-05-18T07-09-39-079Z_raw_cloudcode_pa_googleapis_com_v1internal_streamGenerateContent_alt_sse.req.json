@@ -1,0 +1,993 @@
+{
+  "method": "POST",
+  "url": "/v1internal:streamGenerateContent?alt=sse",
+  "host": "cloudcode-pa.googleapis.com",
+  "headers": {
+    "host": "cloudcode-pa.googleapis.com",
+    "user-agent": "antigravity/1.23.2 windows/amd64",
+    "transfer-encoding": "chunked",
+    "authorization": "Bearer ya29.a0AQvPyIOINq0cltQitkc-LJmcLPa3nQI74qy0ZMoH65HY0FwMJKeJEzFGz5ENnLabobCWm2KoJjMSQ2omTr2k8ssDwMPajgYYCMzCMaDKbpukawDUBSMtBwQGcmuXY-DZ6rH7_hHGCmEllagXg_GooyZUOO00-ViiIOjPMWIyTIlFiGEkTaiGwBkAqqRzukXGNiCJqbFubch4YQaCgYKAVYSARUSFQHGX2MiHD6ubgu0f89XANootEUC2g0213",
+    "content-type": "application/json",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "project": "disco-solution-d43ch",
+    "requestId": "agent/9c79e30c-f1f9-4ab8-a4db-ff46d3284aa1/1779088179066/c225af24-e265-44c6-b4e5-167257acfcd0/20",
+    "request": {
+      "contents": [
+        {
+          "role": "user",
+          "parts": [
+            {
+              "text": "<user_information>\nThe USER's OS version is windows.\nThe user has 1 active workspaces, each defined by a URI and a CorpusName. Multiple URIs potentially map to the same CorpusName. The mapping is shown as follows in the format [URI] -> [CorpusName]:\nf:\\AUDIRA-WEB-PERFECT-WORLD -> f:/AUDIRA-WEB-PERFECT-WORLD\nCode relating to the user's requests should be written in the locations listed above. Avoid writing project code files to tmp, in the .gemini dir, or directly to the Desktop and similar folders unless explicitly asked.\nApp Data Directory: C:\\Users\\ASUS\\.gemini\\antigravity\nConversation ID: 9c79e30c-f1f9-4ab8-a4db-ff46d3284aa1\n</user_information>"
+            }
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            {
+              "text": "<USER_REQUEST>\nanalisa project AUDIRA-WEB-PERFECT-WORLD ini proejct kita skrng\n</USER_REQUEST>\n<ADDITIONAL_METADATA>\nThe current local time is: 2026-05-18T14:09:14+07:00.\n\nThe user's current state is as follows:\nActive Document: f:\\AUDIRA-WEB-GTA\\vice-city-dashboard\\components\\layout\\Navigation.tsx (LANGUAGE_TSX)\nCursor is on line: 1\nOther open documents:\n- f:\\AUDIRA-WEB-GTA\\vice-city-dashboard\\components\\layout\\Navigation.tsx (LANGUAGE_TSX)\nNo browser pages are currently open.\n</ADDITIONAL_METADATA>\n<USER_SETTINGS_CHANGE>\nThe user changed setting `Model Selection` from None to Claude Sonnet 4.6 (Thinking). No need to comment on this change if the user doesn't ask about it. If reporting what model you are, please use a human readable name instead of the exact string.\n</USER_SETTINGS_CHANGE>"
+            }
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            {
+              "text": "# Conversation History\nHere are the conversation IDs, titles, and summaries of your most recent 14 conversations, in reverse chronological order:\n\n<conversation_summaries>\n## Conversation 26ee0630-9cea-4269-9985-017beae5aec7: Analyzing Bug Hunter Project\n- Created: 2026-05-18T05:14:19Z\n- Last modified: 2026-05-18T07:08:57Z\n\n### USER Objective:\nImplementing VulnX Hunter Features\n\nThe user's objective is to complete the development of the VulnX Hunter vulnerability testing platform by systematically implementing the remaining features. The core goals include finalizing the backend integration for the Go-based scanner service, implementing the full-stack Reports module for vulnerability data exporting, and completing the remaining 15 frontend application pages to achieve full feature parity. The process will follow an incremental implementation strategy, starting with backend modules before transitioning to frontend integration and system-wide verification.\n\n## Conversation 00103c12-fab5-48d8-953b-a371784f01f6: Verifying Dashboard Navigation Status\n- Created: 2026-05-18T05:15:10Z\n- Last modified: 2026-05-18T07:06:01Z\n\n### USER Objective:\nVerifying Dashboard Navigation Status\n\nMain Objective: Determine if the navigation menu features are fully functional within the Vice City Dashboard project.\n\nGoals:\n1. Verify the implementation of the `Navigation.tsx` component.\n2. Confirm if the navigation links (Home, News, Videos, Events, Stats, Community, Settings) are correctly configured and point to active, functional application routes.\n3. Identify if any of these dashboard sub-pages currently exist as placeholders or require further implementation to be considered \"active.\"\n\n## Conversation ae30676f-05b5-4984-9e28-f650aab6b3f7: Analyzing Project Development Phase\n- Created: 2026-05-18T04:47:48Z\n- Last modified: 2026-05-18T05:13:27Z\n\n### USER Objective:\nImplementing Backend For VulnX Hunter\n\nThe user's objective is to complete the backend development and achieve full-stack readiness for the VulnX Hunter vulnerability testing platform. The primary goals are to implement critical modules (Vulnerabilities, Listeners), establish a robust API integration layer, and ensure the project architecture is scalable for future frontend integration and MVP production, effectively accelerating the development timeline by transitioning from partial backend implementation to a near-complete functional stack.\n\n## Conversation c69fc8e3-5731-4ccb-a88a-cab671604500: Implementing GTA Dashboard Features\n- Created: 2026-05-18T04:37:58Z\n- Last modified: 2026-05-18T05:07:24Z\n\n### USER Objective:\nImplementing Vice City Dashboard Pages\n\nThe user's goal is to continue the implementation of the Grand Theft Auto VI (Vice City) Dashboard by creating the remaining sub-pages: Videos, Events, Stats, and Community. The objective is to build these interactive, premium-themed pages to match the already-completed main dashboard's cyberpunk aesthetic, layout, and functionality requirements, ensuring a complete and seamless user experience.\n\n## Conversation 42590093-6914-4325-9d8d-fcdf529eb222: Analyzing GTA Dashboard UI\n- Created: 2026-05-18T04:28:46Z\n- Last modified: 2026-05-18T04:34:09Z\n\n## Conversation 481fbe3f-2122-4bef-b3e4-35d6bc234ed1: \n- Created: 2026-05-17T08:10:37Z\n- Last modified: 2026-05-18T02:16:54Z\n\n## Conversation e377f0ba-2f4f-409a-bd74-b0116fd437d3: Debugging Kiro Rotation Error\n- Created: 2026-05-17T06:42:46Z\n- Last modified: 2026-05-17T07:38:16Z\n\n## Conversation 4c929215-2736-446e-ae2c-a85c645dc533: Verifying Quota Tracker Feature\n- Created: 2026-05-17T06:32:53Z\n- Last modified: 2026-05-17T06:40:40Z\n\n### USER Objective:\nVerifying Quota Tracker Feature\n\nMain Objective:\nVerify whether the \"Quota Tracker\" is a functional, real-world feature within the current codebase or if it is a placeholder/non-functional element.\n\nGoals:\n1. Search the project directory and source code (specifically looking at `src/`, `open-sse/`, and configuration files) for any references to \"Quota Tracker\" or related telemetry/usage monitoring logic.\n2. Determine if there is an active implementation of quota management that tracks user requests or usage limits.\n3. Provide a clear explanation to the user regarding the status of this feature based on the findings in the code.\n\n## Conversation 23f99fb8-cf33-4297-bba1-7d5374d67258: Debugging Kiro API 400 Errors\n- Created: 2026-05-17T06:25:53Z\n- Last modified: 2026-05-17T06:26:30Z\n\n### USER Objective:\nDebugging Kiro API 400 Errors\n\nMain Objective: Resolve the \"Improperly formed request\" (400) error occurring during Kiro API calls.\n\nGoals:\n1. Analyze the `openai-to-kiro.js` translation logic to ensure the payload structure strictly adheres to the Kiro provider's schema requirements.\n2. Investigate why a seemingly valid request (previously succeeding) is now returning a 400 error, focusing on potential regressions in message formatting or tool definitions.\n3. Validate the request payload against Kiro’s specific API constraints, ensuring that mandatory fields are present and correctly serialized.\n4. Implement and test a fix to eliminate the \"Improperly formed request\" error and restore stable communication with the Kiro service.\n\n## Conversation 5252d9b4-111a-43bc-8c7d-e3c248b88706: Optimizing Kiro Payload Handling\n- Created: 2026-05-17T06:24:26Z\n- Last modified: 2026-05-17T06:25:26Z\n\n### USER Objective:\nOptimizing Kiro Payload Handling\n\nMain Objective: Resolve the CONTENT_LENGTH_EXCEEDS_THRESHOLD error in the Kiro request flow by refining payload construction.\n\nGoals:\n1. Ensure the `buildKiroPayload` function in `openai-to-kiro.js` correctly enforces payload constraints without causing 400 errors.\n2. Verify that the dynamic truncation logic (history, tools, and message content) effectively keeps requests under the 25KB threshold while maintaining critical context.\n3. Validate the payload structure against strict Kiro requirements, specifically ensuring the alternating user-assistant history format is preserved.\n4. Confirm the stability of the tool schema normalization to prevent malformed request errors during upstream processing.\n\n## Conversation 25695319-98e6-41ab-9309-99fd90fceb5e: Debugging Kiro Request Error\n- Created: 2026-05-17T06:08:53Z\n- Last modified: 2026-05-17T06:11:24Z\n\n## Conversation 0880b014-91df-4327-807c-790e45ec187d: \n- Created: 2026-05-17T03:36:02Z\n- Last modified: 2026-05-17T06:04:36Z\n\n## Conversation ad162d26-b9e4-4aff-adb8-b4341855b3f9: Analyzing Kiro Content Length Error\n- Created: 2026-05-16T08:48:58Z\n- Last modified: 2026-05-16T08:50:51Z\n\n### USER Objective:\nTroubleshooting Kiro Content Limits\n\nMain Objective: Resolve the CONTENT_LENGTH_EXCEEDS_THRESHOLD error occurring when using the Kiro provider (Claude Haiku 4.5).\n\nGoals:\n1. Identify the source of the 400 error within the `kiro` provider implementation and request handling flow.\n2. Investigate the `buildKiroPayload` function in `open-sse/translator/request/openai-to-kiro.js` to determine if token limits or context window management need adjustment.\n3. Verify if the `maxTokens` setting (currently hardcoded to 32000) or message assembly logic is triggering the Kiro API rejection.\n4. Implement a fix to either optimize the context payload or adjust the length constraints to align with Kiro's service thresholds.\n\n## Conversation 29a38223-e343-41cc-9b50-5b19075274b6: bagaimna menurutmu aplikais ini\n- Created: 2026-05-16T08:40:00Z\n- Last modified: 2026-05-16T08:40:01Z\n\n</conversation_summaries>"
+            }
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<thinking>\nThe user is asking me to analyze the \"AUDIRA-WEB-PERFECT-WORLD\" project, which they say is their current project. The user is writing in Indonesian (\"analisa project AUDIRA-WEB-PERFECT-WORLD ini proejct kita skrng\" = \"analyze the AUDIRA-WEB-PERFECT-WORLD project, this is our current project\").\n\nLooking at the user information, I can see:\n- The workspace is at: f:\\AUDIRA-WEB-PERFECT-WORLD\n- However, the currently open document is from a different project: f:\\AUDIRA-WEB-GTA\\vice-city-dashboard\\components\\layout\\Navigation.tsx\n\nThis suggests the user has multiple projects, and they want me to analyze the AUDIRA-WEB-PERFECT-WORLD project specifically.\n\nI should:\n1. First, list the directory structure of the AUDIRA-WEB-PERFECT-WORLD project to understand what's there\n2. Look at key files like package.json, README, configuration files\n3. Examine the project structure and technology stack\n4. Provide a comprehensive analysis\n\nLet me start by exploring the project directory.\n</thinking>\n\nSaya akan menganalisis project AUDIRA-WEB-PERFECT-WORLD untuk Anda. Mari kita mulai dengan melihat struktur project ini."
+            },
+            {
+              "functionCall": {
+                "id": "53dd36e0-e662-43f9-9eec-b16e3d92d914",
+                "name": "list_dir",
+                "args": {
+                  "DirectoryPath": "f:\\AUDIRA-WEB-PERFECT-WORLD",
+                  "toolAction": "Listing directory",
+                  "toolSummary": "Project root structure"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            {
+              "functionResponse": {
+                "id": "53dd36e0-e662-43f9-9eec-b16e3d92d914",
+                "name": "list_dir",
+                "response": {
+                  "output": "Created At: 2026-05-18T07:09:24Z\nCompleted At: 2026-05-18T07:09:24Z\n{\"name\":\".env.example\", \"sizeBytes\":\"789\"}\n{\"name\":\".gitignore\", \"sizeBytes\":\"325\"}\n{\"name\":\".kiro\", \"isDir\":true}\n{\"name\":\".npmrc\", \"sizeBytes\":\"57\"}\n{\"name\":\".turbo\", \"isDir\":true}\n{\"name\":\".vscode\", \"isDir\":true}\n{\"name\":\"BACKEND_CHECKPOINT_COMPLETE.md\", \"sizeBytes\":\"7481\"}\n{\"name\":\"BACKEND_COMPLETION_SUMMARY.md\", \"sizeBytes\":\"6118\"}\n{\"name\":\"IMPLEMENTATION_COMPLETE.md\", \"sizeBytes\":\"12208\"}\n{\"name\":\"PROJECT_STATUS.md\", \"sizeBytes\":\"7971\"}\n{\"name\":\"TASK_6_1_COMPLETION_REPORT.md\", \"sizeBytes\":\"10482\"}\n{\"name\":\"TASK_6_1_IMPLEMENTATION_SUMMARY.md\", \"sizeBytes\":\"10910\"}\n{\"name\":\"TASK_6_6_COMPLETION_REPORT.md\", \"sizeBytes\":\"14107\"}\n{\"name\":\"apps\", \"isDir\":true}\n{\"name\":\"docker-compose.yml\", \"sizeBytes\":\"1056\"}\n{\"name\":\"node_modules\", \"isDir\":true}\n{\"name\":\"package-lock.json\", \"sizeBytes\":\"58977\"}\n{\"name\":\"package.json\", \"sizeBytes\":\"740\"}\n{\"name\":\"packages\", \"isDir\":true}\n{\"name\":\"pnpm-lock.yaml\", \"sizeBytes\":\"298011\"}\n{\"name\":\"pnpm-workspace.yaml\", \"sizeBytes\":\"43\"}\n{\"name\":\"start.bat\", \"sizeBytes\":\"916\"}\n{\"name\":\"stop.bat\", \"sizeBytes\":\"920\"}\n{\"name\":\"tsconfig.json\", \"sizeBytes\":\"1225\"}\n{\"name\":\"turbo.json\", \"sizeBytes\":\"583\"}\n\nSummary: This directory contains 6 subdirectories and 19 files."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            {
+              "functionCall": {
+                "id": "f7f4e4d7-d8e6-4ea1-96e5-3ddcbe3add0f",
+                "name": "view_file",
+                "args": {
+                  "AbsolutePath": "f:\\AUDIRA-WEB-PERFECT-WORLD\\package.json",
+                  "toolAction": "Viewing file",
+                  "toolSummary": "Root package.json"
+                }
+              }
+            },
+            {
+              "functionCall": {
+                "id": "be5e3146-dd25-48c9-842a-fdfec42b9d40",
+                "name": "view_file",
+                "args": {
+                  "AbsolutePath": "f:\\AUDIRA-WEB-PERFECT-WORLD\\PROJECT_STATUS.md",
+                  "toolAction": "Viewing file",
+                  "toolSummary": "Project status document"
+                }
+              }
+            },
+            {
+              "functionCall": {
+                "id": "e908db53-1caa-4420-a1fd-a2e8de706b27",
+                "name": "list_dir",
+                "args": {
+                  "DirectoryPath": "f:\\AUDIRA-WEB-PERFECT-WORLD\\apps",
+                  "toolAction": "Listing directory",
+                  "toolSummary": "Apps directory structure"
+                }
+              }
+            },
+            {
+              "functionCall": {
+                "id": "84eeed94-9736-4567-8d5e-6e6758951ecb",
+                "name": "list_dir",
+                "args": {
+                  "DirectoryPath": "f:\\AUDIRA-WEB-PERFECT-WORLD\\packages",
+                  "toolAction": "Listing directory",
+                  "toolSummary": "Packages directory structure"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            {
+              "functionResponse": {
+                "id": "f7f4e4d7-d8e6-4ea1-96e5-3ddcbe3add0f",
+                "name": "view_file",
+                "response": {
+                  "output": "Created At: 2026-05-18T07:09:29Z\nCompleted At: 2026-05-18T07:09:29Z\nFile Path: `file:///f:/AUDIRA-WEB-PERFECT-WORLD/package.json`\nTotal Lines: 28\nTotal Bytes: 740\nShowing lines 1 to 28\nThe following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.\n1: {\r\n2:   \"name\": \"perfect-world\",\r\n3:   \"version\": \"0.1.0\",\r\n4:   \"private\": true,\r\n5:   \"packageManager\": \"pnpm@9.15.0\",\r\n6:   \"scripts\": {\r\n7:     \"build\": \"turbo run build\",\r\n8:     \"dev\": \"turbo run dev\",\r\n9:     \"lint\": \"turbo run lint\",\r\n10:     \"test\": \"turbo run test\",\r\n11:     \"clean\": \"turbo run clean && rm -rf node_modules\",\r\n12:     \"format\": \"prettier --write \\\"**/*.{ts,tsx,md}\\\"\"\r\n13:   },\r\n14:   \"devDependencies\": {\r\n15:     \"prettier\": \"^3.4.0\",\r\n16:     \"turbo\": \"^2.3.0\",\r\n17:     \"typescript\": \"^5.7.0\"\r\n18:   },\r\n19:   \"dependencies\": {\r\n20:     \"@fast-check/vitest\": \"^0.4.1\",\r\n21:     \"@types/passport-discord\": \"^0.1.15\",\r\n22:     \"@types/passport-google-oauth20\": \"^2.0.17\",\r\n23:     \"fast-check\": \"^4.8.0\",\r\n24:     \"passport-discord\": \"^0.1.4\",\r\n25:     \"passport-google-oauth20\": \"^2.0.0\"\r\n26:   }\r\n27: }\r\n28: \nThe above content shows the entire, complete file contents of the requested file.\n"
+                }
+              }
+            },
+            {
+              "functionResponse": {
+                "id": "be5e3146-dd25-48c9-842a-fdfec42b9d40",
+                "name": "view_file",
+                "response": {
+                  "output": "Created At: 2026-05-18T07:09:29Z\nCompleted At: 2026-05-18T07:09:29Z\nFile Path: `file:///f:/AUDIRA-WEB-PERFECT-WORLD/PROJECT_STATUS.md`\nTotal Lines: 232\nTotal Bytes: 7971\nShowing lines 1 to 232\nThe following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.\n1: # Perfect World Neo Brutalism - Project Status\r\n2: \r\n3: **Last Updated:** 2026-05-17 02:44 UTC\r\n4: **Overall Progress:** 30% Complete (Backend Done, Frontend Pending)\r\n5: \r\n6: ## Completion Summary\r\n7: \r\n8: ### ✅ COMPLETED (100%)\r\n9: \r\n10: #### Phase 1: Infrastructure & Setup\r\n11: - Turborepo monorepo configuration\r\n12: - Shared packages (configs, types, validation, UI)\r\n13: - Database schema with Prisma\r\n14: - Docker Compose for local development\r\n15: - API Gateway with rate limiting\r\n16: \r\n17: #### Phase 2: Backend Microservices (8/8 Complete)\r\n18: 1. **Auth Service** - Email/password, OAuth (Discord/Google), JWT, 2FA, Account Locking\r\n19: 2. **Player Service** - Character management, Inventory, Statistics\r\n20: 3. **Guild Service** - Guild CRUD, Member management, Permissions\r\n21: 4. **Ranking Service** - Rankings computation, Redis caching, Tiebreaker logic\r\n22: 5. **Marketplace Service** - Fixed/Auction listings, Bidding, Transactions\r\n23: 6. **Notification Service** - Socket.IO realtime, Channel subscriptions\r\n24: 7. **Analytics Service** - Metrics recording, Time-series data\r\n25: 8. **News Service** - Article CRUD, Category filtering, Featured articles\r\n26: 9. **Support Service** - Ticket management, Field validation\r\n27: \r\n28: #### Phase 3: Testing\r\n29: - 338 unit and integration tests (all passing)\r\n30: - 19 property-based test suites\r\n31: - 0 build errors\r\n32: - Full test coverage for critical logic\r\n33: \r\n34: ### 🔄 IN PROGRESS / PENDING\r\n35: \r\n36: #### Phase 4: Frontend Implementation (0% - Ready to Start)\r\n37: - [ ] Task 8: Frontend Layout and Navigation\r\n38: - [ ] Task 9: Homepage Sections (Hero, Server Status, Class Showcase)\r\n39: - [ ] Task 10: Public Content Pages (Rankings, News, Territory War, Download, Guilds, Support)\r\n40: - [ ] Task 11: Checkpoint - Public pages\r\n41: - [ ] Task 12: Marketplace Frontend\r\n42: - [ ] Task 13: Player Dashboard\r\n43: - [ ] Task 14: Animation and Interaction System\r\n44: - [ ] Task 15: Realtime Communication Client\r\n45: - [ ] Task 16: Admin Panel\r\n46: - [ ] Task 17: Authentication Pages\r\n47: - [ ] Task 18: CI/CD Pipeline\r\n48: - [ ] Task 19: Final Integration Verification\r\n49: \r\n50: ## Key Metrics\r\n51: \r\n52: | Metric | Value |\r\n53: |--------|-------|\r\n54: | Backend Services | 8/8 (100%) |\r\n55: | API Endpoints | 50+ |\r\n56: | Unit Tests | 338 passing |\r\n57: | Property Tests | 19 suites |\r\n58: | Build Status | ✅ Success |\r\n59: | Code Quality | 0 errors |\r\n60: | Test Coverage | High |\r\n61: | OAuth Providers | 2 (Google, Discord) |\r\n62: | Realtime Channels | 5 |\r\n63: | Database Models | 15+ |\r\n64: \r\n65: ## Architecture Overview\r\n66: \r\n67: ```\r\n68: Perfect World Neo Brutalism\r\n69: ├── apps/\r\n70: │   ├── api/                    ✅ COMPLETE\r\n71: │   │   ├── auth/              ✅ OAuth, JWT, 2FA\r\n72: │   │   ├── player/            ✅ Character management\r\n73: │   │   ├── guild/             ✅ Guild system\r\n74: │   │   ├── ranking/           ✅ Rankings with cache\r\n75: │   │   ├── marketplace/       ✅ Trading system\r\n76: │   │   ├── notification/      ✅ Socket.IO realtime\r\n77: │   │   ├── analytics/         ✅ Metrics\r\n78: │   │   ├── news/              ✅ Article management\r\n79: │   │   └── support/           ✅ Ticket system\r\n80: │   ├── web/                    🔄 PENDING (Next)\r\n81: │   │   ├── pages/\r\n82: │   │   ├── components/\r\n83: │   │   └── layouts/\r\n84: │   ├── admin/                  🔄 PENDING\r\n85: │   └── launcher/               🔄 PENDING\r\n86: └── packages/\r\n87:     ├── database/              ✅ Prisma schema\r\n88:     ├── shared/                ✅ Types & validation\r\n89:     ├── ui/                    ✅ Neo Brutalism components\r\n90:     ├── configs/               ✅ ESLint, TypeScript\r\n91:     ├── sdk/                   🔄 PENDING (Realtime client)\r\n92:     └── auth/                  ✅ Auth utilities\r\n93: ```\r\n94: \r\n95: ## Technology Stack\r\n96: \r\n97: ### Backend (✅ Complete)\r\n98: - **Framework:** NestJS\r\n99: - **Database:** PostgreSQL + Prisma ORM\r\n100: - **Cache:** Redis\r\n101: - **Realtime:** Socket.IO\r\n102: - **Auth:** JWT + Passport (OAuth)\r\n103: - **Testing:** Vitest + fast-check (property tests)\r\n104: \r\n105: ### Frontend (🔄 Pending)\r\n106: - **Framework:** Next.js 16 (App Router)\r\n107: - **Styling:** Tailwind CSS\r\n108: - **Animation:** Framer Motion + GSAP\r\n109: - **3D:** React Three Fiber\r\n110: - **State:** TBD (Redux/Zustand/Context)\r\n111: - **Testing:** Vitest + React Testing Library\r\n112: \r\n113: ### Infrastructure\r\n114: - **Monorepo:** Turborepo\r\n115: - **Containerization:** Docker\r\n116: - **CI/CD:** GitHub Actions (pending)\r\n117: - **Deployment:** Vercel (web/admin), Docker/VPS (api)\r\n118: \r\n119: ## Requirements Coverage\r\n120: \r\n121: ### Completed Requirements\r\n122: - ✅ Requirement 1: Neo Brutalism Design System (UI components ready)\r\n123: - ✅ Requirement 9: Auth Service (all features)\r\n124: - ✅ Requirement 10: Player Service (all features)\r\n125: - ✅ Requirement 18: Guild System (all features)\r\n126: - ✅ Requirement 6: Ranking System (all features)\r\n127: - ✅ Requirement 8: Marketplace (all features)\r\n128: - ✅ Requirement 15: Notifications (all features)\r\n129: - ✅ Requirement 11: Analytics (all features)\r\n130: - ✅ Requirement 7: News System (all features)\r\n131: - ✅ Requirement 19: Support System (all features)\r\n132: \r\n133: ### Pending Requirements\r\n134: - 🔄 Requirement 2: Homepage Hero Section\r\n135: - 🔄 Requirement 3: Server Status Display\r\n136: - 🔄 Requirement 4: Class Showcase\r\n137: - 🔄 Requirement 5: Territory War Map\r\n138: - 🔄 Requirement 12: Navigation & Footer\r\n139: - 🔄 Requirement 13: Animations & Interactions\r\n140: - 🔄 Requirement 14: Performance Optimization\r\n141: - 🔄 Requirement 16: Database Performance\r\n142: - 🔄 Requirement 17: Download Page\r\n143: - 🔄 Requirement 20: Infrastructure & Deployment\r\n144: \r\n145: ## Next Steps\r\n146: \r\n147: ### Immediate (Week 1)\r\n148: 1. Start Task 8: Frontend Layout and Navigation\r\n149: 2. Implement Next.js 16 setup with App Router\r\n150: 3. Integrate Neo Brutalism UI components\r\n151: 4. Create root layout with providers\r\n152: \r\n153: ### Short Term (Week 2-3)\r\n154: 1. Implement homepage sections\r\n155: 2. Create public content pages\r\n156: 3. Build marketplace frontend\r\n157: 4. Implement player dashboard\r\n158: \r\n159: ### Medium Term (Week 4-5)\r\n160: 1. Animation system implementation\r\n161: 2. Realtime client integration\r\n162: 3. Admin panel setup\r\n163: 4. Authentication pages\r\n164: \r\n165: ### Long Term (Week 6+)\r\n166: 1. CI/CD pipeline\r\n167: 2. Performance optimization\r\n168: 3. End-to-end testing\r\n169: 4. Production deployment\r\n170: \r\n171: ## Development Commands\r\n172: \r\n173: ```bash\r\n174: # Backend\r\n175: npm run build              # Build API\r\n176: npm test                   # Run tests\r\n177: npm run dev               # Start dev server\r\n178: \r\n179: # Frontend (when ready)\r\n180: npm run dev:web           # Start web dev server\r\n181: npm run build:web         # Build web app\r\n182: \r\n183: # Monorepo\r\n184: npm run build             # Build all apps\r\n185: npm test                  # Test all apps\r\n186: npm run lint              # Lint all apps\r\n187: ```\r\n188: \r\n189: ## Documentation\r\n190: \r\n191: - `BACKEND_COMPLETION_SUMMARY.md` - Backend implementation details\r\n192: - `BACKEND_CHECKPOINT_COMPLETE.md` - Test results and status\r\n193: - `apps/api/src/auth/AUTH_COMPLETION.md` - Auth service details\r\n194: - `apps/api/src/news/NEWS_COMPLETION.md` - News service details\r\n195: - `.env.example` - Environment configuration template\r\n196: \r\n197: ## Team Notes\r\n198: \r\n199: ### What's Working Well\r\n200: ✅ Backend architecture is solid and scalable\r\n201: ✅ Test coverage is comprehensive\r\n202: ✅ OAuth integration is production-ready\r\n203: ✅ Realtime capabilities are robust\r\n204: ✅ Database schema is well-designed\r\n205: ✅ API is well-documented\r\n206: \r\n207: ### Ready for Frontend\r\n208: ✅ All backend APIs are stable\r\n209: ✅ Database is fully migrated\r\n210: ✅ Authentication is secure\r\n211: ✅ Realtime infrastructure is ready\r\n212: ✅ UI components are available\r\n213: \r\n214: ### Recommendations\r\n215: 1. Start frontend with layout and navigation\r\n216: 2. Integrate realtime client early\r\n217: 3. Use Neo Brutalism components consistently\r\n218: 4. Implement animations progressively\r\n219: 5. Test on multiple devices early\r\n220: \r\n221: ## Conclusion\r\n222: \r\n223: **Backend implementation is complete and production-ready.** All 8 microservices are fully functional with comprehensive testing. The system is ready for frontend integration and end-to-end testing.\r\n224: \r\n225: **Status: Ready to proceed with frontend implementation** 🚀\r\n226: \r\n227: ---\r\n228: \r\n229: **Project Lead:** Development Team\r\n230: **Last Review:** 2026-05-17\r\n231: **Next Review:** After Task 8 completion\r\n232: \nThe above content shows the entire, complete file contents of the requested file.\n"
+                }
+              }
+            },
+            {
+              "functionResponse": {
+                "id": "e908db53-1caa-4420-a1fd-a2e8de706b27",
+                "name": "list_dir",
+                "response": {
+                  "output": "Created At: 2026-05-18T07:09:29Z\nCompleted At: 2026-05-18T07:09:29Z\n{\"name\":\"admin\", \"isDir\":true}\n{\"name\":\"api\", \"isDir\":true}\n{\"name\":\"launcher\", \"isDir\":true}\n{\"name\":\"web\", \"isDir\":true}\n\nSummary: This directory contains 4 subdirectories and 0 files."
+                }
+              }
+            },
+            {
+              "functionResponse": {
+                "id": "84eeed94-9736-4567-8d5e-6e6758951ecb",
+                "name": "list_dir",
+                "response": {
+                  "output": "Created At: 2026-05-18T07:09:29Z\nCompleted At: 2026-05-18T07:09:29Z\n{\"name\":\"auth\", \"isDir\":true}\n{\"name\":\"configs\", \"isDir\":true}\n{\"name\":\"database\", \"isDir\":true}\n{\"name\":\"sdk\", \"isDir\":true}\n{\"name\":\"shared\", \"isDir\":true}\n{\"name\":\"ui\", \"isDir\":true}\n\nSummary: This directory contains 6 subdirectories and 0 files."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<thinking>\nThe user wants me to continue the analysis. I've gathered some initial information about the project. Let me continue exploring to get a complete picture. I should look at:\n\n1. The API structure (backend services)\n2. The web app structure (frontend)\n3. The shared packages\n4. Key configuration files\n\nFrom what I've seen so far:\n- This is a \"Perfect World\" game website project with Neo Brutalism design\n- It's a Turborepo monorepo using pnpm\n- Backend is 100% complete with 8 microservices\n- Frontend is 0% complete (pending)\n- Uses NestJS for backend, Next.js for frontend\n- Has comprehensive testing (338 tests passing)\n\nLet me continue exploring the structure to provide a complete analysis.\n</thinking>"
+            },
+            {
+              "functionCall": {
+                "id": "7d0fe47a-d427-44a1-a686-bb070456770d",
+                "name": "list_dir",
+                "args": {
+                  "DirectoryPath": "f:\\AUDIRA-WEB-PERFECT-WORLD\\apps\\api",
+                  "toolAction": "Listing directory",
+                  "toolSummary": "API app structure"
+                }
+              }
+            },
+            {
+              "functionCall": {
+                "id": "2491c923-ef2a-4244-8b79-deae224c2ada",
+                "name": "list_dir",
+                "args": {
+                  "DirectoryPath": "f:\\AUDIRA-WEB-PERFECT-WORLD\\apps\\web",
+                  "toolAction": "Listing directory",
+                  "toolSummary": "Web app structure"
+                }
+              }
+            },
+            {
+              "functionCall": {
+                "id": "fe95af71-3710-46b0-b2f2-07072c8f79f7",
+                "name": "view_file",
+                "args": {
+                  "AbsolutePath": "f:\\AUDIRA-WEB-PERFECT-WORLD\\BACKEND_COMPLETION_SUMMARY.md",
+                  "toolAction": "Viewing file",
+                  "toolSummary": "Backend completion details"
+                }
+              }
+            },
+            {
+              "functionCall": {
+                "id": "82e33c4f-620a-444f-b486-2a8f751d1491",
+                "name": "view_file",
+                "args": {
+                  "AbsolutePath": "f:\\AUDIRA-WEB-PERFECT-WORLD\\.env.example",
+                  "toolAction": "Viewing file",
+                  "toolSummary": "Environment configuration"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            {
+              "functionResponse": {
+                "id": "7d0fe47a-d427-44a1-a686-bb070456770d",
+                "name": "list_dir",
+                "response": {
+                  "output": "Created At: 2026-05-18T07:09:39Z\nCompleted At: 2026-05-18T07:09:39Z\n{\"name\":\".turbo\", \"isDir\":true}\n{\"name\":\"dist\", \"isDir\":true}\n{\"name\":\"nest-cli.json\", \"sizeBytes\":\"124\"}\n{\"name\":\"node_modules\", \"isDir\":true}\n{\"name\":\"package.json\", \"sizeBytes\":\"1504\"}\n{\"name\":\"src\", \"isDir\":true}\n{\"name\":\"tsconfig.json\", \"sizeBytes\":\"748\"}\n{\"name\":\"vitest.config.ts\", \"sizeBytes\":\"596\"}\n\nSummary: This directory contains 4 subdirectories and 4 files."
+                }
+              }
+            },
+            {
+              "functionResponse": {
+                "id": "2491c923-ef2a-4244-8b79-deae224c2ada",
+                "name": "list_dir",
+                "response": {
+                  "output": "Created At: 2026-05-18T07:09:39Z\nCompleted At: 2026-05-18T07:09:39Z\n{\"name\":\".next\", \"isDir\":true}\n{\"name\":\".turbo\", \"isDir\":true}\n{\"name\":\"next-env.d.ts\", \"sizeBytes\":\"268\"}\n{\"name\":\"next.config.ts\", \"sizeBytes\":\"1051\"}\n{\"name\":\"node_modules\", \"isDir\":true}\n{\"name\":\"package.json\", \"sizeBytes\":\"1206\"}\n{\"name\":\"postcss.config.js\", \"sizeBytes\":\"89\"}\n{\"name\":\"src\", \"isDir\":true}\n{\"name\":\"tailwind.config.ts\", \"sizeBytes\":\"498\"}\n{\"name\":\"tsconfig.json\", \"sizeBytes\":\"632\"}\n{\"name\":\"tsconfig.tsbuildinfo\", \"sizeBytes\":\"374873\"}\n{\"name\":\"vitest.config.ts\", \"sizeBytes\":\"549\"}\n\nSummary: This directory contains 4 subdirectories and 8 files."
+                }
+              }
+            },
+            {
+              "functionResponse": {
+                "id": "fe95af71-3710-46b0-b2f2-07072c8f79f7",
+                "name": "view_file",
+                "response": {
+                  "output": "Created At: 2026-05-18T07:09:39Z\nCompleted At: 2026-05-18T07:09:39Z\nFile Path: `file:///f:/AUDIRA-WEB-PERFECT-WORLD/BACKEND_COMPLETION_SUMMARY.md`\nTotal Lines: 194\nTotal Bytes: 6118\nShowing lines 1 to 194\nThe following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.\n1: # Backend Implementation Summary\r\n2: \r\n3: ## Completed Tasks\r\n4: \r\n5: ### Task 4.3: Auth Service - ✅ COMPLETE\r\n6: **Status:** All authentication features implemented\r\n7: \r\n8: **Features Implemented:**\r\n9: - ✅ Email/password registration with 24h email verification\r\n10: - ✅ Login with JWT tokens (15min access, 7day refresh)\r\n11: - ✅ Account locking after 5 failed attempts (15min lock)\r\n12: - ✅ Password recovery with 30min reset token\r\n13: - ✅ Password change with token invalidation\r\n14: - ✅ TOTP 2FA setup and verification\r\n15: - ✅ OAuth login via Discord and Google\r\n16: - ✅ Token refresh with rotation\r\n17: \r\n18: **Files Created:**\r\n19: - `apps/api/src/auth/strategies/google.strategy.ts` - Google OAuth strategy\r\n20: - `apps/api/src/auth/strategies/discord.strategy.ts` - Discord OAuth strategy\r\n21: - Updated `apps/api/src/auth/auth.controller.ts` - Added OAuth endpoints\r\n22: - Updated `apps/api/src/auth/auth.service.impl.ts` - Added oauthCallback method\r\n23: - Updated `apps/api/src/auth/auth.module.ts` - Registered OAuth strategies\r\n24: - Updated `.env.example` - Added OAuth environment variables\r\n25: \r\n26: **Dependencies Added:**\r\n27: - `passport-google-oauth20`\r\n28: - `passport-discord`\r\n29: - `@types/passport-google-oauth20`\r\n30: - `@types/passport-discord`\r\n31: \r\n32: **Requirements Met:** 9.1, 9.2, 9.3, 9.4, 9.5, 9.6, 9.8, 9.9, 9.10\r\n33: \r\n34: ---\r\n35: \r\n36: ### Task 6.4: News Service - ✅ COMPLETE\r\n37: **Status:** Full CRUD operations with category filtering\r\n38: \r\n39: **Features Implemented:**\r\n40: - ✅ Article creation with automatic slug generation\r\n41: - ✅ Article update with slug regeneration\r\n42: - ✅ Article retrieval (by ID or slug)\r\n43: - ✅ Article deletion\r\n44: - ✅ Category filtering (Patch Notes, Events, Community, Announcements)\r\n45: - ✅ Featured article support\r\n46: - ✅ Recent articles for homepage (max 6)\r\n47: - ✅ Excerpt truncation to 200 characters\r\n48: - ✅ Publication date management\r\n49: - ✅ Pagination support\r\n50: \r\n51: **Files Created:**\r\n52: - `apps/api/src/news/news.service.ts` - Service implementation\r\n53: - `apps/api/src/news/news.controller.ts` - REST API endpoints\r\n54: - `apps/api/src/news/news.module.ts` - Module configuration\r\n55: - `apps/api/src/news/news.service.test.ts` - Unit tests (17 passing)\r\n56: - `apps/api/src/news/dto/` - Data transfer objects\r\n57: - `apps/api/src/news/NEWS_COMPLETION.md` - Detailed documentation\r\n58: \r\n59: **API Endpoints:**\r\n60: - `POST /news` - Create article (authenticated)\r\n61: - `GET /news` - Get all articles with filtering\r\n62: - `GET /news/featured` - Get featured article\r\n63: - `GET /news/recent` - Get recent articles for homepage\r\n64: - `GET /news/:idOrSlug` - Get single article\r\n65: - `PUT /news/:id` - Update article (authenticated)\r\n66: - `DELETE /news/:id` - Delete article (authenticated)\r\n67: \r\n68: **Test Coverage:**\r\n69: - ✅ 17 unit tests passing\r\n70: - Tests cover: creation, truncation, filtering, retrieval, updates, deletion\r\n71: \r\n72: **Requirements Met:** 7.1, 7.2, 7.3, 7.4, 7.5, 7.6, 7.7, 7.8\r\n73: \r\n74: ---\r\n75: \r\n76: ## Backend Services Status\r\n77: \r\n78: | Service | Status | Tests | Notes |\r\n79: |---------|--------|-------|-------|\r\n80: | Auth Service | ✅ Complete | Passing | OAuth integrated |\r\n81: | Player Service | ✅ Complete | Passing | Character management |\r\n82: | Guild Service | ✅ Complete | Passing | Guild operations |\r\n83: | Ranking Service | ✅ Complete | Passing | Rankings with Redis cache |\r\n84: | Marketplace Service | ✅ Complete | Passing | Trading & auctions |\r\n85: | Notification Service | ✅ Complete | Passing | Socket.IO realtime |\r\n86: | Analytics Service | ✅ Complete | Passing | Metrics collection |\r\n87: | News Service | ✅ Complete | Passing | Article management |\r\n88: | Support Service | ✅ Complete | Passing | Ticket management |\r\n89: \r\n90: ---\r\n91: \r\n92: ## Next Steps\r\n93: \r\n94: ### Immediate (High Priority)\r\n95: 1. **Task 5.3** - Guild system property tests\r\n96: 2. **Task 5.5** - Ranking service property tests\r\n97: 3. **Task 6.5** - News service property tests\r\n98: 4. **Task 6.8** - Support ticket property tests\r\n99: \r\n100: ### Frontend Implementation\r\n101: 1. **Task 8** - Frontend layout and navigation\r\n102: 2. **Task 9** - Homepage sections (Hero, Server Status, Class Showcase)\r\n103: 3. **Task 10** - Public content pages (Rankings, News, Territory War, etc.)\r\n104: \r\n105: ### Integration & Deployment\r\n106: 1. **Task 15** - Realtime communication client\r\n107: 2. **Task 16** - Admin panel\r\n108: 3. **Task 18** - CI/CD pipeline\r\n109: \r\n110: ---\r\n111: \r\n112: ## Key Achievements\r\n113: \r\n114: ✅ **Complete Backend Microservices** - All 8 backend services fully implemented\r\n115: ✅ **OAuth Integration** - Discord and Google OAuth ready for production\r\n116: ✅ **Comprehensive Testing** - 17+ unit tests per service\r\n117: ✅ **Database Schema** - Full Prisma schema with migrations\r\n118: ✅ **API Gateway** - Rate limiting and authentication configured\r\n119: ✅ **Realtime Support** - Socket.IO integration for notifications\r\n120: ✅ **Caching Layer** - Redis integration for rankings and sessions\r\n121: \r\n122: ---\r\n123: \r\n124: ## Environment Setup\r\n125: \r\n126: ### Required Environment Variables\r\n127: ```env\r\n128: # Database\r\n129: DATABASE_URL=\"postgresql://perfectworld:perfectworld_dev@localhost:5432/perfectworld?schema=public\"\r\n130: \r\n131: # Redis\r\n132: REDIS_URL=\"redis://localhost:6379\"\r\n133: \r\n134: # JWT\r\n135: JWT_SECRET=\"your-jwt-secret-key\"\r\n136: JWT_REFRESH_SECRET=\"your-jwt-refresh-secret-key\"\r\n137: \r\n138: # OAuth - Google\r\n139: GOOGLE_CLIENT_ID=\"your-google-client-id\"\r\n140: GOOGLE_CLIENT_SECRET=\"your-google-client-secret\"\r\n141: GOOGLE_CALLBACK_URL=\"http://localhost:3000/api/auth/oauth/google/callback\"\r\n142: \r\n143: # OAuth - Discord\r\n144: DISCORD_CLIENT_ID=\"your-discord-client-id\"\r\n145: DISCORD_CLIENT_SECRET=\"your-discord-client-secret\"\r\n146: DISCORD_CALLBACK_URL=\"http://localhost:3000/api/auth/oauth/discord/callback\"\r\n147: ```\r\n148: \r\n149: ---\r\n150: \r\n151: ## Running Tests\r\n152: \r\n153: ```bash\r\n154: # Run all tests\r\n155: npm test\r\n156: \r\n157: # Run specific service tests\r\n158: npm test -- auth.service.test.ts\r\n159: npm test -- news.service.test.ts\r\n160: \r\n161: # Run with coverage\r\n162: npm test -- --coverage\r\n163: ```\r\n164: \r\n165: ---\r\n166: \r\n167: ## Build & Deploy\r\n168: \r\n169: ```bash\r\n170: # Build all services\r\n171: npm run build\r\n172: \r\n173: # Start development server\r\n174: npm run dev\r\n175: \r\n176: # Docker deployment\r\n177: docker-compose up -d\r\n178: ```\r\n179: \r\n180: ---\r\n181: \r\n182: ## Documentation\r\n183: \r\n184: - `apps/api/src/auth/AUTH_COMPLETION.md` - Auth service details\r\n185: - `apps/api/src/news/NEWS_COMPLETION.md` - News service details\r\n186: - Each service has inline JSDoc comments\r\n187: - API endpoints documented in controller files\r\n188: \r\n189: ---\r\n190: \r\n191: **Last Updated:** 2026-05-17\r\n192: **Backend Completion:** 100%\r\n193: **Ready for:** Frontend integration & testing\r\n194: \nThe above content shows the entire, complete file contents of the requested file.\n"
+                }
+              }
+            },
+            {
+              "functionResponse": {
+                "id": "82e33c4f-620a-444f-b486-2a8f751d1491",
+                "name": "view_file",
+                "response": {
+                  "output": "Created At: 2026-05-18T07:09:39Z\nCompleted At: 2026-05-18T07:09:39Z\nFile Path: `file:///f:/AUDIRA-WEB-PERFECT-WORLD/.env.example`\nTotal Lines: 23\nTotal Bytes: 789\nShowing lines 1 to 23\nThe following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.\n1: # Database (PostgreSQL)\r\n2: DATABASE_URL=\"postgresql://perfectworld:perfectworld_dev@localhost:5432/perfectworld?schema=public\"\r\n3: POSTGRES_USER=perfectworld\r\n4: POSTGRES_PASSWORD=perfectworld_dev\r\n5: POSTGRES_DB=perfectworld\r\n6: \r\n7: # Redis\r\n8: REDIS_URL=\"redis://localhost:6379\"\r\n9: \r\n10: # JWT Secrets\r\n11: JWT_SECRET=\"your-jwt-secret-key-change-in-production\"\r\n12: JWT_REFRESH_SECRET=\"your-jwt-refresh-secret-key-change-in-production\"\r\n13: \r\n14: # OAuth - Google\r\n15: GOOGLE_CLIENT_ID=\"your-google-client-id\"\r\n16: GOOGLE_CLIENT_SECRET=\"your-google-client-secret\"\r\n17: GOOGLE_CALLBACK_URL=\"http://localhost:3000/api/auth/oauth/google/callback\"\r\n18: \r\n19: # OAuth - Discord\r\n20: DISCORD_CLIENT_ID=\"your-discord-client-id\"\r\n21: DISCORD_CLIENT_SECRET=\"your-discord-client-secret\"\r\n22: DISCORD_CALLBACK_URL=\"http://localhost:3000/api/auth/oauth/discord/callback\"\r\n23: \nThe above content shows the entire, complete file contents of the requested file.\n"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "systemInstruction": {
+        "role": "user",
+        "parts": [
+          {
+            "text": "<identity>\nYou are Antigravity, a powerful agentic AI coding assistant designed by the Google Deepmind team working on Advanced Agentic Coding.\nYou are pair programming with a USER to solve their coding task. The task may require creating a new codebase, modifying or debugging an existing codebase, or simply answering a question.\nThe USER will send you requests, which you must always prioritize addressing. Along with each USER request, we will attach additional metadata about their current state, such as what files they have open and where their cursor is.\nThis information may or may not be relevant to the coding task, it is up for you to decide.\n</identity>\n\n<web_application_development>\n## Technology Stack,\nYour web applications should be built using the following technologies:,\n1. **Core**: Use HTML for structure and Javascript for logic.\n2. **Styling (CSS)**: Use Vanilla CSS for maximum flexibility and control. Avoid using TailwindCSS unless the USER explicitly requests it; in this case, first confirm which TailwindCSS version to use.\n3. **Web App**: If the USER specifies that they want a more complex web app, use a framework like Next.js or Vite. Only do this if the USER explicitly requests a web app.\n4. **New Project Creation**: If you need to use a framework for a new app, use `npx` with the appropriate script, but there are some rules to follow:,\n   - Use `npx -y` to automatically install the script and its dependencies\n   - You MUST run the command with `--help` flag to see all available options first, \n   - Initialize the app in the current directory with `./` (example: `npx -y create-vite-app@latest ./`),\n   - You should run in non-interactive mode so that the user doesn't need to input anything,\n5. **Running Locally**: When running locally, use `npm run dev` or equivalent dev server. Only build the production bundle if the USER explicitly requests it or you are validating the code for correctness.\n\n# Design Aesthetics,\n1. **Use Rich Aesthetics**: The USER should be wowed at first glance by the design. Use best practices in modern web design (e.g. vibrant colors, dark modes, glassmorphism, and dynamic animations) to create a stunning first impression. Failure to do this is UNACCEPTABLE.\n2. **Prioritize Visual Excellence**: Implement designs that will WOW the user and feel extremely premium:\n\t\t- Avoid generic colors (plain red, blue, green). Use curated, harmonious color palettes (e.g., HSL tailored colors, sleek dark modes).\n   - Using modern typography (e.g., from Google Fonts like Inter, Roboto, or Outfit) instead of browser defaults.\n\t\t- Use smooth gradients,\n\t\t- Add subtle micro-animations for enhanced user experience,\n3. **Use a Dynamic Design**: An interface that feels responsive and alive encourages interaction. Achieve this with hover effects and interactive elements. Micro-animations, in particular, are highly effective for improving user engagement.\n4. **Premium Designs**. Make a design that feels premium and state of the art. Avoid creating simple minimum viable products.\n4. **Don't use placeholders**. If you need an image, use your generate_image tool to create a working demonstration.,\n\n## Implementation Workflow,\nFollow this systematic approach when building web applications:,\n1. **Plan and Understand**:,\n\t\t- Fully understand the user's requirements,\n\t\t- Draw inspiration from modern, beautiful, and dynamic web designs,\n\t\t- Outline the features needed for the initial version,\n2. **Build the Foundation**:,\n\t\t- Start by creating/modifying `index.css`,\n\t\t- Implement the core design system with all tokens and utilities,\n3. **Create Components**:,\n\t\t- Build necessary components using your design system,\n\t\t- Ensure all components use predefined styles, not ad-hoc utilities,\n\t\t- Keep components focused and reusable,\n4. **Assemble Pages**:,\n\t\t- Update the main application to incorporate your design and components,\n\t\t- Ensure proper routing and navigation,\n\t\t- Implement responsive layouts,\n5. **Polish and Optimize**:,\n\t\t- Review the overall user experience,\n\t\t- Ensure smooth interactions and transitions,\n\t\t- Optimize performance where needed,\n\n## SEO Best Practices,\nAutomatically implement SEO best practices on every page:,\n- **Title Tags**: Include proper, descriptive title tags for each page,\n- **Meta Descriptions**: Add compelling meta descriptions that accurately summarize page content,\n- **Heading Structure**: Use a single `<h1>` per page with proper heading hierarchy,\n- **Semantic HTML**: Use appropriate HTML5 semantic elements,\n- **Unique IDs**: Ensure all interactive elements have unique, descriptive IDs for browser testing,\n- **Performance**: Ensure fast page load times through optimization,\nCRITICAL REMINDER: AESTHETICS ARE VERY IMPORTANT. If your web app looks simple and basic then you have FAILED!\n</web_application_development>\n<ephemeral_message>\nThere will be an <EPHEMERAL_MESSAGE> appearing in the conversation at times. This is not coming from the user, but instead injected by the system as important information to pay attention to. \nDo not respond to nor acknowledge those messages, but do follow them strictly.\n</ephemeral_message>\n<persistent_context>\n# Persistent Context\n\nYou can retrieve information from past conversations via two mechanisms:\n\n1. **Knowledge Items (KIs)** — Curated, distilled knowledge on specific topics. Always check KIs first.\n2. **Conversation Logs** — Raw logs and artifacts from past conversations.\n\n**Priority order:** KIs → Conversation Logs → Fresh research.\n\n## Knowledge Items (KI) System\n\n### MANDATORY FIRST STEP: Check KI Summaries Before Any Research\n\n**At the start of each conversation, you receive KI summaries with artifact paths.** These summaries represent curated, localized context about this specific repository to help you avoid redundant work and adhere to established patterns.\n\n**BEFORE performing ANY research, analysis, or creating documentation, you MUST:**\n1. **Review the KI summaries** provided at the start of the conversation.\n2. **Identify relevant KIs** by checking if any KI titles/summaries match your task.\n3. **Read relevant KI artifacts** using the artifact paths listed in the summaries BEFORE doing independent research or writing code.\n\nIf no KI summary title is relevant to the current task, proceed directly — do not force a match.\n\n### When to Check KIs\n\nYou must actively check and utilize KIs in the following scenarios:\n- **\"Deceptively Simple\" Tasks:** \"Add logging,\" \"run this in the background,\" or \"add a metadata field\" almost always have repository-specific established patterns.\n- **Debugging & Troubleshooting:** Before deep-diving into unexpected behavior, resource leaks, or config issues, check for KIs documenting known bugs, gotchas, or best practices in similar components.\n- **Architecture & Refactoring:** Before designing \"new\" features, state management, or adding to core abstractions, verify if similar patterns (e.g., plugin systems, caching, handler patterns) already exist.\n- **Complex or Multi-Phase Work:** Before planning integrations or uncertain implementations, check for workflow examples or past approaches documented in KIs.\n\n### Critical Rule: KIs are Starting Points, Not Ground Truth\n\nKIs are snapshots of past work. While they provide essential context, they can become stale, especially for API surfaces, dependencies, and config schemas that evolve frequently.\n\n- **Always verify against active code:** If you pull an API usage pattern, a file path, or a dependency from a KI, cross-reference it with the *current* implementation in the workspace before committing to an edit.\n- **Expect gaps & deprecations:** Supplement KI knowledge with your own investigation. Actively check for deprecation warnings or missing context.\n- **Use references:** Use the references in `metadata.json` to trace back to original sources.\n\n### KI Structure\n\nEach KI in `<appDataDir>\\knowledge` contains:\n- **`metadata.json`**: Summary, timestamps, and references to original sources.\n- **`artifacts/`**: Related files, documentation, and specific implementation details.\n\n## Conversation Logs\n\nConversation logs are stored locally in the filesystem under: <appDataDir>\\brain\\<conversation-id>\\.system_generated\\logs\nYou can find Conversation IDs from the conversation summaries or from user @conversation mentions.\nEach conversation directory contains an `overview.txt`, which shows a full conversation transcript.\nEach line in the `overview.txt` represents one action taken by a user or model.\n\nRead conversation logs only when:\n- The user references a specific past conversation (by topic or recency)\n- You have a Conversation ID and its content is likely relevant\n- A KI is insufficient and you need raw details\n\n</persistent_context>\n<artifacts>\nArtifacts are special markdown documents that you can create to present structured information to the user.\nAll artifacts should be written to the artifact directory. You do NOT need to create this directory yourself, it will be created automatically when you create artifacts.\n\n# Naming Artifacts\n\nBe sure to give artifacts descriptive filenames:\n- `analysis_results.md`\n- `research_notes.md`\n- `experiment_results.md`\n\n# When to Use Artifacts\n\n**Use artifacts for:**\n- Extensive reports and analysis summaries\n- Tables, diagrams, or formatted data\n- Persistent information you'll update over time (task lists, experiment logs)\n- Code changes formatted as diffs\n\n**Don't use artifacts for:**\n- Simple one-off answers - just respond directly\n- Asking questions or requesting user input - just ask directly\n- Very short content that fits in a paragraph.\n- Scratch scripts or one-off data files - save these in the artifacts `<appDataDir>\\brain\\<conversation-id>/scratch/` directory.\n\n**After creating or updating an artifact**, DO NOT re-summarize the artifact contents in your response to the user. Instead, point the user to the artifact and highlight only key open questions or decisions that need their input.\n\nHere are some formatting tips for artifacts that you choose to write as markdown files with the .md extension:\n\n# Artifact Formatting Tips\nWhen creating markdown artifacts, use standard markdown and GitHub Flavored Markdown formatting. The following elements are also available to enhance the user experience:\n\n## Alerts\nUse GitHub-style alerts strategically to emphasize critical information. They will display with distinct colors and icons. Do not place consecutively or nest within other elements:\n  > [!NOTE]\n  > Background context, implementation details, or helpful explanations\n\n  > [!TIP]\n  > Performance optimizations, best practices, or efficiency suggestions\n\n  > [!IMPORTANT]\n  > Essential requirements, critical steps, or must-know information\n\n  > [!WARNING]\n  > Breaking changes, compatibility issues, or potential problems\n\n  > [!CAUTION]\n  > High-risk actions that could cause data loss or security vulnerabilities\n\n## Code and Diffs\nUse fenced code blocks with language specification for syntax highlighting:\n```python\ndef example_function():\n  return \"Hello, World!\"\n```\n\nUse diff blocks to show code changes. Prefix lines with + for additions, - for deletions, and a space for unchanged lines:\n```diff\n-old_function_name()\n+new_function_name()\n unchanged_line()\n```\n\nUse the render_diffs shorthand to show all changes made to a file during the task. Format: render_diffs(absolute file URI) (example: render_diffs(file:///absolute/path/to/utils.py)). Place on its own line.\n\n## Mermaid Diagrams\nCreate mermaid diagrams using fenced code blocks with language `mermaid` to visualize complex relationships, workflows, and architectures.\nTo prevent syntax errors:\n- Quote node labels containing special characters like parentheses or brackets. For example, `id[\"Label (Extra Info)\"]` instead of `id[Label (Extra Info)]`.\n- Avoid HTML tags in labels.\n\n## Tables\nUse standard markdown table syntax to organize structured data. Tables significantly improve readability and improve scannability of comparative or multi-dimensional information.\n\n## File Links and Media\n- Create clickable file links using standard markdown link syntax: [link text](file:///absolute/path/to/file).\n- Link to specific line ranges using [link text](file:///absolute/path/to/file#L123-L145) format. Link text can be descriptive when helpful, such as for a function [foo](file:///path/to/bar.py#L127-L143) or for a line range [bar.py:L127-143](file:///path/to/bar.py#L127-L143)\n- Embed images and videos with ![caption](/absolute/path/to/file.jpg). Always use absolute paths. The caption should be a short description of the image or video, and it will always be displayed below the image or video.\n- **IMPORTANT**: To embed images and videos, you MUST use the ![caption](absolute path) syntax. Standard links [filename](absolute path) will NOT embed the media and are not an acceptable substitute.\n- **IMPORTANT**: If you are embedding a file in an artifact and the file is NOT already in <appDataDir>\\brain\\<conversation-id>, you MUST first copy the file to the artifacts directory before embedding it. Only embed files that are located in the artifacts directory.\n\n## Carousels\nUse carousels to display multiple related markdown snippets sequentially. Carousels can contain any markdown elements including images, code blocks, tables, mermaid diagrams, alerts, diff blocks, and more.\n\nSyntax:\n- Use four backticks with `carousel` language identifier\n- Separate slides with `<!-- slide -->` HTML comments\n- Four backticks enable nesting code blocks within slides\n\nExample:\n````carousel\n![Image description](/absolute/path/to/image1.png)\n<!-- slide -->\n![Another image](/absolute/path/to/image2.png)\n<!-- slide -->\n```python\ndef example():\n    print(\"Code in carousel\")\n```\n````\n\nUse carousels when:\n- Displaying multiple related items like screenshots, code blocks, or diagrams that are easier to understand sequentially\n- Showing before/after comparisons or UI state progressions\n- Presenting alternative approaches or implementation options\n- Condensing related information in walkthroughs to reduce document length\n\n## Critical Rules\n- **Keep lines short**: Keep bullet points concise to avoid wrapped lines\n- **Use basenames for readability**: Use file basenames for the link text instead of the full path\n- **File Links**: Do not surround the link text with backticks, that will break the link formatting.\n    - **Correct**: [utils.py](file:///path/to/utils.py) or [foo](file:///path/to/file.py#L123)\n    - **Incorrect**: [`utils.py`](file:///path/to/utils.py) or [`function name`](file:///path/to/file.py#L123)\n\n# Scratch Scripts and Files\n\nYou may find it useful to create scratch scripts or files for temporary purposes.\n\nExamples:\n- One-off scripts to debug code\n- Temporary data files for testing\n\nStore these files in the `<appDataDir>\\brain\\<conversation-id>/scratch/` directory. They will be persisted.\n\n</artifacts>\n<guidelines>\nFollow these behavioral guidelines at all times:- Maintain documentation integrity. Preserve all existing comments and docstrings that are unrelated to your code changes, unless the user specifies otherwise.\n\n</guidelines>\n<communication_style>\n1. Keep your responses concise. 2. Provide a summary of your work when you end your turn. 3. Format your responses in github-style markdown. 4. If you're unsure about the user's intent, ask for clarification rather than making assumptions.\n</communication_style>"
+          }
+        ]
+      },
+      "tools": [
+        {
+          "functionDeclarations": [
+            {
+              "name": "browser_subagent",
+              "description": "Start a browser subagent to perform actions in the browser with the given task description. The subagent has access to tools for both interacting with web page content (clicking, typing, navigating, etc) and controlling the browser window itself (resizing, etc). Please make sure to define a clear condition to return on. After the subagent returns, you should read the DOM or capture a screenshot to see what it did. Note: All browser interactions are automatically recorded and saved as WebP videos to the artifacts directory. This is the ONLY way you can record a browser session video/animation. IMPORTANT: if the subagent returns that the open_browser_url tool failed, there is a browser issue that is out of your control. You MUST ask the user how to proceed.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "MediaPaths": {
+                    "type": "ARRAY",
+                    "description": "Optional absolute paths to media files (images, videos, etc.) to provide as context to the subagent. Maximum 3 files.",
+                    "items": {
+                      "type": "STRING"
+                    }
+                  },
+                  "RecordingName": {
+                    "type": "STRING",
+                    "description": "Name of the browser recording that is created with the actions of the subagent. Should be all lowercase with underscores, describing what the recording contains. Maximum 3 words. Example: 'login_flow_demo'"
+                  },
+                  "ReusedSubagentId": {
+                    "type": "STRING",
+                    "description": "ID of a previous subagent to resume from. If provided, the agent will continue from the previous context. If empty, the subagent will start with an empty context. Use this to resume work from a cancelled subagent, or when the current task would benefit from the previous subagent's context."
+                  },
+                  "Task": {
+                    "type": "STRING",
+                    "description": "A clear, actionable task description for the browser subagent. The subagent is an agent similar to you, with a different set of tools, limited to tools to understand the state of and control the browser. The task you define is the prompt sent to this subagent. Since each agent invocation is a one-shot, autonomous execution, the prompt must be highly detailed, containing a comprehensive task description and all necessary context. Avoid vague instructions; be specific about what to do, when to stop, and clearly state exactly what information the agent should return in its final and only report. This should be the second argument."
+                  },
+                  "TaskName": {
+                    "type": "STRING",
+                    "description": "Name of the task that the browser subagent is performing. This is the identifier that groups the subagent steps together, but should still be a human readable name. This should read like a title, should be properly capitalized and human readable, example: 'Navigating to Example Page'. Replace URLs or non-human-readable expressions like CSS selectors or long text with human-readable terms like 'URL' or 'Page' or 'Submit Button'. Be very sure this task name represents a reasonable chunk of work. It should almost never be the entire user request. This should be the very first argument."
+                  },
+                  "TaskSummary": {
+                    "type": "STRING",
+                    "description": "A short, user-friendly summary of the task (1-2 sentences max). This will be displayed to the user in the UI instead of the full task description. Should be concise and describe the goal at a high level."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  },
+                  "waitForPreviousTools": {
+                    "type": "BOOLEAN",
+                    "description": "If true, wait for all previous tool calls from this turn to complete before executing (sequential). If false or omitted, execute this tool immediately (parallel with other tools)."
+                  }
+                },
+                "required": [
+                  "TaskName",
+                  "Task",
+                  "TaskSummary",
+                  "RecordingName"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "command_status",
+              "description": "Get the status of a previously executed terminal command by its ID. Returns the current status (running, done), output lines as specified by output priority, and any error if present. Do not try to check the status of any IDs other than Background command IDs.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "CommandId": {
+                    "type": "STRING",
+                    "description": "ID of the command to get status for"
+                  },
+                  "OutputCharacterCount": {
+                    "type": "INTEGER",
+                    "description": "Number of characters to view. Make this as small as possible to avoid excessive memory usage."
+                  },
+                  "WaitDurationSeconds": {
+                    "type": "INTEGER",
+                    "description": "Number of seconds to wait for command completion before getting the status. If the command completes before this duration, this tool call will return early. Set to 0 to get the status of the command immediately. If you are only interested in waiting for command completion, set to the max value, 300."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  },
+                  "waitForPreviousTools": {
+                    "type": "BOOLEAN",
+                    "description": "If true, wait for all previous tool calls from this turn to complete before executing (sequential). If false or omitted, execute this tool immediately (parallel with other tools)."
+                  }
+                },
+                "required": [
+                  "CommandId",
+                  "WaitDurationSeconds"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "generate_image",
+              "description": "Generate an image or edit existing images based on a text prompt. The resulting image will be saved as an artifact for use. You can use this tool to generate user interfaces and iterate on a design with the USER for an application or website that you are building. When creating UI designs, generate only the interface itself without surrounding device frames (laptops, phones, tablets, etc.) unless the user explicitly requests them. You can also use this tool to generate assets for use in an application or website.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "ImageName": {
+                    "type": "STRING",
+                    "description": "Name of the generated image to save. Should be all lowercase with underscores, describing what the image contains. Maximum 3 words. Example: 'login_page_mockup'"
+                  },
+                  "ImagePaths": {
+                    "type": "ARRAY",
+                    "description": "Optional absolute paths to the images to use in generation. You can pass in images here if you would like to edit or combine images. You can pass in artifact images and any images in the file system. Note: you cannot pass in more than 3 images.",
+                    "items": {
+                      "type": "STRING"
+                    }
+                  },
+                  "Prompt": {
+                    "type": "STRING",
+                    "description": "The text prompt to generate an image for."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  },
+                  "waitForPreviousTools": {
+                    "type": "BOOLEAN",
+                    "description": "If true, wait for all previous tool calls from this turn to complete before executing (sequential). If false or omitted, execute this tool immediately (parallel with other tools)."
+                  }
+                },
+                "required": [
+                  "Prompt",
+                  "ImageName"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "grep_search",
+              "description": "Use ripgrep to find exact pattern matches within files or directories.\nResults are returned in JSON format and for each match you will receive the:\n- Filename\n- LineNumber (only when MatchPerLine is true)\n- LineContent: the content of the matching line (only when MatchPerLine is true)\nTotal results are capped at 50 matches. Use the Includes option to filter by file type or specific paths to refine your search.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "CaseInsensitive": {
+                    "type": "BOOLEAN",
+                    "description": "If true, performs a case-insensitive search."
+                  },
+                  "Includes": {
+                    "type": "ARRAY",
+                    "description": "Glob patterns to filter files found within the 'SearchPath', if 'SearchPath' is a directory. For example, '*.go' to only include Go files, or '!**/vendor/*' to exclude vendor directories. This is NOT for specifying the primary search directory; use 'SearchPath' for that. Leave empty if no glob filtering is needed or if 'SearchPath' is a single file.",
+                    "items": {
+                      "type": "STRING"
+                    }
+                  },
+                  "IsRegex": {
+                    "type": "BOOLEAN",
+                    "description": "If true, treats Query as a regular expression pattern with special characters like *, +, (, etc. having regex meaning. If false, treats Query as a literal string where all characters are matched exactly. Use false for normal text searches and true only when you specifically need regex functionality."
+                  },
+                  "MatchPerLine": {
+                    "type": "BOOLEAN",
+                    "description": "If true, returns each line that matches the query, including line numbers and snippets of matching lines (equivalent to 'git grep -nI'). If false, only returns the names of files containing the query (equivalent to 'git grep -l')."
+                  },
+                  "Query": {
+                    "type": "STRING",
+                    "description": "The search term or pattern to look for within files."
+                  },
+                  "SearchPath": {
+                    "type": "STRING",
+                    "description": "The path to search. This can be a directory or a file. This is a required parameter."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  },
+                  "waitForPreviousTools": {
+                    "type": "BOOLEAN",
+                    "description": "If true, wait for all previous tool calls from this turn to complete before executing (sequential). If false or omitted, execute this tool immediately (parallel with other tools)."
+                  }
+                },
+                "required": [
+                  "SearchPath",
+                  "Query"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "list_dir",
+              "description": "List the contents of a directory, i.e. all files and subdirectories that are children of the directory. Directory path must be an absolute path to a directory that exists. For each child in the directory, output will have: relative path to the directory, whether it is a directory or file, size in bytes if file, and number of children (recursive) if directory. Number of children may be missing if the workspace is too large, since we are not able to track the entire workspace.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "DirectoryPath": {
+                    "type": "STRING",
+                    "description": "Path to list contents of, should be absolute path to a directory"
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  },
+                  "waitForPreviousTools": {
+                    "type": "BOOLEAN",
+                    "description": "If true, wait for all previous tool calls from this turn to complete before executing (sequential). If false or omitted, execute this tool immediately (parallel with other tools)."
+                  }
+                },
+                "required": [
+                  "DirectoryPath"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "multi_replace_file_content",
+              "description": "Use this tool to edit an existing file. Follow these rules:\n1. Use this tool ONLY when you are making MULTIPLE, NON-CONTIGUOUS edits to the same file (i.e., you are changing more than one separate block of text). If you are making a single contiguous block of edits, use the replace_file_content tool instead.\n2. Do NOT use this tool if you are only editing a single contiguous block of lines.\n3. Do NOT make multiple parallel calls to this tool or the replace_file_content tool for the same file.\n4. To edit multiple, non-adjacent lines of code in the same file, make a single call to this tool. Specify each edit as a separate ReplacementChunk.\n5. For each ReplacementChunk, specify StartLine, EndLine, TargetContent and ReplacementContent. StartLine and EndLine should specify a range of lines containing precisely the instances of TargetContent that you wish to edit. To edit a single instance of the TargetContent, the range should be such that it contains that specific instance of the TargetContent and no other instances. When applicable, provide a range that matches the range viewed in a previous view_file call. In TargetContent, specify the precise lines of code to edit. These lines MUST EXACTLY MATCH text in the existing file content. In ReplacementContent, specify the replacement content for the specified target content. This must be a complete drop-in replacement of the TargetContent, with necessary modifications made.\n6. If you are making multiple edits across a single file, specify multiple separate ReplacementChunks. DO NOT try to replace the entire existing content with the new content, this is very expensive.\n7. You may not edit file extensions: [.ipynb]\nIMPORTANT: You must generate the following arguments first, before any others: [TargetFile]",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "ArtifactMetadata": {
+                    "type": "OBJECT",
+                    "description": "Metadata updates if updating an artifact file, leave blank if not updating an artifact. Should be updated if the content is changing meaningfully.",
+                    "properties": {
+                      "ArtifactType": {
+                        "type": "STRING",
+                        "description": "Type of artifact: 'implementation_plan', 'walkthrough', 'task', or 'other'.",
+                        "enum": [
+                          "implementation_plan",
+                          "walkthrough",
+                          "task",
+                          "other"
+                        ]
+                      },
+                      "RequestFeedback": {
+                        "type": "BOOLEAN",
+                        "description": "Set to true to request user feedback on this artifact."
+                      },
+                      "Summary": {
+                        "type": "STRING",
+                        "description": "Detailed multi-line summary of the artifact file, after edits have been made. Summary does not need to mention the artifact name and should focus on the contents and purpose of the artifact."
+                      }
+                    },
+                    "required": [
+                      "Summary",
+                      "ArtifactType"
+                    ]
+                  },
+                  "Description": {
+                    "type": "STRING",
+                    "description": "Brief, user-facing explanation of what this change did. Focus on non-obvious rationale, design decisions, or important context. Don't just restate what the code does."
+                  },
+                  "Instruction": {
+                    "type": "STRING",
+                    "description": "A description of the changes that you are making to the file."
+                  },
+                  "ReplacementChunks": {
+                    "type": "ARRAY",
+                    "description": "A list of chunks to replace. It is best to provide multiple chunks for non-contiguous edits if possible. This must be a JSON array, not a string.",
+                    "items": {
+                      "type": "OBJECT",
+                      "properties": {
+                        "AllowMultiple": {
+                          "type": "BOOLEAN",
+                          "description": "If true, multiple occurrences of 'targetContent' will be replaced by 'replacementContent' if they are found. Otherwise if multiple occurences are found, an error will be returned."
+                        },
+                        "EndLine": {
+                          "type": "INTEGER",
+                          "description": "The ending line number of the chunk (1-indexed). Should be at or after the last line containing the target content. Must satisfy StartLine <= EndLine <= number of lines in the file. The target content is searched for within the [StartLine, EndLine] range."
+                        },
+                        "ReplacementContent": {
+                          "type": "STRING",
+                          "description": "The content to replace the target content with."
+                        },
+                        "StartLine": {
+                          "type": "INTEGER",
+                          "description": "The starting line number of the chunk (1-indexed). Should be at or before the first line containing the target content. Must satisfy 1 <= StartLine <= EndLine. The target content is searched for within the [StartLine, EndLine] range."
+                        },
+                        "TargetContent": {
+                          "type": "STRING",
+                          "description": "The exact string to be replaced. This must be the exact character-sequence to be replaced, including whitespace. Be very careful to include any leading whitespace otherwise this will not work at all. This must be a unique substring within the file, or else it will error."
+                        }
+                      },
+                      "required": [
+                        "AllowMultiple",
+                        "TargetContent",
+                        "ReplacementContent",
+                        "StartLine",
+                        "EndLine"
+                      ]
+                    }
+                  },
+                  "TargetFile": {
+                    "type": "STRING",
+                    "description": "The target file to modify. Always specify the target file as the very first argument."
+                  },
+                  "TargetLintErrorIds": {
+                    "type": "ARRAY",
+                    "description": "If applicable, IDs of lint errors this edit aims to fix (they'll have been given in recent IDE feedback). If you believe the edit could fix lints, do specify lint IDs; if the edit is wholly unrelated, do not. A rule of thumb is, if your edit was influenced by lint feedback, include lint IDs. Exercise honest judgement here.",
+                    "items": {
+                      "type": "STRING"
+                    }
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  },
+                  "waitForPreviousTools": {
+                    "type": "BOOLEAN",
+                    "description": "If true, wait for all previous tool calls from this turn to complete before executing (sequential). If false or omitted, execute this tool immediately (parallel with other tools)."
+                  }
+                },
+                "required": [
+                  "TargetFile",
+                  "Instruction",
+                  "Description",
+                  "ReplacementChunks"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "read_url_content",
+              "description": "Fetch content from a URL via HTTP request (invisible to USER). Use when: (1) extracting text from public pages, (2) reading static content/documentation, (3) batch processing multiple URLs, (4) speed is important, or (5) no visual interaction needed. Converts HTML to markdown. No JavaScript execution, no authentication. For pages requiring login, JavaScript, or USER visibility, use read_browser_page instead.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "Url": {
+                    "type": "STRING",
+                    "description": "URL to read content from"
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  },
+                  "waitForPreviousTools": {
+                    "type": "BOOLEAN",
+                    "description": "If true, wait for all previous tool calls from this turn to complete before executing (sequential). If false or omitted, execute this tool immediately (parallel with other tools)."
+                  }
+                },
+                "required": [
+                  "Url"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "replace_file_content",
+              "description": "Use this tool to edit an existing file. Follow these rules:\n1. Use this tool ONLY when you are making a SINGLE CONTIGUOUS block of edits to the same file (i.e. replacing a single contiguous block of text). If you are making edits to multiple non-adjacent lines, use the multi_replace_file_content tool instead.\n2. Do NOT make multiple parallel calls to this tool or the multi_replace_file_content tool for the same file.\n3. To edit multiple, non-adjacent lines of code in the same file, make a single call to the multi_replace_file_content tool..\n4. For the ReplacementChunk, specify StartLine, EndLine, TargetContent and ReplacementContent. StartLine and EndLine should specify a range of lines containing precisely the instances of TargetContent that you wish to edit. To edit a single instance of the TargetContent, the range should be such that it contains that specific instance of the TargetContent and no other instances. When applicable, provide a range that matches the range viewed in a previous view_file call. In TargetContent, specify the precise lines of code to edit. These lines MUST EXACTLY MATCH text in the existing file content. In ReplacementContent, specify the replacement content for the specified target content. This must be a complete drop-in replacement of the TargetContent, with necessary modifications made.\n5. If you are making multiple edits across a single file, use the multi_replace_file_content tool instead. DO NOT try to replace the entire existing content with the new content, this is very expensive.\n6. You may not edit file extensions: [.ipynb]\nIMPORTANT: You must generate the following arguments first, before any others: [TargetFile]",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "AllowMultiple": {
+                    "type": "BOOLEAN",
+                    "description": "If true, multiple occurrences of 'targetContent' will be replaced by 'replacementContent' if they are found. Otherwise if multiple occurences are found, an error will be returned."
+                  },
+                  "Description": {
+                    "type": "STRING",
+                    "description": "Brief, user-facing explanation of what this change did. Focus on non-obvious rationale, design decisions, or important context. Don't just restate what the code does."
+                  },
+                  "EndLine": {
+                    "type": "INTEGER",
+                    "description": "The ending line number of the chunk (1-indexed). Should be at or after the last line containing the target content. Must satisfy StartLine <= EndLine <= number of lines in the file. The target content is searched for within the [StartLine, EndLine] range."
+                  },
+                  "Instruction": {
+                    "type": "STRING",
+                    "description": "A description of the changes that you are making to the file."
+                  },
+                  "ReplacementContent": {
+                    "type": "STRING",
+                    "description": "The content to replace the target content with."
+                  },
+                  "StartLine": {
+                    "type": "INTEGER",
+                    "description": "The starting line number of the chunk (1-indexed). Should be at or before the first line containing the target content. Must satisfy 1 <= StartLine <= EndLine. The target content is searched for within the [StartLine, EndLine] range."
+                  },
+                  "TargetContent": {
+                    "type": "STRING",
+                    "description": "The exact string to be replaced. This must be the exact character-sequence to be replaced, including whitespace. Be very careful to include any leading whitespace otherwise this will not work at all. This must be a unique substring within the file, or else it will error."
+                  },
+                  "TargetFile": {
+                    "type": "STRING",
+                    "description": "The target file to modify. Always specify the target file as the very first argument."
+                  },
+                  "TargetLintErrorIds": {
+                    "type": "ARRAY",
+                    "description": "If applicable, IDs of lint errors this edit aims to fix (they'll have been given in recent IDE feedback). If you believe the edit could fix lints, do specify lint IDs; if the edit is wholly unrelated, do not. A rule of thumb is, if your edit was influenced by lint feedback, include lint IDs. Exercise honest judgement here.",
+                    "items": {
+                      "type": "STRING"
+                    }
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  },
+                  "waitForPreviousTools": {
+                    "type": "BOOLEAN",
+                    "description": "If true, wait for all previous tool calls from this turn to complete before executing (sequential). If false or omitted, execute this tool immediately (parallel with other tools)."
+                  }
+                },
+                "required": [
+                  "TargetFile",
+                  "Instruction",
+                  "Description",
+                  "AllowMultiple",
+                  "TargetContent",
+                  "ReplacementContent",
+                  "StartLine",
+                  "EndLine"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "run_command",
+              "description": "PROPOSE a command to run on behalf of the user. Operating System: windows. Shell: powershell.\n**NEVER PROPOSE A cd COMMAND**.\nIf you have this tool, note that you DO have the ability to run commands directly on the USER's system.\nMake sure to specify CommandLine exactly as it should be run in the shell.\nNote that the user will have to approve the command before it is executed. The user may reject it if it is not to their liking.\nThe actual command will NOT execute until the user approves it. The user may not approve it immediately.\nIf the step is WAITING for user approval, it has NOT started running.\nIf the step returns a command id, it means that the command was sent to the background. You should use the command_status tool to monitor the output and status of the command.\nCommands will be run with PAGER=cat. You may want to limit the length of output for commands that usually rely on paging and may contain very long output (e.g. git log, use git log -n <N>).\nIMPORTANT: The Cwd (working directory) MUST be within the user's workspace. Do NOT use /tmp, /home, or any path outside the workspace. If you need a temporary directory, create one inside the workspace.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "CommandLine": {
+                    "type": "STRING",
+                    "description": "The exact command line string to execute."
+                  },
+                  "Cwd": {
+                    "type": "STRING",
+                    "description": "The current working directory for the command"
+                  },
+                  "SafeToAutoRun": {
+                    "type": "BOOLEAN",
+                    "description": "Set to true if you believe that this command is safe to run WITHOUT user approval. A command is unsafe if it may have some destructive side-effects. Example unsafe side-effects include: deleting files, mutating state, installing system dependencies, making external requests, etc. Set to true only if you are extremely confident it is safe. If you feel the command could be unsafe, never set this to true, EVEN if the USER asks you to. It is imperative that you never auto-run a potentially unsafe command."
+                  },
+                  "WaitMsBeforeAsync": {
+                    "type": "INTEGER",
+                    "description": "This specifies the number of milliseconds to wait after starting the command before sending it to the background. If you want the command to complete execution synchronously, set this to a large enough value that you expect the command to complete in that time under ordinary circumstances. If you're starting an interactive or long-running command, set it to a large enough value that it would cause possible failure cases to execute synchronously (e.g. 500ms). Keep the value as small as possible, with a maximum of 10000ms."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  },
+                  "waitForPreviousTools": {
+                    "type": "BOOLEAN",
+                    "description": "If true, wait for all previous tool calls from this turn to complete before executing (sequential). If false or omitted, execute this tool immediately (parallel with other tools)."
+                  }
+                },
+                "required": [
+                  "Cwd",
+                  "WaitMsBeforeAsync",
+                  "SafeToAutoRun",
+                  "CommandLine"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "search_web",
+              "description": "Performs a web search for a given query. Returns a summary of relevant information along with URL citations.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "domain": {
+                    "type": "STRING",
+                    "description": "Optional domain to recommend the search prioritize"
+                  },
+                  "query": {
+                    "type": "STRING"
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  },
+                  "waitForPreviousTools": {
+                    "type": "BOOLEAN",
+                    "description": "If true, wait for all previous tool calls from this turn to complete before executing (sequential). If false or omitted, execute this tool immediately (parallel with other tools)."
+                  }
+                },
+                "required": [
+                  "query"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "send_command_input",
+              "description": "Send standard input to a running command or to terminate a command. Use this to interact with REPLs, interactive commands, and long-running processes. The command must have been created by a previous run_command call. Use the command_status tool to check the status and output of the command after sending input.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "CommandId": {
+                    "type": "STRING",
+                    "description": "The command ID from a previous run_command call. This is returned in the run_command output."
+                  },
+                  "Input": {
+                    "type": "STRING",
+                    "description": "The input to send to the command's stdin. Include newline characters (the literal character, not the escape sequence) if needed to submit commands. Exactly one of input and terminate must be specified."
+                  },
+                  "SafeToAutoRun": {
+                    "type": "BOOLEAN",
+                    "description": "Set to true if you believe that this command is safe to run WITHOUT user approval. An input is unsafe if it may have some destructive side-effects. Example unsafe side-effects include: deleting files, mutating state, installing system dependencies, making external requests, etc. Set to true only if you are extremely confident it is safe. If you feel the input could be unsafe, never set this to true, EVEN if the USER asks you to. It is imperative that you never auto-run a potentially unsafe input."
+                  },
+                  "Terminate": {
+                    "type": "BOOLEAN",
+                    "description": "Whether to terminate the command. Exactly one of input and terminate must be specified."
+                  },
+                  "WaitMs": {
+                    "type": "INTEGER",
+                    "description": "Amount of time to wait for output after sending input. Keep the value as small as possible, but large enough to capture the output you expect. Must be between 500ms and 10000ms."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  },
+                  "waitForPreviousTools": {
+                    "type": "BOOLEAN",
+                    "description": "If true, wait for all previous tool calls from this turn to complete before executing (sequential). If false or omitted, execute this tool immediately (parallel with other tools)."
+                  }
+                },
+                "required": [
+                  "CommandId",
+                  "WaitMs",
+                  "SafeToAutoRun"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "view_file",
+              "description": "View the contents of a file from the local filesystem. This tool supports some binary files such as images and videos.\nText file usage:\n- The lines of the file are 1-indexed\n- The first time you read a new file the tool will enforce reading 800 lines to understand as much about the file as possible\n- The output of this tool call will be the file contents from StartLine to EndLine (inclusive)\n- You can view at most 800 lines at a time\n- To view the whole file do not pass StartLine or EndLine arguments\nBinary file usage:\n- Do not provide StartLine or EndLine arguments, this tool always returns the entire file",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "AbsolutePath": {
+                    "type": "STRING",
+                    "description": "Path to file to view. Must be an absolute path."
+                  },
+                  "EndLine": {
+                    "type": "INTEGER",
+                    "description": "Optional. Endline to view, 1-indexed as usual, inclusive. This value must be greater than or equal to StartLine."
+                  },
+                  "IsSkillFile": {
+                    "type": "BOOLEAN",
+                    "description": "Optional. Set to true only when reading a file to execute its instructions for a task. Set to false if the purpose is to edit, preview, or manage the file."
+                  },
+                  "StartLine": {
+                    "type": "INTEGER",
+                    "description": "Optional. Startline to view, 1-indexed as usual, inclusive. This value must be less than or equal to EndLine."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  },
+                  "waitForPreviousTools": {
+                    "type": "BOOLEAN",
+                    "description": "If true, wait for all previous tool calls from this turn to complete before executing (sequential). If false or omitted, execute this tool immediately (parallel with other tools)."
+                  }
+                },
+                "required": [
+                  "AbsolutePath"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "write_to_file",
+              "description": "Use this tool to create new files. The file and any parent directories will be created for you if they do not already exist.\n\t\tFollow these instructions:\n\t\t1. By default this tool will error if TargetFile already exists. To overwrite an existing file, set Overwrite to true.\n\t\t2. You MUST specify TargetFile as the FIRST argument. Please specify the full TargetFile before any of the code contents.\n\t\t3. When creating an artifact, make sure to set IsArtifact to true and provide an ArtifactMetadata.\nIMPORTANT: You must generate the following arguments first, before any others: [TargetFile, Overwrite]",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "ArtifactMetadata": {
+                    "type": "OBJECT",
+                    "description": "Metadata for the artifact, required when IsArtifact is true.",
+                    "properties": {
+                      "ArtifactType": {
+                        "type": "STRING",
+                        "description": "Type of artifact: 'implementation_plan', 'walkthrough', 'task', or 'other'.",
+                        "enum": [
+                          "implementation_plan",
+                          "walkthrough",
+                          "task",
+                          "other"
+                        ]
+                      },
+                      "RequestFeedback": {
+                        "type": "BOOLEAN",
+                        "description": "Set to true to request user feedback on this artifact."
+                      },
+                      "Summary": {
+                        "type": "STRING",
+                        "description": "Detailed multi-line summary of the artifact file, after edits have been made. Summary does not need to mention the artifact name and should focus on the contents and purpose of the artifact."
+                      }
+                    },
+                    "required": [
+                      "Summary",
+                      "ArtifactType"
+                    ]
+                  },
+                  "CodeContent": {
+                    "type": "STRING",
+                    "description": "The code contents to write to the file."
+                  },
+                  "Description": {
+                    "type": "STRING",
+                    "description": "Brief, user-facing explanation of what this change did. Focus on non-obvious rationale, design decisions, or important context. Don't just restate what the code does."
+                  },
+                  "IsArtifact": {
+                    "type": "BOOLEAN",
+                    "description": "Set this to true when creating an artifact file."
+                  },
+                  "Overwrite": {
+                    "type": "BOOLEAN",
+                    "description": "Set this to true to overwrite an existing file. WARNING: This will replace the entire file contents. Only use when you explicitly intend to overwrite. Otherwise, use a code edit tool to modify existing files."
+                  },
+                  "TargetFile": {
+                    "type": "STRING",
+                    "description": "The target file to create and write code to."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  },
+                  "waitForPreviousTools": {
+                    "type": "BOOLEAN",
+                    "description": "If true, wait for all previous tool calls from this turn to complete before executing (sequential). If false or omitted, execute this tool immediately (parallel with other tools)."
+                  }
+                },
+                "required": [
+                  "TargetFile",
+                  "Overwrite",
+                  "CodeContent",
+                  "Description",
+                  "IsArtifact"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "toolConfig": {
+        "functionCallingConfig": {
+          "mode": "VALIDATED"
+        }
+      },
+      "generationConfig": {
+        "thinkingConfig": {
+          "includeThoughts": true,
+          "thinkingBudget": 1024
+        }
+      },
+      "sessionId": "-3750763034362895579"
+    },
+    "model": "claude-sonnet-4-6",
+    "userAgent": "antigravity",
+    "requestType": "agent"
+  }
+}

@@ -1,0 +1,29 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Sat, 16 May 2026 08:17:21 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=2555",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]}}],"usageMetadata": {"promptTokenCount": 19022,"candidatesTokenCount": 26,"totalTokenCount": 19048,"cachedContentTokenCount": 16845},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5vBSjWsM9WFyNYFtVjN"},"traceId": "5db1ed1e4188792b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"functionCall": {"name": "list_dir","args": {"toolAction": "Exploring web app","toolSummary": "Web app structure","DirectoryPath": "f:\\AUDIRA-WEB-SEAL-ONLINE\\apps\\web"},"id": "toolu_vrtx_012zU9dJpcjLmXxqoKhFYheo"}}]}}],"usageMetadata": {"promptTokenCount": 19022,"candidatesTokenCount": 26,"totalTokenCount": 19048,"cachedContentTokenCount": 16845},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5vBSjWsM9WFyNYFtVjN"},"traceId": "5db1ed1e4188792b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"functionCall": {"name": "list_dir","args": {"toolSummary": "API app structure","DirectoryPath": "f:\\AUDIRA-WEB-SEAL-ONLINE\\apps\\api","toolAction": "Exploring API app"},"id": "toolu_vrtx_017xC5Tukvtb8MDh2ko4KtPU"}}]}}],"usageMetadata": {"promptTokenCount": 19022,"candidatesTokenCount": 26,"totalTokenCount": 19048,"cachedContentTokenCount": 16845},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5vBSjWsM9WFyNYFtVjN"},"traceId": "5db1ed1e4188792b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"functionCall": {"name": "list_dir","args": {"toolSummary": "Admin app structure","DirectoryPath": "f:\\AUDIRA-WEB-SEAL-ONLINE\\apps\\admin","toolAction": "Exploring admin app"},"id": "toolu_vrtx_01LEQfeg82UB168eaPRgjqHm"}}]}}],"usageMetadata": {"promptTokenCount": 19022,"candidatesTokenCount": 26,"totalTokenCount": 19048,"cachedContentTokenCount": 16845},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5vBSjWsM9WFyNYFtVjN"},"traceId": "5db1ed1e4188792b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"functionCall": {"name": "list_dir","args": {"toolAction": "Exploring AI service","toolSummary": "AI service structure","DirectoryPath": "f:\\AUDIRA-WEB-SEAL-ONLINE\\apps\\ai-service"},"id": "toolu_vrtx_013JoiuvGqFpt3qp2dc2M22z"}}]}}],"usageMetadata": {"promptTokenCount": 19022,"candidatesTokenCount": 26,"totalTokenCount": 19048,"cachedContentTokenCount": 16845},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5vBSjWsM9WFyNYFtVjN"},"traceId": "5db1ed1e4188792b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"functionCall": {"name": "list_dir","args": {"DirectoryPath": "f:\\AUDIRA-WEB-SEAL-ONLINE\\apps\\realtime","toolAction": "Exploring realtime app","toolSummary": "Realtime service structure"},"id": "toolu_vrtx_01VbrxrGNhDWTFppVZmYhgsD"}}]}}],"usageMetadata": {"promptTokenCount": 19022,"candidatesTokenCount": 26,"totalTokenCount": 19048,"cachedContentTokenCount": 16845},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5vBSjWsM9WFyNYFtVjN"},"traceId": "5db1ed1e4188792b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 19022,"candidatesTokenCount": 513,"totalTokenCount": 19535,"cachedContentTokenCount": 16845},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5vBSjWsM9WFyNYFtVjN"},"traceId": "5db1ed1e4188792b","metadata": {}}
+

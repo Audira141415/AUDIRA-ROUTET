@@ -1,0 +1,21 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Sat, 16 May 2026 08:07:58 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=1613",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]}}],"usageMetadata": {"promptTokenCount": 25784,"candidatesTokenCount": 20,"totalTokenCount": 25804,"cachedContentTokenCount": 25357},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5uTxYEHabvQWupvkGiq"},"traceId": "2c7f6629375d0501","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"functionCall": {"name": "run_command","args": {"CommandLine": "Move-Item -Path \"deploy.py\",\"deploy.sh\",\"SYNC_SERVER.bat\",\"save.bat\" -Destination \"scripts\\deploy\\\" -Force; Write-Host \"Deploy scripts moved\"","Cwd": "f:\\AUDIRA-TOPUPGAME","SafeToAutoRun": false,"WaitMsBeforeAsync": 5000,"toolAction": "Moving deploy scripts","toolSummary": "Move deploy scripts"},"id": "toolu_vrtx_019VV9R1BJrkB8fW6QZP373P"}}]}}],"usageMetadata": {"promptTokenCount": 25784,"candidatesTokenCount": 20,"totalTokenCount": 25804,"cachedContentTokenCount": 25357},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5uTxYEHabvQWupvkGiq"},"traceId": "2c7f6629375d0501","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 25784,"candidatesTokenCount": 214,"totalTokenCount": 25998,"cachedContentTokenCount": 25357},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5uTxYEHabvQWupvkGiq"},"traceId": "2c7f6629375d0501","metadata": {}}
+

@@ -1,0 +1,29 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 07:42:51 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=789",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "Implementing Vul"}]}}],"usageMetadata": {"promptTokenCount": 11495,"candidatesTokenCount": 2,"totalTokenCount": 11497},"modelVersion": "gemini-3.1-flash-lite","responseId": "-8IKapvhDfPb4-EPtePz8Ao"},"traceId": "6faf78650d188ea5","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "nX Hunter Features\n\nThe user's objective is to complete the implementation of the"}]}}],"usageMetadata": {"promptTokenCount": 11495,"candidatesTokenCount": 18,"totalTokenCount": 11513},"modelVersion": "gemini-3.1-flash-lite","responseId": "-8IKapvhDfPb4-EPtePz8Ao"},"traceId": "6faf78650d188ea5","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " remaining features for the VulnX Hunter platform. This involves transitioning from mock implementations to functional code in the `AIAnalysisService"}]}}],"usageMetadata": {"promptTokenCount": 11495,"candidatesTokenCount": 42,"totalTokenCount": 11537},"modelVersion": "gemini-3.1-flash-lite","responseId": "-8IKapvhDfPb4-EPtePz8Ao"},"traceId": "6faf78650d188ea5","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "` (specifically for actual AI-powered exploit generation and natural language query processing) and ensuring that the `EmailService` and "}]}}],"usageMetadata": {"promptTokenCount": 11495,"candidatesTokenCount": 67,"totalTokenCount": 11562},"modelVersion": "gemini-3.1-flash-lite","responseId": "-8IKapvhDfPb4-EPtePz8Ao"},"traceId": "6faf78650d188ea5","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "`ExploitationController` are fully integrated and production-ready. The goal is to achieve full feature parity and operational stability"}]}}],"usageMetadata": {"promptTokenCount": 11495,"candidatesTokenCount": 92,"totalTokenCount": 11587},"modelVersion": "gemini-3.1-flash-lite","responseId": "-8IKapvhDfPb4-EPtePz8Ao"},"traceId": "6faf78650d188ea5","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " for the backend services."}]}}],"usageMetadata": {"promptTokenCount": 11495,"candidatesTokenCount": 97,"totalTokenCount": 11592},"modelVersion": "gemini-3.1-flash-lite","responseId": "-8IKapvhDfPb4-EPtePz8Ao"},"traceId": "6faf78650d188ea5","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EjQKMgEMOdbHElDfFuzgLERxVtkiETacKq7Pp14hKHDhHRkHE6pp23FOiaUuStVPV9TsISUA","text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 11495,"candidatesTokenCount": 97,"totalTokenCount": 11592},"modelVersion": "gemini-3.1-flash-lite","responseId": "-8IKapvhDfPb4-EPtePz8Ao"},"traceId": "6faf78650d188ea5","metadata": {}}
+

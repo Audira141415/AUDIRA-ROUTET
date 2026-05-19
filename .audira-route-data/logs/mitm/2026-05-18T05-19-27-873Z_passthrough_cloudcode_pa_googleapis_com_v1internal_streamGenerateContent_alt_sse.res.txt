@@ -1,0 +1,19 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 05:19:30 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=2195",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EqQCCqECAQw51se2i4th0ojZl2RBZroz8P8xpTgtOxu7JuGi/gMExHTzy0G9aWA3A5gnIi+/fxFlHsxeLcReNQ9q0NJltEKU/6F/iJW86IGnAsQqrHP220BlQ3frV92zf9SyBSenXWK/ss/whlLe2REYC7i5/rOg14gvEYWsgE7LnAKCVOaOUUeQepzrq2jGmobiPx3TTE8ZRuz4fv85m6CHLPXmucbRGY1rxVkgiBBj90/ywm9rfTaX/4ZzSdynqHKHrl64qTwHu7h36g0B/zr5Cv+XBaLNDX2ivXDgRSyx64oibKdpQb8HW2or5S4KeZc0BKwkzkBy+cZ1gN7ZGlN1vyXbk/Q4x0HVltd08+MFvAn0gljT1cgLky0tJmXON47ctz80Aw==","functionCall": {"name": "open_browser_url","args": {"Url": "http://127.0.0.1:3000","toolAction": "Opening local IP","explanation": "Try loading via 127.0.0.1 instead of localhost in case of IPv6/IPv4 mismatch.","toolSummary": "Web search","PageIdToReplace": "5411DAB9590ACD157E5A0154F9BA575B"},"id": "yvt24adg"}}]}}],"usageMetadata": {"promptTokenCount": 15094,"candidatesTokenCount": 118,"totalTokenCount": 15283,"thoughtsTokenCount": 71},"modelVersion": "gemini-3-flash","responseId": "YKEKaoHfF4SwjuMPoMuzuQQ"},"traceId": "dceed34fe77261df","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 16601,"candidatesTokenCount": 118,"totalTokenCount": 16790,"thoughtsTokenCount": 71},"modelVersion": "gemini-3-flash","responseId": "YKEKaoHfF4SwjuMPoMuzuQQ"},"traceId": "dceed34fe77261df","metadata": {}}
+

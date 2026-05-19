@@ -1,0 +1,27 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Tue, 19 May 2026 00:53:33 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=971",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "Resolving"}]}}],"usageMetadata": {"promptTokenCount": 35101,"candidatesTokenCount": 2,"totalTokenCount": 35103},"modelVersion": "gemini-3.1-flash-lite","responseId": "jLQLaobxN5jijuMPzbjXyA0"},"traceId": "8697c3702d370956","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " Kiro Syntax Errors\n\nThe user's main objective is to fix compilation and"}]}}],"usageMetadata": {"promptTokenCount": 35101,"candidatesTokenCount": 18,"totalTokenCount": 35119},"modelVersion": "gemini-3.1-flash-lite","responseId": "jLQLaobxN5jijuMPzbjXyA0"},"traceId": "8697c3702d370956","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " runtime syntax errors within the `openai-to-kiro.js` translator module while synchronizing the local project with the"}]}}],"usageMetadata": {"promptTokenCount": 35101,"candidatesTokenCount": 43,"totalTokenCount": 35144},"modelVersion": "gemini-3.1-flash-lite","responseId": "jLQLaobxN5jijuMPzbjXyA0"},"traceId": "8697c3702d370956","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " latest updates from the 9router upstream repository. Goals include restoring the correct function structure and closing unclosed code blocks to ensure compatibility with Next"}]}}],"usageMetadata": {"promptTokenCount": 35101,"candidatesTokenCount": 71,"totalTokenCount": 35172},"modelVersion": "gemini-3.1-flash-lite","responseId": "jLQLaobxN5jijuMPzbjXyA0"},"traceId": "8697c3702d370956","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ".js, followed by a controlled update of project files from the upstream source without losing existing local customizations."}]}}],"usageMetadata": {"promptTokenCount": 35101,"candidatesTokenCount": 92,"totalTokenCount": 35193},"modelVersion": "gemini-3.1-flash-lite","responseId": "jLQLaobxN5jijuMPzbjXyA0"},"traceId": "8697c3702d370956","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EjQKMgEMOdbHSGqAaYL5Pt3/ZAHnSlaQVwCPTf5K7gzYcuA5IV8AKGnFVxCuJYhkZgGLfGG3","text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 35101,"candidatesTokenCount": 92,"totalTokenCount": 35193},"modelVersion": "gemini-3.1-flash-lite","responseId": "jLQLaobxN5jijuMPzbjXyA0"},"traceId": "8697c3702d370956","metadata": {}}
+

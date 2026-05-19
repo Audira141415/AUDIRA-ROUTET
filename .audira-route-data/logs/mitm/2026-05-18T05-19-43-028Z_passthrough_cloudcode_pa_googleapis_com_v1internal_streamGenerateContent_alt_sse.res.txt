@@ -1,0 +1,19 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 05:19:45 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=2107",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EvgDCvUDAQw51sdkiaum94tTjseMqG2g7lkmz1jZAGNxvPaLlC0S7rKQgRWFjZqcXQAgpvwEytHDnCfTcJ/ysSDKUkOyS56k4OS61yd8NuO7xsqZpyDIRxGLlmBgSKsT2IouYghfxfmnWC3k/0zQFxTpfIEa/Qz5UivDD8pP3ajM7URDCtpAxRiW5rrGsgUsL1HaoTqIojP/rkk7qN+4Jr/GPTD+/qLAbmWJQ1NR1SAY32ZgBpPGiqt8s3itzTAzZOqMO5hqIX0I73v87NelLwqQp7dMF01tVPGGX0CydLF3+4SIxCB0QqKoL+GeZ1+ZlT9VXFDGa5vVw+qEp4W3A2p0Z+l9m5mnJZueQWFxYbPu+uU74WSB4n2HhETfs1ZlC4kmZHm9FBz2ojYoD1BLVzSFWbdxbZMMAXbf1Ym/sWkmwp+GtF6DUM9uZ0FzEBZfyvGaDFzxTa/MEzzQ8f/7gpg+Ox204c83MhREJQFeQs/SPJDehppKonWTSXjEMYOsHygP7dhWGzbDmUnCDTBGw3QgKLKR0xPQhDIOwWRFf0sQIoq16KDdxJpWY08DDjEvvgD7hAqpZXMpItYJOCpttkLbpDao4rDGeWQxf8UhfzYGpUtHT8mq0d4/bnHVv1lCR62FHkYVeJjM64/TwPFQVfyHoFhcYz9+qTMO","functionCall": {"name": "wait","args": {"duration_ms": 10000,"explanation": "Wait for the development server to initialize.","toolAction": "Waiting for server","toolSummary": "Waiting"},"id": "u9w5z8rt"}}]}}],"usageMetadata": {"promptTokenCount": 16431,"candidatesTokenCount": 47,"totalTokenCount": 16584,"thoughtsTokenCount": 106},"modelVersion": "gemini-3-flash","responseId": "b6EKauTeDtP8g8UP9arSkA0"},"traceId": "4758eeb70a2d30ed","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 18383,"candidatesTokenCount": 47,"totalTokenCount": 18536,"thoughtsTokenCount": 106},"modelVersion": "gemini-3-flash","responseId": "b6EKauTeDtP8g8UP9arSkA0"},"traceId": "4758eeb70a2d30ed","metadata": {}}
+

@@ -1,0 +1,25 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 11:13:15 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=761",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\": \"    "}]}}],"usageMetadata": {"promptTokenCount": 3463,"candidatesTokenCount": 3,"totalTokenCount": 3466},"modelVersion": "tab_flash_lite_preview","responseId": "S_QKaomACIGvjuMPp4rJqAQ"},"traceId": "9a440e7c56e0c9c","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\\\"emitDecoratorMetadata\\\": true,\\n    \\\"experimentalDecorators\\\": true,\\n    \\\""}]}}],"usageMetadata": {"promptTokenCount": 3463,"candidatesTokenCount": 22,"totalTokenCount": 3485},"modelVersion": "tab_flash_lite_preview","responseId": "S_QKaomACIGvjuMPp4rJqAQ"},"traceId": "9a440e7c56e0c9c","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "allowSyntheticDefaultImports\\\": true,\\n    \\\"target\\\": \\\"ES2021\\\",\\n    \\\"sourceMap\\\": true,\\n    \\\"outDir\\\": \\\"./dist\\\",\\n    \\\"baseUrl\\\": \\\"./\\\",\\n    \\\"incremental"}]}}],"usageMetadata": {"promptTokenCount": 3463,"candidatesTokenCount": 74,"totalTokenCount": 3537},"modelVersion": "tab_flash_lite_preview","responseId": "S_QKaomACIGvjuMPp4rJqAQ"},"traceId": "9a440e7c56e0c9c","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\\\": true,\\n    \\\"skipLibCheck\\\": true,\\n    \\\"strictNullChecks\\\": false,\\n    \\\"noImplicitAny\\\": false,\"\n\t\t}\n\t]\n}\n\u003c/replace_file_content\u003e"}]}}],"usageMetadata": {"promptTokenCount": 3463,"candidatesTokenCount": 120,"totalTokenCount": 3583},"modelVersion": "tab_flash_lite_preview","responseId": "S_QKaomACIGvjuMPp4rJqAQ"},"traceId": "9a440e7c56e0c9c","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 3463,"candidatesTokenCount": 120,"totalTokenCount": 3583,"cachedContentTokenCount": 2043},"modelVersion": "tab_flash_lite_preview","responseId": "S_QKaomACIGvjuMPp4rJqAQ"},"traceId": "9a440e7c56e0c9c","metadata": {}}
+

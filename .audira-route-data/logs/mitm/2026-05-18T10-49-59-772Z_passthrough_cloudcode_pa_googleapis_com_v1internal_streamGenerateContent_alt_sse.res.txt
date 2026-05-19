@@ -1,0 +1,37 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 10:50:01 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=963",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "Analyzing Aud"}]}}],"usageMetadata": {"promptTokenCount": 3206,"candidatesTokenCount": 2,"totalTokenCount": 3208},"modelVersion": "gemini-3.1-flash-lite","responseId": "2O4KaqqiJ5aFg8UPvZOcwQQ"},"traceId": "f0d5f287a05c8bd5","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "ira Perfect World Project\n\nMain Objective:\nConduct a comprehensive analysis of the AUDIRA-WEB"}]}}],"usageMetadata": {"promptTokenCount": 3206,"candidatesTokenCount": 22,"totalTokenCount": 3228},"modelVersion": "gemini-3.1-flash-lite","responseId": "2O4KaqqiJ5aFg8UPvZOcwQQ"},"traceId": "f0d5f287a05c8bd5","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "-PERFECT-WORLD project to assess its architectural maturity, state of completion, and operational readiness.\n\nGoals:\n1. Examine the"}]}}],"usageMetadata": {"promptTokenCount": 3206,"candidatesTokenCount": 50,"totalTokenCount": 3256},"modelVersion": "gemini-3.1-flash-lite","responseId": "2O4KaqqiJ5aFg8UPvZOcwQQ"},"traceId": "f0d5f287a05c8bd5","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " monorepo structure (using Turborepo/pnpm) to understand how the 8 microservices and frontend applications"}]}}],"usageMetadata": {"promptTokenCount": 3206,"candidatesTokenCount": 74,"totalTokenCount": 3280},"modelVersion": "gemini-3.1-flash-lite","responseId": "2O4KaqqiJ5aFg8UPvZOcwQQ"},"traceId": "f0d5f287a05c8bd5","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " are organized.\n2. Review the documentation files (e.g., PROJECT_STATUS.md, BACKEND_COMPLETION"}]}}],"usageMetadata": {"promptTokenCount": 3206,"candidatesTokenCount": 101,"totalTokenCount": 3307},"modelVersion": "gemini-3.1-flash-lite","responseId": "2O4KaqqiJ5aFg8UPvZOcwQQ"},"traceId": "f0d5f287a05c8bd5","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "_SUMMARY.md) to verify feature parity and identify potential technical debt or pending tasks.\n3. Assess the infrastructure"}]}}],"usageMetadata": {"promptTokenCount": 3206,"candidatesTokenCount": 125,"totalTokenCount": 3331},"modelVersion": "gemini-3.1-flash-lite","responseId": "2O4KaqqiJ5aFg8UPvZOcwQQ"},"traceId": "f0d5f287a05c8bd5","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " configuration (docker-compose.yml and deployment scripts) to ensure the service stack is ready for deployment.\n4."}]}}],"usageMetadata": {"promptTokenCount": 3206,"candidatesTokenCount": 149,"totalTokenCount": 3355},"modelVersion": "gemini-3.1-flash-lite","responseId": "2O4KaqqiJ5aFg8UPvZOcwQQ"},"traceId": "f0d5f287a05c8bd5","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " Evaluate the project's adherence to the planned \"Neo Brutalism\" design and the integration status of the 12 planned"}]}}],"usageMetadata": {"promptTokenCount": 3206,"candidatesTokenCount": 175,"totalTokenCount": 3381},"modelVersion": "gemini-3.1-flash-lite","responseId": "2O4KaqqiJ5aFg8UPvZOcwQQ"},"traceId": "f0d5f287a05c8bd5","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " web pages.\n5. Provide a clear summary of the project's health and recommendations for moving from the current state to a"}]}}],"usageMetadata": {"promptTokenCount": 3206,"candidatesTokenCount": 201,"totalTokenCount": 3407},"modelVersion": "gemini-3.1-flash-lite","responseId": "2O4KaqqiJ5aFg8UPvZOcwQQ"},"traceId": "f0d5f287a05c8bd5","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " production-ready environment."}]}}],"usageMetadata": {"promptTokenCount": 3206,"candidatesTokenCount": 206,"totalTokenCount": 3412},"modelVersion": "gemini-3.1-flash-lite","responseId": "2O4KaqqiJ5aFg8UPvZOcwQQ"},"traceId": "f0d5f287a05c8bd5","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EjQKMgEMOdbHkjaJlzsZbRvcdV7vK6ILLRC+uUFjZl2xAFqlxrrOLDXfuiR1OpTmaY+AC7s3","text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 3206,"candidatesTokenCount": 206,"totalTokenCount": 3412},"modelVersion": "gemini-3.1-flash-lite","responseId": "2O4KaqqiJ5aFg8UPvZOcwQQ"},"traceId": "f0d5f287a05c8bd5","metadata": {}}
+

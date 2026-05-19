@@ -1,0 +1,19 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 11:15:21 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=2238",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EtoBCtcBAQw51se2kz8/Ruhmlv7YIvh0/mxSJu2+1v4CcaXE3y2AoxBMAKtrcdaU1wYZh3NsNrQg/M4ghrLZ3/psq7RHKIAVhEged85+K3qlnkOqXfivHMAHzAnSaXtUwwg8t94DLhxQM4gFjMvpuWBg77vDL3pBWsu+cirA/eDPTBERLWPdrC8Zt6qslxzDe8i/qWLcVFn2zU+dEmvmtws1wAUtWSuaLJQq+abIUUChDl3z2+UE30Z+7dew6u9FfFDtx9OYnpvuhcJ/Mp/yJWyFrBZmVhErvEgWA5c=","functionCall": {"name": "view_file","args": {"toolSummary": "Scratchpad view","explanation": "Verify scratchpad file contents before finalizing the response.","toolAction": "Viewing scratchpad file","AbsolutePath": "C:\\Users\\ASUS\\.gemini\\antigravity\\brain\\67899ccd-1280-49e7-9b0f-febedd645fdc\\browser\\scratchpad_di3vmnog.md"},"id": "7up789wl"}}]}}],"usageMetadata": {"promptTokenCount": 16767,"candidatesTokenCount": 108,"totalTokenCount": 16907,"thoughtsTokenCount": 32},"modelVersion": "gemini-3-flash","responseId": "x_QKauXyLfuDqfkPj8SiyQc"},"traceId": "9af9bdd4f6eb27ba","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 19748,"candidatesTokenCount": 108,"totalTokenCount": 19888,"cachedContentTokenCount": 16219,"thoughtsTokenCount": 32},"modelVersion": "gemini-3-flash","responseId": "x_QKauXyLfuDqfkPj8SiyQc"},"traceId": "9af9bdd4f6eb27ba","metadata": {}}
+

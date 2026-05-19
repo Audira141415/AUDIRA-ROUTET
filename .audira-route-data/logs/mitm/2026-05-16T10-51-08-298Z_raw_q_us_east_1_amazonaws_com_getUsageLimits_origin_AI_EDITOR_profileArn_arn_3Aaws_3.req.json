@@ -1,0 +1,15 @@
+{
+  "method": "GET",
+  "url": "/getUsageLimits?origin=AI_EDITOR&profileArn=arn%3Aaws%3Acodewhisperer%3Aus-east-1%3A699475941385%3Aprofile%2FEHGA3GRVQMUK&resourceType=AGENTIC_REQUEST",
+  "host": "q.us-east-1.amazonaws.com",
+  "headers": {
+    "x-amz-user-agent": "aws-sdk-js/1.0.0 KiroIDE-0.12.155-9f7a5ee98f0e01bba8f93f305c9e8be7cba4b50ec776176f9a748588fb4d21ee",
+    "user-agent": "aws-sdk-js/1.0.0 ua/2.1 os/win32#10.0.26200 lang/js md/nodejs#22.22.0 api/codewhispererruntime#1.0.0 m/N,E KiroIDE-0.12.155-9f7a5ee98f0e01bba8f93f305c9e8be7cba4b50ec776176f9a748588fb4d21ee",
+    "host": "q.us-east-1.amazonaws.com",
+    "amz-sdk-invocation-id": "9d4f6704-7d5f-45ab-83fd-c757e6654f2f",
+    "amz-sdk-request": "attempt=1; max=1",
+    "authorization": "Bearer aoaAAAAAGoIWFIzvL6BWWoilEHt41sNl-Ssc-uWFv9g4hSR60noIv6mLj8EKI-aLUbDf1AtQLQ30uyKMNlJeL7FZIBkc0:MGUCMQDbAu50fxoKGn3TmjLDfihIsMUzApwRFqUaduC1+T6UIybVt06cZt6Ykrksihj96ScCMGEkDb60+I6QF5aWTUElfIx5toh/ILp3YeAIQEPqabf/Q5S7W9Pbf7AOhDfFYqFaJQ",
+    "connection": "close"
+  },
+  "body": ""
+}

@@ -1,0 +1,11 @@
+STATUS: 403
+HEADERS: {
+  "date": "Sat, 16 May 2026 23:08:03 GMT",
+  "content-type": "application/json",
+  "content-length": "41",
+  "connection": "close",
+  "x-amzn-requestid": "5f562b5f-8ec6-46da-a80f-6a38b7479b1d",
+  "x-amzn-errortype": "AccessDeniedException:http://internal.amazon.com/coral/com.amazon.kiro.controlplane/"
+}
+---BODY---
+{"message":"Invalid token","reason":null}

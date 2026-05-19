@@ -1,0 +1,10 @@
+STATUS: 200
+HEADERS: {
+  "date": "Sat, 16 May 2026 01:00:00 GMT",
+  "content-type": "application/json",
+  "content-length": "861",
+  "connection": "close",
+  "x-amzn-requestid": "a4612ca2-fded-45f1-bab3-5791ee57f5c0"
+}
+---BODY---
+{"daysUntilReset":null,"limits":null,"nextDateReset":1.780272E9,"overageConfiguration":{"overageStatus":"DISABLED"},"subscriptionInfo":{"overageCapability":"OVERAGE_CAPABLE","subscriptionManagementTarget":"MANAGE","subscriptionTitle":"KIRO PRO","type":"Q_DEVELOPER_STANDALONE_PRO","upgradeCapability":"UPGRADE_CAPABLE"},"usageBreakdownList":[{"bonuses":[],"currency":"USD","currentOverages":0,"currentOveragesWithPrecision":0.0,"currentUsage":964,"currentUsageWithPrecision":964.66,"displayName":"Credit","displayNamePlural":"Credits","freeTrialInfo":null,"nextDateReset":1.780272E9,"overageCap":10000,"overageCapWithPrecision":10000.0,"overageCharges":0.0,"overageRate":0.04,"resourceType":"CREDIT","unit":"INVOCATIONS","usageLimit":1000,"usageLimitWithPrecision":1000.0}],"userInfo":{"email":null,"userId":"d-9067c98495.a44894c8-a0a1-70dd-fbce-58d92f213b0c"}}

@@ -1,0 +1,29 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 06:45:11 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=1537",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "Implementing Vul"}]}}],"usageMetadata": {"promptTokenCount": 84601,"candidatesTokenCount": 2,"totalTokenCount": 84603},"modelVersion": "gemini-3.1-flash-lite","responseId": "drUKav_KJo-0juMP5MvY6AQ"},"traceId": "6cfc4764f3a8b742","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "nX Hunter Features\n\nThe user's objective is to complete the development of the VulnX Hunter vulnerability"}]}}],"usageMetadata": {"promptTokenCount": 84601,"candidatesTokenCount": 22,"totalTokenCount": 84623},"modelVersion": "gemini-3.1-flash-lite","responseId": "drUKav_KJo-0juMP5MvY6AQ"},"traceId": "6cfc4764f3a8b742","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " testing platform by systematically implementing the remaining features. The core goals include finalizing the backend integration for the Go-based scanner service, implementing"}]}}],"usageMetadata": {"promptTokenCount": 84601,"candidatesTokenCount": 48,"totalTokenCount": 84649},"modelVersion": "gemini-3.1-flash-lite","responseId": "drUKav_KJo-0juMP5MvY6AQ"},"traceId": "6cfc4764f3a8b742","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " the full-stack Reports module for vulnerability data exporting, and completing the remaining 15 frontend application pages to achieve full feature"}]}}],"usageMetadata": {"promptTokenCount": 84601,"candidatesTokenCount": 73,"totalTokenCount": 84674},"modelVersion": "gemini-3.1-flash-lite","responseId": "drUKav_KJo-0juMP5MvY6AQ"},"traceId": "6cfc4764f3a8b742","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " parity. The process will follow an incremental implementation strategy, starting with backend modules before transitioning to frontend integration and system-wide verification"}]}}],"usageMetadata": {"promptTokenCount": 84601,"candidatesTokenCount": 98,"totalTokenCount": 84699},"modelVersion": "gemini-3.1-flash-lite","responseId": "drUKav_KJo-0juMP5MvY6AQ"},"traceId": "6cfc4764f3a8b742","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "."}]}}],"usageMetadata": {"promptTokenCount": 84601,"candidatesTokenCount": 99,"totalTokenCount": 84700},"modelVersion": "gemini-3.1-flash-lite","responseId": "drUKav_KJo-0juMP5MvY6AQ"},"traceId": "6cfc4764f3a8b742","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EjQKMgEMOdbHwT4aNhdWAuMKH0Z+2Hbh0CxeqQeNhmddoEJfbt2O77SxI3qg/xy86oJBiC3/","text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 84601,"candidatesTokenCount": 99,"totalTokenCount": 84700},"modelVersion": "gemini-3.1-flash-lite","responseId": "drUKav_KJo-0juMP5MvY6AQ"},"traceId": "6cfc4764f3a8b742","metadata": {}}
+

@@ -1,0 +1,27 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 07:43:38 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=1595",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "Perfect"}]}}],"usageMetadata": {"promptTokenCount": 65391,"candidatesTokenCount": 1,"totalTokenCount": 65392},"modelVersion": "gemini-3.1-flash-lite","responseId": "KMMKas6_NdjcjuMP66aBgA0"},"traceId": "55a71d12f0c2b4ee","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " World Frontend Implementation\n\nThe user's objective is to complete the full-stack"}]}}],"usageMetadata": {"promptTokenCount": 65391,"candidatesTokenCount": 17,"totalTokenCount": 65408},"modelVersion": "gemini-3.1-flash-lite","responseId": "KMMKas6_NdjcjuMP66aBgA0"},"traceId": "55a71d12f0c2b4ee","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " frontend development of the Perfect World Neo Brutalism web project. The goal is to implement all 12 planned pages, finalize UI"}]}}],"usageMetadata": {"promptTokenCount": 65391,"candidatesTokenCount": 44,"totalTokenCount": 65435},"modelVersion": "gemini-3.1-flash-lite","responseId": "KMMKas6_NdjcjuMP66aBgA0"},"traceId": "55a71d12f0c2b4ee","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " aesthetics using custom AI-generated character assets, ensure full responsiveness, and establish a production-ready codebase that integrates seamlessly with the existing"}]}}],"usageMetadata": {"promptTokenCount": 65391,"candidatesTokenCount": 70,"totalTokenCount": 65461},"modelVersion": "gemini-3.1-flash-lite","responseId": "KMMKas6_NdjcjuMP66aBgA0"},"traceId": "55a71d12f0c2b4ee","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " 8 backend microservices."}]}}],"usageMetadata": {"promptTokenCount": 65391,"candidatesTokenCount": 76,"totalTokenCount": 65467},"modelVersion": "gemini-3.1-flash-lite","responseId": "KMMKas6_NdjcjuMP66aBgA0"},"traceId": "55a71d12f0c2b4ee","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EjQKMgEMOdbH2D6CyXuzWFNdq+mGt4xC/2zRQzKtoXVRgHXPIKYGlARNLJ7AODHhkc67JSY3","text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 65391,"candidatesTokenCount": 76,"totalTokenCount": 65467},"modelVersion": "gemini-3.1-flash-lite","responseId": "KMMKas6_NdjcjuMP66aBgA0"},"traceId": "55a71d12f0c2b4ee","metadata": {}}
+

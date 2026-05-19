@@ -1,0 +1,23 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Sat, 16 May 2026 08:10:18 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=2051",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]}}],"usageMetadata": {"promptTokenCount": 36459,"candidatesTokenCount": 20,"totalTokenCount": 36479,"cachedContentTokenCount": 35314},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ueDiZqvZsZhtFpAZV1"},"traceId": "39560d96aff8f183","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"functionCall": {"name": "grep_search","args": {"toolSummary": "Path references in db scripts","MatchPerLine": true,"Query": "os.path","SearchPath": "f:\\AUDIRA-TOPUPGAME\\scripts\\db","toolAction": "Checking os.path references"},"id": "toolu_vrtx_01FgFbpkKFo5ErMRir6dpnAN"}}]}}],"usageMetadata": {"promptTokenCount": 36459,"candidatesTokenCount": 20,"totalTokenCount": 36479,"cachedContentTokenCount": 35314},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ueDiZqvZsZhtFpAZV1"},"traceId": "39560d96aff8f183","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"functionCall": {"name": "grep_search","args": {"SearchPath": "f:\\AUDIRA-TOPUPGAME\\scripts\\admin","toolAction": "Checking admin script paths","toolSummary": "Admin scripts path refs","MatchPerLine": true,"Query": "os.path"},"id": "toolu_vrtx_0126nY3sArkxoWvofwGFfmwo"}}]}}],"usageMetadata": {"promptTokenCount": 36459,"candidatesTokenCount": 20,"totalTokenCount": 36479,"cachedContentTokenCount": 35314},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ueDiZqvZsZhtFpAZV1"},"traceId": "39560d96aff8f183","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 36459,"candidatesTokenCount": 289,"totalTokenCount": 36748,"cachedContentTokenCount": 35314},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ueDiZqvZsZhtFpAZV1"},"traceId": "39560d96aff8f183","metadata": {}}
+

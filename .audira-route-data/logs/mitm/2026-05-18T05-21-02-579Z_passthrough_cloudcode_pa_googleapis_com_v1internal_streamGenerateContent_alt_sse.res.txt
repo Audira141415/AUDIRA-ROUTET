@@ -1,0 +1,19 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 05:21:04 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=2058",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "Ep8BCpwBAQw51sc2VUDDsxe6y1JwGYcKOgULG5whNpTzTrfHPrZibS1RtptA0r213p+gb8cGYtiEM2RpyxBB+y2LIXIANPop71AtANfpTsdpr5f4nu2/cP1PfpCVmqcFkI/dx0UWP+1s91TL3ecjrCogPcVGC0VjLWL1dA8cSxF6EXvxjZCfPCGzz4DK5wOvEo3gIpBQ8v6m1gnk+O4KCjkE","functionCall": {"name": "open_browser_url","args": {"Url": "http://host.docker.internal:3000","explanation": "Try http://host.docker.internal:3000 in case the host is mapped to docker internal host.","toolSummary": "Web search","toolAction": "Opening host.docker.internal:3000","PageIdToReplace": "5411DAB9590ACD157E5A0154F9BA575B"},"id": "02za7gk1"}}]}}],"usageMetadata": {"promptTokenCount": 20658,"candidatesTokenCount": 120,"totalTokenCount": 20808,"thoughtsTokenCount": 30},"modelVersion": "gemini-3-flash","responseId": "vqEKasWHMs78juMPs-rlwQg"},"traceId": "c4777a656c5ff2d5","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 24321,"candidatesTokenCount": 120,"totalTokenCount": 24471,"cachedContentTokenCount": 20230,"thoughtsTokenCount": 30},"modelVersion": "gemini-3-flash","responseId": "vqEKasWHMs78juMPs-rlwQg"},"traceId": "c4777a656c5ff2d5","metadata": {}}
+

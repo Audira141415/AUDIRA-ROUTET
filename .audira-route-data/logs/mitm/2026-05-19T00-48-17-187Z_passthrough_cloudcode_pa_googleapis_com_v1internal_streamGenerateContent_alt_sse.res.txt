@@ -1,0 +1,21 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Tue, 19 May 2026 00:48:21 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=3769",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thought": true,"text": "**Prioritizing Tool Specificity**\n\nI'm focusing intently on tool specificity. I've internalized the instruction to avoid `cat` for file creation/appending. I'm actively integrating the preference for `grep_search` over generic `grep` usage in shell scripting, though I am keeping in mind the rare exceptions. I'm ensuring I don't use the `DO NOT` command; I understand its intention.\n\n\n"}]}}],"usageMetadata": {"promptTokenCount": 59247,"totalTokenCount": 59247},"modelVersion": "gemini-pro-default","responseId": "UbMLasKFJeCEg8UPudPBoAc"},"traceId": "ec114782aea20d84","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EuIHCt8HAQw51sfpsaj0FE99wuT4t0L4OFN6Mizg7zyb35+4FbVj91d2zhyqDz8tdGG+011g+MSkpazwfRO3GCGN6p3o3rirDA0RUdRwvy/dyOUIcHj+WgkmZII0vsgvKpQgMWatX+93jXocBTwuueTZalX7CasriVNqEBiYNIf09DGLwxh1H0YlXreASJRTpWf810jNNCdahyT2iAaZ6Qj4+p4HnZ7MnlrFbrLNctHh2FY/sLeeb5SPCgUtyShBSRjikPFtm1IL+HtTXPGi+Y8S/ITT2JEMtN/BQwBd6PrU81zTbfiu+JtO0NaQkMBo4sDNJNWTqpTuk8KDRazJv06ir0eX9T3nlfft8Cl0rXLVIm15DUV67THUe/m1Z1dPIuj04N9g6Wyh+gyKE8bF8dVLHf2knVmjDWojzssWD8vHFF2xmJWdeEVmJpFH6ttjUsrhnO/7aMkbBcQX3W9n51xPQto6JIdVfxq0BaEftvqsm6DrgXmv/dwV0qDeCAoKG1d20lLU7zL851PYk7gNdkkXma6Ey2UBE4QNh7rtL0UoMAn51Z5p6fcuC5G4lFxZ/m8JoxfMmM68MQSf2u6CPkfINtNmMN+bfavkXdmnYN/KCbJzabTwHMfxF34GHuWd3Ag6oCumUVkHUaF69J+jRdA85ZEoyF0FCj60si2l1fFEicm2EMpn6jdn6Vb90kuZ/iBeaSKUlfITN7Ef0TxALuZeZ8I5knxaq2f7Et0W5387LSrEfGAFPj668re9EN98Szkw5LSRmx1qQ4aer7RW31NyQA+m8Ca4GUFvNebewe6oT1CA8sbc4zcVngk7mg4I2QcNz80WjvclDNMOt9ii0508DDf4HNMvuvuZZf8VY/EwF59BNhiejYm0Ra2yoJehyzYZ2+4866IY8g+p1Zt6ByJ/Nvec+tDnUDuBafv6yAO/Y3p5v7rEdhmsQY8M/vdy+2M4PiZ3evbIUicRM/+zcjzdtMAk9oMws2HjVNfbsAXG4zoZXXKIkD/CTtRHp0LVIu9RMHltvmsSS4MOn/lSzDiNVKJMsQx9q2g8DJZuFTDz9ZgRm18T74OjDuB/SWpyK8SYfacytLKarfVog46ymQnMRWiCPxuOq8hNGm/BlEqIBUgF0KRk/xveJWyJiF0+YJzVgIWSc6I+raArKH55CS9aDQg82T1KjWI9kPQhO3g3QtVHO+ZVIxnpmSronWPDL4xKK/7tFoxIvBqQ/6p3U2O9VhTKHdjPT0KSEOAPxIJh0+wkuwMj3YaPIS6qL7CtnkL6y07+ivhFuWv5/reGT3Hp8Br6Yax4ck04DiqOYmt8732FaA==","functionCall": {"name": "view_file","args": {"AbsolutePath": "f:\\AUDIRA-ROUTET\\package.json"},"id": "k1vipu78"}}]}}],"usageMetadata": {"promptTokenCount": 71962,"candidatesTokenCount": 28,"totalTokenCount": 72193,"cachedContentTokenCount": 69444,"thoughtsTokenCount": 203},"modelVersion": "gemini-pro-default","responseId": "UbMLasKFJeCEg8UPudPBoAc"},"traceId": "ec114782aea20d84","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 71962,"candidatesTokenCount": 28,"totalTokenCount": 72193,"cachedContentTokenCount": 69444,"thoughtsTokenCount": 203},"modelVersion": "gemini-pro-default","responseId": "UbMLasKFJeCEg8UPudPBoAc"},"traceId": "ec114782aea20d84","metadata": {}}
+

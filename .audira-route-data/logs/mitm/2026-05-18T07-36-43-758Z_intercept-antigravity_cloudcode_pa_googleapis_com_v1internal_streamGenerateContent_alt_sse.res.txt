@@ -1,0 +1,17 @@
+STATUS: 200
+HEADERS: {
+  "access-control-allow-origin": "*",
+  "cache-control": "no-cache",
+  "connection": "keep-alive",
+  "content-type": "text/event-stream",
+  "date": "Mon, 18 May 2026 07:36:53 GMT",
+  "transfer-encoding": "chunked",
+  "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+}
+---BODY---
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"functionCall":{"name":"generate_image","args":{"ImageName":"barbarian_portrait","Prompt":"Epic fantasy game character portrait of a Barbarian tank warrior, massive muscular male character with huge battle axe, wearing heavy iron armor with red glowing war paint, fierce battle stance, cyberpunk meets fantasy aesthetic, neon red energy effects, dark background with fire particles, professional game art style, high quality digital painting, 4k resolution","toolAction":"Generating image","toolSummary":"Barbarian character portrait"}}},{"functionCall":{"name":"generate_image","args":{"ImageName":"archer_portrait","Prompt":"Epic fantasy game character portrait of an Archer ranger, female character with glowing bow and arrow, wearing light leather armor with green nature-themed accents, aiming pose with magical arrow, cyberpunk meets fantasy aesthetic, neon green energy trail, dark background with wind particles, professional game art style, high quality digital painting, 4k resolution","toolAction":"Generating image","toolSummary":"Archer character portrait"}}},{"functionCall":{"name":"generate_image","args":{"ImageName":"psychic_portrait","Prompt":"Epic fantasy game character portrait of a Psychic support mage, female character with floating crystals around her, wearing elegant robes with pink and purple psionic energy, telekinetic pose with glowing eyes, cyberpunk meets fantasy aesthetic, neon pink and purple mind energy effects, dark background with ethereal particles, professional game art style, high quality digital painting, 4k resolution","toolAction":"Generating image","toolSummary":"Psychic character portrait"}}}]},"finishReason":"STOP"}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779089808629","usageMetadata":{"promptTokenCount":136117,"candidatesTokenCount":0,"totalTokenCount":136117}}}
+
+data: [DONE]
+
+data: [DONE]
+

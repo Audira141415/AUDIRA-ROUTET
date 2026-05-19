@@ -1,0 +1,141 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Sat, 16 May 2026 08:09:48 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=2077",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thought": true,"text": "The"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thought": true,"text": " user wants"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thought": true,"text": " me"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thought": true,"text": " to check"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thought": true,"text": " if the"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thought": true,"text": " paths"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thought": true,"text": "/"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thought": true,"text": "references"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thought": true,"text": " in the"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thought": true,"text": " code files"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thought": true,"text": " are broken"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thought": true,"text": " after"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thought": true,"text": " the"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thought": true,"text": " reorgan"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thought": true,"text": "ization. I"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thought": true,"text": " need to check"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thought": true,"text": " if"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thought": true,"text": " any"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thought": true,"text": " files"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thought": true,"text": " reference"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thought": true,"text": " the"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thought": true,"text": " scripts"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thought": true,"text": " that"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thought": true,"text": " were moved, particularly"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thought": true,"text": " things"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thought": true,"text": " like:\n1"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thought": true,"text": ". `save"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thought": true,"text": ".bat` - might"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thought": true,"text": " be referenced"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thought": true,"text": " in"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thought": true,"text": " CONVENTIONS"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thought": true,"text": ".md or other"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thought": true,"text": " files\n2. The"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thought": true,"text": " scripts"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thought": true,"text": " themselves"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thought": true,"text": " might have"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thought": true,"text": " relative"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thought": true,"text": " path"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thought": true,"text": " references"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thought": true,"text": "\n3. docker"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thought": true,"text": "-compose.yml might reference paths"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thought": true,"text": "\n4. Any"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thought": true,"text": " imports"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thought": true,"text": " or references to the moved files"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thought": true,"text": "\n\nLet me check"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thought": true,"text": " the key"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thought": true,"text": " files."}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thought": true,"text": ""}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thought": true,"thoughtSignature": "RXY4RUNsMElEUkFDR0FJcVFHa1ltdlFMSDY4U2x6a0lnVGd0K1ArVEQ5SjJrRHFiYk9lOUptVkkzWUVUeFRCV1BkUmw0UitLZ0t3NnJ6clpXUElMNmM3K0o0RkZXNmo3cDZqNnozNHlFV05zWVhWa1pTMXpiMjV1WlhRdE5DMDJPQUFTRE1jQ1JHa083dG5TQzNrNUxCb01ZQllpaG5xUUZxSzd2OW9NSWpCM0ZJOXIrZitybDNDWVJyREszODVOZTJ4by9Sd3dadUlSOWVDVTlUaVhmaEY1Tk92d0l3bS91Vi9tUGo5V1hoY3F6d05TczF6QzBlN0c4dXFyNk9mUlZDYzlCUGlPUnNnRUFKYWErZURSNlFKcUFsOFVTdjVkSGhrUTB2MC9WaUJSMWZqeVRrajNFQkk1aDZHY2FSb2RNWGNTWVNiWk53a01ZdzlCc2tFOTJwcC85WXpXMy9qaDR0dlNJN3JKb1E4WHc2RzFpRUZ5cDFJNmVjdkNZSWpMaC80WjFiaWVjRThheGRJTnpqWWdwRHJ2SDBlRTNTZWl4UlBGRG5JenJpUDFQdC9SYnVEWWlZWEgyTzhhdkpFRExwMkN6Zy9WeHVZcVh5cGV4NVB2NU9rc1dVUGJ6ZWh5SUhBQXh0RzhZKzJDb1M0RVpCZ2thVGlMOS9wZDFOMHdENit5QWF6T3MxY0NvaXFvMkVUb2hWeFMyNEt0UytKZEdFL05neEwzazlvUGx5dEttWDhyUzNFQmpxenFXTUs0MFA0MnZBQnR0Vm5zWS9RdXczRVpPN3hJRUpyR1NBSTFxYUZhdnJvZkdQSk5ZVTdLTkRZME03bmlkM004Rnd6WEhFZ1BGMkkySTVWR2tYWnVSWEQrOXdseDJDMzgzNklsdmdsei9BMzJiTHNhSVgzZ2JtUGpGS0ZhRG8xcUxPeHBIeVNIMndhSVh5ZUxCWVJhcEIrbDlxemc4ZzZsWEMzam9DN01ZTDN5TUwxR21XNkNRcmFDUWlCaFBzeWRsWi9zeGFmajhkSTB0bHdyT1RoV3BFWEFWc1NGZW1GT3g4eFJWYXEvM1pZOHpiVVV4Sm5UcHBNbFVxWUNxNW9qWmJxUEo2cTJyT3FTVWEvUEFuOC9NMTBvQ3lQZ0dBRT0=","text": ""}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "Ba"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "ik, saya c"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "ek"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " sem"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "ua refer"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "ensi path yang"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " m"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "ungkin broken"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " se"}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "telah reorganisasi."}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"functionCall": {"name": "view_file","args": {"toolSummary": "Docker compose paths","AbsolutePath": "f:\\AUDIRA-TOPUPGAME\\docker-compose.yml","toolAction": "Viewing docker-compose file"},"id": "toolu_vrtx_01K2XQUgmuPXJLfFzeeGMJzt"}}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"functionCall": {"name": "grep_search","args": {"SearchPath": "f:\\AUDIRA-TOPUPGAME","Query": "save.bat","MatchPerLine": true,"toolAction": "Searching save.bat references","toolSummary": "save.bat references"},"id": "toolu_vrtx_01MKhiQZpcG258DRrgwr3onC"}}]}}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 1,"totalTokenCount": 29111,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 29110,"candidatesTokenCount": 385,"totalTokenCount": 29495,"cachedContentTokenCount": 27584},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ubyffpujQqiUFerVAo"},"traceId": "217a96258eb6509f","metadata": {}}
+

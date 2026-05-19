@@ -1,0 +1,19 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Sat, 16 May 2026 08:24:07 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=1707",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "Er8BCrwBAQw51seMHvlB7nUWMEbb8dkrLl/QMp+TggchXLW3+wwY6FgEHjkkbLOptiYs0MHPIe+mmuISSzu17+MXCwfstwv/Rx2hQdo0b6K8/CddU63P4GuZrCGKdZRbN6x2MuKHR2Z9eorsghSFMgzxDW9ZZXhKAoFdLQCbqN0Av9V7K0fioGb1QZBfDDrIMpoUpKJ23xcn0yYjK/o9Bp5FAg40s9GtWnByLYrvo6lu5twlDwOMU1w0q7ewwYvdUSw=","functionCall": {"name": "list_dir","args": {"DirectoryPath": "f:\\AUDIRA-ROUTET\\open-sse"},"id": "69hlswe6"}}]}}],"usageMetadata": {"promptTokenCount": 20145,"candidatesTokenCount": 29,"totalTokenCount": 20205,"thoughtsTokenCount": 31},"modelVersion": "gemini-default","responseId": "pikIapOwJvytjuMP14bCiAk"},"traceId": "3812d23405d2f8c","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 21049,"candidatesTokenCount": 29,"totalTokenCount": 21109,"cachedContentTokenCount": 20311,"thoughtsTokenCount": 31},"modelVersion": "gemini-default","responseId": "pikIapOwJvytjuMP14bCiAk"},"traceId": "3812d23405d2f8c","metadata": {}}
+

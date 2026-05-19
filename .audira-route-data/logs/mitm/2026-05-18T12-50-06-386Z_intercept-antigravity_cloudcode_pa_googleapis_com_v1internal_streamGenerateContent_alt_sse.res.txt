@@ -1,0 +1,17 @@
+STATUS: 200
+HEADERS: {
+  "access-control-allow-origin": "*",
+  "cache-control": "no-cache",
+  "connection": "keep-alive",
+  "content-type": "text/event-stream",
+  "date": "Mon, 18 May 2026 12:50:13 GMT",
+  "transfer-encoding": "chunked",
+  "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+}
+---BODY---
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"functionCall":{"name":"command_status","args":{"CommandId":"6e7ddc7b-09c5-4333-a483-a29a51b2509f","OutputCharacterCount":1000,"WaitDurationSeconds":10,"toolAction":"Checking status","toolSummary":"Docker status result"}}}]},"finishReason":"STOP"}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108612506","usageMetadata":{"promptTokenCount":184233,"candidatesTokenCount":0,"totalTokenCount":184233}}}
+
+data: [DONE]
+
+data: [DONE]
+

@@ -1,0 +1,117 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 07:12:03 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=1323",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003cedited"}]}}],"usageMetadata": {"promptTokenCount": 50458,"candidatesTokenCount": 2,"totalTokenCount": 50460},"modelVersion": "gemini-3.1-flash-lite","responseId": "wrsKapKqAcDnqfkPq4X5iAs"},"traceId": "881f00f0426e1521","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "_file\u003e\n\t\u003ctarget_file\u003ef:/AUDIRA-WEB-PER"}]}}],"usageMetadata": {"promptTokenCount": 50458,"candidatesTokenCount": 21,"totalTokenCount": 50479},"modelVersion": "gemini-3.1-flash-lite","responseId": "wrsKapKqAcDnqfkPq4X5iAs"},"traceId": "881f00f0426e1521","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "FECT-WORLD/C:/Users/ASUS/.gemini/antigravity/brain/9c79e"}]}}],"usageMetadata": {"promptTokenCount": 50458,"candidatesTokenCount": 46,"totalTokenCount": 50504},"modelVersion": "gemini-3.1-flash-lite","responseId": "wrsKapKqAcDnqfkPq4X5iAs"},"traceId": "881f00f0426e1521","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "30c-f1f9-4ab8-a4db-ff46d3284"}]}}],"usageMetadata": {"promptTokenCount": 50458,"candidatesTokenCount": 71,"totalTokenCount": 50529},"modelVersion": "gemini-3.1-flash-lite","responseId": "wrsKapKqAcDnqfkPq4X5iAs"},"traceId": "881f00f0426e1521","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "aa1/artifacts/analisis_project_audira.md\u003c/target_file\u003e\n\t\u003clines_"}]}}],"usageMetadata": {"promptTokenCount": 50458,"candidatesTokenCount": 95,"totalTokenCount": 50553},"modelVersion": "gemini-3.1-flash-lite","responseId": "wrsKapKqAcDnqfkPq4X5iAs"},"traceId": "881f00f0426e1521","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "modified\u003e1-500\u003c/lines_modified\u003e\n\t\u003cedit_summary\u003eCreated a comprehensive analysis of"}]}}],"usageMetadata": {"promptTokenCount": 50458,"candidatesTokenCount": 119,"totalTokenCount": 50577},"modelVersion": "gemini-3.1-flash-lite","responseId": "wrsKapKqAcDnqfkPq4X5iAs"},"traceId": "881f00f0426e1521","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " the Perfect World Neo Brutalism project, documenting infrastructure, status, technology stack, and recommendations based on the findings.\u003c/edit"}]}}],"usageMetadata": {"promptTokenCount": 50458,"candidatesTokenCount": 144,"totalTokenCount": 50602},"modelVersion": "gemini-3.1-flash-lite","responseId": "wrsKapKqAcDnqfkPq4X5iAs"},"traceId": "881f00f0426e1521","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "_summary\u003e\n\u003c/edited_file\u003e\n\n\u003cviewed_file\u003e\n\t\u003cabsolute_path\u003ef"}]}}],"usageMetadata": {"promptTokenCount": 50458,"candidatesTokenCount": 168,"totalTokenCount": 50626},"modelVersion": "gemini-3.1-flash-lite","responseId": "wrsKapKqAcDnqfkPq4X5iAs"},"traceId": "881f00f0426e1521","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ":/AUDIRA-WEB-PERFECT-WORLD/package.json\u003c/absolute_path\u003e\n\t\u003clines"}]}}],"usageMetadata": {"promptTokenCount": 50458,"candidatesTokenCount": 192,"totalTokenCount": 50650},"modelVersion": "gemini-3.1-flash-lite","responseId": "wrsKapKqAcDnqfkPq4X5iAs"},"traceId": "881f00f0426e1521","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "_viewed\u003e1-28\u003c/lines_viewed\u003e\n\t\u003clearnings\u003eIdentified the project"}]}}],"usageMetadata": {"promptTokenCount": 50458,"candidatesTokenCount": 216,"totalTokenCount": 50674},"modelVersion": "gemini-3.1-flash-lite","responseId": "wrsKapKqAcDnqfkPq4X5iAs"},"traceId": "881f00f0426e1521","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " as a Turborepo monorepo using pnpm and TypeScript, with dependencies on OAuth (Discord/Google) and testing"}]}}],"usageMetadata": {"promptTokenCount": 50458,"candidatesTokenCount": 241,"totalTokenCount": 50699},"modelVersion": "gemini-3.1-flash-lite","responseId": "wrsKapKqAcDnqfkPq4X5iAs"},"traceId": "881f00f0426e1521","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " libraries.\u003c/learnings\u003e\n\u003c/viewed_file\u003e\n\n\u003cviewed_file\u003e\n\t\u003cabsolute_"}]}}],"usageMetadata": {"promptTokenCount": 50458,"candidatesTokenCount": 265,"totalTokenCount": 50723},"modelVersion": "gemini-3.1-flash-lite","responseId": "wrsKapKqAcDnqfkPq4X5iAs"},"traceId": "881f00f0426e1521","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "path\u003ef:/AUDIRA-WEB-PERFECT-WORLD/PROJECT_STATUS.md\u003c/absolute_path"}]}}],"usageMetadata": {"promptTokenCount": 50458,"candidatesTokenCount": 289,"totalTokenCount": 50747},"modelVersion": "gemini-3.1-flash-lite","responseId": "wrsKapKqAcDnqfkPq4X5iAs"},"traceId": "881f00f0426e1521","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003e\n\t\u003clines_viewed\u003e1-232\u003c/lines_viewed\u003e\n\t\u003clearn"}]}}],"usageMetadata": {"promptTokenCount": 50458,"candidatesTokenCount": 313,"totalTokenCount": 50771},"modelVersion": "gemini-3.1-flash-lite","responseId": "wrsKapKqAcDnqfkPq4X5iAs"},"traceId": "881f00f0426e1521","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "ings\u003eLearned that the project documentation claims 100% backend completion and 0% frontend completion, which"}]}}],"usageMetadata": {"promptTokenCount": 50458,"candidatesTokenCount": 337,"totalTokenCount": 50795},"modelVersion": "gemini-3.1-flash-lite","responseId": "wrsKapKqAcDnqfkPq4X5iAs"},"traceId": "881f00f0426e1521","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " was later discovered to be inaccurate upon codebase inspection.\u003c/learnings\u003e\n\u003c/viewed_file\u003e\n\n\u003cviewed_file"}]}}],"usageMetadata": {"promptTokenCount": 50458,"candidatesTokenCount": 363,"totalTokenCount": 50821},"modelVersion": "gemini-3.1-flash-lite","responseId": "wrsKapKqAcDnqfkPq4X5iAs"},"traceId": "881f00f0426e1521","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003e\n\t\u003cabsolute_path\u003ef:/AUDIRA-WEB-PERFECT-WORLD/BACKEND_"}]}}],"usageMetadata": {"promptTokenCount": 50458,"candidatesTokenCount": 387,"totalTokenCount": 50845},"modelVersion": "gemini-3.1-flash-lite","responseId": "wrsKapKqAcDnqfkPq4X5iAs"},"traceId": "881f00f0426e1521","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "COMPLETION_SUMMARY.md\u003c/absolute_path\u003e\n\t\u003clines_viewed\u003e1-19"}]}}],"usageMetadata": {"promptTokenCount": 50458,"candidatesTokenCount": 411,"totalTokenCount": 50869},"modelVersion": "gemini-3.1-flash-lite","responseId": "wrsKapKqAcDnqfkPq4X5iAs"},"traceId": "881f00f0426e1521","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "4\u003c/lines_viewed\u003e\n\t\u003clearnings\u003eConfirmed the backend implementation details for 8 microservices, including"}]}}],"usageMetadata": {"promptTokenCount": 50458,"candidatesTokenCount": 436,"totalTokenCount": 50894},"modelVersion": "gemini-3.1-flash-lite","responseId": "wrsKapKqAcDnqfkPq4X5iAs"},"traceId": "881f00f0426e1521","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " Auth, Marketplace, and Realtime (Socket.IO) capabilities.\u003c/learnings\u003e\n\u003c/viewed_file\u003e\n\n"}]}}],"usageMetadata": {"promptTokenCount": 50458,"candidatesTokenCount": 461,"totalTokenCount": 50919},"modelVersion": "gemini-3.1-flash-lite","responseId": "wrsKapKqAcDnqfkPq4X5iAs"},"traceId": "881f00f0426e1521","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003cviewed_file\u003e\n\t\u003cabsolute_path\u003ef:/AUDIRA-WEB-PERFECT-"}]}}],"usageMetadata": {"promptTokenCount": 50458,"candidatesTokenCount": 485,"totalTokenCount": 50943},"modelVersion": "gemini-3.1-flash-lite","responseId": "wrsKapKqAcDnqfkPq4X5iAs"},"traceId": "881f00f0426e1521","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "WORLD/packages/database/prisma/schema.prisma\u003c/absolute_path\u003e\n\t\u003clines_viewed\u003e"}]}}],"usageMetadata": {"promptTokenCount": 50458,"candidatesTokenCount": 509,"totalTokenCount": 50967},"modelVersion": "gemini-3.1-flash-lite","responseId": "wrsKapKqAcDnqfkPq4X5iAs"},"traceId": "881f00f0426e1521","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "1-100\u003c/lines_viewed\u003e\n\t\u003clearnings\u003eValidated the complex database schema with over"}]}}],"usageMetadata": {"promptTokenCount": 50458,"candidatesTokenCount": 533,"totalTokenCount": 50991},"modelVersion": "gemini-3.1-flash-lite","responseId": "wrsKapKqAcDnqfkPq4X5iAs"},"traceId": "881f00f0426e1521","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " 15 models including User, Character, MarketplaceListing, and Ranking, confirming a robust data layer.\u003c/learnings\u003e\n"}]}}],"usageMetadata": {"promptTokenCount": 50458,"candidatesTokenCount": 558,"totalTokenCount": 51016},"modelVersion": "gemini-3.1-flash-lite","responseId": "wrsKapKqAcDnqfkPq4X5iAs"},"traceId": "881f00f0426e1521","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003c/viewed_file\u003e\n\n\u003cviewed_file\u003e\n\t\u003cabsolute_path\u003ef:/AUDIR"}]}}],"usageMetadata": {"promptTokenCount": 50458,"candidatesTokenCount": 582,"totalTokenCount": 51040},"modelVersion": "gemini-3.1-flash-lite","responseId": "wrsKapKqAcDnqfkPq4X5iAs"},"traceId": "881f00f0426e1521","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "A-WEB-PERFECT-WORLD/apps/web/package.json\u003c/absolute_path\u003e\n\t\u003c"}]}}],"usageMetadata": {"promptTokenCount": 50458,"candidatesTokenCount": 606,"totalTokenCount": 51064},"modelVersion": "gemini-3.1-flash-lite","responseId": "wrsKapKqAcDnqfkPq4X5iAs"},"traceId": "881f00f0426e1521","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "lines_viewed\u003e1-44\u003c/lines_viewed\u003e\n\t\u003clearnings\u003eObserved that the web application"}]}}],"usageMetadata": {"promptTokenCount": 50458,"candidatesTokenCount": 633,"totalTokenCount": 51091},"modelVersion": "gemini-3.1-flash-lite","responseId": "wrsKapKqAcDnqfkPq4X5iAs"},"traceId": "881f00f0426e1521","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " uses Next.js 15+, React 19, and includes essential packages for frontend development like Framer Motion and"}]}}],"usageMetadata": {"promptTokenCount": 50458,"candidatesTokenCount": 658,"totalTokenCount": 51116},"modelVersion": "gemini-3.1-flash-lite","responseId": "wrsKapKqAcDnqfkPq4X5iAs"},"traceId": "881f00f0426e1521","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " GSAP.\u003c/learnings\u003e\n\u003c/viewed_file\u003e\n\n\u003cviewed_file\u003e\n\t\u003cabsolute"}]}}],"usageMetadata": {"promptTokenCount": 50458,"candidatesTokenCount": 682,"totalTokenCount": 51140},"modelVersion": "gemini-3.1-flash-lite","responseId": "wrsKapKqAcDnqfkPq4X5iAs"},"traceId": "881f00f0426e1521","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "_path\u003ef:/AUDIRA-WEB-PERFECT-WORLD/apps/api/src/auth/auth.controller.ts"}]}}],"usageMetadata": {"promptTokenCount": 50458,"candidatesTokenCount": 711,"totalTokenCount": 51169},"modelVersion": "gemini-3.1-flash-lite","responseId": "wrsKapKqAcDnqfkPq4X5iAs"},"traceId": "881f00f0426e1521","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003c/absolute_path\u003e\n\t\u003clines_viewed\u003e1-50\u003c/lines_viewed\u003e\n\t\u003clearnings"}]}}],"usageMetadata": {"promptTokenCount": 50458,"candidatesTokenCount": 739,"totalTokenCount": 51197},"modelVersion": "gemini-3.1-flash-lite","responseId": "wrsKapKqAcDnqfkPq4X5iAs"},"traceId": "881f00f0426e1521","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003eVerified the high code quality of the backend, which utilizes NestJS decorators and DTOs to enforce type safety and robust API design"}]}}],"usageMetadata": {"promptTokenCount": 50458,"candidatesTokenCount": 766,"totalTokenCount": 51224},"modelVersion": "gemini-3.1-flash-lite","responseId": "wrsKapKqAcDnqfkPq4X5iAs"},"traceId": "881f00f0426e1521","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ".\u003c/learnings\u003e\n\u003c/viewed_file\u003e\n\n\u003cviewed_file\u003e\n\t\u003cabsolute_path"}]}}],"usageMetadata": {"promptTokenCount": 50458,"candidatesTokenCount": 790,"totalTokenCount": 51248},"modelVersion": "gemini-3.1-flash-lite","responseId": "wrsKapKqAcDnqfkPq4X5iAs"},"traceId": "881f00f0426e1521","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003ef:/AUDIRA-WEB-PERFECT-WORLD/apps/web/src/app/page."}]}}],"usageMetadata": {"promptTokenCount": 50458,"candidatesTokenCount": 814,"totalTokenCount": 51272},"modelVersion": "gemini-3.1-flash-lite","responseId": "wrsKapKqAcDnqfkPq4X5iAs"},"traceId": "881f00f0426e1521","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "tsx\u003c/absolute_path\u003e\n\t\u003clines_viewed\u003e1-100\u003c/lines_viewed"}]}}],"usageMetadata": {"promptTokenCount": 50458,"candidatesTokenCount": 838,"totalTokenCount": 51296},"modelVersion": "gemini-3.1-flash-lite","responseId": "wrsKapKqAcDnqfkPq4X5iAs"},"traceId": "881f00f0426e1521","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003e\n\t\u003clearnings\u003eDiscovered a fully implemented homepage, which contradicts the \"0% frontend\" status in the project"}]}}],"usageMetadata": {"promptTokenCount": 50458,"candidatesTokenCount": 864,"totalTokenCount": 51322},"modelVersion": "gemini-3.1-flash-lite","responseId": "wrsKapKqAcDnqfkPq4X5iAs"},"traceId": "881f00f0426e1521","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " documentation, showing significant progress.\u003c/learnings\u003e\n\u003c/viewed_file\u003e\n\n\u003cviewed_file\u003e\n"}]}}],"usageMetadata": {"promptTokenCount": 50458,"candidatesTokenCount": 888,"totalTokenCount": 51346},"modelVersion": "gemini-3.1-flash-lite","responseId": "wrsKapKqAcDnqfkPq4X5iAs"},"traceId": "881f00f0426e1521","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\t\u003cabsolute_path\u003ef:/AUDIRA-WEB-PERFECT-WORLD/apps/web/src"}]}}],"usageMetadata": {"promptTokenCount": 50458,"candidatesTokenCount": 912,"totalTokenCount": 51370},"modelVersion": "gemini-3.1-flash-lite","responseId": "wrsKapKqAcDnqfkPq4X5iAs"},"traceId": "881f00f0426e1521","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "/app/dashboard/page.tsx\u003c/absolute_path\u003e\n\t\u003clines_viewed\u003e1-2"}]}}],"usageMetadata": {"promptTokenCount": 50458,"candidatesTokenCount": 936,"totalTokenCount": 51394},"modelVersion": "gemini-3.1-flash-lite","responseId": "wrsKapKqAcDnqfkPq4X5iAs"},"traceId": "881f00f0426e1521","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "36\u003c/lines_viewed\u003e\n\t\u003clearnings\u003eFound that the dashboard page is fully implemented with mock"}]}}],"usageMetadata": {"promptTokenCount": 50458,"candidatesTokenCount": 960,"totalTokenCount": 51418},"modelVersion": "gemini-3.1-flash-lite","responseId": "wrsKapKqAcDnqfkPq4X5iAs"},"traceId": "881f00f0426e1521","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " data, indicating that the frontend is actually well into development.\u003c/learnings\u003e\n\u003c/viewed_file\u003e\n\n\u003c"}]}}],"usageMetadata": {"promptTokenCount": 50458,"candidatesTokenCount": 984,"totalTokenCount": 51442},"modelVersion": "gemini-3.1-flash-lite","responseId": "wrsKapKqAcDnqfkPq4X5iAs"},"traceId": "881f00f0426e1521","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "viewed_code_item\u003e\n\t\u003cnode_identifier\u003eapps/api/src/auth/auth.controller\u003c/node_identifier"}]}}],"usageMetadata": {"promptTokenCount": 50458,"candidatesTokenCount": 1013,"totalTokenCount": 51471},"modelVersion": "gemini-3.1-flash-lite","responseId": "wrsKapKqAcDnqfkPq4X5iAs"},"traceId": "881f00f0426e1521","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003e\n\t\u003clearnings\u003eThe Auth controller implements secure OAuth, 2FA, and JWT rotation, demonstrating a production-ready approach"}]}}],"usageMetadata": {"promptTokenCount": 50458,"candidatesTokenCount": 1041,"totalTokenCount": 51499},"modelVersion": "gemini-3.1-flash-lite","responseId": "wrsKapKqAcDnqfkPq4X5iAs"},"traceId": "881f00f0426e1521","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " to authentication.\u003c/learnings\u003e\n\u003c/viewed_code_item\u003e\n\n\u003cviewed_code_item\u003e\n\t"}]}}],"usageMetadata": {"promptTokenCount": 50458,"candidatesTokenCount": 1067,"totalTokenCount": 51525},"modelVersion": "gemini-3.1-flash-lite","responseId": "wrsKapKqAcDnqfkPq4X5iAs"},"traceId": "881f00f0426e1521","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003cnode_identifier\u003eapps/web/src/components/ClassShowcase\u003c/node_identifier\u003e\n\t\u003clearnings"}]}}],"usageMetadata": {"promptTokenCount": 50458,"candidatesTokenCount": 1093,"totalTokenCount": 51551},"modelVersion": "gemini-3.1-flash-lite","responseId": "wrsKapKqAcDnqfkPq4X5iAs"},"traceId": "881f00f0426e1521","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003eThe ClassShowcase component supports 3D model integration and animation, highlighting the premium/AAA aesthetic goal for the website.\u003c/learnings"}]}}],"usageMetadata": {"promptTokenCount": 50458,"candidatesTokenCount": 1121,"totalTokenCount": 51579},"modelVersion": "gemini-3.1-flash-lite","responseId": "wrsKapKqAcDnqfkPq4X5iAs"},"traceId": "881f00f0426e1521","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003e\n\u003c/viewed_code_item\u003e\n\n\u003cviewed_code_item\u003e\n\t\u003cnode_"}]}}],"usageMetadata": {"promptTokenCount": 50458,"candidatesTokenCount": 1145,"totalTokenCount": 51603},"modelVersion": "gemini-3.1-flash-lite","responseId": "wrsKapKqAcDnqfkPq4X5iAs"},"traceId": "881f00f0426e1521","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "identifier\u003epackages/ui/src/components/NavigationBar\u003c/node_identifier\u003e\n\t\u003clearnings\u003eThe Navigation"}]}}],"usageMetadata": {"promptTokenCount": 50458,"candidatesTokenCount": 1169,"totalTokenCount": 51627},"modelVersion": "gemini-3.1-flash-lite","responseId": "wrsKapKqAcDnqfkPq4X5iAs"},"traceId": "881f00f0426e1521","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "Bar provides core site navigation, supporting the architectural requirement for a modular UI design system.\u003c/learnings\u003e\n\u003c/viewed_code_"}]}}],"usageMetadata": {"promptTokenCount": 50458,"candidatesTokenCount": 1196,"totalTokenCount": 51654},"modelVersion": "gemini-3.1-flash-lite","responseId": "wrsKapKqAcDnqfkPq4X5iAs"},"traceId": "881f00f0426e1521","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "item\u003e"}]}}],"usageMetadata": {"promptTokenCount": 50458,"candidatesTokenCount": 1198,"totalTokenCount": 51656},"modelVersion": "gemini-3.1-flash-lite","responseId": "wrsKapKqAcDnqfkPq4X5iAs"},"traceId": "881f00f0426e1521","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EjQKMgEMOdbHouWygI3FU9fUarkCENvxRUh7BFuxkCDT6Df6nwxeUoGUUyqYnPY7LDnP/8st","text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 50458,"candidatesTokenCount": 1198,"totalTokenCount": 51656},"modelVersion": "gemini-3.1-flash-lite","responseId": "wrsKapKqAcDnqfkPq4X5iAs"},"traceId": "881f00f0426e1521","metadata": {}}
+

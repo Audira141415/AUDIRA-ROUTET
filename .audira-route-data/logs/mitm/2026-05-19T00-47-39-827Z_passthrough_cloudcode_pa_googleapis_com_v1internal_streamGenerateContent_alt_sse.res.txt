@@ -1,0 +1,39 @@
+STATUS: 429
+HEADERS: {
+  "x-cloudaicompanion-trace-id": "76b4f4fc8dfd55fa",
+  "vary": "Origin, X-Origin, Referer",
+  "content-type": "text/event-stream",
+  "date": "Tue, 19 May 2026 00:47:40 GMT",
+  "server": "ESF",
+  "content-length": "679",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=118",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+{
+  "error": {
+    "code": 429,
+    "message": "You have exhausted your capacity on this model. Your quota will reset after 0s.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "RATE_LIMIT_EXCEEDED",
+        "domain": "cloudcode-pa.googleapis.com",
+        "metadata": {
+          "quotaResetDelay": "943.49217ms",
+          "quotaResetTimeStamp": "2026-05-19T00:47:41Z",
+          "uiMessage": "true",
+          "model": "gemini-pro-agent"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "0.943492170s"
+      }
+    ]
+  }
+}

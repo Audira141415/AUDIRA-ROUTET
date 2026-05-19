@@ -1,0 +1,19 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Sat, 16 May 2026 08:23:08 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=2387",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EpYCCpMCAQw51sdcu8wLagWZ/gJsWghEXT1OL2HVc+pCRJC+jzeUDGOle4GzSZKOVnuCPrrjWvaNgjDxbVY8LXKNXGBMfk8XUae0Nl89hQJHohV9fVpxCepbctly2qaOvGkidiXrzLwm3v4qJRQOgkn/gYEpg1Ai/bRs43UGv/bC4iIXBKuG37A1rBMMDS4ZHQva1/9p86vnSSnelIZ1/Vv8Vt2JCds2QfhUcQyH16kMfP2NiiZEjVeq3twRdU3j8NrGjcf631Jz6OJ9++tu0iJpwCII44pU6aAsYpIGFjuR14RJlSQsVDsCfc6Ht+m8ZO0m1rgtzFEhXwq3g2PjRl8gd6CsKC2NCeR85UMd3SiCGLepf1edhKU=","functionCall": {"name": "list_dir","args": {"DirectoryPath": "f:\\AUDIRA-WEB-PERFECT-WORLD\\apps\\api\\src","toolAction": "Listing api src contents","toolSummary": "Directory listing"},"id": "ud5z86wy"}}]}}],"usageMetadata": {"promptTokenCount": 15808,"candidatesTokenCount": 52,"totalTokenCount": 15917,"thoughtsTokenCount": 57},"modelVersion": "gemini-default","responseId": "aykIap7jDcyMjuMP65zF2AI"},"traceId": "9ae71c761f42a5df","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 16093,"candidatesTokenCount": 52,"totalTokenCount": 16202,"cachedContentTokenCount": 12197,"thoughtsTokenCount": 57},"modelVersion": "gemini-default","responseId": "aykIap7jDcyMjuMP65zF2AI"},"traceId": "9ae71c761f42a5df","metadata": {}}
+

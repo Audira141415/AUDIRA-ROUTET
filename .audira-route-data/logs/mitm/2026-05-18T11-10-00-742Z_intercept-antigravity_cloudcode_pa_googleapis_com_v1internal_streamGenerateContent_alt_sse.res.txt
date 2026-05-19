@@ -1,0 +1,17 @@
+STATUS: 200
+HEADERS: {
+  "access-control-allow-origin": "*",
+  "cache-control": "no-cache",
+  "connection": "keep-alive",
+  "content-type": "text/event-stream",
+  "date": "Mon, 18 May 2026 11:10:07 GMT",
+  "transfer-encoding": "chunked",
+  "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+}
+---BODY---
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"functionCall":{"name":"view_file","args":{"AbsolutePath":"f:\\AUDIRA-WEB-SEAL-ONLINE\\package.json","toolAction":"Viewing file","toolSummary":"Root package.json"}}},{"functionCall":{"name":"view_file","args":{"AbsolutePath":"f:\\AUDIRA-WEB-SEAL-ONLINE\\.env.example","toolAction":"Viewing file","toolSummary":"Environment configuration"}}},{"functionCall":{"name":"list_dir","args":{"DirectoryPath":"f:\\AUDIRA-WEB-SEAL-ONLINE\\apps","toolAction":"Listing directory","toolSummary":"Apps directory structure"}}},{"functionCall":{"name":"list_dir","args":{"DirectoryPath":"f:\\AUDIRA-WEB-SEAL-ONLINE\\packages","toolAction":"Listing directory","toolSummary":"Packages directory structure"}}}]},"finishReason":"STOP"}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779102604478","usageMetadata":{"promptTokenCount":20378,"candidatesTokenCount":0,"totalTokenCount":20378}}}
+
+data: [DONE]
+
+data: [DONE]
+

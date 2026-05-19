@@ -1,0 +1,19 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 05:19:17 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=1067",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EuMBCuABAQw51sd+INZHZ1FdMqarwAFobXnc17/a4VG0oJonHPCzY1lv9s9xVAzi1YbwbL8LxMIWy+bo94VzhfosP9ZgZsbAY8v4/xR0DKtyd+yb6ch3WXtMZbEQRshBGV/JxlfxZ/lEH32GLVHN+OC7LPQVvWpHtOf+PoVS0qUjHl0aqr/ddoJ/lGNwid/Tw2kgYNjelkz52yZsULLPbzjvj8gGQxRwPbf+AGPd257fZU1fs9ZZmxNOBgeFPtzbSJ6nsx2RjVnEfb9miM8mEn5VSxXR7xzCUt7Z/EyY4uaQdWPMClA=","functionCall": {"name": "open_browser_url","args": {"toolSummary": "Web search","Url": "http://localhost:3000","explanation": "Open the local development site to view the Vice City Dashboard.","PageIdToReplace": "new_page","toolAction": "Opening local site"},"id": "nm1rnbby"}}]}}],"usageMetadata": {"promptTokenCount": 14544,"candidatesTokenCount": 70,"totalTokenCount": 14657,"thoughtsTokenCount": 43},"modelVersion": "gemini-3-flash","responseId": "VKEKao2sHP-kqfkPk-KQ4Ak"},"traceId": "7b328ea0c7b29920","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 14849,"candidatesTokenCount": 70,"totalTokenCount": 14962,"thoughtsTokenCount": 43},"modelVersion": "gemini-3-flash","responseId": "VKEKao2sHP-kqfkPk-KQ4Ak"},"traceId": "7b328ea0c7b29920","metadata": {}}
+

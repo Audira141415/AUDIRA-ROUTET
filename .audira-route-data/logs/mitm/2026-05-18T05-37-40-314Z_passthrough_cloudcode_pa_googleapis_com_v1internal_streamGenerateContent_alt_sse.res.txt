@@ -1,0 +1,23 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 05:37:44 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=4298",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "I will capture a screenshot of the Videos page to verify that the \"Videos\" navigation item"}]}}],"usageMetadata": {"promptTokenCount": 25947,"candidatesTokenCount": 18,"totalTokenCount": 26009,"thoughtsTokenCount": 44},"modelVersion": "gemini-3-flash","responseId": "paUKatyCJq6mg8UPu-fhyQ0"},"traceId": "7c18abd95eda1c1b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " is correctly highlighted and active."}]}}],"usageMetadata": {"promptTokenCount": 32549,"candidatesTokenCount": 24,"totalTokenCount": 32617,"cachedContentTokenCount": 28410,"thoughtsTokenCount": 44},"modelVersion": "gemini-3-flash","responseId": "paUKatyCJq6mg8UPu-fhyQ0"},"traceId": "7c18abd95eda1c1b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EosCCogCAQw51sfMDYOBQJgAkSSqBPaK5xxcRnyhywIJ7NsqIKrOcwGgkPW5OGWgCs4//xXyI+TGVikM/elSLf0I65JfquW55L34wftYBfMNBeao5QYH4jFodI//r6JeXaHFkftTrX4L9hfSw7GaBaMj8SboytJ7cFejSqyzMo86RAqzM0n4lBMQTgUKjHUDVu0OUmysScEEYE+cy44xfeDXKPHLdjRqcfWeK8Pj0SY6W5Kn2SRN/IcrTztJmPT+bDxN+Z28M1w3cO4Xmnb9XP44zBOrfmYz8ungc7KHSWu+l2RQ9ZcWtFK8c5eufr0uhOZahm5dACvng/5E3+MNW7XuoWS+HGT2w4TZXEth","functionCall": {"name": "capture_browser_screenshot","args": {"CaptureBeyondViewport": false,"explanation": "Captured the Videos page showing active Videos tab","toolSummary": "Capture screenshot","ScreenshotName": "videospage_active","SaveScreenshot": true,"PageID": "5411DAB9590ACD157E5A0154F9BA575B","toolAction": "Capturing screenshot"},"id": "5cd53wa6"}}]}}],"usageMetadata": {"promptTokenCount": 32549,"candidatesTokenCount": 123,"totalTokenCount": 32716,"cachedContentTokenCount": 28410,"thoughtsTokenCount": 44},"modelVersion": "gemini-3-flash","responseId": "paUKatyCJq6mg8UPu-fhyQ0"},"traceId": "7c18abd95eda1c1b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 32549,"candidatesTokenCount": 123,"totalTokenCount": 32716,"cachedContentTokenCount": 28410,"thoughtsTokenCount": 44},"modelVersion": "gemini-3-flash","responseId": "paUKatyCJq6mg8UPu-fhyQ0"},"traceId": "7c18abd95eda1c1b","metadata": {}}
+

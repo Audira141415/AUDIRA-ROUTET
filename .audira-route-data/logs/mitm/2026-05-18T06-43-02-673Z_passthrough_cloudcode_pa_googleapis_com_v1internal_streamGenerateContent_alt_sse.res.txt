@@ -1,0 +1,19 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 06:43:04 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=1658",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EsYDCsMDAQw51scBIAvKTZwgmCle7pXHHnxZFCK0cmvi9wx04N/7GWDAgIKnbQm/sqeAs8xkeyGkc6nKgZAZJEYH0nyxn7pAHy1BlPDhEOqiJSjihH+kVf9NXNs2w9hC/LU+3jC7nRjLV3ehEx8y5N/uGCEbeg0WwgjyFV6menD0OAnVt1a2IG1NzbhT6N1i87hV5Vts9b6H6MKMKCNb6DSSAVzZHzsV2rW+CLI8aqLgABmapALkg3GmVld1xvREY8Le4PBymwPvJoGFEDsnRVr9BIDHmClfNgf6iJWyLaUPwBNO6gjcvk9RZ+rNISK9g3aVJa2VhRupq2MUzcudQCX6P63JhXYCCYAFMURrf6COJLJ67I9zW+GT8w7JeDPhQ6fQ4uozXlj9+RY6URPkzf0/O5YmxqtVBwmCiysrBUaF3wBnZBXyo30NCNkS9j8zQtK31j1Z+7T4ZOZzCsQUwIHsVQKv8k0N59bGorOAmpJuZNt9WMHwTUigIq6gyvb2WEmQ+2XmsCWXbMCTQlqBS2oyenpDPBdTjZcWl0y8ChYocq0EhQi3UVX/SwBRx2aOnWmRDA5ftQmoCRfGxzgAtCLUmIjh9L8O0Q==","functionCall": {"name": "open_browser_url","args": {"explanation": "Open the Vice City Dashboard on localhost port 3000.","toolSummary": "Open dashboard URL","PageIdToReplace": "new_page","toolAction": "Opening browser page","Url": "http://localhost:3000"},"id": "dtisiebf"}}]}}],"usageMetadata": {"promptTokenCount": 14930,"candidatesTokenCount": 73,"totalTokenCount": 15094,"thoughtsTokenCount": 91},"modelVersion": "gemini-3-flash","responseId": "97QKarr_FY-tjuMP7-6zuQQ"},"traceId": "7bdf3e55d70235aa","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 15456,"candidatesTokenCount": 73,"totalTokenCount": 15620,"thoughtsTokenCount": 91},"modelVersion": "gemini-3-flash","responseId": "97QKarr_FY-tjuMP7-6zuQQ"},"traceId": "7bdf3e55d70235aa","metadata": {}}
+

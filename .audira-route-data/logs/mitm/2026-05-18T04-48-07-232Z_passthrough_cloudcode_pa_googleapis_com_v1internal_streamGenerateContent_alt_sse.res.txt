@@ -1,0 +1,81 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 04:48:08 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=1441",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003cedited"}]}}],"usageMetadata": {"promptTokenCount": 55508,"candidatesTokenCount": 2,"totalTokenCount": 55510},"modelVersion": "gemini-3.1-flash-lite","responseId": "B5oKasSbIf-jjuMPla_DsAQ"},"traceId": "2d818e122b8d19a","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "_file\u003e\n\t\u003ctarget_file\u003ef:\\AUDIRA-BUG"}]}}],"usageMetadata": {"promptTokenCount": 55508,"candidatesTokenCount": 19,"totalTokenCount": 55527},"modelVersion": "gemini-3.1-flash-lite","responseId": "B5oKasSbIf-jjuMPla_DsAQ"},"traceId": "2d818e122b8d19a","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "-HUTTER\\apps\\web\\package.json\u003c/target_file\u003e\n\t\u003clines_modified\u003e1-33"}]}}],"usageMetadata": {"promptTokenCount": 55508,"candidatesTokenCount": 47,"totalTokenCount": 55555},"modelVersion": "gemini-3.1-flash-lite","responseId": "B5oKasSbIf-jjuMPla_DsAQ"},"traceId": "2d818e122b8d19a","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003c/lines_modified\u003e\n\t\u003cedit_summary\u003eExamined package dependencies to assess project stack and maturity level.\u003c/edit_summary\u003e"}]}}],"usageMetadata": {"promptTokenCount": 55508,"candidatesTokenCount": 75,"totalTokenCount": 55583},"modelVersion": "gemini-3.1-flash-lite","responseId": "B5oKasSbIf-jjuMPla_DsAQ"},"traceId": "2d818e122b8d19a","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\n\u003c/edited_file\u003e\n\n\u003cviewed_file\u003e\n\t\u003cabsolute_path\u003ef:\\AUDIR"}]}}],"usageMetadata": {"promptTokenCount": 55508,"candidatesTokenCount": 99,"totalTokenCount": 55607},"modelVersion": "gemini-3.1-flash-lite","responseId": "B5oKasSbIf-jjuMPla_DsAQ"},"traceId": "2d818e122b8d19a","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "A-BUG-HUTTER\\apps\\web\\package.json\u003c/absolute_path\u003e\n\t\u003clines"}]}}],"usageMetadata": {"promptTokenCount": 55508,"candidatesTokenCount": 123,"totalTokenCount": 55631},"modelVersion": "gemini-3.1-flash-lite","responseId": "B5oKasSbIf-jjuMPla_DsAQ"},"traceId": "2d818e122b8d19a","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "_viewed\u003e1-33\u003c/lines_viewed\u003e\n\t\u003clearnings\u003eIdentified the project as a web"}]}}],"usageMetadata": {"promptTokenCount": 55508,"candidatesTokenCount": 150,"totalTokenCount": 55658},"modelVersion": "gemini-3.1-flash-lite","responseId": "B5oKasSbIf-jjuMPla_DsAQ"},"traceId": "2d818e122b8d19a","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " application using Next.js 15, React 19, Tailwind CSS, and Framer Motion, suggesting a modern frontend-"}]}}],"usageMetadata": {"promptTokenCount": 55508,"candidatesTokenCount": 177,"totalTokenCount": 55685},"modelVersion": "gemini-3.1-flash-lite","responseId": "B5oKasSbIf-jjuMPla_DsAQ"},"traceId": "2d818e122b8d19a","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "focused development stage.\u003c/learnings\u003e\n\u003c/viewed_file\u003e\n\n\u003cviewed_file\u003e\n\t\u003cabsolute_"}]}}],"usageMetadata": {"promptTokenCount": 55508,"candidatesTokenCount": 203,"totalTokenCount": 55711},"modelVersion": "gemini-3.1-flash-lite","responseId": "B5oKasSbIf-jjuMPla_DsAQ"},"traceId": "2d818e122b8d19a","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "path\u003ef:\\AUDIRA-BUG-HUTTER\\apps\\web\\app\\dashboard\\page."}]}}],"usageMetadata": {"promptTokenCount": 55508,"candidatesTokenCount": 227,"totalTokenCount": 55735},"modelVersion": "gemini-3.1-flash-lite","responseId": "B5oKasSbIf-jjuMPla_DsAQ"},"traceId": "2d818e122b8d19a","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "tsx\u003c/absolute_path\u003e\n\t\u003clines_viewed\u003e1-800\u003c/lines_viewed"}]}}],"usageMetadata": {"promptTokenCount": 55508,"candidatesTokenCount": 251,"totalTokenCount": 55759},"modelVersion": "gemini-3.1-flash-lite","responseId": "B5oKasSbIf-jjuMPla_DsAQ"},"traceId": "2d818e122b8d19a","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003e\n\t\u003clearnings\u003eConfirmed the dashboard page is a highly interactive, feature-rich interface with mock data and"}]}}],"usageMetadata": {"promptTokenCount": 55508,"candidatesTokenCount": 275,"totalTokenCount": 55783},"modelVersion": "gemini-3.1-flash-lite","responseId": "B5oKasSbIf-jjuMPla_DsAQ"},"traceId": "2d818e122b8d19a","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " real-time simulations, indicating a functional prototype or MVP stage.\u003c/learnings\u003e\n\u003c/viewed_file\u003e\n\n\u003cviewed_file"}]}}],"usageMetadata": {"promptTokenCount": 55508,"candidatesTokenCount": 304,"totalTokenCount": 55812},"modelVersion": "gemini-3.1-flash-lite","responseId": "B5oKasSbIf-jjuMPla_DsAQ"},"traceId": "2d818e122b8d19a","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003e\n\t\u003cabsolute_path\u003ef:\\AUDIRA-BUG-HUTTER\\package.json\u003c/"}]}}],"usageMetadata": {"promptTokenCount": 55508,"candidatesTokenCount": 328,"totalTokenCount": 55836},"modelVersion": "gemini-3.1-flash-lite","responseId": "B5oKasSbIf-jjuMPla_DsAQ"},"traceId": "2d818e122b8d19a","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "absolute_path\u003e\n\t\u003clines_viewed\u003e1-21\u003c/lines_viewed\u003e\n\t"}]}}],"usageMetadata": {"promptTokenCount": 55508,"candidatesTokenCount": 352,"totalTokenCount": 55860},"modelVersion": "gemini-3.1-flash-lite","responseId": "B5oKasSbIf-jjuMPla_DsAQ"},"traceId": "2d818e122b8d19a","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003clearnings\u003eConfirmed this is a monorepo structure containing apps, services, and packages, suggesting a scalable project architecture beyond"}]}}],"usageMetadata": {"promptTokenCount": 55508,"candidatesTokenCount": 378,"totalTokenCount": 55886},"modelVersion": "gemini-3.1-flash-lite","responseId": "B5oKasSbIf-jjuMPla_DsAQ"},"traceId": "2d818e122b8d19a","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " just a simple website.\u003c/learnings\u003e\n\u003c/viewed_file\u003e\n\n\u003cviewed_file\u003e\n\t\u003cabsolute_"}]}}],"usageMetadata": {"promptTokenCount": 55508,"candidatesTokenCount": 405,"totalTokenCount": 55913},"modelVersion": "gemini-3.1-flash-lite","responseId": "B5oKasSbIf-jjuMPla_DsAQ"},"traceId": "2d818e122b8d19a","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "path\u003ef:\\AUDIRA-BUG-HUTTER\\apps\\web\\app\\targets\\page."}]}}],"usageMetadata": {"promptTokenCount": 55508,"candidatesTokenCount": 429,"totalTokenCount": 55937},"modelVersion": "gemini-3.1-flash-lite","responseId": "B5oKasSbIf-jjuMPla_DsAQ"},"traceId": "2d818e122b8d19a","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "tsx\u003c/absolute_path\u003e\n\t\u003clines_viewed\u003e1-800\u003c/lines_viewed"}]}}],"usageMetadata": {"promptTokenCount": 55508,"candidatesTokenCount": 453,"totalTokenCount": 55961},"modelVersion": "gemini-3.1-flash-lite","responseId": "B5oKasSbIf-jjuMPla_DsAQ"},"traceId": "2d818e122b8d19a","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003e\n\t\u003clearnings\u003eViewed detailed implementation of the targets management, which includes complex states for scanning and note"}]}}],"usageMetadata": {"promptTokenCount": 55508,"candidatesTokenCount": 477,"totalTokenCount": 55985},"modelVersion": "gemini-3.1-flash-lite","responseId": "B5oKasSbIf-jjuMPla_DsAQ"},"traceId": "2d818e122b8d19a","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "-taking, highlighting a high degree of feature implementation.\u003c/learnings\u003e\n\u003c/viewed_file\u003e\n\n\u003cview"}]}}],"usageMetadata": {"promptTokenCount": 55508,"candidatesTokenCount": 501,"totalTokenCount": 56009},"modelVersion": "gemini-3.1-flash-lite","responseId": "B5oKasSbIf-jjuMPla_DsAQ"},"traceId": "2d818e122b8d19a","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "ed_file\u003e\n\t\u003cabsolute_path\u003ef:\\AUDIRA-BUG-HUTTER\\apps"}]}}],"usageMetadata": {"promptTokenCount": 55508,"candidatesTokenCount": 525,"totalTokenCount": 56033},"modelVersion": "gemini-3.1-flash-lite","responseId": "B5oKasSbIf-jjuMPla_DsAQ"},"traceId": "2d818e122b8d19a","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\\web\\app\\listeners\\page.tsx\u003c/absolute_path\u003e\n\t\u003clines_viewed\u003e1"}]}}],"usageMetadata": {"promptTokenCount": 55508,"candidatesTokenCount": 549,"totalTokenCount": 56057},"modelVersion": "gemini-3.1-flash-lite","responseId": "B5oKasSbIf-jjuMPla_DsAQ"},"traceId": "2d818e122b8d19a","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "-800\u003c/lines_viewed\u003e\n\t\u003clearnings\u003eObserved comprehensive listener management logic with mock state, filtering, and"}]}}],"usageMetadata": {"promptTokenCount": 55508,"candidatesTokenCount": 578,"totalTokenCount": 56086},"modelVersion": "gemini-3.1-flash-lite","responseId": "B5oKasSbIf-jjuMPla_DsAQ"},"traceId": "2d818e122b8d19a","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " connection tracking, further reinforcing that the project is in a well-developed, feature-complete MVP or early beta phase.\u003c/learnings\u003e"}]}}],"usageMetadata": {"promptTokenCount": 55508,"candidatesTokenCount": 605,"totalTokenCount": 56113},"modelVersion": "gemini-3.1-flash-lite","responseId": "B5oKasSbIf-jjuMPla_DsAQ"},"traceId": "2d818e122b8d19a","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\n\u003c/viewed_file\u003e\n\n\u003cviewed_code_item\u003e\n\t\u003cnode_identifier\u003evul"}]}}],"usageMetadata": {"promptTokenCount": 55508,"candidatesTokenCount": 629,"totalTokenCount": 56137},"modelVersion": "gemini-3.1-flash-lite","responseId": "B5oKasSbIf-jjuMPla_DsAQ"},"traceId": "2d818e122b8d19a","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "nx-hunter-monorepo\u003c/node_identifier\u003e\n\t\u003clearnings\u003eThe project structure is well-organized"}]}}],"usageMetadata": {"promptTokenCount": 55508,"candidatesTokenCount": 654,"totalTokenCount": 56162},"modelVersion": "gemini-3.1-flash-lite","responseId": "B5oKasSbIf-jjuMPla_DsAQ"},"traceId": "2d818e122b8d19a","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " as a monorepo with multiple micro-services (api, scanner) and frontend apps, signaling an advanced development phase where core logic is separated"}]}}],"usageMetadata": {"promptTokenCount": 55508,"candidatesTokenCount": 683,"totalTokenCount": 56191},"modelVersion": "gemini-3.1-flash-lite","responseId": "B5oKasSbIf-jjuMPla_DsAQ"},"traceId": "2d818e122b8d19a","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " from UI.\u003c/learnings\u003e\n\u003c/viewed_code_item\u003e\n\n\u003cviewed_code_item\u003e\n\t"}]}}],"usageMetadata": {"promptTokenCount": 55508,"candidatesTokenCount": 709,"totalTokenCount": 56217},"modelVersion": "gemini-3.1-flash-lite","responseId": "B5oKasSbIf-jjuMPla_DsAQ"},"traceId": "2d818e122b8d19a","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003cnode_identifier\u003eDashboard\u003c/node_identifier\u003e\n\t\u003clearnings\u003eThe UI layer is highly polished with extensive"}]}}],"usageMetadata": {"promptTokenCount": 55508,"candidatesTokenCount": 734,"totalTokenCount": 56242},"modelVersion": "gemini-3.1-flash-lite","responseId": "B5oKasSbIf-jjuMPla_DsAQ"},"traceId": "2d818e122b8d19a","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " use of Tailwind CSS and Lucide icons, indicating the project has moved past basic scaffolding and is focusing on UX and feature depth"}]}}],"usageMetadata": {"promptTokenCount": 55508,"candidatesTokenCount": 759,"totalTokenCount": 56267},"modelVersion": "gemini-3.1-flash-lite","responseId": "B5oKasSbIf-jjuMPla_DsAQ"},"traceId": "2d818e122b8d19a","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ".\u003c/learnings\u003e\n\u003c/viewed_code_item\u003e"}]}}],"usageMetadata": {"promptTokenCount": 55508,"candidatesTokenCount": 772,"totalTokenCount": 56280},"modelVersion": "gemini-3.1-flash-lite","responseId": "B5oKasSbIf-jjuMPla_DsAQ"},"traceId": "2d818e122b8d19a","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EjQKMgEMOdbHCYyd34GOZZNyXV8mKVs0UG1DvigH6NXHcYUR2Wt0ZRiBRL2e8+02G2UBF4pL","text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 55508,"candidatesTokenCount": 772,"totalTokenCount": 56280},"modelVersion": "gemini-3.1-flash-lite","responseId": "B5oKasSbIf-jjuMPla_DsAQ"},"traceId": "2d818e122b8d19a","metadata": {}}
+

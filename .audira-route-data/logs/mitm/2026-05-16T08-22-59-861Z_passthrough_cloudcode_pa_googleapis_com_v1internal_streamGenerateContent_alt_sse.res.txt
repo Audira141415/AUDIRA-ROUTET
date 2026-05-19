@@ -1,0 +1,21 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Sat, 16 May 2026 08:23:03 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=2551",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EqACCp0CAQw51sfZwjJUe/2IwS3AsXbXv1CEg5dlX4RfMgrSV+ddDrxV3xfWwXbnQ90oSKEghxjaMy3zTOWT+YSNPJaEimTX9Zs1+PsT7iDdeM3DCt1o5OlMrrNEjX6zBgr1t1GPkY/BnPrSx+dRglF6yMPfiatkp7rmVrObNvOXg4rVOu7Xt2YiLE6GrCdfXSoS5TbmQb4tGbBKvX+KbQjXoT+rrpAdZbe7AArpmBJaqK3yQnWxPg17uLCJ2dCM/G5VrJ6FMIfu7/hpC3jctse19Jd6icxZ1a9uAQHha3fzJrwkHR1hmJw3UZwBONUptpszc0u33uSqzYGjmU487piTsuULgM67tYy+h5vBL7Rl3WLv8oMRhvRutqnui2iNdCtQ","functionCall": {"name": "list_dir","args": {"DirectoryPath": "f:\\AUDIRA-WEB-PERFECT-WORLD\\apps","toolSummary": "Directory listing","toolAction": "Listing apps directory contents"},"id": "hzwclxwn"}}]}}],"usageMetadata": {"promptTokenCount": 14868,"candidatesTokenCount": 48,"totalTokenCount": 14974,"thoughtsTokenCount": 58},"modelVersion": "gemini-default","responseId": "ZSkIauyxKJHVg8UPk7_LgQk"},"traceId": "939228bbd96a2da3","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"functionCall": {"name": "list_dir","args": {"toolAction": "Listing packages directory contents","DirectoryPath": "f:\\AUDIRA-WEB-PERFECT-WORLD\\packages","toolSummary": "Directory listing"},"id": "ips2iot6"}}]}}],"usageMetadata": {"promptTokenCount": 14868,"candidatesTokenCount": 96,"totalTokenCount": 15022,"thoughtsTokenCount": 58},"modelVersion": "gemini-default","responseId": "ZSkIauyxKJHVg8UPk7_LgQk"},"traceId": "939228bbd96a2da3","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 14978,"candidatesTokenCount": 96,"totalTokenCount": 15132,"cachedContentTokenCount": 12220,"thoughtsTokenCount": 58},"modelVersion": "gemini-default","responseId": "ZSkIauyxKJHVg8UPk7_LgQk"},"traceId": "939228bbd96a2da3","metadata": {}}
+

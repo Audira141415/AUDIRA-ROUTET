@@ -1,0 +1,19 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 05:31:32 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=2531",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EoULCoILAQw51sfv3taj8KbCTDmln5Y4e8LsyNe5Pd10rAJ9lalR3IVz5hUFR/V+IGo/sfUAAxK5Q6sKReuHcfbnBqKZ4Hvh3I/E8qBO1CVG0IXLrq3X9Qp0EgpuayiJoOGzL7X0VpAW2e43ugNVr5Dv0SZtb7oU67uAQLtYMQW0RTtHj95ENagrIkuGUn/85hcdsAoqux62Pf1eR61enoWThc02O7O1UI8pbkO/V+5UnCWoQKOwbCrZCvYWPzWc+7dC7RM6HhzO1yClemMby1fnWpOIHkXkjxvLoeRO6HESlSdVzJdef+JQt01sxjGF8r0s4SefpEkDrj/iGTpGi06kIGkbyzbTrCW9QdAmRSI2Zod2HSfMkbcbU2Io0B96W+TDVUVrOOKZUH4HEQ3o2ERWhVXPa2rI4Nrrbz7F6GoOya0H8Z/e/u+PtUvVLS0fohJhVszdeZ869k31B+EtpAd8qtHugP2se7d/+QEk0XMWzUfjB5z6ZHlQOZo9zuQl8s19BTfJ3y5vTOtQJoWB8CEf+o+IVwmmK31YeuQwg/3F3bGrMswi2uwP1wmPed6HvE4Z/ON6EI3G10fo8VIMc5G05kjbGH0SolwwA64TI0GdQuOStijye6gSwR202dfsnlntcX4S+w2B4KYnyDYtNPjxXo6R7SXcP1qTFUkvNJ55zqrw22QavgZfY149KIwzxAfM+yLEBlpHe2LtV9wb1tvng8PCNr//axsoAeSmpqZLJE+WGwiN0VVGwfcKsiWZaBy/gePswnsgZQbxR64oDq/gruHkBki0Y6v69D52BLc7nk5IqfLQsSfiLFm3hT/UVVjV2IdExIG4Mjv1gtr72Yam15R2QQISAXYxxrnKlL6lgdCMIL+rPaZMU/nY0bPBVRK9sNtgHvCCof/g9I/J+XvsrsvMKZlEzIPpZnBFFvFvoNdy/qZW8bPhWpWVUYV4KewgoQZ4KfnT8CgjKrAblQmq6gtDmvmVP0qOnp5FbQIZMVrXXFNDWJ7jElr/nRvbMx7JWRG4YBgxejAPyPbROpoTFyC6MwDMHdwDEIOOoQV1UV2zFH3JtigviEfwk1aa6ymOfaqREfyH/L9+DV5g4ugWEYHYI4P6fXLNsMj4izad5U0Q7yuBovJ2hPaVlx6AB8cjnjrqjruOQID03oMaVC8P2HJfab9wcp254KcRj61E8ZLxf9Q1rcgN7Gnjr6IhGvCnz0q+skmM/U5B7x1/kQV/318i1q/U6VxmKePuBEY5UokLt9jTXFq9HVqOFHaHr26L+nm69itGnXFcdWccyri5Gxb/Dy3HIFcweJr3a5p8tOQKzfRdH2BrvZ8o5PYEY/IKbJHqbg/77m1vFl3RynP/XySpaCJxdCrsOWiSsS2NFrZLmCI+5PgdEEUmjSkZGCLn9aCS0qpyI/ahd5fJubyeCz34jkWOpwZbzar1aS/moJfUYrc1L/3cmLjtciCKqz0APG2Fs5W/9bu2+JtAxXHUFlrNxykATk8wEX/v94Yx2EUpLiUW7VcuYGwJ87S0dNoaobzrW6/aCdUmI/Vpv4mNgnZclTao33QTAFKkOkN5ZgSxXjA6t06ClkE1gbP7v2jJbbUzIDGi1mLpNzDIDkGGB7RD5M818wCO9uxN2GUfyPM7z+3iclBeNpSl3eFW7PooJLkXgt8cWk/wGV2CZXArjMmttD3lYsiccjYnEm6vZPsnEKDyhd4MgRVAh9gY3lsSoVsx9bjkE80/mNaRQsfiZJFsic98VtH1mQ0c/TaptHK0/xxd3CRfSDYFGReS6X2j5xNdW6tLkosS4yb5qulfMdAREp6AUDIUh5GB0RbvaxawznRU49H6DonCt9NEmhfP/Bec8Dr7GdiBMKDcwd/4N7Uc+tKA","functionCall": {"name": "wait","args": {"toolSummary": "Waiting","toolAction": "Waiting for server","duration_ms": 10000,"explanation": "Wait for the development server to fully bind and start accepting connections."},"id": "qllubeni"}}]}}],"usageMetadata": {"promptTokenCount": 24856,"candidatesTokenCount": 52,"totalTokenCount": 25222,"thoughtsTokenCount": 314},"modelVersion": "gemini-3-flash","responseId": "MaQKatHkOLzp4-EPstWA6Q0"},"traceId": "a458f5f2eede5fe","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 29623,"candidatesTokenCount": 52,"totalTokenCount": 29989,"cachedContentTokenCount": 24256,"thoughtsTokenCount": 314},"modelVersion": "gemini-3-flash","responseId": "MaQKatHkOLzp4-EPstWA6Q0"},"traceId": "a458f5f2eede5fe","metadata": {}}
+

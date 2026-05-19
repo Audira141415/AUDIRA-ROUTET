@@ -1,0 +1,21 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 11:16:37 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=1406",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "I will reload the page by opening the URL http://localhost:3327/ again."}]}}],"usageMetadata": {"promptTokenCount": 14530,"candidatesTokenCount": 20,"totalTokenCount": 14604,"thoughtsTokenCount": 54},"modelVersion": "gemini-3-flash","responseId": "FPUKatLLA8Xz4-EPpdCc4A0"},"traceId": "fe0ac4cf940a93de","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EtMCCtACAQw51scaEDYkEY7bINZs9CoR3Ok9oT1QwBkHnQ7wTjvmJRe6lgoT7sLKDhCRx8t6elfKAQR9hv9l/5x37+eY2QpwGELLfC6ABHaxtWupbLSlEJq3rv3i3iSOdK9DNVRnlrnfE7e3yVW8UdZo32beTLvKH53Lf5xJPgbX9wXjMDwaBb33yjPXrPOFdH4SqxXbimW5wuGrpLmyOZySMj/h8bRn8Q7GmBVClMFaPyMJ5Wd9l5wc4HMoVXCKCTT+QHT7TA7qooGCB52IuyE3KsZskYQxfqAtp9TQKZl/AQ832BEyDmkcwGlFG0YbdpCxWXvvKUT1Ef5IFDiPz00NFC4w6bOquENjszC9c+1GdYVgycOMWoxc1pG+VpSHnaDHa5EC7ccX2qSi0Dn5kp49LDmhDOOgjGXttC1Ygtd56MovVUjOG5hJCb9qUBcyQq7Lxbqm","functionCall": {"name": "open_browser_url","args": {"toolSummary": "Open browser URL","Url": "http://localhost:3327/","explanation": "Reloading the URL to fetch the latest changes.","toolAction": "Opening browser URL","PageIdToReplace": "FF3D809AAA5D5D69694282B442231F52"},"id": "wdegz4fp"}}]}}],"usageMetadata": {"promptTokenCount": 15001,"candidatesTokenCount": 116,"totalTokenCount": 15171,"thoughtsTokenCount": 54},"modelVersion": "gemini-3-flash","responseId": "FPUKatLLA8Xz4-EPpdCc4A0"},"traceId": "fe0ac4cf940a93de","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 15001,"candidatesTokenCount": 116,"totalTokenCount": 15171,"thoughtsTokenCount": 54},"modelVersion": "gemini-3-flash","responseId": "FPUKatLLA8Xz4-EPpdCc4A0"},"traceId": "fe0ac4cf940a93de","metadata": {}}
+

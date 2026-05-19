@@ -1,0 +1,27 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Sat, 16 May 2026 08:17:05 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=2563",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]}}],"usageMetadata": {"promptTokenCount": 17290,"candidatesTokenCount": 20,"totalTokenCount": 17310,"cachedContentTokenCount": 13862},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5vAEpdP9489ER6yG9Rp"},"traceId": "fd742f50674a3e1a","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"functionCall": {"name": "list_dir","args": {"toolAction": "Exploring apps directory","toolSummary": "Apps structure analysis","DirectoryPath": "f:\\AUDIRA-WEB-PERFECT-WORLD\\apps"},"id": "toolu_vrtx_012y5kUob2u5eWPNzQJUqEmx"}}]}}],"usageMetadata": {"promptTokenCount": 17290,"candidatesTokenCount": 20,"totalTokenCount": 17310,"cachedContentTokenCount": 13862},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5vAEpdP9489ER6yG9Rp"},"traceId": "fd742f50674a3e1a","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"functionCall": {"name": "list_dir","args": {"DirectoryPath": "f:\\AUDIRA-WEB-PERFECT-WORLD\\packages","toolAction": "Exploring packages directory","toolSummary": "Packages structure analysis"},"id": "toolu_vrtx_012Wd6WVMGhpCZpRXxJrog73"}}]}}],"usageMetadata": {"promptTokenCount": 17290,"candidatesTokenCount": 20,"totalTokenCount": 17310,"cachedContentTokenCount": 13862},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5vAEpdP9489ER6yG9Rp"},"traceId": "fd742f50674a3e1a","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"functionCall": {"name": "view_file","args": {"toolSummary": "Root package.json","AbsolutePath": "f:\\AUDIRA-WEB-PERFECT-WORLD\\package.json","toolAction": "Reading package.json"},"id": "toolu_vrtx_01VacpTLcex1WYGcdNU5ZGaQ"}}]}}],"usageMetadata": {"promptTokenCount": 17290,"candidatesTokenCount": 20,"totalTokenCount": 17310,"cachedContentTokenCount": 13862},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5vAEpdP9489ER6yG9Rp"},"traceId": "fd742f50674a3e1a","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"functionCall": {"name": "view_file","args": {"AbsolutePath": "f:\\AUDIRA-WEB-PERFECT-WORLD\\docker-compose.yml","toolAction": "Reading docker-compose","toolSummary": "Docker compose config"},"id": "toolu_vrtx_01GrNJRxxbsTEJdoUz9dKETu"}}]}}],"usageMetadata": {"promptTokenCount": 17290,"candidatesTokenCount": 20,"totalTokenCount": 17310,"cachedContentTokenCount": 13862},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5vAEpdP9489ER6yG9Rp"},"traceId": "fd742f50674a3e1a","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 17290,"candidatesTokenCount": 411,"totalTokenCount": 17701,"cachedContentTokenCount": 13862},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5vAEpdP9489ER6yG9Rp"},"traceId": "fd742f50674a3e1a","metadata": {}}
+

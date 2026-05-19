@@ -1,0 +1,21 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Sat, 16 May 2026 08:11:26 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=3014",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]}}],"usageMetadata": {"promptTokenCount": 44105,"candidatesTokenCount": 24,"totalTokenCount": 44129,"cachedContentTokenCount": 43108},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ujHBp1c6iathUUFqFV"},"traceId": "8d983130317a691b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"functionCall": {"name": "multi_replace_file_content","args": {"Instruction": "Fix archive cleanup reference dan update CONVENTIONS.md path save.bat","Description": "archive_name direname menjadi archive_path supaya cleanup menghapus file yang benar di root project.","ReplacementChunks": [{"EndLine": 105,"AllowMultiple": false,"TargetContent": "        if os.path.exists(archive_name):\n            os.remove(archive_name)","ReplacementContent": "        if os.path.exists(archive_path):\n            os.remove(archive_path)","StartLine": 104}],"toolAction": "Fixing archive cleanup path","toolSummary": "Fix deploy.py archive cleanup","TargetFile": "f:\\AUDIRA-TOPUPGAME\\scripts\\deploy\\deploy.py"},"id": "toolu_vrtx_01Xc8BUKRWp3zcuRFY2Zrigs"}}]}}],"usageMetadata": {"promptTokenCount": 44105,"candidatesTokenCount": 24,"totalTokenCount": 44129,"cachedContentTokenCount": 43108},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ujHBp1c6iathUUFqFV"},"traceId": "8d983130317a691b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 44105,"candidatesTokenCount": 318,"totalTokenCount": 44423,"cachedContentTokenCount": 43108},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5ujHBp1c6iathUUFqFV"},"traceId": "8d983130317a691b","metadata": {}}
+

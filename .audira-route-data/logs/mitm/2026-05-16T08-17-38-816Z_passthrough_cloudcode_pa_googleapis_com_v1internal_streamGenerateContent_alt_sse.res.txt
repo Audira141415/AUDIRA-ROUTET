@@ -1,0 +1,39 @@
+STATUS: 429
+HEADERS: {
+  "x-cloudaicompanion-trace-id": "54452f4d25c5ec3c",
+  "vary": "Origin, X-Origin, Referer",
+  "content-type": "text/event-stream",
+  "date": "Sat, 16 May 2026 08:17:40 GMT",
+  "server": "ESF",
+  "content-length": "690",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=957",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+{
+  "error": {
+    "code": 429,
+    "message": "You have exhausted your capacity on this model. Your quota will reset after 1h5m25s.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "QUOTA_EXHAUSTED",
+        "domain": "cloudcode-pa.googleapis.com",
+        "metadata": {
+          "uiMessage": "true",
+          "model": "claude-sonnet-4-6",
+          "quotaResetDelay": "1h5m25.483440408s",
+          "quotaResetTimeStamp": "2026-05-16T09:23:06Z"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "3925.483440408s"
+      }
+    ]
+  }
+}

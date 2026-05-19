@@ -1,0 +1,83 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 05:03:55 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=2304",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003cedited_file\u003e\n    \u003ctarget_file\u003ef"}]}}],"usageMetadata": {"promptTokenCount": 95358,"candidatesTokenCount": 13,"totalTokenCount": 95371},"modelVersion": "gemini-3.1-flash-lite","responseId": "up0KaumuMd-ajuMPrK3WyQQ"},"traceId": "221dba16cd245e43","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ":\\AUDIRA-BUG-HUTTER\\packages\\database\\prisma\\schema.prisma\u003c/target_file"}]}}],"usageMetadata": {"promptTokenCount": 95358,"candidatesTokenCount": 37,"totalTokenCount": 95395},"modelVersion": "gemini-3.1-flash-lite","responseId": "up0KaumuMd-ajuMPrK3WyQQ"},"traceId": "221dba16cd245e43","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003e\n    \u003clines_modified\u003e1-202\u003c/lines_modified\u003e\n    \u003cedit_summary"}]}}],"usageMetadata": {"promptTokenCount": 95358,"candidatesTokenCount": 61,"totalTokenCount": 95419},"modelVersion": "gemini-3.1-flash-lite","responseId": "up0KaumuMd-ajuMPrK3WyQQ"},"traceId": "221dba16cd245e43","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003eUpdated Prisma schema to add Listener and Connection models, enums for ListenerStatus/Type, and updated relationships for comprehensive"}]}}],"usageMetadata": {"promptTokenCount": 95358,"candidatesTokenCount": 85,"totalTokenCount": 95443},"modelVersion": "gemini-3.1-flash-lite","responseId": "up0KaumuMd-ajuMPrK3WyQQ"},"traceId": "221dba16cd245e43","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " feature support.\u003c/edit_summary\u003e\n\u003c/edited_file\u003e\n\n\u003cedited_file\u003e\n    \u003ctarget_file\u003e"}]}}],"usageMetadata": {"promptTokenCount": 95358,"candidatesTokenCount": 111,"totalTokenCount": 95469},"modelVersion": "gemini-3.1-flash-lite","responseId": "up0KaumuMd-ajuMPrK3WyQQ"},"traceId": "221dba16cd245e43","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "f:\\AUDIRA-BUG-HUTTER\\services\\api\\src\\app.module.ts\u003c/target"}]}}],"usageMetadata": {"promptTokenCount": 95358,"candidatesTokenCount": 136,"totalTokenCount": 95494},"modelVersion": "gemini-3.1-flash-lite","responseId": "up0KaumuMd-ajuMPrK3WyQQ"},"traceId": "221dba16cd245e43","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "_file\u003e\n    \u003clines_modified\u003e3-4;12-14\u003c/lines_modified\u003e\n"}]}}],"usageMetadata": {"promptTokenCount": 95358,"candidatesTokenCount": 161,"totalTokenCount": 95519},"modelVersion": "gemini-3.1-flash-lite","responseId": "up0KaumuMd-ajuMPrK3WyQQ"},"traceId": "221dba16cd245e43","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "    \u003cedit_summary\u003eRegistered VulnerabilityModule and ListenerModule in the main AppModule to enable backend functionality for these domains"}]}}],"usageMetadata": {"promptTokenCount": 95358,"candidatesTokenCount": 185,"totalTokenCount": 95543},"modelVersion": "gemini-3.1-flash-lite","responseId": "up0KaumuMd-ajuMPrK3WyQQ"},"traceId": "221dba16cd245e43","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ".\u003c/edit_summary\u003e\n\u003c/edited_file\u003e\n\n\u003cviewed_file\u003e\n    \u003cabsolute_path\u003ef"}]}}],"usageMetadata": {"promptTokenCount": 95358,"candidatesTokenCount": 211,"totalTokenCount": 95569},"modelVersion": "gemini-3.1-flash-lite","responseId": "up0KaumuMd-ajuMPrK3WyQQ"},"traceId": "221dba16cd245e43","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ":\\AUDIRA-BUG-HUTTER\\apps\\web\\app\\dashboard\\page.tsx\u003c/absolute_path\u003e\n    "}]}}],"usageMetadata": {"promptTokenCount": 95358,"candidatesTokenCount": 240,"totalTokenCount": 95598},"modelVersion": "gemini-3.1-flash-lite","responseId": "up0KaumuMd-ajuMPrK3WyQQ"},"traceId": "221dba16cd245e43","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003clines_viewed\u003e1-800\u003c/lines_viewed\u003e\n    \u003clearnings\u003eConfirmed"}]}}],"usageMetadata": {"promptTokenCount": 95358,"candidatesTokenCount": 264,"totalTokenCount": 95622},"modelVersion": "gemini-3.1-flash-lite","responseId": "up0KaumuMd-ajuMPrK3WyQQ"},"traceId": "221dba16cd245e43","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " the dashboard page is a highly interactive, feature-rich interface with mock data and real-time simulations, indicating a functional"}]}}],"usageMetadata": {"promptTokenCount": 95358,"candidatesTokenCount": 288,"totalTokenCount": 95646},"modelVersion": "gemini-3.1-flash-lite","responseId": "up0KaumuMd-ajuMPrK3WyQQ"},"traceId": "221dba16cd245e43","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " prototype or MVP stage.\u003c/learnings\u003e\n\u003c/viewed_file\u003e\n\n\u003cviewed_file\u003e\n    \u003cabsolute"}]}}],"usageMetadata": {"promptTokenCount": 95358,"candidatesTokenCount": 314,"totalTokenCount": 95672},"modelVersion": "gemini-3.1-flash-lite","responseId": "up0KaumuMd-ajuMPrK3WyQQ"},"traceId": "221dba16cd245e43","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "_path\u003ef:\\AUDIRA-BUG-HUTTER\\services\\scanner\\main.go\u003c/absolute"}]}}],"usageMetadata": {"promptTokenCount": 95358,"candidatesTokenCount": 338,"totalTokenCount": 95696},"modelVersion": "gemini-3.1-flash-lite","responseId": "up0KaumuMd-ajuMPrK3WyQQ"},"traceId": "221dba16cd245e43","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "_path\u003e\n    \u003clines_viewed\u003e1-66\u003c/lines_viewed\u003e\n    \u003c"}]}}],"usageMetadata": {"promptTokenCount": 95358,"candidatesTokenCount": 362,"totalTokenCount": 95720},"modelVersion": "gemini-3.1-flash-lite","responseId": "up0KaumuMd-ajuMPrK3WyQQ"},"traceId": "221dba16cd245e43","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "learnings\u003eIdentified the scanner as a basic Go microservice using goroutines for parallel tasks, acting as an execution"}]}}],"usageMetadata": {"promptTokenCount": 95358,"candidatesTokenCount": 386,"totalTokenCount": 95744},"modelVersion": "gemini-3.1-flash-lite","responseId": "up0KaumuMd-ajuMPrK3WyQQ"},"traceId": "221dba16cd245e43","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " agent for scan requests.\u003c/learnings\u003e\n\u003c/viewed_file\u003e\n\n\u003cviewed_file\u003e\n    \u003cabsolute"}]}}],"usageMetadata": {"promptTokenCount": 95358,"candidatesTokenCount": 412,"totalTokenCount": 95770},"modelVersion": "gemini-3.1-flash-lite","responseId": "up0KaumuMd-ajuMPrK3WyQQ"},"traceId": "221dba16cd245e43","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "_path\u003ef:\\AUDIRA-BUG-HUTTER\\services\\api\\src\\scans\\scan."}]}}],"usageMetadata": {"promptTokenCount": 95358,"candidatesTokenCount": 438,"totalTokenCount": 95796},"modelVersion": "gemini-3.1-flash-lite","responseId": "up0KaumuMd-ajuMPrK3WyQQ"},"traceId": "221dba16cd245e43","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "processor.ts\u003c/absolute_path\u003e\n    \u003clines_viewed\u003e1-96\u003c/lines_view"}]}}],"usageMetadata": {"promptTokenCount": 95358,"candidatesTokenCount": 462,"totalTokenCount": 95820},"modelVersion": "gemini-3.1-flash-lite","responseId": "up0KaumuMd-ajuMPrK3WyQQ"},"traceId": "221dba16cd245e43","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "ed\u003e\n    \u003clearnings\u003eConfirmed robust BullMQ job processor implementation which handles scan status updates, simulated scanning steps"}]}}],"usageMetadata": {"promptTokenCount": 95358,"candidatesTokenCount": 486,"totalTokenCount": 95844},"modelVersion": "gemini-3.1-flash-lite","responseId": "up0KaumuMd-ajuMPrK3WyQQ"},"traceId": "221dba16cd245e43","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ", and real-time log broadcasting.\u003c/learnings\u003e\n\u003c/viewed_file\u003e\n\n\u003cviewed_file\u003e\n    \u003cabsolute"}]}}],"usageMetadata": {"promptTokenCount": 95358,"candidatesTokenCount": 515,"totalTokenCount": 95873},"modelVersion": "gemini-3.1-flash-lite","responseId": "up0KaumuMd-ajuMPrK3WyQQ"},"traceId": "221dba16cd245e43","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "_path\u003ef:\\AUDIRA-BUG-HUTTER\\services\\api\\src\\auth\\auth"}]}}],"usageMetadata": {"promptTokenCount": 95358,"candidatesTokenCount": 539,"totalTokenCount": 95897},"modelVersion": "gemini-3.1-flash-lite","responseId": "up0KaumuMd-ajuMPrK3WyQQ"},"traceId": "221dba16cd245e43","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ".service.ts\u003c/absolute_path\u003e\n    \u003clines_viewed\u003e1-85\u003c/lines_"}]}}],"usageMetadata": {"promptTokenCount": 95358,"candidatesTokenCount": 563,"totalTokenCount": 95921},"modelVersion": "gemini-3.1-flash-lite","responseId": "up0KaumuMd-ajuMPrK3WyQQ"},"traceId": "221dba16cd245e43","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "viewed\u003e\n    \u003clearnings\u003eVerified mature authentication service implementing JWT, bcrypt password hashing, and audit logging for"}]}}],"usageMetadata": {"promptTokenCount": 95358,"candidatesTokenCount": 587,"totalTokenCount": 95945},"modelVersion": "gemini-3.1-flash-lite","responseId": "up0KaumuMd-ajuMPrK3WyQQ"},"traceId": "221dba16cd245e43","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " registration and login.\u003c/learnings\u003e\n\u003c/viewed_file\u003e\n\n\u003cviewed_code_item\u003e\n    \u003cnode_"}]}}],"usageMetadata": {"promptTokenCount": 95358,"candidatesTokenCount": 615,"totalTokenCount": 95973},"modelVersion": "gemini-3.1-flash-lite","responseId": "up0KaumuMd-ajuMPrK3WyQQ"},"traceId": "221dba16cd245e43","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "identifier\u003eScanGateway\u003c/node_identifier\u003e\n    \u003clearnings\u003eImplemented a WebSocket gateway for VulnX, enabling real"}]}}],"usageMetadata": {"promptTokenCount": 95358,"candidatesTokenCount": 640,"totalTokenCount": 95998},"modelVersion": "gemini-3.1-flash-lite","responseId": "up0KaumuMd-ajuMPrK3WyQQ"},"traceId": "221dba16cd245e43","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "-time stream broadcasting of scan logs and status updates to clients.\u003c/learnings\u003e\n\u003c/viewed_code_item\u003e"}]}}],"usageMetadata": {"promptTokenCount": 95358,"candidatesTokenCount": 665,"totalTokenCount": 96023},"modelVersion": "gemini-3.1-flash-lite","responseId": "up0KaumuMd-ajuMPrK3WyQQ"},"traceId": "221dba16cd245e43","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\n\n\u003cviewed_code_item\u003e\n    \u003cnode_identifier\u003eAIService\u003c/node_identifier\u003e\n"}]}}],"usageMetadata": {"promptTokenCount": 95358,"candidatesTokenCount": 689,"totalTokenCount": 96047},"modelVersion": "gemini-3.1-flash-lite","responseId": "up0KaumuMd-ajuMPrK3WyQQ"},"traceId": "221dba16cd245e43","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "    \u003clearnings\u003eThe AI service uses OpenAI's GPT-4 for automated vulnerability analysis, with an automated mock-"}]}}],"usageMetadata": {"promptTokenCount": 95358,"candidatesTokenCount": 714,"totalTokenCount": 96072},"modelVersion": "gemini-3.1-flash-lite","responseId": "up0KaumuMd-ajuMPrK3WyQQ"},"traceId": "221dba16cd245e43","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "mode fallback for testing environments.\u003c/learnings\u003e\n\u003c/viewed_code_item\u003e\n\n\u003cviewed_code_"}]}}],"usageMetadata": {"promptTokenCount": 95358,"candidatesTokenCount": 739,"totalTokenCount": 96097},"modelVersion": "gemini-3.1-flash-lite","responseId": "up0KaumuMd-ajuMPrK3WyQQ"},"traceId": "221dba16cd245e43","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "item\u003e\n    \u003cnode_identifier\u003eTargetService\u003c/node_identifier\u003e\n    \u003clearnings\u003eImplemented standard"}]}}],"usageMetadata": {"promptTokenCount": 95358,"candidatesTokenCount": 763,"totalTokenCount": 96121},"modelVersion": "gemini-3.1-flash-lite","responseId": "up0KaumuMd-ajuMPrK3WyQQ"},"traceId": "221dba16cd245e43","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " CRUD operations with target-scan and target-vulnerability relationships using Prisma, serving as the foundation for the frontend target tracking"}]}}],"usageMetadata": {"promptTokenCount": 95358,"candidatesTokenCount": 787,"totalTokenCount": 96145},"modelVersion": "gemini-3.1-flash-lite","responseId": "up0KaumuMd-ajuMPrK3WyQQ"},"traceId": "221dba16cd245e43","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ".\u003c/learnings\u003e\n\u003c/view_code_item\u003e"}]}}],"usageMetadata": {"promptTokenCount": 95358,"candidatesTokenCount": 799,"totalTokenCount": 96157},"modelVersion": "gemini-3.1-flash-lite","responseId": "up0KaumuMd-ajuMPrK3WyQQ"},"traceId": "221dba16cd245e43","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EjQKMgEMOdbHHo3TXrB6k5S/PaieC6IDkemLNZV3B45p/hK7dZsvpWISrDYA301iPJLwRY1E","text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 95358,"candidatesTokenCount": 799,"totalTokenCount": 96157},"modelVersion": "gemini-3.1-flash-lite","responseId": "up0KaumuMd-ajuMPrK3WyQQ"},"traceId": "221dba16cd245e43","metadata": {}}
+

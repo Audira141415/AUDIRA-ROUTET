@@ -1,0 +1,35 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 10:52:15 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=662",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "Analyzing Aud"}]}}],"usageMetadata": {"promptTokenCount": 6395,"candidatesTokenCount": 2,"totalTokenCount": 6397},"modelVersion": "gemini-3.1-flash-lite","responseId": "Xu8Kar-TKbzp4-EPstWA6Q0"},"traceId": "21c6fd5ed4640fff","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "ira Bug Hunter Project\n\nMain Objective: \nConduct a formal assessment of the AU"}]}}],"usageMetadata": {"promptTokenCount": 6395,"candidatesTokenCount": 19,"totalTokenCount": 6414},"modelVersion": "gemini-3.1-flash-lite","responseId": "Xu8Kar-TKbzp4-EPstWA6Q0"},"traceId": "21c6fd5ed4640fff","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "DIRA-BUG-HUTTER monorepo to verify its current production-ready status and ensure architectural integrity across all micro"}]}}],"usageMetadata": {"promptTokenCount": 6395,"candidatesTokenCount": 45,"totalTokenCount": 6440},"modelVersion": "gemini-3.1-flash-lite","responseId": "Xu8Kar-TKbzp4-EPstWA6Q0"},"traceId": "21c6fd5ed4640fff","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "services and frontend applications.\n\nGoals:\n1. Review the current project state against the 100% completion status"}]}}],"usageMetadata": {"promptTokenCount": 6395,"candidatesTokenCount": 70,"totalTokenCount": 6465},"modelVersion": "gemini-3.1-flash-lite","responseId": "Xu8Kar-TKbzp4-EPstWA6Q0"},"traceId": "21c6fd5ed4640fff","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " reported in the documentation.\n2. Validate that the monorepo structure (using Turborepo/pnpm workspaces) is correctly configured"}]}}],"usageMetadata": {"promptTokenCount": 6395,"candidatesTokenCount": 98,"totalTokenCount": 6493},"modelVersion": "gemini-3.1-flash-lite","responseId": "Xu8Kar-TKbzp4-EPstWA6Q0"},"traceId": "21c6fd5ed4640fff","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " for the NestJS API, Next.js frontend, and Go scanner service.\n3. Verify that the recent implementation"}]}}],"usageMetadata": {"promptTokenCount": 6395,"candidatesTokenCount": 122,"totalTokenCount": 6517},"modelVersion": "gemini-3.1-flash-lite","responseId": "Xu8Kar-TKbzp4-EPstWA6Q0"},"traceId": "21c6fd5ed4640fff","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " of advanced features like AI-powered analysis, scheduled scans, and notification systems are fully integrated and functional.\n4. Confirm"}]}}],"usageMetadata": {"promptTokenCount": 6395,"candidatesTokenCount": 147,"totalTokenCount": 6542},"modelVersion": "gemini-3.1-flash-lite","responseId": "Xu8Kar-TKbzp4-EPstWA6Q0"},"traceId": "21c6fd5ed4640fff","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " system readiness for deployment by auditing configuration files, environment variables, and startup scripts.\n5. Identify any potential technical debt or final"}]}}],"usageMetadata": {"promptTokenCount": 6395,"candidatesTokenCount": 173,"totalTokenCount": 6568},"modelVersion": "gemini-3.1-flash-lite","responseId": "Xu8Kar-TKbzp4-EPstWA6Q0"},"traceId": "21c6fd5ed4640fff","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " cleanup tasks required to maintain the platform's \"Production Ready\" status."}]}}],"usageMetadata": {"promptTokenCount": 6395,"candidatesTokenCount": 188,"totalTokenCount": 6583},"modelVersion": "gemini-3.1-flash-lite","responseId": "Xu8Kar-TKbzp4-EPstWA6Q0"},"traceId": "21c6fd5ed4640fff","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EjQKMgEMOdbHUeMhsLw/4kIK2QsTAIJCwHrWYOGbmhIlR7Rbc8HdmuoKcYFrOKlyPPdK8Pwg","text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 6395,"candidatesTokenCount": 188,"totalTokenCount": 6583},"modelVersion": "gemini-3.1-flash-lite","responseId": "Xu8Kar-TKbzp4-EPstWA6Q0"},"traceId": "21c6fd5ed4640fff","metadata": {}}
+

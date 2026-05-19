@@ -1,0 +1,834 @@
+{
+  "method": "POST",
+  "url": "/v1internal:streamGenerateContent?alt=sse",
+  "host": "cloudcode-pa.googleapis.com",
+  "headers": {
+    "host": "cloudcode-pa.googleapis.com",
+    "user-agent": "antigravity/1.23.2 windows/amd64",
+    "transfer-encoding": "chunked",
+    "authorization": "Bearer ya29.a0AQvPyIMjtjQJCYakGw_13N5ibxdRO8MEqVEclNgOKkehq8prnvl9JbX3Ebz3NNx_3RdWJVsuGnD7FFY2kcza-IwQvYbtdp1aDROVd_qHJEM_n5qwMrv8gdnmpzP1TGsqs_yIHhE2nTVLAj21cT59bVb8BuNJzoRJCvm2JxQUnjc3Nfa6E_yh_PYuBBHKs3wUwUXUZGuQe3mK5QaCgYKASISARUSFQHGX2MizuaJOvshoKf7gefzjUkHag0213",
+    "content-type": "application/json",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "project": "disco-solution-d43ch",
+    "requestId": "agent/5252d9b4-111a-43bc-8c7d-e3c248b88706/1778999077861/6c4a0422-1266-4a28-aed9-c14a062b3d1b/13",
+    "request": {
+      "contents": [
+        {
+          "role": "user",
+          "parts": [
+            {
+              "text": "<user_information>\nThe USER's OS version is windows.\nThe user has 1 active workspaces, each defined by a URI and a CorpusName. Multiple URIs potentially map to the same CorpusName. The mapping is shown as follows in the format [URI] -> [CorpusName]:\nf:\\AUDIRA-ROUTET -> Audira141415/AUDIRA-ROUTET\nCode relating to the user's requests should be written in the locations listed above. Avoid writing project code files to tmp, in the .gemini dir, or directly to the Desktop and similar folders unless explicitly asked.\nApp Data Directory: C:\\Users\\ASUS\\.gemini\\antigravity\nConversation ID: 5252d9b4-111a-43bc-8c7d-e3c248b88706\n</user_information>"
+            }
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            {
+              "text": "<USER_REQUEST>\n3:22:50] 📥 POST /v1/chat/completions | kr/claude-haiku-4.5 | 58 msgs | 23 tools\n[13:22:50] 🔍 [AUTH] API Key: sk-8...0e9f\n[13:22:50] ℹ️  [ROUTING] kr/claude-haiku-4.5 → kiro/claude-haiku-4.5\n[13:22:50] 🔍 [AUTH] kiro | total connections: 20, excludeIds: none, model: claude-haiku-4.5\n[13:22:50] 🔍 [AUTH] kiro | available: 12/20\n[13:22:50] 🔍 [AUTH]   → a9e3fb90 |  modelLocked(claude-haiku-4.5) until 2026-05-17T06:23:04.198Z\n[13:22:50] 🔍 [AUTH]   → d4293a96 |  modelLocked(claude-haiku-4.5) until 2026-05-17T06:22:57.088Z\n[13:22:50] 🔍 [AUTH]   → 25fe0411 |  modelLocked(claude-haiku-4.5) until 2026-05-17T06:23:06.151Z\n[13:22:50] 🔍 [AUTH]   → 35c05cdf |  modelLocked(claude-haiku-4.5) until 2026-05-17T06:22:59.473Z\n[13:22:50] 🔍 [AUTH]   → 4c863a8b |  modelLocked(claude-haiku-4.5) until 2026-05-17T06:23:01.893Z\n[13:22:50] 🔍 [AUTH]   → 50487e92 |  modelLocked(claude-haiku-4.5) until 2026-05-17T06:22:54.786Z\n[13:22:50] 🔍 [AUTH]   → c158ff90 |  modelLocked(claude-haiku-4.5) until 2026-05-17T06:22:52.826Z\n[13:22:50] 🔍 [AUTH]   → 959f2f5b |  modelLocked(claude-haiku-4.5) until 2026-05-17T06:23:07.992Z\n[13:22:50] ℹ️  [AUTH] Using kiro account: Account 3\n[13:22:50] 🔍 [FORMAT] openai → kiro | stream=true\n[13:22:50] [PENDING] START | provider=kiro | model=claude-haiku-4.5\n[13:22:50] 🔍 [REQUEST] KIRO | claude-haiku-4.5 | 0 msgs\n[13:22:53] [PENDING] END | provider=kiro | model=claude-haiku-4.5\n[13:22:53] 📊 [USAGE] KIRO | in=10930 | out=52 | account=08b20743...\n[13:22:53] 📊 [STREAM USAGE] KIRO | in=10930 | out=52 | account=08b20743...\n[13:22:53] 🌊 [STREAM] KIRO | claude-haiku-4.5 | 2543ms | complete\n POST /v1/chat/completions 200 in 2.6s (next.js: 2ms, proxy.ts: 4ms, application-code: 2.6s)\n[13:22:53] 📥 POST /v1/chat/completions | kr/claude-haiku-4.5 | 60 msgs | 23 tools\n[13:22:53] 🔍 [AUTH] API Key: sk-8...0e9f\n[13:22:53] ℹ️  [ROUTING] kr/claude-haiku-4.5 → kiro/claude-haiku-4.5\n[13:22:53] 🔍 [AUTH] kiro | total connections: 20, excludeIds: none, model: claude-haiku-4.5\n[13:22:53] 🔍 [AUTH] kiro | available: 13/20\n[13:22:53] 🔍 [AUTH]   → a9e3fb90 |  modelLocked(claude-haiku-4.5) until 2026-05-17T06:23:04.198Z\n[13:22:53] 🔍 [AUTH]   → d4293a96 |  modelLocked(claude-haiku-4.5) until 2026-05-17T06:22:57.088Z\n[13:22:53] 🔍 [AUTH]   → 25fe0411 |  modelLocked(claude-haiku-4.5) until 2026-05-17T06:23:06.151Z\n[13:22:53] 🔍 [AUTH]   → 35c05cdf |  modelLocked(claude-haiku-4.5) until 2026-05-17T06:22:59.473Z\n[13:22:53] 🔍 [AUTH]   → 4c863a8b |  modelLocked(claude-haiku-4.5) until 2026-05-17T06:23:01.893Z\n[13:22:53] 🔍 [AUTH]   → 50487e92 |  modelLocked(claude-haiku-4.5) until 2026-05-17T06:22:54.786Z\n[13:22:53] 🔍 [AUTH]   → 959f2f5b |  modelLocked(claude-haiku-4.5) until 2026-05-17T06:23:07.992Z\n[13:22:53] ℹ️  [AUTH] Using kiro account: Account 3\n[13:22:53] 🔍 [FORMAT] openai → kiro | stream=true\n[13:22:53] [PENDING] START | provider=kiro | model=claude-haiku-4.5\n</USER_REQUEST>\n<ADDITIONAL_METADATA>\nThe current local time is: 2026-05-17T13:24:26+07:00.\n\nThe user's current state is as follows:\nActive Document: f:\\AUDIRA-ROUTET\\open-sse\\translator\\request\\openai-to-kiro.js (LANGUAGE_JAVASCRIPT)\nCursor is on line: 1\nOther open documents:\n- f:\\AUDIRA-ROUTET\\.kiro\\specs\\audira-route-rebranding\\.config.kiro (LANGUAGE_UNSPECIFIED)\n- f:\\AUDIRA-ROUTET\\tests\\unit\\openai-to-kiro.test.js (LANGUAGE_JAVASCRIPT)\n- f:\\AUDIRA-ROUTET\\open-sse\\services\\accountFallback.js (LANGUAGE_JAVASCRIPT)\n- f:\\AUDIRA-ROUTET\\src\\mitm\\server.js (LANGUAGE_JAVASCRIPT)\n- f:\\AUDIRA-ROUTET\\open-sse\\utils\\proxyFetch.js (LANGUAGE_JAVASCRIPT)\nNo browser pages are currently open.\n</ADDITIONAL_METADATA>\n<USER_SETTINGS_CHANGE>\nThe user changed setting `Model Selection` from None to Claude Opus 4.6 (Thinking). No need to comment on this change if the user doesn't ask about it. If reporting what model you are, please use a human readable name instead of the exact string.\n</USER_SETTINGS_CHANGE>"
+            }
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            {
+              "text": "# Conversation History\nHere are the conversation IDs, titles, and summaries of your most recent 8 conversations, in reverse chronological order:\n\n<conversation_summaries>\n## Conversation 25695319-98e6-41ab-9309-99fd90fceb5e: Debugging Kiro Request Error\n- Created: 2026-05-17T06:08:53Z\n- Last modified: 2026-05-17T06:11:24Z\n\n## Conversation 0880b014-91df-4327-807c-790e45ec187d: \n- Created: 2026-05-17T03:36:02Z\n- Last modified: 2026-05-17T06:04:36Z\n\n## Conversation ad162d26-b9e4-4aff-adb8-b4341855b3f9: Analyzing Kiro Content Length Error\n- Created: 2026-05-16T08:48:58Z\n- Last modified: 2026-05-16T08:50:51Z\n\n### USER Objective:\nTroubleshooting Kiro Content Limits\n\nMain Objective: Resolve the CONTENT_LENGTH_EXCEEDS_THRESHOLD error occurring when using the Kiro provider (Claude Haiku 4.5).\n\nGoals:\n1. Identify the source of the 400 error within the `kiro` provider implementation and request handling flow.\n2. Investigate the `buildKiroPayload` function in `open-sse/translator/request/openai-to-kiro.js` to determine if token limits or context window management need adjustment.\n3. Verify if the `maxTokens` setting (currently hardcoded to 32000) or message assembly logic is triggering the Kiro API rejection.\n4. Implement a fix to either optimize the context payload or adjust the length constraints to align with Kiro's service thresholds.\n\n## Conversation 29a38223-e343-41cc-9b50-5b19075274b6: bagaimna menurutmu aplikais ini\n- Created: 2026-05-16T08:40:00Z\n- Last modified: 2026-05-16T08:40:01Z\n\n## Conversation 0e1b64c7-597a-416a-a8a1-f0f8c8fc7c6d: Troubleshooting Anti Gravity Model Updates\n- Created: 2026-05-16T08:23:36Z\n- Last modified: 2026-05-16T08:25:43Z\n\n### USER Objective:\nTroubleshooting Antigravity Model Mapping\n\nMain Objective: Resolve the issue where Antigravity models are not updating or routing correctly despite DNS configuration.\n\nGoals:\n1. Investigate the `AntigravityToolCard` and backend MITM logic to verify why model mapping changes are not persisting or reflecting in requests.\n2. Verify that the DNS entries for Antigravity hosts (`daily-cloudcode-pa.googleapis.com` and `cloudcode-pa.googleapis.com`) are correctly added to the system hosts file.\n3. Check the `src/mitm/handlers/antigravity.js` interceptor to ensure that the `mappedModel` is being passed and applied correctly to the upstream request.\n4. Validate that the model alias database (`mitmAlias`) is properly updated and read during the interception process.\n5. Identify if there are any synchronization issues between the frontend mapping UI and the MITM server's runtime configuration.\n\n## Conversation 76cb4e21-66e4-4d88-bd0c-7ad1699b7764: Analyzing Audira Project Structure\n- Created: 2026-05-16T08:16:51Z\n- Last modified: 2026-05-16T08:17:39Z\n\n### USER Objective:\nAnalyzing Audira Project Structure\n\nThe user's objective is to conduct a technical analysis and evaluation of the current AUDIRA-WEB-PERFECT-WORLD project architecture.\n\nGoals:\n1. Identify core components and dependencies within the current monorepo structure (Turborepo).\n2. Validate the configuration and operational readiness of the web application.\n3. Assess the current directory structure for potential refactoring or optimization to align with the AUDIRA ecosystem standards.\n4. Ensure all environment configurations and build pipelines are correctly defined for further development.\n\n## Conversation a474d6fe-2fcc-4067-84e6-90d9a710f821: Analyzing Audira Topup Application\n- Created: 2026-05-16T08:16:48Z\n- Last modified: 2026-05-16T08:17:35Z\n\n### USER Objective:\nAnalyzing Audira Topup Application\n\nMain Objective:\nConduct a comprehensive technical analysis of the AUDIRA-TOPUPGAME application architecture and codebase to verify its functional state, structural integrity, and project readiness.\n\nGoals:\n1. Examine the monorepo structure (utilizing Turbo Repo and PNPM workspaces) to understand how frontend/backend services are organized within `apps/` and `packages/`.\n2. Evaluate key configuration files (`package.json`, `turbo.json`) to confirm build processes and dependency management.\n3. Assess the current state of the application relative to the recently established project structure goals (cleaning up script locations and consolidating assets).\n4. Identify any discrepancies in the implementation of the Topup system compared to the broader Audira ecosystem architecture.\n\n## Conversation df34d5eb-59c1-46a7-a983-aff48440c225: Refactoring Audira Topup Project Structure\n- Created: 2026-05-16T08:06:53Z\n- Last modified: 2026-05-16T08:11:51Z\n\n### USER Objective:\nRefactoring Audira Topup Project Structure\n\nThe user's objective is to clean up and organize the project root directory by categorizing scattered script files and miscellaneous assets into a logical folder structure.\n\nGoals:\n1. Identify and relocate loose Python and utility scripts into the `scripts/` directory or a new `tools/` folder.\n2. Group maintenance and deployment files (`deploy.py`, `deploy.sh`, `.bat` files) into an `ops/` or `infrastructure/` directory.\n3. Consolidate database-related files (e.g., `RESTORE_POINT_STABLE.sql`) into a dedicated `data/` or `db/` folder.\n4. Ensure the root directory remains clean, containing only essential configuration files (`docker-compose.yml`, `.gitignore`, etc.) and the primary `frontend`/`backend` source code directories.\n5. Update project documentation and CI/CD paths to reflect the new structure to ensure no breakage.\n\n</conversation_summaries>"
+            }
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            {
+              "text": "Looking at the logs you shared — this shows a successful request flow through your routing system. Let me check the active file and surrounding context to understand what you're working on."
+            },
+            {
+              "functionCall": {
+                "id": "833e4434-b82e-4ead-a7ff-4e8ca945711f",
+                "name": "view_file",
+                "args": {
+                  "AbsolutePath": "f:\\AUDIRA-ROUTET\\open-sse\\translator\\request\\openai-to-kiro.js"
+                }
+              }
+            },
+            {
+              "functionCall": {
+                "id": "15fcac08-41ea-4b97-a874-6d4c581bc9c0",
+                "name": "view_file",
+                "args": {
+                  "AbsolutePath": "f:\\AUDIRA-ROUTET\\.kiro\\specs\\audira-route-rebranding\\.config.kiro"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            {
+              "functionResponse": {
+                "id": "833e4434-b82e-4ead-a7ff-4e8ca945711f",
+                "name": "view_file",
+                "response": {
+                  "output": "Created At: 2026-05-17T06:24:32Z\nCompleted At: 2026-05-17T06:24:32Z\nFile Path: `file:///f:/AUDIRA-ROUTET/open-sse/translator/request/openai-to-kiro.js`\nTotal Lines: 649\nTotal Bytes: 23787\nShowing lines 1 to 649\nThe following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.\n1: /**\n2: * OpenAI to Kiro Request Translator\n3: * Converts OpenAI Chat Completions format to Kiro/AWS CodeWhisperer format\n4: */\n5: import { register } from \"../index.js\";\n6: import { FORMATS } from \"../formats.js\";\n7: import { v4 as uuidv4 } from \"uuid\";\n8: \n9: /**\n10: * Convert OpenAI messages to Kiro format\n11: * Rules: system/tool/user -> user role, merge consecutive same roles\n12: */\n13: function convertMessages(messages, tools, model) {\n14:   let history = [];\n15:   let currentMessage = null;\n16:   \n17:   let pendingUserContent = [];\n18:   let pendingAssistantContent = [];\n19:   let pendingToolResults = [];\n20:   let pendingImages = [];\n21:   let currentRole = null;\n22:  \n23:   // Image support is pre-filtered by caps in translateRequest before reaching here\n24:   const supportsImages = true;\n25: \n26:   const truncateToolText = (text) => {\n27:     if (!text || typeof text !== \"string\") return \"\";\n28:     const LIMIT = 4000;\n29:     if (text.length > LIMIT) {\n30:       return text.substring(0, LIMIT) + `\\n... [Truncated by Audira for Kiro payload limits. Original: ${text.length} chars]`;\n31:     }\n32:     return text;\n33:   };\n34: \n35:   const truncateUserText = (text) => {\n36:     if (!text || typeof text !== \"string\") return \"\";\n37:     const LIMIT = 6000;\n38:     if (text.length > LIMIT) {\n39:       return text.substring(0, LIMIT) + `\\n... [Truncated by Audira for Kiro payload limits]`;\n40:     }\n41:     return text;\n42:   };\n43: \n44:   const flushPending = () => {\n45:     if (currentRole === \"user\") {\n46:       const content = truncateUserText(pendingUserContent.join(\"\\n\\n\").trim()) || \"continue\";\n47:       const userMsg = {\n48:         userInputMessage: {\n49:           content: content,\n50:           modelId: \"\"\n51:         }\n52:       };\n53: \n54:       // Attach images if present (Kiro API supports images field)\n55:       if (pendingImages.length > 0) {\n56:         userMsg.userInputMessage.images = pendingImages;\n57:       }\n58: \n59:       if (pendingToolResults.length > 0) {\n60:         userMsg.userInputMessage.userInputMessageContext = {\n61:           toolResults: pendingToolResults\n62:         };\n63:       }\n64:       \n65:       history.push(userMsg);\n66:       currentMessage = userMsg;\n67:       pendingUserContent = [];\n68:       pendingToolResults = [];\n69:       pendingImages = [];\n70:     } else if (currentRole === \"assistant\") {\n71:       const content = pendingAssistantContent.join(\"\\n\\n\").trim() || \"...\";\n72:       const assistantMsg = {\n73:         assistantResponseMessage: {\n74:           content: content\n75:         }\n76:       };\n77:       history.push(assistantMsg);\n78:       pendingAssistantContent = [];\n79:     }\n80:   };\n81: \n82:   for (let i = 0; i < messages.length; i++) {\n83:     const msg = messages[i];\n84:     let role = msg.role;\n85:     \n86:     // Normalize: system/tool -> user\n87:     if (role === \"system\" || role === \"tool\") {\n88:       role = \"user\";\n89:     }\n90:     \n91:     // If role changes, flush pending\n92:     if (role !== currentRole && currentRole !== null) {\n93:       flushPending();\n94:     }\n95:     currentRole = role;\n96:     \n97:     if (role === \"user\") {\n98:       // Extract content\n99:       let content = \"\";\n100:       if (typeof msg.content === \"string\") {\n101:         content = msg.content;\n102:       } else if (Array.isArray(msg.content)) {\n103:         const textParts = [];\n104:         for (const c of msg.content) {\n105:           if (c.type === \"text\" || c.text) {\n106:             textParts.push(c.text || \"\");\n107:           } else if (supportsImages && c.type === \"image_url\") {\n108:             // OpenAI format: image_url.url with data URI\n109:             const url = c.image_url?.url || \"\";\n110:             const base64Match = url.match(/^data:([^;]+);base64,(.+)$/);\n111:             if (base64Match) {\n112:               const mediaType = base64Match[1];\n113:               const format = mediaType.split(\"/\")[1] || mediaType;\n114:               pendingImages.push({ format, source: { bytes: base64Match[2] } });\n115:             } else if (url.startsWith(\"http://\") || url.startsWith(\"https://\")) {\n116:               // Kiro only supports base64 — fallback to URL text\n117:               textParts.push(`[Image: ${url}]`);\n118:             }\n119:           } else if (supportsImages && c.type === \"image\") {\n120:             // Claude format: source.type = \"base64\", source.media_type, source.data\n121:             if (c.source?.type === \"base64\" && c.source?.data) {\n122:               const mediaType = c.source.media_type || \"image/png\";\n123:               const format = mediaType.split(\"/\")[1] || mediaType;\n124:               pendingImages.push({ format, source: { bytes: c.source.data } });\n125:             }\n126:           }\n127:         }\n128:         content = textParts.join(\"\\n\");\n129:         \n130:         // Check for tool_result blocks\n131:         const toolResultBlocks = msg.content.filter(c => c.type === \"tool_result\");\n132:         if (toolResultBlocks.length > 0) {\n133:           toolResultBlocks.forEach(block => {\n134:             const text = Array.isArray(block.content) \n135:               ? block.content.map(c => c.text || \"\").join(\"\\n\")\n136:               : (typeof block.content === \"string\" ? block.content : \"\");\n137:             \n138:             pendingToolResults.push({\n139:               toolUseId: block.tool_use_id,\n140:               status: \"success\",\n141:               content: [{ text: truncateToolText(text) }]\n142:             });\n143:           });\n144:         }\n145:       }\n146:       \n147:       // Handle tool role (from normalized)\n148:       if (msg.role === \"tool\") {\n149:         const toolContent = typeof msg.content === \"string\" ? msg.content : \"\";\n150:         pendingToolResults.push({\n151:           toolUseId: msg.tool_call_id,\n152:           status: \"success\",\n153:           content: [{ text: truncateToolText(toolContent) }]\n154:         });\n155:       } else if (content) {\n156:         pendingUserContent.push(content);\n157:       }\n158:     } else if (role === \"assistant\") {\n159:       // Extract text content and tool uses\n160:       let textContent = \"\";\n161:       let toolUses = [];\n162:       \n163:       if (Array.isArray(msg.content)) {\n164:         const textBlocks = msg.content.filter(c => c.type === \"text\");\n165:         textContent = textBlocks.map(b => b.text).join(\"\\n\").trim();\n166:         \n167:         const toolUseBlocks = msg.content.filter(c => c.type === \"tool_use\");\n168:         toolUses = toolUseBlocks;\n169:       } else if (typeof msg.content === \"string\") {\n170:         textContent = msg.content.trim();\n171:       }\n172:       \n173:       if (msg.tool_calls && msg.tool_calls.length > 0) {\n174:         toolUses = msg.tool_calls;\n175:       }\n176:       \n177:       if (textContent) {\n178:         pendingAssistantContent.push(textContent);\n179:       }\n180:       \n181:       // Store tool uses in last assistant message\n182:       if (toolUses.length > 0) {\n183:         if (pendingAssistantContent.length === 0) {\n184:           // pendingAssistantContent.push(\"Call tools\");\n185:         }\n186:         \n187:         // Flush to create assistant message with toolUses\n188:         flushPending();\n189:         \n190:         const lastMsg = history[history.length - 1];\n191:         if (lastMsg?.assistantResponseMessage) {\n192:           lastMsg.assistantResponseMessage.toolUses = toolUses.map(tc => {\n193:             if (tc.function) {\n194:               return {\n195:                 toolUseId: tc.id || uuidv4(),\n196:                 name: tc.function.name,\n197:                 input: typeof tc.function.arguments === \"string\" \n198:                   ? JSON.parse(tc.function.arguments) \n199:                   : (tc.function.arguments || {})\n200:               };\n201:             } else {\n202:               return {\n203:                 toolUseId: tc.id || uuidv4(),\n204:                 name: tc.name,\n205:                 input: tc.input || {}\n206:               };\n207:             }\n208:           });\n209:         }\n210:         \n211:         currentRole = null;\n212:       }\n213:     }\n214:   }\n215:   \n216:   // Flush remaining\n217:   if (currentRole !== null) {\n218:     flushPending();\n219:   }\n220:   \n221:   // Pop last userInputMessage as currentMessage (search from end, skip trailing assistant messages)\n222:   for (let i = history.length - 1; i >= 0; i--) {\n223:     if (history[i].userInputMessage) {\n224:       currentMessage = history.splice(i, 1)[0];\n225:       break;\n226:     }\n227:   }\n228: \n229:   // Clean up history for Kiro API compatibility\n230:   history.forEach(item => {\n231:     if (item.userInputMessage && !item.userInputMessage.modelId) {\n232:       item.userInputMessage.modelId = model;\n233:     }\n234:   });\n235: \n236:   // Merge consecutive user messages or consecutive assistant messages to ensure perfect alternating roles\n237:   const mergedHistory = [];\n238:   for (let i = 0; i < history.length; i++) {\n239:     const current = history[i];\n240:     if (current.userInputMessage &&\n241:         mergedHistory.length > 0 &&\n242:         mergedHistory[mergedHistory.length - 1].userInputMessage) {\n243:       const prev = mergedHistory[mergedHistory.length - 1];\n244:       prev.userInputMessage.content += \"\\n\\n\" + current.userInputMessage.content;\n245:       \n246:       // Merge toolResults if any\n247:       const currentTools = current.userInputMessage.userInputMessageContext?.toolResults || [];\n248:       if (currentTools.length > 0) {\n249:         if (!prev.userInputMessage.userInputMessageContext) {\n250:           prev.userInputMessage.userInputMessageContext = {};\n251:         }\n252:         if (!prev.userInputMessage.userInputMessageContext.toolResults) {\n253:           prev.userInputMessage.userInputMessageContext.toolResults = [];\n254:         }\n255:         prev.userInputMessage.userInputMessageContext.toolResults.push(...currentTools);\n256:       }\n257:     } else if (current.assistantResponseMessage &&\n258:                mergedHistory.length > 0 &&\n259:                mergedHistory[mergedHistory.length - 1].assistantResponseMessage) {\n260:       const prev = mergedHistory[mergedHistory.length - 1];\n261:       prev.assistantResponseMessage.content += \"\\n\\n\" + current.assistantResponseMessage.content;\n262:       \n263:       // Merge toolUses if any\n264:       const currentToolUses = current.assistantResponseMessage.toolUses || [];\n265:       if (currentToolUses.length > 0) {\n266:         if (!prev.assistantResponseMessage.toolUses) {\n267:           prev.assistantResponseMessage.toolUses = [];\n268:         }\n269:         prev.assistantResponseMessage.toolUses.push(...currentToolUses);\n270:       }\n271:     } else {\n272:       mergedHistory.push(current);\n273:     }\n274:   }\n275: \n276:   // ENSURE PERFECT ALTERNATION: Kiro requires that currentMessage (User) is preceded\n277:   // by an Assistant message. If the last history item is a User message, merge it directly into currentMessage!\n278:   if (currentMessage?.userInputMessage && mergedHistory.length > 0 && mergedHistory[mergedHistory.length - 1].userInputMessage) {\n279:     const lastUserMsg = mergedHistory.pop();\n280:     currentMessage.userInputMessage.content = lastUserMsg.userInputMessage.content + \"\\n\\n\" + currentMessage.userInputMessage.content;\n281:     \n282:     // Merge toolResults if any\n283:     const lastTools = lastUserMsg.userInputMessage.userInputMessageContext?.toolResults || [];\n284:     if (lastTools.length > 0) {\n285:       if (!currentMessage.userInputMessage.userInputMessageContext) {\n286:         currentMessage.userInputMessage.userInputMessageContext = {};\n287:       }\n288:       if (!currentMessage.userInputMessage.userInputMessageContext.toolResults) {\n289:         currentMessage.userInputMessage.userInputMessageContext.toolResults = [];\n290:       }\n291:       currentMessage.userInputMessage.userInputMessageContext.toolResults.unshift(...lastTools);\n292:     }\n293:   }\n294: \n295:   // Ensure mergedHistory is valid: starts with User and ends with Assistant\n296:   while (mergedHistory.length > 0) {\n297:     if (!mergedHistory[0].userInputMessage) {\n298:       mergedHistory.shift();\n299:       continue;\n300:     }\n301:     if (!mergedHistory[mergedHistory.length - 1].assistantResponseMessage) {\n302:       mergedHistory.pop();\n303:       continue;\n304:     }\n305:     break;\n306:   }\n307: \n308:   return { history: mergedHistory, currentMessage };\n309: }\n310: \n311: /**\n312: * Simplify and normalize JSON Schema for Kiro/AWS compatibility.\n313: * AWS Bedrock / Kiro only supports a strict subset of JSON Schema.\n314: * This function flattens complex constraints (anyOf, oneOf, allOf) and\n315: * strips unsupported properties to ensure the request is accepted.\n316: */\n317: function simplifySchema(schema) {\n318:   if (!schema || typeof schema !== \"object\") return schema;\n319: \n320:   // Clone the schema object/array to avoid mutating the original input\n321:   let result = Array.isArray(schema) ? [...schema] : { ...schema };\n322: \n323:   if (Array.isArray(result)) {\n324:     return result.map(item => simplifySchema(item));\n325:   }\n326: \n327:   // 1. Convert 'const' to 'enum'\n328:   if (result.const !== undefined && !result.enum) {\n329:     result.enum = [result.const];\n330:   }\n331: \n332:   // 2. Flatten 'allOf' (merge properties and required)\n333:   if (result.allOf && Array.isArray(result.allOf)) {\n334:     const merged = { properties: {}, required: [] };\n335:     for (const item of result.allOf) {\n336:       if (item && typeof item === \"object\") {\n337:         if (item.properties) {\n338:           Object.assign(merged.properties, item.properties);\n339:         }\n340:         if (item.required && Array.isArray(item.required)) {\n341:           merged.required.push(...item.required);\n342:         }\n343:       }\n344:     }\n345:     delete result.allOf;\n346:     result.properties = { ...result.properties, ...merged.properties };\n347:     result.required = [...(result.required || []), ...merged.required];\n348:   }\n349: \n350:   // Helper to select the best schema from a list of schemas (prioritizes object, then array, then others)\n351:   const selectBestSchema = (items) => {\n352:     let bestIdx = 0;\n353:     let bestScore = -1;\n354:     for (let i = 0; i < items.length; i++) {\n355:       const item = items[i];\n356:       if (!item || typeof item !== \"object\") continue;\n357:       let score = 0;\n358:       const type = item.type;\n359:       if (type === \"object\" || item.properties) {\n360:         score = 3;\n361:       } else if (type === \"array\" || item.items) {\n362:         score = 2;\n363:       } else if (type && type !== \"null\") {\n364:         score = 1;\n365:       }\n366:       if (score > bestScore) {\n367:         bestScore = score;\n368:         bestIdx = i;\n369:       }\n370:     }\n371:     return items[bestIdx];\n372:   };\n373: \n374:   // 3. Flatten 'anyOf' and 'oneOf' by choosing the most descriptive schema\n375:   if (result.anyOf && Array.isArray(result.anyOf) && result.anyOf.length > 0) {\n376:     const nonNull = result.anyOf.filter(s => s && s.type !== \"null\");\n377:     if (nonNull.length > 0) {\n378:       const best = selectBestSchema(nonNull);\n379:       delete result.anyOf;\n380:       Object.assign(result, best);\n381:     }\n382:   }\n383: \n384:   if (result.oneOf && Array.isArray(result.oneOf) && result.oneOf.length > 0) {\n385:     const nonNull = result.oneOf.filter(s => s && s.type !== \"null\");\n386:     if (nonNull.length > 0) {\n387:       const best = selectBestSchema(nonNull);\n388:       delete result.oneOf;\n389:       Object.assign(result, best);\n390:     }\n391:   }\n392: \n393:   // 4. Handle type arrays (e.g. type: [\"string\", \"null\"] -> type: \"string\")\n394:   if (result.type && Array.isArray(result.type)) {\n395:     const nonNullTypes = result.type.filter(t => t !== \"null\");\n396:     result.type = nonNullTypes.length > 0 ? nonNullTypes[0] : \"string\";\n397:   }\n398: \n399:   // 5. Infer 'type: \"object\"' if properties exist but type is omitted\n400:   if (result.properties && !result.type) {\n401:     result.type = \"object\";\n402:   }\n403: \n404:   // 6. Recursively process nested properties\n405:   if (result.properties && typeof result.properties === \"object\") {\n406:     const simplifiedProps = {};\n407:     for (const [key, val] of Object.entries(result.properties)) {\n408:       simplifiedProps[key] = simplifySchema(val);\n409:     }\n410:     result.properties = simplifiedProps;\n411:   }\n412: \n413:   // 7. Recursively process array items\n414:   if (result.items && typeof result.items === \"object\") {\n415:     result.items = simplifySchema(result.items);\n416:   }\n417: \n418:   // 8. Normalize required fields to array of strings referencing defined properties\n419:   if (result.required) {\n420:     if (Array.isArray(result.required)) {\n421:       const props = result.properties ? Object.keys(result.properties) : [];\n422:       result.required = [...new Set(result.required)]\n423:         .filter(req => typeof req === \"string\" && (!result.properties || props.includes(req)));\n424:     } else {\n425:       delete result.required;\n426:     }\n427:   } else if (result.type === \"object\") {\n428:     result.required = [];\n429:   }\n430: \n431:   // Ensure properties is defined if type is object (strict AWS Bedrock/Kiro constraint)\n432:   if (result.type === \"object\" && !result.properties) {\n433:     result.properties = {};\n434:   }\n435: \n436:   // Ensure items is defined if type is array (strict AWS Bedrock/Kiro constraint)\n437:   if (result.type === \"array\" && !result.items) {\n438:     result.items = { type: \"string\" };\n439:   }\n440: \n441:   // Normalize type to basic allowed types in Bedrock/Kiro\n442:   const allowedTypes = [\"string\", \"number\", \"integer\", \"boolean\", \"array\", \"object\"];\n443:   if (result.type && !allowedTypes.includes(result.type)) {\n444:     result.type = \"string\";\n445:   }\n446: \n447:   // Default type to \"string\" if omitted (strict AWS Bedrock/Kiro constraint)\n448:   if (!result.type) {\n449:     result.type = result.properties ? \"object\" : \"string\";\n450:   }\n451: \n452:   // 9. Clean up all keys not strictly supported by basic Kiro/AWS JSON Schema\n453:   const allowedKeys = [\"type\", \"properties\", \"required\", \"items\", \"enum\", \"description\"];\n454:   for (const key of Object.keys(result)) {\n455:     if (!allowedKeys.includes(key)) {\n456:       delete result[key];\n457:     }\n458:   }\n459: \n460:   return result;\n461: }\n462: \n463: /**\n464: * Build Kiro payload from OpenAI format with dynamic self-correcting optimization budget.\n465: * Prevents \"CONTENT_LENGTH_EXCEEDS_THRESHOLD\" (400) and \"Improperly formed request\" (400).\n466: */\n467: export function buildKiroPayload(model, body, stream, credentials) {\n468:   const messages = body.messages || [];\n469:   const tools = body.tools || [];\n470:   const maxTokens = 32000;\n471:   const temperature = body.temperature;\n472:   const topP = body.top_p;\n473:   const profileArn = credentials?.providerSpecificData?.profileArn || \"\";\n474: \n475:   // 1. Run core alternating user-assistant history parser (ignoring tools initially)\n476:   const { history, currentMessage } = convertMessages(messages, [], model);\n477: \n478:   // 2. Simplify and normalize all tool specifications to Kiro strict JSON schema format\n479:   let simplifiedTools = [];\n480:   if (tools && tools.length > 0) {\n481:     simplifiedTools = tools.map(t => {\n482:       const name = t.function?.name || t.name;\n483:       let description = t.function?.description || t.description || \"\";\n484:       if (!description.trim()) {\n485:         description = `Tool: ${name}`;\n486:       }\n487:       if (description.length > 200) {\n488:         description = description.substring(0, 197) + \"...\";\n489:       }\n490:       const schema = t.function?.parameters || t.parameters || t.input_schema || {};\n491:       const normalizedSchema = Object.keys(schema).length === 0\n492:         ? { type: \"object\", properties: {}, required: [] }\n493:         : simplifySchema({ ...schema, required: schema.required ?? [] });\n494: \n495:       return {\n496:         toolSpecification: {\n497:           name,\n498:           description,\n499:           inputSchema: { json: normalizedSchema }\n500:         }\n501:       };\n502:     });\n503:   }\n504: \n505:   let finalContent = currentMessage?.userInputMessage?.content || \"\";\n506:   const timestamp = new Date().toISOString();\n507: \n508:   let activeTools = [...simplifiedTools];\n509: \n510:   // Helper to compile the Kiro native JSON request structure dynamically\n511:   const makePayload = (historyList, toolsList, textOverride = null) => {\n512:     const content = textOverride !== null ? textOverride : finalContent;\n513:     const finalContentWithContext = `[Context: Current time is ${timestamp}]\\n\\n${content}`;\n514:     \n515:     const payload = {\n516:       conversationState: {\n517:         chatTriggerType: \"MANUAL\",\n518:         conversationId: uuidv4(),\n519:         currentMessage: {\n520:           userInputMessage: {\n521:             content: finalContentWithContext,\n522:             modelId: model,\n523:             origin: \"AI_EDITOR\",\n524:             userInputMessageContext: {\n525:               ...(currentMessage?.userInputMessage?.userInputMessageContext || {})\n526:             }\n527:           }\n528:         },\n529:         history: historyList\n530:       }\n531:     };\n532: \n533:     // Tools are set directly on the currentMessage's context to avoid truncation issues\n534:     if (toolsList && toolsList.length > 0) {\n535:       payload.conversationState.currentMessage.userInputMessage.userInputMessageContext.tools = toolsList;\n536:     } else {\n537:       delete payload.conversationState.currentMessage.userInputMessage.userInputMessageContext.tools;\n538:     }\n539: \n540:     if (Object.keys(payload.conversationState.currentMessage.userInputMessage.userInputMessageContext).length === 0) {\n541:       delete payload.conversationState.currentMessage.userInputMessage.userInputMessageContext;\n542:     }\n543: \n544:     if (profileArn) {\n545:       payload.profileArn = profileArn;\n546:     }\n547: \n548:     if (maxTokens || temperature !== undefined || topP !== undefined) {\n549:       payload.inferenceConfig = {};\n550:       if (maxTokens) payload.inferenceConfig.maxTokens = maxTokens;\n551:       if (temperature !== undefined) payload.inferenceConfig.temperature = temperature;\n552:       if (topP !== undefined) payload.inferenceConfig.topP = topP;\n553:     }\n554: \n555:     return payload;\n556:   };\n557: \n558:   // Kiro maximum payload size budget: 24,500 bytes (leaving a 1,100 byte buffer to AWS ~25KB limit)\n559:   const MAX_SIZE = 24500;\n560: \n561:   // IMPORTANT: To prevent \"Improperly formed request\" (400), if the currentMessage\n562:   // has active toolResults, we MUST NEVER truncate the corresponding history items (the last tool call turn)\n563:   const mandatoryIndices = new Set();\n564:   const hasToolResults = currentMessage?.userInputMessage?.userInputMessageContext?.toolResults?.length > 0;\n565:   if (hasToolResults && history.length >= 2) {\n566:     mandatoryIndices.add(history.length - 1); // The last assistant tool call\n567:     mandatoryIndices.add(history.length - 2); // The preceding user prompt that triggered the call\n568:   }\n569: \n570:   // We start with full history and all tools\n571:   let currentHistory = [...history];\n572:   let payload = makePayload(currentHistory, activeTools);\n573:   let payloadStr = JSON.stringify(payload);\n574: \n575:   // Step A: If over budget, truncate non-mandatory history items one-by-one (oldest first)\n576:   if (payloadStr.length > MAX_SIZE) {\n577:     for (let i = 0; i < history.length; i++) {\n578:       if (mandatoryIndices.has(i)) continue; // Keep mandatory active turn items\n579:       \n580:       // Keep only items that are more recent than index i, plus mandatory ones\n581:       currentHistory = history.filter((_, idx) => idx > i || mandatoryIndices.has(idx));\n582:       \n583:       // Ensure the history slice starts with User and ends with Assistant (strict Kiro constraint)\n584:       while (currentHistory.length > 0) {\n585:         if (!currentHistory[0].userInputMessage) {\n586:           currentHistory.shift();\n587:           continue;\n588:         }\n589:         if (!currentHistory[currentHistory.length - 1].assistantResponseMessage) {\n590:           currentHistory.pop();\n591:           continue;\n592:         }\n593:         break;\n594:       }\n595:       \n596:       payload = makePayload(currentHistory, activeTools);\n597:       payloadStr = JSON.stringify(payload);\n598:       if (payloadStr.length <= MAX_SIZE) {\n599:         break;\n600:       }\n601:     }\n602:   }\n603: \n604:   // Step B: If still over budget, aggressively reduce the tools list one by one (oldest first)\n605:   if (payloadStr.length > MAX_SIZE && activeTools.length > 0) {\n606:     while (activeTools.length > 0 && payloadStr.length > MAX_SIZE) {\n607:       activeTools.pop(); // Drop tools to save critical space\n608:       payload = makePayload(currentHistory, activeTools);\n609:       payloadStr = JSON.stringify(payload);\n610:     }\n611:   }\n612: \n613:   // Step C: If still over budget, aggressively truncate individual toolResult text content\n614:   if (payloadStr.length > MAX_SIZE && hasToolResults) {\n615:     const toolResults = payload.conversationState.currentMessage.userInputMessage.userInputMessageContext.toolResults || [];\n616:     let textLimit = 1500; // start with 1500 chars limit\n617:     while (textLimit >= 200 && payloadStr.length > MAX_SIZE) {\n618:       toolResults.forEach(tr => {\n619:         if (tr.content && tr.content[0] && tr.content[0].text) {\n620:           const original = tr.content[0].text;\n621:           if (original.length > textLimit) {\n622:             tr.content[0].text = original.substring(0, textLimit) + `\\n... [Truncated by Audira. Original: ${original.length} chars]`;\n623:           }\n624:         }\n625:       });\n626:       payload = makePayload(currentHistory, activeTools);\n627:       payloadStr = JSON.stringify(payload);\n628:       textLimit -= 300; // iteratively reduce limits\n629:     }\n630:   }\n631: \n632:   // Step D: If STILL over budget, aggressively truncate the currentMessage userInputMessage text content\n633:   if (payloadStr.length > MAX_SIZE) {\n634:     let contentLimit = 4000;\n635:     while (contentLimit >= 500 && payloadStr.length > MAX_SIZE) {\n636:       if (finalContent.length > contentLimit) {\n637:         const truncatedContent = finalContent.substring(0, contentLimit) + `\\n... [Aggressively Truncated to fit payload]`;\n638:         payload = makePayload(currentHistory, activeTools, truncatedContent);\n639:         payloadStr = JSON.stringify(payload);\n640:       }\n641:       contentLimit -= 500;\n642:     }\n643:   }\n644: \n645:   return payload;\n646: }\n647: \n648: register(FORMATS.OPENAI, FORMATS.KIRO, buildKiroPayload, null);\n649: \nThe above content shows the entire, complete file contents of the requested file.\n"
+                }
+              }
+            },
+            {
+              "functionResponse": {
+                "id": "15fcac08-41ea-4b97-a874-6d4c581bc9c0",
+                "name": "view_file",
+                "response": {
+                  "output": "Created At: 2026-05-17T06:24:32Z\nCompleted At: 2026-05-17T06:24:32Z\nFile Path: `file:///f:/AUDIRA-ROUTET/.kiro/specs/audira-route-rebranding/.config.kiro`\nTotal Lines: 2\nTotal Bytes: 113\nShowing lines 1 to 2\nThe following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.\n1: {\"specId\": \"8a7df03f-5830-49ca-8a95-526d79bd157c\", \"workflowType\": \"requirements-first\", \"specType\": \"feature\"}\r\n2: \nThe above content shows the entire, complete file contents of the requested file.\n"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            {
+              "text": "<USER_REQUEST>\nContinue\n</USER_REQUEST>\n<ADDITIONAL_METADATA>\nThe current local time is: 2026-05-17T13:24:37+07:00.\n\nThe user's current state is as follows:\nActive Document: f:\\AUDIRA-ROUTET\\open-sse\\translator\\request\\openai-to-kiro.js (LANGUAGE_JAVASCRIPT)\nCursor is on line: 1\nOther open documents:\n- f:\\AUDIRA-ROUTET\\.kiro\\specs\\audira-route-rebranding\\.config.kiro (LANGUAGE_UNSPECIFIED)\n- f:\\AUDIRA-ROUTET\\tests\\unit\\openai-to-kiro.test.js (LANGUAGE_JAVASCRIPT)\n- f:\\AUDIRA-ROUTET\\open-sse\\services\\accountFallback.js (LANGUAGE_JAVASCRIPT)\n- f:\\AUDIRA-ROUTET\\src\\mitm\\server.js (LANGUAGE_JAVASCRIPT)\n- f:\\AUDIRA-ROUTET\\open-sse\\utils\\proxyFetch.js (LANGUAGE_JAVASCRIPT)\nNo browser pages are currently open.\n</ADDITIONAL_METADATA>"
+            }
+          ]
+        }
+      ],
+      "systemInstruction": {
+        "role": "user",
+        "parts": [
+          {
+            "text": "<identity>\nYou are Antigravity, a powerful agentic AI coding assistant designed by the Google Deepmind team working on Advanced Agentic Coding.\nYou are pair programming with a USER to solve their coding task. The task may require creating a new codebase, modifying or debugging an existing codebase, or simply answering a question.\nThe USER will send you requests, which you must always prioritize addressing. Along with each USER request, we will attach additional metadata about their current state, such as what files they have open and where their cursor is.\nThis information may or may not be relevant to the coding task, it is up for you to decide.\n</identity>\n\n<web_application_development>\n## Technology Stack,\nYour web applications should be built using the following technologies:,\n1. **Core**: Use HTML for structure and Javascript for logic.\n2. **Styling (CSS)**: Use Vanilla CSS for maximum flexibility and control. Avoid using TailwindCSS unless the USER explicitly requests it; in this case, first confirm which TailwindCSS version to use.\n3. **Web App**: If the USER specifies that they want a more complex web app, use a framework like Next.js or Vite. Only do this if the USER explicitly requests a web app.\n4. **New Project Creation**: If you need to use a framework for a new app, use `npx` with the appropriate script, but there are some rules to follow:,\n   - Use `npx -y` to automatically install the script and its dependencies\n   - You MUST run the command with `--help` flag to see all available options first, \n   - Initialize the app in the current directory with `./` (example: `npx -y create-vite-app@latest ./`),\n   - You should run in non-interactive mode so that the user doesn't need to input anything,\n5. **Running Locally**: When running locally, use `npm run dev` or equivalent dev server. Only build the production bundle if the USER explicitly requests it or you are validating the code for correctness.\n\n# Design Aesthetics,\n1. **Use Rich Aesthetics**: The USER should be wowed at first glance by the design. Use best practices in modern web design (e.g. vibrant colors, dark modes, glassmorphism, and dynamic animations) to create a stunning first impression. Failure to do this is UNACCEPTABLE.\n2. **Prioritize Visual Excellence**: Implement designs that will WOW the user and feel extremely premium:\n\t\t- Avoid generic colors (plain red, blue, green). Use curated, harmonious color palettes (e.g., HSL tailored colors, sleek dark modes).\n   - Using modern typography (e.g., from Google Fonts like Inter, Roboto, or Outfit) instead of browser defaults.\n\t\t- Use smooth gradients,\n\t\t- Add subtle micro-animations for enhanced user experience,\n3. **Use a Dynamic Design**: An interface that feels responsive and alive encourages interaction. Achieve this with hover effects and interactive elements. Micro-animations, in particular, are highly effective for improving user engagement.\n4. **Premium Designs**. Make a design that feels premium and state of the art. Avoid creating simple minimum viable products.\n4. **Don't use placeholders**. If you need an image, use your generate_image tool to create a working demonstration.,\n\n## Implementation Workflow,\nFollow this systematic approach when building web applications:,\n1. **Plan and Understand**:,\n\t\t- Fully understand the user's requirements,\n\t\t- Draw inspiration from modern, beautiful, and dynamic web designs,\n\t\t- Outline the features needed for the initial version,\n2. **Build the Foundation**:,\n\t\t- Start by creating/modifying `index.css`,\n\t\t- Implement the core design system with all tokens and utilities,\n3. **Create Components**:,\n\t\t- Build necessary components using your design system,\n\t\t- Ensure all components use predefined styles, not ad-hoc utilities,\n\t\t- Keep components focused and reusable,\n4. **Assemble Pages**:,\n\t\t- Update the main application to incorporate your design and components,\n\t\t- Ensure proper routing and navigation,\n\t\t- Implement responsive layouts,\n5. **Polish and Optimize**:,\n\t\t- Review the overall user experience,\n\t\t- Ensure smooth interactions and transitions,\n\t\t- Optimize performance where needed,\n\n## SEO Best Practices,\nAutomatically implement SEO best practices on every page:,\n- **Title Tags**: Include proper, descriptive title tags for each page,\n- **Meta Descriptions**: Add compelling meta descriptions that accurately summarize page content,\n- **Heading Structure**: Use a single `<h1>` per page with proper heading hierarchy,\n- **Semantic HTML**: Use appropriate HTML5 semantic elements,\n- **Unique IDs**: Ensure all interactive elements have unique, descriptive IDs for browser testing,\n- **Performance**: Ensure fast page load times through optimization,\nCRITICAL REMINDER: AESTHETICS ARE VERY IMPORTANT. If your web app looks simple and basic then you have FAILED!\n</web_application_development>\n<ephemeral_message>\nThere will be an <EPHEMERAL_MESSAGE> appearing in the conversation at times. This is not coming from the user, but instead injected by the system as important information to pay attention to. \nDo not respond to nor acknowledge those messages, but do follow them strictly.\n</ephemeral_message>\n<persistent_context>\n# Persistent Context\n\nYou can retrieve information from past conversations via two mechanisms:\n\n1. **Knowledge Items (KIs)** — Curated, distilled knowledge on specific topics. Always check KIs first.\n2. **Conversation Logs** — Raw logs and artifacts from past conversations.\n\n**Priority order:** KIs → Conversation Logs → Fresh research.\n\n## Knowledge Items (KI) System\n\n### MANDATORY FIRST STEP: Check KI Summaries Before Any Research\n\n**At the start of each conversation, you receive KI summaries with artifact paths.** These summaries represent curated, localized context about this specific repository to help you avoid redundant work and adhere to established patterns.\n\n**BEFORE performing ANY research, analysis, or creating documentation, you MUST:**\n1. **Review the KI summaries** provided at the start of the conversation.\n2. **Identify relevant KIs** by checking if any KI titles/summaries match your task.\n3. **Read relevant KI artifacts** using the artifact paths listed in the summaries BEFORE doing independent research or writing code.\n\nIf no KI summary title is relevant to the current task, proceed directly — do not force a match.\n\n### When to Check KIs\n\nYou must actively check and utilize KIs in the following scenarios:\n- **\"Deceptively Simple\" Tasks:** \"Add logging,\" \"run this in the background,\" or \"add a metadata field\" almost always have repository-specific established patterns.\n- **Debugging & Troubleshooting:** Before deep-diving into unexpected behavior, resource leaks, or config issues, check for KIs documenting known bugs, gotchas, or best practices in similar components.\n- **Architecture & Refactoring:** Before designing \"new\" features, state management, or adding to core abstractions, verify if similar patterns (e.g., plugin systems, caching, handler patterns) already exist.\n- **Complex or Multi-Phase Work:** Before planning integrations or uncertain implementations, check for workflow examples or past approaches documented in KIs.\n\n### Critical Rule: KIs are Starting Points, Not Ground Truth\n\nKIs are snapshots of past work. While they provide essential context, they can become stale, especially for API surfaces, dependencies, and config schemas that evolve frequently.\n\n- **Always verify against active code:** If you pull an API usage pattern, a file path, or a dependency from a KI, cross-reference it with the *current* implementation in the workspace before committing to an edit.\n- **Expect gaps & deprecations:** Supplement KI knowledge with your own investigation. Actively check for deprecation warnings or missing context.\n- **Use references:** Use the references in `metadata.json` to trace back to original sources.\n\n### KI Structure\n\nEach KI in `<appDataDir>\\knowledge` contains:\n- **`metadata.json`**: Summary, timestamps, and references to original sources.\n- **`artifacts/`**: Related files, documentation, and specific implementation details.\n\n## Conversation Logs\n\nConversation logs are stored locally in the filesystem under: <appDataDir>\\brain\\<conversation-id>\\.system_generated\\logs\nYou can find Conversation IDs from the conversation summaries or from user @conversation mentions.\nEach conversation directory contains an `overview.txt`, which shows a full conversation transcript.\nEach line in the `overview.txt` represents one action taken by a user or model.\n\nRead conversation logs only when:\n- The user references a specific past conversation (by topic or recency)\n- You have a Conversation ID and its content is likely relevant\n- A KI is insufficient and you need raw details\n\n</persistent_context>\n<artifacts>\nArtifacts are special markdown documents that you can create to present structured information to the user.\nAll artifacts should be written to the artifact directory. You do NOT need to create this directory yourself, it will be created automatically when you create artifacts.\n\n# Naming Artifacts\n\nBe sure to give artifacts descriptive filenames:\n- `analysis_results.md`\n- `research_notes.md`\n- `experiment_results.md`\n\n# When to Use Artifacts\n\n**Use artifacts for:**\n- Extensive reports and analysis summaries\n- Tables, diagrams, or formatted data\n- Persistent information you'll update over time (task lists, experiment logs)\n- Code changes formatted as diffs\n\n**Don't use artifacts for:**\n- Simple one-off answers - just respond directly\n- Asking questions or requesting user input - just ask directly\n- Very short content that fits in a paragraph.\n- Scratch scripts or one-off data files - save these in the artifacts `<appDataDir>\\brain\\<conversation-id>/scratch/` directory.\n\n**After creating or updating an artifact**, DO NOT re-summarize the artifact contents in your response to the user. Instead, point the user to the artifact and highlight only key open questions or decisions that need their input.\n\nHere are some formatting tips for artifacts that you choose to write as markdown files with the .md extension:\n\n# Artifact Formatting Tips\nWhen creating markdown artifacts, use standard markdown and GitHub Flavored Markdown formatting. The following elements are also available to enhance the user experience:\n\n## Alerts\nUse GitHub-style alerts strategically to emphasize critical information. They will display with distinct colors and icons. Do not place consecutively or nest within other elements:\n  > [!NOTE]\n  > Background context, implementation details, or helpful explanations\n\n  > [!TIP]\n  > Performance optimizations, best practices, or efficiency suggestions\n\n  > [!IMPORTANT]\n  > Essential requirements, critical steps, or must-know information\n\n  > [!WARNING]\n  > Breaking changes, compatibility issues, or potential problems\n\n  > [!CAUTION]\n  > High-risk actions that could cause data loss or security vulnerabilities\n\n## Code and Diffs\nUse fenced code blocks with language specification for syntax highlighting:\n```python\ndef example_function():\n  return \"Hello, World!\"\n```\n\nUse diff blocks to show code changes. Prefix lines with + for additions, - for deletions, and a space for unchanged lines:\n```diff\n-old_function_name()\n+new_function_name()\n unchanged_line()\n```\n\nUse the render_diffs shorthand to show all changes made to a file during the task. Format: render_diffs(absolute file URI) (example: render_diffs(file:///absolute/path/to/utils.py)). Place on its own line.\n\n## Mermaid Diagrams\nCreate mermaid diagrams using fenced code blocks with language `mermaid` to visualize complex relationships, workflows, and architectures.\nTo prevent syntax errors:\n- Quote node labels containing special characters like parentheses or brackets. For example, `id[\"Label (Extra Info)\"]` instead of `id[Label (Extra Info)]`.\n- Avoid HTML tags in labels.\n\n## Tables\nUse standard markdown table syntax to organize structured data. Tables significantly improve readability and improve scannability of comparative or multi-dimensional information.\n\n## File Links and Media\n- Create clickable file links using standard markdown link syntax: [link text](file:///absolute/path/to/file).\n- Link to specific line ranges using [link text](file:///absolute/path/to/file#L123-L145) format. Link text can be descriptive when helpful, such as for a function [foo](file:///path/to/bar.py#L127-L143) or for a line range [bar.py:L127-143](file:///path/to/bar.py#L127-L143)\n- Embed images and videos with ![caption](/absolute/path/to/file.jpg). Always use absolute paths. The caption should be a short description of the image or video, and it will always be displayed below the image or video.\n- **IMPORTANT**: To embed images and videos, you MUST use the ![caption](absolute path) syntax. Standard links [filename](absolute path) will NOT embed the media and are not an acceptable substitute.\n- **IMPORTANT**: If you are embedding a file in an artifact and the file is NOT already in <appDataDir>\\brain\\<conversation-id>, you MUST first copy the file to the artifacts directory before embedding it. Only embed files that are located in the artifacts directory.\n\n## Carousels\nUse carousels to display multiple related markdown snippets sequentially. Carousels can contain any markdown elements including images, code blocks, tables, mermaid diagrams, alerts, diff blocks, and more.\n\nSyntax:\n- Use four backticks with `carousel` language identifier\n- Separate slides with `<!-- slide -->` HTML comments\n- Four backticks enable nesting code blocks within slides\n\nExample:\n````carousel\n![Image description](/absolute/path/to/image1.png)\n<!-- slide -->\n![Another image](/absolute/path/to/image2.png)\n<!-- slide -->\n```python\ndef example():\n    print(\"Code in carousel\")\n```\n````\n\nUse carousels when:\n- Displaying multiple related items like screenshots, code blocks, or diagrams that are easier to understand sequentially\n- Showing before/after comparisons or UI state progressions\n- Presenting alternative approaches or implementation options\n- Condensing related information in walkthroughs to reduce document length\n\n## Critical Rules\n- **Keep lines short**: Keep bullet points concise to avoid wrapped lines\n- **Use basenames for readability**: Use file basenames for the link text instead of the full path\n- **File Links**: Do not surround the link text with backticks, that will break the link formatting.\n    - **Correct**: [utils.py](file:///path/to/utils.py) or [foo](file:///path/to/file.py#L123)\n    - **Incorrect**: [`utils.py`](file:///path/to/utils.py) or [`function name`](file:///path/to/file.py#L123)\n\n# Scratch Scripts and Files\n\nYou may find it useful to create scratch scripts or files for temporary purposes.\n\nExamples:\n- One-off scripts to debug code\n- Temporary data files for testing\n\nStore these files in the `<appDataDir>\\brain\\<conversation-id>/scratch/` directory. They will be persisted.\n\n</artifacts>\n<guidelines>\nFollow these behavioral guidelines at all times:- Maintain documentation integrity. Preserve all existing comments and docstrings that are unrelated to your code changes, unless the user specifies otherwise.\n\n</guidelines>\n<communication_style>\n1. Keep your responses concise. 2. Provide a summary of your work when you end your turn. 3. Format your responses in github-style markdown. 4. If you're unsure about the user's intent, ask for clarification rather than making assumptions.\n</communication_style>"
+          }
+        ]
+      },
+      "tools": [
+        {
+          "functionDeclarations": [
+            {
+              "name": "browser_subagent",
+              "description": "Start a browser subagent to perform actions in the browser with the given task description. The subagent has access to tools for both interacting with web page content (clicking, typing, navigating, etc) and controlling the browser window itself (resizing, etc). Please make sure to define a clear condition to return on. After the subagent returns, you should read the DOM or capture a screenshot to see what it did. Note: All browser interactions are automatically recorded and saved as WebP videos to the artifacts directory. This is the ONLY way you can record a browser session video/animation. IMPORTANT: if the subagent returns that the open_browser_url tool failed, there is a browser issue that is out of your control. You MUST ask the user how to proceed.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "MediaPaths": {
+                    "type": "ARRAY",
+                    "description": "Optional absolute paths to media files (images, videos, etc.) to provide as context to the subagent. Maximum 3 files.",
+                    "items": {
+                      "type": "STRING"
+                    }
+                  },
+                  "RecordingName": {
+                    "type": "STRING",
+                    "description": "Name of the browser recording that is created with the actions of the subagent. Should be all lowercase with underscores, describing what the recording contains. Maximum 3 words. Example: 'login_flow_demo'"
+                  },
+                  "ReusedSubagentId": {
+                    "type": "STRING",
+                    "description": "ID of a previous subagent to resume from. If provided, the agent will continue from the previous context. If empty, the subagent will start with an empty context. Use this to resume work from a cancelled subagent, or when the current task would benefit from the previous subagent's context."
+                  },
+                  "Task": {
+                    "type": "STRING",
+                    "description": "A clear, actionable task description for the browser subagent. The subagent is an agent similar to you, with a different set of tools, limited to tools to understand the state of and control the browser. The task you define is the prompt sent to this subagent. Since each agent invocation is a one-shot, autonomous execution, the prompt must be highly detailed, containing a comprehensive task description and all necessary context. Avoid vague instructions; be specific about what to do, when to stop, and clearly state exactly what information the agent should return in its final and only report. This should be the second argument."
+                  },
+                  "TaskName": {
+                    "type": "STRING",
+                    "description": "Name of the task that the browser subagent is performing. This is the identifier that groups the subagent steps together, but should still be a human readable name. This should read like a title, should be properly capitalized and human readable, example: 'Navigating to Example Page'. Replace URLs or non-human-readable expressions like CSS selectors or long text with human-readable terms like 'URL' or 'Page' or 'Submit Button'. Be very sure this task name represents a reasonable chunk of work. It should almost never be the entire user request. This should be the very first argument."
+                  },
+                  "TaskSummary": {
+                    "type": "STRING",
+                    "description": "A short, user-friendly summary of the task (1-2 sentences max). This will be displayed to the user in the UI instead of the full task description. Should be concise and describe the goal at a high level."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  },
+                  "waitForPreviousTools": {
+                    "type": "BOOLEAN",
+                    "description": "If true, wait for all previous tool calls from this turn to complete before executing (sequential). If false or omitted, execute this tool immediately (parallel with other tools)."
+                  }
+                },
+                "required": [
+                  "TaskName",
+                  "Task",
+                  "TaskSummary",
+                  "RecordingName"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "command_status",
+              "description": "Get the status of a previously executed terminal command by its ID. Returns the current status (running, done), output lines as specified by output priority, and any error if present. Do not try to check the status of any IDs other than Background command IDs.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "CommandId": {
+                    "type": "STRING",
+                    "description": "ID of the command to get status for"
+                  },
+                  "OutputCharacterCount": {
+                    "type": "INTEGER",
+                    "description": "Number of characters to view. Make this as small as possible to avoid excessive memory usage."
+                  },
+                  "WaitDurationSeconds": {
+                    "type": "INTEGER",
+                    "description": "Number of seconds to wait for command completion before getting the status. If the command completes before this duration, this tool call will return early. Set to 0 to get the status of the command immediately. If you are only interested in waiting for command completion, set to the max value, 300."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  },
+                  "waitForPreviousTools": {
+                    "type": "BOOLEAN",
+                    "description": "If true, wait for all previous tool calls from this turn to complete before executing (sequential). If false or omitted, execute this tool immediately (parallel with other tools)."
+                  }
+                },
+                "required": [
+                  "CommandId",
+                  "WaitDurationSeconds"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "generate_image",
+              "description": "Generate an image or edit existing images based on a text prompt. The resulting image will be saved as an artifact for use. You can use this tool to generate user interfaces and iterate on a design with the USER for an application or website that you are building. When creating UI designs, generate only the interface itself without surrounding device frames (laptops, phones, tablets, etc.) unless the user explicitly requests them. You can also use this tool to generate assets for use in an application or website.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "ImageName": {
+                    "type": "STRING",
+                    "description": "Name of the generated image to save. Should be all lowercase with underscores, describing what the image contains. Maximum 3 words. Example: 'login_page_mockup'"
+                  },
+                  "ImagePaths": {
+                    "type": "ARRAY",
+                    "description": "Optional absolute paths to the images to use in generation. You can pass in images here if you would like to edit or combine images. You can pass in artifact images and any images in the file system. Note: you cannot pass in more than 3 images.",
+                    "items": {
+                      "type": "STRING"
+                    }
+                  },
+                  "Prompt": {
+                    "type": "STRING",
+                    "description": "The text prompt to generate an image for."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  },
+                  "waitForPreviousTools": {
+                    "type": "BOOLEAN",
+                    "description": "If true, wait for all previous tool calls from this turn to complete before executing (sequential). If false or omitted, execute this tool immediately (parallel with other tools)."
+                  }
+                },
+                "required": [
+                  "Prompt",
+                  "ImageName"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "grep_search",
+              "description": "Use ripgrep to find exact pattern matches within files or directories.\nResults are returned in JSON format and for each match you will receive the:\n- Filename\n- LineNumber (only when MatchPerLine is true)\n- LineContent: the content of the matching line (only when MatchPerLine is true)\nTotal results are capped at 50 matches. Use the Includes option to filter by file type or specific paths to refine your search.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "CaseInsensitive": {
+                    "type": "BOOLEAN",
+                    "description": "If true, performs a case-insensitive search."
+                  },
+                  "Includes": {
+                    "type": "ARRAY",
+                    "description": "Glob patterns to filter files found within the 'SearchPath', if 'SearchPath' is a directory. For example, '*.go' to only include Go files, or '!**/vendor/*' to exclude vendor directories. This is NOT for specifying the primary search directory; use 'SearchPath' for that. Leave empty if no glob filtering is needed or if 'SearchPath' is a single file.",
+                    "items": {
+                      "type": "STRING"
+                    }
+                  },
+                  "IsRegex": {
+                    "type": "BOOLEAN",
+                    "description": "If true, treats Query as a regular expression pattern with special characters like *, +, (, etc. having regex meaning. If false, treats Query as a literal string where all characters are matched exactly. Use false for normal text searches and true only when you specifically need regex functionality."
+                  },
+                  "MatchPerLine": {
+                    "type": "BOOLEAN",
+                    "description": "If true, returns each line that matches the query, including line numbers and snippets of matching lines (equivalent to 'git grep -nI'). If false, only returns the names of files containing the query (equivalent to 'git grep -l')."
+                  },
+                  "Query": {
+                    "type": "STRING",
+                    "description": "The search term or pattern to look for within files."
+                  },
+                  "SearchPath": {
+                    "type": "STRING",
+                    "description": "The path to search. This can be a directory or a file. This is a required parameter."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  },
+                  "waitForPreviousTools": {
+                    "type": "BOOLEAN",
+                    "description": "If true, wait for all previous tool calls from this turn to complete before executing (sequential). If false or omitted, execute this tool immediately (parallel with other tools)."
+                  }
+                },
+                "required": [
+                  "SearchPath",
+                  "Query"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "list_dir",
+              "description": "List the contents of a directory, i.e. all files and subdirectories that are children of the directory. Directory path must be an absolute path to a directory that exists. For each child in the directory, output will have: relative path to the directory, whether it is a directory or file, size in bytes if file, and number of children (recursive) if directory. Number of children may be missing if the workspace is too large, since we are not able to track the entire workspace.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "DirectoryPath": {
+                    "type": "STRING",
+                    "description": "Path to list contents of, should be absolute path to a directory"
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  },
+                  "waitForPreviousTools": {
+                    "type": "BOOLEAN",
+                    "description": "If true, wait for all previous tool calls from this turn to complete before executing (sequential). If false or omitted, execute this tool immediately (parallel with other tools)."
+                  }
+                },
+                "required": [
+                  "DirectoryPath"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "multi_replace_file_content",
+              "description": "Use this tool to edit an existing file. Follow these rules:\n1. Use this tool ONLY when you are making MULTIPLE, NON-CONTIGUOUS edits to the same file (i.e., you are changing more than one separate block of text). If you are making a single contiguous block of edits, use the replace_file_content tool instead.\n2. Do NOT use this tool if you are only editing a single contiguous block of lines.\n3. Do NOT make multiple parallel calls to this tool or the replace_file_content tool for the same file.\n4. To edit multiple, non-adjacent lines of code in the same file, make a single call to this tool. Specify each edit as a separate ReplacementChunk.\n5. For each ReplacementChunk, specify StartLine, EndLine, TargetContent and ReplacementContent. StartLine and EndLine should specify a range of lines containing precisely the instances of TargetContent that you wish to edit. To edit a single instance of the TargetContent, the range should be such that it contains that specific instance of the TargetContent and no other instances. When applicable, provide a range that matches the range viewed in a previous view_file call. In TargetContent, specify the precise lines of code to edit. These lines MUST EXACTLY MATCH text in the existing file content. In ReplacementContent, specify the replacement content for the specified target content. This must be a complete drop-in replacement of the TargetContent, with necessary modifications made.\n6. If you are making multiple edits across a single file, specify multiple separate ReplacementChunks. DO NOT try to replace the entire existing content with the new content, this is very expensive.\n7. You may not edit file extensions: [.ipynb]\nIMPORTANT: You must generate the following arguments first, before any others: [TargetFile]",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "ArtifactMetadata": {
+                    "type": "OBJECT",
+                    "description": "Metadata updates if updating an artifact file, leave blank if not updating an artifact. Should be updated if the content is changing meaningfully.",
+                    "properties": {
+                      "ArtifactType": {
+                        "type": "STRING",
+                        "description": "Type of artifact: 'implementation_plan', 'walkthrough', 'task', or 'other'.",
+                        "enum": [
+                          "implementation_plan",
+                          "walkthrough",
+                          "task",
+                          "other"
+                        ]
+                      },
+                      "RequestFeedback": {
+                        "type": "BOOLEAN",
+                        "description": "Set to true to request user feedback on this artifact."
+                      },
+                      "Summary": {
+                        "type": "STRING",
+                        "description": "Detailed multi-line summary of the artifact file, after edits have been made. Summary does not need to mention the artifact name and should focus on the contents and purpose of the artifact."
+                      }
+                    },
+                    "required": [
+                      "Summary",
+                      "ArtifactType"
+                    ]
+                  },
+                  "Description": {
+                    "type": "STRING",
+                    "description": "Brief, user-facing explanation of what this change did. Focus on non-obvious rationale, design decisions, or important context. Don't just restate what the code does."
+                  },
+                  "Instruction": {
+                    "type": "STRING",
+                    "description": "A description of the changes that you are making to the file."
+                  },
+                  "ReplacementChunks": {
+                    "type": "ARRAY",
+                    "description": "A list of chunks to replace. It is best to provide multiple chunks for non-contiguous edits if possible. This must be a JSON array, not a string.",
+                    "items": {
+                      "type": "OBJECT",
+                      "properties": {
+                        "AllowMultiple": {
+                          "type": "BOOLEAN",
+                          "description": "If true, multiple occurrences of 'targetContent' will be replaced by 'replacementContent' if they are found. Otherwise if multiple occurences are found, an error will be returned."
+                        },
+                        "EndLine": {
+                          "type": "INTEGER",
+                          "description": "The ending line number of the chunk (1-indexed). Should be at or after the last line containing the target content. Must satisfy StartLine <= EndLine <= number of lines in the file. The target content is searched for within the [StartLine, EndLine] range."
+                        },
+                        "ReplacementContent": {
+                          "type": "STRING",
+                          "description": "The content to replace the target content with."
+                        },
+                        "StartLine": {
+                          "type": "INTEGER",
+                          "description": "The starting line number of the chunk (1-indexed). Should be at or before the first line containing the target content. Must satisfy 1 <= StartLine <= EndLine. The target content is searched for within the [StartLine, EndLine] range."
+                        },
+                        "TargetContent": {
+                          "type": "STRING",
+                          "description": "The exact string to be replaced. This must be the exact character-sequence to be replaced, including whitespace. Be very careful to include any leading whitespace otherwise this will not work at all. This must be a unique substring within the file, or else it will error."
+                        }
+                      },
+                      "required": [
+                        "AllowMultiple",
+                        "TargetContent",
+                        "ReplacementContent",
+                        "StartLine",
+                        "EndLine"
+                      ]
+                    }
+                  },
+                  "TargetFile": {
+                    "type": "STRING",
+                    "description": "The target file to modify. Always specify the target file as the very first argument."
+                  },
+                  "TargetLintErrorIds": {
+                    "type": "ARRAY",
+                    "description": "If applicable, IDs of lint errors this edit aims to fix (they'll have been given in recent IDE feedback). If you believe the edit could fix lints, do specify lint IDs; if the edit is wholly unrelated, do not. A rule of thumb is, if your edit was influenced by lint feedback, include lint IDs. Exercise honest judgement here.",
+                    "items": {
+                      "type": "STRING"
+                    }
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  },
+                  "waitForPreviousTools": {
+                    "type": "BOOLEAN",
+                    "description": "If true, wait for all previous tool calls from this turn to complete before executing (sequential). If false or omitted, execute this tool immediately (parallel with other tools)."
+                  }
+                },
+                "required": [
+                  "TargetFile",
+                  "Instruction",
+                  "Description",
+                  "ReplacementChunks"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "read_url_content",
+              "description": "Fetch content from a URL via HTTP request (invisible to USER). Use when: (1) extracting text from public pages, (2) reading static content/documentation, (3) batch processing multiple URLs, (4) speed is important, or (5) no visual interaction needed. Converts HTML to markdown. No JavaScript execution, no authentication. For pages requiring login, JavaScript, or USER visibility, use read_browser_page instead.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "Url": {
+                    "type": "STRING",
+                    "description": "URL to read content from"
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  },
+                  "waitForPreviousTools": {
+                    "type": "BOOLEAN",
+                    "description": "If true, wait for all previous tool calls from this turn to complete before executing (sequential). If false or omitted, execute this tool immediately (parallel with other tools)."
+                  }
+                },
+                "required": [
+                  "Url"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "replace_file_content",
+              "description": "Use this tool to edit an existing file. Follow these rules:\n1. Use this tool ONLY when you are making a SINGLE CONTIGUOUS block of edits to the same file (i.e. replacing a single contiguous block of text). If you are making edits to multiple non-adjacent lines, use the multi_replace_file_content tool instead.\n2. Do NOT make multiple parallel calls to this tool or the multi_replace_file_content tool for the same file.\n3. To edit multiple, non-adjacent lines of code in the same file, make a single call to the multi_replace_file_content tool..\n4. For the ReplacementChunk, specify StartLine, EndLine, TargetContent and ReplacementContent. StartLine and EndLine should specify a range of lines containing precisely the instances of TargetContent that you wish to edit. To edit a single instance of the TargetContent, the range should be such that it contains that specific instance of the TargetContent and no other instances. When applicable, provide a range that matches the range viewed in a previous view_file call. In TargetContent, specify the precise lines of code to edit. These lines MUST EXACTLY MATCH text in the existing file content. In ReplacementContent, specify the replacement content for the specified target content. This must be a complete drop-in replacement of the TargetContent, with necessary modifications made.\n5. If you are making multiple edits across a single file, use the multi_replace_file_content tool instead. DO NOT try to replace the entire existing content with the new content, this is very expensive.\n6. You may not edit file extensions: [.ipynb]\nIMPORTANT: You must generate the following arguments first, before any others: [TargetFile]",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "AllowMultiple": {
+                    "type": "BOOLEAN",
+                    "description": "If true, multiple occurrences of 'targetContent' will be replaced by 'replacementContent' if they are found. Otherwise if multiple occurences are found, an error will be returned."
+                  },
+                  "Description": {
+                    "type": "STRING",
+                    "description": "Brief, user-facing explanation of what this change did. Focus on non-obvious rationale, design decisions, or important context. Don't just restate what the code does."
+                  },
+                  "EndLine": {
+                    "type": "INTEGER",
+                    "description": "The ending line number of the chunk (1-indexed). Should be at or after the last line containing the target content. Must satisfy StartLine <= EndLine <= number of lines in the file. The target content is searched for within the [StartLine, EndLine] range."
+                  },
+                  "Instruction": {
+                    "type": "STRING",
+                    "description": "A description of the changes that you are making to the file."
+                  },
+                  "ReplacementContent": {
+                    "type": "STRING",
+                    "description": "The content to replace the target content with."
+                  },
+                  "StartLine": {
+                    "type": "INTEGER",
+                    "description": "The starting line number of the chunk (1-indexed). Should be at or before the first line containing the target content. Must satisfy 1 <= StartLine <= EndLine. The target content is searched for within the [StartLine, EndLine] range."
+                  },
+                  "TargetContent": {
+                    "type": "STRING",
+                    "description": "The exact string to be replaced. This must be the exact character-sequence to be replaced, including whitespace. Be very careful to include any leading whitespace otherwise this will not work at all. This must be a unique substring within the file, or else it will error."
+                  },
+                  "TargetFile": {
+                    "type": "STRING",
+                    "description": "The target file to modify. Always specify the target file as the very first argument."
+                  },
+                  "TargetLintErrorIds": {
+                    "type": "ARRAY",
+                    "description": "If applicable, IDs of lint errors this edit aims to fix (they'll have been given in recent IDE feedback). If you believe the edit could fix lints, do specify lint IDs; if the edit is wholly unrelated, do not. A rule of thumb is, if your edit was influenced by lint feedback, include lint IDs. Exercise honest judgement here.",
+                    "items": {
+                      "type": "STRING"
+                    }
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  },
+                  "waitForPreviousTools": {
+                    "type": "BOOLEAN",
+                    "description": "If true, wait for all previous tool calls from this turn to complete before executing (sequential). If false or omitted, execute this tool immediately (parallel with other tools)."
+                  }
+                },
+                "required": [
+                  "TargetFile",
+                  "Instruction",
+                  "Description",
+                  "AllowMultiple",
+                  "TargetContent",
+                  "ReplacementContent",
+                  "StartLine",
+                  "EndLine"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "run_command",
+              "description": "PROPOSE a command to run on behalf of the user. Operating System: windows. Shell: powershell.\n**NEVER PROPOSE A cd COMMAND**.\nIf you have this tool, note that you DO have the ability to run commands directly on the USER's system.\nMake sure to specify CommandLine exactly as it should be run in the shell.\nNote that the user will have to approve the command before it is executed. The user may reject it if it is not to their liking.\nThe actual command will NOT execute until the user approves it. The user may not approve it immediately.\nIf the step is WAITING for user approval, it has NOT started running.\nIf the step returns a command id, it means that the command was sent to the background. You should use the command_status tool to monitor the output and status of the command.\nCommands will be run with PAGER=cat. You may want to limit the length of output for commands that usually rely on paging and may contain very long output (e.g. git log, use git log -n <N>).\nIMPORTANT: The Cwd (working directory) MUST be within the user's workspace. Do NOT use /tmp, /home, or any path outside the workspace. If you need a temporary directory, create one inside the workspace.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "CommandLine": {
+                    "type": "STRING",
+                    "description": "The exact command line string to execute."
+                  },
+                  "Cwd": {
+                    "type": "STRING",
+                    "description": "The current working directory for the command"
+                  },
+                  "SafeToAutoRun": {
+                    "type": "BOOLEAN",
+                    "description": "Set to true if you believe that this command is safe to run WITHOUT user approval. A command is unsafe if it may have some destructive side-effects. Example unsafe side-effects include: deleting files, mutating state, installing system dependencies, making external requests, etc. Set to true only if you are extremely confident it is safe. If you feel the command could be unsafe, never set this to true, EVEN if the USER asks you to. It is imperative that you never auto-run a potentially unsafe command."
+                  },
+                  "WaitMsBeforeAsync": {
+                    "type": "INTEGER",
+                    "description": "This specifies the number of milliseconds to wait after starting the command before sending it to the background. If you want the command to complete execution synchronously, set this to a large enough value that you expect the command to complete in that time under ordinary circumstances. If you're starting an interactive or long-running command, set it to a large enough value that it would cause possible failure cases to execute synchronously (e.g. 500ms). Keep the value as small as possible, with a maximum of 10000ms."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  },
+                  "waitForPreviousTools": {
+                    "type": "BOOLEAN",
+                    "description": "If true, wait for all previous tool calls from this turn to complete before executing (sequential). If false or omitted, execute this tool immediately (parallel with other tools)."
+                  }
+                },
+                "required": [
+                  "Cwd",
+                  "WaitMsBeforeAsync",
+                  "SafeToAutoRun",
+                  "CommandLine"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "search_web",
+              "description": "Performs a web search for a given query. Returns a summary of relevant information along with URL citations.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "domain": {
+                    "type": "STRING",
+                    "description": "Optional domain to recommend the search prioritize"
+                  },
+                  "query": {
+                    "type": "STRING"
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  },
+                  "waitForPreviousTools": {
+                    "type": "BOOLEAN",
+                    "description": "If true, wait for all previous tool calls from this turn to complete before executing (sequential). If false or omitted, execute this tool immediately (parallel with other tools)."
+                  }
+                },
+                "required": [
+                  "query"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "send_command_input",
+              "description": "Send standard input to a running command or to terminate a command. Use this to interact with REPLs, interactive commands, and long-running processes. The command must have been created by a previous run_command call. Use the command_status tool to check the status and output of the command after sending input.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "CommandId": {
+                    "type": "STRING",
+                    "description": "The command ID from a previous run_command call. This is returned in the run_command output."
+                  },
+                  "Input": {
+                    "type": "STRING",
+                    "description": "The input to send to the command's stdin. Include newline characters (the literal character, not the escape sequence) if needed to submit commands. Exactly one of input and terminate must be specified."
+                  },
+                  "SafeToAutoRun": {
+                    "type": "BOOLEAN",
+                    "description": "Set to true if you believe that this command is safe to run WITHOUT user approval. An input is unsafe if it may have some destructive side-effects. Example unsafe side-effects include: deleting files, mutating state, installing system dependencies, making external requests, etc. Set to true only if you are extremely confident it is safe. If you feel the input could be unsafe, never set this to true, EVEN if the USER asks you to. It is imperative that you never auto-run a potentially unsafe input."
+                  },
+                  "Terminate": {
+                    "type": "BOOLEAN",
+                    "description": "Whether to terminate the command. Exactly one of input and terminate must be specified."
+                  },
+                  "WaitMs": {
+                    "type": "INTEGER",
+                    "description": "Amount of time to wait for output after sending input. Keep the value as small as possible, but large enough to capture the output you expect. Must be between 500ms and 10000ms."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  },
+                  "waitForPreviousTools": {
+                    "type": "BOOLEAN",
+                    "description": "If true, wait for all previous tool calls from this turn to complete before executing (sequential). If false or omitted, execute this tool immediately (parallel with other tools)."
+                  }
+                },
+                "required": [
+                  "CommandId",
+                  "WaitMs",
+                  "SafeToAutoRun"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "view_file",
+              "description": "View the contents of a file from the local filesystem. This tool supports some binary files such as images and videos.\nText file usage:\n- The lines of the file are 1-indexed\n- The first time you read a new file the tool will enforce reading 800 lines to understand as much about the file as possible\n- The output of this tool call will be the file contents from StartLine to EndLine (inclusive)\n- You can view at most 800 lines at a time\n- To view the whole file do not pass StartLine or EndLine arguments\nBinary file usage:\n- Do not provide StartLine or EndLine arguments, this tool always returns the entire file",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "AbsolutePath": {
+                    "type": "STRING",
+                    "description": "Path to file to view. Must be an absolute path."
+                  },
+                  "EndLine": {
+                    "type": "INTEGER",
+                    "description": "Optional. Endline to view, 1-indexed as usual, inclusive. This value must be greater than or equal to StartLine."
+                  },
+                  "IsSkillFile": {
+                    "type": "BOOLEAN",
+                    "description": "Optional. Set to true only when reading a file to execute its instructions for a task. Set to false if the purpose is to edit, preview, or manage the file."
+                  },
+                  "StartLine": {
+                    "type": "INTEGER",
+                    "description": "Optional. Startline to view, 1-indexed as usual, inclusive. This value must be less than or equal to EndLine."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  },
+                  "waitForPreviousTools": {
+                    "type": "BOOLEAN",
+                    "description": "If true, wait for all previous tool calls from this turn to complete before executing (sequential). If false or omitted, execute this tool immediately (parallel with other tools)."
+                  }
+                },
+                "required": [
+                  "AbsolutePath"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "write_to_file",
+              "description": "Use this tool to create new files. The file and any parent directories will be created for you if they do not already exist.\n\t\tFollow these instructions:\n\t\t1. By default this tool will error if TargetFile already exists. To overwrite an existing file, set Overwrite to true.\n\t\t2. You MUST specify TargetFile as the FIRST argument. Please specify the full TargetFile before any of the code contents.\n\t\t3. When creating an artifact, make sure to set IsArtifact to true and provide an ArtifactMetadata.\nIMPORTANT: You must generate the following arguments first, before any others: [TargetFile, Overwrite]",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "ArtifactMetadata": {
+                    "type": "OBJECT",
+                    "description": "Metadata for the artifact, required when IsArtifact is true.",
+                    "properties": {
+                      "ArtifactType": {
+                        "type": "STRING",
+                        "description": "Type of artifact: 'implementation_plan', 'walkthrough', 'task', or 'other'.",
+                        "enum": [
+                          "implementation_plan",
+                          "walkthrough",
+                          "task",
+                          "other"
+                        ]
+                      },
+                      "RequestFeedback": {
+                        "type": "BOOLEAN",
+                        "description": "Set to true to request user feedback on this artifact."
+                      },
+                      "Summary": {
+                        "type": "STRING",
+                        "description": "Detailed multi-line summary of the artifact file, after edits have been made. Summary does not need to mention the artifact name and should focus on the contents and purpose of the artifact."
+                      }
+                    },
+                    "required": [
+                      "Summary",
+                      "ArtifactType"
+                    ]
+                  },
+                  "CodeContent": {
+                    "type": "STRING",
+                    "description": "The code contents to write to the file."
+                  },
+                  "Description": {
+                    "type": "STRING",
+                    "description": "Brief, user-facing explanation of what this change did. Focus on non-obvious rationale, design decisions, or important context. Don't just restate what the code does."
+                  },
+                  "IsArtifact": {
+                    "type": "BOOLEAN",
+                    "description": "Set this to true when creating an artifact file."
+                  },
+                  "Overwrite": {
+                    "type": "BOOLEAN",
+                    "description": "Set this to true to overwrite an existing file. WARNING: This will replace the entire file contents. Only use when you explicitly intend to overwrite. Otherwise, use a code edit tool to modify existing files."
+                  },
+                  "TargetFile": {
+                    "type": "STRING",
+                    "description": "The target file to create and write code to."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  },
+                  "waitForPreviousTools": {
+                    "type": "BOOLEAN",
+                    "description": "If true, wait for all previous tool calls from this turn to complete before executing (sequential). If false or omitted, execute this tool immediately (parallel with other tools)."
+                  }
+                },
+                "required": [
+                  "TargetFile",
+                  "Overwrite",
+                  "CodeContent",
+                  "Description",
+                  "IsArtifact"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "toolConfig": {
+        "functionCallingConfig": {
+          "mode": "VALIDATED"
+        }
+      },
+      "generationConfig": {
+        "thinkingConfig": {
+          "includeThoughts": true,
+          "thinkingBudget": 1024
+        }
+      },
+      "sessionId": "-3750763034362895579"
+    },
+    "model": "claude-opus-4-6-thinking",
+    "userAgent": "antigravity",
+    "requestType": "agent"
+  }
+}

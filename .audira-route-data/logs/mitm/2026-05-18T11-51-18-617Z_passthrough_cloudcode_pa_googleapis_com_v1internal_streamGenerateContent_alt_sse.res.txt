@@ -1,0 +1,31 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 11:51:21 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=1434",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "Implementing Universal"}]}}],"usageMetadata": {"promptTokenCount": 66123,"candidatesTokenCount": 2,"totalTokenCount": 66125},"modelVersion": "gemini-3.1-flash-lite","responseId": "OP0Kao7cIKuqjuMPpe_ciQc"},"traceId": "d5952c822e401ee1","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " Brain Architecture\n\nThe user's objective is to integrate the AUDIRA-UNIVERSAL-BRA"}]}}],"usageMetadata": {"promptTokenCount": 66123,"candidatesTokenCount": 22,"totalTokenCount": 66145},"modelVersion": "gemini-3.1-flash-lite","responseId": "OP0Kao7cIKuqjuMPpe_ciQc"},"traceId": "d5952c822e401ee1","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "IN framework into their local environment to standardize agentic workflows and utilize the centralized skill library. Key goals include:\n1."}]}}],"usageMetadata": {"promptTokenCount": 66123,"candidatesTokenCount": 47,"totalTokenCount": 66170},"modelVersion": "gemini-3.1-flash-lite","responseId": "OP0Kao7cIKuqjuMPpe_ciQc"},"traceId": "d5952c822e401ee1","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " Verify the current integration of global skills and agent configurations within the U-BRAIN directory.\n2. Initialize and deploy"}]}}],"usageMetadata": {"promptTokenCount": 66123,"candidatesTokenCount": 71,"totalTokenCount": 66194},"modelVersion": "gemini-3.1-flash-lite","responseId": "OP0Kao7cIKuqjuMPpe_ciQc"},"traceId": "d5952c822e401ee1","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " the U-BRAIN framework globally to ensure consistent AI expertise and coding standards across all AUDIRA projects.\n3. Establish"}]}}],"usageMetadata": {"promptTokenCount": 66123,"candidatesTokenCount": 97,"totalTokenCount": 66220},"modelVersion": "gemini-3.1-flash-lite","responseId": "OP0Kao7cIKuqjuMPpe_ciQc"},"traceId": "d5952c822e401ee1","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " a standard interface for managing subagents, skills, and documentation using the Nexus Dashboard and defined CLI tools.\n4."}]}}],"usageMetadata": {"promptTokenCount": 66123,"candidatesTokenCount": 121,"totalTokenCount": 66244},"modelVersion": "gemini-3.1-flash-lite","responseId": "OP0Kao7cIKuqjuMPpe_ciQc"},"traceId": "d5952c822e401ee1","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " Align the current repository's development standards with the Universal Brain's rules, patterns, and best practices."}]}}],"usageMetadata": {"promptTokenCount": 66123,"candidatesTokenCount": 143,"totalTokenCount": 66266},"modelVersion": "gemini-3.1-flash-lite","responseId": "OP0Kao7cIKuqjuMPpe_ciQc"},"traceId": "d5952c822e401ee1","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EjQKMgEMOdbH+WIyW1WsR9sBDRlRuo8znc9xMCKq4FKqQX4Te+YzT+zyxnVyx3QDh8kwbkQn","text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 66123,"candidatesTokenCount": 143,"totalTokenCount": 66266,"cachedContentTokenCount": 65208},"modelVersion": "gemini-3.1-flash-lite","responseId": "OP0Kao7cIKuqjuMPpe_ciQc"},"traceId": "d5952c822e401ee1","metadata": {}}
+

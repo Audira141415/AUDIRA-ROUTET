@@ -1,0 +1,19 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 06:43:17 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=2919",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EqQCCqECAQw51sfHJ7Ky2UDydIl9hvOyoHW7RNq3PuLUUqR5laLXGULKOjiWGqv17aKArChxaskW6GCV3GxYp+LCXqdMvlNQzYIb02p+t3Na+1g3X0Gj1N61KHWYfNZpvvMIdiBBgI3T5+1ot31+NfjhfMkEEzBhmJPOHvdokMZJfoAxSXaKXDp1sKRkjj4kVUzUElM6gv16BLNCBj5oML5jbC4aFtkcK1O0NdKospb2xSelLAFhmQHW3+h3ibqJQS4tmWc5b1w9jZMvRH6NdRw9UyDkIhq18J84QJHMez3T/gXc1Lx1ftnf7Wh9uRXsUtjluyA7QfC+P+3kJz7CSKO3dWgtHU01rx9Viy09sAixypeFZOTdZ7tgaTB6oXzqlMlOEPSoUw==","functionCall": {"name": "replace_file_content","args": {"Description": "Check off first two checklist items.","TargetContent": "- [ ] Navigate to http://localhost:3000\n- [ ] Wait for homepage to load (3 seconds)","Instruction": "Update checklist to mark navigation and load complete.","TargetFile": "C:\\Users\\ASUS\\.gemini\\antigravity\\brain\\00103c12-fab5-48d8-953b-a371784f01f6\\browser\\scratchpad_hgkf1luh.md","AllowMultiple": true,"ReplacementContent": "- [x] Navigate to http://localhost:3000\n- [x] Wait for homepage to load (3 seconds)","StartLine": 3,"EndLine": 6},"id": "4kal09u3"}}]}}],"usageMetadata": {"promptTokenCount": 17784,"candidatesTokenCount": 188,"totalTokenCount": 18022,"thoughtsTokenCount": 50},"modelVersion": "gemini-3-flash","responseId": "A7UKapCPIKu0juMPorGp-Qw"},"traceId": "32d47184c72c0a3b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 19596,"candidatesTokenCount": 188,"totalTokenCount": 19834,"thoughtsTokenCount": 50},"modelVersion": "gemini-3-flash","responseId": "A7UKapCPIKu0juMPorGp-Qw"},"traceId": "32d47184c72c0a3b","metadata": {}}
+

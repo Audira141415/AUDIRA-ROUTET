@@ -1,0 +1,161 @@
+STATUS: 200
+HEADERS: {
+  "access-control-allow-origin": "*",
+  "cache-control": "no-cache",
+  "connection": "keep-alive",
+  "content-type": "text/event-stream",
+  "date": "Mon, 18 May 2026 07:59:15 GMT",
+  "transfer-encoding": "chunked",
+  "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+}
+---BODY---
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"<thinking"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":">\nThe user wants me to continue"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" with the rebuild. I've successfully created"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":":\n1. ✅"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" Button"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" component"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n2. ✅ Input component"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n3. ✅ Card component"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" with"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" sub"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"-components"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n4. ✅ Badge component"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" with"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" rarity variants"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n\nAccording"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" to the plan, I still"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" need to create"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":":\n- Modal"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" ("}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"animated overlay)\n- Toast (notification"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" system)"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n\nThen"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" I need to move"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" on to:"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n- API"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" integration layer ("}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"axios"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" client"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":","}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" React"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" Query setup"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":")\n- Authentication infrastructure ("}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"Zu"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"stand store, auth hooks"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":")"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n\nLet me continue with the Modal"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" component"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":","}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" which"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" is essential"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" for dial"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"ogs,"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" confirm"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"ations, and forms"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"."}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" Then"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" I'll create"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" a"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" simple"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" Toast"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" notification"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" system."}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n\nAfter"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" that, I'll create"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" an"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" index"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" file"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" to"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" export all UI"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" components for"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" easy"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" importing,"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" and then move"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" on to the API integration"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" layer.\n</thinking>"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n\nMelanjutkan dengan **Modal**"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" dan **Toast** components,"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" l"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"alu"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" setup"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" **"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"API integration layer**:"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"functionCall":{"name":"write_to_file","args":{"CodeContent":"'use client';\n\nimport { useEffect, useRef, ReactNode } from 'react';\nimport { createPortal } from 'react-dom';\nimport { clsx } from 'clsx';\n\nexport interface ModalProps {\n  isOpen: boolean;\n  onClose: () => void;\n  title?: string;\n  children: ReactNode;\n  size?: 'sm' | 'md' | 'lg' | 'xl';\n  closeOnOverlayClick?: boolean;\n  showCloseButton?: boolean;\n}\n\nconst sizeStyles = {\n  sm: 'max-w-md',\n  md: 'max-w-lg',\n  lg: 'max-w-2xl',\n  xl: 'max-w-4xl',\n};\n\nexport function Modal({\n  isOpen,\n  onClose,\n  title,\n  children,\n  size = 'md',\n  closeOnOverlayClick = true,\n  showCloseButton = true,\n}: ModalProps) {\n  const modalRef = useRef<HTMLDivElement>(null);\n\n  // Handle ESC key\n  useEffect(() => {\n    const handleEscape = (e: KeyboardEvent) => {\n      if (e.key === 'Escape' && isOpen) {\n        onClose();\n      }\n    };\n\n    document.addEventListener('keydown', handleEscape);\n    return () => document.removeEventListener('keydown', handleEscape);\n  }, [isOpen, onClose]);\n\n  // Lock body scroll when modal is open\n  useEffect(() => {\n    if (isOpen) {\n      document.body.style.overflow = 'hidden';\n    } else {\n      document.body.style.overflow = 'unset';\n    }\n\n    return () => {\n      document.body.style.overflow = 'unset';\n    };\n  }, [isOpen]);\n\n  if (!isOpen) return null;\n\n  const modalContent = (\n    <div\n      className=\"fixed inset-0 z-50 flex items-center justify-center p-4 animate-fade-in\"\n      onClick={(e) => {\n        if (closeOnOverlayClick && e.target === e.currentTarget) {\n          onClose();\n        }\n      }}\n    >\n      {/* Backdrop */}\n      <div className=\"absolute inset-0 bg-black/80 backdrop-blur-sm\" />\n\n      {/* Modal */}\n      <div\n        ref={modalRef}\n        className={clsx(\n          'relative w-full',\n          'bg-dark-panel border-2 border-primary-cyan',\n          'shadow-glow-cyan',\n          'rounded-sm',\n          'animate-scale-in',\n          sizeStyles[size]\n        )}\n      >\n        {/* Header */}\n        {(title || showCloseButton) && (\n          <div className=\"flex items-center justify-between p-6 border-b border-dark-border\">\n            {title && (\n              <h2 className=\"text-2xl font-heading uppercase tracking-tight text-dark-text-primary\">\n                {title}\n              </h2>\n            )}\n            {showCloseButton && (\n              <button\n                onClick={onClose}\n                className={clsx(\n                  'p-2 rounded-sm',\n                  'text-dark-text-secondary hover:text-primary-cyan',\n                  'hover:bg-dark-panel-hover',\n                  'transition-colors duration-200',\n                  'focus:outline-none focus:ring-2 focus:ring-primary-cyan'\n                )}\n                aria-label=\"Close modal\"\n              >\n                <svg\n                  xmlns=\"http://www.w3.org/2000/svg\"\n                  className=\"h-6 w-6\"\n                  fill=\"none\"\n                  viewBox=\"0 0 24 24\"\n                  stroke=\"currentColor\"\n                >\n                  <path\n                    strokeLinecap=\"round\"\n                    strokeLinejoin=\"round\"\n                    strokeWidth={2}\n                    d=\"M6 18L18 6M6 6l12 12\"\n                  />\n                </svg>\n              </button>\n            )}\n          </div>\n        )}\n\n        {/* Content */}\n        <div className=\"p-6\">{children}</div>\n      </div>\n    </div>\n  );\n\n  return createPortal(modalContent, document.body);\n}\n\n// Modal sub-components for better composition\nexport function ModalFooter({\n  children,\n  className,\n}: {\n  children: ReactNode;\n  className?: string;\n}) {\n  return (\n    <div\n      className={clsx(\n        'flex items-center justify-end gap-3',\n        'pt-4 mt-4 border-t border-dark-border',\n        className\n      )}\n    >\n      {children}\n    </div>\n  );\n}\n","Description":"Premium Modal component with animations, backdrop blur, and keyboard navigation","IsArtifact":false,"Overwrite":false,"TargetFile":"f:\\AUDIRA-WEB-PERFECT-WORLD\\apps\\web\\src\\components\\ui\\Modal.tsx","toolAction":"Creating file","toolSummary":"Modal component"}}},{"functionCall":{"name":"write_to_file","args":{"CodeContent":"'use client';\n\nimport { createContext, useContext, useState, useCallback, ReactNode } from 'react';\nimport { createPortal } from 'react-dom';\nimport { clsx } from 'clsx';\n\nexport type ToastType = 'success' | 'error' | 'warning' | 'info';\n\nexport interface Toast {\n  id: string;\n  type: ToastType;\n  message: string;\n  duration?: number;\n}\n\ninterface ToastContextValue {\n  toasts: Toast[];\n  addToast: (toast: Omit<Toast, 'id'>) => void;\n  removeToast: (id: string) => void;\n}\n\nconst ToastContext = createContext<ToastContextValue | undefined>(undefined);\n\nexport function ToastProvider({ children }: { children: ReactNode }) {\n  const [toasts, setToasts] = useState<Toast[]>([]);\n\n  const addToast = useCallback((toast: Omit<Toast, 'id'>) => {\n    const id = Math.random().toString(36).substring(2, 9);\n    const newToast = { ...toast, id };\n    \n    setToasts((prev) => [...prev, newToast]);\n\n    // Auto remove after duration\n    const duration = toast.duration || 5000;\n    setTimeout(() => {\n      removeToast(id);\n    }, duration);\n  }, []);\n\n  const removeToast = useCallback((id: string) => {\n    setToasts((prev) => prev.filter((toast) => toast.id !== id));\n  }, []);\n\n  return (\n    <ToastContext.Provider value={{ toasts, addToast, removeToast }}>\n      {children}\n      <ToastContainer toasts={toasts} removeToast={removeToast} />\n    </ToastContext.Provider>\n  );\n}\n\nexport function useToast() {\n  const context = useContext(ToastContext);\n  if (!context) {\n    throw new Error('useToast must be used within ToastProvider');\n  }\n  return context;\n}\n\nfunction ToastContainer({\n  toasts,\n  removeToast,\n}: {\n  toasts: Toast[];\n  removeToast: (id: string) => void;\n}) {\n  if (typeof window === 'undefined') return null;\n\n  return createPortal(\n    <div className=\"fixed top-4 right-4 z-50 flex flex-col gap-2 max-w-md\">\n      {toasts.map((toast) => (\n        <ToastItem key={toast.id} toast={toast} onClose={() => removeToast(toast.id)} />\n      ))}\n    </div>,\n    document.body\n  );\n}\n\nconst toastStyles: Record<ToastType, { bg: string; border: string; icon: ReactNode }> = {\n  success: {\n    bg: 'bg-rarity-uncommon/20',\n    border: 'border-rarity-uncommon',\n    icon: (\n      <svg className=\"w-5 h-5\" fill=\"currentColor\" viewBox=\"0 0 20 20\">\n        <path\n          fillRule=\"evenodd\"\n          d=\"M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z\"\n          clipRule=\"evenodd\"\n        />\n      </svg>\n    ),\n  },\n  error: {\n    bg: 'bg-accent-crimson/20',\n    border: 'border-accent-crimson',\n    icon: (\n      <svg className=\"w-5 h-5\" fill=\"currentColor\" viewBox=\"0 0 20 20\">\n        <path\n          fillRule=\"evenodd\"\n          d=\"M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z\"\n          clipRule=\"evenodd\"\n        />\n      </svg>\n    ),\n  },\n  warning: {\n    bg: 'bg-accent-gold/20',\n    border: 'border-accent-gold',\n    icon: (\n      <svg className=\"w-5 h-5\" fill=\"currentColor\" viewBox=\"0 0 20 20\">\n        <path\n          fillRule=\"evenodd\"\n          d=\"M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z\"\n          clipRule=\"evenodd\"\n        />\n      </svg>\n    ),\n  },\n  info: {\n    bg: 'bg-primary-cyan/20',\n    border: 'border-primary-cyan',\n    icon: (\n      <svg className=\"w-5 h-5\" fill=\"currentColor\" viewBox=\"0 0 20 20\">\n        <path\n          fillRule=\"evenodd\"\n          d=\"M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z\"\n          clipRule=\"evenodd\"\n        />\n      </svg>\n    ),\n  },\n};\n\nfunction ToastItem({ toast, onClose }: { toast: Toast; onClose: () => void }) {\n  const style = toastStyles[toast.type];\n\n  return (\n    <div\n      className={clsx(\n        'flex items-start gap-3 p-4',\n        'bg-dark-panel border-2 rounded-sm',\n        'shadow-glass backdrop-blur-glass',\n        'animate-slide-down',\n        style.bg,\n        style.border\n      )}\n    >\n      <div className={clsx('flex-shrink-0', `text-${toast.type}`)}>\n        {style.icon}\n      </div>\n      <p className=\"flex-1 text-sm text-dark-text-primary\">{toast.message}</p>\n      <button\n        onClick={onClose}\n        className=\"flex-shrink-0 text-dark-text-secondary hover:text-dark-text-primary transition-colors\"\n      >\n        <svg className=\"w-4 h-4\" fill=\"currentColor\" viewBox=\"0 0 20 20\">\n          <path\n            fillRule=\"evenodd\"\n            d=\"M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z\"\n            clipRule=\"evenodd\"\n          />\n        </svg>\n      </button>\n    </div>\n  );\n}\n","Description":"Premium Toast notification system with context provider and auto-dismiss","IsArtifact":false,"Overwrite":false,"TargetFile":"f:\\AUDIRA-WEB-PERFECT-WORLD\\apps\\web\\src\\components\\ui\\Toast.tsx","toolAction":"Creating file","toolSummary":"Toast component"}}}]},"finishReason":"STOP"}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779091155964","usageMetadata":{"promptTokenCount":132805,"candidatesTokenCount":213,"totalTokenCount":133018}}}
+
+data: [DONE]
+
+data: [DONE]
+

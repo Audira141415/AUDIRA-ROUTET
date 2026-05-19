@@ -1,0 +1,23 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 05:37:03 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=2131",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "I will list the open browser pages to see if the page_id is still the same or if a new page_id was"}]}}],"usageMetadata": {"promptTokenCount": 21136,"candidatesTokenCount": 26,"totalTokenCount": 21214,"thoughtsTokenCount": 52},"modelVersion": "gemini-3-flash","responseId": "faUKaumIHOysjuMP6ZO7wQg"},"traceId": "68fe86b4e9a35d05","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " created."}]}}],"usageMetadata": {"promptTokenCount": 26504,"candidatesTokenCount": 28,"totalTokenCount": 26584,"thoughtsTokenCount": 52},"modelVersion": "gemini-3-flash","responseId": "faUKaumIHOysjuMP6ZO7wQg"},"traceId": "68fe86b4e9a35d05","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "ErICCq8CAQw51sccENIbdfa+fwev4K4tLAp+AIEdkmXCBxcoX8IAc5JvOAxaodhxjhOThdlYe0v4JH6NtgfeMNvIeVzGk+cU9VqXXi9VRtr/BPpR/x+3xenH4jzSPBJvwFDhudhUZdDnv9/5sx5otA38mhghYk1z2S9PY/rHNd2nmGRLXhrlpJtQnJy3O40ESJc7pfwVT+PW/X/QKI/0bs+7tHs2fuJYPBYsvMJJHw6uiSQaz2DuxNsIezdZiHNL4d6OZ+g5cm9ucQkTaxKdOpHSXOftUs4WtyYsVizepwSSKR7dfoasCgEoa/ov6/9Qb5axufmgZPxW0PJBJOUif/1wcYk1vpfIxZqM/vP1ibH/iOCYzqNbNQwkrNAYOrT3bnN8tbn1NZ22NnvF98RBkPUgZjJW","functionCall": {"name": "list_browser_pages","args": {"toolAction": "Listing browser pages","toolSummary": "List browser pages","explanation": "Find the current page_id after navigation timeout"},"id": "uq143cqt"}}]}}],"usageMetadata": {"promptTokenCount": 26504,"candidatesTokenCount": 72,"totalTokenCount": 26628,"thoughtsTokenCount": 52},"modelVersion": "gemini-3-flash","responseId": "faUKaumIHOysjuMP6ZO7wQg"},"traceId": "68fe86b4e9a35d05","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 26504,"candidatesTokenCount": 72,"totalTokenCount": 26628,"thoughtsTokenCount": 52},"modelVersion": "gemini-3-flash","responseId": "faUKaumIHOysjuMP6ZO7wQg"},"traceId": "68fe86b4e9a35d05","metadata": {}}
+

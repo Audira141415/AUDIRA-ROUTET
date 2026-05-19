@@ -1,0 +1,19 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Sat, 16 May 2026 08:23:48 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=3266",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EpwECpkEAQw51seMkBqGas66wDdtU6fJdNhBIS9GSRN8P6z8YWMCdn5jk1DrUj6tYXDCRuLv9FDvHCyeaddOnuSvMcCHAGbokiUvLvp2RJEq4gRSq6yMlkhh0mmLxE2AetEi8k3dtBTXMMMF7mvtFRtQn7tSCN3Q6bAml5DUDy6I9T35CIyjl20da0eBF5yY02/oCOoeyZBdWlA4arLczJsRqkE4EkKf9WCZEI4RDtTOwK4WofXn0UzoBtMsZllA9LQuh4q/rU0X451zyEkPAosL8ecys/cIbOVkzm+AQV7stxP2EPFo5rGjbzPujWk3r0b3GIyfaJMLpxwuI+xUbFB7HamfnPaYEpapGRHvetVkHgFAuQMUTPbositC1jIj+GTvFN6HyRUAEziuaDy5gZqO5k7dOeNDhEqJbcLjiTuww5Av1LfhTMDxRYWW5JIMoEDg0u3XOzpFwGhl8QNQt6BLonwT3GC0tkh9N4tF415vg8Ol4/STOLw+Icrop2/u0w/cOB+sW7JoaKuhjBVEHBOuN58hhYyjv/ZkLEpMPzV+yiilj+BnR1kCEJLou6rG8zcukhoiHtE7J4jKWQasqnvvHoCF4n6HFqHVuOCNOrryLNneI7ETnmypjix1sR+jYhj1xg9eUAHB46Amqh/mINo6O3Qv2Y3vtcSjjXd7Jz4PnLkZ/hD3FvMZWEYPcwIiyafNhaPWZynT+RABNLFk","functionCall": {"name": "list_dir","args": {"DirectoryPath": "f:\\AUDIRA-ROUTET\\src"},"id": "t58ujkca"}}]}}],"usageMetadata": {"promptTokenCount": 15638,"candidatesTokenCount": 27,"totalTokenCount": 15763,"thoughtsTokenCount": 98},"modelVersion": "gemini-default","responseId": "kSkIapyMPPTMqfkPqYntkQU"},"traceId": "80f8673bedfa99fe","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 16168,"candidatesTokenCount": 27,"totalTokenCount": 16293,"cachedContentTokenCount": 12216,"thoughtsTokenCount": 98},"modelVersion": "gemini-default","responseId": "kSkIapyMPPTMqfkPqYntkQU"},"traceId": "80f8673bedfa99fe","metadata": {}}
+

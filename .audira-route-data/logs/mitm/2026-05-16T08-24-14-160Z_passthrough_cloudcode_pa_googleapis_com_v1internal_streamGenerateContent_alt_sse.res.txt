@@ -1,0 +1,19 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Sat, 16 May 2026 08:24:17 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=2875",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EvcDCvQDAQw51sfhmnY9AbVdwtK3KDg0uBKWhZeSAEo7Bf4n1Mk5RE9yrLFSg28zbyLhklebv3cdmYaYedfhJmeX+ox42zBb2CcZtQumoz31DGbLmU4+ixl2hGkyF246nIxlvDg9e5bPNfDvRsxcCQe4yVDu+Gi7whYWS0aK70LLuI+fuXkiP4a5dvHLdbn+X7wAfvj+agHOQYLLRRw3f65nVsL/nCMwYX8WPpiftUf0EnHdnaKEs1Vt5kWsa7aIkaU4RZkM8z4B7ngzSYgMuT+OWzdO9wgxUzo6T2wEFneCiPi0Mj3VUHbtMcoNGZDu+8o8l1jIpTa/jApDPMnuk3g0KFOvP/0gmvJN6dy5znQs6/Gen6N4TBIKKGY06pl/Zhx8OvJ829QpXjEto/1J/x02I7iwrh9QxKfJHd18Lo23AOtHR8BV4N32SfCsdOaGUoAOLFit3zxOlg/5FJB6XsZAsX56fvBX8YyyLG/s97KFE/5Uy7h6lVKazhYmznam/wAnPQmImaJN35TI4mghXAzYGpju9IVfwVtYX94egKNx1jTmJ+wB/HgiKBG/eHppSVnAxEH5XMYUjGsQz2t3NU45GyX/IdHljmexCmt0eXrw2mEiq3IOqOCmwa1YYMJ5uEilZsehm6Wai4ZTcoh7oHhqm1ZphRvqq9g=","functionCall": {"name": "view_file","args": {"AbsolutePath": "f:\\AUDIRA-ROUTET\\src\\mitm\\dns\\dnsConfig.js"},"id": "pm4r5dbt"}}]}}],"usageMetadata": {"promptTokenCount": 42276,"candidatesTokenCount": 36,"totalTokenCount": 42416,"thoughtsTokenCount": 104},"modelVersion": "gemini-default","responseId": "sCkIaoqQA-G9juMP4tv-uAw"},"traceId": "dcd19182c0e62a98","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 43616,"candidatesTokenCount": 36,"totalTokenCount": 43756,"cachedContentTokenCount": 40768,"thoughtsTokenCount": 104},"modelVersion": "gemini-default","responseId": "sCkIaoqQA-G9juMP4tv-uAw"},"traceId": "dcd19182c0e62a98","metadata": {}}
+

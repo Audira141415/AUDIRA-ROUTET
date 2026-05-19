@@ -1,0 +1,35 @@
+STATUS: 200
+HEADERS: {
+  "access-control-allow-origin": "*",
+  "cache-control": "no-cache",
+  "connection": "keep-alive",
+  "content-type": "text/event-stream",
+  "date": "Sun, 17 May 2026 06:26:20 GMT",
+  "transfer-encoding": "chunked",
+  "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+}
+---BODY---
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"S"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1778999180150"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"aya akan meng"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1778999180150"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"analisa"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1778999180150"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" project"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1778999180150"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" ini untuk memah"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1778999180150"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"ami struk"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1778999180150"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"tur dan fung"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1778999180150"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"si"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1778999180150"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"nya."}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1778999180150"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"functionCall":{"name":"list_dir","args":{"DirectoryPath":"F:\\AUDIRA-ROUTET","toolAction":"Listing root directory","toolSummary":"Root directory structure"}}},{"functionCall":{"name":"grep_search","args":{"SearchPath":"F:\\AUDIRA-ROUTET","Query":"package.json","IsRegex":false,"MatchPerLine":false,"CaseInsensitive":false,"toolAction":"Finding package.json","toolSummary":"Package configuration search"}}}]},"finishReason":"STOP"}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1778999180150","usageMetadata":{"promptTokenCount":11090,"candidatesTokenCount":18,"totalTokenCount":11108}}}
+
+data: [DONE]
+
+data: [DONE]
+

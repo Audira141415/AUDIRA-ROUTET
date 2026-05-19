@@ -1,0 +1,139 @@
+STATUS: 200
+HEADERS: {
+  "access-control-allow-origin": "*",
+  "cache-control": "no-cache",
+  "connection": "keep-alive",
+  "content-type": "text/event-stream",
+  "date": "Mon, 18 May 2026 07:53:47 GMT",
+  "transfer-encoding": "chunked",
+  "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+}
+---BODY---
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"<thinking"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":">\nThe user continues"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" to say \"continue\" with thinking mode"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" enabled. We"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"'re down to just 2"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" errors now"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"!"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" Both"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" are in"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" the scheduler service:"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n\n1. **"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"Line"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" 196**: `job"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":".cronTime.source` returns"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" `"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"string | DateTime<boolean>` but"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" we"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" need just"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" `string`\n2. **Line"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" 199**: `job"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":".lastDate()?.toJS"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"Date()` -"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" the"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" `to"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"JSDate()` method doesn't"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" exist on Date"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n\nThese"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" are type"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" conversion"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" issues"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" with"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" the C"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"ronJob library"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":". I"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" need to:\n1. Convert"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" `"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"job"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":".cronTime.source` to string"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" ("}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"it might"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" be a DateTime"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" object)\n2. Handle"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" the last"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"Date() return"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" value properly -"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" it might"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" already"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" be a Date,"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" not"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" a DateTime\n\nLet me fix these type"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" issues in"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" the get"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"ScheduledSc"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"ans()"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" method.\n</thinking>\n\nGreat"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" progress"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"! Down"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" to just 2 errors. Let"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" me fix the"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" type conversion"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" issues in the scheduler service."}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"functionCall":{"name":"view_file","args":{"AbsolutePath":"f:\\AUDIRA-BUG-HUTTER\\services\\api\\src\\scheduler\\scheduler.service.ts","EndLine":205,"StartLine":190,"toolAction":"Viewing file","toolSummary":"Scheduler getScheduledScans method"}}}]},"finishReason":"STOP"}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090827693","usageMetadata":{"promptTokenCount":117853,"candidatesTokenCount":189,"totalTokenCount":118042}}}
+
+data: [DONE]
+
+data: [DONE]
+

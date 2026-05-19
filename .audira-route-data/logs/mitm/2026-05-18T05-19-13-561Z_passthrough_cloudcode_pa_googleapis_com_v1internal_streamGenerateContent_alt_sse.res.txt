@@ -1,0 +1,19 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 05:19:14 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=1260",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EtAGCs0GAQw51sdRi7DZ28xA9bQP7STMch5jgvZhlaNoq8KsjzRwI+wL6nlyTaN6XWGnHcaHS9Ekup45+BtmLJNDTQ0jUU1mxFscauGtbAcY936wh+CB2f30/oTjzedzCy0pLCd16fRZLjowYNDyPjEEK55Z4FFA8Ikmz2q9SJy3f7YoJmK09Wmu8h2JruRdQBuV708pj+tEAj65kZievU0wJqfGHdwBia4xpMyi6jex5+gxVnZrtTgTPMjNDzXo1LNlG5Em6m5MR0c7FxG83yCR1j8wyxBR+0Ij4CV3uvuWl6K5Vh6j3OfwskjU1FABRWukYbVvyIWHYFOsIRcEai9amGKMCS5B6f8t6KsKQbOQgPnzgUaa/3mu5oZEmVwUD1ovv8Rg862DWIeXBlILKZwWcOkAoYRyOovItKxjRTKljTs7YAV92fS3m0R+NlCy4BvEQk/Wwo+OAMLC+zcCTm88AHcbIfuBgG4TAFl95CWdG6UL6CW9I3Z7vCfFk+cChPdYNs91XaWIMj2cD7X5qvog7tILY/E0afh/zh5Z0frAaLZJg/jxNCh00hgoo7UJgDf16zHRgdFzfF6we5/w03kpWy5SdGdAvLWbGf/RYPtS/++boqKreAxXckO9eCZ080YpUpZLxxV4b21M05NXza/c6DAmpoheg8AOXH/mUW1jDvBjNzuKDqdrExluZ0pLJnlkeVcamIpL4iUzvWdCtbLxfwm0cpAHDF8b4ViYJKritxwl1THXGAsqKwusYxe5KSgmDALCLNIxvhTzBFhuMbJSAVZxHMZEtOZcJKL0cP9C/DwU0sAtKcu/7SkL8Ai16J3NyLQSu5z2PVCW/wLMtZSiqBSFWzdcNnca8+SpDLkndwKiwLItwF+fsDm3nG04VHWai5vFIr22Z6hPetWbsYHqiv0oiMlSfBp6ykBpN3y5qHaHr3wMTljs+0upMkeMNJLo9RJ33XCUCoG/AVOvwNFrMdlgXXW5R8h1CxKu9tqaU4388n0VhgkGRmGgABIJUQOj0gohj0mI9kXto7IXiS/ikIhqShbK3zqXEpujIhuaEf152tqqqUBZNj7OgPv8iATIoJxdqBQfG4OgsnBNMFuEa3lPZu2BV5hfitMPW0b32kI=","functionCall": {"name": "view_file","args": {"explanation": "Read the scratchpad to understand the existing context and plan my tasks.","AbsolutePath": "C:\\Users\\ASUS\\.gemini\\antigravity\\brain\\00103c12-fab5-48d8-953b-a371784f01f6\\browser\\scratchpad_0lwe4ndg.md","toolSummary": "File view","toolAction": "Viewing scratchpad file"},"id": "ttefikt9"}}]}}],"usageMetadata": {"promptTokenCount": 13593,"candidatesTokenCount": 116,"totalTokenCount": 13920,"thoughtsTokenCount": 211},"modelVersion": "gemini-3-flash","responseId": "UaEKar_mLdCkqfkPkMTlyAQ"},"traceId": "3095d83399cd20d1","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 13593,"candidatesTokenCount": 116,"totalTokenCount": 13920,"thoughtsTokenCount": 211},"modelVersion": "gemini-3-flash","responseId": "UaEKar_mLdCkqfkPkMTlyAQ"},"traceId": "3095d83399cd20d1","metadata": {}}
+

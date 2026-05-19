@@ -1,0 +1,353 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 11:06:34 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=772",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "                    backgroundPosition: 'center',\n                    transition: 'transform 0.3s"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 18,"totalTokenCount": 5076},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " ease',\n                  }}\n                /\u003e\n                \u003cdiv\n                  style={{\n                    position: 'absolute',\n                    inset: 0"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 47,"totalTokenCount": 5105},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ",\n                    background: 'linear-gradient(to top, rgba(10,10,15,0.95"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 75,"totalTokenCount": 5133},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ") 0%, rgba(10,10,15,0.2) 60%)',\n                  }}\n"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 103,"totalTokenCount": 5161},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "                /\u003e\n                \u003cdiv\n                  style={{\n                    position: 'absolute',\n                    bottom: 0,"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 127,"totalTokenCount": 5185},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\n                    left: 0,\n                    right: 0,\n                    padding: '32px',\n"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 151,"totalTokenCount": 5209},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "                  }}\n                \u003e\n                  \u003ch3\n                    style={{\n                      fontSize: '20px',\n                      fontWeight: "}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 179,"totalTokenCount": 5237},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "700,\n                      margin: '0 0 8px 0',\n                      color: '#ffffff',\n                      textShadow"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 208,"totalTokenCount": 5266},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ": '0 2px 4px rgba(0,0,0,0.5)',\n                    }}"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 232,"totalTokenCount": 5290},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\n                  \u003e\n                    {feature.title}\n                  \u003c/h3\u003e\n                  \u003cp\n                    style={{\n                      fontSize: '14"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 260,"totalTokenCount": 5318},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "px',\n                      color: 'rgba(255,255,255,0.9)',\n                      margin"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 288,"totalTokenCount": 5346},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ": 0,\n                      lineHeight: 1.6,\n                      textShadow: '0 1px 2px rgba("}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 317,"totalTokenCount": 5375},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "0,0,0,0.3)',\n                    }}\n                  \u003e\n                    {feature.description}\n"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 341,"totalTokenCount": 5399},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "                  \u003c/p\u003e\n                \u003c/div\u003e\n              \u003c/div\u003e\n            ))}\n          \u003c/div\u003e\n        \u003c/div\u003e\n      \u003c/section\u003e\n\n      {/* ====="}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 370,"totalTokenCount": 5428},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " CLASS SHOWCASE SECTION ===== */}\n      \u003cClassShowcase classes={SHOWCASE_CLASSES} /\u003e\n\n      {/*"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 394,"totalTokenCount": 5452},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " ===== NEWS SECTION ===== */}\n      \u003csection\n        style={{\n          padding: 'clamp(80px,"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 418,"totalTokenCount": 5476},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " 10vw, 128px) 24px',\n          background: 'transparent',\n"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 442,"totalTokenCount": 5500},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "        }}\n      \u003e\n        \u003cdiv style={{ maxWidth: '1200px', margin: '0 auto' }}\u003e\n          "}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 471,"totalTokenCount": 5529},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "{/* Section Header */}\n          \u003cdiv\n            style={{\n              display: 'flex',\n              alignItems"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 495,"totalTokenCount": 5553},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ": 'center',\n              justifyContent: 'space-between',\n              marginBottom: '48px',\n"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 519,"totalTokenCount": 5577},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "            }}\n          \u003e\n            \u003ch2\n              style={{\n                fontSize: 'clamp(24px, 3vw"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 547,"totalTokenCount": 5605},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ", 40px)',\n                fontWeight: 700,\n                letterSpacing: '0.0"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 571,"totalTokenCount": 5629},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "5em',\n                color: '#ffffff',\n                textShadow: '0 2px 10px"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 595,"totalTokenCount": 5653},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " rgba(0,0,0,0.3)',\n                margin: 0,\n              }}\n            \u003e\n              L"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 623,"totalTokenCount": 5681},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "ATEST NEWS\n            \u003c/h2\u003e\n            \u003cLink\n              href=\"/news\"\n              style={{\n                fontSize: '"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 647,"totalTokenCount": 5705},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "14px',\n                color: 'rgba(255,255,255,0"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 671,"totalTokenCount": 5729},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ".8)',\n                textDecoration: 'none',\n                transition: 'color 0.3s ease',"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 695,"totalTokenCount": 5753},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\n              }}\n              onMouseEnter={(e) =\u003e { e.currentTarget.style.color = '#00d"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 719,"totalTokenCount": 5777},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "4ff'; }}\n              onMouseLeave={(e) =\u003e { e.currentTarget.style.color = 'rgba"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 743,"totalTokenCount": 5801},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "(255,255,255,0.8)'; }}\n            \u003e\n              View"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 767,"totalTokenCount": 5825},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " All →\n            \u003c/Link\u003e\n          \u003c/div\u003e\n\n          {/* News Items */}\n          \u003cdiv style={{ display"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 791,"totalTokenCount": 5849},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ": 'flex', flexDirection: 'column' }}\u003e\n            {[\n              {\n                date: 'Dec 1"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 815,"totalTokenCount": 5873},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "5, 2024',\n                category: 'Update',\n                title: 'Season 4:"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 839,"totalTokenCount": 5897},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " Twilight Dominion launches with new territory wars',\n              },\n              {\n                date: 'Dec 12,"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 863,"totalTokenCount": 5921},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " 2024',\n                category: 'Event',\n                title: 'Winter Solstice Festival brings exclusive mounts"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 888,"totalTokenCount": 5946},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " and cosmetics',\n              },\n              {\n                date: 'Dec 8, 2024',"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 912,"totalTokenCount": 5970},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\n                category: 'Balance',\n                title: 'Class rebalancing patch addresses Wizard burst damage concerns',\n              },\n            "}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 939,"totalTokenCount": 5997},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "].map((news, index) =\u003e (\n              \u003cdiv\n                key={index}\n                style={{\n                  display:"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 966,"totalTokenCount": 6024},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " 'flex',\n                  alignItems: 'center',\n                  gap: '20px',\n                  padding:"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 990,"totalTokenCount": 6048},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " '20px 0',\n                  borderBottom: index \u003c 2 ? '1px solid #E0E0E"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 1017,"totalTokenCount": 6075},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "0' : 'none',\n                  cursor: 'pointer',\n                  transition: 'all 0.3s"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 1041,"totalTokenCount": 6099},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " ease',\n                }}\n                onMouseEnter={(e) =\u003e {\n                  const title = e.currentTarget.querySelector"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 1065,"totalTokenCount": 6123},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "('span[data-title]') as HTMLElement;\n                  if (title) title.style.color = '#0"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 1089,"totalTokenCount": 6147},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "0d4ff';\n                }}\n                onMouseLeave={(e) =\u003e {\n                  const title = e"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 1113,"totalTokenCount": 6171},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ".currentTarget.querySelector('span[data-title]') as HTMLElement;\n                  if (title) title.style."}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 1137,"totalTokenCount": 6195},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "color = '#ffffff';\n                }}\n              \u003e\n                \u003cspan\n                  style={{\n                    fontSize: '"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 1161,"totalTokenCount": 6219},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "13px',\n                    color: '#555555',\n                    whiteSpace: 'nowrap',\n                    minWidth"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 1190,"totalTokenCount": 6248},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ": '100px',\n                  }}\n                \u003e\n                  {news.date}\n                \u003c/span\u003e\n"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 1214,"totalTokenCount": 6272},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "                \u003cspan\n                  style={{\n                    fontSize: '10px',\n                    fontWeight: 600"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 1238,"totalTokenCount": 6296},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ",\n                    letterSpacing: '0.1em',\n                    textTransform: 'uppercase',\n                    padding:"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 1262,"totalTokenCount": 6320},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " '4px 10px',\n                    background: 'rgba(0, 212, 2"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 1286,"totalTokenCount": 6344},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "55, 0.1)',\n                    color: '#00d4ff',\n                    whiteSpace:"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 1310,"totalTokenCount": 6368},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " 'nowrap',\n                  }}\n                \u003e\n                  {news.category}\n                \u003c/span\u003e\n                \u003cspan"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 1334,"totalTokenCount": 6392},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\n                  data-title=\"true\"\n                  style={{\n                    fontSize: '15px',\n                    color"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 1358,"totalTokenCount": 6416},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ": '#111111',\n                    transition: 'color 0.3s ease',\n                  "}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 1382,"totalTokenCount": 6440},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "}}\n                \u003e\n                  {news.title}\n                \u003c/span\u003e\n              \u003c/div\u003e\n            ))}\n          \u003c/div\u003e\n"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 1406,"totalTokenCount": 6464},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "        \u003c/div\u003e\n      \u003c/section\u003e\n\n      {/* ===== RANKINGS PREVIEW SECTION ===== */}\n      \u003csection\n"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 1430,"totalTokenCount": 6488},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "        style={{\n          padding: 'clamp(80px, 10vw, 128px) 2"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 1457,"totalTokenCount": 6515},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "4px',\n          background: 'transparent',\n        }}\n      \u003e\n        \u003cdiv style={{ maxWidth:"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 1481,"totalTokenCount": 6539},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " '1200px', margin: '0 auto' }}\u003e\n          {/* Section Header */}\n          \u003c"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 1505,"totalTokenCount": 6563},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "div\n            style={{\n              display: 'flex',\n              alignItems: 'center',\n              justifyContent"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 1529,"totalTokenCount": 6587},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ": 'space-between',\n              marginBottom: '48px',\n              flexWrap: 'wrap',\n"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 1553,"totalTokenCount": 6611},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "              gap: '16px',\n            }}\n          \u003e\n            \u003ch2\n              style={{\n"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 1577,"totalTokenCount": 6635},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "                fontSize: 'clamp(24px, 3vw, 40px)',\n                fontWeight: "}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 1601,"totalTokenCount": 6659},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "700,\n                letterSpacing: '0.05em',\n                color: '#ffffff',\n"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 1625,"totalTokenCount": 6683},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "                textShadow: '0 2px 10px rgba(0,0,0,0.3)',\n                margin:"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 1654,"totalTokenCount": 6712},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " 0,\n              }}\n            \u003e\n              TOP PLAYERS\n            \u003c/h2\u003e\n            \u003cLink\n              href"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 1678,"totalTokenCount": 6736},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "=\"/rankings\"\n              style={{\n                fontSize: '14px',\n                color: 'rgba("}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 1702,"totalTokenCount": 6760},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "255,255,255,0.8)',\n                textDecoration: 'none',"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 1726,"totalTokenCount": 6784},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\n                transition: 'color 0.3s ease',\n              }}\n              onMouseEnter={(e) =\u003e"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 1750,"totalTokenCount": 6808},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " { e.currentTarget.style.color = '#00d4ff'; }}\n              onMouseLeave={(e"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 1774,"totalTokenCount": 6832},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ") =\u003e { e.currentTarget.style.color = 'rgba(255,255,25"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 1798,"totalTokenCount": 6856},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "5,0.8)'; }}\n            \u003e\n              View All Rankings →\n            \u003c/Link\u003e\n          \u003c/div\u003e"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 1822,"totalTokenCount": 6880},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\n\n          {/* Rankings Preview */}\n          \u003cRankingsPreview\n            category=\"players\"\n            entries={[\n"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 1846,"totalTokenCount": 6904},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "              { rank: 1, name: 'ShadowReaper', score: 98750, guild"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 1870,"totalTokenCount": 6928},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ": 'Eclipse Order' },\n              { rank: 2, name: 'CelestialBlade', score: 9"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 1894,"totalTokenCount": 6952},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "5200, guild: 'Heavenly Sword' },\n              { rank: 3, name: '"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 1918,"totalTokenCount": 6976},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "VoidWalker', score: 93100, guild: 'Eclipse Order' },\n              { rank:"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 1942,"totalTokenCount": 7000},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " 4, name: 'PhoenixRise', score: 89400, guild: 'Crimson Wings"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 1966,"totalTokenCount": 7024},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "' },\n              { rank: 5, name: 'IronFist', score: 8765"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 1990,"totalTokenCount": 7048},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "0, guild: null },\n              { rank: 6, name: 'MysticSage', score: "}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 2014,"totalTokenCount": 7072},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "85300, guild: 'Arcane Circle' },\n              { rank: 7, name:"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 2038,"totalTokenCount": 7096},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " 'StormCaller', score: 83900, guild: 'Heavenly Sword' },\n              {"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 2062,"totalTokenCount": 7120},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " rank: 8, name: 'NightHunter', score: 81200, guild: null },"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 2086,"totalTokenCount": 7144},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\n              { rank: 9, name: 'DragonSlayer', score: 79800,"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 2110,"totalTokenCount": 7168},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " guild: 'Crimson Wings' },\n              { rank: 10, name: 'FrostQueen', score"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 2134,"totalTokenCount": 7192},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ": 78100, guild: 'Arcane Circle' },\n            ]}\n            scoreLabel=\""}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 2158,"totalTokenCount": 7216},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "Level Score\"\n          /\u003e\n        \u003c/div\u003e\n      \u003c/section\u003e\n\n      {/* ===== NEWS PREVIEW SECTION ====="}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 2182,"totalTokenCount": 7240},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " */}\n      \u003csection\n        style={{\n          padding: 'clamp(80px, 10vw, 128"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 2211,"totalTokenCount": 7269},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "px) 24px',\n          background: 'transparent',\n        }}\n      \u003e\n        \u003cdiv"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 2235,"totalTokenCount": 7293},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " style={{ maxWidth: '1200px', margin: '0 auto' }}\u003e\n          {/* Section Header"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 2259,"totalTokenCount": 7317},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " */}\n          \u003ch2\n            style={{\n              textAlign: 'center',\n              fontSize: 'clamp("}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 2283,"totalTokenCount": 7341},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "24px, 3vw, 40px)',\n              fontWeight: 700,\n              "}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 2307,"totalTokenCount": 7365},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "letterSpacing: '0.05em',\n              marginBottom: '48px',\n              color: '#"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 2331,"totalTokenCount": 7389},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "ffffff',\n              textShadow: '0 2px 10px rgba(0,0,0,"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 2355,"totalTokenCount": 7413},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "0.3)',\n            }}\n          \u003e\n            LATEST NEWS\n          \u003c/h2\u003e\n\n          {/* News Preview"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 2379,"totalTokenCount": 7437},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " */}\n          \u003cNewsPreview\n            articles={[\n              {\n                id: 1,\n                title: 'Version "}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 2406,"totalTokenCount": 7464},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "2.5 Patch Notes: The Celestial Awakening',\n                excerpt:\n                  'Major balance changes to all classes, new Celestial skill"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 2433,"totalTokenCount": 7491},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " trees, and performance improvements across all territories. Venomancers receive a complete pet AI overhaul.',\n                date: '202"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 2459,"totalTokenCount": 7517},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "4-12-15',\n                category: 'Patch Notes',\n                featured: true,\n              "}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 2483,"totalTokenCount": 7541},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "},\n              {\n                id: 2,\n                title: 'Winter Solstice Festival Returns with New Rewards',\n                excerpt"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 2511,"totalTokenCount": 7569},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ":\n                  'The annual Winter Solstice event brings exclusive mounts, fashion sets, and a limited-time dungeon. Earn Frost"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 2537,"totalTokenCount": 7595},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " Tokens to unlock legendary gear.',\n                date: '2024-12-12',\n                category: 'Events"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 2565,"totalTokenCount": 7623},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "',\n              },\n              {\n                id: 3,\n                title: 'Community Spotlight: Top Guild"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 2589,"totalTokenCount": 7647},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " Strategies for Territory War',\n                excerpt:\n                  'We interviewed leaders from the top 5 guilds to learn their winning strategies for Territory"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 2617,"totalTokenCount": 7675},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " War domination. Learn formation tactics and class compositions.',\n                date: '2024-12-10',\n                category"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 2646,"totalTokenCount": 7704},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ": 'Community',\n              },\n              {\n                id: 4,\n                title: 'Scheduled Maintenance"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 2670,"totalTokenCount": 7728},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ": December 18th',\n                excerpt:\n                  'Servers will undergo maintenance on December 18th from 02"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 2698,"totalTokenCount": 7756},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ":00 to 06:00 UTC. Expect downtime for database migration and security updates.',\n                date:"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 2723,"totalTokenCount": 7781},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " '2024-12-08',\n                category: 'Announcements',\n              },\n"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 2747,"totalTokenCount": 7805},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "              {\n                id: 5,\n                title: 'Hotfix 2.4.3: Critical"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 2771,"totalTokenCount": 7829},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " Bug Fixes',\n                excerpt:\n                  'Resolved an issue causing disconnections during Nation War. Fixed item duplication"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 2795,"totalTokenCount": 7853},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " exploit and corrected Blademaster skill damage calculations.',\n                date: '2024-12-05',\n"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 2822,"totalTokenCount": 7880},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "                category: 'Patch Notes',\n              },\n              {\n                id: 6,\n                title:"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 2846,"totalTokenCount": 7904},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " 'Fan Art Contest Winners Announced',\n                excerpt:\n                  'Over 500 submissions were received for our annual fan art contest."}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 2875,"totalTokenCount": 7933},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " Check out the stunning winning entries and honorable mentions from our talented community.',\n                date: '2024-12-03"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 2904,"totalTokenCount": 7962},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "',\n                category: 'Community',\n              },\n            ]}\n          /\u003e\n        \u003c/div\u003e\n      \u003c/section"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 2928,"totalTokenCount": 7986},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003e\n\n      {/* ===== CTA SECTION ===== */}\n      \u003csection\n        style={{\n          padding: 'clamp"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 2952,"totalTokenCount": 8010},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "(80px, 10vw, 128px) 24px',\n          background"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 2976,"totalTokenCount": 8034},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ": 'rgba(255, 255, 255, 0.05)',"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 3000,"totalTokenCount": 8058},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\n          backdropFilter: 'blur(15px)',\n          border: '1px solid rgba(255, "}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 3027,"totalTokenCount": 8085},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "255, 255, 0.1)',\n          textAlign: 'center',\n        }}"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 3051,"totalTokenCount": 8109},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\n      \u003e\n        \u003cdiv\n          style={{\n            maxWidth: '600px',\n            margin"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 3075,"totalTokenCount": 8133},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ": '0 auto',\n            display: 'flex',\n            flexDirection: 'column',\n            alignItems"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 3099,"totalTokenCount": 8157},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ": 'center',\n            gap: '32px',\n          }}\n        \u003e\n          \u003ch2"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 3123,"totalTokenCount": 8181},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\n            style={{\n              fontSize: 'clamp(24px, 3vw, 36px)',"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 3147,"totalTokenCount": 8205},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\n              fontWeight: 600,\n              color: '#ffffff',\n              textShadow: '0 2px 4px"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 3176,"totalTokenCount": 8234},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " rgba(0,0,0,0.3)',\n              margin: 0,\n            }}\n          \u003e\n            Ready to"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 3205,"totalTokenCount": 8263},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " begin?\n          \u003c/h2\u003e\n          \u003cLink\n            href=\"/register\"\n            style={{\n              display: '"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 3229,"totalTokenCount": 8287},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "inline-block',\n              padding: '16px 48px',\n              background: 'rgba("}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 3253,"totalTokenCount": 8311},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "0, 212, 255, 0.2)',\n              border: '1px solid rgba"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 3279,"totalTokenCount": 8337},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "(0, 212, 255, 0.5)',\n              color: '#ffffff',\n              fontSize"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 3307,"totalTokenCount": 8365},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ": '14px',\n              fontWeight: 700,\n              letterSpacing: '0.1"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 3331,"totalTokenCount": 8389},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "em',\n              textTransform: 'uppercase',\n              textDecoration: 'none',\n              transition: 'all"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 3355,"totalTokenCount": 8413},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " 0.3s ease',\n            }}\n            onMouseEnter={(e) =\u003e {\n              e.currentTarget"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 3379,"totalTokenCount": 8437},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ".style.background = 'rgba(0, 212, 255, 0.4"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 3403,"totalTokenCount": 8461},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ")';\n              e.currentTarget.style.transform = 'translateY(-2px)';\n              e.currentTarget.style."}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 3429,"totalTokenCount": 8487},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "boxShadow = '0 8px 32px rgba(0, 212, 25"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 3453,"totalTokenCount": 8511},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "5, 0.2)';\n            }}\n            onMouseLeave={(e) =\u003e {\n              e."}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 3477,"totalTokenCount": 8535},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "currentTarget.style.background = 'rgba(0, 212, 255, 0.2)';"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 3503,"totalTokenCount": 8561},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\n              e.currentTarget.style.transform = 'translateY(0)';\n              e.currentTarget.style."}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 3527,"totalTokenCount": 8585},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "boxShadow = 'none';\n            }}\n          \u003e\n            Create Free Account\n          \u003c/Link\u003e\n        "}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 3551,"totalTokenCount": 8609},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003c/div\u003e\n      \u003c/section\u003e\n\n      {/* ===== FOOTER ===== */}\n      \u003cfooter\n        style={{\n"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 3575,"totalTokenCount": 8633},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "          padding: '48px 24px',\n          borderTop: '1px solid rgba(2"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 3599,"totalTokenCount": 8657},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "55, 255, 255, 0.1)',\n          background: 'rgba"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 3623,"totalTokenCount": 8681},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "(0, 0, 0, 0.3)',\n          backdropFilter: 'blur(20px"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 3648,"totalTokenCount": 8706},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ")',\n        }}\n      \u003e\n        \u003cdiv\n          style={{\n            maxWidth: '1200px',\n            margin"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 3677,"totalTokenCount": 8735},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ": '0 auto',\n            display: 'flex',\n            alignItems: 'center',\n            justifyContent"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 3701,"totalTokenCount": 8759},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ": 'space-between',\n            flexWrap: 'wrap',\n            gap: '16px',\n"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 3725,"totalTokenCount": 8783},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "          }}\n        \u003e\n          \u003cspan style={{ fontSize: '13px', color: 'rgba(2"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 3749,"totalTokenCount": 8807},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "55,255,255,0.6)', textShadow: '0 1px "}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 3773,"totalTokenCount": 8831},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "2px rgba(0,0,0,0.5)' }}\u003e\n            © 2024 Perfect"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 3797,"totalTokenCount": 8855},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " World. All rights reserved.\n          \u003c/span\u003e\n          \u003cdiv style={{ display: 'flex', gap: '2"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 3821,"totalTokenCount": 8879},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "4px' }}\u003e\n            {['Terms', 'Privacy', 'Support'].map((item) =\u003e (\n              "}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 3845,"totalTokenCount": 8903},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003cLink\n                key={item}\n                href={`/${item.toLowerCase()}`}\n                style={{\n                  fontSize: '1"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 3873,"totalTokenCount": 8931},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "3px',\n                  color: 'rgba(255,255,255,0."}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 3897,"totalTokenCount": 8955},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "8)',\n                  textDecoration: 'none',\n                  textShadow: '0 1px 2px rgba"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 3921,"totalTokenCount": 8979},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "(0,0,0,0.5)',\n                  transition: 'color 0.3s ease',"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 3945,"totalTokenCount": 9003},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\n                }}\n                onMouseEnter={(e) =\u003e { e.currentTarget.style.color = '#00d"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 3969,"totalTokenCount": 9027},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "4ff'; }}\n                onMouseLeave={(e) =\u003e { e.currentTarget.style.color = 'rgba"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 3993,"totalTokenCount": 9051},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "(255,255,255,0.8)'; }}\n              \u003e\n                {item}\n              "}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 4021,"totalTokenCount": 9079},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003c/Link\u003e\n            ))}\n          \u003c/div\u003e\n        \u003c/div\u003e\n      \u003c/footer\u003e\n\n      {/* ===== GLOBAL KEYFRAME ANIM"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 4045,"totalTokenCount": 9103},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "ATION ===== */}\n      \u003cstyle jsx global\u003e{`\n        @keyframes borderPulse {\n          0%, 100% { border"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 4074,"totalTokenCount": 9132},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "-color: rgba(0, 212, 255, 0.3); }\n"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 4098,"totalTokenCount": 9156},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "          50% { border-color: rgba(0, 212, 255, "}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 4122,"totalTokenCount": 9180},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "0.6); }\n        }\n        html {\n          scroll-behavior: smooth;\n        }\n"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 4146,"totalTokenCount": 9204},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "        * {\n          box-sizing: border-box;\n        }\n        body {\n          margin: 0;"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 4173,"totalTokenCount": 9231},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\n          padding: 0;\n        }\n      `}\u003c/style\u003e\n    \u003c/main\u003e\n  );\n}"}]}}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 4199,"totalTokenCount": 9257},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EjQKMgEMOdbHM9qoYQtId5rBwx3vcuVxd+bGqhNGSO6Ro4d1kY44J3uRTTSlnjszlZa71bb8","text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 5058,"candidatesTokenCount": 4199,"totalTokenCount": 9257},"modelVersion": "gemini-2.5-flash","responseId": "uvIKavWsELL_g8UPs7ufkAg"},"traceId": "fac347bf9ba98e17","metadata": {}}
+

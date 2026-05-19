@@ -1,0 +1,25 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Tue, 19 May 2026 00:09:21 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=983",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\": \"#"}]}}],"usageMetadata": {"promptTokenCount": 4533,"candidatesTokenCount": 2,"totalTokenCount": 4535},"modelVersion": "tab_flash_lite_preview","responseId": "MaoLaqevCNSVjuMP2dG6iAo"},"traceId": "c34d963165d72cab","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " VulnX Hunter - Session Memory\\n\\n\u003e **Auto-generated memory"}]}}],"usageMetadata": {"promptTokenCount": 4533,"candidatesTokenCount": 18,"totalTokenCount": 4551},"modelVersion": "tab_flash_lite_preview","responseId": "MaoLaqevCNSVjuMP2dG6iAo"},"traceId": "c34d963165d72cab","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " file for AI agent context persistence**\\n\u003e Last Updated: 2026-05-19T07:08:00+07:00\\n\\n---\"\n\t\t}\n\t]"}]}}],"usageMetadata": {"promptTokenCount": 4533,"candidatesTokenCount": 69,"totalTokenCount": 4602},"modelVersion": "tab_flash_lite_preview","responseId": "MaoLaqevCNSVjuMP2dG6iAo"},"traceId": "c34d963165d72cab","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\n}\n\u003c/replace_file_content\u003e"}]}}],"usageMetadata": {"promptTokenCount": 4533,"candidatesTokenCount": 79,"totalTokenCount": 4612},"modelVersion": "tab_flash_lite_preview","responseId": "MaoLaqevCNSVjuMP2dG6iAo"},"traceId": "c34d963165d72cab","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 4533,"candidatesTokenCount": 79,"totalTokenCount": 4612},"modelVersion": "tab_flash_lite_preview","responseId": "MaoLaqevCNSVjuMP2dG6iAo"},"traceId": "c34d963165d72cab","metadata": {}}
+

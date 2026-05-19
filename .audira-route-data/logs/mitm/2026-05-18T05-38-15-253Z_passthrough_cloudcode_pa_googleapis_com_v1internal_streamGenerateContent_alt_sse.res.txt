@@ -1,0 +1,59 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 05:38:17 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=2186",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "I"}]}}],"usageMetadata": {"promptTokenCount": 28723,"candidatesTokenCount": 1,"totalTokenCount": 28986,"thoughtsTokenCount": 262},"modelVersion": "gemini-3-flash","responseId": "x6UKaqjXLdaAjuMPrqmV2QQ"},"traceId": "ba99c372236ab876","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " have completed testing the Vice City Dashboard navigation links. Everything works flawlessly!\n\n### Summary of Actions and Findings:\n\n1. **Homepage"}]}}],"usageMetadata": {"promptTokenCount": 28723,"candidatesTokenCount": 28,"totalTokenCount": 29013,"thoughtsTokenCount": 262},"modelVersion": "gemini-3-flash","responseId": "x6UKaqjXLdaAjuMPrqmV2QQ"},"traceId": "ba99c372236ab876","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " (`http://localhost:3612/`):**\n   - **Verification:** The \"Home\" tab in the sidebar is active and correctly highlighted"}]}}],"usageMetadata": {"promptTokenCount": 28723,"candidatesTokenCount": 60,"totalTokenCount": 29045,"thoughtsTokenCount": 262},"modelVersion": "gemini-3-flash","responseId": "x6UKaqjXLdaAjuMPrqmV2QQ"},"traceId": "ba99c372236ab876","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " with a glowing neon purple border and 10% opacity background.\n   - **Screenshot:** `C:\\Users\\ASUS\\.gemini\\antigravity\\brain\\0"}]}}],"usageMetadata": {"promptTokenCount": 28723,"candidatesTokenCount": 98,"totalTokenCount": 29083,"thoughtsTokenCount": 262},"modelVersion": "gemini-3-flash","responseId": "x6UKaqjXLdaAjuMPrqmV2QQ"},"traceId": "ba99c372236ab876","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "0103c12-fab5-48d8-953b-a371784f0"}]}}],"usageMetadata": {"promptTokenCount": 28723,"candidatesTokenCount": 128,"totalTokenCount": 29113,"thoughtsTokenCount": 262},"modelVersion": "gemini-3-flash","responseId": "x6UKaqjXLdaAjuMPrqmV2QQ"},"traceId": "ba99c372236ab876","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "1f6\\homepage_active_1779082564054.png`\n\n2. **News Page (`http"}]}}],"usageMetadata": {"promptTokenCount": 28723,"candidatesTokenCount": 160,"totalTokenCount": 29145,"thoughtsTokenCount": 262},"modelVersion": "gemini-3-flash","responseId": "x6UKaqjXLdaAjuMPrqmV2QQ"},"traceId": "ba99c372236ab876","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "://localhost:3612/news`):**\n   - **Verification:** Successfully clicked the \"News\" navigation link."}]}}],"usageMetadata": {"promptTokenCount": 28723,"candidatesTokenCount": 187,"totalTokenCount": 29172,"thoughtsTokenCount": 262},"modelVersion": "gemini-3-flash","responseId": "x6UKaqjXLdaAjuMPrqmV2QQ"},"traceId": "ba99c372236ab876","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " The application navigated to `/news` and correctly switched active state styling (active indicator now highlights \"News\" while \"Home\" becomes normal gray"}]}}],"usageMetadata": {"promptTokenCount": 28723,"candidatesTokenCount": 215,"totalTokenCount": 29200,"thoughtsTokenCount": 262},"modelVersion": "gemini-3-flash","responseId": "x6UKaqjXLdaAjuMPrqmV2QQ"},"traceId": "ba99c372236ab876","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " text).\n   - **Screenshot:** `C:\\Users\\ASUS\\.gemini\\antigravity\\brain\\00103c1"}]}}],"usageMetadata": {"promptTokenCount": 28723,"candidatesTokenCount": 247,"totalTokenCount": 29232,"thoughtsTokenCount": 262},"modelVersion": "gemini-3-flash","responseId": "x6UKaqjXLdaAjuMPrqmV2QQ"},"traceId": "ba99c372236ab876","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "2-fab5-48d8-953b-a371784f01f6\\newspage_"}]}}],"usageMetadata": {"promptTokenCount": 28723,"candidatesTokenCount": 279,"totalTokenCount": 29264,"thoughtsTokenCount": 262},"modelVersion": "gemini-3-flash","responseId": "x6UKaqjXLdaAjuMPrqmV2QQ"},"traceId": "ba99c372236ab876","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "active_1779082643374.png`\n\n3. **Videos Page (`http://localhost:361"}]}}],"usageMetadata": {"promptTokenCount": 28723,"candidatesTokenCount": 311,"totalTokenCount": 29296,"thoughtsTokenCount": 262},"modelVersion": "gemini-3-flash","responseId": "x6UKaqjXLdaAjuMPrqmV2QQ"},"traceId": "ba99c372236ab876","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "2/videos`):**\n   - **Verification:** Successfully clicked the \"Videos\" navigation link. The application navigated to `/videos` and"}]}}],"usageMetadata": {"promptTokenCount": 28723,"candidatesTokenCount": 340,"totalTokenCount": 29325,"thoughtsTokenCount": 262},"modelVersion": "gemini-3-flash","responseId": "x6UKaqjXLdaAjuMPrqmV2QQ"},"traceId": "ba99c372236ab876","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " correctly updated the active sidebar tab to \"Videos\".\n   - **Screenshot:** `C:\\Users\\ASUS\\.gemini\\antigravity\\brain\\00103c"}]}}],"usageMetadata": {"promptTokenCount": 28723,"candidatesTokenCount": 379,"totalTokenCount": 29364,"thoughtsTokenCount": 262},"modelVersion": "gemini-3-flash","responseId": "x6UKaqjXLdaAjuMPrqmV2QQ"},"traceId": "ba99c372236ab876","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "12-fab5-48d8-953b-a371784f01f6\\videospage"}]}}],"usageMetadata": {"promptTokenCount": 28723,"candidatesTokenCount": 411,"totalTokenCount": 29396,"thoughtsTokenCount": 262},"modelVersion": "gemini-3-flash","responseId": "x6UKaqjXLdaAjuMPrqmV2QQ"},"traceId": "ba99c372236ab876","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "_active_1779082665161.png`\n\n4. **Community Page (`http://localhost:36"}]}}],"usageMetadata": {"promptTokenCount": 28723,"candidatesTokenCount": 443,"totalTokenCount": 29428,"thoughtsTokenCount": 262},"modelVersion": "gemini-3-flash","responseId": "x6UKaqjXLdaAjuMPrqmV2QQ"},"traceId": "ba99c372236ab876","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "12/community`):**\n   - **Verification:** Successfully clicked the \"Community\" navigation link. The application navigated to `/community` and"}]}}],"usageMetadata": {"promptTokenCount": 28723,"candidatesTokenCount": 473,"totalTokenCount": 29458,"thoughtsTokenCount": 262},"modelVersion": "gemini-3-flash","responseId": "x6UKaqjXLdaAjuMPrqmV2QQ"},"traceId": "ba99c372236ab876","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " correctly updated the active sidebar tab to \"Community\".\n   - **Screenshot:** `C:\\Users\\ASUS\\."}]}}],"usageMetadata": {"promptTokenCount": 28723,"candidatesTokenCount": 497,"totalTokenCount": 29482,"thoughtsTokenCount": 262},"modelVersion": "gemini-3-flash","responseId": "x6UKaqjXLdaAjuMPrqmV2QQ"},"traceId": "ba99c372236ab876","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "gemini\\antigravity\\brain\\00103c12-fab5-48d8-953b-a"}]}}],"usageMetadata": {"promptTokenCount": 28723,"candidatesTokenCount": 529,"totalTokenCount": 29514,"thoughtsTokenCount": 262},"modelVersion": "gemini-3-flash","responseId": "x6UKaqjXLdaAjuMPrqmV2QQ"},"traceId": "ba99c372236ab876","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "371784f01f6\\communitypage_active_1779082688705.png"}]}}],"usageMetadata": {"promptTokenCount": 28723,"candidatesTokenCount": 561,"totalTokenCount": 29546,"thoughtsTokenCount": 262},"modelVersion": "gemini-3-flash","responseId": "x6UKaqjXLdaAjuMPrqmV2QQ"},"traceId": "ba99c372236ab876","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "`\n\n### Conclusion:\nThe navigation features are **fully active**, client-side page routing transitions work correctly, and the sidebar'"}]}}],"usageMetadata": {"promptTokenCount": 28723,"candidatesTokenCount": 588,"totalTokenCount": 29573,"thoughtsTokenCount": 262},"modelVersion": "gemini-3-flash","responseId": "x6UKaqjXLdaAjuMPrqmV2QQ"},"traceId": "ba99c372236ab876","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "s active highlighting state dynamic updates behave perfectly across all tested pages."}]}}],"usageMetadata": {"promptTokenCount": 28723,"candidatesTokenCount": 601,"totalTokenCount": 29586,"thoughtsTokenCount": 262},"modelVersion": "gemini-3-flash","responseId": "x6UKaqjXLdaAjuMPrqmV2QQ"},"traceId": "ba99c372236ab876","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EpcICpQIAQw51sfRD6svAzS9hfUB/D9wGr9WSexE7+yUW/SD5RsWDNJ21ci3Da5+SGvMoSDTEblGzqo4H9pxg8YaIZP+JtwHUE2ubfU4qRXvOwBLsm6JkoMdW63lOyWJ5KH0BikVZ/WYWhZ3JqWsWBOh248UUyqd6wnVo5FtMj3TXKP+WEr9B4Ko9ys1vpcy85WnbdfIz/RNLpy6ucTKstvUnvv9/yuSf3BYR/b5qUOGRuuhwKh3UMWRf0R9V5pjNsUVhnvgGpXQkTe+aesLTPbMC2TxUwFcW6+I4livB3+h3nv/m7hsZIGLnIbYzw2zMUfDWmC6jB9+nu2bY1JrDie9cVD6fnW1mzzSzYbLG6uJU5LJcZ/xa7pcMbhYB1d+ijPB3BydQJVUqX7g+6mPOOMMLQLLOaRNTdlI63k9nSfLVQzNTSsLBvDFqY1uPGAdjVCdGQ4SCBImGY0QiBbvq0Uk4bMBsIW1Rug+WrZzPvWORDmGTvRmzOlCvcyEUTELhO/1MwEGXifnmpWWXhogGpHvm+J3EbK1Gk8TAmyJhkhnkCYKhEGc2BlL/p0424Q9Vsd7mqsHl+8u1IFITg4AVLqXlx2GnCDMANVt3FoEDKks3DZTPvnN4AbCjroRhLEnA+09IBCGYTiZ9/Qgvd4mKEtrwQLA3FP8uDSWdKb4Wqg4HgpDRyE64uuu+TD/ZrA1Z9lAI3Q2EWJ8Mh/V0lMe+/najUYF8W+UgSiug1N9AYVrAlAFWjfUTeAjoAMNtk2i/K1Ma6ZSTkbLVaSmEDlSaQzVaDh3/KFpSef8CXm5K3m4L25sOzipe0fSTHHwnHFj4sXc9tpJc5AN/PU1tWSEJIIf2PWZn6mAakqhVyNxId0yXh20i9UO6ZPVSrM1jxjOJhPowKavRjOGlCnYW0YoSjhjBqFoOBfh0JxpjyR5xD1DBwsT9auNtx7fSxyJN/25YFH/TR/alRkrjNK9t+ez1GYf7o9GuqjwNlQkzMY+yWJwK8h7KfDUi+DOsNVzI9CuXgQzM2v68Rj/upq13rzptW8cRO0Xywt1Z0MWfNVh+bwrAyimreC7Av6Os8iS/mY6xn1ns6w+5A96FplFG9NIJnj04mHSQ0dwWN/vW/2IHUPa+5qwtieaDMzRpRqW5xNJHfvNG49AqmFU3NS2cOuOCGISVjRpcgbnBCqa7g458vekyqdm34xHQ9c2ikeI70ZDo9mATWGDQdXA+orJu1mzDfWBZGZ+47dR3Jj/CyLQrOfKnoSAnXiBO6EuZlGuv6fTo5mK3IZNwR1tbR9wZ3cI9+OVIAoe3JSLKSpS49uB71w6ckdjGyMSG1grQCr0w8fiSnw1yG9bt2N+1LWQ3WWAtfLSfLPSdtzDHuPURB3CDMJpxwuNcya/WoKf","text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 35937,"candidatesTokenCount": 601,"totalTokenCount": 36800,"cachedContentTokenCount": 32434,"thoughtsTokenCount": 262},"modelVersion": "gemini-3-flash","responseId": "x6UKaqjXLdaAjuMPrqmV2QQ"},"traceId": "ba99c372236ab876","metadata": {}}
+

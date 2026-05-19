@@ -1,0 +1,31 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 07:21:17 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=1381",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "Implementing Vul"}]}}],"usageMetadata": {"promptTokenCount": 42422,"candidatesTokenCount": 2,"totalTokenCount": 42424},"modelVersion": "gemini-3.1-flash-lite","responseId": "7L0KasX3IvnYjuMPq-XV8Qo"},"traceId": "870c348b4c07f443","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "nX Hunter Features\n\nObjective: Finalize the development of the VulnX Hunter vulnerability"}]}}],"usageMetadata": {"promptTokenCount": 42422,"candidatesTokenCount": 18,"totalTokenCount": 42440},"modelVersion": "gemini-3.1-flash-lite","responseId": "7L0KasX3IvnYjuMPq-XV8Qo"},"traceId": "870c348b4c07f443","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " testing platform to reach full feature parity and production readiness.\n\nGoals:\n1. Implement the remaining 27% of core"}]}}],"usageMetadata": {"promptTokenCount": 42422,"candidatesTokenCount": 44,"totalTokenCount": 42466},"modelVersion": "gemini-3.1-flash-lite","responseId": "7L0KasX3IvnYjuMPq-XV8Qo"},"traceId": "870c348b4c07f443","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " features, focusing on real-world API integrations for Threat Intelligence (NVD, Exploit-DB, GitHub).\n2"}]}}],"usageMetadata": {"promptTokenCount": 42422,"candidatesTokenCount": 69,"totalTokenCount": 42491},"modelVersion": "gemini-3.1-flash-lite","responseId": "7L0KasX3IvnYjuMPq-XV8Qo"},"traceId": "870c348b4c07f443","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ". Enhance AI-powered vulnerability analysis capabilities.\n3. Validate and secure the foundation of the Automated Exploitation Framework,"}]}}],"usageMetadata": {"promptTokenCount": 42422,"candidatesTokenCount": 93,"totalTokenCount": 42515},"modelVersion": "gemini-3.1-flash-lite","responseId": "7L0KasX3IvnYjuMPq-XV8Qo"},"traceId": "870c348b4c07f443","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " ensuring clear safety documentation and responsible usage guidelines.\n4. Ensure all critical, high, and medium priority bugs identified in previous sessions are fully resolved"}]}}],"usageMetadata": {"promptTokenCount": 42422,"candidatesTokenCount": 122,"totalTokenCount": 42544},"modelVersion": "gemini-3.1-flash-lite","responseId": "7L0KasX3IvnYjuMPq-XV8Qo"},"traceId": "870c348b4c07f443","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " and functional."}]}}],"usageMetadata": {"promptTokenCount": 42422,"candidatesTokenCount": 125,"totalTokenCount": 42547},"modelVersion": "gemini-3.1-flash-lite","responseId": "7L0KasX3IvnYjuMPq-XV8Qo"},"traceId": "870c348b4c07f443","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EjQKMgEMOdbHgXE4Hauz7XNikic36EcZL4NbApVpV4Vgl8xDCMEcJnvxXYAJNuYMI/QRD/NA","text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 42422,"candidatesTokenCount": 125,"totalTokenCount": 42547},"modelVersion": "gemini-3.1-flash-lite","responseId": "7L0KasX3IvnYjuMPq-XV8Qo"},"traceId": "870c348b4c07f443","metadata": {}}
+

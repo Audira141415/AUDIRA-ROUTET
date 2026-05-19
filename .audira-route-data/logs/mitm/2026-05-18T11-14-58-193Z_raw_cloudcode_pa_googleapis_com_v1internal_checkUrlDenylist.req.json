@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "url": "/v1internal:checkUrlDenylist",
+  "host": "cloudcode-pa.googleapis.com",
+  "headers": {
+    "host": "cloudcode-pa.googleapis.com",
+    "user-agent": "antigravity/1.23.2 windows/amd64",
+    "content-length": "31",
+    "authorization": "Bearer ya29.a0AQvPyIPjdtYe6csNC7Ady7IsFNpCa__NxTNNdl8aazHyCpZ6zh81ZKdiFFh82-RjWN-0iUoyzl8hB2ioG-xHW_KZozvmE7MRgDCgMF-hmroZQonQ874TwKRE6N7eRYGrb2t0RwZafRpa_vPin66QGeZUk_F6y0f7lTlx5a6TIixi3SatHP0M3_PG_c61K-sG-qryIaoXV2EIFwaCgYKAT4SARUSFQHGX2Mi1Cfja1Fmf7pfgBDdHJfdsw0213",
+    "content-type": "application/json",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "url": "http://localhost:3327"
+  }
+}

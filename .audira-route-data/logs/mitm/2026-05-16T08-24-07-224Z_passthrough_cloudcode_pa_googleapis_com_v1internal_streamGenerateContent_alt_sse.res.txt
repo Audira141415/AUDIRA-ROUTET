@@ -1,0 +1,19 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Sat, 16 May 2026 08:24:10 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=2155",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EpgBCpUBAQw51se0PSsod5pGkpbtL0DEMG1jTzk3Sdp0sTlMrQeBGDDz0oEUJkCUrzqly5Y5JTCNSYGA2aHnvqmo+xm3TMdLGVZJJgOtq5I1VP6aIxm/k9Np2pCQcQIch3JalHqM3q0KLcGPp7CH8GzhQfc1H7FdM8A4Ozv32Fn5gXxW2BsJIl3zkynunFeynPsg5E9cAc3T0T8=","functionCall": {"name": "view_file","args": {"AbsolutePath": "f:\\AUDIRA-ROUTET\\open-sse\\config\\providerModels.js"},"id": "by6fjrym"}}]}}],"usageMetadata": {"promptTokenCount": 20381,"candidatesTokenCount": 35,"totalTokenCount": 20442,"thoughtsTokenCount": 26},"modelVersion": "gemini-default","responseId": "qCkIatr9J8yMjuMP65zF2AI"},"traceId": "76c59e5790899f42","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 21316,"candidatesTokenCount": 35,"totalTokenCount": 21377,"cachedContentTokenCount": 20303,"thoughtsTokenCount": 26},"modelVersion": "gemini-default","responseId": "qCkIatr9J8yMjuMP65zF2AI"},"traceId": "76c59e5790899f42","metadata": {}}
+

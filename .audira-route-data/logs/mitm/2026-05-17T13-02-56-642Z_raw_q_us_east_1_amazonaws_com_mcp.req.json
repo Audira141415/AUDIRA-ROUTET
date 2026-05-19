@@ -1,0 +1,39 @@
+{
+  "method": "POST",
+  "url": "/mcp",
+  "host": "q.us-east-1.amazonaws.com",
+  "headers": {
+    "content-type": "application/json",
+    "x-amzn-kiro-profile-arn": "arn:aws:codewhisperer:us-east-1:699475941385:profile/EHGA3GRVQMUK",
+    "content-length": "292",
+    "x-amz-user-agent": "aws-sdk-js/1.0.34 KiroIDE-0.12.155-9f7a5ee98f0e01bba8f93f305c9e8be7cba4b50ec776176f9a748588fb4d21ee",
+    "user-agent": "aws-sdk-js/1.0.34 ua/2.1 os/win32#10.0.26200 lang/js md/nodejs#22.22.0 api/codewhispererstreaming#1.0.34 m/E KiroIDE-0.12.155-9f7a5ee98f0e01bba8f93f305c9e8be7cba4b50ec776176f9a748588fb4d21ee",
+    "host": "q.us-east-1.amazonaws.com",
+    "amz-sdk-invocation-id": "404bec85-69e3-4c13-af12-e14e775d1edb",
+    "amz-sdk-request": "attempt=1; max=3",
+    "authorization": "Bearer aoaAAAAAGoJv3YicAD5h_DHFYjU4KNCZSIeKU7is2ZvTrZjz95wqnwuKWmkRMBUzN7bWk7ae8regm2IKRG0oFo2RQBkc0:MGUCMEBnn59Dm6WSz2rxKYPur6jJoHWHbClvicat54OCNp8WQV0CB2qbV5O1CxHMXxwZKgIxAJFti5yrqqm20+XpfgCo/fYddNvgNkvHaF5dQooVv8dYnH25webRJLyB0x7cKRdwuA",
+    "connection": "close"
+  },
+  "body": {
+    "id": "web_search_tooluse_FRDA1rRcPRAdlmAPo7GCaL",
+    "jsonrpc": "2.0",
+    "method": "tools/call",
+    "params": {
+      "name": "web_search",
+      "arguments": {
+        "query": "Next.js 15 performance optimization code splitting lazy loading 2026",
+        "_meta": {
+          "_isValid": true,
+          "_activePath": [
+            "query"
+          ],
+          "_completedPaths": [
+            [
+              "query"
+            ]
+          ]
+        }
+      }
+    }
+  }
+}

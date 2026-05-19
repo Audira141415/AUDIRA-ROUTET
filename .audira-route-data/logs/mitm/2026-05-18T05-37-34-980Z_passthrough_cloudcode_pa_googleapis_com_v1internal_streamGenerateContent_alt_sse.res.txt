@@ -1,0 +1,23 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 05:37:37 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=2497",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "I will wait for 2 seconds for"}]}}],"usageMetadata": {"promptTokenCount": 24998,"candidatesTokenCount": 8,"totalTokenCount": 25029,"thoughtsTokenCount": 23},"modelVersion": "gemini-3-flash","responseId": "oKUKaveCA8DnqfkPq4X5iAs"},"traceId": "e6838711cef60fa4","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " the transition to the Videos page to complete."}]}}],"usageMetadata": {"promptTokenCount": 31577,"candidatesTokenCount": 17,"totalTokenCount": 31617,"cachedContentTokenCount": 28411,"thoughtsTokenCount": 23},"modelVersion": "gemini-3-flash","responseId": "oKUKaveCA8DnqfkPq4X5iAs"},"traceId": "e6838711cef60fa4","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EpUBCpIBAQw51scxeeBDDqEkIDpLks3OvAA+BDW77naHqSIYkdmgJqW7ggnVBPpW4OIZwV5YRxgRnrkirkYvsoQ8O6hytVYHYyHFANB8l589guzIU0/6OeopnHPmmZrSC2KHfMcurWZtWIBLOP1eF/TghT4yPIRjYw2dhIYVsQaOooMnNNqlNogc6oNcBWGPwbK+NT6EwZI=","functionCall": {"name": "wait","args": {"toolSummary": "Wait","explanation": "Wait for Videos page to load","toolAction": "Waiting for transition","duration_ms": 2000},"id": "tn1a3z7l"}}]}}],"usageMetadata": {"promptTokenCount": 31577,"candidatesTokenCount": 61,"totalTokenCount": 31661,"cachedContentTokenCount": 28411,"thoughtsTokenCount": 23},"modelVersion": "gemini-3-flash","responseId": "oKUKaveCA8DnqfkPq4X5iAs"},"traceId": "e6838711cef60fa4","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 31577,"candidatesTokenCount": 61,"totalTokenCount": 31661,"cachedContentTokenCount": 28411,"thoughtsTokenCount": 23},"modelVersion": "gemini-3-flash","responseId": "oKUKaveCA8DnqfkPq4X5iAs"},"traceId": "e6838711cef60fa4","metadata": {}}
+

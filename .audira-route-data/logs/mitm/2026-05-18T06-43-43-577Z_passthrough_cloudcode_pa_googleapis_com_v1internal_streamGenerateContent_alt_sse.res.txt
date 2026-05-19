@@ -1,0 +1,19 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 06:43:45 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=2282",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EugECuUEAQw51sexjyTGuJ5ctTljcefDd7B1Mtx3nCCpL5DbBvvJ/2SYB2axRtM1v+o3C1hyoI2L5+i27kjqtNWxnBCTArrJrN7kp/kLOPHoJnuhHRqbD+v2v4OcuyFkSJhFg7vuFcGfAXpqHtO0zhwmTiamjcpKI4VbLOc3VKeb9/UX41tFGmYHbKx17iy1mJsVPGYjnkYsZesNaETnzjTZojo/mtZXi7IMT1T81zLZoKw75hRMj5JJjJ8hjp9Jd8S5yS7y6OLMXs+v9U/8Jx2QVexV0L/cjyPDeXdf2m+3b1B19aIt5dEd9XqqZodtvsGTaO6wWlxPH6HRxJtD23E0Tp/b3RuJBXI0/r+tAY0XCl7cCHhAjw1JQIZDqY+PVj8SKbhGLL7UJyyL0pjVJ8Lt57JUXKN6LzS10hYJ+CidmNn6ntAjkfo5MXxIqwVN4QYxGIlGCRaGObu4Ei4jXgfenHk5HTI2ob57uqkEDX2Ziw4xbETqQxQ6YPzTvBQggYEeuD1WF2BlFxTypmL7wYya6Y5BkpQQOumoJsPHh+jPjZ6c5LTkuRcNPf6qEugTx1j7PBh8oNEWJ4caqoU1Ckz7bFF2nBg2r8z4mH11PSV96MHi67T5p/bg+6FVl4D2ZQe6WRdAOzPbPp8N+9H+I2E+1KPBIzjoEBOBBoNTI6gmaX0S4QSe+0KIG+UafapVZiYfwys1Z8M5pGawaYUqUcaIwHMgaEt++IktYsOpDe+swDBxpWgb0I9+a8bmlBJgWTojgHKgQfMez2ghAsqTS9JCl2Tunspw3fMbyqBCsg+cwqgaOnvTlOSKFg==","functionCall": {"name": "replace_file_content","args": {"TargetFile": "C:\\Users\\ASUS\\.gemini\\antigravity\\brain\\00103c12-fab5-48d8-953b-a371784f01f6\\browser\\scratchpad_hgkf1luh.md","AllowMultiple": true,"ReplacementContent": "- [x] Capture screenshot of the Stats page and save it (Saved to statspage_active_1779086623224.png)\n- [x] Report findings to the user\n","Description": "Mark all items in the checklist as completed.","Instruction": "Update scratchpad checklist to mark all tasks as completed.","TargetContent": "- [ ] Capture screenshot of the Stats page and save it\n- [ ] Report findings to the user\n","StartLine": 10,"EndLine": 14},"id": "lxg87qcl"}}]}}],"usageMetadata": {"promptTokenCount": 20785,"candidatesTokenCount": 211,"totalTokenCount": 21137,"thoughtsTokenCount": 141},"modelVersion": "gemini-3-flash","responseId": "H7UKat_VMuWAg8UPhq3S4QI"},"traceId": "52482d9af161219a","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 24440,"candidatesTokenCount": 211,"totalTokenCount": 24792,"cachedContentTokenCount": 20282,"thoughtsTokenCount": 141},"modelVersion": "gemini-3-flash","responseId": "H7UKat_VMuWAg8UPhq3S4QI"},"traceId": "52482d9af161219a","metadata": {}}
+

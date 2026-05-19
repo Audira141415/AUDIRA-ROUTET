@@ -1,0 +1,101 @@
+STATUS: 200
+HEADERS: {
+  "access-control-allow-origin": "*",
+  "cache-control": "no-cache",
+  "connection": "keep-alive",
+  "content-type": "text/event-stream",
+  "date": "Mon, 18 May 2026 05:01:32 GMT",
+  "transfer-encoding": "chunked",
+  "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+}
+---BODY---
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"<thinking"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080492714"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":">\nThe user wants me to continue"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080492714"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":". The"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080492714"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" Electron command"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080492714"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" is still running but"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080492714"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" it"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080492714"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"'s stuck"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080492714"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" because"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080492714"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":":"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080492714"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n1. The"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080492714"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" Next"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080492714"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":".js server"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080492714"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" failed"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080492714"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" to start on"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080492714"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" port 3612 "}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080492714"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"(address"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080492714"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" in"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080492714"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" use)\n2."}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080492714"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" Electron is downloading"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080492714"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" the binary but waiting"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080492714"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" for the server"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080492714"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n\nI need to:\n1."}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080492714"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" Terminate the current"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080492714"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" electron"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080492714"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":":dev command"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080492714"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n2. Wait a"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080492714"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" moment for the port to be fully released"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080492714"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n3. Start"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080492714"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" the electron:dev command again\n\nLet"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080492714"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" me terminate"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080492714"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" the current"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080492714"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" Electron command"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080492714"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" first.\n</thinking>"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080492714"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n\nSaya akan stop"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080492714"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" command Electron yang"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080492714"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" error"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080492714"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":","}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080492714"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" tung"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080492714"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"gu sebentar,"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080492714"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" lalu ja"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080492714"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"lankan ul"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080492714"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"ang."}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080492714"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"functionCall":{"name":"send_command_input","args":{"CommandId":"6bc1eab3-7c83-4d4c-861d-9376b64c4d77","SafeToAutoRun":true,"Terminate":true,"WaitMs":500,"toolAction":"Stopping Electron","toolSummary":"Terminating Electron command"}}}]},"finishReason":"STOP"}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779080492714","usageMetadata":{"promptTokenCount":146475,"candidatesTokenCount":133,"totalTokenCount":146608}}}
+
+data: [DONE]
+
+data: [DONE]
+

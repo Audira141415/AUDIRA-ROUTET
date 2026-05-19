@@ -1,0 +1,33 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Tue, 19 May 2026 00:08:31 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=1188",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "Establishing"}]}}],"usageMetadata": {"promptTokenCount": 4306,"candidatesTokenCount": 1,"totalTokenCount": 4307},"modelVersion": "gemini-3.1-flash-lite","responseId": "_6kLaqP5Au__g8UP6baBkAk"},"traceId": "c1240748f8cd935d","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " Project Memory Tracking\n\nUSER Objective:\nInitialize and maintain a `memory.md` file in"}]}}],"usageMetadata": {"promptTokenCount": 4306,"candidatesTokenCount": 20,"totalTokenCount": 4326},"modelVersion": "gemini-3.1-flash-lite","responseId": "_6kLaqP5Au__g8UP6baBkAk"},"traceId": "c1240748f8cd935d","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " the root directory of the AUDIRA-WEB-SEAL-ONLINE project to ensure persistent context across development sessions.\n\nGoals:\n"}]}}],"usageMetadata": {"promptTokenCount": 4306,"candidatesTokenCount": 48,"totalTokenCount": 4354},"modelVersion": "gemini-3.1-flash-lite","responseId": "_6kLaqP5Au__g8UP6baBkAk"},"traceId": "c1240748f8cd935d","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "1. Create `memory.md` to serve as a central log for session-specific breakthroughs, active technical tasks, and ongoing"}]}}],"usageMetadata": {"promptTokenCount": 4306,"candidatesTokenCount": 74,"totalTokenCount": 4380},"modelVersion": "gemini-3.1-flash-lite","responseId": "_6kLaqP5Au__g8UP6baBkAk"},"traceId": "c1240748f8cd935d","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " architectural decisions.\n2. Establish a protocol for the AI agent to systematically append key project updates, unresolved bugs, and context to the memory"}]}}],"usageMetadata": {"promptTokenCount": 4306,"candidatesTokenCount": 102,"totalTokenCount": 4408},"modelVersion": "gemini-3.1-flash-lite","responseId": "_6kLaqP5Au__g8UP6baBkAk"},"traceId": "c1240748f8cd935d","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " file at the conclusion of every session.\n3. Facilitate seamless onboarding for subsequent sessions by automatically loading and interpreting the contents"}]}}],"usageMetadata": {"promptTokenCount": 4306,"candidatesTokenCount": 127,"totalTokenCount": 4433},"modelVersion": "gemini-3.1-flash-lite","responseId": "_6kLaqP5Au__g8UP6baBkAk"},"traceId": "c1240748f8cd935d","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " of `memory.md` to restore full situational awareness.\n4. Integrate this memory loop to support the ongoing migration"}]}}],"usageMetadata": {"promptTokenCount": 4306,"candidatesTokenCount": 151,"totalTokenCount": 4457},"modelVersion": "gemini-3.1-flash-lite","responseId": "_6kLaqP5Au__g8UP6baBkAk"},"traceId": "c1240748f8cd935d","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " to U-BRAIN standards, ensuring that progress on repository patterns, Redis caching, and error handling is consistently tracked."}]}}],"usageMetadata": {"promptTokenCount": 4306,"candidatesTokenCount": 175,"totalTokenCount": 4481},"modelVersion": "gemini-3.1-flash-lite","responseId": "_6kLaqP5Au__g8UP6baBkAk"},"traceId": "c1240748f8cd935d","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EjQKMgEMOdbH5xjO1fwZPfaeerfXDvyqTS3pe6ZVt8KE3a5zZmaA9amVrhYvv5p+4e6YcsWh","text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 4306,"candidatesTokenCount": 175,"totalTokenCount": 4481},"modelVersion": "gemini-3.1-flash-lite","responseId": "_6kLaqP5Au__g8UP6baBkAk"},"traceId": "c1240748f8cd935d","metadata": {}}
+

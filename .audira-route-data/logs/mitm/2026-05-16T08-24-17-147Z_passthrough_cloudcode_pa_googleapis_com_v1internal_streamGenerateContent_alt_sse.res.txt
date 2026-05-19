@@ -1,0 +1,19 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Sat, 16 May 2026 08:24:20 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=2236",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EpcCCpQCAQw51sdyFXRMgqxNtk8yg81E2J+PS8G5xWTogZnt0d7XDgG2MjGzUl5hHCJnfiid0TeBehUWOTRhFNcQUdvRwYKcabNHZvQUEqq9VDXIyJbzLgGjjBhqhpwz+jTYZEGXAgzZtrX3se4vDmEcSd5htQRcCVYduAMFJ6rqj3444qRSM94CtcJt/LOlC4RGg9/WF04EQLdxNhAuy9wQ65EfGkHeW8uJ1RWFB0Vn7d+4In2qvLTFp0iUWxSemW2rpbKRQ18EeLtPtl3Njy9/WxtqpyNPOG2ey4l6A99Thsf5PlOchO3Vle2PJTQJl6YH42jBJNljdGeRr3XLQlQsrlTWNGV1rljORPMn4wRHpyjrkL3VJ2Xd","functionCall": {"name": "view_file","args": {"AbsolutePath": "f:\\AUDIRA-ROUTET\\src\\shared\\constants\\mitmToolHosts.js"},"id": "h4uy5hdj"}}]}}],"usageMetadata": {"promptTokenCount": 46422,"candidatesTokenCount": 37,"totalTokenCount": 46515,"thoughtsTokenCount": 56},"modelVersion": "gemini-default","responseId": "sikIas3eHvTMqfkPqYntkQU"},"traceId": "fbdcff007ef8898a","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 47866,"candidatesTokenCount": 37,"totalTokenCount": 47959,"cachedContentTokenCount": 40776,"thoughtsTokenCount": 56},"modelVersion": "gemini-default","responseId": "sikIas3eHvTMqfkPqYntkQU"},"traceId": "fbdcff007ef8898a","metadata": {}}
+

@@ -1,0 +1,35 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Sat, 16 May 2026 08:24:46 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=1936",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "Troubleshooting"}]}}],"usageMetadata": {"promptTokenCount": 61835,"candidatesTokenCount": 2,"totalTokenCount": 61837},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIatvXO-CmjuMPirXXkQE"},"traceId": "227e2fa19d19b2d9","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " Antigravity Model Mapping\n\nMain Objective: Resolve the issue where Antigravity"}]}}],"usageMetadata": {"promptTokenCount": 61835,"candidatesTokenCount": 18,"totalTokenCount": 61853},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIatvXO-CmjuMPirXXkQE"},"traceId": "227e2fa19d19b2d9","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " models are not updating or routing correctly despite DNS configuration.\n\nGoals:\n1. Investigate the `AntigravityToolCard"}]}}],"usageMetadata": {"promptTokenCount": 61835,"candidatesTokenCount": 44,"totalTokenCount": 61879},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIatvXO-CmjuMPirXXkQE"},"traceId": "227e2fa19d19b2d9","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "` and backend MITM logic to verify why model mapping changes are not persisting or reflecting in requests.\n2. Verify that"}]}}],"usageMetadata": {"promptTokenCount": 61835,"candidatesTokenCount": 69,"totalTokenCount": 61904},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIatvXO-CmjuMPirXXkQE"},"traceId": "227e2fa19d19b2d9","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " the DNS entries for Antigravity hosts (`daily-cloudcode-pa.googleapis.com` and `cloudcode-pa"}]}}],"usageMetadata": {"promptTokenCount": 61835,"candidatesTokenCount": 95,"totalTokenCount": 61930},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIatvXO-CmjuMPirXXkQE"},"traceId": "227e2fa19d19b2d9","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ".googleapis.com`) are correctly added to the system hosts file.\n3. Check the `src/mitm/handlers"}]}}],"usageMetadata": {"promptTokenCount": 61835,"candidatesTokenCount": 121,"totalTokenCount": 61956},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIatvXO-CmjuMPirXXkQE"},"traceId": "227e2fa19d19b2d9","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "/antigravity.js` interceptor to ensure that the `mappedModel` is being passed and applied correctly to the upstream request."}]}}],"usageMetadata": {"promptTokenCount": 61835,"candidatesTokenCount": 149,"totalTokenCount": 61984},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIatvXO-CmjuMPirXXkQE"},"traceId": "227e2fa19d19b2d9","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\n4. Validate that the model alias database (`mitmAlias`) is properly updated and read during the interception process.\n5. Identify"}]}}],"usageMetadata": {"promptTokenCount": 61835,"candidatesTokenCount": 177,"totalTokenCount": 62012},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIatvXO-CmjuMPirXXkQE"},"traceId": "227e2fa19d19b2d9","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " if there are any synchronization issues between the frontend mapping UI and the MITM server's runtime configuration."}]}}],"usageMetadata": {"promptTokenCount": 61835,"candidatesTokenCount": 198,"totalTokenCount": 62033},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIatvXO-CmjuMPirXXkQE"},"traceId": "227e2fa19d19b2d9","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EjQKMgEMOdbHu6Kh4aZ9KL66+YELfy45DknmmK7cwbI6j+JTOhYAvaWgJqMzlt2qPEi/b3Me","text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 61835,"candidatesTokenCount": 198,"totalTokenCount": 62033,"cachedContentTokenCount": 61273},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIatvXO-CmjuMPirXXkQE"},"traceId": "227e2fa19d19b2d9","metadata": {}}
+

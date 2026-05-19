@@ -1,0 +1,181 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 07:21:36 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=1481",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003cedited_file\u003e\n\t\u003ctarget_file\u003ef:/AU"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 15,"totalTokenCount": 47098},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "DIRA-BUG-HUTTER/services/api/src/database/prisma.service.ts\u003c/target_file\u003e\n"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 43,"totalTokenCount": 47126},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\t\u003clines_modified\u003e26-29\u003c/lines_modified\u003e\n\t\u003cedit_summary\u003eAdded listener and connection"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 70,"totalTokenCount": 47153},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " model accessors to PrismaService to fix critical bug preventing Listeners feature from working.\u003c/edit_summary\u003e\n\u003c/edited"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 94,"totalTokenCount": 47177},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "_file\u003e\n\n\u003cedited_file\u003e\n\t\u003ctarget_file\u003ef:/AUDIRA-BUG-HUTTER/"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 122,"totalTokenCount": 47205},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "services/api/src/auth/auth.module.ts\u003c/target_file\u003e\n\t\u003clines_modified"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 146,"totalTokenCount": 47229},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003e8-12\u003c/lines_modified\u003e\n\t\u003cedit_summary\u003eRemoved insecure hardcoded JWT secret fallback to"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 171,"totalTokenCount": 47254},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " prevent security vulnerability.\u003c/edit_summary\u003e\n\u003c/edited_file\u003e\n\n\u003cedited_file\u003e\n\t\u003ctarget_file"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 197,"totalTokenCount": 47280},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003ef:/AUDIRA-BUG-HUTTER/services/api/src/auth/guards/auth"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 221,"totalTokenCount": 47304},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ".guard.ts\u003c/target_file\u003e\n\t\u003clines_modified\u003e16-18\u003c/lines_modified\u003e\n"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 248,"totalTokenCount": 47331},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\t\u003cedit_summary\u003eRemoved hardcoded JWT secret fallback from auth guard to prevent authentication bypass vulnerability.\u003c/edit_summary\u003e\n"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 274,"totalTokenCount": 47357},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003c/edited_file\u003e\n\n\u003cedited_file\u003e\n\t\u003ctarget_file\u003ef:/AUDIRA-"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 298,"totalTokenCount": 47381},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "BUG-HUTTER/services/api/src/main.ts\u003c/target_file\u003e\n\t\u003clines"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 322,"totalTokenCount": 47405},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "_modified\u003e1-16;1-7\u003c/lines_modified\u003e\n\t\u003cedit_summary\u003eAdded environment validation for"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 349,"totalTokenCount": 47432},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " JWT_SECRET, fixed CORS to use specific origin, fixed environment variable loading to use absolute path resolution.\u003c/edit_summary\u003e\n\u003c/edited_"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 378,"totalTokenCount": 47461},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "file\u003e\n\n\u003cedited_file\u003e\n\t\u003ctarget_file\u003ef:/AUDIRA-BUG-H"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 402,"totalTokenCount": 47485},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "UTTER/.env.example\u003c/target_file\u003e\n\t\u003clines_modified\u003e5-7;24-3"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 428,"totalTokenCount": 47511},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "5\u003c/lines_modified\u003e\n\t\u003cedit_summary\u003eUpdated environment template with FRONTEND_URL, scanning micro"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 452,"totalTokenCount": 47535},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "service details, email notification config, and exploitation framework toggles.\u003c/edit_summary\u003e\n\u003c/edited_file\u003e\n\n\u003cedited_file\u003e"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 481,"totalTokenCount": 47564},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\n\t\u003ctarget_file\u003ef:/AUDIRA-BUG-HUTTER/services/api/src"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 505,"totalTokenCount": 47588},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "/auth/auth.service.ts\u003c/target_file\u003e\n\t\u003clines_modified\u003e20-2"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 529,"totalTokenCount": 47612},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "1\u003c/lines_modified\u003e\n\t\u003cedit_summary\u003eIncreased bcrypt salt rounds from 10 to 1"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 553,"totalTokenCount": 47636},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "2 for stronger password hashing security.\u003c/edit_summary\u003e\n\u003c/edited_file\u003e\n\n\u003cedited_file\u003e\n"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 577,"totalTokenCount": 47660},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\t\u003ctarget_file\u003ef:/AUDIRA-BUG-HUTTER/services/api/src/"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 601,"totalTokenCount": 47684},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "scans/scan.processor.ts\u003c/target_file\u003e\n\t\u003clines_modified\u003e1-10"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 625,"totalTokenCount": 47708},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "0\u003c/lines_modified\u003e\n\t\u003cedit_summary\u003eAdded comprehensive error handling, refactored to use new"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 649,"totalTokenCount": 47732},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " ScannerService abstraction for real scanner integration.\u003c/edit_summary\u003e\n\u003c/edited_file\u003e\n\n\u003cedited_file\u003e\n\t\u003ctarget_"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 678,"totalTokenCount": 47761},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "file\u003ef:/AUDIRA-BUG-HUTTER/services/api/src/scans/scan"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 702,"totalTokenCount": 47785},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ".service.ts\u003c/target_file\u003e\n\t\u003clines_modified\u003e1-36\u003c/lines_modified"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 726,"totalTokenCount": 47809},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003e\n\t\u003cedit_summary\u003eAdded user authorization check to prevent users from triggering scans on targets they don't own.\u003c/edit_"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 754,"totalTokenCount": 47837},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "summary\u003e\n\u003c/edited_file\u003e\n\n\u003cedited_file\u003e\n\t\u003ctarget_file\u003ef:/AU"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 778,"totalTokenCount": 47861},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "DIRA-BUG-HUTTER/services/api/src/scans/scan.controller.ts\u003c/"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 802,"totalTokenCount": 47885},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "target_file\u003e\n\t\u003clines_modified\u003e1-14\u003c/lines_modified\u003e\n\t\u003cedit"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 826,"totalTokenCount": 47909},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "_summary\u003eUpdated controller to extract userId from authenticated request and pass it to service for authorization validation.\u003c/edit_summary\u003e"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 850,"totalTokenCount": 47933},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\n\u003c/edited_file\u003e\n\n\u003cedited_file\u003e\n\t\u003ctarget_file\u003ef:/AUDIRA"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 874,"totalTokenCount": 47957},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "-BUG-HUTTER/services/api/src/listeners/listener.service.ts\u003c/target_file"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 898,"totalTokenCount": 47981},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003e\n\t\u003clines_modified\u003e67-89\u003c/lines_modified\u003e\n\t\u003cedit_summary"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 922,"totalTokenCount": 48005},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003eAdded error handling, validation, and documentation about missing listener service integration.\u003c/edit_summary\u003e\n\u003c/edited_file\u003e\n\n\u003c"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 949,"totalTokenCount": 48032},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "edited_file\u003e\n\t\u003ctarget_file\u003ef:/AUDIRA-BUG-HUTTER/services"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 973,"totalTokenCount": 48056},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "/api/package.json\u003c/target_file\u003e\n\t\u003clines_modified\u003e27-31\u003c/lines_modified\u003e\n"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 1002,"totalTokenCount": 48085},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\t\u003cedit_summary\u003eAdded @nestjs/throttler, nodemailer, and @nestjs/schedule to dependencies.\u003c/"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 1026,"totalTokenCount": 48109},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "edit_summary\u003e\n\u003c/edited_file\u003e\n\n\u003cedited_file\u003e\n\t\u003ctarget_file\u003ef"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 1050,"totalTokenCount": 48133},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ":/AUDIRA-BUG-HUTTER/services/api/src/app.module.ts\u003c/target"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 1074,"totalTokenCount": 48157},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "_file\u003e\n\t\u003clines_modified\u003e1-50\u003c/lines_modified\u003e\n\t\u003cedit_summary\u003eAdded"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 1101,"totalTokenCount": 48184},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " global rate limiting, and all new feature modules (Report, Notification, Scheduler, Export, ThreatIntel, Analytics, Monitoring"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 1125,"totalTokenCount": 48208},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ", AIAnalysis, Exploitation) to AppModule imports.\u003c/edit_summary\u003e\n\u003c/edited_file\u003e\n\n\u003cedited_file\u003e"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 1152,"totalTokenCount": 48235},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\n\t\u003ctarget_file\u003ef:/AUDIRA-BUG-HUTTER/services/api/src"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 1176,"totalTokenCount": 48259},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "/scans/scan.module.ts\u003c/target_file\u003e\n\t\u003clines_modified\u003e1-1"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 1200,"totalTokenCount": 48283},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "8\u003c/lines_modified\u003e\n\t\u003cedit_summary\u003eAdded ScannerService to scan module providers.\u003c/edit_summary"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 1224,"totalTokenCount": 48307},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003e\n\u003c/edited_file\u003e\n\n\u003cedited_file\u003e\n\t\u003ctarget_file\u003ef:/AUDIR"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 1248,"totalTokenCount": 48331},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "A-BUG-HUTTER/services/api/src/vulnerabilities/vulnerability.controller.ts"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 1272,"totalTokenCount": 48355},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003c/target_file\u003e\n\t\u003clines_modified\u003e1-20\u003c/lines_modified\u003e\n\t\u003cedit_summary"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 1299,"totalTokenCount": 48382},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003eAdded CSV export endpoint to vulnerability controller.\u003c/edit_summary\u003e\n\u003c/edited_file\u003e\n\n\u003cedited_file"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 1323,"totalTokenCount": 48406},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003e\n\t\u003ctarget_file\u003ef:/AUDIRA-BUG-HUTTER/services/scanner/"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 1347,"totalTokenCount": 48430},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "main.go\u003c/target_file\u003e\n\t\u003clines_modified\u003e1-200\u003c/lines_modified\u003e"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 1372,"totalTokenCount": 48455},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\n\t\u003cedit_summary\u003eImplemented complete Go scanner service with realistic vulnerability detection, API contract, and CORS support.\u003c/"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 1396,"totalTokenCount": 48479},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "edit_summary\u003e\n\u003c/edited_file\u003e\n\n\u003cedited_file\u003e\n\t\u003ctarget_file\u003ef"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 1420,"totalTokenCount": 48503},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ":/AUDIRA-BUG-HUTTER/services/scanner/go.mod\u003c/target_file\u003e\n"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 1444,"totalTokenCount": 48527},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\t\u003clines_modified\u003e1-10\u003c/lines_modified\u003e\n\t\u003cedit_summary\u003eUpdated go.mod with proper"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 1472,"totalTokenCount": 48555},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " version and comments.\u003c/edit_summary\u003e\n\u003c/edited_file\u003e\n\n\u003cedited_file\u003e\n\t\u003ctarget"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 1496,"totalTokenCount": 48579},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "_file\u003ef:/AUDIRA-BUG-HUTTER/services/api/src/threat-intel"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 1520,"totalTokenCount": 48603},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "/threat-intel.service.ts\u003c/target_file\u003e\n\t\u003clines_modified\u003e73-1"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 1544,"totalTokenCount": 48627},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "60\u003c/lines_modified\u003e\n\t\u003cedit_summary\u003eImplemented real NVD, Exploit-DB,"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 1568,"totalTokenCount": 48651},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " and GitHub API integrations for threat intelligence.\u003c/edit_summary\u003e\n\u003c/edited_file\u003e\n\n\u003cviewed_file"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 1592,"totalTokenCount": 48675},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003e\n\t\u003cabsolute_path\u003ef:/AUDIRA-BUG-HUTTER/README.md\u003c/"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 1616,"totalTokenCount": 48699},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "absolute_path\u003e\n\t\u003clines_viewed\u003e1-198\u003c/lines_viewed\u003e\n"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 1640,"totalTokenCount": 48723},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\t\u003clearnings\u003eConfirmed project status was MVP Development at 80% completion with specific pending modules.\u003c/learnings\u003e\n\u003c/"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 1667,"totalTokenCount": 48750},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "viewed_file\u003e\n\n\u003cviewed_file\u003e\n\t\u003cabsolute_path\u003ef:/AUDIRA"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 1691,"totalTokenCount": 48774},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "-BUG-HUTTER/services/api/src/app.module.ts\u003c/absolute_path\u003e\n"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 1715,"totalTokenCount": 48798},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\t\u003clines_viewed\u003e1-61\u003c/lines_viewed\u003e\n\t\u003clearnings\u003eConfirmed"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 1739,"totalTokenCount": 48822},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " current modular structure of the backend application.\u003c/learnings\u003e\n\u003c/viewed_file\u003e\n\n\u003cviewed_code_item\u003e"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 1766,"totalTokenCount": 48849},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\n\t\u003cnode_identifier\u003ePrismaService\u003c/node_identifier\u003e\n\t\u003clearnings\u003eIdentified critical missing model accessors in"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 1795,"totalTokenCount": 48878},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " PrismaService.\u003c/learnings\u003e\n\u003c/viewed_code_item\u003e\n\n\u003cviewed_code_item\u003e\n\t\u003c"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 1822,"totalTokenCount": 48905},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "node_identifier\u003eScanProcessor\u003c/node_identifier\u003e\n\t\u003clearnings\u003eIdentified lack of error handling in scan processing"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 1848,"totalTokenCount": 48931},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " causing jobs to hang.\u003c/learnings\u003e\n\u003c/viewed_code_item\u003e\n\n\u003cviewed_code_item\u003e"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 1874,"totalTokenCount": 48957},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\n\t\u003cnode_identifier\u003eAuthGuard\u003c/node_identifier\u003e\n\t\u003clearnings\u003eIdentified insecure fallback for JWT secret"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 1901,"totalTokenCount": 48984},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ".\u003c/learnings\u003e\n\u003c/viewed_code_item\u003e\n\n\u003cviewed_code_item\u003e\n\t\u003c"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 1926,"totalTokenCount": 49009},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "node_identifier\u003eScannerService\u003c/node_identifier\u003e\n\t\u003clearnings\u003eCreated to abstract scanner logic for both"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 1950,"totalTokenCount": 49033},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " mock and real integration.\u003c/learnings\u003e\n\u003c/viewed_code_item\u003e\n\n\u003cviewed_code_item\u003e"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 1976,"totalTokenCount": 49059},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\n\t\u003cnode_identifier\u003eThreatIntelService\u003c/node_identifier\u003e\n\t\u003clearnings\u003eRefactored to"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 2001,"totalTokenCount": 49084},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " integrate with real external security APIs for NVD, Exploit-DB, and GitHub.\u003c/learnings\u003e\n\u003c/viewed_"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 2027,"totalTokenCount": 49110},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "code_item\u003e"}]}}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 2031,"totalTokenCount": 49114},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EjQKMgEMOdbHcxJpNgE9VyV6n+cjDXBGidt0eLC889/XfxuNfiD2+UxMeR/scZcvo7ot/h1D","text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 47083,"candidatesTokenCount": 2031,"totalTokenCount": 49114},"modelVersion": "gemini-3.1-flash-lite","responseId": "_70KavjBHPCdjuMP_LHGuQQ"},"traceId": "53e0b7441d64f0a0","metadata": {}}
+

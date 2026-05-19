@@ -1,0 +1,25 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Tue, 19 May 2026 00:42:55 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=745",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\": \"/**\\n * OpenAI to"}]}}],"usageMetadata": {"promptTokenCount": 8330,"candidatesTokenCount": 8,"totalTokenCount": 8338},"modelVersion": "tab_flash_lite_preview","responseId": "DrILaujGKvDw4-EP-PjEsQk"},"traceId": "7ed792e6b33c5556","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " Kiro Request Translator\\n * Converts OpenAI Chat Completions format to Kiro"}]}}],"usageMetadata": {"promptTokenCount": 8330,"candidatesTokenCount": 24,"totalTokenCount": 8354},"modelVersion": "tab_flash_lite_preview","responseId": "DrILaujGKvDw4-EP-PjEsQk"},"traceId": "7ed792e6b33c5556","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "/AWS CodeWhisperer format\\n */\\nimport { register } from \\\"../index.js\\\";\\nimport { FORMATS } from \\\"../formats.js\\\";\"\n\t\t}\n\t]\n}\n\u003c/"}]}}],"usageMetadata": {"promptTokenCount": 8330,"candidatesTokenCount": 72,"totalTokenCount": 8402},"modelVersion": "tab_flash_lite_preview","responseId": "DrILaujGKvDw4-EP-PjEsQk"},"traceId": "7ed792e6b33c5556","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "replace_file_content\u003e"}]}}],"usageMetadata": {"promptTokenCount": 8330,"candidatesTokenCount": 78,"totalTokenCount": 8408},"modelVersion": "tab_flash_lite_preview","responseId": "DrILaujGKvDw4-EP-PjEsQk"},"traceId": "7ed792e6b33c5556","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 8330,"candidatesTokenCount": 78,"totalTokenCount": 8408},"modelVersion": "tab_flash_lite_preview","responseId": "DrILaujGKvDw4-EP-PjEsQk"},"traceId": "7ed792e6b33c5556","metadata": {}}
+

@@ -1,0 +1,12 @@
+STATUS: 429
+HEADERS: {
+  "connection": "keep-alive",
+  "content-type": "application/json",
+  "date": "Tue, 19 May 2026 00:44:03 GMT",
+  "keep-alive": "timeout=5",
+  "retry-after": "19",
+  "transfer-encoding": "chunked",
+  "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+}
+---BODY---
+{"error":{"message":"[kiro/claude-sonnet-4.5] [429]: {\"message\":\"Due to suspicious activity, we are imposing temporary limits on how frequently your account (d-9067c98495.24e8a468-0081-7091-6357-3dad1415da79) can send a request to Kiro while we investigate. If you need assistance, please contact support at https://app.kiro.dev/account/usage?support_form.\",\"reason\":null} (reset after 19s)"}}

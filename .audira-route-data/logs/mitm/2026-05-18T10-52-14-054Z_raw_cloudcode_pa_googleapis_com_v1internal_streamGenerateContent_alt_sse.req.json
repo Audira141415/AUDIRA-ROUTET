@@ -1,0 +1,136 @@
+{
+  "method": "POST",
+  "url": "/v1internal:streamGenerateContent?alt=sse",
+  "host": "cloudcode-pa.googleapis.com",
+  "headers": {
+    "host": "cloudcode-pa.googleapis.com",
+    "user-agent": "antigravity/1.23.2 windows/amd64",
+    "transfer-encoding": "chunked",
+    "authorization": "Bearer ya29.a0AQvPyIPjdtYe6csNC7Ady7IsFNpCa__NxTNNdl8aazHyCpZ6zh81ZKdiFFh82-RjWN-0iUoyzl8hB2ioG-xHW_KZozvmE7MRgDCgMF-hmroZQonQ874TwKRE6N7eRYGrb2t0RwZafRpa_vPin66QGeZUk_F6y0f7lTlx5a6TIixi3SatHP0M3_PG_c61K-sG-qryIaoXV2EIFwaCgYKAT4SARUSFQHGX2Mi1Cfja1Fmf7pfgBDdHJfdsw0213",
+    "content-type": "application/json",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "project": "disco-solution-d43ch",
+    "requestId": "checkpoint/c30e4194-3977-4979-90dc-f715e8581de5",
+    "request": {
+      "contents": [
+        {
+          "role": "user",
+          "parts": [
+            {
+              "text": "<USER_REQUEST>\nanalis project ini AUDIRA-BUG-HUTTER\n\n</USER_REQUEST>\n<ADDITIONAL_METADATA>\nThe current local time is: 2026-05-18T17:52:08+07:00.\n\nThe user's current state is as follows:\nActive Document: f:\\AUDIRA-BUG-HUTTER\\services\\api\\src\\notifications\\email.service.ts (LANGUAGE_TYPESCRIPT)\nCursor is on line: 1\nOther open documents:\n- f:\\AUDIRA-BUG-HUTTER\\apps\\web\\app\\scheduled-scans\\page.tsx (LANGUAGE_TSX)\n- f:\\AUDIRA-BUG-HUTTER\\services\\api\\src\\monitoring\\monitoring.controller.ts (LANGUAGE_TYPESCRIPT)\n- f:\\AUDIRA-BUG-HUTTER\\.env.example (LANGUAGE_UNSPECIFIED)\n- f:\\AUDIRA-BUG-HUTTER\\services\\api\\src\\scheduler\\scheduler.module.ts (LANGUAGE_TYPESCRIPT)\n- f:\\AUDIRA-BUG-HUTTER\\apps\\web\\app\\analytics\\page.tsx (LANGUAGE_TSX)\nNo browser pages are currently open.\n</ADDITIONAL_METADATA>\n<USER_SETTINGS_CHANGE>\nThe user changed setting `Model Selection` from None to Claude Sonnet 4.6 (Thinking). No need to comment on this change if the user doesn't ask about it. If reporting what model you are, please use a human readable name instead of the exact string.\n</USER_SETTINGS_CHANGE>"
+            }
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            {
+              "text": "# Conversation History\nHere are the conversation IDs, titles, and summaries of your most recent 10 conversations, in reverse chronological order:\n\n<conversation_summaries>\n## Conversation abbd6a7c-8335-424b-9d22-a69bb07ceb14: Analyzing Audira Perfect World Project\n- Created: 2026-05-18T10:49:53Z\n- Last modified: 2026-05-18T10:51:22Z\n\n### USER Objective:\nAnalyzing Audira Perfect World Project\n\nThe user's objective is to evaluate the project structure and readiness of the AUDIRA-WEB-PERFECT-WORLD repository to support its development as a Neo Brutalism-themed web application.\n\nGoals:\n1. Examine the project file structure to identify key components, existing pages, and backend integration layers.\n2. Assess the current state of the codebase against the requirement of having 12 planned pages and integration with 8 backend microservices.\n3. Determine necessary steps to align the project with production-ready standards and the design aesthetic established in previous sessions.\n4. Provide a clear status report on project maturity and identify actionable items to complete the development phase.\n\n## Conversation 42254cf1-3246-43c6-8dd9-d0988fbac8a4: Analyzing Audira Perfect World Project\n- Created: 2026-05-18T10:49:47Z\n- Last modified: 2026-05-18T10:50:46Z\n\n### USER Objective:\nAnalyzing Audira Perfect World Project\n\nMain Objective:\nConduct a comprehensive analysis of the AUDIRA-WEB-PERFECT-WORLD project to assess its architectural maturity, state of completion, and operational readiness.\n\nGoals:\n1. Examine the monorepo structure (using Turborepo/pnpm) to understand how the 8 microservices and frontend applications are organized.\n2. Review the documentation files (e.g., PROJECT_STATUS.md, BACKEND_COMPLETION_SUMMARY.md) to verify feature parity and identify potential technical debt or pending tasks.\n3. Assess the infrastructure configuration (docker-compose.yml and deployment scripts) to ensure the service stack is ready for deployment.\n4. Evaluate the project's adherence to the planned \"Neo Brutalism\" design and the integration status of the 12 planned web pages.\n5. Provide a clear summary of the project's health and recommendations for moving from the current state to a production-ready environment.\n\n## Conversation 683c0713-cb3a-4723-96f0-e56cb6d874dc: Configuring API Port Settings\n- Created: 2026-05-18T07:43:52Z\n- Last modified: 2026-05-18T08:07:31Z\n\n### USER Objective:\nFixing Perfect World Port Configuration\n\nUSER Objective: Resolve the port configuration inconsistency by updating the project's codebase to correctly point to the intended services (Landing Page: 3327, Backend API: 3329) instead of the default port 3000. \n\nGoals:\n1. Update all hardcoded references to port 3000 in OAuth strategies, CORS configurations, environment examples, documentation, and test suites.\n2. Ensure full alignment between the application's startup script and the actual service port assignments.\n3. Prepare the frontend for future API integration by establishing correct connectivity settings.\n4. Evaluate current frontend implementation gaps against project design expectations.\n\n## Conversation 0df56b2e-cfd6-400f-af15-0bc0bebeaee6: Implementing VulnX Hunter Features\n- Created: 2026-05-18T07:42:38Z\n- Last modified: 2026-05-18T07:55:25Z\n\n### USER Objective:\nFinalizing VulnX Hunter Platform\n\nThe user's objective was to complete the development of the VulnX Hunter vulnerability testing platform by implementing all pending backend features and closing out active TODOs.\n\nMain goals accomplished:\n1. **AI-Powered Analysis:** Implemented AI-driven exploit generation, natural language querying for vulnerabilities, and a multi-factor ML risk scoring model.\n2. **Exploitation Framework:** Finalized authorization checks, emergency stop functionality with audit logging, and administrator alerting.\n3. **Listener Management:** Completed full lifecycle integration for TCP/HTTP listeners using HTTP calls to the backend scanner service.\n4. **Continuous Monitoring:** Implemented real-time Slack and webhook notifications, database audit trail storage, and configuration persistence on startup.\n5. **Report Generation:** Finalized PDF document generation with professional HTML templating and styling.\n6. **System Readiness:** Restored scheduled scan task managem\n<truncated 102 bytes>\n\n## Conversation 02a79347-c99f-45ec-958d-0eddc512af92: Focusing On Audira Web Perfect World\n- Created: 2026-05-18T07:25:28Z\n- Last modified: 2026-05-18T07:43:35Z\n\n### USER Objective:\nPerfect World Frontend Implementation\n\nThe user's objective is to complete the full-stack frontend development of the Perfect World Neo Brutalism web project. The goal is to implement all 12 planned pages, finalize UI aesthetics using custom AI-generated character assets, ensure full responsiveness, and establish a production-ready codebase that integrates seamlessly with the existing 8 backend microservices.\n\n## Conversation 0cd1881d-3635-4a8c-b5da-faed278de6ea: Implementing VulnX Hunter Features\n- Created: 2026-05-18T07:21:03Z\n- Last modified: 2026-05-18T07:43:13Z\n\n### USER Objective:\nFinalizing VulnX Hunter Platform\n\nMain Objective: Complete the final 27% of the VulnX Hunter platform by achieving full database persistence, implementing required frontend integration pages, and ensuring all backend services are production-ready.\n\nGoals:\n1. Complete database schema migrations for all advanced features including scheduled scans, monitoring, threat intelligence, and AI analysis.\n2. Implement and integrate the essential frontend pages (Analytics, Scheduled Scans, Monitoring Rules, Threat Intelligence, Reports) to bridge the backend-frontend gap.\n3. Verify the platform's stability, confirm 100% feature parity, and provide a comprehensive implementation summary for deployment.\n\n## Conversation 26ee0630-9cea-4269-9985-017beae5aec7: Analyzing Bug Hunter Project\n- Created: 2026-05-18T05:14:19Z\n- Last modified: 2026-05-18T07:20:54Z\n\n### USER Objective:\nImplementing VulnX Hunter Features\n\nThe user's objective is to complete the development of the VulnX Hunter vulnerability testing platform by systematically implementing the remaining features. The core goals include finalizing the backend integration for the Go-based scanner service, implementing the full-stack Reports module for vulnerability data exporting, and completing the remaining 15 frontend application pages to achieve full feature parity. The process will follow an incremental implementation strategy, starting with backend modules before transitioning to frontend integration and system-wide verification.\n\n## Conversation 00103c12-fab5-48d8-953b-a371784f01f6: Verifying Dashboard Navigation Status\n- Created: 2026-05-18T05:15:10Z\n- Last modified: 2026-05-18T07:06:01Z\n\n### USER Objective:\nVerifying Dashboard Navigation Status\n\nMain Objective: Determine if the navigation menu features are fully functional within the Vice City Dashboard project.\n\nGoals:\n1. Verify the implementation of the `Navigation.tsx` component.\n2. Confirm if the navigation links (Home, News, Videos, Events, Stats, Community, Settings) are correctly configured and point to active, functional application routes.\n3. Identify if any of these dashboard sub-pages currently exist as placeholders or require further implementation to be considered \"active.\"\n\n## Conversation ae30676f-05b5-4984-9e28-f650aab6b3f7: Analyzing Project Development Phase\n- Created: 2026-05-18T04:47:48Z\n- Last modified: 2026-05-18T05:13:27Z\n\n### USER Objective:\nImplementing Backend For VulnX Hunter\n\nThe user's objective is to complete the backend development and achieve full-stack readiness for the VulnX Hunter vulnerability testing platform. The primary goals are to implement critical modules (Vulnerabilities, Listeners), establish a robust API integration layer, and ensure the project architecture is scalable for future frontend integration and MVP production, effectively accelerating the development timeline by transitioning from partial backend implementation to a near-complete functional stack.\n\n## Conversation c69fc8e3-5731-4ccb-a88a-cab671604500: Implementing GTA Dashboard Features\n- Created: 2026-05-18T04:37:58Z\n- Last modified: 2026-05-18T05:07:24Z\n\n### USER Objective:\nImplementing Vice City Dashboard Pages\n\nThe user's goal is to continue the implementation of the Grand Theft Auto VI (Vice City) Dashboard by creating the remaining sub-pages: Videos, Events, Stats, and Community. The objective is to build these interactive, premium-themed pages to match the already-completed main dashboard's cyberpunk aesthetic, layout, and functionality requirements, ensuring a complete and seamless user experience.\n\n</conversation_summaries>"
+            }
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            {
+              "text": "I'll analyze the AUDIRA-BUG-HUTTER project to understand its structure, purpose, and current state."
+            },
+            {
+              "functionCall": {
+                "id": "5556cda1-f02e-4731-8052-e06368ed4a62",
+                "name": "list_dir",
+                "args": {
+                  "DirectoryPath": "f:\\AUDIRA-BUG-HUTTER",
+                  "toolAction": "Listing directory",
+                  "toolSummary": "Root directory structure"
+                }
+              }
+            },
+            {
+              "functionCall": {
+                "id": "9b1d45f0-8946-451a-a71c-93aa10c01303",
+                "name": "view_file",
+                "args": {
+                  "AbsolutePath": "f:\\AUDIRA-BUG-HUTTER\\package.json",
+                  "toolAction": "Viewing file",
+                  "toolSummary": "Package configuration"
+                }
+              }
+            },
+            {
+              "functionCall": {
+                "id": "8abfcbae-aa9e-4646-9cd0-d43fe29dbe64",
+                "name": "view_file",
+                "args": {
+                  "AbsolutePath": "f:\\AUDIRA-BUG-HUTTER\\README.md",
+                  "toolAction": "Viewing file",
+                  "toolSummary": "Project documentation"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            {
+              "functionResponse": {
+                "id": "5556cda1-f02e-4731-8052-e06368ed4a62",
+                "name": "list_dir",
+                "response": {
+                  "output": "Created At: 2026-05-18T10:52:14Z\nCompleted At: 2026-05-18T10:52:14Z\n{\"name\":\".env.example\", \"sizeBytes\":\"1438\"}\n{\"name\":\".kiro\", \"isDir\":true}\n{\"name\":\"QUICKSTART.md\", \"sizeBytes\":\"5024\"}\n{\"name\":\"README.md\", \"sizeBytes\":\"5675\"}\n{\"name\":\"apps\", \"isDir\":true}\n{\"name\":\"infrastructure\", \"isDir\":true}\n{\"name\":\"node_modules\", \"isDir\":true}\n{\"name\":\"package-lock.json\", \"sizeBytes\":\"290256\"}\n{\"name\":\"package.json\", \"sizeBytes\":\"519\"}\n{\"name\":\"packages\", \"isDir\":true}\n{\"name\":\"scripts\", \"isDir\":true}\n{\"name\":\"services\", \"isDir\":true}\n{\"name\":\"start-dev.bat\", \"sizeBytes\":\"1614\"}\n{\"name\":\"start.bat\", \"sizeBytes\":\"1813\"}\n{\"name\":\"stop.bat\", \"sizeBytes\":\"1772\"}\n{\"name\":\"tsconfig.json\", \"sizeBytes\":\"562\"}\n\nSummary: This directory contains 7 subdirectories and 9 files."
+                }
+              }
+            },
+            {
+              "functionResponse": {
+                "id": "9b1d45f0-8946-451a-a71c-93aa10c01303",
+                "name": "view_file",
+                "response": {
+                  "output": "Created At: 2026-05-18T10:52:14Z\nCompleted At: 2026-05-18T10:52:14Z\nFile Path: `file:///f:/AUDIRA-BUG-HUTTER/package.json`\nTotal Lines: 21\nTotal Bytes: 519\nShowing lines 1 to 21\nThe following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.\n1: {\n2:   \"name\": \"vulnx-hunter-monorepo\",\n3:   \"version\": \"1.0.0\",\n4:   \"private\": true,\n5:   \"workspaces\": [\n6:     \"apps/*\",\n7:     \"services/*\",\n8:     \"packages/*\"\n9:   ],\n10:   \"scripts\": {\n11:     \"dev\": \"node scripts/dev-run.js\",\n12:     \"build\": \"npm run build --workspaces --if-present\",\n13:     \"db:generate\": \"npm run db:generate --workspace=packages/database\",\n14:     \"db:push\": \"npm run db:push --workspace=packages/database\",\n15:     \"db:seed\": \"npm run db:seed --workspace=packages/database\"\n16:   },\n17:   \"devDependencies\": {\n18:     \"typescript\": \"^5.3.3\"\n19:   }\n20: }\n21: \nThe above content shows the entire, complete file contents of the requested file.\n"
+                }
+              }
+            },
+            {
+              "functionResponse": {
+                "id": "8abfcbae-aa9e-4646-9cd0-d43fe29dbe64",
+                "name": "view_file",
+                "response": {
+                  "output": "Created At: 2026-05-18T10:52:14Z\nCompleted At: 2026-05-18T10:52:14Z\nFile Path: `file:///f:/AUDIRA-BUG-HUTTER/README.md`\nTotal Lines: 205\nTotal Bytes: 5675\nShowing lines 1 to 205\nThe following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.\n1: # VulnX Hunter - Vulnerability Hunting & Security Testing Platform\n2: \n3: <div align=\"center\">\n4: \n5: ![VulnX Hunter](https://img.shields.io/badge/VulnX-Hunter-00FFB2?style=for-the-badge)\n6: ![Status](https://img.shields.io/badge/Status-Production%20Ready-success?style=for-the-badge)\n7: ![Backend](https://img.shields.io/badge/Backend-100%25-success?style=for-the-badge)\n8: ![Frontend](https://img.shields.io/badge/Frontend-100%25-success?style=for-the-badge)\n9: \n10: **A premium cyberpunk-themed vulnerability hunting platform with real-time scanning, AI-powered analysis, and collaborative security testing.**\n11: \n12: </div>\n13: \n14: ---\n15: \n16: ## 🎯 Features\n17: \n18: ### ✅ Implemented\n19: - **Authentication System** - JWT-based auth with role management\n20: - **Target Management** - Organize and track security targets\n21: - **Real-time Scanning** - Async scanning with live log streaming\n22: - **Vulnerability Tracking** - CVSS scoring and severity management\n23: - **Listener Management** - Reverse shells and C2 infrastructure\n24: - **AI Security Assistant** - OpenAI-powered vulnerability analysis\n25: - **WebSocket Updates** - Real-time scan progress and notifications\n26: - **Team Collaboration** - Multi-user workspace support\n27: \n28: ### 🚧 In Progress\n29: - Reports Generation (PDF/Markdown)\n30: - Real Scanner Integration (Nmap, Nuclei)\n31: - Additional Frontend Pages (15 remaining)\n32: \n33: ---\n34: \n35: ## 🏗️ Architecture\n36: \n37: ```\n38: vulnx-hunter-monorepo/\n39: ├── apps/\n40: │   └── web/                    # Next.js 15 + React 19 Frontend\n41: ├── services/\n42: │   ├── api/                    # NestJS Backend API\n43: │   └── scanner/                # Go Microservice for Scanning\n44: ├── packages/\n45: │   ├── common/                 # Shared utilities\n46: │   └── database/               # Prisma ORM + Schema\n47: └── infrastructure/             # Docker & deployment configs\n48: ```\n49: \n50: ### Tech Stack\n51: \n52: **Frontend:**\n53: - Next.js 15 (App Router)\n54: - React 19\n55: - TypeScript\n56: - Tailwind CSS\n57: - Socket.io Client\n58: \n59: **Backend:**\n60: - NestJS 10\n61: - Prisma ORM\n62: - PostgreSQL\n63: - Redis + BullMQ\n64: - Socket.io\n65: - JWT Authentication\n66: \n67: **Scanner:**\n68: - Go 1.21+\n69: - HTTP Server\n70: - (Future: Nmap, Nuclei integration)\n71: \n72: ---\n73: \n74: ## 🚀 Quick Start\n75: \n76: See [QUICKSTART.md](./QUICKSTART.md) for detailed setup instructions.\n77: \n78: **TL;DR:**\n79: ```bash\n80: # 1. Install dependencies\n81: npm install\n82: \n83: # 2. Setup database\n84: cd packages/database\n85: npx prisma generate\n86: npx prisma db push\n87: npx prisma db seed\n88: \n89: # 3. Start services\n90: redis-server                    # Terminal 1\n91: cd services/api && npm run dev  # Terminal 2\n92: cd apps/web && npm run dev      # Terminal 3\n93: \n94: # 4. Open http://localhost:3000\n95: ```\n96: \n97: ---\n98: \n99: ## 📊 Project Status\n100: \n101: | Component | Completion | Status |\n102: |-----------|------------|--------|\n103: | Database Schema | 100% | ✅ Complete |\n104: | Authentication | 100% | ✅ Complete |\n105: | Targets API | 100% | ✅ Complete |\n106: | Scans API | 100% | ✅ Complete |\n107: | Vulnerabilities API | 100% | ✅ Complete |\n108: | Listeners API | 100% | ✅ Complete |\n109: | AI Integration | 100% | ✅ Complete |\n110: | WebSocket | 100% | ✅ Complete |\n111: | Reports Module | 100% | ✅ Complete |\n112: | Email Notifications | 100% | ✅ Complete |\n113: | Scheduled Scans | 100% | ✅ Complete |\n114: | CSV Export | 100% | ✅ Complete |\n115: | Threat Intelligence | 100% | ✅ Complete |\n116: | Analytics Dashboard | 100% | ✅ Complete |\n117: | Continuous Monitoring | 100% | ✅ Complete |\n118: | AI-Powered Analysis | 100% | ✅ Complete |\n119: | Exploitation Framework | 100% | ✅ Complete |\n120: | Real Scanner Service | 100% | ✅ Complete |\n121: | Frontend Pages | 100% | ✅ Complete |\n122: \n123: **Overall Progress:** Backend 100% | Frontend 100% | **Total: 100%** 🎉\n124: \n125: ---\n126: \n127: ## 🎨 Screenshots\n128: \n129: ### Dashboard\n130: ![Dashboard](docs/screenshots/dashboard.png)\n131: *Real-time vulnerability overview with live scanning activity*\n132: \n133: ### Targets Management\n134: ![Targets](docs/screenshots/targets.png)\n135: *Comprehensive target tracking with scan history*\n136: \n137: ### AI Assistant\n138: ![AI Assistant](docs/screenshots/ai-assistant.png)\n139: *AI-powered security analysis and recommendations*\n140: \n141: ### Listeners\n142: ![Listeners](docs/screenshots/listeners.png)\n143: *C2 listener management with connection tracking*\n144: \n145: ---\n146: \n147: ## 📚 Documentation\n148: \n149: - [Quick Start Guide](./QUICKSTART.md)\n150: - [API Documentation](./docs/API.md) *(coming soon)*\n151: - [Architecture Overview](./docs/ARCHITECTURE.md) *(coming soon)*\n152: - [Contributing Guide](./CONTRIBUTING.md) *(coming soon)*\n153: \n154: ---\n155: \n156: ## 🔐 Security\n157: \n158: This is a security testing platform. Please use responsibly and only on systems you have permission to test.\n159: \n160: - All passwords are hashed with bcrypt (10 rounds)\n161: - JWT tokens for stateless authentication\n162: - Audit logging for all security events\n163: - Input validation on all endpoints\n164: - SQL injection prevention via Prisma ORM\n165: \n166: ---\n167: \n168: ## 🤝 Contributing\n169: \n170: Contributions are welcome! Please read our [Contributing Guide](./CONTRIBUTING.md) first.\n171: \n172: ---\n173: \n174: ## 📝 License\n175: \n176: This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.\n177: \n178: ---\n179: \n180: ## 🙏 Acknowledgments\n181: \n182: - Built with modern web technologies\n183: - Inspired by professional penetration testing tools\n184: - Cyberpunk aesthetic inspired by modern security culture\n185: \n186: ---\n187: \n188: ## 📧 Contact\n189: \n190: For questions or support, please open an issue on GitHub.\n191: \n192: ---\n193: \n194: <div align=\"center\">\n195: \n196: **Made with ❤️ by the VulnX Team**\n197: \n198: ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)\n199: ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white)\n200: ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat&logo=nestjs&logoColor=white)\n201: ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)\n202: ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)\n203: \n204: </div>\n205: \nThe above content shows the entire, complete file contents of the requested file.\n"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            {
+              "text": "Generate a short conversation title around 3-5 words describing the USER's intent and goals during this chat. Should be title-cased, e.g 'Developing a Chess App'. Format as a simple string, not as markdown; and please output the title directly, do not prefix it with \"Title:\" or anything similar.\n\tThen, in a new line, write the USER's main objective and goals, keeping in mind that their goals may have been included in the previous CHECKPOINT summary.\n\tMake sure that this is very action oriented around solving the USER's task.\n\t"
+            }
+          ]
+        }
+      ],
+      "systemInstruction": {
+        "role": "user",
+        "parts": [
+          {
+            "text": "You are an expert AI coding assistant with extreme attention to detail. You are pair programming with a USER to solve a coding task.\nYou provide clear, detailed, and accurate summaries of conversations. When asked, you focus on outlining the USER's main goals\nand listing key information and context discussed. Your response should be well-organized and reflect the essence of the dialog.\nNEVER lie or make things up. Your summaries should always be grounded in the conversation."
+          }
+        ]
+      },
+      "generationConfig": {
+        "thinkingConfig": {
+          "includeThoughts": false,
+          "thinkingBudget": 0
+        }
+      },
+      "sessionId": "-3750763034362895579"
+    },
+    "model": "gemini-3.1-flash-lite",
+    "userAgent": "antigravity",
+    "requestType": "checkpoint"
+  }
+}

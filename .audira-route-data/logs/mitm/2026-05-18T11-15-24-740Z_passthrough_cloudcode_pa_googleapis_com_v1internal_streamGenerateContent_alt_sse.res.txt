@@ -1,0 +1,19 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 11:15:27 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=2051",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EmYKZAEMOdbH7KuFquZ4TkwGrAzpQ3a+WGyDHH7I2x4fmq3Lp8nDm9IfJOg0NTRNFtpz/MlygPFx0V/Nr6cm3nSLNkRTcLf3touZPXkZcicYDuCx/3KmOenRZccD4gvifsweSM6gEYs=","functionCall": {"name": "view_file","args": {"toolSummary": "Scratchpad view","toolAction": "Viewing scratchpad file","AbsolutePath": "C:\\Users\\ASUS\\.gemini\\antigravity\\brain\\67899ccd-1280-49e7-9b0f-febedd645fdc\\browser\\scratchpad_di3vmnog.md","explanation": "View scratchpad after removing duplicate header."},"id": "uf90s3m8"}}]}}],"usageMetadata": {"promptTokenCount": 18039,"candidatesTokenCount": 106,"totalTokenCount": 18158,"thoughtsTokenCount": 13},"modelVersion": "gemini-3-flash","responseId": "zfQKas7vH67BjuMPvKTJ2Ak"},"traceId": "1440d8a4a1420363","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 21069,"candidatesTokenCount": 106,"totalTokenCount": 21188,"cachedContentTokenCount": 16215,"thoughtsTokenCount": 13},"modelVersion": "gemini-3-flash","responseId": "zfQKas7vH67BjuMPvKTJ2Ak"},"traceId": "1440d8a4a1420363","metadata": {}}
+

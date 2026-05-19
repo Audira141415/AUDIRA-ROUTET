@@ -1,0 +1,27 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Sat, 16 May 2026 08:17:24 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=2035",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]}}],"usageMetadata": {"promptTokenCount": 22026,"candidatesTokenCount": 20,"totalTokenCount": 22046,"cachedContentTokenCount": 20483},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5vBesmKXsC8q6w9g3aP"},"traceId": "a5741fd1dc5d4881","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"functionCall": {"name": "view_file","args": {"AbsolutePath": "f:\\AUDIRA-WEB-PERFECT-WORLD\\apps\\api\\package.json","toolAction": "Reading API package.json","toolSummary": "API dependencies"},"id": "toolu_vrtx_01PPMo3pmTZDhM6LmPBEeJTr"}}]}}],"usageMetadata": {"promptTokenCount": 22026,"candidatesTokenCount": 20,"totalTokenCount": 22046,"cachedContentTokenCount": 20483},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5vBesmKXsC8q6w9g3aP"},"traceId": "a5741fd1dc5d4881","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"functionCall": {"name": "view_file","args": {"AbsolutePath": "f:\\AUDIRA-WEB-PERFECT-WORLD\\apps\\web\\package.json","toolAction": "Reading web package.json","toolSummary": "Web dependencies"},"id": "toolu_vrtx_01BNRQV6Z8EvdokqScvDKTgT"}}]}}],"usageMetadata": {"promptTokenCount": 22026,"candidatesTokenCount": 20,"totalTokenCount": 22046,"cachedContentTokenCount": 20483},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5vBesmKXsC8q6w9g3aP"},"traceId": "a5741fd1dc5d4881","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"functionCall": {"name": "view_file","args": {"toolAction": "Checking prisma schema","toolSummary": "Database schema","AbsolutePath": "f:\\AUDIRA-WEB-PERFECT-WORLD\\packages\\database\\prisma"},"id": "toolu_vrtx_01Mw6JyFpttecQVu264bdtgP"}}]}}],"usageMetadata": {"promptTokenCount": 22026,"candidatesTokenCount": 20,"totalTokenCount": 22046,"cachedContentTokenCount": 20483},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5vBesmKXsC8q6w9g3aP"},"traceId": "a5741fd1dc5d4881","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"functionCall": {"name": "view_file","args": {"toolAction": "Reading API main","toolSummary": "API entry point","AbsolutePath": "f:\\AUDIRA-WEB-PERFECT-WORLD\\apps\\api\\src\\main.ts"},"id": "toolu_vrtx_01Jb4KZ5rrtBRGTmAKVzQp4T"}}]}}],"usageMetadata": {"promptTokenCount": 22026,"candidatesTokenCount": 20,"totalTokenCount": 22046,"cachedContentTokenCount": 20483},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5vBesmKXsC8q6w9g3aP"},"traceId": "a5741fd1dc5d4881","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 22026,"candidatesTokenCount": 429,"totalTokenCount": 22455,"cachedContentTokenCount": 20483},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5vBesmKXsC8q6w9g3aP"},"traceId": "a5741fd1dc5d4881","metadata": {}}
+

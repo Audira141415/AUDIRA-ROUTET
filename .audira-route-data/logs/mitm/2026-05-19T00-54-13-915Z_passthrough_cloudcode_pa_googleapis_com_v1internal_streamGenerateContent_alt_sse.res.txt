@@ -1,0 +1,21 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Tue, 19 May 2026 00:54:19 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=5384",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thought": true,"text": "**Prioritizing Tool Specificity**\n\nI'm focusing now on tool specificity. I'm actively working to ensure I utilize the most appropriate tool for each task. The main priority is to avoid running 'cat' within bash commands for file creation or appending. Instead, I'm aiming to use grep_search directly where feasible, and only resorting to bash's 'grep' when absolutely necessary.\n\n\n"}]}}],"usageMetadata": {"promptTokenCount": 79828,"totalTokenCount": 79828},"modelVersion": "gemini-pro-default","responseId": "trQLasjuGbjlg8UPzdCg0Ao"},"traceId": "51e1618686a5facc","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "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","functionCall": {"name": "view_file","args": {"AbsolutePath": "f:\\AUDIRA-ROUTET\\9router-temp\\package.json"},"id": "5k8j55rz"}}]}}],"usageMetadata": {"promptTokenCount": 79828,"candidatesTokenCount": 33,"totalTokenCount": 80201,"thoughtsTokenCount": 340},"modelVersion": "gemini-pro-default","responseId": "trQLasjuGbjlg8UPzdCg0Ao"},"traceId": "51e1618686a5facc","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 103097,"candidatesTokenCount": 33,"totalTokenCount": 103470,"cachedContentTokenCount": 98085,"thoughtsTokenCount": 340},"modelVersion": "gemini-pro-default","responseId": "trQLasjuGbjlg8UPzdCg0Ao"},"traceId": "51e1618686a5facc","metadata": {}}
+

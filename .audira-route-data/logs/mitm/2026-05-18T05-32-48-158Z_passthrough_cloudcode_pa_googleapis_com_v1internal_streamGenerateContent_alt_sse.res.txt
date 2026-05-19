@@ -1,0 +1,19 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 05:32:49 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=1209",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "Es0BCsoBAQw51sfWHQ9k5sZ29ZO68vdFa7xKqMIE1KA/EV1weUiTPuE6sxbMTpyIXy8I/2NMj191EUg1z7g49pYpO+eHn205Cz9EdGahJkTq21zYTHkL7B/q9r/nWOFAMzlvIp5k+2uOQ/a/lJ6B0ye1cNgcLcxtw/ipiQBr2qWOYtJTGlC0nRZL4ZzvSFKi9O9u23eXKaAIIQUPXs8siDHq8CrfEYnOKl1JoQzwdKHXlkqlXrkZOsKXdg9XZJ5XanBOBzTAgREUgYE+FGjO6w==","functionCall": {"name": "open_browser_url","args": {"explanation": "Open the actual running Next.js dev server at port 3612.","PageIdToReplace": "5411DAB9590ACD157E5A0154F9BA575B","toolAction": "Opening browser URL","Url": "http://localhost:3612","toolSummary": "URL navigation"},"id": "c3dfxh1q"}}]}}],"usageMetadata": {"promptTokenCount": 14758,"candidatesTokenCount": 101,"totalTokenCount": 14914,"thoughtsTokenCount": 55},"modelVersion": "gemini-3-flash","responseId": "gKQKasO8GdijqfkPwPSHsQ0"},"traceId": "703c43c15f0ffb38","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 15149,"candidatesTokenCount": 101,"totalTokenCount": 15305,"thoughtsTokenCount": 55},"modelVersion": "gemini-3-flash","responseId": "gKQKasO8GdijqfkPwPSHsQ0"},"traceId": "703c43c15f0ffb38","metadata": {}}
+

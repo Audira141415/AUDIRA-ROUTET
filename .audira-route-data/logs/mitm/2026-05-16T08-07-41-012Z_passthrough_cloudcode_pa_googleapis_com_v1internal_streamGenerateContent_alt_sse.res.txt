@@ -1,0 +1,21 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Sat, 16 May 2026 08:07:43 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=2008",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]}}],"usageMetadata": {"promptTokenCount": 24314,"candidatesTokenCount": 20,"totalTokenCount": 24334,"cachedContentTokenCount": 22051},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5uSqASv7iB5ii31W4bS"},"traceId": "e821f708fc22f3b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"functionCall": {"name": "run_command","args": {"Cwd": "f:\\AUDIRA-TOPUPGAME","SafeToAutoRun": false,"WaitMsBeforeAsync": 5000,"toolAction": "Creating organized folder structure","toolSummary": "Create target directories","CommandLine": "New-Item -ItemType Directory -Force -Path \"scripts\\db\"; New-Item -ItemType Directory -Force -Path \"scripts\\admin\"; New-Item -ItemType Directory -Force -Path \"scripts\\deploy\"; New-Item -ItemType Directory -Force -Path \"db\\backups\"; New-Item -ItemType Directory -Force -Path \"backend\\scripts\"; Write-Host \"Folders created\""},"id": "toolu_vrtx_01F7KTmEW7hsCkNhQvPJWrRG"}}]}}],"usageMetadata": {"promptTokenCount": 24314,"candidatesTokenCount": 20,"totalTokenCount": 24334,"cachedContentTokenCount": 22051},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5uSqASv7iB5ii31W4bS"},"traceId": "e821f708fc22f3b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 24314,"candidatesTokenCount": 260,"totalTokenCount": 24574,"cachedContentTokenCount": 22051},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5uSqASv7iB5ii31W4bS"},"traceId": "e821f708fc22f3b","metadata": {}}
+

@@ -1,0 +1,18 @@
+{
+  "method": "POST",
+  "url": "/v1internal:loadCodeAssist",
+  "host": "cloudcode-pa.googleapis.com",
+  "headers": {
+    "host": "cloudcode-pa.googleapis.com",
+    "user-agent": "antigravity/1.23.2 windows/amd64",
+    "content-length": "38",
+    "authorization": "Bearer ya29.a0AQvPyINfhYUwwZaLNyqnO1T9-zW7f_R1h-b9zJCCV1YMkG_zs6nqvJARECuHDKMtbO888U6WT05SmzZYe_OCx9rrQ00IJJhdbO9GpbKEVaWK_U5miDP_4hnUFFKZ-t7X_BnS20Ukr8lMQMorbgOMm04xfQJ71BvFs0pC1Wjuub3EXKLOU8NncLv2jkb1yLZRgLo43616eOZLRwaCgYKAZ4SARUSFQHGX2MibZ1kZg0ZS4a-5mazpnAiMw0213",
+    "content-type": "application/json",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "metadata": {
+      "ideType": "ANTIGRAVITY"
+    }
+  }
+}

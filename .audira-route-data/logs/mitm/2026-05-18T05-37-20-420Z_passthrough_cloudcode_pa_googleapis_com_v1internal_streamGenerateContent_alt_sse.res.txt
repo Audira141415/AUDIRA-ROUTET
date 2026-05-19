@@ -1,0 +1,23 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 05:37:22 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=2326",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "I will capture a screenshot of the News page to verify that the \"News\" tab"}]}}],"usageMetadata": {"promptTokenCount": 23382,"candidatesTokenCount": 17,"totalTokenCount": 23659,"thoughtsTokenCount": 260},"modelVersion": "gemini-3-flash","responseId": "kKUKatuZMrzc4-EPl_77kA4"},"traceId": "d9395bb8aa920e37","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " is highlighted and the page content has transitioned successfully."}]}}],"usageMetadata": {"promptTokenCount": 29536,"candidatesTokenCount": 27,"totalTokenCount": 29823,"cachedContentTokenCount": 24362,"thoughtsTokenCount": 260},"modelVersion": "gemini-3-flash","responseId": "kKUKatuZMrzc4-EPl_77kA4"},"traceId": "d9395bb8aa920e37","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "ErAICq0IAQw51seXO6GwSZuXx3r6l4zFkbA2fBzN26EAq/vvxB61VkzO8XHrrAwVRDYskbLPp2j2xe44AgPg4rT6iUgH6Y0gp8+UlWKM1S/AbJa1hsf0c+/Rtd0HovY6R1kM4As18hWXCcgmbzTDt5ufK/ZgjfO/GOaDlDJKYM2ORZCx9wUi1oSptV+XSGvXBdeKpS9zt3XDHLfPuLIkPxoTqrPfMplLl75OccnC3dMGYhCo7rjtrfHrBA58/24ZG2loJU4CUp+KzwS87hd66L7owEpD0IMOevcvyS05wKdD1cv49XM7nEi1DMwlxviMFjrCxIHt0cYxrDAXwX+TU+5gYd9p7cXbvtq9+E3aZOB+9hlvtPDWJ5Bh/g6jUMwxoKH9KhMb9LaMFSD2Bid4FTWCmNoHE1zn9K+hxighYmbY8CIGBgOezOmQXbOHVwe68zYY6SC/D77wrffis5tet8ORpYZ0d5y3fyz9Dvz1v9EodwsXRnseeqmPXOPsapRg39RWU5M1zGCbu6yU4FTyg+kwEbzRlpzshfe2LCZHUlfmLDKpxyEArFWwHSdFMYdY6i/IjN4h4AKbSNL3L5LpmHtS50WsjVCJ3yfO1tJ4gcayG9zs10+7twyjmVKOVpNukV/elDfHvXHHHE7ZK/4/iDlHdj7qrzGkYQWXGFkVCmVq328LJlgnAKckezKgRtN3219xbFCp43dW3gBbbzXxwS2H5RAa0oUR6hnCeXVxt/zntvTvt+MJdnVaTYFe6aXoPsmPWUEPSMjf6g0pal+SUsKIQwl/uMo8Zmymr1/KRbf0Lq8iCPIT/I1/VQfV6G3Urhdtb82cs2BJw6neDDugdUJbdtWfNjoAFUgyGRaCg8lNb53tX4/dOx334K7di32L1pD5AH82/Xx9RCT7jxA4pq5fsZ6azxxyUhfeskCyXkAMUuokuQLCX+0of98VuBW/og69H9sdPAqaK1hqWXXneO9iRlUDuw2JwN7N/IltlyJGpoN62DX2TY2UafH8km80DPZm4FPxXhLWD1OiuAKKmVXahWEY99/mnS2qRnqGz1uDLOhmuWC9F1smqT9fQJYbZIP8nSG5R7jQepS73P6O9wS0vlRicBLZpTpLG/8WXJiDkP7XrK6n+NEMvEUmAKIVvFM6ZyOq0kwF9135vdeu37yJV4gpWMUixGbGdnHxXYGD5d25W9kZ8JlMaQqGDeLENSmIk2lw1zYZHpSSWrQ2barU1U8rtPImNzHr1MzDmRrsIMtVXgggpwfqfopaxYSTzQeQLYhqNhfKd0s649gMQkokW2LFiufXrVXJuK7YoPtrRkv7amlDicyNPeOoevJcQgtXaNHclxdo1oQsOPILMXaUNycs58SO9sZFK/GUJV2iWSrQJYCnxOjwe0Id5R6uARluT396jvHXpnVp7KQ6KjZb4A==","functionCall": {"name": "capture_browser_screenshot","args": {"CaptureBeyondViewport": false,"SaveScreenshot": true,"ScreenshotName": "newspage_active","toolAction": "Capturing screenshot","toolSummary": "Capture screenshot","PageID": "5411DAB9590ACD157E5A0154F9BA575B","explanation": "Captured the News page showing active News tab"},"id": "lyvn5l3p"}}]}}],"usageMetadata": {"promptTokenCount": 29536,"candidatesTokenCount": 125,"totalTokenCount": 29921,"cachedContentTokenCount": 24362,"thoughtsTokenCount": 260},"modelVersion": "gemini-3-flash","responseId": "kKUKatuZMrzc4-EPl_77kA4"},"traceId": "d9395bb8aa920e37","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 29536,"candidatesTokenCount": 125,"totalTokenCount": 29921,"cachedContentTokenCount": 24362,"thoughtsTokenCount": 260},"modelVersion": "gemini-3-flash","responseId": "kKUKatuZMrzc4-EPl_77kA4"},"traceId": "d9395bb8aa920e37","metadata": {}}
+

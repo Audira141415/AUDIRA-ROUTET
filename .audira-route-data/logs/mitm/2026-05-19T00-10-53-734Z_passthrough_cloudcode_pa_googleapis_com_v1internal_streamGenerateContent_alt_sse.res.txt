@@ -1,0 +1,25 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Tue, 19 May 2026 00:10:54 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=649",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\": \"#"}]}}],"usageMetadata": {"promptTokenCount": 4846,"candidatesTokenCount": 2,"totalTokenCount": 4848},"modelVersion": "tab_flash_lite_preview","responseId": "jaoLaoWbNuftg8UPhsS6mQw"},"traceId": "f3edbfcd9c49e2a5","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " AUDIRA-WEB-GTA - Session Memory\\n\\n\u003e **"}]}}],"usageMetadata": {"promptTokenCount": 4846,"candidatesTokenCount": 18,"totalTokenCount": 4864},"modelVersion": "tab_flash_lite_preview","responseId": "jaoLaoWbNuftg8UPhsS6mQw"},"traceId": "f3edbfcd9c49e2a5","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "Purpose**: This file serves as persistent memory across AI agent sessions. It is automatically updated at the end of each session and loaded at the start of new sessions to maintain context continuity.\\n\\n---\"\n\t\t}\n\t]\n}\n\u003c/"}]}}],"usageMetadata": {"promptTokenCount": 4846,"candidatesTokenCount": 69,"totalTokenCount": 4915},"modelVersion": "tab_flash_lite_preview","responseId": "jaoLaoWbNuftg8UPhsS6mQw"},"traceId": "f3edbfcd9c49e2a5","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "replace_file_content\u003e"}]}}],"usageMetadata": {"promptTokenCount": 4846,"candidatesTokenCount": 75,"totalTokenCount": 4921},"modelVersion": "tab_flash_lite_preview","responseId": "jaoLaoWbNuftg8UPhsS6mQw"},"traceId": "f3edbfcd9c49e2a5","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 4846,"candidatesTokenCount": 75,"totalTokenCount": 4921},"modelVersion": "tab_flash_lite_preview","responseId": "jaoLaoWbNuftg8UPhsS6mQw"},"traceId": "f3edbfcd9c49e2a5","metadata": {}}
+

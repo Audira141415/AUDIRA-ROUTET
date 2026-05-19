@@ -1,0 +1,23 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 05:37:31 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=3172",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "I will click the \"Videos\" navigation link in the sidebar at"}]}}],"usageMetadata": {"promptTokenCount": 24671,"candidatesTokenCount": 13,"totalTokenCount": 24779,"thoughtsTokenCount": 95},"modelVersion": "gemini-3-flash","responseId": "maUKaur5DvCdjuMP_LHGuQQ"},"traceId": "4077fa9a61a126db","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " coordinates (133, 175)."}]}}],"usageMetadata": {"promptTokenCount": 31155,"candidatesTokenCount": 24,"totalTokenCount": 31274,"cachedContentTokenCount": 24357,"thoughtsTokenCount": 95},"modelVersion": "gemini-3-flash","responseId": "maUKaur5DvCdjuMP_LHGuQQ"},"traceId": "4077fa9a61a126db","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EvICCu8CAQw51sf4qWXfImWaEvjIb41Rezze7oXMGx8gPkYheZRepRGGT7xsOLqgogYkdrCmNRfpeIXR2cESphVGMDCoKDMhVrvZfo4cUow383AeJVdiADlGEBDEQG3uTJa/WFyW3Vsh26xTAnrEbyR1cSWFlwEDs7autGNQ569sLMl0w7Kq+fwTDAFB26HWVgjJ6WywN3n3dbp7CBxIlZf3TRwLKc7tiqW2+UmZdorU4hQt0X9Vxkmz7VAuzjm/r7FB3koZdGhexDtwxq1mnfSvpSL6qNDNoVWwslL2EZ4ufABibAMQFIm3IYSTTR1VY7jGB0z7k28ag81OB2Uikh4n0jphAErc5v20QL0Ea3C4qcTqiwTUjhoElYGOExVKjqVhdX3Gz/sLRK9HzZmef+94u3WnZJgyS6Q2kCsVkXFvbE0eGTToHKlB3E236hFVwJPFAYb/8uGNODT48Mhk/uYwK8zE2MnEJ5K2mdgW1XnuadxGHg==","functionCall": {"name": "click_browser_pixel","args": {"toolAction": "Clicking Videos link","explanation": "Clicked the Videos navigation link at coordinates (133, 175)","toolSummary": "Click browser pixel","Y": 175,"PageID": "5411DAB9590ACD157E5A0154F9BA575B","ClickType": "left","X": 133},"id": "exklw86b"}}]}}],"usageMetadata": {"promptTokenCount": 31155,"candidatesTokenCount": 131,"totalTokenCount": 31381,"cachedContentTokenCount": 24357,"thoughtsTokenCount": 95},"modelVersion": "gemini-3-flash","responseId": "maUKaur5DvCdjuMP_LHGuQQ"},"traceId": "4077fa9a61a126db","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 31155,"candidatesTokenCount": 131,"totalTokenCount": 31381,"cachedContentTokenCount": 24357,"thoughtsTokenCount": 95},"modelVersion": "gemini-3-flash","responseId": "maUKaur5DvCdjuMP_LHGuQQ"},"traceId": "4077fa9a61a126db","metadata": {}}
+

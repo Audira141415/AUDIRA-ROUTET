@@ -1,0 +1,19 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Sat, 16 May 2026 08:23:57 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=3271",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EssGCsgGAQw51sc40tjlp3SkBCyqw/rzBW+q8w9wKmX+lTG/8iVt3j/ReJ227IHusclZTpUVZE0/Ha2zIWCWZ8E6alYnziB/xLEbawci19Xc4WlSyZTtau8FtdvF4NQY+IhA0Wu2nD2o4CbFxPXzgtM6TnHZAnL53Pt/582JB2Ep0NbsdoPjXjdrmzSngc9TfDhg3O925k3w7QZBoaMoDPy81Hrjy96T/0q/vvMNJO0AUsDIO0uf7Tw39ULJVyj+tt1DbZgRwX6KFF//XNtBQiBpe5BZe+itWVASqMtQXoo4OSnDcXMzKcqsUwTIkcW4J0CJl6XZxJ9Eh9g+LdVXcE1l8Rv9omz3wyDIueuK6zbAYlbiO9vnoRZRisR5uzFDYNos1w+O9uwTCDBK3fa/ZHkxyvitFBoxNE8JDQ3LfJ9jK5+cGfSTbmfj2xfC2Axhvil6sEG9yfohEWAAMMA8+JaQOr1HkOuckOEyv4Ao6mxDHOzLm2209CDGSLA0IgT33Uhpqr3bTvuHN4d2RD/GyTEhzdgIqK41AqfTFDWXMWa808+cLSR57X6WNIHGTuzGyzO7RO4fAXqA55cQBLVXZ/nGIiE/X2U7AzvvpGm7zYr5ey5GBf8VrHC9zrJxmq1DZUVUgRGunOwmk8U1uCwTNKn8W52WylOvhwdB/RP4/+E70HZ5+l05B3o70LRs1f0Lixd89DJqxhjjLH/oKpgPQg3kJy+NNRSXmsxAJ+dntoNgc+7pASofpvzDbNqAw/O1yqkq4bEkNsSiJzHcrT5BSQXQxkkH2sJXPlq6J72A0aQReuTrL+go5x77FGKDwGAtt9RZGQcXACduskr8tm/nqZk4TXavJqj6xAHFViv5FVIrbpv3RxEF/4szCUR2NgG9wHaRhp5bfcmai6BwhQkmaB/SYO/0kNLA6+Dib+SnIY1HD6HRMWy2SG4oteI08OKP7c6hiXGvKsRwWUiP9tLEVcT4iiXibWf+W92W0B2rkkVMB15qaelvLRy2hiNRE+2vn8wDLvScUAXz1RV3MWt0yu3loKmu6zvgRAIqOJyxxgTxIUEydpPphmdY8a+E8k6LVFEV8frDxVXltlKtRuZmrKVqESpPS2skOmilT+nK","functionCall": {"name": "list_dir","args": {"DirectoryPath": "f:\\AUDIRA-ROUTET\\src\\app\\api\\models"},"id": "3rrqu64b"}}]}}],"usageMetadata": {"promptTokenCount": 16702,"candidatesTokenCount": 33,"totalTokenCount": 16903,"thoughtsTokenCount": 168},"modelVersion": "gemini-default","responseId": "mykIat28C67Ag8UPmKm2iAY"},"traceId": "9bf7909273937f90","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 17372,"candidatesTokenCount": 33,"totalTokenCount": 17573,"cachedContentTokenCount": 16257,"thoughtsTokenCount": 168},"modelVersion": "gemini-default","responseId": "mykIat28C67Ag8UPmKm2iAY"},"traceId": "9bf7909273937f90","metadata": {}}
+

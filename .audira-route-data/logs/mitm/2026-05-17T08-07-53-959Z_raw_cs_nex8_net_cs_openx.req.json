@@ -1,0 +1,20 @@
+{
+  "method": "GET",
+  "url": "/cs/openx",
+  "host": "cs.nex8.net",
+  "headers": {
+    "host": "cs.nex8.net",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0",
+    "accept": "image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5",
+    "accept-language": "en-US,en;q=0.9",
+    "accept-encoding": "gzip, deflate, br, zstd",
+    "sec-fetch-storage-access": "none",
+    "connection": "keep-alive",
+    "referer": "https://u.openx.net/",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "cross-site",
+    "priority": "u=5, i"
+  },
+  "body": ""
+}

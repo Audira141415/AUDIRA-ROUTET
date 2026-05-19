@@ -1,0 +1,35 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 07:48:43 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=2041",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "Finalizing"}]}}],"usageMetadata": {"promptTokenCount": 63661,"candidatesTokenCount": 2,"totalTokenCount": 63663},"modelVersion": "gemini-3.1-flash-lite","responseId": "WsQKarzLJMrMqfkPpdj-2Ao"},"traceId": "8a06f0951786dbb0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " VulnX Hunter Platform\n\nThe user's objective was to complete the development of the VulnX Hunter vulnerability"}]}}],"usageMetadata": {"promptTokenCount": 63661,"candidatesTokenCount": 23,"totalTokenCount": 63684},"modelVersion": "gemini-3.1-flash-lite","responseId": "WsQKarzLJMrMqfkPpdj-2Ao"},"traceId": "8a06f0951786dbb0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " testing platform by implementing all pending backend features and closing out active TODOs.\n\nMain goals accomplished:\n1. **AI-Powered Analysis"}]}}],"usageMetadata": {"promptTokenCount": 63661,"candidatesTokenCount": 51,"totalTokenCount": 63712},"modelVersion": "gemini-3.1-flash-lite","responseId": "WsQKarzLJMrMqfkPpdj-2Ao"},"traceId": "8a06f0951786dbb0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ":** Implemented AI-driven exploit generation, natural language querying for vulnerabilities, and a multi-factor ML risk scoring model.\n"}]}}],"usageMetadata": {"promptTokenCount": 63661,"candidatesTokenCount": 77,"totalTokenCount": 63738},"modelVersion": "gemini-3.1-flash-lite","responseId": "WsQKarzLJMrMqfkPpdj-2Ao"},"traceId": "8a06f0951786dbb0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "2. **Exploitation Framework:** Finalized authorization checks, emergency stop functionality with audit logging, and administrator alerting.\n3. **Listener"}]}}],"usageMetadata": {"promptTokenCount": 63661,"candidatesTokenCount": 106,"totalTokenCount": 63767},"modelVersion": "gemini-3.1-flash-lite","responseId": "WsQKarzLJMrMqfkPpdj-2Ao"},"traceId": "8a06f0951786dbb0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " Management:** Completed full lifecycle integration for TCP/HTTP listeners using HTTP calls to the backend scanner service.\n4. **Continuous"}]}}],"usageMetadata": {"promptTokenCount": 63661,"candidatesTokenCount": 131,"totalTokenCount": 63792},"modelVersion": "gemini-3.1-flash-lite","responseId": "WsQKarzLJMrMqfkPpdj-2Ao"},"traceId": "8a06f0951786dbb0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " Monitoring:** Implemented real-time Slack and webhook notifications, database audit trail storage, and configuration persistence on startup.\n5. **"}]}}],"usageMetadata": {"promptTokenCount": 63661,"candidatesTokenCount": 158,"totalTokenCount": 63819},"modelVersion": "gemini-3.1-flash-lite","responseId": "WsQKarzLJMrMqfkPpdj-2Ao"},"traceId": "8a06f0951786dbb0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "Report Generation:** Finalized PDF document generation with professional HTML templating and styling.\n6. **System Readiness:** Rest"}]}}],"usageMetadata": {"promptTokenCount": 63661,"candidatesTokenCount": 182,"totalTokenCount": 63843},"modelVersion": "gemini-3.1-flash-lite","responseId": "WsQKarzLJMrMqfkPpdj-2Ao"},"traceId": "8a06f0951786dbb0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "ored scheduled scan task management on server startup and removed legacy placeholder comments to achieve full production-ready parity."}]}}],"usageMetadata": {"promptTokenCount": 63661,"candidatesTokenCount": 203,"totalTokenCount": 63864},"modelVersion": "gemini-3.1-flash-lite","responseId": "WsQKarzLJMrMqfkPpdj-2Ao"},"traceId": "8a06f0951786dbb0","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EjQKMgEMOdbHQUbdmwGbmtzXtmeuf6IhmXlvJn3rbuVq1778D0ULGTzmAzlMSsYWuFfG/c2M","text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 63661,"candidatesTokenCount": 203,"totalTokenCount": 63864,"cachedContentTokenCount": 61155},"modelVersion": "gemini-3.1-flash-lite","responseId": "WsQKarzLJMrMqfkPpdj-2Ao"},"traceId": "8a06f0951786dbb0","metadata": {}}
+

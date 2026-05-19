@@ -1,0 +1,38 @@
+{
+  "method": "POST",
+  "url": "/v1internal:generateContent",
+  "host": "cloudcode-pa.googleapis.com",
+  "headers": {
+    "host": "cloudcode-pa.googleapis.com",
+    "user-agent": "antigravity/1.23.2 windows/amd64",
+    "content-length": "604",
+    "authorization": "Bearer ya29.a0AQvPyIM9GhkHMaSrZVdo1r0iSR9UWnKPinTDJP6eUj4o7VjvBGujyJXuVQmdlQ9UC2TSaMsOzYadFd0p5jkRe0GH7wqfie5ugbbaKsCDOjkbuTAW5bk_TwfTU-Yl1f41zA9apEELRVtW5pJgPZ40ZS0IIRdGgFR5w1Icm74VyjZ-wYtEPtnrHO7oM5cZ7-1g6J63656c2h9bFQaCgYKAYwSARUSFQHGX2MiaAVUs7Xfnq3xnIfdaki7JA0213",
+    "content-type": "application/json",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "project": "disco-solution-d43ch",
+    "requestId": "image_gen/1779150275390/6688c3ad-8369-40e9-b343-4f22359ad41a/65",
+    "request": {
+      "contents": [
+        {
+          "role": "user",
+          "parts": [
+            {
+              "text": "Cyberpunk Vice City cityscape at sunset, neon pink and purple sky, palm trees silhouettes, retro 80s aesthetic, synthwave style, city skyline with glowing neon signs, dramatic sunset colors, digital art, high quality, cinematic lighting, GTA Vice City inspired"
+            }
+          ]
+        }
+      ],
+      "generationConfig": {
+        "candidateCount": 1,
+        "imageConfig": {
+          "aspectRatio": "1:1"
+        }
+      }
+    },
+    "model": "gemini-3.1-flash-image",
+    "userAgent": "antigravity",
+    "requestType": "image_gen"
+  }
+}

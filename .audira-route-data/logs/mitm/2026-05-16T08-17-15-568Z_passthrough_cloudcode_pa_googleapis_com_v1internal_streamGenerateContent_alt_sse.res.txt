@@ -1,0 +1,27 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Sat, 16 May 2026 08:17:19 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=2589",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]}}],"usageMetadata": {"promptTokenCount": 20651,"candidatesTokenCount": 20,"totalTokenCount": 20671,"cachedContentTokenCount": 18566},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5vBFgzjvMBFuM8kNVC5"},"traceId": "386e2845ad68b42","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"functionCall": {"name": "list_dir","args": {"toolAction": "Exploring API source","toolSummary": "API source structure","DirectoryPath": "f:\\AUDIRA-WEB-PERFECT-WORLD\\apps\\api\\src"},"id": "toolu_vrtx_01QES5C5Dua9PeceiDpd5i1A"}}]}}],"usageMetadata": {"promptTokenCount": 20651,"candidatesTokenCount": 20,"totalTokenCount": 20671,"cachedContentTokenCount": 18566},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5vBFgzjvMBFuM8kNVC5"},"traceId": "386e2845ad68b42","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"functionCall": {"name": "list_dir","args": {"toolAction": "Exploring web source","toolSummary": "Web source structure","DirectoryPath": "f:\\AUDIRA-WEB-PERFECT-WORLD\\apps\\web\\src"},"id": "toolu_vrtx_016ms37FjNKq9sqbRPRH7DUh"}}]}}],"usageMetadata": {"promptTokenCount": 20651,"candidatesTokenCount": 20,"totalTokenCount": 20671,"cachedContentTokenCount": 18566},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5vBFgzjvMBFuM8kNVC5"},"traceId": "386e2845ad68b42","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"functionCall": {"name": "list_dir","args": {"DirectoryPath": "f:\\AUDIRA-WEB-PERFECT-WORLD\\packages\\database","toolAction": "Exploring database package","toolSummary": "Database package"},"id": "toolu_vrtx_01DTrPGGD3vfETtWzjaNXzBx"}}]}}],"usageMetadata": {"promptTokenCount": 20651,"candidatesTokenCount": 20,"totalTokenCount": 20671,"cachedContentTokenCount": 18566},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5vBFgzjvMBFuM8kNVC5"},"traceId": "386e2845ad68b42","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"functionCall": {"name": "list_dir","args": {"toolAction": "Exploring auth package","toolSummary": "Auth package structure","DirectoryPath": "f:\\AUDIRA-WEB-PERFECT-WORLD\\packages\\auth"},"id": "toolu_vrtx_01Xm2vWy3Rj8uPsw8upRTcXq"}}]}}],"usageMetadata": {"promptTokenCount": 20651,"candidatesTokenCount": 20,"totalTokenCount": 20671,"cachedContentTokenCount": 18566},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5vBFgzjvMBFuM8kNVC5"},"traceId": "386e2845ad68b42","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 20651,"candidatesTokenCount": 412,"totalTokenCount": 21063,"cachedContentTokenCount": 18566},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5vBFgzjvMBFuM8kNVC5"},"traceId": "386e2845ad68b42","metadata": {}}
+

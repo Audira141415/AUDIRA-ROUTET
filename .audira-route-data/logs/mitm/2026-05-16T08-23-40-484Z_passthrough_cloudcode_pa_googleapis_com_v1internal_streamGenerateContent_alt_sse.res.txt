@@ -1,0 +1,31 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Sat, 16 May 2026 08:23:42 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=786",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "Troubleshooting"}]}}],"usageMetadata": {"promptTokenCount": 3532,"candidatesTokenCount": 2,"totalTokenCount": 3534},"modelVersion": "gemini-3.1-flash-lite","responseId": "jSkIavaWJ5T8juMPpfP3YA"},"traceId": "314ee522926ed7f5","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " Anti Gravity Model Updates\n\nMain Objective: Resolve the issue where the Anti Gravity model count"}]}}],"usageMetadata": {"promptTokenCount": 3532,"candidatesTokenCount": 19,"totalTokenCount": 3551},"modelVersion": "gemini-3.1-flash-lite","responseId": "jSkIavaWJ5T8juMPpfP3YA"},"traceId": "314ee522926ed7f5","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " is failing to increment despite successful DNS configuration.\n\nGoals:\n1. Diagnose why the Anti Gravity system is not reflecting"}]}}],"usageMetadata": {"promptTokenCount": 3532,"candidatesTokenCount": 43,"totalTokenCount": 3575},"modelVersion": "gemini-3.1-flash-lite","responseId": "jSkIavaWJ5T8juMPpfP3YA"},"traceId": "314ee522926ed7f5","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " updated model counts or data.\n2. Investigate the connection between the DNS configuration and the application's internal data"}]}}],"usageMetadata": {"promptTokenCount": 3532,"candidatesTokenCount": 67,"totalTokenCount": 3599},"modelVersion": "gemini-3.1-flash-lite","responseId": "jSkIavaWJ5T8juMPpfP3YA"},"traceId": "314ee522926ed7f5","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " synchronization.\n3. Review configuration and logs within the `AUDIRA-ROUTET` environment to identify block"}]}}],"usageMetadata": {"promptTokenCount": 3532,"candidatesTokenCount": 91,"totalTokenCount": 3623},"modelVersion": "gemini-3.1-flash-lite","responseId": "jSkIavaWJ5T8juMPpfP3YA"},"traceId": "314ee522926ed7f5","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "ages in the update process.\n4. Verify if the system is correctly polling or receiving signals from the DNS-resolved endpoint"}]}}],"usageMetadata": {"promptTokenCount": 3532,"candidatesTokenCount": 116,"totalTokenCount": 3648},"modelVersion": "gemini-3.1-flash-lite","responseId": "jSkIavaWJ5T8juMPpfP3YA"},"traceId": "314ee522926ed7f5","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "."}]}}],"usageMetadata": {"promptTokenCount": 3532,"candidatesTokenCount": 117,"totalTokenCount": 3649},"modelVersion": "gemini-3.1-flash-lite","responseId": "jSkIavaWJ5T8juMPpfP3YA"},"traceId": "314ee522926ed7f5","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EjQKMgEMOdbHkTjnWkDGLp0zKXCEmtX0gijeLy8mzi3KNIo2nhHm4L2x3E/9EnznHkyxsYkZ","text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 3532,"candidatesTokenCount": 117,"totalTokenCount": 3649},"modelVersion": "gemini-3.1-flash-lite","responseId": "jSkIavaWJ5T8juMPpfP3YA"},"traceId": "314ee522926ed7f5","metadata": {}}
+

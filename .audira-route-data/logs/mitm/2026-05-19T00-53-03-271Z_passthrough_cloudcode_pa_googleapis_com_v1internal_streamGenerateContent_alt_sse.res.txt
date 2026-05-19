@@ -1,0 +1,21 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Tue, 19 May 2026 00:53:08 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=4632",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thought": true,"text": "**Prioritizing Tool Specificity**\n\nI'm focusing intently on tool specificity. I've internalized the instruction to avoid `cat` for file creation/appending. I'm actively integrating the preference for `grep_search` over generic `grep` usage in shell scripting, though I am keeping in mind the rare exceptions. I'm ensuring I don't use the `DO NOT` command; I understand its intention.\n\n\n"}]}}],"usageMetadata": {"promptTokenCount": 77134,"totalTokenCount": 77134},"modelVersion": "gemini-pro-default","responseId": "b7QLao3fK5y5juMPtJ2_8Ac"},"traceId": "eff6b086537f92ac","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EucJCuQJAQw51sc45+XLwA0ikeYy7DRgRVmiAIpStzF1JFmC7B1zS8dcxhZKpRJHTbpndWHaq5rffsIOX4g/QhyyvrZw28Yj2kqcPH5UJz6HYnWecMqCWMVbN5MxFbLVxJVGIvmZdy8e0p8mL3sjp6yBRVxLlIeQtEiqdsJdHsqBHvaOmrZ9lOnoP+RHOYHkRk+yy/elPGft/1oMrN7dX1/wsmYW4Uw6Ek5cbM7psyDqIePwbs656IVB94FahqK+n09EBcKkbTK3tpnPNMnDhhDpprfoSsV4Gu4TGzPKOICaDWqQEzau+bT0wABKLxidPByGfTXaCKmO/Fv7gdCO524Q8ApJ1IuCUUBEnA7FtL6RIIoOo1V8wI6SVcwxR4rrjmXl33m9xV7dsNqSlMsNLQZVo5HUStIv7VJzxVCr7XNDIrtp8AvWG343p9MxkdkIyPvMGM9YSqhznMBv8oHwwKXTzrNXrZ1TAYpF5eYT0apy+ru5uZotYYhGWvr5CtBCQ4TdAsQa43rzE6sWg2KoQx55WvNAA8RIFa0/pPKrO84M1XIrNmf4b0bEubbsEgMjoXlP4/ZPqQiiM4ocg3UTVSbEx0n55EznogKLYK7xJ1lgt+kFowAo/t2nPDMSVy+uTwJfGid9/OFGZBuyewM4a7USKOx/fe1WhMVk5Ary4HbylblVVgefZYS7uiUp4wCulUPA+lB9FCqQXKgJx5Y9CEEraF+T9pdkRwe/0Lvw4gT5Gg1BbnjE+2ar1X8PUzOBd0rpMevuwrwNp59GrKLLoH0w4VdlcZvd6e1ET3j8JX8ft2P4lhTI2aBzNXsSDVBCUIKx9cbdBzgytPAdIBInJU/RY3mJ3LWFVe4lDiGhPN8d7GWfwAzPOaS/h/rXPbmUmIz/0hFES6tLOt2Uwyh3Q3eQQQVxdvzw21a0lWMdmjASd+NqIZY0UTbsftB+X1yI1yjhYiviTjd+6dbpOnZFX8etTOzgDdfrZegTLPQVrqT6WL7fPQuCx0ZPy+adJB4I2W/OPanWRxj+8RSLo6klfWg7/0B2Z27tkmrFMTO07doHmbHphuyCQv8f8Xf13pwmC0S9ocqs+RF6dJCscoi++jqqnVLQ5JoU/DUwpBLiQgu8c4ZjsrRjL0iMLZuIhfH9icB/Go0Garvl20FXe95sEonU4Fqhz1ILb819IYCzEBZHnUezqCU+dlYpuDLmIAmVxYDnDI/wIiCFF1B1YiaIUeYH4BX0ZSacJpTVZ374fuCBM/E9zpmC+XCMWsAuSc1+bFnkUeh6JAGhJqdvg8nXMKi85kcDLhVVOrAjz4ghhoCdi/r8KwmhKGfEPpCzezmHYiWTzHxs4P5OntoOSv3HmXJ1JPnkZBvwj/gNZHBLbFVizNS0bTarwmei1fb+7efbfNDicB9r6XaLr4hm1lqSPBcselyMFqr1lsto/egcS9hXn9c6I4knZNTxrf1lJDG+snwr8v3C056g39D2UeYEX4j6Ca1e+zlmGbxvL0tta4Rcywry5XP5M1p17zcOQTpOeyoxElHYTCn5PBqb3fy10o109OVaUeY3gGy5tt8vn+px43tNjqe6zqHhbuuE+TjvllCYyFjCJ3F2ZiA3pcdWh6Qu2apU2rNl7MZ8qCwiWFeBv3g/s+4Gax3K0kQ1pg3xGLzKzaLFC50hhQ==","functionCall": {"name": "run_command","args": {"SafeToAutoRun": true,"WaitMsBeforeAsync": 5000,"Cwd": "f:\\AUDIRA-ROUTET","CommandLine": "git stash"},"id": "qj05iw78"}}]}}],"usageMetadata": {"promptTokenCount": 77134,"candidatesTokenCount": 49,"totalTokenCount": 77420,"thoughtsTokenCount": 237},"modelVersion": "gemini-pro-default","responseId": "b7QLao3fK5y5juMPtJ2_8Ac"},"traceId": "eff6b086537f92ac","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 99201,"candidatesTokenCount": 49,"totalTokenCount": 99487,"cachedContentTokenCount": 97936,"thoughtsTokenCount": 237},"modelVersion": "gemini-pro-default","responseId": "b7QLao3fK5y5juMPtJ2_8Ac"},"traceId": "eff6b086537f92ac","metadata": {}}
+

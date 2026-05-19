@@ -1,0 +1,33 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 10:50:01 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=591",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "Analyzing Aud"}]}}],"usageMetadata": {"promptTokenCount": 4547,"candidatesTokenCount": 2,"totalTokenCount": 4549},"modelVersion": "gemini-3.1-flash-lite","responseId": "2O4KatTqMYjLjuMPsJ6toQ0"},"traceId": "6b7532309e23aaf8","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "ira Perfect World Project\n\nThe user's objective is to evaluate the project structure and readiness"}]}}],"usageMetadata": {"promptTokenCount": 4547,"candidatesTokenCount": 20,"totalTokenCount": 4567},"modelVersion": "gemini-3.1-flash-lite","responseId": "2O4KatTqMYjLjuMPsJ6toQ0"},"traceId": "6b7532309e23aaf8","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " of the AUDIRA-WEB-PERFECT-WORLD repository to support its development as a Neo Brutalism-themed"}]}}],"usageMetadata": {"promptTokenCount": 4547,"candidatesTokenCount": 45,"totalTokenCount": 4592},"modelVersion": "gemini-3.1-flash-lite","responseId": "2O4KatTqMYjLjuMPsJ6toQ0"},"traceId": "6b7532309e23aaf8","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " web application.\n\nGoals:\n1. Examine the project file structure to identify key components, existing pages, and backend"}]}}],"usageMetadata": {"promptTokenCount": 4547,"candidatesTokenCount": 69,"totalTokenCount": 4616},"modelVersion": "gemini-3.1-flash-lite","responseId": "2O4KatTqMYjLjuMPsJ6toQ0"},"traceId": "6b7532309e23aaf8","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " integration layers.\n2. Assess the current state of the codebase against the requirement of having 12 planned pages and integration"}]}}],"usageMetadata": {"promptTokenCount": 4547,"candidatesTokenCount": 94,"totalTokenCount": 4641},"modelVersion": "gemini-3.1-flash-lite","responseId": "2O4KatTqMYjLjuMPsJ6toQ0"},"traceId": "6b7532309e23aaf8","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " with 8 backend microservices.\n3. Determine necessary steps to align the project with production-ready standards and the"}]}}],"usageMetadata": {"promptTokenCount": 4547,"candidatesTokenCount": 118,"totalTokenCount": 4665},"modelVersion": "gemini-3.1-flash-lite","responseId": "2O4KatTqMYjLjuMPsJ6toQ0"},"traceId": "6b7532309e23aaf8","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " design aesthetic established in previous sessions.\n4. Provide a clear status report on project maturity and identify actionable items to complete"}]}}],"usageMetadata": {"promptTokenCount": 4547,"candidatesTokenCount": 142,"totalTokenCount": 4689},"modelVersion": "gemini-3.1-flash-lite","responseId": "2O4KatTqMYjLjuMPsJ6toQ0"},"traceId": "6b7532309e23aaf8","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " the development phase."}]}}],"usageMetadata": {"promptTokenCount": 4547,"candidatesTokenCount": 146,"totalTokenCount": 4693},"modelVersion": "gemini-3.1-flash-lite","responseId": "2O4KatTqMYjLjuMPsJ6toQ0"},"traceId": "6b7532309e23aaf8","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EjQKMgEMOdbHO19xajsIZt9OGu2wk8oZowgbqpIcstQimA/lcdBl1jWIlOd+R03++zfdY/hb","text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 4547,"candidatesTokenCount": 146,"totalTokenCount": 4693},"modelVersion": "gemini-3.1-flash-lite","responseId": "2O4KatTqMYjLjuMPsJ6toQ0"},"traceId": "6b7532309e23aaf8","metadata": {}}
+

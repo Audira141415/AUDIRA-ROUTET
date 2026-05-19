@@ -1,0 +1,29 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Tue, 19 May 2026 00:46:27 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=898",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "Fixing"}]}}],"usageMetadata": {"promptTokenCount": 37681,"candidatesTokenCount": 2,"totalTokenCount": 37683},"modelVersion": "gemini-3.1-flash-lite","responseId": "4rILarD9JeTB4-EPws-OuQc"},"traceId": "ef0824ec8c59be8b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " Kiro API Translator Syntax\n\nThe user's main objective is to resolve a syntax error in"}]}}],"usageMetadata": {"promptTokenCount": 37681,"candidatesTokenCount": 21,"totalTokenCount": 37702},"modelVersion": "gemini-3.1-flash-lite","responseId": "4rILarD9JeTB4-EPws-OuQc"},"traceId": "ef0824ec8c59be8b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " `openai-to-kiro.js` caused by incorrectly applied diffs that disrupted function structure and introduced duplicated variable declarations"}]}}],"usageMetadata": {"promptTokenCount": 37681,"candidatesTokenCount": 46,"totalTokenCount": 37727},"modelVersion": "gemini-3.1-flash-lite","responseId": "4rILarD9JeTB4-EPws-OuQc"},"traceId": "ef0824ec8c59be8b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ".\nGoals:\n1. Re-structure the `convertMessages` function to properly handle message history parsing and tool"}]}}],"usageMetadata": {"promptTokenCount": 37681,"candidatesTokenCount": 70,"totalTokenCount": 37751},"modelVersion": "gemini-3.1-flash-lite","responseId": "4rILarD9JeTB4-EPws-OuQc"},"traceId": "ef0824ec8c59be8b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " injection.\n2. Ensure that `buildKiroPayload` is correctly exported as a module function.\n3. Remove"}]}}],"usageMetadata": {"promptTokenCount": 37681,"candidatesTokenCount": 95,"totalTokenCount": 37776},"modelVersion": "gemini-3.1-flash-lite","responseId": "4rILarD9JeTB4-EPws-OuQc"},"traceId": "ef0824ec8c59be8b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " duplicate `tools` variable declarations and fix indentation issues to ensure the module compiles correctly in the Next.js environment."}]}}],"usageMetadata": {"promptTokenCount": 37681,"candidatesTokenCount": 118,"totalTokenCount": 37799},"modelVersion": "gemini-3.1-flash-lite","responseId": "4rILarD9JeTB4-EPws-OuQc"},"traceId": "ef0824ec8c59be8b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EjQKMgEMOdbHsACukxXgpf1C5sW/Vr4BmKBQStly6qyFswVlfdxMCG9DQ5c7ptVbN7XRV1PI","text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 37681,"candidatesTokenCount": 118,"totalTokenCount": 37799},"modelVersion": "gemini-3.1-flash-lite","responseId": "4rILarD9JeTB4-EPws-OuQc"},"traceId": "ef0824ec8c59be8b","metadata": {}}
+

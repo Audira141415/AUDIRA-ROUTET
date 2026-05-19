@@ -1,0 +1,19 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 06:43:42 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=2516",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EvEDCu4DAQw51sdnE4zzUk+djr0D2Bdl8GefkPqQIWnMAMlCHk7jqkyxLZaEYLTWW6abzmwtfmKl+ftjSR6VxTSpaAVwLJ7GzdPSzKGBJ2BGjwMkH2Mvcbp8b93r+p+ZUudTxZr5aK6PNVxLDc+9Xqk2/vKVTERA2PmhxJEVNdp8o+khtznQqf3dr7LGSnJv/Yc31gZagtyLvni0SqH7vnNYb/aVUHpS5c9yZ+AinrnMhqoGk5vcYKE59foiDdo9MvNCoPYxYWuPNZG79W81AIOz75a/8gNo2ut2PAtq6mJmpyFnxWRk4gygAZpAHHUuLhbtdQwyMqDyifRTCM4GoJLwfIe5lvmlcSpK+GrP0TETuLQ3uZNqPTlvEa42xGhdEmN3jn0lfd3UKbFFdhlc6S1maXv+Dplbt9VjyIrslOped9EW/GEtiZ2z434vlx8PhhptN+SMupB/LF3E8Qf2FI5evLPFWH/8SMRoWBbvHZ4vpgwGKsy5v4dLSE1gXS8MOmgZqRiQb+sn2rwbePJwd5+Fk7i06foO6yJNfMwKosfSt9Fc2iDb2S104b3JHjN440HOwtsBwP/gLtKh02ozu96+TDXUWyU0XjAXq55CvIfw31+szLUrlPZFk2SSWpk8bhnIjYNNW0qbUm5FQjfPwq/vRSM=","functionCall": {"name": "capture_browser_screenshot","args": {"explanation": "Capture a screenshot of the active Stats page.","toolSummary": "Capture page screenshot","ScreenshotName": "statspage_active","CaptureBeyondViewport": false,"SaveScreenshot": true,"toolAction": "Capturing screenshot","PageID": "0235B1200EE0E500D9D904D98CF43E01"},"id": "cosdmncw"}}]}}],"usageMetadata": {"promptTokenCount": 20274,"candidatesTokenCount": 102,"totalTokenCount": 20468,"thoughtsTokenCount": 92},"modelVersion": "gemini-3-flash","responseId": "HLUKasWwLNjUqfkPosy2-Qc"},"traceId": "e4d2cdf16fd079ee","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 23837,"candidatesTokenCount": 102,"totalTokenCount": 24031,"cachedContentTokenCount": 16228,"thoughtsTokenCount": 92},"modelVersion": "gemini-3-flash","responseId": "HLUKasWwLNjUqfkPosy2-Qc"},"traceId": "e4d2cdf16fd079ee","metadata": {}}
+

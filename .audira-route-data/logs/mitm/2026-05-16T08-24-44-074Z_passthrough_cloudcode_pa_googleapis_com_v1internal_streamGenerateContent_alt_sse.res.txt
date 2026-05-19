@@ -1,0 +1,121 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Sat, 16 May 2026 08:24:46 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=1555",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003cview"}]}}],"usageMetadata": {"promptTokenCount": 62172,"candidatesTokenCount": 2,"totalTokenCount": 62174},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIap-EIuyI4-EPk46-6As"},"traceId": "4dc7c7e2bfea222e","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "ed_file\u003e\n\t\u003cabsolute_path\u003ef:\\AUDIRA"}]}}],"usageMetadata": {"promptTokenCount": 62172,"candidatesTokenCount": 18,"totalTokenCount": 62190},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIap-EIuyI4-EPk46-6As"},"traceId": "4dc7c7e2bfea222e","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "-ROUTET\\.env\u003c/absolute_path\u003e\n\t\u003clines_viewed\u003e1-19\u003c/lines_viewed\u003e"}]}}],"usageMetadata": {"promptTokenCount": 62172,"candidatesTokenCount": 47,"totalTokenCount": 62219},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIap-EIuyI4-EPk46-6As"},"traceId": "4dc7c7e2bfea222e","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\n\t\u003clearnings\u003eIdentified the project root and current environmental configuration, confirming the data directory and base URLs.\u003c/learnings\u003e\n"}]}}],"usageMetadata": {"promptTokenCount": 62172,"candidatesTokenCount": 75,"totalTokenCount": 62247},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIap-EIuyI4-EPk46-6As"},"traceId": "4dc7c7e2bfea222e","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003c/viewed_file\u003e\n\u003cviewed_file\u003e\n\t\u003cabsolute_path\u003ef:\\AUDIR"}]}}],"usageMetadata": {"promptTokenCount": 62172,"candidatesTokenCount": 99,"totalTokenCount": 62271},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIap-EIuyI4-EPk46-6As"},"traceId": "4dc7c7e2bfea222e","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "A-ROUTET\\src\\app\\api\\models\\route.js\u003c/absolute_path\u003e\n\t"}]}}],"usageMetadata": {"promptTokenCount": 62172,"candidatesTokenCount": 123,"totalTokenCount": 62295},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIap-EIuyI4-EPk46-6As"},"traceId": "4dc7c7e2bfea222e","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003clines_viewed\u003e1-65\u003c/lines_viewed\u003e\n\t\u003clearnings\u003eReviewed how"}]}}],"usageMetadata": {"promptTokenCount": 62172,"candidatesTokenCount": 147,"totalTokenCount": 62319},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIap-EIuyI4-EPk46-6As"},"traceId": "4dc7c7e2bfea222e","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " models and aliases are fetched, confirming that the system relies on an alias map and a list of disabled models.\u003c/learnings\u003e\n\u003c/"}]}}],"usageMetadata": {"promptTokenCount": 62172,"candidatesTokenCount": 174,"totalTokenCount": 62346},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIap-EIuyI4-EPk46-6As"},"traceId": "4dc7c7e2bfea222e","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "viewed_file\u003e\n\u003cviewed_file\u003e\n\t\u003cabsolute_path\u003ef:\\AUDIRA"}]}}],"usageMetadata": {"promptTokenCount": 62172,"candidatesTokenCount": 198,"totalTokenCount": 62370},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIap-EIuyI4-EPk46-6As"},"traceId": "4dc7c7e2bfea222e","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "-ROUTET\\src\\shared\\constants\\config.js\u003c/absolute_path\u003e\n\t\u003clines_"}]}}],"usageMetadata": {"promptTokenCount": 62172,"candidatesTokenCount": 222,"totalTokenCount": 62394},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIap-EIuyI4-EPk46-6As"},"traceId": "4dc7c7e2bfea222e","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "viewed\u003e1-98\u003c/lines_viewed\u003e\n\t\u003clearnings\u003eExamined global constants,"}]}}],"usageMetadata": {"promptTokenCount": 62172,"candidatesTokenCount": 246,"totalTokenCount": 62418},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIap-EIuyI4-EPk46-6As"},"traceId": "4dc7c7e2bfea222e","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " specifically the endpoints and the re-export structure of providers and models.\u003c/learnings\u003e\n\u003c/viewed_file\u003e\n"}]}}],"usageMetadata": {"promptTokenCount": 62172,"candidatesTokenCount": 271,"totalTokenCount": 62443},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIap-EIuyI4-EPk46-6As"},"traceId": "4dc7c7e2bfea222e","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003cviewed_file\u003e\n\t\u003cabsolute_path\u003ef:\\AUDIRA-ROUTET\\src"}]}}],"usageMetadata": {"promptTokenCount": 62172,"candidatesTokenCount": 295,"totalTokenCount": 62467},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIap-EIuyI4-EPk46-6As"},"traceId": "4dc7c7e2bfea222e","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\\shared\\constants\\models.js\u003c/absolute_path\u003e\n\t\u003clines_viewed\u003e1-3"}]}}],"usageMetadata": {"promptTokenCount": 62172,"candidatesTokenCount": 319,"totalTokenCount": 62491},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIap-EIuyI4-EPk46-6As"},"traceId": "4dc7c7e2bfea222e","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "9\u003c/lines_viewed\u003e\n\t\u003clearnings\u003eUnderstood the model structure and its integration with open-sse,"}]}}],"usageMetadata": {"promptTokenCount": 62172,"candidatesTokenCount": 345,"totalTokenCount": 62517},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIap-EIuyI4-EPk46-6As"},"traceId": "4dc7c7e2bfea222e","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " highlighting the source of truth for available models.\u003c/learnings\u003e\n\u003c/viewed_file\u003e\n\u003cviewed_file"}]}}],"usageMetadata": {"promptTokenCount": 62172,"candidatesTokenCount": 370,"totalTokenCount": 62542},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIap-EIuyI4-EPk46-6As"},"traceId": "4dc7c7e2bfea222e","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003e\n\t\u003cabsolute_path\u003ef:\\AUDIRA-ROUTET\\open-sse\\config\\providerModels"}]}}],"usageMetadata": {"promptTokenCount": 62172,"candidatesTokenCount": 396,"totalTokenCount": 62568},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIap-EIuyI4-EPk46-6As"},"traceId": "4dc7c7e2bfea222e","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ".js\u003c/absolute_path\u003e\n\t\u003clines_viewed\u003e1-800\u003c/lines_view"}]}}],"usageMetadata": {"promptTokenCount": 62172,"candidatesTokenCount": 420,"totalTokenCount": 62592},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIap-EIuyI4-EPk46-6As"},"traceId": "4dc7c7e2bfea222e","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "ed\u003e\n\t\u003clearnings\u003eLocated the AntiGravity model definition block (lines 94-101), confirming that"}]}}],"usageMetadata": {"promptTokenCount": 62172,"candidatesTokenCount": 447,"totalTokenCount": 62619},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIap-EIuyI4-EPk46-6As"},"traceId": "4dc7c7e2bfea222e","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " 'gemini-3-flash' is explicitly defined as an AntiGravity model.\u003c/learnings\u003e\n\u003c/viewed_file"}]}}],"usageMetadata": {"promptTokenCount": 62172,"candidatesTokenCount": 473,"totalTokenCount": 62645},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIap-EIuyI4-EPk46-6As"},"traceId": "4dc7c7e2bfea222e","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003e\n\u003cviewed_file\u003e\n\t\u003cabsolute_path\u003ef:\\AUDIRA-ROUTET"}]}}],"usageMetadata": {"promptTokenCount": 62172,"candidatesTokenCount": 497,"totalTokenCount": 62669},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIap-EIuyI4-EPk46-6As"},"traceId": "4dc7c7e2bfea222e","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\\src\\mitm\\dns\\dnsConfig.js\u003c/absolute_path\u003e\n\t\u003clines_viewed\u003e1-26"}]}}],"usageMetadata": {"promptTokenCount": 62172,"candidatesTokenCount": 526,"totalTokenCount": 62698},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIap-EIuyI4-EPk46-6As"},"traceId": "4dc7c7e2bfea222e","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "7\u003c/lines_viewed\u003e\n\t\u003clearnings\u003eExamined the logic for host-file DNS redirection,"}]}}],"usageMetadata": {"promptTokenCount": 62172,"candidatesTokenCount": 550,"totalTokenCount": 62722},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIap-EIuyI4-EPk46-6As"},"traceId": "4dc7c7e2bfea222e","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " which explains how the AntiGravity domain redirection is managed system-wide.\u003c/learnings\u003e\n\u003c/viewed_file\u003e\n\u003cviewed_"}]}}],"usageMetadata": {"promptTokenCount": 62172,"candidatesTokenCount": 579,"totalTokenCount": 62751},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIap-EIuyI4-EPk46-6As"},"traceId": "4dc7c7e2bfea222e","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "file\u003e\n\t\u003cabsolute_path\u003ef:\\AUDIRA-ROUTET\\src\\shared\\constants"}]}}],"usageMetadata": {"promptTokenCount": 62172,"candidatesTokenCount": 603,"totalTokenCount": 62775},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIap-EIuyI4-EPk46-6As"},"traceId": "4dc7c7e2bfea222e","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\\mitmToolHosts.js\u003c/absolute_path\u003e\n\t\u003clines_viewed\u003e1-13"}]}}],"usageMetadata": {"promptTokenCount": 62172,"candidatesTokenCount": 627,"totalTokenCount": 62799},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIap-EIuyI4-EPk46-6As"},"traceId": "4dc7c7e2bfea222e","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003c/lines_viewed\u003e\n\t\u003clearnings\u003eConfirmed the hostnames mapped for the AntiGravity tool: daily"}]}}],"usageMetadata": {"promptTokenCount": 62172,"candidatesTokenCount": 651,"totalTokenCount": 62823},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIap-EIuyI4-EPk46-6As"},"traceId": "4dc7c7e2bfea222e","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "-cloudcode-pa.googleapis.com and cloudcode-pa.googleapis.com.\u003c/learnings\u003e\n\u003c/viewed_"}]}}],"usageMetadata": {"promptTokenCount": 62172,"candidatesTokenCount": 678,"totalTokenCount": 62850},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIap-EIuyI4-EPk46-6As"},"traceId": "4dc7c7e2bfea222e","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "file\u003e\n\u003cviewed_file\u003e\n\t\u003cabsolute_path\u003ef:\\AUDIRA-ROUT"}]}}],"usageMetadata": {"promptTokenCount": 62172,"candidatesTokenCount": 702,"totalTokenCount": 62874},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIap-EIuyI4-EPk46-6As"},"traceId": "4dc7c7e2bfea222e","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "ET\\src\\mitm\\manager.js\u003c/absolute_path\u003e\n\t\u003clines_viewed\u003e1"}]}}],"usageMetadata": {"promptTokenCount": 62172,"candidatesTokenCount": 726,"totalTokenCount": 62898},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIap-EIuyI4-EPk46-6As"},"traceId": "4dc7c7e2bfea222e","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "-800\u003c/lines_viewed\u003e\n\t\u003clearnings\u003eLearned how the MITM manager orchestr"}]}}],"usageMetadata": {"promptTokenCount": 62172,"candidatesTokenCount": 750,"totalTokenCount": 62922},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIap-EIuyI4-EPk46-6As"},"traceId": "4dc7c7e2bfea222e","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "ates the server and DNS updates, providing the framework for how DNS status is checked and restored.\u003c/learnings\u003e\n\u003c/viewed_file\u003e"}]}}],"usageMetadata": {"promptTokenCount": 62172,"candidatesTokenCount": 779,"totalTokenCount": 62951},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIap-EIuyI4-EPk46-6As"},"traceId": "4dc7c7e2bfea222e","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\n\u003cviewed_file\u003e\n\t\u003cabsolute_path\u003ef:\\AUDIRA-ROUTET\\"}]}}],"usageMetadata": {"promptTokenCount": 62172,"candidatesTokenCount": 803,"totalTokenCount": 62975},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIap-EIuyI4-EPk46-6As"},"traceId": "4dc7c7e2bfea222e","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "src\\mitm\\server.js\u003c/absolute_path\u003e\n\t\u003clines_viewed\u003e1-2"}]}}],"usageMetadata": {"promptTokenCount": 62172,"candidatesTokenCount": 827,"totalTokenCount": 62999},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIap-EIuyI4-EPk46-6As"},"traceId": "4dc7c7e2bfea222e","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "73\u003c/lines_viewed\u003e\n\t\u003clearnings\u003eIdentified the intercept logic, where hosts are matched"}]}}],"usageMetadata": {"promptTokenCount": 62172,"candidatesTokenCount": 851,"totalTokenCount": 63023},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIap-EIuyI4-EPk46-6As"},"traceId": "4dc7c7e2bfea222e","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " to tools and forwarded to specific handlers (e.g., antigravity.js).\u003c/learnings\u003e\n\u003c/viewed_file\u003e"}]}}],"usageMetadata": {"promptTokenCount": 62172,"candidatesTokenCount": 878,"totalTokenCount": 63050},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIap-EIuyI4-EPk46-6As"},"traceId": "4dc7c7e2bfea222e","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\n\u003cviewed_file\u003e\n\t\u003cabsolute_path\u003ef:\\AUDIRA-ROUTET\\"}]}}],"usageMetadata": {"promptTokenCount": 62172,"candidatesTokenCount": 902,"totalTokenCount": 63074},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIap-EIuyI4-EPk46-6As"},"traceId": "4dc7c7e2bfea222e","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "src\\mitm\\handlers\\antigravity.js\u003c/absolute_path\u003e\n\t\u003clines_viewed"}]}}],"usageMetadata": {"promptTokenCount": 62172,"candidatesTokenCount": 926,"totalTokenCount": 63098},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIap-EIuyI4-EPk46-6As"},"traceId": "4dc7c7e2bfea222e","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003e1-33\u003c/lines_viewed\u003e\n\t\u003clearnings\u003eObserved that the AntiGravity handler"}]}}],"usageMetadata": {"promptTokenCount": 62172,"candidatesTokenCount": 950,"totalTokenCount": 63122},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIap-EIuyI4-EPk46-6As"},"traceId": "4dc7c7e2bfea222e","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " directly uses the mapped model, showing that if the model doesn't \"increase\" or update, it's likely due"}]}}],"usageMetadata": {"promptTokenCount": 62172,"candidatesTokenCount": 975,"totalTokenCount": 63147},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIap-EIuyI4-EPk46-6As"},"traceId": "4dc7c7e2bfea222e","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " to the handler logic or the mapping state.\u003c/learnings\u003e\n\u003c/viewed_file\u003e\n\u003cviewed_"}]}}],"usageMetadata": {"promptTokenCount": 62172,"candidatesTokenCount": 999,"totalTokenCount": 63171},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIap-EIuyI4-EPk46-6As"},"traceId": "4dc7c7e2bfea222e","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "file\u003e\n\t\u003cabsolute_path\u003ef:\\AUDIRA-ROUTET\\src\\app\\(dashboard)\\dashboard"}]}}],"usageMetadata": {"promptTokenCount": 62172,"candidatesTokenCount": 1025,"totalTokenCount": 63197},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIap-EIuyI4-EPk46-6As"},"traceId": "4dc7c7e2bfea222e","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\\cli-tools\\components\\AntigravityToolCard.js\u003c/absolute_path\u003e\n\t\u003clines_viewed"}]}}],"usageMetadata": {"promptTokenCount": 62172,"candidatesTokenCount": 1051,"totalTokenCount": 63223},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIap-EIuyI4-EPk46-6As"},"traceId": "4dc7c7e2bfea222e","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003e1-482\u003c/lines_viewed\u003e\n\t\u003clearnings\u003eReviewed the frontend component that handles model mapping UI"}]}}],"usageMetadata": {"promptTokenCount": 62172,"candidatesTokenCount": 1078,"totalTokenCount": 63250},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIap-EIuyI4-EPk46-6As"},"traceId": "4dc7c7e2bfea222e","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " for AntiGravity, which confirms that model persistence relies on API calls to /api/cli-tools/antigravity"}]}}],"usageMetadata": {"promptTokenCount": 62172,"candidatesTokenCount": 1102,"totalTokenCount": 63274},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIap-EIuyI4-EPk46-6As"},"traceId": "4dc7c7e2bfea222e","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "-mitm/alias.\u003c/learnings\u003e\n\u003c/viewed_file\u003e\n\n\u003cviewed_code_item\u003e\n\t\u003c"}]}}],"usageMetadata": {"promptTokenCount": 62172,"candidatesTokenCount": 1130,"totalTokenCount": 63302},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIap-EIuyI4-EPk46-6As"},"traceId": "4dc7c7e2bfea222e","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "node_identifier\u003ePROVIDER_MODELS.ag\u003c/node_identifier\u003e\n\t\u003clearnings\u003eThe definition of AntiGravity models confirms"}]}}],"usageMetadata": {"promptTokenCount": 62172,"candidatesTokenCount": 1158,"totalTokenCount": 63330},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIap-EIuyI4-EPk46-6As"},"traceId": "4dc7c7e2bfea222e","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " 'gemini-3-flash' is valid; however, it includes a note that AntiGravity strips thinking for this"}]}}],"usageMetadata": {"promptTokenCount": 62172,"candidatesTokenCount": 1182,"totalTokenCount": 63354},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIap-EIuyI4-EPk46-6As"},"traceId": "4dc7c7e2bfea222e","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " model, which might affect perceived behavior.\u003c/learnings\u003e\n\u003c/viewed_code_item\u003e\n\u003cviewed_code"}]}}],"usageMetadata": {"promptTokenCount": 62172,"candidatesTokenCount": 1208,"totalTokenCount": 63380},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIap-EIuyI4-EPk46-6As"},"traceId": "4dc7c7e2bfea222e","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "_item\u003e\n\t\u003cnode_identifier\u003ednsConfig.checkAllDNSStatus\u003c/node_identifier\u003e\n\t\u003clearnings"}]}}],"usageMetadata": {"promptTokenCount": 62172,"candidatesTokenCount": 1235,"totalTokenCount": 63407},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIap-EIuyI4-EPk46-6As"},"traceId": "4dc7c7e2bfea222e","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\u003eThis function verifies if specific domains exist in the system hosts file. If the DNS update via CLI failed or wasn't flushed"}]}}],"usageMetadata": {"promptTokenCount": 62172,"candidatesTokenCount": 1261,"totalTokenCount": 63433},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIap-EIuyI4-EPk46-6As"},"traceId": "4dc7c7e2bfea222e","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " correctly, the status UI would show as inactive.\u003c/learnings\u003e\n\u003c/viewed_code_item\u003e"}]}}],"usageMetadata": {"promptTokenCount": 62172,"candidatesTokenCount": 1283,"totalTokenCount": 63455},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIap-EIuyI4-EPk46-6As"},"traceId": "4dc7c7e2bfea222e","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EjQKMgEMOdbHNmuXM7UNmmv5imKD4XKiRGv4izHTIHyOZqEZho2bRyxS+jassAdPEp60iQRr","text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 62172,"candidatesTokenCount": 1283,"totalTokenCount": 63455},"modelVersion": "gemini-3.1-flash-lite","responseId": "zSkIap-EIuyI4-EPk46-6As"},"traceId": "4dc7c7e2bfea222e","metadata": {}}
+

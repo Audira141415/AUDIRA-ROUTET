@@ -1,0 +1,27 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Sat, 16 May 2026 08:17:30 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=4352",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]}}],"usageMetadata": {"promptTokenCount": 20816,"candidatesTokenCount": 20,"totalTokenCount": 20836,"cachedContentTokenCount": 18505},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5vBxjZRnzktY2rdRM2R"},"traceId": "80d8128ed63107ff","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"functionCall": {"name": "list_dir","args": {"DirectoryPath": "f:\\AUDIRA-WEB-SEAL-ONLINE\\apps\\web\\app","toolAction": "Exploring Next.js app routes","toolSummary": "Web app routes"},"id": "toolu_vrtx_01NmywMfUd74LmyW7mxBHp6h"}}]}}],"usageMetadata": {"promptTokenCount": 20816,"candidatesTokenCount": 20,"totalTokenCount": 20836,"cachedContentTokenCount": 18505},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5vBxjZRnzktY2rdRM2R"},"traceId": "80d8128ed63107ff","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"functionCall": {"name": "list_dir","args": {"toolSummary": "API source structure","DirectoryPath": "f:\\AUDIRA-WEB-SEAL-ONLINE\\apps\\api\\src","toolAction": "Exploring API source"},"id": "toolu_vrtx_01BV2Yt114qjLfjJQfwkbx4r"}}]}}],"usageMetadata": {"promptTokenCount": 20816,"candidatesTokenCount": 20,"totalTokenCount": 20836,"cachedContentTokenCount": 18505},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5vBxjZRnzktY2rdRM2R"},"traceId": "80d8128ed63107ff","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"functionCall": {"name": "list_dir","args": {"DirectoryPath": "f:\\AUDIRA-WEB-SEAL-ONLINE\\apps\\realtime\\src","toolAction": "Exploring realtime source","toolSummary": "Realtime service source"},"id": "toolu_vrtx_01ATmK7WugRoDRrpVCU73eBQ"}}]}}],"usageMetadata": {"promptTokenCount": 20816,"candidatesTokenCount": 20,"totalTokenCount": 20836,"cachedContentTokenCount": 18505},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5vBxjZRnzktY2rdRM2R"},"traceId": "80d8128ed63107ff","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"functionCall": {"name": "list_dir","args": {"toolAction": "Exploring AI service source","toolSummary": "AI service source","DirectoryPath": "f:\\AUDIRA-WEB-SEAL-ONLINE\\apps\\ai-service\\src"},"id": "toolu_vrtx_011NTvzXY4j553EkcY8FwcPQ"}}]}}],"usageMetadata": {"promptTokenCount": 20816,"candidatesTokenCount": 20,"totalTokenCount": 20836,"cachedContentTokenCount": 18505},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5vBxjZRnzktY2rdRM2R"},"traceId": "80d8128ed63107ff","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 20816,"candidatesTokenCount": 427,"totalTokenCount": 21243,"cachedContentTokenCount": 18505},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5vBxjZRnzktY2rdRM2R"},"traceId": "80d8128ed63107ff","metadata": {}}
+

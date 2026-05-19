@@ -1,0 +1,955 @@
+{
+  "method": "POST",
+  "url": "/v1internal:streamGenerateContent?alt=sse",
+  "host": "cloudcode-pa.googleapis.com",
+  "headers": {
+    "host": "cloudcode-pa.googleapis.com",
+    "user-agent": "antigravity/1.23.2 windows/amd64",
+    "transfer-encoding": "chunked",
+    "authorization": "Bearer ya29.a0AQvPyIPjdtYe6csNC7Ady7IsFNpCa__NxTNNdl8aazHyCpZ6zh81ZKdiFFh82-RjWN-0iUoyzl8hB2ioG-xHW_KZozvmE7MRgDCgMF-hmroZQonQ874TwKRE6N7eRYGrb2t0RwZafRpa_vPin66QGeZUk_F6y0f7lTlx5a6TIixi3SatHP0M3_PG_c61K-sG-qryIaoXV2EIFwaCgYKAT4SARUSFQHGX2Mi1Cfja1Fmf7pfgBDdHJfdsw0213",
+    "content-type": "application/json",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "project": "disco-solution-d43ch",
+    "requestId": "browser_subagent/67899ccd-1280-49e7-9b0f-febedd645fdc/1779102892631/74c1413f-b153-4832-abc6-dabd3e0e2bb9/2",
+    "request": {
+      "contents": [
+        {
+          "role": "user",
+          "parts": [
+            {
+              "text": "<USER_REQUEST>\nSummary of the trajectory so far:\n### User Input\n\n## Error Type\nRecoverable Error\n\n## Error Message\nHydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:\n\n- A server/client branch `if (typeof window !== 'undefined')`.\n- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n- Date formatting in a user's locale which doesn't match the server.\n- External changing data without sending a snapshot of it along with the HTML.\n- Invalid HTML tag nesting.\n\nIt can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\n\nhttps://react.dev/link/hydration-mismatch\n\n  ...\n    <HTTPAccessFallbackErrorBoundary pathname=\"/\" notFound={<NotAllowedRootHTTPFallbackError>} forbidden={undefined} ...>\n      <RedirectBoundary>\n        <RedirectErrorBoundary router={{...}}>\n          <Head>\n          <__next_root_layout_boundary__>\n            <SegmentViewNode type=\"layout\" pagePath=\"layout.tsx\">\n              <SegmentTrieNode>\n              <link>\n              <RootLayout>\n                <html lang=\"en\" suppressHydrationWarning={true}>\n                  <head>\n                  <body className=\"min-h-scre...\">\n                    <QueryProvider>\n                      <QueryClientProvider client={{}}>\n                        <ToastProvider>\n                          <ThemeProvider>\n                          <ToastContainer toasts={[...]} removeToast={function ToastProvider.useCallback[removeToast]}>\n+                           <div className=\"fixed top-4 right-4 z-50 flex flex-col gap-2 max-w-md\">\n-                           <script>\n          ...\n\n\n\n    at div (unknown:0:0)\n    at ToastContainer (src\\components\\ui\\Toast.tsx:70:5)\n    at ToastProvider (src\\components\\ui\\Toast.tsx:47:7)\n    at RootLayout (src\\app\\layout.tsx:50:11)\n\n## Code Frame\n  68 |\n  69 |   return createPortal(\n> 70 |     <div className=\"fixed top-4 right-4 z-50 flex flex-col gap-2 max-w-md\">\n     |     ^\n  71 |       {toasts.map((toast) => (\n  72 |         <ToastItem key={toast.id} toast={toast} onClose={() => removeToast(toast.id)} />\n  73 |       ))}\n\nNext.js version: 15.5.18 (Webpack)\n\n*User accepted the command `./start.bat`*\n### Planner Response\n\n<thinking>\nThe user is experiencing a Next.js hydration error. Let me analyze the error:\n\n1. **Error Type**: Hydration mismatch between server-rendered HTML and client-side React\n2. **Location**: `src\\components\\ui\\Toast.tsx:70:5` in the `ToastContainer` component\n3. **The mismatch**: \n   - Server rendered: `<script>` tag\n   - Client expected: `<div className=\"fixed top-4 right-4 z-50 flex flex-col gap-2 max-w-md\">`\n\nThis is a classic hydration error where the server and client are rendering different content. The issue is that `createPortal` is being used, which tries to render content into the DOM. However, portals should only render on the client side, not during SSR.\n\nThe problem is in the `ToastContainer` component at line 70. The component is using `createPortal` which is trying to render during server-side rendering, but portals should only work on the client side.\n\nLet me check the current implementation to understand the full context.\n</thinking>\n\nI can see you're experiencing a hydration mismatch error in the Toast component. This happens because `createPortal` is being called during server-side rendering, but portals should only render on the client side.\n\nLet me examine the Toast component to fix this issue:\n*Viewed [Toast.tsx](file:///f:/AUDIRA-WEB-PERFECT-WORLD/apps/web/src/components/ui/Toast.tsx) *\n### Planner Response\n\n<thinking>\nThe user wants me to continue fixing the hydration error. I can see the issue clearly now:\n\nThe problem is in the `ToastContainer` component (lines 60-77). Even though there's a check `if (typeof window === 'undefined') return null;` on line 67, this check happens during the render phase, which still causes a hydration mismatch.\n\nThe issue is that:\n1. During SSR (server-side rendering), the check returns `null`\n2. On the client, it renders the portal with the div\n3. React sees different content between server and client → hydration error\n\nThe solution is to use `useEffect` to ensure the portal only renders after the component has mounted on the client side. This is a common pattern for portals in Next.js.\n\nI need to:\n1. Add a `useState` to track if the component is mounted\n2. Use `useEffect` to set mounted to true after client-side hydration\n3. Only render the portal when mounted is true\n\nThis ensures that both server and client render `null` initially, and only after hydration completes does the portal appear.\n</thinking>\n\nI can see the issue. The `ToastContainer` is using `createPortal` which causes a hydration mismatch because the server renders `null` (due to the `typeof window` check) but the client immediately tries to render the portal. \n\nThe fix is to ensure the portal only renders after the component has mounted on the client side:\n*Edited relevant file*\n### Planner Response\n\n<thinking>\nThe user wants me to continue. I've fixed the hydration error in the Toast component. Now I should verify that the fix works by checking if the application runs without the hydration error.\n\nLet me check the browser to see if the error is resolved. The user has the development server running at http://localhost:3327 according to the command output shown earlier.\n\nI should open the browser and navigate to the landing page to verify the fix works.\n</thinking>\n\nNow let me verify the fix by checking if the application runs without the hydration error:\n\nYour task is now to Navigate to http://localhost:3327 and verify that the hydration error is resolved.\n\nSteps:\n1. Navigate to http://localhost:3327\n2. Wait for the page to fully load\n3. Open the browser console (DevTools)\n4. Check for any hydration errors or warnings in the console\n5. Look specifically for the error message about \"Hydration failed because the server rendered HTML didn't match the client\"\n6. If there are no hydration errors, confirm the page loaded successfully\n7. Report back:\n   - Whether the hydration error is resolved\n   - Any other errors or warnings in the console\n   - The current state of the page (what's visible)\n\nYour scratchpad file is located at: C:\\Users\\ASUS\\.gemini\\antigravity\\brain\\67899ccd-1280-49e7-9b0f-febedd645fdc\\browser\\scratchpad_di3vmnog.md\nRead the scratchpad first to check for existing context, then update it frequently to track your progress and findings.\n\nStop calling tools when done.\n\nYour last message should be a summary of your actions and findings.\n\nRemember that you are a subagent now, so you should not be trying to invoke a subagent or create any task boundaries.\n\n IMPORTANT: If you are waiting for a condition to happen on a browser page, you should repeatedly call the wait tool with maximum wait time until either the condition is met or the page is in a state where the condition cannot be evaluated/will never be met.\n</USER_REQUEST>\n<ADDITIONAL_METADATA>\nThe current local time is: 2026-05-18T18:14:49+07:00.\n\nThe user's current state is as follows:\nNo browser pages are currently open.\n</ADDITIONAL_METADATA>"
+            }
+          ]
+        }
+      ],
+      "systemInstruction": {
+        "role": "user",
+        "parts": [
+          {
+            "text": "<identity>\nYou are a subagent of Antigravity, a powerful agentic AI coding assistant designed by the Google Deepmind team working on Advanced Agentic Coding.\nYour goal is to complete the browser task at hand FULLY. You are the primary agent with browser tools, though your work might be checked by the main agent.\nMake sure to check the state of the browser before and after you have done your work, and check the state pretty frequently.\n</identity>\n<browser_safety>\n**Core Safety Principles:**\n* Strictly adhere to safety guidelines: no dangerous, PII-revealing, sexually explicit, medical, malicious, hateful, or harassing content.\n* DO NOT access or navigate to harmful, inappropriate, or malicious websites.\n* NEVER attempt to bypass security measures or engage in unauthorized activities.\n\n**Prohibited Actions:**\n* NEVER solve captchas or attempt to bypass bot detection, age verification, content warnings, or other safety mechanisms. If you encounter a captcha or something asking to prove that you are human, respond to the user that the task cannot be completed due to captcha/bot detection.\n* NEVER attempt to access restricted areas, private accounts, or bypass authentication/authorization systems without explicit user authorization.\n* NEVER perform actions that could compromise user privacy or security.\n* NEVER access websites known for malware, phishing, or other security threats.\n* NEVER download suspicious files, execute potentially harmful content, or interact with elements that could trigger malicious scripts or downloads.\n\n**Security & Privacy Protection:**\n* If a website requests personal information, credentials, or payment details, STOP immediately and inform the user of the security implications.\n* When encountering suspicious pop-ups, download prompts, or security warnings, STOP immediately and report to the user.\n\n**Authorization:**\n* If a website requires a user to log-in or sign-up, ask the user to perform this step. Make sure to explicitly ask the user to log-in or sign-up before proceeding. \n* Always defer to the user in these situations and NEVER bypass an authorization flow without the user's permission.\n\n**Content Safety:**\n* Do not navigate to or interact with content that violates platform policies or legal guidelines.\n* Avoid websites or content related to illegal activities, violence, or harmful behaviors.\n* If you encounter inappropriate content during navigation, immediately navigate away and inform the user.\n\n**Error Handling:**\n* If you realize an error at any step that could compromise safety, you MUST STOP and inform the user rather than continuing.\n* When in doubt about the safety or appropriateness of an action, err on the side of caution and seek user clarification.\n</browser_safety>\n<browser_use_tips>\nHere are some tips to help you use the browser:\n1. If a page looks like it's loading, call the DOM tool again and see if it updates. Sometimes it just takes a moment for the page to load.\n2. Whenever the page interacts in a way that you don't expect, call the DOM and/or screenshot tools to make sure you have a good understanding of the current state.\n3. Ignore the blue border overlay and bottom-screen messages (e.g., \"Working...\", \"Thinking...\", click warnings) - these are UI elements for the user, not part of the website.\n4. When using pixel clicking, your tool call coordinates will be scaled to the browser's actual dimensions when your tool call is processed. Follow your tool call's guidance on which coordinate ranges are acceptable in your output.\n</browser_use_tips>\n<browser_scratchpad>\n**Scratchpad Usage:**\n\nYou have access to a scratchpad file for tracking your progress and storing notes during task execution. The scratchpad path is provided in your task description.\n\n**IMPORTANT:** Read the scratchpad first to check for existing context, then update it frequently (every 3 tool calls) to track your progress and findings.\n\n**How to Use the Scratchpad:**\n* Break down complex multi-step tasks into a checklist and track progress as you complete each step\n* Store important information discovered during browsing that you may need to reference later\n* Use the scratchpad to plan your approach before executing actions, especially for multi-page flows or complex interactions\n* Record extracted data, URLs, or observations that will be needed for your final response\n* Record failed attempts and what went wrong to avoid repeating mistakes\n\n**File Editing Rules:**\nWhen editing the scratchpad file, follow these rules to ensure your edits succeed:\n* Always view the file first to see its exact contents before making edits\n* When using replace_file_content, ALWAYS generate the TargetFile argument first, before any other arguments\n* The TargetContent must EXACTLY match the text in the file, including all whitespace and indentation\n* Specify the correct line range that contains your TargetContent\n* If your edit fails, view the file again to see the current contents and retry with the correct TargetContent\n\n**Important Restrictions:**\n* You can ONLY view and edit the scratchpad file; do not attempt to view, edit, or create other files\n* If you fail to view a file because it is not in your allowlist, you should NOT open the file in the browser to bypass this restriction\n</browser_scratchpad>\n<browser_tool_queuing>\nYou can generate multiple browser tool calls at once for efficiency. Batched tool calls are queued and execute sequentially in the order they are specified. Only batch predictable sequences. Wait for results when your next action depends on what you observe.\n\n**Safe to Queue Together:**\n* You can queue multiple field inputs when filling a form (e.g., click -> input -> click -> input). However, do NOT queue the submit action together with form filling as you must verify the form is correctly filled out before submitting.\n* You can queue a click followed by a wait when expecting a page load or animation.\n* You can queue multiple scroll and screenshot sequences to read large sections of a page (e.g., scroll -> screenshot -> scroll -> screenshot).\n* You can queue navigation followed by a wait and then a screenshot or DOM read. The wait is only necessary if the page takes a while to load.\n* You can queue a window resize followed by a screenshot.\n\n**Do NOT Queue (Wait for Results First):**\n* You must observe a new page after navigation before interacting with it.\n* You must observe the page after triggering a modal or popup before taking the next action, as UI changes unpredictably.\n* You must observe the page after executing browser JavaScript, as page state may change unexpectedly.\n* You must observe the page first when your next action's coordinates depend on the current page state.\n* You must verify success or failure after form submission before continuing.\n* You must not queue a click immediately after a scroll, as scroll offset changes element positions unpredictably.\n* You must confirm that an error-prone action succeeded before continuing.\n</browser_tool_queuing>\n<browser_low_level_tools_instructions>\n**Low-Level Browser Tool Operations:**\n\n**Clicking at a Pixel:**\n1. Use browser_move_mouse to move the cursor to the target pixel\n2. Call browser_mouse_down to press the mouse button\n3. Call browser_mouse_up to release the mouse button\n\n**Drag and Drop:**\n1. Click on the element you want to drag (move_mouse, mouse_down, mouse_up)\n2. Call browser_mouse_down to begin the drag\n3. Use browser_move_mouse to drag to the destination pixel\n4. Call browser_mouse_up to release and complete the drop\n\n**Queuing Actions:**\nWhen building complex actions using multiple low-level tools like mouse_up and mouse_down, you should generate all tool calls together so they execute in sequence. This reduces latency compared to making separate requests.\n</browser_low_level_tools_instructions>\n<browser_auto_recording>\n**Browser Recording Capabilities:**\nYour browser interactions are automatically recorded during task execution. While you don't have direct video recording tools, the system captures your actions behind the scenes:\n\n**Automatic Recording Features:**\n* All browser interactions are recorded as you use tools\n* Recordings are automatically converted to WebP video format\n* Videos are saved to the artifacts directory. Jetski can later access and show them to the user.\n\n**What Gets Recorded:**\n* Page navigation and interactions\n* Tool usage (clicks, scrolls, inputs)\n* Page state changes and transitions\n\n**Recording Behavior:**\n* Recording starts automatically when tool calls begin and stops when you finish.\n* No manual recording controls available since the recording is automatic, and you have all you need to fullfill user or Jetki recording requests.\n\n</browser_auto_recording>"
+          }
+        ]
+      },
+      "tools": [
+        {
+          "functionDeclarations": [
+            {
+              "name": "list_browser_pages",
+              "description": "List all open pages in Jetski Browser and their metadata (page_id, url, title, viewport size, etc.).",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "explanation": {
+                    "type": "STRING",
+                    "description": "Short past-tense phrase (3-6 words) describing what this tool call accomplished and how it contributes to the goal."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "capture_browser_console_logs",
+              "description": "Retrieve the console logs of a browser page that is already open in the browser. Note that this tool may struggle to retrieve console logs from the startup of the page. If appropriate, try reloading the page and running the tool again.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "PageId": {
+                    "type": "STRING",
+                    "description": "page_id of the Browser page to capture console logs of."
+                  },
+                  "explanation": {
+                    "type": "STRING",
+                    "description": "Short past-tense phrase (3-6 words) describing what this tool call accomplished and how it contributes to the goal."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  }
+                },
+                "required": [
+                  "PageId"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "browser_move_mouse",
+              "description": "Move the mouse to a specific position on the browser page.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "PageId": {
+                    "type": "STRING",
+                    "description": "page_id of the Browser page to move the mouse cursor to."
+                  },
+                  "X": {
+                    "type": "INTEGER",
+                    "description": "x-coordinate of the pixel to move the mouse cursor to."
+                  },
+                  "Y": {
+                    "type": "INTEGER",
+                    "description": "y-coordinate of the pixel to move the mouse cursor to."
+                  },
+                  "explanation": {
+                    "type": "STRING",
+                    "description": "Short past-tense phrase (3-6 words) describing what this tool call accomplished and how it contributes to the goal."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  }
+                },
+                "required": [
+                  "PageId",
+                  "X",
+                  "Y"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "browser_press_key",
+              "description": "Simulate key press or text input in the current browser page. Use to interact with the keyboard without having to specify a specific DOM element. Also use for specific keyboard operations like shortcuts. IMPORTANT: Before calling this tool to input text into an element (like a search box), you MUST first ensure that element is focused and ready to accept input by clicking on it or using another interaction method.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "Key": {
+                    "type": "STRING",
+                    "description": "Name of the key/key combination to simulate. Examples of keys are: \"F1\" - \"F12\", \"Digit0\"- \"Digit9\", \"KeyA\"- \"KeyZ\", \"Backquote\", \"Minus\", \"Equal\", \"Backslash\", \"Backspace\", \"Tab\", \"Delete\", \"Escape\", \"ArrowDown\", \"End\", \"Enter\", \"Home\", \"Insert\", \"PageDown\", \"PageUp\", \"ArrowRight\", \"ArrowUp\", etc. This tool also supports combinations with modifiers (e.g., Control+Enter). Examples of modifiers are: \"Shift\", \"Control\", \"Alt\", \"Meta\", \"ShiftLeft\", \"ControlOrMeta\". \"ControlOrMeta\" resolves to \"Control\" on Windows and Linux and to \"Meta\" on macOS. Only specify one of Key or Text - use Key for keyboard shortcuts and special keys."
+                  },
+                  "PageId": {
+                    "type": "STRING",
+                    "description": "page_id of the Browser page to simulate a key press on"
+                  },
+                  "Text": {
+                    "type": "STRING",
+                    "description": "Text to type sequentially, character by character. Use this for typing regular text content like letters, numbers, and basic symbols. Each character will be typed individually in sequence. Only specify one of Key or Text - use Text for typing regular content, not for keyboard shortcuts or special keys like F1, Control+C, etc."
+                  },
+                  "explanation": {
+                    "type": "STRING",
+                    "description": "Short past-tense phrase (3-6 words) describing what this tool call accomplished and how it contributes to the goal."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  }
+                },
+                "required": [
+                  "PageId"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "browser_resize_window",
+              "description": "Resize the browser window to the specified width and height. This tool can also be used to fullscreen or minimize a browser window. Do NOT try to call this tool in parallel yourself, or by spawning parallel subagents that are told to resize windows. Parallel resizing will not reliably work since the tabs could share a common window.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "Height": {
+                    "type": "INTEGER",
+                    "description": "The window contents height in display independent pixels. Only used when WindowState is 'normal'."
+                  },
+                  "PageID": {
+                    "type": "STRING",
+                    "description": "page_id of the Browser page to resize."
+                  },
+                  "Width": {
+                    "type": "INTEGER",
+                    "description": "The window contents width in display independent pixels. Only used when WindowState is 'normal'."
+                  },
+                  "WindowState": {
+                    "type": "STRING",
+                    "description": "The window state to set. Options: 'normal' (resizable window with specified width/height), 'minimized' (window minimized to taskbar), 'maximized' (window is full screen but shows taskbar), 'fullscreen' (window fills entire screen and hides taskbar). Width and Height are only used when WindowState is 'normal'. Generally you should prefer 'maximized'. If the user asks to make the window smaller or a particular size, use 'normal'. When resetting the window size, prefer 'maximized' instead of 'normal' with specific width/height values. 'minimized' and 'fullscreen' are somewhat jarring, so you should only use these when the user explicitly asks for it."
+                  },
+                  "explanation": {
+                    "type": "STRING",
+                    "description": "Short past-tense phrase (3-6 words) describing what this tool call accomplished and how it contributes to the goal."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  }
+                },
+                "required": [
+                  "PageID",
+                  "WindowState"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "browser_scroll",
+              "description": "Simulate scrolling the mouse wheel at a specific (x, y) coordinate. Use this for fine-grained scrolling or when you need to scroll at a specific location on the page. Coordinates are scaled to a 1000x1000 grid and mapped to screen dimensions.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "Dx": {
+                    "type": "INTEGER",
+                    "description": "Horizontal scroll delta in pixels. Positive values scroll to the right, negative values scroll to the left."
+                  },
+                  "Dy": {
+                    "type": "INTEGER",
+                    "description": "Vertical scroll delta in pixels. Positive values scroll down, negative values scroll up."
+                  },
+                  "PageId": {
+                    "type": "STRING",
+                    "description": "page_id of the Browser page to scroll on"
+                  },
+                  "X": {
+                    "type": "INTEGER",
+                    "description": "X coordinate of the pixel to scroll (0-999). Coordinates are scaled to a 1000x1000 grid and mapped to screen dimensions."
+                  },
+                  "Y": {
+                    "type": "INTEGER",
+                    "description": "Y coordinate of the pixel to scroll (0-999). Coordinates are scaled to a 1000x1000 grid and mapped to screen dimensions."
+                  },
+                  "explanation": {
+                    "type": "STRING",
+                    "description": "Short past-tense phrase (3-6 words) describing what this tool call accomplished and how it contributes to the goal."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  }
+                },
+                "required": [
+                  "PageId",
+                  "X",
+                  "Y",
+                  "Dx",
+                  "Dy"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "browser_mouse_up",
+              "description": "Release a mouse button. Use this after browser_mouse_down to complete a click or drag operation.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "Button": {
+                    "type": "STRING",
+                    "description": "Mouse button to release. Options are 'left', 'right', or 'middle'."
+                  },
+                  "PageId": {
+                    "type": "STRING",
+                    "description": "page_id of the Browser page to release the mouse button on"
+                  },
+                  "explanation": {
+                    "type": "STRING",
+                    "description": "Short past-tense phrase (3-6 words) describing what this tool call accomplished and how it contributes to the goal."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  }
+                },
+                "required": [
+                  "PageId",
+                  "Button"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "browser_mouse_down",
+              "description": "Press and hold a mouse button. You can use this to perform a click (browser_move_mouse -> browser_mouse_down -> browser_mouse_up) or to drag (browser_move_mouse -> browser_mouse_down -> browser_mouse_move -> browser_mouse_up). If you are using this tool to click, do not call browser_click tool as well.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "Button": {
+                    "type": "STRING",
+                    "description": "Mouse button to press. Options are 'left', 'right', or 'middle'."
+                  },
+                  "PageId": {
+                    "type": "STRING",
+                    "description": "page_id of the Browser page to press the mouse button on"
+                  },
+                  "explanation": {
+                    "type": "STRING",
+                    "description": "Short past-tense phrase (3-6 words) describing what this tool call accomplished and how it contributes to the goal."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  }
+                },
+                "required": [
+                  "PageId",
+                  "Button"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "capture_browser_screenshot",
+              "description": "Capture a screenshot of the current viewport or specific element by index of a browser page that is already open in the browser. This can be used to understand the state of the page or to create a visual artifact for the user to review. When providing an explanation, start with 'Captured' (e.g. 'Captured the login page').",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "CaptureBeyondViewport": {
+                    "type": "BOOLEAN",
+                    "description": "If true, captures an extended screenshot starting from the current scroll position downward, up to 4000px or the end of page content, whichever is less. To capture content above or below this range, scroll first and then capture."
+                  },
+                  "CaptureByElementIndex": {
+                    "type": "BOOLEAN",
+                    "description": "If true, captures a screenshot of a specific element by index instead of the full viewport."
+                  },
+                  "ElementIndex": {
+                    "type": "INTEGER",
+                    "description": "The index of the element to capture (required if CaptureByElementIndex is true). Get the index using browser_get_dom."
+                  },
+                  "PageID": {
+                    "type": "STRING",
+                    "description": "page_id of the Browser page to capture a screenshot of."
+                  },
+                  "SaveScreenshot": {
+                    "type": "BOOLEAN",
+                    "description": "If true, saves the screenshot as an artifact."
+                  },
+                  "ScreenshotName": {
+                    "type": "STRING",
+                    "description": "Name of the screenshot to save. Should be all lowercase with underscores, describing what the screenshot contains. Maximum 3 words. Example: 'login_page_error'"
+                  },
+                  "explanation": {
+                    "type": "STRING",
+                    "description": "Short past-tense phrase (3-6 words) describing what this tool call accomplished and how it contributes to the goal."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  }
+                },
+                "required": [
+                  "PageID",
+                  "ScreenshotName"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "click_browser_pixel",
+              "description": "Click at a specific pixel coordinate on a browser page that is already open in the browser. Only use this when encountering issues clicking DOM elements. When providing an explanation, start with 'Clicked' (e.g. 'Clicked the submit button').",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "ClickType": {
+                    "type": "STRING",
+                    "description": "Type of click to perform: 'left', 'right', or 'double'. If not specified or left empty, a left click will be performed.",
+                    "enum": [
+                      "left",
+                      "right",
+                      "double"
+                    ]
+                  },
+                  "PageID": {
+                    "type": "STRING",
+                    "description": "The page_id of the browser page to click on."
+                  },
+                  "X": {
+                    "type": "INTEGER",
+                    "description": "X coordinate of the pixel to click (0-999). Coordinates are scaled to a 1000x1000 grid and mapped to screen dimensions when executing the tool call."
+                  },
+                  "Y": {
+                    "type": "INTEGER",
+                    "description": "Y coordinate of the pixel to click (0-999). Coordinates are scaled to a 1000x1000 grid and mapped to screen dimensions when executing the tool call."
+                  },
+                  "explanation": {
+                    "type": "STRING",
+                    "description": "Short past-tense phrase (3-6 words) describing what this tool call accomplished and how it contributes to the goal."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  }
+                },
+                "required": [
+                  "PageID",
+                  "Y",
+                  "X"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "browser_drag_pixel_to_pixel",
+              "description": "Drag from one pixel coordinate to another in the browser. This simulates a click, drag, and drag operation from the starting coordinates, through zero or more intermediate coordinates, and then to the ending coordinates.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "PageID": {
+                    "type": "STRING",
+                    "description": "page_id of the Browser page to perform the drag operation on"
+                  },
+                  "Waypoints": {
+                    "type": "ARRAY",
+                    "description": "A series of pixel coordinates defining the drag path. When this tool call is executed, the first waypoint will be clicked, then the mouse will be dragged to each subsequent waypoint in the provided order, and finally the mouse will be released at the last waypoint.",
+                    "items": {
+                      "type": "OBJECT",
+                      "properties": {
+                        "X": {
+                          "type": "INTEGER",
+                          "description": "X coordinate for starting, continuing, or ending dragging (0-999). Coordinates are scaled to a 1000x1000 grid and mapped to screen dimensions when executing the tool call."
+                        },
+                        "Y": {
+                          "type": "INTEGER",
+                          "description": "Y coordinate for starting, continuing, or ending dragging (0-999). Coordinates are scaled to a 1000x1000 grid and mapped to screen dimensions when executing the tool call."
+                        }
+                      }
+                    }
+                  },
+                  "explanation": {
+                    "type": "STRING",
+                    "description": "Short past-tense phrase (3-6 words) describing what this tool call accomplished and how it contributes to the goal."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "wait",
+              "description": "Wait for a specified duration before continuing execution. The maximum duration is 60 seconds.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "duration_ms": {
+                    "type": "INTEGER"
+                  },
+                  "explanation": {
+                    "type": "STRING",
+                    "description": "Short past-tense phrase (3-6 words) describing what this tool call accomplished and how it contributes to the goal."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "read_browser_page",
+              "description": "Read a page in the USER's visible browser. Note that the page must already be open in the browser and you must have a page_id for it. If you have a URL you would like to view and interact with, first call the open_browser_url tool. Prefer the read_url_content tool if you only need to read a public URL and not interact with it. You should also use this tool for getting window size information, this is part of the page's metadata which is returned.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "PageId": {
+                    "type": "STRING",
+                    "description": "page_id of the Browser page to read"
+                  },
+                  "explanation": {
+                    "type": "STRING",
+                    "description": "Short past-tense phrase (3-6 words) describing what this tool call accomplished and how it contributes to the goal."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  }
+                },
+                "required": [
+                  "PageId"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "browser_get_dom",
+              "description": "Get the DOM tree of an open page in the browser. Returns only interactive elements and text within the current viewport, each with an index for interaction. If an element is not included, it may be outside the viewport or getting filtered for other reasons - refer to the screenshot to confirm. Then try read_browser_page and browser_scroll tools.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "PageId": {
+                    "type": "STRING",
+                    "description": "page_id of the Browser page to get the DOM tree of"
+                  },
+                  "explanation": {
+                    "type": "STRING",
+                    "description": "Short past-tense phrase (3-6 words) describing what this tool call accomplished and how it contributes to the goal."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  }
+                },
+                "required": [
+                  "PageId"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "open_browser_url",
+              "description": "Open a URL in the browser to view the page contents of a URL in a rendered format. You can also use this tool to navigate to different URLs or replace the current page. IMPORTANT: use your knowledge of the currently open pages (via browser state metadata and the list_browser_pages tool) to reuse whichever pageID's you can. Be conservative with the total number of pages open.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "PageIdToReplace": {
+                    "type": "STRING",
+                    "description": "An existing page ID which will be replaced with this new URL. You should provide a page_id in almost all cases. To open a new page, set this field to 'new_page'. IMPORTANT: Opening a new page should be extremely rare and only done if you are explicitly instructed to keep multiple pages open simultaneously. By default, always replace the most recently used page or any page not critical to your current task."
+                  },
+                  "Url": {
+                    "type": "STRING",
+                    "description": "The URL to open in the user's browser."
+                  },
+                  "explanation": {
+                    "type": "STRING",
+                    "description": "Short past-tense phrase (3-6 words) describing what this tool call accomplished and how it contributes to the goal."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  }
+                },
+                "required": [
+                  "Url",
+                  "PageIdToReplace"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "browser_list_network_requests",
+              "description": "List the network requests for a browser page.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "IncludePreservedRequests": {
+                    "type": "BOOLEAN",
+                    "description": "Always set to true."
+                  },
+                  "PageId": {
+                    "type": "STRING",
+                    "description": "The page_id of the browser page to list network requests for."
+                  },
+                  "ResourceTypes": {
+                    "type": "ARRAY",
+                    "description": "The resource types to list network requests for. When empty, all resource types are listed. Supported types: 'Document', 'Stylesheet', 'Image', 'Media', 'Font', 'Script', 'TextTrack', 'XHR', 'Fetch', 'Prefetch', 'EventSource', 'WebSocket', 'Manifest', 'SignedExchange', 'Ping', 'CSPViolationReport', 'Preflight', 'FedCM', 'Other'.",
+                    "items": {
+                      "type": "STRING"
+                    }
+                  },
+                  "explanation": {
+                    "type": "STRING",
+                    "description": "Short past-tense phrase (3-6 words) describing what this tool call accomplished and how it contributes to the goal."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  }
+                },
+                "required": [
+                  "PageId"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "browser_get_network_request",
+              "description": "Get detailed information about a specific network request by its request ID. Use this after calling list_network_requests to get more details about a particular request.",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "PageId": {
+                    "type": "STRING",
+                    "description": "The page_id of the browser page to get network request from."
+                  },
+                  "RequestId": {
+                    "type": "STRING",
+                    "description": "The request ID to retrieve details for. This ID can be obtained from the list_network_requests tool."
+                  },
+                  "explanation": {
+                    "type": "STRING",
+                    "description": "Short past-tense phrase (3-6 words) describing what this tool call accomplished and how it contributes to the goal."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  }
+                },
+                "required": [
+                  "PageId",
+                  "RequestId"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "view_file",
+              "description": "View the contents of a file from the local filesystem. This tool supports some binary files such as images and videos.\nText file usage:\n- The lines of the file are 1-indexed\n- The first time you read a new file the tool will enforce reading 800 lines to understand as much about the file as possible\n- The output of this tool call will be the file contents from StartLine to EndLine (inclusive)\n- You can view at most 800 lines at a time\n- To view the whole file do not pass StartLine or EndLine arguments\nBinary file usage:\n- Do not provide StartLine or EndLine arguments, this tool always returns the entire file",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "AbsolutePath": {
+                    "type": "STRING",
+                    "description": "Path to file to view. Must be an absolute path."
+                  },
+                  "EndLine": {
+                    "type": "INTEGER",
+                    "description": "Optional. Endline to view, 1-indexed as usual, inclusive. This value must be greater than or equal to StartLine."
+                  },
+                  "IsSkillFile": {
+                    "type": "BOOLEAN",
+                    "description": "Optional. Set to true only when reading a file to execute its instructions for a task. Set to false if the purpose is to edit, preview, or manage the file."
+                  },
+                  "StartLine": {
+                    "type": "INTEGER",
+                    "description": "Optional. Startline to view, 1-indexed as usual, inclusive. This value must be less than or equal to EndLine."
+                  },
+                  "explanation": {
+                    "type": "STRING",
+                    "description": "Short past-tense phrase (3-6 words) describing what this tool call accomplished and how it contributes to the goal."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  }
+                },
+                "required": [
+                  "AbsolutePath"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "replace_file_content",
+              "description": "Use this tool to edit an existing file. Follow these rules:\n1. Use this tool ONLY when you are making a SINGLE CONTIGUOUS block of edits to the same file (i.e. replacing a single contiguous block of text). If you are making edits to multiple non-adjacent lines, use the multi_replace_file_content tool instead.\n2. Do NOT make multiple parallel calls to this tool or the multi_replace_file_content tool for the same file.\n3. To edit multiple, non-adjacent lines of code in the same file, make a single call to the multi_replace_file_content tool..\n4. For the ReplacementChunk, specify StartLine, EndLine, TargetContent and ReplacementContent. StartLine and EndLine should specify a range of lines containing precisely the instances of TargetContent that you wish to edit. To edit a single instance of the TargetContent, the range should be such that it contains that specific instance of the TargetContent and no other instances. When applicable, provide a range that matches the range viewed in a previous view_file call. In TargetContent, specify the precise lines of code to edit. These lines MUST EXACTLY MATCH text in the existing file content. In ReplacementContent, specify the replacement content for the specified target content. This must be a complete drop-in replacement of the TargetContent, with necessary modifications made.\n5. If you are making multiple edits across a single file, use the multi_replace_file_content tool instead. DO NOT try to replace the entire existing content with the new content, this is very expensive.\n6. You may not edit file extensions: [.ipynb]\nIMPORTANT: You must generate the following arguments first, before any others: [TargetFile]",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "AllowMultiple": {
+                    "type": "BOOLEAN",
+                    "description": "If true, multiple occurrences of 'targetContent' will be replaced by 'replacementContent' if they are found. Otherwise if multiple occurences are found, an error will be returned."
+                  },
+                  "Description": {
+                    "type": "STRING",
+                    "description": "Brief, user-facing explanation of what this change did. Focus on non-obvious rationale, design decisions, or important context. Don't just restate what the code does."
+                  },
+                  "EndLine": {
+                    "type": "INTEGER",
+                    "description": "The ending line number of the chunk (1-indexed). Should be at or after the last line containing the target content. Must satisfy StartLine <= EndLine <= number of lines in the file. The target content is searched for within the [StartLine, EndLine] range."
+                  },
+                  "Instruction": {
+                    "type": "STRING",
+                    "description": "A description of the changes that you are making to the file."
+                  },
+                  "ReplacementContent": {
+                    "type": "STRING",
+                    "description": "The content to replace the target content with."
+                  },
+                  "StartLine": {
+                    "type": "INTEGER",
+                    "description": "The starting line number of the chunk (1-indexed). Should be at or before the first line containing the target content. Must satisfy 1 <= StartLine <= EndLine. The target content is searched for within the [StartLine, EndLine] range."
+                  },
+                  "TargetContent": {
+                    "type": "STRING",
+                    "description": "The exact string to be replaced. This must be the exact character-sequence to be replaced, including whitespace. Be very careful to include any leading whitespace otherwise this will not work at all. This must be a unique substring within the file, or else it will error."
+                  },
+                  "TargetFile": {
+                    "type": "STRING",
+                    "description": "The target file to modify. Always specify the target file as the very first argument."
+                  },
+                  "TargetLintErrorIds": {
+                    "type": "ARRAY",
+                    "description": "If applicable, IDs of lint errors this edit aims to fix (they'll have been given in recent IDE feedback). If you believe the edit could fix lints, do specify lint IDs; if the edit is wholly unrelated, do not. A rule of thumb is, if your edit was influenced by lint feedback, include lint IDs. Exercise honest judgement here.",
+                    "items": {
+                      "type": "STRING"
+                    }
+                  },
+                  "explanation": {
+                    "type": "STRING",
+                    "description": "Short past-tense phrase (3-6 words) describing what this tool call accomplished and how it contributes to the goal."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  }
+                },
+                "required": [
+                  "TargetFile",
+                  "Instruction",
+                  "Description",
+                  "AllowMultiple",
+                  "TargetContent",
+                  "ReplacementContent",
+                  "StartLine",
+                  "EndLine"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "functionDeclarations": [
+            {
+              "name": "multi_replace_file_content",
+              "description": "Use this tool to edit an existing file. Follow these rules:\n1. Use this tool ONLY when you are making MULTIPLE, NON-CONTIGUOUS edits to the same file (i.e., you are changing more than one separate block of text). If you are making a single contiguous block of edits, use the replace_file_content tool instead.\n2. Do NOT use this tool if you are only editing a single contiguous block of lines.\n3. Do NOT make multiple parallel calls to this tool or the replace_file_content tool for the same file.\n4. To edit multiple, non-adjacent lines of code in the same file, make a single call to this tool. Specify each edit as a separate ReplacementChunk.\n5. For each ReplacementChunk, specify StartLine, EndLine, TargetContent and ReplacementContent. StartLine and EndLine should specify a range of lines containing precisely the instances of TargetContent that you wish to edit. To edit a single instance of the TargetContent, the range should be such that it contains that specific instance of the TargetContent and no other instances. When applicable, provide a range that matches the range viewed in a previous view_file call. In TargetContent, specify the precise lines of code to edit. These lines MUST EXACTLY MATCH text in the existing file content. In ReplacementContent, specify the replacement content for the specified target content. This must be a complete drop-in replacement of the TargetContent, with necessary modifications made.\n6. If you are making multiple edits across a single file, specify multiple separate ReplacementChunks. DO NOT try to replace the entire existing content with the new content, this is very expensive.\n7. You may not edit file extensions: [.ipynb]\nIMPORTANT: You must generate the following arguments first, before any others: [TargetFile]",
+              "parameters": {
+                "type": "OBJECT",
+                "properties": {
+                  "ArtifactMetadata": {
+                    "type": "OBJECT",
+                    "description": "Metadata updates if updating an artifact file, leave blank if not updating an artifact. Should be updated if the content is changing meaningfully.",
+                    "properties": {
+                      "ArtifactType": {
+                        "type": "STRING",
+                        "description": "Type of artifact: 'implementation_plan', 'walkthrough', 'task', or 'other'.",
+                        "enum": [
+                          "implementation_plan",
+                          "walkthrough",
+                          "task",
+                          "other"
+                        ]
+                      },
+                      "RequestFeedback": {
+                        "type": "BOOLEAN",
+                        "description": "Set to true to request user feedback on this artifact."
+                      },
+                      "Summary": {
+                        "type": "STRING",
+                        "description": "Detailed multi-line summary of the artifact file, after edits have been made. Summary does not need to mention the artifact name and should focus on the contents and purpose of the artifact."
+                      }
+                    },
+                    "required": [
+                      "Summary",
+                      "ArtifactType"
+                    ]
+                  },
+                  "Description": {
+                    "type": "STRING",
+                    "description": "Brief, user-facing explanation of what this change did. Focus on non-obvious rationale, design decisions, or important context. Don't just restate what the code does."
+                  },
+                  "Instruction": {
+                    "type": "STRING",
+                    "description": "A description of the changes that you are making to the file."
+                  },
+                  "ReplacementChunks": {
+                    "type": "ARRAY",
+                    "description": "A list of chunks to replace. It is best to provide multiple chunks for non-contiguous edits if possible. This must be a JSON array, not a string.",
+                    "items": {
+                      "type": "OBJECT",
+                      "properties": {
+                        "AllowMultiple": {
+                          "type": "BOOLEAN",
+                          "description": "If true, multiple occurrences of 'targetContent' will be replaced by 'replacementContent' if they are found. Otherwise if multiple occurences are found, an error will be returned."
+                        },
+                        "EndLine": {
+                          "type": "INTEGER",
+                          "description": "The ending line number of the chunk (1-indexed). Should be at or after the last line containing the target content. Must satisfy StartLine <= EndLine <= number of lines in the file. The target content is searched for within the [StartLine, EndLine] range."
+                        },
+                        "ReplacementContent": {
+                          "type": "STRING",
+                          "description": "The content to replace the target content with."
+                        },
+                        "StartLine": {
+                          "type": "INTEGER",
+                          "description": "The starting line number of the chunk (1-indexed). Should be at or before the first line containing the target content. Must satisfy 1 <= StartLine <= EndLine. The target content is searched for within the [StartLine, EndLine] range."
+                        },
+                        "TargetContent": {
+                          "type": "STRING",
+                          "description": "The exact string to be replaced. This must be the exact character-sequence to be replaced, including whitespace. Be very careful to include any leading whitespace otherwise this will not work at all. This must be a unique substring within the file, or else it will error."
+                        }
+                      },
+                      "required": [
+                        "AllowMultiple",
+                        "TargetContent",
+                        "ReplacementContent",
+                        "StartLine",
+                        "EndLine"
+                      ]
+                    }
+                  },
+                  "TargetFile": {
+                    "type": "STRING",
+                    "description": "The target file to modify. Always specify the target file as the very first argument."
+                  },
+                  "TargetLintErrorIds": {
+                    "type": "ARRAY",
+                    "description": "If applicable, IDs of lint errors this edit aims to fix (they'll have been given in recent IDE feedback). If you believe the edit could fix lints, do specify lint IDs; if the edit is wholly unrelated, do not. A rule of thumb is, if your edit was influenced by lint feedback, include lint IDs. Exercise honest judgement here.",
+                    "items": {
+                      "type": "STRING"
+                    }
+                  },
+                  "explanation": {
+                    "type": "STRING",
+                    "description": "Short past-tense phrase (3-6 words) describing what this tool call accomplished and how it contributes to the goal."
+                  },
+                  "toolAction": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word summary of what this tool is doing. Capitalize like a sentence. Some examples: 'Analyzing directory', 'Searching the web', 'Editing file', 'Viewing file', 'Running command', 'Semantic searching'."
+                  },
+                  "toolSummary": {
+                    "type": "STRING",
+                    "description": "Brief 2-5 word noun phrase describing what this tool call is about. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'File edit', 'Command execution', 'Semantic search'."
+                  }
+                },
+                "required": [
+                  "TargetFile",
+                  "Instruction",
+                  "Description",
+                  "ReplacementChunks"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "toolConfig": {
+        "functionCallingConfig": {
+          "mode": "VALIDATED"
+        }
+      },
+      "generationConfig": {
+        "thinkingConfig": {
+          "includeThoughts": true,
+          "thinkingBudget": -1
+        }
+      },
+      "sessionId": "-3750763034362895579"
+    },
+    "model": "gemini-3-flash",
+    "userAgent": "antigravity",
+    "requestType": "browser_subagent"
+  }
+}

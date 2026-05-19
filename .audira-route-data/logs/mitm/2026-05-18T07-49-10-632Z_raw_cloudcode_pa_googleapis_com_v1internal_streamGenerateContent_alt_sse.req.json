@@ -1,0 +1,47 @@
+{
+  "method": "POST",
+  "url": "/v1internal:streamGenerateContent?alt=sse",
+  "host": "cloudcode-pa.googleapis.com",
+  "headers": {
+    "host": "cloudcode-pa.googleapis.com",
+    "user-agent": "antigravity/1.23.2 windows/amd64",
+    "transfer-encoding": "chunked",
+    "authorization": "Bearer ya29.a0AQvPyIO3OKR5Sec6-OrU5qw5nYGzYORp3X1vgNQMd85KIe0Nr87Xref2XCnuyAedBxmHRgBtfNp0Hpz1Tl2kpmzO7abNk2Yteaw3x0fn5gWwM2fJynjZNJba0Lk1Dpc6IRDKr_VFoHWcfxhPbAqACY0aX9RFtyMNf1x7FxWXZvZxxWdBc3vgR2NZ9BmZXlICDhzptM5rJYhDFwaCgYKASISARUSFQHGX2Mi3L5dC2PfwQRGrnd8LIirmA0213",
+    "content-type": "application/json",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "project": "disco-solution-d43ch",
+    "requestId": "fastapply/a142af5d-2dc4-42e5-8e31-402b468c317c",
+    "request": {
+      "contents": [
+        {
+          "role": "user",
+          "parts": [
+            {
+              "text": "My code document has the following content:\n<content>\nimport { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';\r\nimport { RealtimeClient } from './client';\r\nimport { SocketChannel } from './types';\r\nimport { io } from 'socket.io-client';\r\n\r\n// Mock socket.io-client\r\nvi.mock('socket.io-client', () => {\r\n  const mockSocket = {\r\n    on: vi.fn(),\r\n    off: vi.fn(),\r\n    emit: vi.fn(),\r\n    disconnect: vi.fn(),\r\n    removeAllListeners: vi.fn(),\r\n    connected: false,\r\n  };\r\n  return {\r\n    io: vi.fn(() => mockSocket),\r\n  };\r\n});\r\n\r\nconst mockedIo = vi.mocked(io);\r\n\r\ndescribe('RealtimeClient', () => {\r\n  let client: RealtimeClient;\r\n  const defaultConfig = {\r\n    url: 'http://localhost:3000',\r\n    getToken: () => 'test-jwt-token',\r\n    apiBaseUrl: 'http://localhost:3000/api',\r\n  };\r\n\r\n  beforeEach(() => {\r\n    vi.useFakeTimers();\r\n    client = new RealtimeClient(defaultConfig);\r\n  });\r\n\r\n  afterEach(() => {\r\n    client.disconnect();\r\n    vi.useRealTimers();\r\n    vi.restoreAllMocks();\r\n  });\r\n\r\n  describe('initial state', () => {\r\n    it('starts in disconnected state', () => {\r\n      expect(client.getConnectionState()).toBe('disconnected');\r\n    });\r\n\r\n    it('is not in degraded mode initially', () => {\r\n      expect(client.isDegraded()).toBe(false);\r\n    });\r\n  });\r\n\r\n  describe('connect', () => {\r\n    it('transitions to connecting state when token is available', () => {\r\n      const stateChanges: string[] = [];\r\n      client.on('connection-state-change', (state) => {\r\n        stateChanges.push(state as string);\r\n      });\r\n\r\n      client.connect();\r\n\r\n      expect(stateChanges).toContain('connecting');\r\n    });\r\n\r\n    it('stays disconnected when no token is available', () => {\r\n      const noTokenClient = new RealtimeClient({\r\n        ...defaultConfig,\r\n        getToken: () => null,\r\n      });\r\n\r\n      noTokenClient.connect();\r\n      expect(noTokenClient.getConnectionState()).toBe('disconnected');\r\n      noTokenClient.disconnect();\r\n    });\r\n  });\r\n\r\n  describe('disconnect', () => {\r\n    it('transitions to disconnected state', () => {\r\n      client.connect();\r\n      client.disconnect();\r\n      expect(client.getConnectionState()).toBe('disconnected');\r\n    });\r\n  });\r\n\r\n  describe('subscription management', () => {\r\n    it('tracks subscribed channels', () => {\r\n      client.subscribe(SocketChannel.SERVER_STATUS);\r\n      client.subscribe(SocketChannel.MARKETPLACE_UPDATES);\r\n      // No error thrown, channels are tracked internally\r\n      client.unsubscribe(SocketChannel.SERVER_STATUS);\r\n    });\r\n  });\r\n\r\n  describe('event listeners', () => {\r\n    it('registers and triggers event callbacks', () => {\r\n      const callback = vi.fn();\r\n      client.on('test-event', callback);\r\n\r\n      // Simulate emitting through the internal mechanism\r\n      // In real usage, the socket would trigger this\r\n      // For unit testing, we verify the listener registration works\r\n      expect(callback).not.toHaveBeenCalled();\r\n    });\r\n\r\n    it('removes event callbacks', () => {\r\n      const callback = vi.fn();\r\n      client.on('test-event', callback);\r\n      client.off('test-event', callback);\r\n      // Callback should be removed\r\n    });\r\n  });\r\n\r\n  describe('degraded mode', () => {\r\n    it('reports isDegraded correctly based on connection state', () => {\r\n      // Initially not degraded\r\n      expect(client.isDegraded()).toBe(false);\r\n    });\r\n  });\r\n\r\n  describe('configuration defaults', () => {\r\n    it('uses 5000ms connection timeout by default', () => {\r\n      client.connect();\r\n      expect(mockedIo).toHaveBeenCalledWith(\r\n        defaultConfig.url,\r\n        expect.objectContaining({\r\n          timeout: 5000,\r\n        }),\r\n      );\r\n    });\r\n\r\n    it('uses JWT token in auth', () => {\r\n      client.connect();\r\n      expect(mockedIo).toHaveBeenCalledWith(\r\n        defaultConfig.url,\r\n        expect.objectContaining({\r\n          auth: { token: 'test-jwt-token' },\r\n        }),\r\n      );\r\n    });\r\n\r\n    it('disables built-in reconnection (handled manually)', () => {\r\n      client.connect();\r\n      expect(mockedIo).toHaveBeenCalledWith(\r\n        defaultConfig.url,\r\n        expect.objectContaining({\r\n          reconnection: false,\r\n        }),\r\n      );\r\n    });\r\n\r\n    it('uses websocket transport', () => {\r\n      client.connect();\r\n      expect(mockedIo).toHaveBeenCalledWith(\r\n        defaultConfig.url,\r\n        expect.objectContaining({\r\n          transports: ['websocket'],\r\n        }),\r\n      );\r\n    });\r\n  });\r\n});\r\n\n</content>\nFollow these instructions to make the following change to my code document.\n<instruction>\nInstruction: Update test file to use the correct ports (3327 for frontend, 3329 for API)\n\nCode Edit:\n```\n{{ ... }}\nconst mockedIo = vi.mocked(io);\r\n\r\ndescribe('RealtimeClient', () => {\r\n  let client: RealtimeClient;\r\n  const defaultConfig = {\r\n    url: 'http://localhost:3327',\r\n    token: 'test-token',\r\n    apiBaseUrl: 'http://localhost:3329/api',\r\n  };\r\n\r\n  beforeEach(() => {\r\n    vi.useFakeTimers();\r\n    client = new RealtimeClient(defaultConfig);\r\n{{ ... }}\n```\n</instruction>"
+            }
+          ]
+        }
+      ],
+      "systemInstruction": {
+        "role": "user",
+        "parts": [
+          {
+            "text": "You are a helpful assistant whose purpose is to help a user edit a code document. You will be given the full contents of the code document as well as the change that the user wants to make. Your task will be to make the change and return the full contents of the new code document after the change.\n\nPlease make the change faithfully and without making any unrelated edits. Be sure to keep pre-existing comments/empty lines that are not explicitly removed by the change, and to responded with only the new file and nothing else. Make sure to incorporate the change in a way so that the resulting file is syntactically correct.\n\nPlease output the new code without any additional formatting."
+          }
+        ]
+      },
+      "generationConfig": {
+        "thinkingConfig": {
+          "includeThoughts": false,
+          "thinkingBudget": 0
+        }
+      },
+      "sessionId": "-3750763034362895579"
+    },
+    "model": "gemini-2.5-flash",
+    "userAgent": "antigravity",
+    "requestType": "fastapply"
+  }
+}

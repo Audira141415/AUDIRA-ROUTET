@@ -1,0 +1,19 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 05:20:34 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=2180",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EsEKCr4KAQw51scxyRfnuzc7ugQLRC6Ys2zVIRTUqp9FdrQbH2tt5ZbVkJgQLbuKWaHqlmvjCv5hzzjbeBN39XPRQzWGbXBj94aBAKDks49BEiQAJ99WrXjxc8Roj100W0FJzxg8W74GkqVyG42VhFJRIfA6a/2w3a1TLbouhDceUp4oWO9QOlPBXzna65MuCqL1+ROSM2iCxpgfJ8E8gF/9QtRboFLZDjZM7nC8IivBWYAZp1aLq21roBiBPrrbP8ozfTtvj+eVqNZEzNJa5xW0betbnfQlLdwUv1V4664UohiE/6/O5in9QbBAeywF5wPe840dBfL4ITCKUuhK2Ac8kff4zm5V0bjQYmCK4itv8RF5DIavOLjf1WEjYNxI5ohcanDz8Tu9IocF1jWAzPx96cFw0hQn2jzwZlvhW1hBt5CSKUTDY9lon3ksHRiCMcqiNLSSdw6fgCB13wPoG08PMwG1phrs8HLFGR8u0wYcht6AkMdP74hS8qnEjWaaDzepSENaslRxe4Cv9iBTpzVVMy0EAVJ992xHCanYtRHSEMhhXXJxMqinr54JflKdVIJyNDuhGeNUh00lgRmCQhqVp+AfqVQ5/weN+xwRbZJ/Ebum0k6/2WFLL7F44vgvBbE2S10hfi7ugVSEbWm8oybNFFpR0JSL0vj42yVxYiGjq+QdVkg25KtBcTY8hjLC6fN5mye8prqV+IVpMJ5O/HmQPYocMBZmYEuQt5L5BipdSoLYwMgeMpiWAJkpfmoBSq6Ev9RrXA85tDVuQ3OSdd8A3gg9dvCKMLxEHs6OogP1IbTgZOAbw1YP38qGHbTxkVza2zK3dGD+Emtyw1Tyi8dWbgZdwf8RaY8ZWw2ZnUU2lA06zq2PJM+NbK+goUjM0FqofbjjPCMzP7bYpFvhypJjoU10pxV+HoL60SUgMUHTfyo8mC4fzQLDLRpue7vO4bLz/y0drI7CyUgyufZ6pK50h2p5TuZLCrMO8QqgT84EOyCaqAghK/3XFfsBPFg6eMjgrCGi8Cl5VO3k7L3fJ05X8LzmbteIynvU4Xpydri9zcwizTrBhhdwG5AgcxYaxKpcSzvV6KpEowBPBHXEgFjh3DcnuKkkyl+f43DgwzDgKk11KwsAADyI5xycSnYneNxt1GI3P4/FxGlQakCpCyIIOSsDlnb+u46s9GFR1aL+ivHUshRGK1dANqIzcg8YM0zoRIm/CA10it7OlDL3GZlSocxakA9fPHx5MYpSRMui4iRKHyzBZrMgv6iwBbjNsTDZcnrrIgEdnehX1WeJYI6yERHP8s+PO1nnr+IXvJQ+oko1YyY4gmLiwGfwjkr8vcYiDC4bdTJZOoIJ9nAwytAIngiKVEYx+1WtasIAD9Ci/mbdV/qyQSPy9TlVcDZp/XiRD33rTPFFfMBUrtE5bYZU4foAuM9JTYAzIzwm4rA8vpqva4MBLQFInozIHijDuwlC26shp++7/tb73X7IxZa+Su9iQeq0ctGFOQbD99imdXz6BAqOOcZF4YeWYJI6pXjmWHE31C6ahyQVaeiXqls6bdbm+hgO0OxzBBCs6W/ICLG9HyHj7CoGmFzV01aZVitMgxr4dwv82aCNDaCpo7uE5smLZz3agUn1qs+BwsqiFkckaUbPizqyac5GEgKdfFybNdeePDngi+3qnNL9gBq+xz5Ao4mNLv3vrFtpCp7q1aRt1MaIQlTYWB/pzGN3skkHqBGSVm3wZOyE9QR48l08/R8L0injuJesfTPQ9tARPoBs3Qx52JzBhn/7DGVdZ6ylPQ==","functionCall": {"name": "click_browser_pixel","args": {"toolAction": "Clicking reload","PageID": "5411DAB9590ACD157E5A0154F9BA575B","toolSummary": "Clicking","Y": 483,"explanation": "Click the reload button on the chrome error page to try reconnecting.","ClickType": "left","X": 134},"id": "qcu134t1"}}]}}],"usageMetadata": {"promptTokenCount": 19136,"candidatesTokenCount": 102,"totalTokenCount": 19575,"thoughtsTokenCount": 337},"modelVersion": "gemini-3-flash","responseId": "oKEKasr6Fq7BjuMPvKTJ2Ak"},"traceId": "2c0ba92dea9c2d68","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 22185,"candidatesTokenCount": 102,"totalTokenCount": 22624,"cachedContentTokenCount": 20234,"thoughtsTokenCount": 337},"modelVersion": "gemini-3-flash","responseId": "oKEKasr6Fq7BjuMPvKTJ2Ak"},"traceId": "2c0ba92dea9c2d68","metadata": {}}
+

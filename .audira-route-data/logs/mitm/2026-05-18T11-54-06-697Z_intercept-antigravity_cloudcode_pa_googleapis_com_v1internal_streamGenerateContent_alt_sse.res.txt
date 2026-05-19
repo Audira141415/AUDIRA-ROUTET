@@ -1,0 +1,231 @@
+STATUS: 200
+HEADERS: {
+  "access-control-allow-origin": "*",
+  "cache-control": "no-cache",
+  "connection": "keep-alive",
+  "content-type": "text/event-stream",
+  "date": "Mon, 18 May 2026 11:54:10 GMT",
+  "transfer-encoding": "chunked",
+  "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+}
+---BODY---
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"<thinking"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":">\nI"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" can"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" see the Modal"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" component has"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" the"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" same"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" issue on"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" line"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" 97."}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" It"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"'s trying"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" to use `neoBrutalism."}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"shadows.offset.lg` which"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" doesn't exist. I need to replace"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" this with the glas"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"smorphism preset.\n\nLooking at"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" the code:"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n- Line 50"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":": `const"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" shadowColor = neoBrutalism."}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"shadows.color[mode];`"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n- Line 97"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":": `box"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"Shadow: `${neoB"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"rutalism.shadows.offset.lg"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"} ${shadowColor}"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"`,`\n\nThis"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" is construct"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"ing a"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" shadow by"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" combining offset"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" and color. In"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" the"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" glassmorphism system"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":", we"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" have"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" pre"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"sets that"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" already"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" include both"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"."}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" For"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" a"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" large"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" modal"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":", I"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" should use `"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"neoBrutalism.shadows.pre"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"sets.glassLg`."}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n\nHowever"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":", I notice"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" the Modal"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" is"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" still"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" using Neo"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"-Brutalism styling"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" (sharp"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" corners, thick borders"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":")."}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" The comments"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" even"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" say"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" \"Neo"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" Brutalism styling\"."}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" This suggests the Modal component"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" hasn"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"'t been fully"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" mig"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"rated to glas"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"smorphism yet.\n\nFor"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" now, I'll just"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" fix"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" the immediate"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" error"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" by using"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" the glassmorphism shadow"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" preset."}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" A"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" full"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" migration would involve"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":":\n-"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" Changing"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" border"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" radius"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" from"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" `none"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"` to something"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" like `medium"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"` or `large`\n-"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" Adjust"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"ing border"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" width"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n- Using"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" glas"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"smorphism backdrop"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" blur"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n\nBut"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" that"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"'s a larger"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" ref"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"actor."}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" Let me just"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" fix the shadow"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" error"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" for"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" now.\n</thinking>"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"functionCall":{"name":"replace_file_content","args":{"TargetFile":"F:\\AUDIRA-WEB-PERFECT-WORLD\\packages\\ui\\src\\components\\Modal.tsx","Instruction":"Replace undefined shadow.offset reference with glassmorphism preset","Description":"Fixed Modal shadow to use glassLg preset instead of non-existent offset.lg property","AllowMultiple":false,"TargetContent":"    const modalStyle: React.CSSProperties = {\n      position: 'relative',\n      width: '100%',\n      maxWidth,\n      maxHeight: '90vh',\n      overflowY: 'auto',\n      backgroundColor: colors.panel,\n      border: `${neoBrutalism.borders.width.thick} solid ${colors.border}`,\n      borderRadius: neoBrutalism.borders.radius.none,\n      boxShadow: `${neoBrutalism.shadows.offset.lg} ${shadowColor}`,\n      padding: '24px',\n      ...style,\n    };","ReplacementContent":"    const modalStyle: React.CSSProperties = {\n      position: 'relative',\n      width: '100%',\n      maxWidth,\n      maxHeight: '90vh',\n      overflowY: 'auto',\n      backgroundColor: colors.panel,\n      border: `${neoBrutalism.borders.width.thick} solid ${colors.border}`,\n      borderRadius: neoBrutalism.borders.radius.none,\n      boxShadow: neoBrutalism.shadows.presets.glassLg,\n      padding: '24px',\n      ...style,\n    };","StartLine":88,"EndLine":100,"toolAction":"Editing file","toolSummary":"Modal shadow fix"}}}]},"finishReason":"STOP"}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779105250383","usageMetadata":{"promptTokenCount":64027,"candidatesTokenCount":284,"totalTokenCount":64311}}}
+
+data: [DONE]
+
+data: [DONE]
+

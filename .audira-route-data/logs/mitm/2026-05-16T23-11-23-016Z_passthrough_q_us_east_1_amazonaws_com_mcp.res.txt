@@ -1,0 +1,16 @@
+STATUS: 403
+HEADERS: {
+  "date": "Sat, 16 May 2026 23:11:23 GMT",
+  "content-type": "application/json",
+  "content-length": "80",
+  "connection": "close",
+  "x-amzn-requestid": "fb01e08f-08ae-4cbf-8bf7-01cd2692d3c0",
+  "x-xss-protection": "1; mode=block",
+  "strict-transport-security": "max-age=47304000; includeSubDomains",
+  "x-frame-options": "DENY",
+  "x-amzn-errortype": "AccessDeniedException:http://internal.amazon.com/coral/com.amazon.kiro.runtimeservice/",
+  "cache-control": "no-cache",
+  "x-content-type-options": "nosniff"
+}
+---BODY---
+{"message":"The bearer token included in the request is invalid.","reason":null}

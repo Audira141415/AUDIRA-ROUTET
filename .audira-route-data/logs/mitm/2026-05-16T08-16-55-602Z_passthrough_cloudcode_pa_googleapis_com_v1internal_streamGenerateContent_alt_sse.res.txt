@@ -1,0 +1,27 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Sat, 16 May 2026 08:16:59 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=2466",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]}}],"usageMetadata": {"promptTokenCount": 17149,"candidatesTokenCount": 20,"totalTokenCount": 17169,"cachedContentTokenCount": 13860},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5v9nRdtkTRnHZrVYws3"},"traceId": "1adf42738413625b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"functionCall": {"name": "list_dir","args": {"DirectoryPath": "f:\\AUDIRA-WEB-SEAL-ONLINE\\apps","toolAction": "Exploring apps directory","toolSummary": "Apps folder contents"},"id": "toolu_vrtx_01VPYx8MC1zacsuAkCUH7yJb"}}]}}],"usageMetadata": {"promptTokenCount": 17149,"candidatesTokenCount": 20,"totalTokenCount": 17169,"cachedContentTokenCount": 13860},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5v9nRdtkTRnHZrVYws3"},"traceId": "1adf42738413625b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"functionCall": {"name": "list_dir","args": {"DirectoryPath": "f:\\AUDIRA-WEB-SEAL-ONLINE\\packages","toolAction": "Exploring packages directory","toolSummary": "Packages folder contents"},"id": "toolu_vrtx_01ANhV4qvL7bwMqc8JAAd4Ug"}}]}}],"usageMetadata": {"promptTokenCount": 17149,"candidatesTokenCount": 20,"totalTokenCount": 17169,"cachedContentTokenCount": 13860},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5v9nRdtkTRnHZrVYws3"},"traceId": "1adf42738413625b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"functionCall": {"name": "view_file","args": {"toolAction": "Reading root package.json","toolSummary": "Root package config","AbsolutePath": "f:\\AUDIRA-WEB-SEAL-ONLINE\\package.json"},"id": "toolu_vrtx_01BFTSNDKoP6e81mo13qNdxB"}}]}}],"usageMetadata": {"promptTokenCount": 17149,"candidatesTokenCount": 20,"totalTokenCount": 17169,"cachedContentTokenCount": 13860},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5v9nRdtkTRnHZrVYws3"},"traceId": "1adf42738413625b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"functionCall": {"name": "view_file","args": {"AbsolutePath": "f:\\AUDIRA-WEB-SEAL-ONLINE\\turbo.json","toolAction": "Reading turbo config","toolSummary": "Turbo build config"},"id": "toolu_vrtx_014jcGowweHtFwaSpeWrszsd"}}]}}],"usageMetadata": {"promptTokenCount": 17149,"candidatesTokenCount": 20,"totalTokenCount": 17169,"cachedContentTokenCount": 13860},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5v9nRdtkTRnHZrVYws3"},"traceId": "1adf42738413625b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 17149,"candidatesTokenCount": 412,"totalTokenCount": 17561,"cachedContentTokenCount": 13860},"modelVersion": "claude-sonnet-4-6","responseId": "req_vrtx_011Cb5v9nRdtkTRnHZrVYws3"},"traceId": "1adf42738413625b","metadata": {}}
+

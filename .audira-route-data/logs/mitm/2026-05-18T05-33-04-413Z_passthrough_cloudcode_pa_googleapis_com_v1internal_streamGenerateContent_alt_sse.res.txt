@@ -1,0 +1,19 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 05:33:06 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=1909",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EskBCsYBAQw51scJk4IvnOOtSN/K7vaaveT/yQCHKOrRdrVwZHzIcLKXtblVHH/+KkuATZQiAphtYR9cFIuWLb9JFQJPqZfIkKhvB8wjRBXOgqrKEEGw+L6qmgs3pYj3gt1wst/eOeb4v1mI7y4s1FZuvj5X3VULppHwdL66YY5jnkARFUltg1JRDB2fMmF/cRgkIFVuYYUd2tVg0PPTyehA3tTvJNofHnNdA7UmfnlGFZaAGrQe0CsvFZAZFugMwUs8ONk4fj2++F5o","functionCall": {"name": "list_browser_pages","args": {"toolAction": "Listing browser pages","toolSummary": "Page listing","explanation": "List all open pages in browser to find the page_id after a timeout."},"id": "vzcl52k1"}}]}}],"usageMetadata": {"promptTokenCount": 15023,"candidatesTokenCount": 50,"totalTokenCount": 15109,"thoughtsTokenCount": 36},"modelVersion": "gemini-3-flash","responseId": "kKQKapPdOLf-juMPrq2xgA4"},"traceId": "87ea886a901139d2","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 15469,"candidatesTokenCount": 50,"totalTokenCount": 15555,"thoughtsTokenCount": 36},"modelVersion": "gemini-3-flash","responseId": "kKQKapPdOLf-juMPrq2xgA4"},"traceId": "87ea886a901139d2","metadata": {}}
+

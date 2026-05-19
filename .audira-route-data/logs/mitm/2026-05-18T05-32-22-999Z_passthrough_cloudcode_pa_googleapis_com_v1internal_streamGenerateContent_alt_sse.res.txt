@@ -1,0 +1,41 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 05:32:25 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=2201",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "I have attempted to verify the navigation sidebar by loading the application at"}]}}],"usageMetadata": {"promptTokenCount": 28189,"candidatesTokenCount": 13,"totalTokenCount": 28240,"thoughtsTokenCount": 38},"modelVersion": "gemini-3-flash","responseId": "Z6QKauDcC4GvjuMPp4rJqAQ"},"traceId": "6b159e1eee2a8505","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " `http://localhost:3000` in the browser, but was unable to complete the task because the development server is refusing"}]}}],"usageMetadata": {"promptTokenCount": 28189,"candidatesTokenCount": 40,"totalTokenCount": 28267,"thoughtsTokenCount": 38},"modelVersion": "gemini-3-flash","responseId": "Z6QKauDcC4GvjuMPp4rJqAQ"},"traceId": "6b159e1eee2a8505","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " connections.\n\n### Actions Taken:\n1. **Initialized and Updated Scratchpad**: Outlined the verification plan and tracked execution"}]}}],"usageMetadata": {"promptTokenCount": 28189,"candidatesTokenCount": 65,"totalTokenCount": 28292,"thoughtsTokenCount": 38},"modelVersion": "gemini-3-flash","responseId": "Z6QKauDcC4GvjuMPp4rJqAQ"},"traceId": "6b159e1eee2a8505","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " steps.\n2. **Attempted Navigation to Development Server**: Made multiple attempts to load `http://localhost:3000"}]}}],"usageMetadata": {"promptTokenCount": 28189,"candidatesTokenCount": 92,"totalTokenCount": 28319,"thoughtsTokenCount": 38},"modelVersion": "gemini-3-flash","responseId": "Z6QKauDcC4GvjuMPp4rJqAQ"},"traceId": "6b159e1eee2a8505","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "` (and `http://127.0.0.1:3000`) after waiting for the server to fully initialize"}]}}],"usageMetadata": {"promptTokenCount": 28189,"candidatesTokenCount": 121,"totalTokenCount": 28348,"thoughtsTokenCount": 38},"modelVersion": "gemini-3-flash","responseId": "Z6QKauDcC4GvjuMPp4rJqAQ"},"traceId": "6b159e1eee2a8505","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ".\n3. **Attempted Alternative Ports/Hosts**: Tested common alternative configurations, including `localhost:3001`,"}]}}],"usageMetadata": {"promptTokenCount": 28189,"candidatesTokenCount": 147,"totalTokenCount": 28374,"thoughtsTokenCount": 38},"modelVersion": "gemini-3-flash","responseId": "Z6QKauDcC4GvjuMPp4rJqAQ"},"traceId": "6b159e1eee2a8505","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " `localhost:3002`, `[::1]:3000`, and `host.docker.internal:"}]}}],"usageMetadata": {"promptTokenCount": 28189,"candidatesTokenCount": 173,"totalTokenCount": 28400,"thoughtsTokenCount": 38},"modelVersion": "gemini-3-flash","responseId": "Z6QKauDcC4GvjuMPp4rJqAQ"},"traceId": "6b159e1eee2a8505","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "3000` to rule out port mismatches or hostname resolution issues.\n4. **Resulted in Fail"}]}}],"usageMetadata": {"promptTokenCount": 28189,"candidatesTokenCount": 197,"totalTokenCount": 28424,"thoughtsTokenCount": 38},"modelVersion": "gemini-3-flash","responseId": "Z6QKauDcC4GvjuMPp4rJqAQ"},"traceId": "6b159e1eee2a8505","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "ures**: Every attempt resulted in `net::ERR_CONNECTION_REFUSED` or `net::ERR_NAME_NOT_RESOLVED`, indicating the development server might"}]}}],"usageMetadata": {"promptTokenCount": 28189,"candidatesTokenCount": 231,"totalTokenCount": 28458,"thoughtsTokenCount": 38},"modelVersion": "gemini-3-flash","responseId": "Z6QKauDcC4GvjuMPp4rJqAQ"},"traceId": "6b159e1eee2a8505","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " have crashed, exited, or failed to start correctly.\n\n### Error Details:\n* **Tool Failed**: `open"}]}}],"usageMetadata": {"promptTokenCount": 28189,"candidatesTokenCount": 255,"totalTokenCount": 28482,"thoughtsTokenCount": 38},"modelVersion": "gemini-3-flash","responseId": "Z6QKauDcC4GvjuMPp4rJqAQ"},"traceId": "6b159e1eee2a8505","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "_browser_url`\n* **Error**: `navigate to URL: Frame.Goto http://localhost:3000: playwright"}]}}],"usageMetadata": {"promptTokenCount": 28189,"candidatesTokenCount": 283,"totalTokenCount": 28510,"thoughtsTokenCount": 38},"modelVersion": "gemini-3-flash","responseId": "Z6QKauDcC4GvjuMPp4rJqAQ"},"traceId": "6b159e1eee2a8505","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ": net::ERR_CONNECTION_REFUSED at http://localhost:3000/`"}]}}],"usageMetadata": {"promptTokenCount": 28189,"candidatesTokenCount": 303,"totalTokenCount": 28530,"thoughtsTokenCount": 38},"modelVersion": "gemini-3-flash","responseId": "Z6QKauDcC4GvjuMPp4rJqAQ"},"traceId": "6b159e1eee2a8505","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EpkCCpYCAQw51seSC0pADfLzAOP6K6tA4Y6PYXN6kSXdiOWgzDE6zfs15TMKhdrtnlVai44ZRc7EF0aK+nuBJPvZZp9yUmHUf3bcb3w/HQW8kXXfdouHXsJNUifNOYRVWtNhGjwLCD1QrsQHdaC8t6ledJ9bj77eGmBpCkb1u+Cgsm5AfDfU2pVZXoGr6AjY+cJDvbTVH1063nz3dwfWRmL6tWcyH3LrGsw+oLD+Z6GMEN0f1u2/hkkAKR0HJvxSxfGYedEger7fAmJiP5UB+PO9V8HGmr8xwt+oeH6gUdbffTtc476xkLTZGSRmy5FsWZ1i09bkbzirjSkv0sbOypBVnEVdGRQTr7ge9ZXxkHztm1CR+UJEKmr8TGk=","text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 34487,"candidatesTokenCount": 303,"totalTokenCount": 34828,"cachedContentTokenCount": 28302,"thoughtsTokenCount": 38},"modelVersion": "gemini-3-flash","responseId": "Z6QKauDcC4GvjuMPp4rJqAQ"},"traceId": "6b159e1eee2a8505","metadata": {}}
+

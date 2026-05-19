@@ -1,0 +1,19 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 05:33:59 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=2943",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EucCCuQCAQw51senCmZ0g/Mq35PBMJygRnWf1pl4NXrw+t1Ho1/q60hQwx1Sl4MhrDjPLguSwd+sQH/hjqgk23scnYyi4qSYavC/yxaEiyhWBckqK5eeR2t89LLeGfEDa/CiQc+bCZB65geOOrYDFyOgy927QayH1RQopjw3dxwp+3zBhSwGT3ky7lw/Q2nC8jk2vYtyiQLO+GuVfuSLXhZSed89i/Alo1CsoGZKrMY5BlXlBw1AQaROU6tASlwZWvVAvftPr8BpMIr8u0Pw0OXa2nGEvGED5DNpAsNwfhWQW0j9kHOZRRBBw/MqbegeiLbNr4XeFuzOz1gzdt6ysojHanWxQVFxNVfxuq9FqARAZyY5CyXZxlyUhDJ607lkUE6sxuAJ0JJXDntCzYoTnoEcAj4CpuWHZoImQ6anaO0e0YjCH/8ltKzzsdvptOZudDlW4TarhHKI/WknuUBVSGIlaDk1NVnijO8=","functionCall": {"name": "view_file","args": {"AbsolutePath": "C:\\Users\\ASUS\\.gemini\\antigravity\\brain\\00103c12-fab5-48d8-953b-a371784f01f6\\browser\\scratchpad_ojbt2f7h.md","toolSummary": "Scratchpad analysis","toolAction": "Viewing scratchpad file","explanation": "Read scratchpad before editing it to keep alignment exact."},"id": "mm50e909"}}]}}],"usageMetadata": {"promptTokenCount": 18758,"candidatesTokenCount": 115,"totalTokenCount": 18976,"thoughtsTokenCount": 103},"modelVersion": "gemini-3-flash","responseId": "xaQKav3aKvelg8UPyKSruAQ"},"traceId": "d238a8abda3fc9b6","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 21089,"candidatesTokenCount": 115,"totalTokenCount": 21307,"cachedContentTokenCount": 16237,"thoughtsTokenCount": 103},"modelVersion": "gemini-3-flash","responseId": "xaQKav3aKvelg8UPyKSruAQ"},"traceId": "d238a8abda3fc9b6","metadata": {}}
+

@@ -1,0 +1,25 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Tue, 19 May 2026 00:19:52 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=710",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\": \"#"}]}}],"usageMetadata": {"promptTokenCount": 8269,"candidatesTokenCount": 2,"totalTokenCount": 8271},"modelVersion": "tab_flash_lite_preview","responseId": "p6wLaqGjJ7ijjuMPg6mw8Ao"},"traceId": "8e88d6dd0ba5bc91","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " AUDIRA-WEB-GTA - Session Memory\\n\\n\u003e **"}]}}],"usageMetadata": {"promptTokenCount": 8269,"candidatesTokenCount": 18,"totalTokenCount": 8287,"cachedContentTokenCount": 6144},"modelVersion": "tab_flash_lite_preview","responseId": "p6wLaqGjJ7ijjuMPg6mw8Ao"},"traceId": "8e88d6dd0ba5bc91","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "Purpose**: This file serves as persistent memory across AI agent sessions. It is automatically updated at the end of each session and loaded at the start of new sessions to maintain context continuity.\\n\\n---\"\n\t\t}\n\t]\n}\n\u003c/"}]}}],"usageMetadata": {"promptTokenCount": 8269,"candidatesTokenCount": 69,"totalTokenCount": 8338,"cachedContentTokenCount": 6144},"modelVersion": "tab_flash_lite_preview","responseId": "p6wLaqGjJ7ijjuMPg6mw8Ao"},"traceId": "8e88d6dd0ba5bc91","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "replace_file_content\u003e"}]}}],"usageMetadata": {"promptTokenCount": 8269,"candidatesTokenCount": 75,"totalTokenCount": 8344,"cachedContentTokenCount": 6144},"modelVersion": "tab_flash_lite_preview","responseId": "p6wLaqGjJ7ijjuMPg6mw8Ao"},"traceId": "8e88d6dd0ba5bc91","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 8269,"candidatesTokenCount": 75,"totalTokenCount": 8344,"cachedContentTokenCount": 6144},"modelVersion": "tab_flash_lite_preview","responseId": "p6wLaqGjJ7ijjuMPg6mw8Ao"},"traceId": "8e88d6dd0ba5bc91","metadata": {}}
+

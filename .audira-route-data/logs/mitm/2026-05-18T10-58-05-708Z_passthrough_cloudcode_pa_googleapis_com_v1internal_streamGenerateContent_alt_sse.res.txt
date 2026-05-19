@@ -1,0 +1,31 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 10:58:07 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=1215",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "Switching"}]}}],"usageMetadata": {"promptTokenCount": 67839,"candidatesTokenCount": 2,"totalTokenCount": 67841},"modelVersion": "gemini-3.1-flash-lite","responseId": "vvAKat-VHc-ejuMPvtmKiQ4"},"traceId": "4905fe73126bb2f8","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " To Light Theme\n\nMain Objective: Migrate the Perfect World Neo Brutalism project'"}]}}],"usageMetadata": {"promptTokenCount": 67839,"candidatesTokenCount": 19,"totalTokenCount": 67858},"modelVersion": "gemini-3.1-flash-lite","responseId": "vvAKat-VHc-ejuMPvtmKiQ4"},"traceId": "4905fe73126bb2f8","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "s visual identity from the current dark theme to a comprehensive Light Mode Neo Brutalism theme.\n\nGoals:\n1."}]}}],"usageMetadata": {"promptTokenCount": 67839,"candidatesTokenCount": 44,"totalTokenCount": 67883},"modelVersion": "gemini-3.1-flash-lite","responseId": "vvAKat-VHc-ejuMPvtmKiQ4"},"traceId": "4905fe73126bb2f8","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " Update the design system tokens in the UI package to prioritize light-mode color variables.\n2. Refactor global CSS to"}]}}],"usageMetadata": {"promptTokenCount": 67839,"candidatesTokenCount": 69,"totalTokenCount": 67908},"modelVersion": "gemini-3.1-flash-lite","responseId": "vvAKat-VHc-ejuMPvtmKiQ4"},"traceId": "4905fe73126bb2f8","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " set light-mode as the primary visual state.\n3. Apply color variable updates across all components to ensure proper high-contrast, light"}]}}],"usageMetadata": {"promptTokenCount": 67839,"candidatesTokenCount": 97,"totalTokenCount": 67936},"modelVersion": "gemini-3.1-flash-lite","responseId": "vvAKat-VHc-ejuMPvtmKiQ4"},"traceId": "4905fe73126bb2f8","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "-theme compliance.\n4. Verify the updated aesthetic against Neo Brutalism design principles (bold borders, offset shadows, vibrant accents"}]}}],"usageMetadata": {"promptTokenCount": 67839,"candidatesTokenCount": 124,"totalTokenCount": 67963},"modelVersion": "gemini-3.1-flash-lite","responseId": "vvAKat-VHc-ejuMPvtmKiQ4"},"traceId": "4905fe73126bb2f8","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ")."}]}}],"usageMetadata": {"promptTokenCount": 67839,"candidatesTokenCount": 125,"totalTokenCount": 67964},"modelVersion": "gemini-3.1-flash-lite","responseId": "vvAKat-VHc-ejuMPvtmKiQ4"},"traceId": "4905fe73126bb2f8","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EjQKMgEMOdbH5mtvtchw+6XKs33kOaDFzXc/AQRums4GNyAHINutx1j9KYBWxlgjQmPeH0ti","text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 67839,"candidatesTokenCount": 125,"totalTokenCount": 67964},"modelVersion": "gemini-3.1-flash-lite","responseId": "vvAKat-VHc-ejuMPvtmKiQ4"},"traceId": "4905fe73126bb2f8","metadata": {}}
+

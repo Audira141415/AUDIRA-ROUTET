@@ -1,0 +1,25 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 07:44:03 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=966",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "Configuring"}]}}],"usageMetadata": {"promptTokenCount": 4380,"candidatesTokenCount": 2,"totalTokenCount": 4382},"modelVersion": "gemini-3.1-flash-lite","responseId": "Q8MKavPPC7zp4-EPstWA6Q0"},"traceId": "9989752893db9eb","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " API Port Settings\n\nThe user wants to investigate and potentially change the default port ("}]}}],"usageMetadata": {"promptTokenCount": 4380,"candidatesTokenCount": 18,"totalTokenCount": 4398},"modelVersion": "gemini-3.1-flash-lite","responseId": "Q8MKavPPC7zp4-EPstWA6Q0"},"traceId": "9989752893db9eb","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "3000) being used by the VulnX Hunter API service. The objective is to identify where the port is currently defined in the Nest"}]}}],"usageMetadata": {"promptTokenCount": 4380,"candidatesTokenCount": 47,"totalTokenCount": 4427},"modelVersion": "gemini-3.1-flash-lite","responseId": "Q8MKavPPC7zp4-EPstWA6Q0"},"traceId": "9989752893db9eb","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "JS application or project environment and transition to a more suitable or custom port configuration to avoid conflicts or align with project deployment standards."}]}}],"usageMetadata": {"promptTokenCount": 4380,"candidatesTokenCount": 72,"totalTokenCount": 4452},"modelVersion": "gemini-3.1-flash-lite","responseId": "Q8MKavPPC7zp4-EPstWA6Q0"},"traceId": "9989752893db9eb","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EjQKMgEMOdbHqern9SzTVHmEd+PORqWp4AHag6Jo3ksBTsZnb+KD83qqxEiHUX0Cd3YZV/bF","text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 4380,"candidatesTokenCount": 72,"totalTokenCount": 4452},"modelVersion": "gemini-3.1-flash-lite","responseId": "Q8MKavPPC7zp4-EPstWA6Q0"},"traceId": "9989752893db9eb","metadata": {}}
+

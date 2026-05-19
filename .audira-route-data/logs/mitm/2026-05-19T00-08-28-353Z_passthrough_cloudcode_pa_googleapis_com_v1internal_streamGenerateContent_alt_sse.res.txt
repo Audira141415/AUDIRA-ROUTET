@@ -1,0 +1,31 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Tue, 19 May 2026 00:08:30 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=1047",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "Establishing"}]}}],"usageMetadata": {"promptTokenCount": 4191,"candidatesTokenCount": 1,"totalTokenCount": 4192},"modelVersion": "gemini-3.1-flash-lite","responseId": "_akLavDWOu_2juMP1o7ruAQ"},"traceId": "718244c752b9f823","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " Persistent Project Memory\n\nMain Objective: Implement a `memory.md` file in"}]}}],"usageMetadata": {"promptTokenCount": 4191,"candidatesTokenCount": 17,"totalTokenCount": 4208},"modelVersion": "gemini-3.1-flash-lite","responseId": "_akLavDWOu_2juMP1o7ruAQ"},"traceId": "718244c752b9f823","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " the root of the AUDIRA-ROUTET project to maintain context across sessions.\n\nGoals:\n1. Create `memory."}]}}],"usageMetadata": {"promptTokenCount": 4191,"candidatesTokenCount": 45,"totalTokenCount": 4236},"modelVersion": "gemini-3.1-flash-lite","responseId": "_akLavDWOu_2juMP1o7ruAQ"},"traceId": "718244c752b9f823","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "md` with a structured format to track key project state, ongoing tasks, and historical session insights.\n2. Establish"}]}}],"usageMetadata": {"promptTokenCount": 4191,"candidatesTokenCount": 69,"totalTokenCount": 4260},"modelVersion": "gemini-3.1-flash-lite","responseId": "_akLavDWOu_2juMP1o7ruAQ"},"traceId": "718244c752b9f823","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " a protocol for reading this file at the start of each session to ensure continuity.\n3. Establish a protocol for updating this file at the"}]}}],"usageMetadata": {"promptTokenCount": 4191,"candidatesTokenCount": 97,"totalTokenCount": 4288},"modelVersion": "gemini-3.1-flash-lite","responseId": "_akLavDWOu_2juMP1o7ruAQ"},"traceId": "718244c752b9f823","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " end of each session to record progress and important findings.\n4. Ensure the system is easily maintainable and provides high"}]}}],"usageMetadata": {"promptTokenCount": 4191,"candidatesTokenCount": 121,"totalTokenCount": 4312},"modelVersion": "gemini-3.1-flash-lite","responseId": "_akLavDWOu_2juMP1o7ruAQ"},"traceId": "718244c752b9f823","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "-value context for future development cycles."}]}}],"usageMetadata": {"promptTokenCount": 4191,"candidatesTokenCount": 129,"totalTokenCount": 4320},"modelVersion": "gemini-3.1-flash-lite","responseId": "_akLavDWOu_2juMP1o7ruAQ"},"traceId": "718244c752b9f823","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EjQKMgEMOdbHsOusl7ANk2zjAfINRWtUdcTOs0YXB9xByfP8hXUX0/5ZOl/RuqKJgEK2ak8i","text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 4191,"candidatesTokenCount": 129,"totalTokenCount": 4320},"modelVersion": "gemini-3.1-flash-lite","responseId": "_akLavDWOu_2juMP1o7ruAQ"},"traceId": "718244c752b9f823","metadata": {}}
+

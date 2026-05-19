@@ -1,0 +1,61 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 07:07:52 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=784",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "import { Controller, Get, Post, Body, Param, Patch, Delete, Use"}]}}],"usageMetadata": {"promptTokenCount": 820,"candidatesTokenCount": 17,"totalTokenCount": 837},"modelVersion": "gemini-2.5-flash","responseId": "x7oKapmNIISwjuMPoMuzuQQ"},"traceId": "6b4a8b6de3894c14","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "Guards, Query, Res } from '@nestjs/common';\nimport { Response } from 'express';\nimport"}]}}],"usageMetadata": {"promptTokenCount": 820,"candidatesTokenCount": 41,"totalTokenCount": 861},"modelVersion": "gemini-2.5-flash","responseId": "x7oKapmNIISwjuMPoMuzuQQ"},"traceId": "6b4a8b6de3894c14","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " { VulnerabilityService } from './vulnerability.service';\nimport { ExportService } from '../export/export.service';\nimport"}]}}],"usageMetadata": {"promptTokenCount": 820,"candidatesTokenCount": 69,"totalTokenCount": 889},"modelVersion": "gemini-2.5-flash","responseId": "x7oKapmNIISwjuMPoMuzuQQ"},"traceId": "6b4a8b6de3894c14","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " { CreateVulnerabilityDto, UpdateVulnerabilityDto } from './dto/vulnerability.dto';\nimport { Auth"}]}}],"usageMetadata": {"promptTokenCount": 820,"candidatesTokenCount": 93,"totalTokenCount": 913},"modelVersion": "gemini-2.5-flash","responseId": "x7oKapmNIISwjuMPoMuzuQQ"},"traceId": "6b4a8b6de3894c14","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "Guard } from '../auth/guards/auth.guard';\n\n@UseGuards(AuthGuard)\n@Controller"}]}}],"usageMetadata": {"promptTokenCount": 820,"candidatesTokenCount": 117,"totalTokenCount": 937},"modelVersion": "gemini-2.5-flash","responseId": "x7oKapmNIISwjuMPoMuzuQQ"},"traceId": "6b4a8b6de3894c14","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "('vulnerabilities')\nexport class VulnerabilityController {\n  constructor(\n    private readonly vulnerabilityService: Vulner"}]}}],"usageMetadata": {"promptTokenCount": 820,"candidatesTokenCount": 141,"totalTokenCount": 961},"modelVersion": "gemini-2.5-flash","responseId": "x7oKapmNIISwjuMPoMuzuQQ"},"traceId": "6b4a8b6de3894c14","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "abilityService,\n    private readonly exportService: ExportService,\n  ) {}\n\n  @Post()\n  "}]}}],"usageMetadata": {"promptTokenCount": 820,"candidatesTokenCount": 165,"totalTokenCount": 985},"modelVersion": "gemini-2.5-flash","responseId": "x7oKapmNIISwjuMPoMuzuQQ"},"traceId": "6b4a8b6de3894c14","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "async create(@Body() dto: CreateVulnerabilityDto) {\n    return this.vulnerabilityService.create("}]}}],"usageMetadata": {"promptTokenCount": 820,"candidatesTokenCount": 189,"totalTokenCount": 1009},"modelVersion": "gemini-2.5-flash","responseId": "x7oKapmNIISwjuMPoMuzuQQ"},"traceId": "6b4a8b6de3894c14","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "dto);\n  }\n\n  @Get()\n  async findAll(@Query('targetId') targetId?: string"}]}}],"usageMetadata": {"promptTokenCount": 820,"candidatesTokenCount": 213,"totalTokenCount": 1033},"modelVersion": "gemini-2.5-flash","responseId": "x7oKapmNIISwjuMPoMuzuQQ"},"traceId": "6b4a8b6de3894c14","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ", @Query('severity') severity?: string) {\n    return this.vulnerabilityService.findAll(targetId"}]}}],"usageMetadata": {"promptTokenCount": 820,"candidatesTokenCount": 237,"totalTokenCount": 1057},"modelVersion": "gemini-2.5-flash","responseId": "x7oKapmNIISwjuMPoMuzuQQ"},"traceId": "6b4a8b6de3894c14","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ", severity);\n  }\n\n  @Get(':id')\n  async findOne(@Param('id') id"}]}}],"usageMetadata": {"promptTokenCount": 820,"candidatesTokenCount": 261,"totalTokenCount": 1081},"modelVersion": "gemini-2.5-flash","responseId": "x7oKapmNIISwjuMPoMuzuQQ"},"traceId": "6b4a8b6de3894c14","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ": string) {\n    return this.vulnerabilityService.findOne(id);\n  }\n\n  @Patch"}]}}],"usageMetadata": {"promptTokenCount": 820,"candidatesTokenCount": 285,"totalTokenCount": 1105},"modelVersion": "gemini-2.5-flash","responseId": "x7oKapmNIISwjuMPoMuzuQQ"},"traceId": "6b4a8b6de3894c14","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "(':id')\n  async update(@Param('id') id: string, @Body() dto: UpdateVulnerability"}]}}],"usageMetadata": {"promptTokenCount": 820,"candidatesTokenCount": 309,"totalTokenCount": 1129},"modelVersion": "gemini-2.5-flash","responseId": "x7oKapmNIISwjuMPoMuzuQQ"},"traceId": "6b4a8b6de3894c14","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "Dto) {\n    return this.vulnerabilityService.update(id, dto);\n  }\n\n  @"}]}}],"usageMetadata": {"promptTokenCount": 820,"candidatesTokenCount": 333,"totalTokenCount": 1153},"modelVersion": "gemini-2.5-flash","responseId": "x7oKapmNIISwjuMPoMuzuQQ"},"traceId": "6b4a8b6de3894c14","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "Delete(':id')\n  async delete(@Param('id') id: string) {\n    return this.v"}]}}],"usageMetadata": {"promptTokenCount": 820,"candidatesTokenCount": 357,"totalTokenCount": 1177},"modelVersion": "gemini-2.5-flash","responseId": "x7oKapmNIISwjuMPoMuzuQQ"},"traceId": "6b4a8b6de3894c14","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "ulnerabilityService.delete(id);\n  }\n\n  @Get('stats/summary')\n  async getStats"}]}}],"usageMetadata": {"promptTokenCount": 820,"candidatesTokenCount": 381,"totalTokenCount": 1201},"modelVersion": "gemini-2.5-flash","responseId": "x7oKapmNIISwjuMPoMuzuQQ"},"traceId": "6b4a8b6de3894c14","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "() {\n    return this.vulnerabilityService.getStats();\n  }\n\n  @Get('export/"}]}}],"usageMetadata": {"promptTokenCount": 820,"candidatesTokenCount": 405,"totalTokenCount": 1225},"modelVersion": "gemini-2.5-flash","responseId": "x7oKapmNIISwjuMPoMuzuQQ"},"traceId": "6b4a8b6de3894c14","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "csv')\n  async exportToCSV(@Res() res: Response) {\n    const vulnerabilities = await this."}]}}],"usageMetadata": {"promptTokenCount": 820,"candidatesTokenCount": 429,"totalTokenCount": 1249},"modelVersion": "gemini-2.5-flash","responseId": "x7oKapmNIISwjuMPoMuzuQQ"},"traceId": "6b4a8b6de3894c14","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "vulnerabilityService.findAll();\n    const csv = this.exportService.exportVulnerabilitiesToCSV(v"}]}}],"usageMetadata": {"promptTokenCount": 820,"candidatesTokenCount": 453,"totalTokenCount": 1273},"modelVersion": "gemini-2.5-flash","responseId": "x7oKapmNIISwjuMPoMuzuQQ"},"traceId": "6b4a8b6de3894c14","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "ulnerabilities);\n    \n    res.setHeader('Content-Type', 'text/csv');\n    res."}]}}],"usageMetadata": {"promptTokenCount": 820,"candidatesTokenCount": 477,"totalTokenCount": 1297},"modelVersion": "gemini-2.5-flash","responseId": "x7oKapmNIISwjuMPoMuzuQQ"},"traceId": "6b4a8b6de3894c14","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "setHeader('Content-Disposition', `attachment; filename=\"vulnerabilities_${Date.now()}.csv\"`);\n    "}]}}],"usageMetadata": {"promptTokenCount": 820,"candidatesTokenCount": 501,"totalTokenCount": 1321},"modelVersion": "gemini-2.5-flash","responseId": "x7oKapmNIISwjuMPoMuzuQQ"},"traceId": "6b4a8b6de3894c14","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "res.send(csv);\n  }\n}"}]}}],"usageMetadata": {"promptTokenCount": 820,"candidatesTokenCount": 512,"totalTokenCount": 1332},"modelVersion": "gemini-2.5-flash","responseId": "x7oKapmNIISwjuMPoMuzuQQ"},"traceId": "6b4a8b6de3894c14","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EjQKMgEMOdbHdAwjQaxw3HVZJZA7WzkHNbf1STguetRHIy0r56TSe64jrTMv2FFUwXiiRXev","text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 820,"candidatesTokenCount": 512,"totalTokenCount": 1332},"modelVersion": "gemini-2.5-flash","responseId": "x7oKapmNIISwjuMPoMuzuQQ"},"traceId": "6b4a8b6de3894c14","metadata": {}}
+

@@ -1,0 +1,93 @@
+STATUS: 200
+HEADERS: {
+  "access-control-allow-origin": "*",
+  "cache-control": "no-cache",
+  "connection": "keep-alive",
+  "content-type": "text/event-stream",
+  "date": "Mon, 18 May 2026 07:51:02 GMT",
+  "transfer-encoding": "chunked",
+  "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+}
+---BODY---
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"<thinking"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090662035"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":">\nThe user continues"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090662035"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" to say \"continue\" with thinking mode"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090662035"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" enabled. I"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090662035"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"'ve"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090662035"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" successfully"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090662035"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" installed"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090662035"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" the missing dependencies (@"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090662035"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"types/nodemailer, cron"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090662035"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":", @types/cron)."}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090662035"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" Now"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090662035"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" I need to:"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090662035"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n\n1. Fix the ts"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090662035"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"config.json module configuration issue ("}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090662035"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"module"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090662035"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":": \"commonjs\" conflicts"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090662035"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" with module"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090662035"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"Resolution: \"NodeNext\")"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090662035"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n2. Fix the TypeScript error"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090662035"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" handling"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090662035"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" issues"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090662035"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" ("}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090662035"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"error.message on unknown type)"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090662035"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n3. Fix the Prisma $"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090662035"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"queryRaw and $executeRaw"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090662035"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" issues"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090662035"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n\nLet me start"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090662035"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" by"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090662035"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" fixing the tsconfig.json to"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090662035"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" resolve"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090662035"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" the module configuration conflict"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090662035"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":".\n</thinking>\n\nGood"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090662035"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":","}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090662035"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" dependencies"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090662035"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" are installed. Now let me fix the"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090662035"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" tsconfig.json module"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090662035"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" configuration conflict"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090662035"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"."}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090662035"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"functionCall":{"name":"replace_file_content","args":{"AllowMultiple":false,"Description":"Fixed TypeScript configuration to remove module conflict and use proper NestJS settings","EndLine":28,"Instruction":"Fix the module configuration to be compatible with NestJS and remove the conflict","ReplacementContent":"{\n  \"compilerOptions\": {\n    \"module\": \"commonjs\",\n    \"declaration\": true,\n    \"removeComments\": true,\n    \"emitDecoratorMetadata\": true,\n    \"experimentalDecorators\": true,\n    \"allowSyntheticDefaultImports\": true,\n    \"target\": \"ES2021\",\n    \"sourceMap\": true,\n    \"outDir\": \"./dist\",\n    \"baseUrl\": \"./\",\n    \"incremental\": true,\n    \"skipLibCheck\": true,\n    \"strictNullChecks\": false,\n    \"noImplicitAny\": false,\n    \"strictBindCallApply\": false,\n    \"forceConsistentCasingInFileNames\": false,\n    \"noFallthroughCasesInSwitch\": false,\n    \"moduleResolution\": \"node\",\n    \"esModuleInterop\": true,\n    \"resolveJsonModule\": true,\n    \"paths\": {\n      \"@vulnx/common\": [\"../../packages/common/src\"],\n      \"@vulnx/database\": [\"../../packages/database/src\"]\n    }\n  },\n  \"include\": [\"src/**/*\"],\n  \"exclude\": [\"node_modules\", \"dist\", \"test\"]\n}\n","StartLine":1,"TargetContent":"{\n  \"extends\": \"../../tsconfig.json\",\n  \"compilerOptions\": {\n    \"module\": \"commonjs\",\n    \"declaration\": true,\n    \"removeComments\": true,\n    \"emitDecoratorMetadata\": true,\n    \"experimentalDecorators\": true,\n    \"allowSyntheticDefaultImports\": true,\n    \"target\": \"ES2021\",\n    \"sourceMap\": true,\n    \"outDir\": \"./dist\",\n    \"baseUrl\": \"./\",\n    \"incremental\": true,\n    \"skipLibCheck\": true,\n    \"strictNullChecks\": false,\n    \"noImplicitAny\": false,\n    \"strictBindCallApply\": false,\n    \"forceConsistentCasingInFileNames\": false,\n    \"noFallthroughCasesInSwitch\": false,\n    \"paths\": {\n      \"@vulnx/common\": [\"../../packages/common/src\"],\n      \"@vulnx/database\": [\"../../packages/database/src\"]\n    }\n  },\n  \"include\": [\"src/**/*\"],\n  \"exclude\": [\"node_modules\", \"dist\", \"test\"]\n}","TargetFile":"f:\\AUDIRA-BUG-HUTTER\\services\\api\\tsconfig.json","toolAction":"Fixing configuration","toolSummary":"TypeScript config"}}}]},"finishReason":"STOP"}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090662035","usageMetadata":{"promptTokenCount":99416,"candidatesTokenCount":156,"totalTokenCount":99572}}}
+
+data: [DONE]
+
+data: [DONE]
+

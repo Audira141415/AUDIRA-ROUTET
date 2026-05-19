@@ -1,0 +1,29 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Sat, 16 May 2026 08:16:58 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=995",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "Analyzing"}]}}],"usageMetadata": {"promptTokenCount": 3746,"candidatesTokenCount": 1,"totalTokenCount": 3747},"modelVersion": "gemini-3.1-flash-lite","responseId": "-ScIarK9HOfcqfkPuJmPwAk"},"traceId": "86bf35acf66e6d1b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " Audira Project Structure\n\nThe user's objective is to conduct a technical analysis and evaluation of"}]}}],"usageMetadata": {"promptTokenCount": 3746,"candidatesTokenCount": 20,"totalTokenCount": 3766},"modelVersion": "gemini-3.1-flash-lite","responseId": "-ScIarK9HOfcqfkPuJmPwAk"},"traceId": "86bf35acf66e6d1b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " the current AUDIRA-WEB-PERFECT-WORLD project architecture.\n\nGoals:\n1. Identify core components and dependencies within the current"}]}}],"usageMetadata": {"promptTokenCount": 3746,"candidatesTokenCount": 49,"totalTokenCount": 3795},"modelVersion": "gemini-3.1-flash-lite","responseId": "-ScIarK9HOfcqfkPuJmPwAk"},"traceId": "86bf35acf66e6d1b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " monorepo structure (Turborepo).\n2. Validate the configuration and operational readiness of the web application.\n3. Assess"}]}}],"usageMetadata": {"promptTokenCount": 3746,"candidatesTokenCount": 76,"totalTokenCount": 3822},"modelVersion": "gemini-3.1-flash-lite","responseId": "-ScIarK9HOfcqfkPuJmPwAk"},"traceId": "86bf35acf66e6d1b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " the current directory structure for potential refactoring or optimization to align with the AUDIRA ecosystem standards.\n4. Ensure all"}]}}],"usageMetadata": {"promptTokenCount": 3746,"candidatesTokenCount": 101,"totalTokenCount": 3847},"modelVersion": "gemini-3.1-flash-lite","responseId": "-ScIarK9HOfcqfkPuJmPwAk"},"traceId": "86bf35acf66e6d1b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " environment configurations and build pipelines are correctly defined for further development."}]}}],"usageMetadata": {"promptTokenCount": 3746,"candidatesTokenCount": 113,"totalTokenCount": 3859},"modelVersion": "gemini-3.1-flash-lite","responseId": "-ScIarK9HOfcqfkPuJmPwAk"},"traceId": "86bf35acf66e6d1b","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EjQKMgEMOdbH6R5W3MqFSKSMhYBjpDl+IU2SnrgKkC99gBCcJz2k90E0YHeb0zI9ZoyMsm6o","text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 3746,"candidatesTokenCount": 113,"totalTokenCount": 3859},"modelVersion": "gemini-3.1-flash-lite","responseId": "-ScIarK9HOfcqfkPuJmPwAk"},"traceId": "86bf35acf66e6d1b","metadata": {}}
+

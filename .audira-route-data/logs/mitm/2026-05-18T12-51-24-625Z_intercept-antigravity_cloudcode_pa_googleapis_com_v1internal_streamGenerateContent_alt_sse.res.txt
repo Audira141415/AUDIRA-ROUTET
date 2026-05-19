@@ -1,0 +1,87 @@
+STATUS: 200
+HEADERS: {
+  "access-control-allow-origin": "*",
+  "cache-control": "no-cache",
+  "connection": "keep-alive",
+  "content-type": "text/event-stream",
+  "date": "Mon, 18 May 2026 12:51:33 GMT",
+  "transfer-encoding": "chunked",
+  "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+}
+---BODY---
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"<thinking"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108693418"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":">\nThe user wants me to continue"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108693418"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"."}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108693418"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" The NestJS project"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108693418"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" has"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108693418"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" been successfully"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108693418"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" created."}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108693418"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" Now"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108693418"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" I need to:\n\n1. Install"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108693418"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" additional dependencies (Prisma, JWT"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108693418"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":", bcrypt, passport"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108693418"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":", etc.)\n2. Setup"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108693418"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" Prisma with"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108693418"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" the"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108693418"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" database schema"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108693418"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n3. Create environment"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108693418"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" configuration"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108693418"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n4. Setup"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108693418"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" basic"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108693418"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" modules"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108693418"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" following"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108693418"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" U-BRAIN backend"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108693418"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" patterns\n\nLet me proceed"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108693418"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" with installing"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108693418"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" the"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108693418"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" necessary"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108693418"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" dependencies for"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108693418"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" the backend"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108693418"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":".\n</thinking>"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108693418"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n\nBa"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108693418"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"ik, N"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108693418"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"estJS ber"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108693418"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"hasil dibuat. L"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108693418"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"anjut install"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108693418"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" dependencies."}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108693418"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"functionCall":{"name":"run_command","args":{"CommandLine":"npm install @nestjs/passport @nestjs/jwt passport passport-jwt bcrypt @nestjs/config class-validator class-transformer","Cwd":"f:\\AUDIRA-WEB-GTA\\backend","SafeToAutoRun":false,"WaitMsBeforeAsync":30000,"toolAction":"Installing packages","toolSummary":"Auth dependencies"}}},{"functionCall":{"name":"run_command","args":{"CommandLine":"npm install -D prisma @types/passport-jwt @types/bcrypt","Cwd":"f:\\AUDIRA-WEB-GTA\\backend","SafeToAutoRun":false,"WaitMsBeforeAsync":30000,"toolAction":"Installing packages","toolSummary":"Dev dependencies"}}},{"functionCall":{"name":"run_command","args":{"CommandLine":"npm install @prisma/client","Cwd":"f:\\AUDIRA-WEB-GTA\\backend","SafeToAutoRun":false,"WaitMsBeforeAsync":20000,"toolAction":"Installing package","toolSummary":"Prisma client"}}}]},"finishReason":"STOP"}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779108693418","usageMetadata":{"promptTokenCount":184115,"candidatesTokenCount":115,"totalTokenCount":184230}}}
+
+data: [DONE]
+
+data: [DONE]
+

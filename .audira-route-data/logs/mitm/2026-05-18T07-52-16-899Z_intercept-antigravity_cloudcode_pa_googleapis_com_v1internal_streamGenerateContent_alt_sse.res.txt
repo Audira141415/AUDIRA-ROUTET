@@ -1,0 +1,145 @@
+STATUS: 200
+HEADERS: {
+  "access-control-allow-origin": "*",
+  "cache-control": "no-cache",
+  "connection": "keep-alive",
+  "content-type": "text/event-stream",
+  "date": "Mon, 18 May 2026 07:52:20 GMT",
+  "transfer-encoding": "chunked",
+  "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+}
+---BODY---
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"<thinking"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":">\nThe user continues"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" to say \"continue\" with thinking mode"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" enabled. Looking"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" at the threat"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" intel controller,"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" I can"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" see:"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n\n1. Line"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" 12"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":":"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" Calls"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" `this.threatIntelService."}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"getAll"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"()` - but"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" this method"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" doesn't exist in the service\n2"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":". Lines"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" 67"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"-70"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":": Accessing"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" properties"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" `"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"stats.total`,"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" `stats.cves`, `stats"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":".exploits`, `stats.advis"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"ories` - but"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" the"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" get"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"Stats"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"() method returns"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" different"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" property"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" names:"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" `totalC"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"VEs`, `crit"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"icalCVEs`, `high"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"C"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"VEs`, `total"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"Ex"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"ploits`, `totalAdvisories"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"`"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n\nI"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" need to:"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"\n1. Either"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" remove"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" the getAll() call"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" or check"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" if the"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" method"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" exists in"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" the service\n2. Fix the property"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" names to match what get"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"Stats() actually"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" returns\n\nLet me check"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" the threat"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" intel service to see what methods are"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" available.\n</thinking>\n\nLet"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" me check"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" the threat intel service to see what methods"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" exist"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" and"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":" fix the property access"}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"text":"."}]}}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148"}}
+
+data: {"response":{"candidates":[{"content":{"role":"model","parts":[{"functionCall":{"name":"grep_search","args":{"CaseInsensitive":false,"IsRegex":false,"MatchPerLine":true,"Query":"getAll()","SearchPath":"f:\\AUDIRA-BUG-HUTTER\\services\\api\\src\\threat-intel\\threat-intel.service.ts","toolAction":"Searching for","toolSummary":"getAll method"}}},{"functionCall":{"name":"replace_file_content","args":{"AllowMultiple":false,"Description":"Fixed property access to match the actual return type of getStats() method which returns totalCVEs, totalExploits, totalAdvisories instead of total, cves, exploits, advisories","EndLine":71,"Instruction":"Fix the stats property names to match what getStats() actually returns","ReplacementContent":"      return {\n        success: true,\n        message: 'Threat intelligence feeds updated successfully',\n        duration: `${(duration / 1000).toFixed(2)}s`,\n        stats: {\n          totalCVEs: stats.totalCVEs || 0,\n          criticalCVEs: stats.criticalCVEs || 0,\n          highCVEs: stats.highCVEs || 0,\n          totalExploits: stats.totalExploits || 0,\n          totalAdvisories: stats.totalAdvisories || 0,\n        },\n        timestamp: new Date().toISOString(),\n      };","StartLine":62,"TargetContent":"      return {\n        success: true,\n        message: 'Threat intelligence feeds updated successfully',\n        duration: `${(duration / 1000).toFixed(2)}s`,\n        stats: {\n          totalThreats: stats.total || 0,\n          cves: stats.cves || 0,\n          exploits: stats.exploits || 0,\n          advisories: stats.advisories || 0,\n        },\n        timestamp: new Date().toISOString(),\n      };","TargetFile":"f:\\AUDIRA-BUG-HUTTER\\services\\api\\src\\threat-intel\\threat-intel.controller.ts","toolAction":"Fixing properties","toolSummary":"Stats property names"}}}]},"finishReason":"STOP"}],"modelVersion":"claude-sonnet-4.5","responseId":"chatcmpl-1779090740148","usageMetadata":{"promptTokenCount":110328,"candidatesTokenCount":202,"totalTokenCount":110530}}}
+
+data: [DONE]
+
+data: [DONE]
+

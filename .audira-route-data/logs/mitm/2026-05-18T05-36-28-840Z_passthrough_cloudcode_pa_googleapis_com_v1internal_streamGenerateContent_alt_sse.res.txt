@@ -1,0 +1,23 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 05:36:32 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=3752",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "I will navigate to http://localhost:3612/ again to refresh the page and"}]}}],"usageMetadata": {"promptTokenCount": 23243,"candidatesTokenCount": 19,"totalTokenCount": 23527,"thoughtsTokenCount": 265},"modelVersion": "gemini-3-flash","responseId": "XqUKaq3jCbWE4-EP-KnN-AE"},"traceId": "6345a0f11b4066a9","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " ensure React event listeners are correctly hydrated."}]}}],"usageMetadata": {"promptTokenCount": 28346,"candidatesTokenCount": 27,"totalTokenCount": 28638,"cachedContentTokenCount": 20322,"thoughtsTokenCount": 265},"modelVersion": "gemini-3-flash","responseId": "XqUKaq3jCbWE4-EP-KnN-AE"},"traceId": "6345a0f11b4066a9","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "EvwJCvkJAQw51sf/cWKhRCqangE8ARfGySwttw3MUhuv69vS759ExkwGp36GmRKvA/VidivcgtIeyyOzUjzw4ZlEYhzOTjavHT2eyiAvhwpKpWlCqYlD3JPcWlICTT5rsMkmV+LHvh7UXEjszUZbjhGLdfCpaj+ENUSXi2uKes3wnFJ9aoe08py7xva8pqt+H9RVe2zl2PQzJjY/v006Lx/XUZ2rh7eocMBqJqhYoGWlvUIJy+5leiJBuPTyBZ+885bIdFRTNfhQFmzOKbDn6TzcoAdQCr/S5+rrhMuD1aYK+rOwiYJhOUi86KbdTEwncUPcegXhcX7FeEmFgkQLj8rq7du1mkOBfEDwQ5O+h4MzmOfrq00KTZjxbiq2fsFbcIvuZipPT/PVPuou6aEgSAVPMD7OVDHgKQWzvzbhDCjSBkuyUCSIO6qnki4wQtLXK5g+BAtDVj7Z6D0HYR+j53lAsaurjqzhZnqUi7ifeVsLkTtiE/LboiCj5C4lUMTGfmqMb14gJSObZLE1tUEmZPgVQNtXz4dkvNnBPO5jcRGpkHuxPeP8SlPTdEUJiL49RAya3uVUkm1R3LLmlciiGzp0OT5WMmWwDjzGMJyr9CbLJwxbzW62unkoqF5lj+UyRGO4TtelFrxQ6B4qZM5lWhLnjJ4YCnN6IcZlxhoeMXltczGSg5v4nDFwFk9Pq1XFLha9gh59cIcQ4CnO8llF4oln73gfSlc86Ljy87E71HkiWHRBfd197Cas8qx7tUPuSS+Cc+djaJDwfM/HWXxCUc86mvZ/T2lKAEQ0tKKbSX050jCrX9OBGQNb9f7n/CBp5EDwla37YJTWNkAjEBLYSPwLSKBxbREUPFhqZF6Iq59k4m3fxo/x9GIWx2AdgMzopSCyxq8qpD/KxJfJ+307yTlzHnhIjIY9TZHJfedJztlxG1XXBLbi56diUW6KKQdGAC882pFMVIDCgwS9d5VzfylWZuvN6MLzw3zp6pxbF7cWoQAg87opNr+dR5vkEwEHNU9y3KBrrZKcd+m1c8hFSHXyA/M+DOUdfZ462nCjr1PJ1XX6J16+XF2A2qR7h2va7MvyVb3qBl6liRByr8mB067vnlZlO9ICbmj1H8qCGCsZsVItyWIXDh4+j7SRX8A1q0CSPXm9z8p7EKPmTWAZorRVF7L6rYm7Mmd5T8fXR2A0wYUO7gWmJJ0amSkuSl/nxxLYlMvZDcVDEwHHhXl6jOFZ8VqMyqUmegom6s3wAEGhlYNG1CiT1rw7AJg4h5W/Qr6EVeCcMob0nkB/xBFef/vYoJtE5p34mWSRQwS9vd1UbxMIBw5Q0yGwjCRm3cCiLgln2j1vKM9n1K79ku/HScCsNb6BBFyKshWTADdpfDaqWDXPBKvEQlaJykbwPLgvEupsZOfoObpB39deLI/sJka5FSzSpF1qSTzHEvK7FHHhS/GQlVGGlm9neG8hXwGlLJUJrkpfHUMMvUMHmt0B0bN6piPXx6SN+E9O63jdYr7TWpIfpR7zBkhyP9dCL0oz3wWIS1OLn4sAWMwmbU9JA9gfM61zoVps0/mO91tScovPkJxzSrwyRAvpQamn0dR9rvezmxmmj/Ov75ijAnyCO9RqzRHxZIt+4mRJZFXBmL8ZLUAMReUz38F/RyPRSiJKpxti7roVFJdt01b1zKhmVSf1a+l57HyccVOu7d3BjA==","functionCall": {"name": "open_browser_url","args": {"PageIdToReplace": "5411DAB9590ACD157E5A0154F9BA575B","toolSummary": "Open browser URL","toolAction": "Navigating to localhost:3612","Url": "http://localhost:3612/","explanation": "Reload the homepage to clear any hydration mismatch issues"},"id": "b1isjxgf"}}]}}],"usageMetadata": {"promptTokenCount": 28346,"candidatesTokenCount": 128,"totalTokenCount": 28739,"cachedContentTokenCount": 20322,"thoughtsTokenCount": 265},"modelVersion": "gemini-3-flash","responseId": "XqUKaq3jCbWE4-EP-KnN-AE"},"traceId": "6345a0f11b4066a9","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 28346,"candidatesTokenCount": 128,"totalTokenCount": 28739,"cachedContentTokenCount": 20322,"thoughtsTokenCount": 265},"modelVersion": "gemini-3-flash","responseId": "XqUKaq3jCbWE4-EP-KnN-AE"},"traceId": "6345a0f11b4066a9","metadata": {}}
+

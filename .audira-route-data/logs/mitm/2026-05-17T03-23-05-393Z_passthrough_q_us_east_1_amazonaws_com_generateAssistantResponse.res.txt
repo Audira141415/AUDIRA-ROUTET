@@ -1,0 +1,16 @@
+STATUS: 402
+HEADERS: {
+  "date": "Sun, 17 May 2026 03:23:07 GMT",
+  "content-type": "application/json",
+  "content-length": "74",
+  "connection": "close",
+  "x-amzn-requestid": "f19e7976-6927-4def-97f4-fa850f974de7",
+  "x-xss-protection": "1; mode=block",
+  "strict-transport-security": "max-age=47304000; includeSubDomains",
+  "x-frame-options": "DENY",
+  "x-amzn-errortype": "ServiceQuotaExceededException:http://internal.amazon.com/coral/com.amazon.kiro.runtimeservice/",
+  "cache-control": "no-cache",
+  "x-content-type-options": "nosniff"
+}
+---BODY---
+{"message":"You have reached the limit.","reason":"MONTHLY_REQUEST_COUNT"}

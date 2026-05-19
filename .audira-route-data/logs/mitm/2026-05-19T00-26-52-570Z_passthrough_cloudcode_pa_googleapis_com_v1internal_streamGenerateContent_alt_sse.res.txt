@@ -1,0 +1,25 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Tue, 19 May 2026 00:26:53 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=1005",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "\": \"#"}]}}],"usageMetadata": {"promptTokenCount": 8413,"candidatesTokenCount": 2,"totalTokenCount": 8415},"modelVersion": "tab_flash_lite_preview","responseId": "Ta4LauvfCtvVjuMPmbbJoQc"},"traceId": "2b11c45564bc00bb","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": " AUDIRA-WEB-SEAL-ONLINE - Session Memory\\n\\"}]}}],"usageMetadata": {"promptTokenCount": 8413,"candidatesTokenCount": 18,"totalTokenCount": 8431},"modelVersion": "tab_flash_lite_preview","responseId": "Ta4LauvfCtvVjuMPmbbJoQc"},"traceId": "2b11c45564bc00bb","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "n\u003e **Purpose**: This file maintains context across sessions to ensure continuity in development work.\\n\u003e **Last Updated**: 2026-05-19T07:26:33+07:"}]}}],"usageMetadata": {"promptTokenCount": 8413,"candidatesTokenCount": 66,"totalTokenCount": 8479},"modelVersion": "tab_flash_lite_preview","responseId": "Ta4LauvfCtvVjuMPmbbJoQc"},"traceId": "2b11c45564bc00bb","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": "00\\n\\n---\"\n\t\t}\n\t]\n}\n\u003c/replace_file_content\u003e"}]}}],"usageMetadata": {"promptTokenCount": 8413,"candidatesTokenCount": 90,"totalTokenCount": 8503},"modelVersion": "tab_flash_lite_preview","responseId": "Ta4LauvfCtvVjuMPmbbJoQc"},"traceId": "2b11c45564bc00bb","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 8413,"candidatesTokenCount": 90,"totalTokenCount": 8503},"modelVersion": "tab_flash_lite_preview","responseId": "Ta4LauvfCtvVjuMPmbbJoQc"},"traceId": "2b11c45564bc00bb","metadata": {}}
+

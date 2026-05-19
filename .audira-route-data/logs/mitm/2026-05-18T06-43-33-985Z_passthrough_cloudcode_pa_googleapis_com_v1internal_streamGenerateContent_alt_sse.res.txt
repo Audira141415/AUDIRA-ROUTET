@@ -1,0 +1,19 @@
+STATUS: 200
+HEADERS: {
+  "content-type": "text/event-stream",
+  "content-disposition": "attachment",
+  "vary": "Origin, X-Origin, Referer",
+  "transfer-encoding": "chunked",
+  "date": "Mon, 18 May 2026 06:43:36 GMT",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "server-timing": "gfet4t7; dur=2398",
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+}
+---BODY---
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"thoughtSignature": "ErkCCrYCAQw51scYmlG8f9zmLPUy3MQDJlIbBRYN5gdsYa1dwGVdLzV95jvSG14CVSNT3TJS6qyEI+vNSEWqNAXYTtTj67NRdMSKNLgFcDBctzpPzRmrCv1n7TQF+RgTrN72F0RBXCcEWhDph6qRPtqyu8pdP/0YmUHacySd24axPabuDfRs3Qa+1jtEfBRGDWU47KSXf47J6oLF5ISqOEzSDz+/pbetm9NZh+6kWRxETQYi7QIShu5eHUz/VMp1LbvQ7S3hdW25iRG41HyFTsxRFAZXxDhGl0JKjvzW/+l9JAghTWhbwUuAvApwNMndJHD4YyYGuUjLgZEFNM+AvBlWr8dLTNlirQ71Rvkib683/Xuf1yuAqfQm2/gdYyMLEb9RdE9HxLlpcUCdk5I4S1S5ZdNjl6CWntUg9g==","functionCall": {"name": "capture_browser_console_logs","args": {"PageId": "0235B1200EE0E500D9D904D98CF43E01","explanation": "Get browser console logs to check for any errors.","toolSummary": "Capture console logs","toolAction": "Capturing console logs"},"id": "3t6ht5kl"}}]}}],"usageMetadata": {"promptTokenCount": 18998,"candidatesTokenCount": 84,"totalTokenCount": 19132,"thoughtsTokenCount": 50},"modelVersion": "gemini-3-flash","responseId": "FrUKavi8H4GvjuMPp4rJqAQ"},"traceId": "1de110ac41450654","metadata": {}}
+
+data: {"response": {"candidates": [{"content": {"role": "model","parts": [{"text": ""}]},"finishReason": "STOP"}],"usageMetadata": {"promptTokenCount": 22195,"candidatesTokenCount": 84,"totalTokenCount": 22329,"cachedContentTokenCount": 16231,"thoughtsTokenCount": 50},"modelVersion": "gemini-3-flash","responseId": "FrUKavi8H4GvjuMPp4rJqAQ"},"traceId": "1de110ac41450654","metadata": {}}
+
