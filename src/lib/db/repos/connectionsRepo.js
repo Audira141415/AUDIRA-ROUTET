@@ -7,7 +7,7 @@ const OPTIONAL_FIELDS = [
   "accessToken", "refreshToken", "expiresAt", "tokenType",
   "scope", "projectId", "apiKey", "testStatus",
   "lastTested", "lastError", "lastErrorAt", "rateLimitedUntil", "expiresIn", "errorCode",
-  "consecutiveUseCount",
+  "consecutiveUseCount", "idToken", "lastRefreshAt",
 ];
 
 function rowToConn(row) {
@@ -98,10 +98,31 @@ export async function createProviderConnection(data) {
 
     let existing = null;
     if (data.authType === "oauth" && data.email) {
-      existing = all.find(c => c.authType === "oauth" && c.email === data.email);
+      const incomingUsername = data.providerSpecificData?.username;
+      const incomingWs = data.providerSpecificData?.chatgptAccountId;
+      existing = all.find(c => {
+        if (c.authType !== "oauth" || c.email !== data.email) return false;
+        // Workspace providers (Codex) use workspace ID when both sides have it
+        const existingWs = c.providerSpecificData?.chatgptAccountId;
+        if (incomingWs && existingWs) return incomingWs === existingWs;
+        if (incomingWs && !existingWs) return false;
+        if (!incomingWs && existingWs) return false;
+        // Non-workspace providers: match on (email + username) so cross-IdP
+        // accounts don't overwrite each other. Require username on both sides
+        // — if only one side has it, treat as a distinct identity rather than
+        // collapsing onto the bare-email fallback (which would re-introduce
+        // the cross-IdP overwrite).
+        const existingUsername = c.providerSpecificData?.username;
+        if (incomingUsername && existingUsername) {
+          return incomingUsername === existingUsername;
+        }
+        if (incomingUsername || existingUsername) return false;
+        return true;
+      });
     } else if (data.authType === "apikey" && data.name) {
       existing = all.find(c => c.authType === "apikey" && c.name === data.name);
     }
+    // access_token: never dedup — user manages duplicates manually
 
     if (existing) {
       const merged = { ...existing, ...data, updatedAt: now };
@@ -111,7 +132,7 @@ export async function createProviderConnection(data) {
     }
 
     let connectionName = data.name || null;
-    if (!connectionName && data.authType === "oauth") {
+    if (!connectionName && (data.authType === "oauth" || data.authType === "access_token")) {
       connectionName = data.email || `Account ${all.length + 1}`;
     }
     let connectionPriority = data.priority;
