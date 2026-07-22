@@ -117,6 +117,18 @@ export async function getProviderCredentials(provider, excludeConnectionIds = nu
         log.info("AUTH", `${provider} | pinned to ${connection.id?.slice(0, 8)} (${connection.name || connection.email || "unnamed"})`);
       }
     }
+
+    // Sticky working connection: if there is a recently successful connection that is still available, stick to it.
+    if (!connection) {
+      const workingConnections = availableConnections
+        .filter(c => c.lastSuccessAt)
+        .sort((a, b) => new Date(b.lastSuccessAt) - new Date(a.lastSuccessAt));
+      if (workingConnections.length > 0) {
+        connection = workingConnections[0];
+        log.debug("AUTH", `${provider} | sticking to working connection: ${connection.id?.slice(0, 8)} (${connection.name || connection.email || "unnamed"}), lastSuccessAt: ${connection.lastSuccessAt}`);
+      }
+    }
+
     if (connection) {
       // skip strategy
     } else if (strategy === "round-robin") {
@@ -262,8 +274,6 @@ export async function clearAccountError(connectionId, currentConnection, model =
   const now = Date.now();
   const allLockKeys = Object.keys(conn).filter(k => k.startsWith("modelLock_"));
 
-  if (!conn.testStatus && !conn.lastError && allLockKeys.length === 0) return;
-
   // Keys to clear: current model's lock + all expired locks
   const keysToClear = allLockKeys.filter(k => {
     if (model && k === `modelLock_${model}`) return true; // succeeded model
@@ -272,8 +282,6 @@ export async function clearAccountError(connectionId, currentConnection, model =
     return expiry && new Date(expiry).getTime() <= now;   // expired
   });
 
-  if (keysToClear.length === 0 && conn.testStatus !== "unavailable" && !conn.lastError) return;
-
   // Check if any active locks remain after clearing
   const remainingActiveLocks = allLockKeys.filter(k => {
     if (keysToClear.includes(k)) return false;
@@ -281,14 +289,15 @@ export async function clearAccountError(connectionId, currentConnection, model =
     return expiry && new Date(expiry).getTime() > now;
   });
 
-  const clearObj = Object.fromEntries(keysToClear.map(k => [k, null]));
+  const updateObj = Object.fromEntries(keysToClear.map(k => [k, null]));
+  updateObj.lastSuccessAt = new Date().toISOString();
 
   // Only reset error state if no active locks remain
   if (remainingActiveLocks.length === 0) {
-    Object.assign(clearObj, { testStatus: "active", lastError: null, lastErrorAt: null, backoffLevel: 0 });
+    Object.assign(updateObj, { testStatus: "active", lastError: null, lastErrorAt: null, backoffLevel: 0 });
   }
 
-  await updateProviderConnection(connectionId, clearObj);
+  await updateProviderConnection(connectionId, updateObj);
 }
 
 /**

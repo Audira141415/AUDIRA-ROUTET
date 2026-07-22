@@ -65,7 +65,15 @@ try {
   const rootKey = fs.readFileSync(path.join(MITM_DIR, "rootCA.key"));
   const rootCert = fs.readFileSync(path.join(MITM_DIR, "rootCA.crt"));
   rootCAPem = rootCert.toString("utf8");
-  sslOptions = { key: rootKey, cert: rootCert, SNICallback: sniCallback };
+  
+  // Use a leaf cert for localhost as the default TLS cert to avoid KEY_USAGE_BIT_INCORRECT
+  // when health check requests connect directly via IP (127.0.0.1) without SNI.
+  const defaultCertData = getCertForDomain("localhost");
+  sslOptions = {
+    key: defaultCertData ? defaultCertData.key : rootKey,
+    cert: defaultCertData ? `${defaultCertData.cert}\n${rootCAPem}` : rootCert,
+    SNICallback: sniCallback
+  };
 } catch (e) {
   err(`Root CA not found: ${e.message}`);
   process.exit(1);

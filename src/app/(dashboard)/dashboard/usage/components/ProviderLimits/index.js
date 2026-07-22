@@ -216,15 +216,15 @@ export default function ProviderLimits() {
   );
 
   // Fetch quota for a specific connection
-  const fetchQuota = useCallback(async (connectionId, provider) => {
+  const fetchQuota = useCallback(async (connectionId, provider, bypassCache = false) => {
     setLoading((prev) => ({ ...prev, [connectionId]: true }));
     setErrors((prev) => ({ ...prev, [connectionId]: null }));
 
     try {
       console.log(
-        `[ProviderLimits] Fetching quota for ${provider} (${connectionId})`,
+        `[ProviderLimits] Fetching quota for ${provider} (${connectionId})${bypassCache ? " (bypassCache)" : ""}`,
       );
-      const response = await fetch(`/api/usage/${connectionId}`);
+      const response = await fetch(`/api/usage/${connectionId}${bypassCache ? "?bypassCache=true" : ""}`);
 
       if (!response.ok) {
         const errorData = await response.json().catch(() => ({}));
@@ -295,7 +295,7 @@ export default function ProviderLimits() {
   // Refresh quota for a specific provider
   const refreshProvider = useCallback(
     async (connectionId, provider) => {
-      await fetchQuota(connectionId, provider);
+      await fetchQuota(connectionId, provider, true);
       setLastUpdated(new Date());
     },
     [fetchQuota],
@@ -316,7 +316,7 @@ export default function ProviderLimits() {
           throw new Error(result.message || result.error || result.code || "Failed to reset Codex limit");
         }
 
-        await fetchQuota(connectionId, provider);
+        await fetchQuota(connectionId, provider, true);
         setLastUpdated(new Date());
       } catch (error) {
         setErrors((prev) => ({ ...prev, [connectionId]: error.message || "Failed to reset Codex limit" }));
@@ -437,7 +437,7 @@ export default function ProviderLimits() {
           setShowEditModal(false);
           setSelectedConnection(null);
           if (USAGE_SUPPORTED_PROVIDERS.includes(provider)) {
-            await fetchQuota(connectionId, provider);
+            await fetchQuota(connectionId, provider, true);
           }
         }
       } catch (error) {
@@ -488,7 +488,7 @@ export default function ProviderLimits() {
       await Promise.all(
         visibleConnections
           .filter(shouldFetch)
-          .map((conn) => fetchQuota(conn.id, conn.provider)),
+          .map((conn) => fetchQuota(conn.id, conn.provider, force)),
       );
 
       setLastUpdated(new Date());

@@ -30,7 +30,7 @@ function isInternalUrl(url) {
     const parsed = new URL(url);
     return (
       parsed.protocol === INTERNAL_PROTOCOL &&
-      parsed.hostname === INTERNAL_HOST &&
+      (parsed.hostname === INTERNAL_HOST || parsed.hostname === '127.0.0.1') &&
       parsed.port === INTERNAL_PORT
     );
   } catch {

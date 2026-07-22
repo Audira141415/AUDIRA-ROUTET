@@ -359,7 +359,8 @@ function pollMitmHealth(timeoutMs, port = MITM_PORT) {
           });
         }
       );
-      req.on("error", () => {
+      req.on("error", (e) => {
+        try { log(`[MITM health check error]: ${e.message} (code: ${e.code})`); } catch {}
         if (Date.now() < deadline) setTimeout(check, 500);
         else resolve(null);
       });

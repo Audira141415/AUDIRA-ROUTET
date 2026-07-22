@@ -63,13 +63,19 @@ function buildNextApp() {
   log(`Root directory: ${ROOT_DIR}`);
   log('Running: npm run build');
 
+  const buildEnv = {
+    ...process.env,
+    NODE_ENV: 'production',
+    USERPROFILE: ROOT_DIR,
+    HOMEPATH: '\\',
+    HOMEDRIVE: 'F:',
+    APPDATA: path.join(ROOT_DIR, '9router-temp'),
+  };
+
   execSync('npm run build', {
     cwd: ROOT_DIR,
     stdio: 'inherit',
-    env: {
-      ...process.env,
-      NODE_ENV: 'production',
-    },
+    env: buildEnv,
   });
 
   // Verify standalone output was produced
@@ -103,7 +109,7 @@ function buildNextApp() {
  * Step 2: Clean dev-only files from standalone output to reduce package size
  */
 function cleanDevFiles() {
-  logStep(2, 'Cleaning dev-only files from build output');
+  logStep(2, 'Cleaning dev-only files and copying assets to build output');
 
   const standaloneDir = path.join(ROOT_DIR, '.next', 'standalone');
 
@@ -113,6 +119,47 @@ function cleanDevFiles() {
       log(`Removing: ${devPath}`);
       fs.rmSync(fullPath, { recursive: true, force: true });
     }
+  }
+
+  // Copy sql-wasm.wasm to standalone output so sql.js fallback works
+  const wasmSrc = path.join(ROOT_DIR, 'node_modules', 'sql.js', 'dist', 'sql-wasm.wasm');
+  const wasmDestDir = path.join(standaloneDir, 'node_modules', 'sql.js', 'dist');
+  const wasmDest = path.join(wasmDestDir, 'sql-wasm.wasm');
+
+  if (fs.existsSync(wasmSrc)) {
+    log('Copying sql-wasm.wasm to standalone node_modules...');
+    fs.mkdirSync(wasmDestDir, { recursive: true });
+    fs.copyFileSync(wasmSrc, wasmDest);
+    log('sql-wasm.wasm copied successfully.');
+  } else {
+    log('Warning: sql-wasm.wasm source not found in root node_modules.');
+  }
+
+  // Copy entire src/mitm directory to standalone output
+  // Next.js standalone tracer only copies server.js because it is resolved dynamically as an asset,
+  // but it does not trace or copy server.js's require dependencies (like logger.js, cert/*, handlers/*).
+  const mitmSrc = path.join(ROOT_DIR, 'src', 'mitm');
+  const mitmDest = path.join(standaloneDir, 'src', 'mitm');
+  if (fs.existsSync(mitmSrc)) {
+    log('Copying src/mitm directory to standalone output...');
+    fs.mkdirSync(mitmDest, { recursive: true });
+    fs.cpSync(mitmSrc, mitmDest, { recursive: true, force: true });
+    log('src/mitm directory copied successfully.');
+  } else {
+    log('Warning: src/mitm directory not found.');
+  }
+
+  // Copy mitmToolHosts.js to standalone output so dnsConfig.js can require it
+  const hostsSrc = path.join(ROOT_DIR, 'src', 'shared', 'constants', 'mitmToolHosts.js');
+  const hostsDestDir = path.join(standaloneDir, 'src', 'shared', 'constants');
+  const hostsDest = path.join(hostsDestDir, 'mitmToolHosts.js');
+  if (fs.existsSync(hostsSrc)) {
+    log('Copying mitmToolHosts.js to standalone output...');
+    fs.mkdirSync(hostsDestDir, { recursive: true });
+    fs.copyFileSync(hostsSrc, hostsDest);
+    log('mitmToolHosts.js copied successfully.');
+  } else {
+    log('Warning: mitmToolHosts.js not found.');
   }
 
   log('Dev-only files cleaned.');

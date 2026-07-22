@@ -12,7 +12,7 @@ const { getDataDir } = require('./paths');
 const REQUIRED_SUBDIRS = ['db', 'logs', 'mitm'];
 
 /**
- * Ensures the `.9router-data/` directory and its required subdirectories exist.
+ * Ensures the Audira Route data directory and its required subdirectories exist.
  *
  * Called before spawning the server process to guarantee the data directory
  * structure is in place. If the directory already exists, this is a no-op

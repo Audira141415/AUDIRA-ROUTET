@@ -1,6 +1,6 @@
 'use strict';
 
-const { dialog, Notification } = require('electron');
+const { dialog, Notification, app } = require('electron');
 const { autoUpdater } = require('electron-updater');
 
 /**
@@ -77,6 +77,9 @@ function configure() {
  * Should be called once on app ready. Network errors are silently caught.
  */
 function checkForUpdates() {
+  if (!app.isPackaged) {
+    return;
+  }
   autoUpdater.checkForUpdates().catch((err) => {
     // Silently swallow network errors — retry on next launch
     console.error('[AutoUpdater] Failed to check for updates:', err.message);

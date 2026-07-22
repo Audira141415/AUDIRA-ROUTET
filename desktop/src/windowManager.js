@@ -14,6 +14,15 @@ const DEFAULT_HEIGHT = 800;
 const MIN_WIDTH = 900;
 const MIN_HEIGHT = 600;
 
+// Suppress Autofill protocol console errors globally (which are not supported in Electron)
+app.on('web-contents-created', (event, webContents) => {
+  webContents.on('console-message', (e, level, message) => {
+    if (message.includes('Autofill.enable') || message.includes('Autofill.setAddresses')) {
+      e.preventDefault();
+    }
+  });
+});
+
 /** @type {BrowserWindow | null} */
 let mainWindow = null;
 

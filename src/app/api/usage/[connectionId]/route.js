@@ -116,6 +116,10 @@ export async function refreshAndUpdateCredentials(connection, force = false, pro
   };
 }
 
+// Module-level cache for usage data
+const usageCache = new Map();
+const CACHE_TTL_MS = 2 * 60 * 1000; // 2 minutes Cache TTL
+
 /**
  * GET /api/usage/[connectionId] - Get usage data for a specific connection
  */
@@ -124,6 +128,16 @@ export async function GET(request, { params }) {
   try {
     const { connectionId } = await params;
 
+    // Check query params for bypassCache/force
+    const urlObj = new URL(request.url);
+    const bypassCache = urlObj.searchParams.get("bypassCache") === "true" || urlObj.searchParams.get("force") === "true";
+
+    if (!bypassCache) {
+      const cached = usageCache.get(connectionId);
+      if (cached && Date.now() - cached.timestamp < CACHE_TTL_MS) {
+        return Response.json(cached.data);
+      }
+    }
 
     // Get connection from database
     connection = await getProviderConnectionById(connectionId);
@@ -180,6 +194,14 @@ export async function GET(request, { params }) {
       } catch (retryError) {
         console.warn(`[Usage] ${connection.provider}: force refresh failed: ${retryError.message}`);
       }
+    }
+
+    // Cache successful usage responses
+    if (usage && !usage.error && !isAuthExpiredMessage(usage)) {
+      usageCache.set(connectionId, {
+        data: usage,
+        timestamp: Date.now()
+      });
     }
 
     return Response.json(usage);

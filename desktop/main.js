@@ -1,6 +1,10 @@
 'use strict';
 
 const { app, dialog } = require('electron');
+
+// Disable Autofill features to reduce overhead
+app.commandLine.appendSwitch('disable-features', 'Autofill');
+app.commandLine.appendSwitch('disable-autofill');
 const serverManager = require('./src/serverManager');
 const windowManager = require('./src/windowManager');
 const trayManager = require('./src/trayManager');
@@ -13,6 +17,11 @@ const { ensureDataDir } = require('./src/utils/dataDir');
  * @type {boolean}
  */
 const isDev = process.env.NODE_ENV === 'development';
+
+if (isDev || !app.isPackaged) {
+  const path = require('path');
+  app.setPath('userData', path.join(__dirname, 'temp-user-data'));
+}
 
 /**
  * Flag indicating the application is in the process of quitting.

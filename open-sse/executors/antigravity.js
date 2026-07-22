@@ -304,6 +304,43 @@ export class AntigravityExecutor extends BaseExecutor {
     }
   }
 
+  parseError(response, bodyText) {
+    if (!bodyText) return { status: response.status, message: `HTTP ${response.status}` };
+    try {
+      const json = JSON.parse(bodyText);
+      const message = json.error?.message || json.message || bodyText;
+      let resetsAtMs;
+
+      // Extract reset time from quota messages like "Resets in 114h27m16s" or "Resets in 17h55m"
+      if (response.status === 429 && typeof message === "string") {
+        const match = message.match(/Resets\s+in\s+((?:\d+h)?(?:\d+m)?(?:\d+s)?)/i);
+        if (match && match[1]) {
+          const durationStr = match[1];
+          let ms = 0;
+          const hMatch = durationStr.match(/(\d+)h/i);
+          const mMatch = durationStr.match(/(\d+)m/i);
+          const sMatch = durationStr.match(/(\d+)s/i);
+          
+          if (hMatch) ms += parseInt(hMatch[1]) * 3600 * 1000;
+          if (mMatch) ms += parseInt(mMatch[1]) * 60 * 1000;
+          if (sMatch) ms += parseInt(sMatch[1]) * 1000;
+          
+          if (ms > 0) {
+            resetsAtMs = Date.now() + ms;
+          }
+        }
+      }
+
+      return {
+        status: response.status,
+        message,
+        resetsAtMs
+      };
+    } catch {
+      return { status: response.status, message: bodyText };
+    }
+  }
+
   generateProjectId() {
     const adj = ["useful", "bright", "swift", "calm", "bold"][Math.floor(Math.random() * 5)];
     const noun = ["fuze", "wave", "spark", "flow", "core"][Math.floor(Math.random() * 5)];
