@@ -1315,7 +1315,7 @@ Huge thanks to these authors — without their work, Audira Route's token-saving
 
 ## 📄 License
 
-MIT License - see [LICENSE](LICENSE) for details.
+MIT License - Copyright (c) 2024-2026 Agus Dwi R (Audira) and contributors. See [LICENSE](LICENSE) for details.
 
 ---
 

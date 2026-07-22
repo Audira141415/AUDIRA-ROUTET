@@ -1279,7 +1279,7 @@ Authorization: Bearer your-api-key
 
 ## 📄 许可证
 
-MIT 许可证 — 详见 [LICENSE](LICENSE)。
+MIT 许可证 - Copyright (c) 2024-2026 Agus Dwi R (Audira) and contributors. 详见 [LICENSE](LICENSE)。
 
 ---
 
