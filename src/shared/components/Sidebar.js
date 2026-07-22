@@ -44,13 +44,16 @@ export default function Sidebar({ onClose }) {
   const [showRemoteModal, setShowRemoteModal] = useState(false);
   const [isDisconnected, setIsDisconnected] = useState(false);
   const [updateInfo, setUpdateInfo] = useState(null);
-  const [showUpdateModal, setShowUpdateModal] = useState(false);
   const [isUpdating, setIsUpdating] = useState(false);
   const [shutdownCountdown, setShutdownCountdown] = useState(0);
   const [enableTranslator, setEnableTranslator] = useState(false);
+  const [updateStatus, setUpdateStatus] = useState(null);
   const { copied, copy } = useCopyToClipboard(2000);
 
   const INSTALL_CMD = UPDATER_CONFIG.installCmdLatest;
+  const STATUS_URL = typeof window !== "undefined"
+    ? `${window.location.protocol}//${window.location.hostname}:${UPDATER_CONFIG.statusPort}/update/status`
+    : "";
 
   useEffect(() => {
     fetch("/api/settings")
@@ -74,11 +77,38 @@ export default function Sidebar({ onClose }) {
     return pathname.startsWith(href);
   };
 
-  // Open manual update panel (no countdown yet — user must click Copy to trigger shutdown)
-  const handleUpdate = () => {
-    setShowUpdateModal(false);
+  // Open automatic/manual update panels
+  const handleUpdate = async () => {
     setIsUpdating(true);
+    try {
+      await fetch("/api/version/update", { method: "POST" });
+      if (!updateInfo?.isElectron) {
+        setIsDisconnected(true);
+      }
+    } catch (e) {
+      if (!updateInfo?.isElectron) {
+        setIsDisconnected(true);
+      }
+    }
   };
+
+  // Poll updater status server while updating (Next server is dead, updater.js is alive)
+  useEffect(() => {
+    if (!isUpdating || !isDisconnected || updateInfo?.isElectron || !STATUS_URL) return;
+    let stopped = false;
+    const tick = async () => {
+      try {
+        const res = await fetch(STATUS_URL, { cache: "no-store" });
+        if (res.ok) {
+          const data = await res.json();
+          if (!stopped) setUpdateStatus(data);
+        }
+      } catch { /* updater not ready yet or finished */ }
+    };
+    tick();
+    const id = setInterval(tick, UPDATER_CONFIG.statusPollIntervalMs);
+    return () => { stopped = true; clearInterval(id); };
+  }, [isUpdating, isDisconnected, STATUS_URL, updateInfo]);
 
   // Triggered by Copy button inside ManualUpdatePanel: copy + countdown + shutdown
   const handleCopyAndShutdown = async () => {
@@ -100,10 +130,8 @@ export default function Sidebar({ onClose }) {
   const handleCancelUpdate = () => {
     setIsUpdating(false);
     setShutdownCountdown(0);
+    setUpdateStatus(null);
   };
-
-  // Note: legacy updater poll removed. New flow: copy install cmd + shutdown server,
-  // user runs the command manually in another terminal.
 
 
   return (
@@ -136,20 +164,25 @@ export default function Sidebar({ onClose }) {
               </span>
               <div className="flex items-center gap-2">
                 <button
-                  onClick={() => setShowUpdateModal(true)}
-                  className="px-2 py-1 rounded bg-green-600 hover:bg-green-700 dark:bg-amber-500 dark:hover:bg-amber-600 text-white text-[11px] font-semibold transition-colors cursor-pointer"
+                  onClick={handleUpdate}
+                  className={cn(
+                    "px-2 py-1 rounded bg-green-600 hover:bg-green-700 dark:bg-amber-500 dark:hover:bg-amber-600 text-white text-[11px] font-semibold transition-colors cursor-pointer",
+                    updateInfo.isElectron ? "w-full text-center" : ""
+                  )}
                 >
                   Update now
                 </button>
-                <button
-                  onClick={() => copy(INSTALL_CMD)}
-                  title="Copy install command"
-                  className="flex-1 text-left hover:opacity-80 transition-opacity cursor-pointer min-w-0"
-                >
-                  <code className="block text-[10px] text-green-600/80 dark:text-amber-400/70 font-mono truncate">
-                    {copied ? "✓ copied!" : INSTALL_CMD}
-                  </code>
-                </button>
+                {!updateInfo.isElectron && (
+                  <button
+                    onClick={() => copy(INSTALL_CMD)}
+                    title="Copy install command"
+                    className="flex-1 text-left hover:opacity-80 transition-opacity cursor-pointer min-w-0"
+                  >
+                    <code className="block text-[10px] text-green-600/80 dark:text-amber-400/70 font-mono truncate">
+                      {copied ? "✓ copied!" : INSTALL_CMD}
+                    </code>
+                  </button>
+                )}
               </div>
             </div>
           )}
@@ -333,31 +366,30 @@ export default function Sidebar({ onClose }) {
       {/* Remote Promo Modal */}
       <NineRemotePromoModal isOpen={showRemoteModal} onClose={() => setShowRemoteModal(false)} />
 
-      {/* Update Confirmation Modal */}
-      <ConfirmModal
-        isOpen={showUpdateModal}
-        onClose={() => setShowUpdateModal(false)}
-        onConfirm={handleUpdate}
-        title="Update 9Router"
-        message={`Show install command for v${updateInfo?.latestVersion || ""}? You can copy it and shutdown to install manually.`}
-        confirmText="Show Command"
-        cancelText="Cancel"
-        variant="primary"
-      />
+
 
       {/* Disconnected / Updating Overlay */}
       {(isDisconnected || isUpdating) && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm p-6">
           {isUpdating ? (
-            <ManualUpdatePanel
-              latestVersion={updateInfo?.latestVersion}
-              installCmd={INSTALL_CMD}
-              copied={copied}
-              onCopyAndShutdown={handleCopyAndShutdown}
-              onCancel={handleCancelUpdate}
-              countdown={shutdownCountdown}
-              isDisconnected={isDisconnected}
-            />
+            updateInfo?.isElectron ? (
+              <ElectronUpdatePanel
+                latestVersion={updateInfo?.latestVersion}
+                onClose={handleCancelUpdate}
+              />
+            ) : (
+              <UpdateProgress
+                status={updateStatus}
+                latestVersion={updateInfo?.latestVersion}
+                installCmd={INSTALL_CMD}
+                copied={copied}
+                onCopy={() => copy(INSTALL_CMD)}
+                onCancel={handleCancelUpdate}
+                onManual={() => {
+                  setUpdateStatus(null);
+                }}
+              />
+            )
           ) : (
             <div className="text-center p-8">
               <div className="flex items-center justify-center size-16 rounded-full bg-red-500/20 text-red-500 mx-auto mb-4">
@@ -380,6 +412,194 @@ Sidebar.propTypes = {
   onClose: PropTypes.func,
 };
 
+function ElectronUpdatePanel({ latestVersion, onClose }) {
+  return (
+    <div className="w-full max-w-lg rounded-xl bg-neutral-900/95 border border-white/10 p-6 text-white animate-fade-in">
+      <div className="flex items-center gap-3 mb-4">
+        <div className="flex items-center justify-center size-11 rounded-full bg-blue-500/20 text-blue-400">
+          <span className="material-symbols-outlined text-[24px] animate-pulse">downloading</span>
+        </div>
+        <div>
+          <h2 className="text-lg font-semibold">Downloading Desktop Update</h2>
+          <p className="text-xs text-white/60">
+            Downloading v{latestVersion} in the background...
+          </p>
+        </div>
+      </div>
+
+      <div className="p-4 bg-white/5 border border-white/10 rounded-lg mb-4 text-xs text-white/80 space-y-2">
+        <p>The desktop app is currently downloading the latest package.</p>
+        <p>Once finished, a system dialog will prompt you to restart and apply the update automatically.</p>
+      </div>
+
+      <Button variant="secondary" fullWidth onClick={onClose}>
+        Close Panel
+      </Button>
+    </div>
+  );
+}
+
+ElectronUpdatePanel.propTypes = {
+  latestVersion: PropTypes.string,
+  onClose: PropTypes.func.isRequired,
+};
+
+function UpdateProgress({ status, latestVersion, installCmd, copied, onCopy, onCancel, onManual }) {
+  const phase = status?.phase || "connecting";
+  const done = status?.done === true;
+  const success = status?.success === true;
+  const attempt = status?.attempt || 0;
+  const maxRetries = status?.maxRetries || 0;
+  const logTail = status?.logTail || [];
+  const errorMsg = status?.error;
+
+  const steps = [
+    { key: "stopped", label: "Stopped Audira server", state: "done" },
+    {
+      key: "launched",
+      label: "Launched background installer",
+      state: status ? "done" : "active",
+    },
+    {
+      key: "waiting",
+      label: "Waiting for app processes to exit",
+      state: phase === "waitingForExit" ? "active" :
+        (status && phase !== "starting" ? "done" : "pending"),
+    },
+    {
+      key: "installing",
+      label: attempt > 1 ? `Installing v${latestVersion || "latest"} (attempt ${attempt}/${maxRetries})` : `Installing v${latestVersion || "latest"}`,
+      state: done ? (success ? "done" : "error") : (phase === "installing" ? "active" : "pending"),
+    },
+    {
+      key: "finished",
+      label: done && success ? "Installed — ready to restart" : "Waiting to finish",
+      state: done && success ? "done" : (done && !success ? "error" : "pending"),
+    },
+  ];
+
+  return (
+    <div className="w-full max-w-lg rounded-xl bg-neutral-900/95 border border-white/10 p-6 text-white">
+      <div className="flex items-center gap-3 mb-4">
+        <div className={cn(
+          "flex items-center justify-center size-11 rounded-full",
+          done && success ? "bg-green-500/20 text-green-400" :
+          done && !success ? "bg-red-500/20 text-red-400" :
+          "bg-blue-500/20 text-blue-400"
+        )}>
+          <span className={cn(
+            "material-symbols-outlined text-[24px]",
+            !done && "animate-spin"
+          )}>
+            {done && success ? "check_circle" : done && !success ? "error" : "progress_activity"}
+          </span>
+        </div>
+        <div>
+          <h2 className="text-lg font-semibold">
+            {done && success ? "Update Completed" : done && !success ? "Update Failed" : "Updating Audira"}
+          </h2>
+          <p className="text-xs text-white/60">
+            {done && success
+              ? `Installed v${latestVersion || "latest"} successfully.`
+              : done && !success
+                ? (errorMsg || "Installation failed.")
+                : `Installing v${latestVersion || "latest"} from npm...`}
+          </p>
+        </div>
+      </div>
+
+      {/* Timeline */}
+      <ul className="space-y-2 mb-4">
+        {steps.map((s) => (
+          <li key={s.key} className="flex items-center gap-3 text-sm">
+            <span className={cn(
+              "material-symbols-outlined text-[18px] shrink-0",
+              s.state === "done" && "text-green-400",
+              s.state === "active" && "text-blue-400 animate-pulse",
+              s.state === "error" && "text-red-400",
+              s.state === "pending" && "text-white/30"
+            )}>
+              {s.state === "done" ? "check_circle" :
+                s.state === "error" ? "cancel" :
+                  s.state === "active" ? "radio_button_checked" : "radio_button_unchecked"}
+            </span>
+            <span className={cn(
+              s.state === "pending" ? "text-white/40" : "text-white/90"
+            )}>{s.label}</span>
+          </li>
+        ))}
+      </ul>
+
+      {/* Log tail */}
+      {logTail.length > 0 && (
+        <div className="rounded-md bg-black/50 border border-white/5 p-3 mb-4 max-h-40 overflow-auto">
+          <pre className="text-[11px] font-mono text-white/70 whitespace-pre-wrap break-all">
+            {logTail.join("\n")}
+          </pre>
+        </div>
+      )}
+
+      {/* Actions */}
+      {done && success ? (
+        <div className="space-y-2">
+          <p className="text-xs text-white/80">
+            Server is restarting. Please wait a few seconds and reload the page.
+          </p>
+          <Button variant="primary" fullWidth onClick={() => globalThis.location.reload()}>
+            Reload Page
+          </Button>
+        </div>
+      ) : done && !success ? (
+        <div className="space-y-3">
+          <div className="p-3 bg-red-500/10 border border-red-500/20 rounded-lg">
+            <p className="text-xs text-red-400 mb-1">
+              Automatic background installation failed (likely due to insufficient folder permissions or file locks on Windows).
+            </p>
+            <p className="text-xs text-white/80">
+              Please open your terminal as Administrator and run the command manually:
+            </p>
+          </div>
+          <button
+            onClick={onCopy}
+            className="w-full text-left px-3 py-2 rounded bg-white/5 hover:bg-white/10 transition-colors"
+          >
+            <code className="text-xs font-mono text-amber-400 break-all">
+              {copied ? "✓ copied!" : installCmd}
+            </code>
+          </button>
+          <div className="flex gap-2">
+            <Button variant="secondary" onClick={onCancel}>
+              Cancel
+            </Button>
+            <Button variant="primary" fullWidth onClick={onManual}>
+              Manual Update Panel
+            </Button>
+          </div>
+        </div>
+      ) : (
+        <div className="space-y-2">
+          <p className="text-xs text-white/50 text-center">
+            This may take 30-60 seconds. Please don&apos;t close this window.
+          </p>
+          <Button variant="secondary" fullWidth onClick={onCancel}>
+            Run in Background / Cancel
+          </Button>
+        </div>
+      )}
+    </div>
+  );
+}
+
+UpdateProgress.propTypes = {
+  status: PropTypes.object,
+  latestVersion: PropTypes.string,
+  installCmd: PropTypes.string.isRequired,
+  copied: PropTypes.bool,
+  onCopy: PropTypes.func.isRequired,
+  onCancel: PropTypes.func.isRequired,
+  onManual: PropTypes.func.isRequired,
+};
+
 function ManualUpdatePanel({ latestVersion, installCmd, copied, onCopyAndShutdown, onCancel, countdown, isDisconnected }) {
   const isCountingDown = countdown > 0;
   return (
@@ -389,7 +609,7 @@ function ManualUpdatePanel({ latestVersion, installCmd, copied, onCopyAndShutdow
           <span className="material-symbols-outlined text-[24px]">content_copy</span>
         </div>
         <div>
-          <h2 className="text-lg font-semibold">Update 9Router{latestVersion ? ` to v${latestVersion}` : ""}</h2>
+          <h2 className="text-lg font-semibold">Update Audira{latestVersion ? ` to v${latestVersion}` : ""}</h2>
           <p className="text-xs text-white/60">
             {isDisconnected
               ? "Server stopped. Paste the command into a terminal to install."

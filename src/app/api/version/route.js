@@ -40,6 +40,7 @@ export async function GET() {
   const latestVersion = await fetchLatestVersion();
   const currentVersion = pkg.version;
   const hasUpdate = latestVersion ? compareVersions(latestVersion, currentVersion) > 0 : false;
+  const isElectron = process.env.ELECTRON_MODE === "1";
 
-  return Response.json({ currentVersion, latestVersion, hasUpdate });
+  return Response.json({ currentVersion, latestVersion, hasUpdate, isElectron });
 }

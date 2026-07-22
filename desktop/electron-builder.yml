@@ -1,5 +1,6 @@
 appId: com.audira.route
 productName: Audira Route
+compression: maximum
 directories:
   output: dist
   buildResources: resources
@@ -37,5 +38,5 @@ nsis:
   allowToChangeInstallationDirectory: true
 publish:
   provider: github
-  owner: audira
-  repo: audira-route
+  owner: Audira141415
+  repo: AUDIRA-ROUTET

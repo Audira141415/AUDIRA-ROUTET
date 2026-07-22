@@ -52,7 +52,7 @@ function pollForReady() {
         return;
       }
 
-      const req = http.get(`http://localhost:${SERVER_PORT}/api/settings`, (res) => {
+      const req = http.get(`http://127.0.0.1:${SERVER_PORT}/api/health`, (res) => {
         if (res.statusCode === 200) {
           // Consume response data to free up memory
           res.resume();
@@ -79,6 +79,22 @@ function pollForReady() {
   });
 }
 
+function checkIfAlreadyRunning() {
+  return new Promise((resolve) => {
+    const req = http.get(`http://127.0.0.1:${SERVER_PORT}/api/health`, (res) => {
+      res.resume();
+      resolve(res.statusCode === 200);
+    });
+    req.on('error', () => {
+      resolve(false);
+    });
+    req.setTimeout(1000, () => {
+      req.destroy();
+      resolve(false);
+    });
+  });
+}
+
 /**
  * Spawns the Next.js standalone server as a child process.
  * Sets DATA_DIR, PORT, and NODE_ENV environment variables.
@@ -92,6 +108,17 @@ async function start() {
   }
 
   stopping = false;
+
+  // Check if server is already running and healthy on the port
+  const alreadyRunning = await checkIfAlreadyRunning();
+  if (alreadyRunning) {
+    console.log(`[Server] Found healthy instance already running on port ${SERVER_PORT}. Reusing.`);
+    running = true;
+    if (readyCallback) {
+      readyCallback();
+    }
+    return;
+  }
   const serverPath = getServerPath();
   const dataDir = getDataDir();
 
@@ -100,12 +127,43 @@ async function start() {
     DATA_DIR: dataDir,
     PORT: String(SERVER_PORT),
     NODE_ENV: 'production',
+    ELECTRON_MODE: '1',
   };
 
   serverProcess = fork(serverPath, [], {
     env,
     stdio: 'pipe',
     silent: true,
+  });
+
+  serverProcess.on('message', (msg) => {
+    if (msg && msg.type === 'ELECTRON_TRIGGER_UPDATE') {
+      console.log('[Server Manager] Received ELECTRON_TRIGGER_UPDATE message from Next.js server');
+      try {
+        const autoUpdater = require('./autoUpdater');
+        autoUpdater.checkForUpdates();
+        autoUpdater.downloadUpdate();
+      } catch (err) {
+        console.error('[Server Manager] Failed to trigger electron autoUpdater:', err.message);
+      }
+    }
+  });
+
+
+  const fs = require('fs');
+  const path = require('path');
+  const logStream = fs.createWriteStream(path.join(dataDir, 'logs', 'server.log'), { flags: 'a' });
+
+  serverProcess.stdout.on('data', (data) => {
+    const msg = data.toString();
+    console.log(`[Server STDOUT] ${msg.trim()}`);
+    logStream.write(`[${new Date().toISOString()}] STDOUT: ${msg}`);
+  });
+
+  serverProcess.stderr.on('data', (data) => {
+    const msg = data.toString();
+    console.error(`[Server STDERR] ${msg.trim()}`);
+    logStream.write(`[${new Date().toISOString()}] STDERR: ${msg}`);
   });
 
   // Handle child process exit for crash detection
