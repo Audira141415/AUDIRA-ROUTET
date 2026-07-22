@@ -8,11 +8,7 @@
   
   **将所有 AI 编程工具（Claude Code、Cursor、Antigravity、Copilot、Codex、Gemini、OpenCode、Cline、OpenClaw...）连接到 40+ AI 提供商和 100+ 模型。**
   
-  [![npm](https://img.shields.io/npm/v/audira-route.svg)](https://www.npmjs.com/package/9router)
-  [![Downloads](https://img.shields.io/npm/dm/audira-route.svg)](https://www.npmjs.com/package/9router)
-  [![License](https://img.shields.io/npm/l/audira-route.svg)](https://github.com/Audira141415/AUDIRA-ROUTET/blob/main/LICENSE)
 
-  <a href="https://trendshift.io/repositories/22628" target="_blank"><img src="https://trendshift.io/api/badge/repositories/22628" alt="decolua%2Faudira | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
   
   [🚀 快速开始](#-快速开始) • [💡 功能特点](#-主要功能) • [📖 设置指南](#-设置指南) • [🌐 网站](https://github.com/Audira141415/AUDIRA-ROUTET)
 
@@ -1297,8 +1293,6 @@ Authorization: Bearer your-api-key
 站在巨人的肩膀上构建：
 
 - **CLIProxyAPI** — 启发了这个 JavaScript 移植的原始 Go 实现。
-- **[RTK](https://github.com/rtk-ai/rtk)** ![Stars](https://img.shields.io/github/stars/rtk-ai/rtk?style=flat&color=yellow) — Rust token 节省器。Audira Route 将其压缩管道移植到 JS → 每次请求 **减少 20-40% 输入 tokens**。
-- **[Caveman](https://github.com/JuliusBrussee/caveman)** ![Stars](https://img.shields.io/github/stars/JuliusBrussee/caveman?style=flat&color=yellow) by **[@JuliusBrussee](https://github.com/JuliusBrussee)** — 病毒式传播的 *"为什么用很多 token 当少的 token 就能搞定"*。Audira Route 适配其提示词 → **减少 65% 输出 tokens**。
 
 非常感谢这些作者 — 没有他们的工作，Audira Route 的 token 节省功能就不会存在。在 GitHub 上给他们加星！
 
