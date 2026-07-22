@@ -2,9 +2,6 @@
 
 # dependencies
 /node_modules
-desktop/node_modules
-desktop/out
-desktop/dist
 /.pnp
 .pnp.*
 .yarn/*
@@ -80,3 +77,12 @@ gitbook/README.md
 open-sse.old/
 .graphifyignore
 graphify-out/*
+
+# Local-only working dirs (notes, vendored repos, scripts, skills)
+.claude/
+.docs/
+.repo/
+.script/
+.codegraph/
+.PR/
+.next-analyze/*

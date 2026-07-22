@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useEffect, useState, useRef } from "react";
 import { createPortal } from "react-dom";
@@ -106,6 +106,8 @@ function DonateChannelCard({ channel }) {
           src={qr}
           alt={`${label} QR`}
           className="w-full max-w-[180px] aspect-square object-contain rounded-lg bg-white p-1"
+        loading="lazy"
+        decoding="async"
         />
       )}
     </>

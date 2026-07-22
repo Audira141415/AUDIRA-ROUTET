@@ -1,4 +1,4 @@
-﻿﻿// Compress build tool output (npm, cargo, pip, maven, gradle, etc.)
+// Compress build tool output (npm, cargo, pip, maven, gradle, etc.)
 // Keeps: errors, warnings, final summary
 // Strips: progress logs, verbose "Compiling X" lists, download logs
 
