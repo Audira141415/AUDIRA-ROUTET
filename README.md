@@ -1303,25 +1303,6 @@ Authorization: Bearer your-api-key
 - **Issues**: [github.com/Audira141415/AUDIRA-ROUTET/issues](https://github.com/Audira141415/AUDIRA-ROUTET/issues)
 
 ---
-
-## 👥 Contributors
-
-Thanks to all contributors who helped make Audira Route better!
-
-[![Contributors](https://contrib.rocks/image?repo=Audira141415/AUDIRA-ROUTET&max=150&columns=15&anon=1&v=20260309)](https://github.com/Audira141415/AUDIRA-ROUTET/graphs/contributors)
-
----
-
-## 📊 Star Chart
-
-[![Star Chart](https://starchart.cc/Audira141415/AUDIRA-ROUTET.svg?variant=adaptive)](https://starchart.cc/Audira141415/AUDIRA-ROUTET)
-
-## 🔀 Forks
-
-**[OmniRoute](https://github.com/diegosouzapw/OmniRoute)** — A full-featured TypeScript fork of Audira Route. Adds 36+ providers, 4-tier auto-fallback, multi-modal APIs (images, embeddings, audio, TTS), circuit breaker, semantic cache, LLM evaluations, and a polished dashboard. 368+ unit tests. Available via npm and Docker.
-
----
-
 ## 🙏 Acknowledgments
 
 Built on the shoulders of giants:

@@ -1267,27 +1267,6 @@ Authorization: Bearer your-api-key
 - **问题**：[github.com/Audira141415/AUDIRA-ROUTET/issues](https://github.com/Audira141415/AUDIRA-ROUTET/issues)
 
 ---
-
-## 👥 贡献者
-
-感谢所有帮助改进 Audira Route 的贡献者！
-
-[![Contributors](https://contrib.rocks/image?repo=Audira141415/AUDIRA-ROUTET&max=150&columns=15&anon=1&v=20260309)](https://github.com/Audira141415/AUDIRA-ROUTET/graphs/contributors)
-
----
-
-## 📊 Star 图表
-
-[![Star Chart](https://starchart.cc/Audira141415/AUDIRA-ROUTET.svg?variant=adaptive)](https://starchart.cc/Audira141415/AUDIRA-ROUTET)
-
-
-
-## 🔀 分支
-
-**[OmniRoute](https://github.com/diegosouzapw/OmniRoute)** — Audira Route 的全功能 TypeScript 分支。增加了 36+ 提供商、4 层自动切换、多模态 API（图像、嵌入、音频、TTS）、断路器、语义缓存、LLM 评估和精美的控制面板。368+ 单元测试。可通过 npm 和 Docker 使用。
-
----
-
 ## 🙏 致谢
 
 站在巨人的肩膀上构建：
